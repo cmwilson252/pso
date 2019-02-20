@@ -354,7 +354,7 @@ body {
 }
 
 a {
-  color: #5f9ea0;
+  color: #5d8aa8;
   text-decoration: none;
 }
 
@@ -392,8 +392,8 @@ strong {
 
 abbr[title] {
   cursor: help;
-  -webkit-text-decoration-color: #5f9ea0;
-  text-decoration-color: #5f9ea0;
+  -webkit-text-decoration-color: #5d8aa8;
+  text-decoration-color: #5d8aa8;
 }
 
 h1, h2, h3 {
@@ -456,7 +456,7 @@ h4, h5, h6 {
 }
 
 .mui-appbar {
-  background-color: #5f9ea0;
+  background-color: #5d8aa8;
   color: #FFF;
 }
 
@@ -638,31 +638,31 @@ h4, h5, h6 {
 
 .mui-btn--primary {
   color: #FFF;
-  background-color: #5f9ea0;
+  background-color: #5d8aa8;
 }
 
 .mui-btn--primary:hover, .mui-btn--primary:focus, .mui-btn--primary:active {
   color: #FFF;
-  background-color: #77a9a0;
+  background-color: #8faec3;
 }
 
 .mui-btn--primary[disabled]:hover, .mui-btn--primary[disabled]:focus, .mui-btn--primary[disabled]:active {
   color: #FFF;
-  background-color: #5f9ea0;
+  background-color: #5d8aa8;
 }
 
 .mui-btn--primary.mui-btn--flat {
-  color: #5f9ea0;
+  color: #5d8aa8;
   background-color: transparent;
 }
 
 .mui-btn--primary.mui-btn--flat:hover, .mui-btn--primary.mui-btn--flat:focus, .mui-btn--primary.mui-btn--flat:active {
-  color: #5f9ea0;
+  color: #5d8aa8;
   background-color: #f2f2f2;
 }
 
 .mui-btn--primary.mui-btn--flat[disabled]:hover, .mui-btn--primary.mui-btn--flat[disabled]:focus, .mui-btn--primary.mui-btn--flat[disabled]:active {
-  color: #5f9ea0;
+  color: #5d8aa8;
   background-color: transparent;
 }
 
@@ -1583,7 +1583,7 @@ h4, h5, h6 {
 .mui-select:focus > select {
   height: calc(32px + 1px);
   margin-bottom: -1px;
-  border-color: #5f9ea0;
+  border-color: #5d8aa8;
   border-width: 2px;
 }
 
@@ -1620,7 +1620,7 @@ h4, h5, h6 {
   outline: 0;
   height: calc(32px + 1px);
   margin-bottom: -1px;
-  border-color: #5f9ea0;
+  border-color: #5d8aa8;
   border-width: 2px;
 }
 
@@ -1661,7 +1661,7 @@ h4, h5, h6 {
 
 .mui-select:focus > label,
 .mui-select > select:focus ~ label {
-  color: #5f9ea0;
+  color: #5d8aa8;
 }
 
 .mui-select__menu {
@@ -1797,11 +1797,11 @@ h4, h5, h6 {
 }
 
 .mui-tabs__bar > li.mui--is-active {
-  border-bottom: 2px solid #5f9ea0;
+  border-bottom: 2px solid #5d8aa8;
 }
 
 .mui-tabs__bar > li.mui--is-active > a {
-  color: #5f9ea0;
+  color: #5d8aa8;
 }
 
 .mui-tabs__bar.mui-tabs__bar--justified {
@@ -1858,7 +1858,7 @@ h4, h5, h6 {
 
 .mui-textfield > input:focus ~ label,
 .mui-textfield > textarea:focus ~ label {
-  color: #5f9ea0;
+  color: #5d8aa8;
 }
 
 .mui-textfield--float-label > label {
@@ -1939,7 +1939,7 @@ h4, h5, h6 {
 
 .mui-textfield > input:focus,
 .mui-textfield > textarea:focus {
-  border-color: #5f9ea0;
+  border-color: #5d8aa8;
   border-width: 2px;
 }
 
@@ -2173,7 +2173,7 @@ h4, h5, h6 {
 }
 
 .mui--bg-primary {
-  background-color: #5f9ea0;
+  background-color: #5d8aa8;
 }
 
 .mui--bg-primary-dark {
