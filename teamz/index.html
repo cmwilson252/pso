@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>PSV Teamz</title>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="assets/css/mui.css" rel="stylesheet" type="text/css" />
+        <script src="assets/js/mui.js"></script>
+        <script type="text/javascript" language="javascript" src="assets/js/quests.js"></script>
+        <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" language="javascript" src="assets/js/main.js"></script>
+    </head>
+    <body>
+        <header class="mui-appbar mui--z1">
+            <div class="mui-container">
+                <table>
+                    <tr class="mui--appbar-height">
+                        <td class="mui--text-title mui--text-light">PSV Teamz</td>
+                        <!-- <td class="mui--text-right">
+                            <ul class="mui-list--inline mui--text-body2">
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </td> -->
+                    </tr>
+              </table>
+            </div>
+        </header>
+        <div id="content-wrapper" class="mui-container">
+            <div class="mui--appbar-height"></div>
+            <br/>
+            <div class="mui-row mui-panel">
+                <div class="mui-col-md-2">
+                    <div class="mui-col-md-12 mui-select">
+                        <select id="party-members">
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4" selected>4</option>
+                        </select>
+                        <label>Party Count</label>
+                    </div>
+                    <div class="mui-col-md-12">
+                        <button id="generate-button" class="mui-btn mui-btn--primary">Generate</button>
+                    </div>
+                    <div class="mui-col-md-12">
+                        <a class="mui-btn mui-btn--primary">Past Teamz</a>
+                    </div>
+                </div>
+                <div class="mui-col-md-8">
+                    <h3 style="font-size: 100%;">What is TEAMZ?</h3>
+                    <p style="font-size: 80%;">TEAMZ is a friendly, yet competitive, impromptu Time Attack event where a group of players are split up into equally sized random or drafted teams. Each team will generally have around 10 minutes to prepare, before spending an hour or so TAing a random quest. Obviously, the team with the best time at the cutoff is the victor.</p>
+                    <h3 style="font-size: 100%;">Why TEAMZ?</h3>
+                    <p style="font-size: 80%;">TEAMZ emphasizes quick planning and coordination between party members that may not be familiar with each others' playstyles. Additionally, the quest selected may be unfamiliar to the players; this forces players to learn new quests and tests each player's ability to memorize enemy spawns in a time-constrained environment.</p>
+                </div>
+            </div>
+            <div class="mui-row">
+                <div class="mui-col-md-6">
+                    <div class="mui-col-md-6">
+                        <ul id="quest-list" class="mui-list--unstyled"></ul>
+                    </div>
+                    <div class="mui-col-md-6">
+                        <ul id="names-list" class="mui-list--unstyled"></ul>
+                    </div>
+                </div>
+                <div class="mui-col-md-6">
+                    <div class="mui-col-md-12">
+                        <h2 id="selected-quest"></h2>
+                    </div>
+                    <div class="mui-col-md-12">
+                        <ul id="party-list" class="mui-list--unstyled"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="mui-container-fluid mui--text-center">
+                Made with ♥ by <a href="https://github.com/Solybum/">Solybum</a>
+            </div>
+        </footer>
+    </body>
+</html>
