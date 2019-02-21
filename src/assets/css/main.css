@@ -124,3 +124,28 @@ footer {
     border-top: 1px solid #e0e0e0;
     padding-top: 35px;
 }
+
+
+.character-breakdown {
+
+}
+.character-breakdown.collapsed {
+
+}
+.character-breakdown__header {
+
+}
+.character-breakdown__content {
+    height: 0px;
+    overflow: hidden;
+}
+.character-breakdown__header__toggle {
+    font-size: 30px;
+}
+.character-breakdown__header__toggle i {
+    transition: all 0.5s;
+    transform: rotate(90deg);
+}
+.character-breakdown.collapsed .character-breakdown__header__toggle i {
+    transform: rotate(0deg);
+}

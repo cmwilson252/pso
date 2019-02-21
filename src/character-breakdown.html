@@ -6,12 +6,9 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link href="//cdn.muicss.com/mui-0.9.41/css/mui.min.css" rel="stylesheet" type="text/css" />
-        <script src="//cdn.muicss.com/mui-0.9.41/js/mui.min.js"></script>
         <link href="/assets/css/main.css" rel="stylesheet" type="text/css" />
-        <script src="/assets/js/main.js" type="text/javascript" language="javascript"></script>
-        <script src="/assets/js/quests.js" type="text/javascript" language="javascript"></script>
     </head>
     <body>
         <header class="mui-appbar mui--z1">
@@ -36,9 +33,32 @@
         <div id="content-wrapper" class="mui-container">
             <div class="mui--appbar-height"></div>
             <br/>
-            <div class="mui-row">
-                <div class="mui-panel">
-
+            <div class="mui-container-fluid">
+                <div class="mui-panel character-breakdown collapsed">
+                    <div class="character-breakdown__header">
+                        <table width="100%" cellspacing="0">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <h5 class="mui--text-title">Character breakdown title</h5>
+                                    </td>
+                                    <td class="mui--text-right character-breakdown__header__toggle">
+                                        <i class="fas fa-angle-right"></i>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="character-breakdown__content collapsed">
+                        <ul class="mui-tabs__bar">
+                            <li class="mui--is-active"><a data-mui-toggle="tab" data-mui-controls="pane-default-1">Tab-1</a></li>
+                            <li><a data-mui-toggle="tab" data-mui-controls="pane-default-2">Tab-2</a></li>
+                            <li><a data-mui-toggle="tab" data-mui-controls="pane-default-3">Tab-3</a></li>
+                        </ul>
+                        <div class="mui-tabs__pane mui--is-active" id="pane-default-1">Pane-1</div>
+                        <div class="mui-tabs__pane" id="pane-default-2">Pane-2</div>
+                        <div class="mui-tabs__pane" id="pane-default-3">Pane-3</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -47,5 +67,9 @@
                 Made with ♥ by <a href="https://github.com/Solybum/">Solybum</a>
             </div>
         </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="//cdn.muicss.com/mui-0.9.41/js/mui.min.js"></script>
+        <script src="/assets/js/main.js" type="text/javascript" language="javascript"></script>
+        <script src="/assets/js/quests.js" type="text/javascript" language="javascript"></script>
     </body>
 </html>
