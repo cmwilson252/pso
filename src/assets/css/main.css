@@ -55,6 +55,10 @@ abbr[title] {
     background-color: #5d8aa8;
 }
 
+.mui--appbar-height a {
+    text-decoration: none;
+}
+
 .center {
     text-align: center;
 }
