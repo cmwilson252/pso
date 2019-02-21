@@ -125,16 +125,6 @@ footer {
     padding-top: 35px;
 }
 
-
-.character-breakdown {
-
-}
-.character-breakdown.collapsed {
-
-}
-.character-breakdown__header {
-
-}
 .character-breakdown__content {
     height: 0px;
     overflow: hidden;
