@@ -58,6 +58,9 @@ abbr[title] {
 .mui--appbar-height a {
     text-decoration: none;
 }
+.mui--appbar-height a:hover {
+    opacity: 0.8;
+}
 
 .center {
     text-align: center;
