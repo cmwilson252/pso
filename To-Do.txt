@@ -1,7 +1,0 @@
--Alter the front page like we talked about with that screenshot(shrink, move things up, take off bottom portion, move links up)
--Add a link for Quests on the links portion
--Add a link for Player Cards on the link portion
--Move over to semantics(? up to you really, I like it)
--Maybe more design things like adding back ground images that run down the side perhaps similar to the way ultima has it.
--Is it possible to Add little pictures of the class on the Character Breakdown section to the right of class name?
--Send you more money $$$$$
