@@ -146,15 +146,10 @@ footer {
 .character-breakdown.collapsed .character-breakdown__header__toggle i {
     transform: rotate(0deg);
 }
-.links_div {
-    max-width: 300px;
-    margin: 20px auto;
+.links-container {
+    display: flex;
+    max-width: 600px;
     text-align: left;
-    padding: 10x;
-}
-.links_div2 {
-    max-width: 300px;
-    margin: 20px auto;
-    text-align: right;
-    padding: 10x; 
-}
+    margin: auto;
+    justify-content: space-between;
+    }
