@@ -1,3 +1,4 @@
+/*color 5d8aa8 */
 /* muicss override */
 a {
     color: #5d8aa8;
@@ -72,8 +73,32 @@ abbr[title] {
 html,
 body {
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
+body > header,
+body > main,
+body > footer {
+    flex: 0 0 auto;
+}
+
+body > main {
+    flex: 1 0 auto;
+    margin-top: 7em;
+    margin-bottom: 7em;
+}
+
+.ui.menu .item img.logo {
+    margin-right: 1.5em;
+}
+
+.character-breakdown-tabs .item .fas {
+    margin-right: 0.5em;
+}
+
+
+/* Remove */
 html,
 body,
 input,

@@ -1,3 +1,8 @@
+$('.tabular.menu .item').tab();
+
+$('.ui.accordion').accordion();
+
+// Remove
 function animateAutoHeight(element, duration) {
     if(typeof duration === undefined) {
         duration = 300;
