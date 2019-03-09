@@ -1,6 +1,12 @@
-$('.tabular.menu .item').tab();
-
-$('.ui.accordion').accordion();
+if ($('.tabular.menu .item').length > 0) {
+    $('.tabular.menu .item').tab();
+}
+if ($('.ui.accordion').length > 0) {
+    $('.ui.accordion').accordion();
+}
+if ($('.ui.dropdown').length > 0) {
+    $('.ui.dropdown').dropdown();
+}
 
 // Remove
 function animateAutoHeight(element, duration) {

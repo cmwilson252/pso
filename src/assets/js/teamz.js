@@ -3,11 +3,11 @@ Array.prototype.random = function () {
 }
 Array.prototype.randomize = function shuffle() {
     var currentIndex = this.length, temporaryValue, randomIndex;
-
+    
     while (0 !== currentIndex) {
         randomIndex = Math.floor(Math.random() * currentIndex);
         currentIndex -= 1;
-
+        
         temporaryValue = this[currentIndex];
         this[currentIndex] = this[randomIndex];
         this[randomIndex] = temporaryValue;
@@ -17,183 +17,101 @@ Array.prototype.chunk = function (len) {
     var chunks = [],
     i = 0,
     n = this.length;
-
+    
     while (i < n) {
         chunks.push(this.slice(i, i += len));
     }
-
+    
     return chunks;
 }
 
+let quesListItemTemplate =
+'<div class="item" data-value="__VALUE__">__TEXT__</div>';
+let partyCardPlayerTemplate =
+'                <li>__PLAYER_NAME__</li>';
+let partyCardTemplate =
+'<div class="ui inverted card">'+
+'    <div class="content">'+
+'        <div class="header">__PARTY_INDEX__</div>'+
+'        <div class="description">'+
+'            <ul>'+
+'                __PLAYER_LIST__'+
+'            </ul>'+
+'        </div>'+
+'    </div>'+
+'</div>';
+
 function setupQuests() {
-    let ul = document.getElementById('quest-list');
+    $('#quest_list').dropdown();
+
     questListData.forEach(function (quest) {
-        let li = document.createElement('li');
-        let div = document.createElement('div');
-        let label = document.createElement('label');
-        let input = document.createElement('input');
-
-        input.type = 'checkbox';
-        input.checked = quest.enabled;
-        input.id = quest.name;
-        input.name = quest.name;
-        input.value = quest.name;
-
-        div.classList.add('mui-checkbox');
-
-        label.append(input);
-        label.append(quest.name);
-        div.append(label);
-        li.append(div);
-
-        ul.append(li);
+        let html = quesListItemTemplate;
+        html = html.replace('__VALUE__', quest.name);
+        html = html.replace('__TEXT__', quest.name);
+        $('#quest_list .menu').append(html);
     })
+    $('#quest_list').removeClass('loading');
 }
 
-function setupNamesList() {
-    // <div class="mui-textfield mui-textfield--float-label">
-    //   <input type="text">
-    //   <label>Input 1</label>
-    // </div>
-
-    let ul = document.getElementById('names-list');
-    let li = document.createElement('li');
-    let div = document.createElement('div');
-    let input = document.createElement('input');
-    let label = document.createElement('label');
-
-    label.innerText = 'Player Name';
-
-    input.type = 'text';
-
-    div.classList.add('mui-textfield');
-    div.classList.add('mui-textfield--float-label');
-
-    div.append(input);
-    div.append(label);
-    li.append(div);
-    ul.append(li);
-
-    input.addEventListener('blur', handleNameChange);
-    input.addEventListener('keyup', handleEnterKey);
-}
-function handleEnterKey(event) {
-    if (event.keyCode === 13) {
-        processNameChange(event.target);
-    }
-}
-function handleNameChange(event) {
-    processNameChange(event.target);
-}
-function processNameChange(el) {
-    if (el.value === '') {
-        if (el.parentNode.parentNode !== el.parentNode.parentNode.parentNode.lastChild) {
-            el.parentNode.parentNode.parentNode.removeChild(el.parentNode.parentNode);
-        }
-    } else {
-        if (el.parentNode.parentNode === el.parentNode.parentNode.parentNode.lastChild) {
-            let li = document.createElement('li');
-            let div = document.createElement('div');
-            let input = document.createElement('input');
-            let label = document.createElement('label');
-
-            label.innerText = 'Player Name';
-
-            input.type = 'text';
-
-            div.classList.add('mui-textfield');
-            div.classList.add('mui-textfield--float-label');
-
-            div.append(input);
-            div.append(label);
-            li.append(div);
-            el.parentNode.parentNode.parentNode.append(li);
-
-            input.addEventListener('blur', handleNameChange);
-            input.addEventListener('keyup', handleEnterKey);
-
-            input.focus();
-        }
-    }
+function setupPlayers() {
+    $('#player_list').dropdown({
+        allowAdditions: true,
+    });
 }
 
 function setupGeneration() {
-    let button = document.getElementById('generate-button');
-    button.addEventListener('click', generate);
+    $('#generate').on('click', function () {
+        generate();
+    });
 }
 
 function selectRandomQuest() {
-    let h2 = document.getElementById('selected-quest');
-    let activeQuests = [];
-    questListData.forEach(function(quest) {
-        let input = document.getElementById(quest.name);
-        if (input.checked) {
-            activeQuests.push(input.value);
-        }
-    });
-
+    let activeQuests = $('#quest_list').dropdown('get values');
+    if (activeQuests == '') {
+        activeQuests = [];
+        questListData.forEach(function (quest) {
+            activeQuests.push(quest.name);
+        })
+    }
+    
     let selectedQuest = activeQuests.random();
-    h2.innerText = selectedQuest;
+    $('#quest_name').text('Quest: '+selectedQuest);
 }
 function generateParties() {
-    let partyMembersSelect = document.getElementById('party-members');
-    let partyMemberCount = parseInt(partyMembersSelect.options[partyMembersSelect.selectedIndex].value);
-
-    let namesList = document.getElementById('names-list');
-
-    let partyMembers = [];
-    namesList.childNodes.forEach(function (li) {
-        let input = li.firstChild.firstChild;
-        if (input.value !== '') {
-            partyMembers.push(input.value);
-        }
-    });
-    partyMembers.randomize();
-
-    let parties = partyMembers.chunk(partyMemberCount);
-    console.log(parties);
-    return parties;
-}
-function displayParties(parties) {
-    let ul = document.getElementById('party-list');
-    parties.forEach(function(party) {
-        let li = document.createElement('li');
-        let div = document.createElement('div');
-        let h2 = document.createElement('h2');
-        let innerUl = document.createElement('ul');
-
-        h2.innerText = 'Party '+(ul.childNodes.length + 1);
-
-        party.forEach(function (member) {
-            let innerLi = document.createElement('li');
-            innerLi.innerText = member;
-
-            innerUl.append(innerLi);
+    $('#party_list').empty();
+    
+    let partyCount = parseInt($('#party_count').dropdown('get value'));
+    let players = $('#player_list').dropdown('get values');
+    
+    if (players == '') {
+        return;
+    }
+    
+    players.randomize();
+    
+    let parties = players.chunk(partyCount);
+    
+    let currentPartyIndex = 0;
+    parties.forEach(party => {
+        let html = partyCardTemplate;
+        let htmlPartyPlayers = '';
+        
+        party.forEach(player => {
+            htmlPartyPlayers += partyCardPlayerTemplate.replace('__PLAYER_NAME__', player);
         });
-
-        div.classList.add('mui-panel');
-        li.classList.add('mui-col-md-6');
-        innerUl.classList.add('mui-list--unstyled');
-
-        div.append(h2);
-        div.append(innerUl);
-        li.append(div);
-        ul.append(li);
+        
+        currentPartyIndex++;
+        html = html.replace('__PARTY_INDEX__', 'Party '+currentPartyIndex);
+        html = html.replace('__PLAYER_LIST__', htmlPartyPlayers);
+        $('#party_list').append(html);
     });
 }
 
 function generate() {
-    let partyList = document.getElementById('party-list');
-    while (partyList.firstChild) {
-        partyList.removeChild(partyList.firstChild);
-    }
-
     selectRandomQuest();
-    displayParties(generateParties());
+    generateParties();
 }
 
-window.addEventListener('DOMContentLoaded', function() {
-    setupQuests();
-    setupNamesList();
-    setupGeneration();
-});
+setupQuests();
+setupPlayers();
+setupGeneration();

@@ -1,90 +1,112 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>PSV Teamz</title>
+        <title>Teamz | PSVTA</title>
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        <link href="https://cdn.muicss.com/mui-0.9.41/css/mui.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="./../assets/semantic/semantic.css">
+        <link rel="stylesheet" type="text/css" href="./../assets/semantic/semantic.darkly.css">
         <link href="./../assets/css/main.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <header class="mui-appbar mui--z1">
-            <div class="mui-container">
-                <table>
-                    <tr class="mui--appbar-height">
-                        <td class="mui--text-title mui--text-light">
-                            <a href="./../index.html">
-                                <img src="./../logo.png" style="width:30px; height: 30px; vertical-align: bottom">
-                                PSV Teamz
-                            </a>
-                        </td>
-                        <!-- <td class="mui--text-right">
-                            <ul class="mui-list--inline mui--text-body2">
-                                <li><a href="#"></a></li>
-                            </ul>
-                        </td> -->
-                    </tr>
-              </table>
+        <header class="ui inverted fixed menu">
+            <div class="ui container">
+                <a href="./../index.html" class="header item">
+                    <img class="logo mini image" src="./../assets/images/logo.png">
+                    PSVTA
+                </a>
+                <a href="./../character-breakdown.html" class="item">Character Breakdown</a>
+                <a href="./../teamz/index.html" class="item">Teamz</a>
             </div>
         </header>
-        <div id="content-wrapper" class="mui-container">
-            <div class="mui--appbar-height"></div>
-            <br/>
-            <div class="mui-row mui-panel">
-                <div class="mui-col-md-2">
-                    <div class="mui-col-md-12 mui-select">
-                        <select id="party-members">
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4" selected>4</option>
-                        </select>
-                        <label>Party Count</label>
-                    </div>
-                    <div class="mui-col-md-12">
-                        <button id="generate-button" class="mui-btn mui-btn--primary">Generate</button>
-                    </div>
-                    <div class="mui-col-md-12">
-                        <a href="results.html" class="mui-btn mui-btn--primary">Past Teamz</a>
+
+        <main class="ui main container">
+            <div class="ui segments">
+                <div class="ui inverted segment">
+                    <h4 class="small font">What is TEAMZ?</h4>
+                    <p class="small font">TEAMZ is a friendly, yet competitive, impromptu Time Attack event where a group of players are split up into equally sized random or drafted teams. Each team will generally have around 10 minutes to prepare, before spending an hour or so TAing a random quest. Obviously, the team with the best time at the cutoff is the victor.</p>
+                    <h4 class="small font">Why TEAMZ?</h4>
+                    <p class="small font">TEAMZ emphasizes quick planning and coordination between party members that may not be familiar with each others' playstyles. Additionally, the quest selected may be unfamiliar to the players; this forces players to learn new quests and tests each player's ability to memorize enemy spawns in a time-constrained environment. Thanks 98.</p>
+                </div>
+                <div class="ui hidden divider"></div>
+                <div class="ui inverted segment">
+                    <div class="ui stackable three column grid">
+                        <div class="two wide column">
+                            <button class="ui inverted button" id="generate">
+                                Generate
+                            </button>
+                        </div>
+                        <div class="three wide column">
+                            <div id="party_count" class="ui selection dropdown teamz_party_count">
+                                <input type="hidden" name="party_count" value="2">
+                                <i class="dropdown icon"></i>
+                                <div class="default text">Party Count</div>
+                                <div class="menu">
+                                    <div class="item" data-value="2">2 Players</div>
+                                    <div class="item" data-value="3">3 Players</div>
+                                    <div class="item" data-value="3">4 Players</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="three wide column">
+                            <a class="ui inverted button" href="./results.html">
+                                Past Teamz
+                            </a>
+                        </div>
+                        <div class="sixteen wide column">
+                            <div id="quest_list" class="ui inverted loading fluid search multiple dropdown">
+                                <i class="dropdown icon"></i>
+                                <div class="default text">All Quests...</div>
+                                <div class="menu"></div>
+                            </div>
+                        </div>
+                        <div class="sixteen wide column">
+                            <div id="player_list" class="ui inverted fluid search multiple dropdown">
+                                <div class="default text">Players...</div>
+                                <div class="menu"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="mui-col-md-8">
-                    <h3 style="font-size: 100%;">What is TEAMZ?</h3>
-                    <p style="font-size: 80%;">TEAMZ is a friendly, yet competitive, impromptu Time Attack event where a group of players are split up into equally sized random or drafted teams. Each team will generally have around 10 minutes to prepare, before spending an hour or so TAing a random quest. Obviously, the team with the best time at the cutoff is the victor.</p>
-                    <h3 style="font-size: 100%;">Why TEAMZ?</h3>
-                    <p style="font-size: 80%;">TEAMZ emphasizes quick planning and coordination between party members that may not be familiar with each others' playstyles. Additionally, the quest selected may be unfamiliar to the players; this forces players to learn new quests and tests each player's ability to memorize enemy spawns in a time-constrained environment. Thanks 98.</p>
+                <div class="ui hidden divider"></div>
+                <div class="ui inverted segment">
+                    <h3 id="quest_name"></h3>
+                    <div class="ui hidden divider"></div>
+                    <div id="party_list" class="ui three stackable cards">
+                        <div class="ui inverted card">
+                            <div class="content">
+                                <div class="header">__PARTY_INDEX__</div>
+                                <div class="description">
+                                    <ul>
+                                        <li>__PLAYER_NAME__</li>
+                                        <li>__PLAYER_NAME__</li>
+                                        <li>__PLAYER_NAME__</li>
+                                        <li>__PLAYER_NAME__</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="mui-row">
-                <div class="mui-col-md-6">
-                    <div class="mui-col-md-6">
-                        <ul id="quest-list" class="mui-list--unstyled"></ul>
-                    </div>
-                    <div class="mui-col-md-6">
-                        <ul id="names-list" class="mui-list--unstyled"></ul>
-                    </div>
+        </main>
+
+        <footer class="ui inverted vertical footer segment">
+            <div class="ui center aligned container">
+                <img src="./../assets/images/logo.png" class="ui centered mini image">
+                <div class="ui horizontal small">
+                    Made with ♥ by <a href="https://github.com/Solybum/">Solybum</a>
                 </div>
-                <div class="mui-col-md-6">
-                    <div class="mui-col-md-12">
-                        <h2 id="selected-quest"></h2>
-                    </div>
-                    <div class="mui-col-md-12">
-                        <ul id="party-list" class="mui-list--unstyled"></ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <footer>
-            <div class="mui-container-fluid mui--text-center">
-                Made with ♥ by <a href="https://github.com/Solybum/">Solybum</a>
             </div>
         </footer>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://cdn.muicss.com/mui-0.9.41/js/mui.min.js"></script>
+        <script src="./../assets/semantic/semantic.js"></script>
         <script src="./../assets/js/main.js" type="text/javascript" language="javascript"></script>
-        <script src="./../assets/js/teamz.js" type="text/javascript" language="javascript"></script>
         <script src="./../assets/js/quests.js" type="text/javascript" language="javascript"></script>
+        <script src="./../assets/js/teamz.js" type="text/javascript" language="javascript"></script>
     </body>
 </html>
