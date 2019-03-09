@@ -32,15 +32,10 @@
                     <p class="small font">TEAMZ emphasizes quick planning and coordination between party members that may not be familiar with each others' playstyles. Additionally, the quest selected may be unfamiliar to the players; this forces players to learn new quests and tests each player's ability to memorize enemy spawns in a time-constrained environment. Thanks 98.</p>
                 </div>
                 <div class="ui hidden divider"></div>
-                <div class="ui inverted segment">
-                    <div class="ui stackable three column grid">
-                        <div class="two wide column">
-                            <button class="ui inverted button" id="generate">
-                                Generate
-                            </button>
-                        </div>
-                        <div class="three wide column">
-                            <div id="party_count" class="ui selection dropdown teamz_party_count">
+                <div class="ui inverted segment grid">
+                    <div class="row">
+                        <div class="column">
+                            <div id="party_count" class="ui selection dropdown">
                                 <input type="hidden" name="party_count" value="2">
                                 <i class="dropdown icon"></i>
                                 <div class="default text">Party Count</div>
@@ -51,23 +46,32 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="three wide column">
-                            <a class="ui inverted button" href="./results.html">
-                                Past Teamz
-                            </a>
-                        </div>
-                        <div class="sixteen wide column">
+                    </div>
+                    <div class="row">
+                        <div class="column">
                             <div id="quest_list" class="ui inverted loading fluid search multiple dropdown">
                                 <i class="dropdown icon"></i>
                                 <div class="default text">All Quests...</div>
                                 <div class="menu"></div>
                             </div>
                         </div>
-                        <div class="sixteen wide column">
+                    </div>
+                    <div class="row">
+                        <div class="column">
                             <div id="player_list" class="ui inverted fluid search multiple dropdown">
                                 <div class="default text">Players...</div>
                                 <div class="menu"></div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <button class="ui inverted button" id="generate">
+                                Generate
+                            </button>
+                            <a class="ui inverted button" href="./results.html">
+                                Past Teamz
+                            </a>
                         </div>
                     </div>
                 </div>
