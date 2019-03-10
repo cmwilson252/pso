@@ -1,105 +1,69 @@
 <!DOCTYPE html>
 <html>
-    <title>PSV: TA</title>
+    <head>
+        <title>PSV: TA</title>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="https://cdn.muicss.com/mui-0.9.41/css/mui.min.css" rel="stylesheet" type="text/css" />
-    <link href="./assets/css/main.css" rel="stylesheet" type="text/css" />
-    <style>
-        .logo {
-            height: 250px;
-            width: 250px;
-        }
-        .header{
-            font-size: 45px;
-        }
-        .subheader{
-            font-size: 30px;
-        }
-
-        body{
-            background: #5d8aa8;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-        a {
-            color: #439;
-        }
-        .links {
-            list-style: none;
-        }
-        .links a {
-            font-size: 20px;
-            text-decoration: none;
-            color: black;
-        }
-        .links a:hover {
-            opacity: 0.8;
-        }
-        .title{
-            font-size: 20px;
-            padding-left: 10px;
-        }
-        .welcome_div{
-            background: #5d8aa8;
-            padding: 2% 0px;
-        }
-    </style>
-
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./assets/semantic/semantic.css">
+        <link rel="stylesheet" type="text/css" href="./assets/semantic/semantic.darkly.css">
+        <link href="./assets/css/main.css" rel="stylesheet" type="text/css" />
+    </head>
     <body>
-        <div class="welcome_div">
-            <div class="center">
-                <div class="logo_div">
-                    <img src="logo.png" class="logo"></img>
-                </div>
-                <div class="header">
-                    <b>
-                       <span color="#006400">A culmination of Ultima, Unseen, and Vanilla PSOBB TA information.</span>
-                    </b>
-                </div>
-                <div class="subheader">
-                        <span color="#006EFF">A PSV Project.</span>
-                </div> <br><br>
-                <div class="body">
-                    <div class="links-container">
-                        <div>
-                            <ul class="links">
-                                <li>
-                                    <a href="./character-breakdown.html">Character Breakdown</a>
-                                </li><br>
-                                <li>
-                                    <a href="">Quest Records</a>
-                                </li><br>
-                                <li>
-                                    <a href="https://discord.gg/q8bwhFX">PSV Discord</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                            <ul class="links">
-                                <li>
-                                    <a href="./teamz/index.html">Teamz Generator</a>
-                                </li><br>
-                                <li>
-                                    <a href="">Player Cards</a>
-                                </li><br>
-                                <li>
-                                    <a href="https://discord.gg/c5bDRub">Ultima Discord</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+
+        <header class="ui inverted fixed menu">
+            <div class="ui container">
+                <a href="index.html" class="header item">
+                    <img class="logo mini image" src="./assets/images/logo.png">
+                    PSV: TA
+                </a>
+                <a href="./character-breakdown.html" class="item">Character Breakdown</a>
+                <a href="./teamz/index.html" class="item">Teamz</a>
+            </div>
+        </header>
+
+        <main>
+                <div class="welcome_div">
+                        <div class="center">
+                            <div class="logo_div">
+                                <img style="height: 180px;width: 180px;" src="./assets/images/logo.png" class="logo"></img>
+                            </div>
+                            <div class="header">
+                                <b>
+                                   <span color="#006400" style="font-size: 30px;">A culmination of Ultima, Unseen, and Vanilla PSOBB TA information.</span>
+                                </b>
+                            </div>
+                            <div class="subheader">
+                                    <span color="#006EFF" style="font-size: 25px;">A PSV Project.</span>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <img src="./assets/images/catgif.webp"></img>
+        </main>
+
+        <footer class="ui inverted vertical footer segment">
+            <div class="ui center aligned container">
+                <img src="./assets/images/logo.png" class="ui centered mini image">
+                <div class="ui horizontal small">
+                    Made with ♥ by <a href="https://github.com/Solybum/">Solybum</a>
                 </div>
             </div>
-        </div>
-        </div>
+        </footer>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://cdn.muicss.com/mui-0.9.41/js/mui.min.js"></script>
-        <script src="./assets/js/main.js" type="text/javascript" language="javascript"></script>
+        <script src="./../assets/semantic/semantic.js"></script>
+        <script src="./../assets/js/main.js" type="text/javascript" language="javascript"></script>
+        <script src="./../assets/js/quests.js" type="text/javascript" language="javascript"></script>
+        <script src="./../assets/js/teamz.js" type="text/javascript" language="javascript"></script>
     </body>
 </html>
