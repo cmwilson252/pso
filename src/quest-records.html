@@ -20,7 +20,7 @@
                     PSV: TA
                 </a>
                 <a href="./teamz/index.html" class="item">Teamz</a>
-                <a href="./player-cards.html" class="item">Player Cards</a>
+                <a href="" class="item">Player Cards</a>
             </div>
         </header>
 
@@ -38,14 +38,14 @@
                         <div class="column">
                                 <div style="text-align: center;">Normal Mode</div> 
                             <br>
-                            <div id="party_count" class="ui selection dropdown">
-                                <input type="hidden" name="party_count" value="2">
+                            <div id="server_normal" class="ui selection dropdown">
+                                <input type="hidden" name="server_normal" value="0">
                                 <i class="dropdown icon"></i>
                                 <div class="default text">Meta</div>
                                 <div class="menu">
-                                    <div class="item" data-value="2">Ultima</div>
-                                    <div class="item" data-value="3">2014</div>
-                                    <div class="item" data-value="3">Gamecube</div>
+                                    <div class="item" data-value="0">Ultima</div>
+                                    <div class="item" data-value="1">2014</div>
+                                    <div class="item" data-value="2">Gamecube</div>
                                     <div class="item" data-value="3">Vanilla</div>
                                 </div>
                             </div>
@@ -53,31 +53,31 @@
                     </div>
                     <div class="row">
                         <div class="column">
-                            <div id="party_count" class="ui selection dropdown">
-                                <input type="hidden" name="party_count" value="2">
+                            <div id="episode_normal" class="ui selection dropdown">
+                                <input type="hidden" name="episode_normal" value="1">
                                 <i class="dropdown icon"></i>
                                 <div class="default text">Episode</div>
                                 <div class="menu">
-                                    <div class="item" data-value="2">Episode 1</div>
-                                    <div class="item" data-value="3">Episode 2</div>
-                                    <div class="item" data-value="3">Episode 4</div>
+                                    <div class="item" data-value="1">Episode 1</div>
+                                    <div class="item" data-value="2">Episode 2</div>
+                                    <div class="item" data-value="4">Episode 4</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="column">
-                            <div id="party_count" class="ui selection dropdown">
-                                <input type="hidden" name="party_count" value="2">
+                            <div id="party_count_normal" class="ui selection dropdown">
+                                <input type="hidden" name="party_count_normal" value="0">
                                 <i class="dropdown icon"></i>
                                 <div class="default text">Category</div>
                                 <div class="menu">
-                                    <div class="item" data-value="2">OPM No-PB</div>
-                                    <div class="item" data-value="3">OPM PB</div>
-                                    <div class="item" data-value="3">2P No-PB</div>
-                                    <div class="item" data-value="2">2P PB</div>
-                                    <div class="item" data-value="3">4P No-PB</div>
-                                    <div class="item" data-value="3">4P PB</div>
+                                    <div class="item" data-value="0">OPM No-PB</div>
+                                    <div class="item" data-value="1">OPM PB</div>
+                                    <div class="item" data-value="2">2P No-PB</div>
+                                    <div class="item" data-value="3">2P PB</div>
+                                    <div class="item" data-value="4">4P No-PB</div>
+                                    <div class="item" data-value="5">4P PB</div>
                                 </div>
                             </div>
                         </div>
@@ -85,7 +85,7 @@
 
                     <div class="row">
                         <div class="column">
-                            <button class="ui inverted button" id="generate">
+                            <button class="ui inverted button" id="record_search_normal">
                                 Search
                             </button>
                         </div>
@@ -97,44 +97,39 @@
                         <div class="column">
                                 <div style="text-align: center;">Challenge Mode</div> 
                                 <br>
-                            <div id="party_count" class="ui selection dropdown">
-                                <input type="hidden" name="party_count" value="2">
+                            <div id="episode_cmode" class="ui selection dropdown">
+                                <input type="hidden" name="episode_cmode" value="1">
                                 <i class="dropdown icon"></i>
                                 <div class="default text">Challenge Mode</div>
                                 <div class="menu">
-                                    <div class="item" data-value="2">Episode 1</div>
-                                    <div class="item" data-value="3">Episode 2</div>
+                                    <div class="item" data-value="1">Episode 1</div>
+                                    <div class="item" data-value="2">Episode 2</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="column">
-                            <div id="party_count" class="ui selection dropdown">
-                                <input type="hidden" name="party_count" value="2">
+                            <div id="party_count_cmode" class="ui selection dropdown">
+                                <input type="hidden" name="party_count_cmode" value="5">
                                 <i class="dropdown icon"></i>
                                 <div class="default text">Category</div>
                                 <div class="menu">
-                                    <div class="item" data-value="2">2P</div>
-                                    <div class="item" data-value="3">4P</div>
+                                    <div class="item" data-value="3">2P</div>
+                                    <div class="item" data-value="5">4P</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="column">
-                            <button class="ui inverted button" id="generate">
+                            <button class="ui inverted button" id="record_search_challenge">
                                 Search
                             </button>
                         </div>
                     </div>
                 </div>
-                <div class="ui hidden divider"></div>
-                <div class="ui inverted segment">
-                        <h3 id="quest_name"></h3>
-                        <div class="ui hidden divider"></div>
-                        <div id="party_list" class="ui three stackable cards"></div>
-                    </div>
+                <div id="results"></div>
         </main>
 
         <footer class="ui inverted vertical footer segment">
@@ -147,9 +142,10 @@
         </footer>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="./assets/js/lodash/core.js" type="text/javascript"></script>
         <script src="./assets/semantic/semantic.js"></script>
         <script src="./assets/js/main.js" type="text/javascript" language="javascript"></script>
-        <script src="./assets/js/quests.js" type="text/javascript" language="javascript"></script>
-        <script src="./assets/js/teamz.js" type="text/javascript" language="javascript"></script>
+        <script src="./assets/js/records.js" type="text/javascript" language="javascript"></script>
+        <script src="./assets/js/quest-records.js" type="text/javascript" language="javascript"></script>
     </body>
 </html>
