@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quest Records</title>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./../assets/semantic/semantic.css">
+        <link rel="stylesheet" type="text/css" href="./../assets/semantic/semantic.darkly.css">
+        <link href="./../assets/css/main.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+
+        <header class="ui inverted fixed menu">
+            <div class="ui container">
+                <a href="index.html" class="header item">
+                    <img class="logo mini image" src="./../assets/images/logo.png">
+                    PSV: TA
+                </a>
+                <a href="./../character-breakdown.html" class="item">Character Breakdown</a>
+                <a href="./../teamz/index.html" class="item">Teamz</a>
+            </div>
+        </header>
+
+        <main class="ui main container">
+            <div class="ui segments">
+                <div class="ui inverted segment">
+                    <h4 class="small font">Quest Records</h4>
+                    <p class="small font">This is a dedicated catalog of records from Ultma, 2014, Vanilla, and GC PSO. All records posted to this page have been checked for legitimacy. </p>
+                    <h4 class="small font">Where/How to Get a Record?</h4>
+                    <p class="small font">These records are collected from many different places like "vanilla" server forums such as Ephinea or custom server forums like Ultima. 2014 times are collected solely from youtube. All times on this site have an accompanying video to satisfy the burden of proof. To get your own record you or your team must upload the run to youtube and post it to the site in which the run was done and it will be found. The top five times for each quest/stage will be kept.</p>
+                </div>
+                <div class="ui hidden divider"></div>
+                <div class="ui inverted segment grid">
+                    <div class="row">
+                        <div class="column">
+                                <div style="text-align: center;">Normal Mode</div> 
+                            <br>
+                            <div id="party_count" class="ui selection dropdown">
+                                <input type="hidden" name="party_count" value="2">
+                                <i class="dropdown icon"></i>
+                                <div class="default text">Meta</div>
+                                <div class="menu">
+                                    <div class="item" data-value="2">Ultima</div>
+                                    <div class="item" data-value="3">2014</div>
+                                    <div class="item" data-value="3">Gamecube</div>
+                                    <div class="item" data-value="3">Vanilla</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <div id="party_count" class="ui selection dropdown">
+                                <input type="hidden" name="party_count" value="2">
+                                <i class="dropdown icon"></i>
+                                <div class="default text">Episode</div>
+                                <div class="menu">
+                                    <div class="item" data-value="2">Episode 1</div>
+                                    <div class="item" data-value="3">Episode 2</div>
+                                    <div class="item" data-value="3">Episode 4</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <div id="party_count" class="ui selection dropdown">
+                                <input type="hidden" name="party_count" value="2">
+                                <i class="dropdown icon"></i>
+                                <div class="default text">Category</div>
+                                <div class="menu">
+                                    <div class="item" data-value="2">OPM No-PB</div>
+                                    <div class="item" data-value="3">OPM PB</div>
+                                    <div class="item" data-value="3">2P No-PB</div>
+                                    <div class="item" data-value="2">2P PB</div>
+                                    <div class="item" data-value="3">4P No-PB</div>
+                                    <div class="item" data-value="3">4P PB</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column">
+                            <button class="ui inverted button" id="generate">
+                                Search
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui hidden divider"></div>
+                <div class="ui inverted segment grid">
+                    <div class="row">
+                        <div class="column">
+                                <div style="text-align: center;">Challenge Mode</div> 
+                                <br>
+                            <div id="party_count" class="ui selection dropdown">
+                                <input type="hidden" name="party_count" value="2">
+                                <i class="dropdown icon"></i>
+                                <div class="default text">Challenge Mode</div>
+                                <div class="menu">
+                                    <div class="item" data-value="2">Episode 1</div>
+                                    <div class="item" data-value="3">Episode 2</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <div id="party_count" class="ui selection dropdown">
+                                <input type="hidden" name="party_count" value="2">
+                                <i class="dropdown icon"></i>
+                                <div class="default text">Category</div>
+                                <div class="menu">
+                                    <div class="item" data-value="2">2P</div>
+                                    <div class="item" data-value="3">4P</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <button class="ui inverted button" id="generate">
+                                Search
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </main>
+
+        <footer class="ui inverted vertical footer segment">
+            <div class="ui center aligned container">
+                <img src="./../assets/images/logo.png" class="ui centered mini image">
+                <div class="ui horizontal small">
+                    Made with ♥ by <a href="https://github.com/Solybum/">Solybum</a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="./../assets/semantic/semantic.js"></script>
+        <script src="./../assets/js/main.js" type="text/javascript" language="javascript"></script>
+        <script src="./../assets/js/quests.js" type="text/javascript" language="javascript"></script>
+        <script src="./../assets/js/teamz.js" type="text/javascript" language="javascript"></script>
+    </body>
+</html>
