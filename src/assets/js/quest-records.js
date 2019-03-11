@@ -1,10 +1,11 @@
 
 let HeaderList = [ 
 	{ key: "QuestName", header: "Quest", collapse:true, formatter: (x) => { return x; }},
-	{ key: "Ep", header: "Episode", collapse: false, formatter: (x) => {return "Episode "+x;}},
+	//{ key: "Ep", header: "Episode", collapse: false, formatter: (x) => {return "Episode "+x;}},
 	{ key: "TimeInSeconds", header: "Time", collapse: false, formatter: (x) => { return secondsToString(x); } },
 	{ key: "Players", header: "Players", collapse: false, formatter: (x) => { return playersToList(x);}},
 	//{ key: "Server", header: "Server", collapse: false, formatter: (x) => {return serverCodeToName(x);}},
+	{ key: "TeamName", header: "Team Name", collapse: false, formatter: (x) => {return x || "";}},
 ]
 let CurrentQuestName = "";
 let CurrentSearch = {};
@@ -88,8 +89,10 @@ function updateSearchTable() {
 	data = _.filter(data, (x) => {return x.PlayerCount == CurrentSearch.PlayerCount;});
 
 	// sort
-	if (CurrentSearch.SortBy !== null)
+	if (CurrentSearch.SortBy !== null) {
+		data = _.sortBy(data,(x) => {return x["TimeInSeconds"];});
 		data = _.sortBy(data,(x) => {return x[CurrentSearch.SortBy];});
+	}
 
 	let result_string = RESULT_LIST_TEMPLATE.substring(0);
 	// build header list
@@ -108,7 +111,6 @@ function updateSearchTable() {
 		let quest_row_string = "";
 		if (CurrentQuestName !== current_quest.QuestName) 
 			color_index = 4;
-		console.log(CurrentQuestName);
 
 		for(let i=0; i < HeaderList.length; i++){
 			let element_string = RESULT_ELEMENT_VALUE_TEMPLATE.substring(0);
