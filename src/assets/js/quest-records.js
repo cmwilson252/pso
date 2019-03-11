@@ -1,10 +1,10 @@
 
 let HeaderList = [ 
 	{ key: "QuestName", header: "Quest", formatter: (x) => { return x; }},
-	{ key: "Ep", header: "Episode", formatter: (x) => {return "Episode "+x;}},
+	//{ key: "Ep", header: "Episode", formatter: (x) => {return "Episode "+x;}},
 	{ key: "TimeInSeconds", header: "Time", formatter: (x) => { return secondsToString(x); } },
 	{ key: "Players", header: "Players", formatter: (x) => { return playersToList(x);}},
-	{ key: "Server", header: "Server", formatter: (x) => {return serverCodeToName(x);}},
+	//{ key: "Server", header: "Server", formatter: (x) => {return serverCodeToName(x);}},
 ]
 
 let RESULT_ELEMENT_TEMPLATE = `
