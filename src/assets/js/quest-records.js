@@ -150,7 +150,7 @@ function setupButtons() {
 		CurrentSearch.PlayerCount = $('#party_count_cmode').dropdown('get values');
 		CurrentSearch.Ep = $('#episode_cmode').dropdown('get values');
 		CurrentSearch.Serv = null;
-		CurrentSearch.SortBy = null;
+		CurrentSearch.SortBy = "QuestName";
         updateSearchTable();
     });
     $('#record_search_normal').on('click', function () {
@@ -158,7 +158,7 @@ function setupButtons() {
 		CurrentSearch.PlayerCount = $('#party_count_normal').dropdown('get values');
 		CurrentSearch.Ep = $('#episode_normal').dropdown('get values');
 		CurrentSearch.Serv = $('#server_normal').dropdown('get values');
-		CurrentSearch.SortBy = null;
+		CurrentSearch.SortBy = "QuestName";
         updateSearchTable();
     });
 }
