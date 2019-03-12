@@ -11,160 +11,948 @@
 //	_4P_PB:5
 //},
 //Servers: {
-//	Ultima: 0,
-//	_2014:1,
+//	_2014: 0,
+//	Ultima:1,
 //	Gamecube:2,
 //	Vanilla:3
 //}
 
 let recordData_normal = [
 	{
+		QuestName: "MA1B",
+		Ep: 1,
+		Server: 1,
+		PlayerCount: 5,
+		TimeInSeconds: 1206,
+		Players: ["Rashan", "Killz", "Wilson", "Starlord"],
+		TeamName: "CF",
+		Place: 1
+	},
+	{
 		QuestName: "MU1",
 		Ep: 1,
-		Server: 0,
+		Server: 1,
 		PlayerCount: 0,
 		TimeInSeconds: 373,
-		Players: ["Yannv"]
+		Players: ["Yannv"],
+		TeamName: "CF",
+		Place: 1
+	},
+	{
+		QuestName: "MU1",
+		Ep: 1,
+		Server: 1,
+		PlayerCount: 2,
+		TimeInSeconds: 399,
+		Players: ["Starlord", "Wilson"],
+		TeamName: "CF",
+		Place: 1
 	},
 	{
 		QuestName: "TTF",
 		Ep: 1,
-		Server: 0,
+		Server: 1,
 		PlayerCount: 0,
 		TimeInSeconds: 638,
-		Players: ["Rashan"]
-	},
-	{
-		QuestName: "",
-		Ep: 1,
-		Server: 0,
-		PlayerCount: 0,
-		TimeInSeconds: 656,
-		Players: ["Izaya"]
+		Players: ["Rashan"],
+		TeamName: "CF",
+		Place: 1
 	},
 	{
 		QuestName: "TTF",
 		Ep: 1,
-		Server: 0,
-		PlayerCount: 1,
+		Server: 1,
+		PlayerCount: 0,
+		TimeInSeconds: 656,
+		Players: ["Izaya"],
+		TeamName: "Illuminati",
+		Place: 2
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 1,
+		PlayerCount: 0,
 		TimeInSeconds: 635,
-		Players: ["Killz"]
+		Players: ["Killz"],
+		TeamName: "CF",
+		Place: 1
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 1,
+		PlayerCount: 2,
+		TimeInSeconds: 511,
+		Players: ["Rashan", "Killz"],
+		TeamName: "CF",
+		Place: 1
 	},
 	{
 		QuestName: "HOD II",
 		Ep: 1,
-		Server: 0,
-		PlayerCount: 1,
+		Server: 1,
+		PlayerCount: 0,
 		TimeInSeconds: 656,
-		Players: ["Shiida"]
+		Players: ["Shiida"],
+		TeamName: "Univers-PS",
+		Place: 1
+	},
+	{
+		QuestName: "MAE: Seabed",
+		Ep: 2,
+		Server: 1,
+		PlayerCount: 2,
+		TimeInSeconds: 511,
+		Players: ["Shiida", "MudkipzJM"],
+		TeamName: "",
+		Place: 1
 	},
 	{
 		QuestName: "MU2",
 		Ep: 2,
-		Server: 0,
+		Server: 1,
 		PlayerCount: 0,
 		TimeInSeconds: 168,
-		Players: ["TripleR"]
+		Players: ["TripleR"],
+		TeamName: "Angelic",
+		Place: 1
 	},
 	{
 		QuestName: "MU3",
 		Ep: 2,
-		Server: 0,
+		Server: 1,
+		PlayerCount: 0,
+		TimeInSeconds: 120,
+		Players: ["MudkipzJM"],
+		TeamName: "CF",
+		Place: 1
+	},
+	{
+		QuestName: "MU3",
+		Ep: 2,
+		Server: 1,
 		PlayerCount: 0,
 		TimeInSeconds: 78,
-		Players: ["TripleR"]
+		Players: ["TripleR"],
+		TeamName: "Angelic",
+		Place: 2
 	},
 	{
-		QuestName: "MU1",
-		Ep: 1,
-		Server: 0,
+		QuestName: "MU4",
+		Ep: 2,
+		Server: 1,
 		PlayerCount: 2,
-		TimeInSeconds: 399,
-		Players: ["Starlord", "Wilson"]
+		TimeInSeconds: 497,
+		Players: ["Rashan", "Killz"],
+		TeamName: "CF",
+		Place: 1
 	},
 	{
-		QuestName: "TTF",
+		QuestName: "MU5",
+		Ep: 2,
+		Server: 1,
+		PlayerCount: 2,
+		TimeInSeconds: 575,
+		Players: ["Rashan", "Killz"],
+		TeamName: "CF",
+		Place: 1
+	},
+	{
+		QuestName: "RT",
+		Ep: 2,
+		Server: 1,
+		PlayerCount: 2,
+		TimeInSeconds: 982,
+		Players: ["Starlord", "Wilson"],
+		TeamName: "CF",
+		Place: 1
+	},
+	{
+		QuestName: "ROCT",
+		Ep: 2,
+		Server: 1,
+		PlayerCount: 4,
+		TimeInSeconds: 2440,
+		Players: ["Starlord", "Wilson", "Yannv", "MudkipzJM"],
+		TeamName: "CF",
+		Place: 1
+	},
+	{
+		QuestName: "ROCT",
+		Ep: 2,
+		Server: 1,
+		PlayerCount: 4,
+		TimeInSeconds: 2420,
+		Players: ["Patrick Bell", "Marcia", "TripleR", "MudkipzJM"],
+		TeamName: "",
+		Place: 2
+	},
+	{
+		QuestName: "NMU3",
+		Ep: 4,
+		Server: 1,
+		PlayerCount: 2,
+		TimeInSeconds: 435,
+		Players: ["Starlord", "Rashan"],
+		TeamName: "CF",
+		Place: 1
+	},
+	
+	// ultima times ^
+	{
+		QuestName: "MA1A",
 		Ep: 1,
 		Server: 0,
-		PlayerCount: 2,
-		TimeInSeconds: 511,
-		Players: ["Rashan", "Killz"]
+		PlayerCount: 0,
+		TimeInSeconds: 870,
+		Players: ["16085k"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "MA1A",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 4,
+		TimeInSeconds: 1079,
+		Players: ["16085k, ReVisioN, DGM, mt76907"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "MA1B",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 624,
+		Players: ["Ridji"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MA1B",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 624,
+		Players: ["Sylph"],
+		TeamName: "Angelic",
+		Place: 1
 	},
 	{
 		QuestName: "MA1B",
 		Ep: 1,
 		Server: 0,
 		PlayerCount: 5,
-		TimeInSeconds: 1216,
-		Players: ["Rashan", "Killz", "Wilson", "Starlord"]
+		TimeInSeconds: 1286,
+		Players: ["Killz, 9898, Alukard, mt76907"],
+		TeamName: "MA4B",
+		Place: 1
 	},
 	{
-		QuestName: "MAE: Seabed",
-		Ep: 2,
+		QuestName: "MA1B",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 5,
+		TimeInSeconds: 1210,
+		Players: ["16085k, 9898, ReVisioN, mt76907"],
+		TeamName: "MA4B",
+		Place: 2
+	},
+	{
+		QuestName: "MA1C",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 849,
+		Players: ["16085k"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "MA1C",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 891,
+		Players: [".942937"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "MA1C",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 853,
+		Players: ["Alukard"],
+		TeamName: "MA4B",
+		Place: 2
+	},
+	{
+		QuestName: "MA1C",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 849,
+		Players: ["16085k"],
+		TeamName: "MA4B",
+		Place: 3
+	},
+	{
+		QuestName: "MA1C",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 844,
+		Players: ["HioThun"],
+		TeamName: "",
+		Place: 4
+	},
+	{
+		QuestName: "MA1C",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 804,
+		Players: ["Ume"],
+		TeamName: "六月などんよりとした空",
+		Place: 5
+	},
+	{
+		QuestName: "MA1C",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 3,
+		TimeInSeconds: 1014,
+		Players: ["Alukard, mt76907"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "MA1C",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 4,
+		TimeInSeconds: 1068,
+		Players: ["ReVisioN, 16085k, Alukard, mt76907"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "MA1C",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 4,
+		TimeInSeconds: 1052,
+		Players: ["ReVisioN, DGM, Alukard, mt76907"],
+		TeamName: "MA4B",
+		Place: 2
+	},
+	{
+		QuestName: "MA1C",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 4,
+		TimeInSeconds: 1046,
+		Players: ["Brandon, Joey, Sylph, thepp0"],
+		TeamName: "",
+		Place: 3
+	},
+	{
+		QuestName: "MA1C",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 5,
+		TimeInSeconds: 1174,
+		Players: ["ReVisioN, 500ryu, Alukard, mt76907"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "MA1C",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 5,
+		TimeInSeconds: 1172,
+		Players: ["ReVisioN, 500ryu, Alukard, mt76907"],
+		TeamName: "MA4B",
+		Place: 2
+	},
+	{
+		QuestName: "MA1C",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 5,
+		TimeInSeconds: 1147,
+		Players: ["ReVisioN, 500ryu, Alukard, mt76907"],
+		TeamName: "MA4B",
+		Place: 3
+	},
+	{
+		QuestName: "MA1C",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 5,
+		TimeInSeconds: 1141,
+		Players: ["Brandon, Joey, Iter, TT3"],
+		TeamName: "MA4C",
+		Place: 4
+	},
+	{
+		QuestName: "MAE: Forest",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 239,
+		Players: ["NDW"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "MAE: Ruins",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 1,
+		TimeInSeconds: 239,
+		Players: ["NDW"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "MAE: Ruins",
+		Ep: 1,
 		Server: 0,
 		PlayerCount: 2,
-		TimeInSeconds: 511,
-		Players: ["Shiida", "MudkipzJM"]
+		TimeInSeconds: 219,
+		Players: ["Sange, .942937"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "MU1",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 403,
+		Players: ["AURA_V3"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "MU1",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 390,
+		Players: ["Zynetic"],
+		TeamName: "F9",
+		Place: 2
+	},
+	{
+		QuestName: "MU1",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 386,
+		Players: ["Nemu"],
+		TeamName: "MA4C",
+		Place: 3
+	},
+	{
+		QuestName: "MU1",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 373,
+		Players: ["Vex"],
+		TeamName: "bmode",
+		Place: 4
+	},
+	{
+		QuestName: "MU1",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 372,
+		Players: ["Joey"],
+		TeamName: "MA4C",
+		Place: 5
+	},
+	{
+		QuestName: "MU2",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 444,
+		Players: ["Zynetic"],
+		TeamName: "F9",
+		Place: 1
+	},
+	{
+		QuestName: "MU2",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 400,
+		Players: ["500ryu"],
+		TeamName: "MA4B",
+		Place: 2
+	},
+	{
+		QuestName: "MU3",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 32,
+		Players: ["Sylph"],
+		TeamName: "Angelic",
+		Place: 1
 	},
 	{
 		QuestName: "MU4",
-		Ep: 2,
+		Ep: 1,
 		Server: 0,
-		PlayerCount: 2,
-		TimeInSeconds: 497,
-		Players: ["Rashan", "Killz"]
+		PlayerCount: 0,
+		TimeInSeconds: 522,
+		Players: ["16085k"],
+		TeamName: "MA4B",
+		Place: 1
 	},
 	{
-		QuestName: "MU5",
+		QuestName: "MU4",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 476,
+		Players: ["Sylph"],
+		TeamName: "Angelic",
+		Place: 2
+	},
+	{
+		QuestName: "Christmas Fiasco I",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 380,
+		Players: ["Sylph"],
+		TeamName: "Angelic",
+		Place: 1
+	},
+	{
+		QuestName: "Christmas Fiasco I",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 5,
+		TimeInSeconds: 1216,
+		Players: ["DGM, mt76907, Alukard, ReVisioN"],
+		TeamName: "MA4B	",
+		Place: 1
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 525,
+		Players: ["AURA_V3"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 526,
+		Players: ["HioThun"],
+		TeamName: "",
+		Place: 2
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 532,
+		Players: ["Zeal"],
+		TeamName: "",
+		Place: 3
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 535,
+		Players: ["MUMU"],
+		TeamName: "六月などんよりとした空",
+		Place: 4
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 536,
+		Players: ["MUMU"],
+		TeamName: "六月などんよりとした空",
+		Place: 5
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 3,
+		TimeInSeconds: 516,
+		Players: ["Ume, HioThun"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 3,
+		TimeInSeconds: 505,
+		Players: ["Ume, AIC"],
+		TeamName: "六月などんよりとした空",
+		Place: 1
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 4,
+		TimeInSeconds: 558,
+		Players: ["Brandon, Nemu, Hatral, Jajaswipo"],
+		TeamName: "MA4C",
+		Place: 1
+	},
+	{
+		QuestName: "MA2C",
 		Ep: 2,
 		Server: 0,
-		PlayerCount: 2,
-		TimeInSeconds: 575,
-		Players: ["Rashan", "Killz"]
+		PlayerCount: 4,
+		TimeInSeconds: 1050,
+		Players: ["ReVisioN, 16085k, mt76907, Alukard"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "MA2C",
+		Ep: 2,
+		Server: 0,
+		PlayerCount: 4,
+		TimeInSeconds: 947,
+		Players: ["Brandon, thepp0, Nemu, Hatral"],
+		TeamName: "MA4C",
+		Place: 2
+	},
+	{
+		QuestName: "MA2C",
+		Ep: 2,
+		Server: 0,
+		PlayerCount: 5,
+		TimeInSeconds: 1165,
+		Players: ["ReVisioN, Killz, mt76907, Alukard"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MA2C",
+		Ep: 2,
+		Server: 0,
+		PlayerCount: 5,
+		TimeInSeconds: 1122,
+		Players: ["Brandon, Iter, Joey, Dyne"],
+		TeamName: "MA4C",
+		Place: 2
+	},
+	{
+		QuestName: "MA2C",
+		Ep: 2,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 342,
+		Players: ["Sylph"],
+		TeamName: "Angelic",
+		Place: 1
+	},
+	{
+		QuestName: "MA2V2",
+		Ep: 2,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 1203,
+		Players: ["Sylph"],
+		TeamName: "Angelic",
+		Place: 1
+	},
+	{
+		QuestName: "MU3",
+		Ep: 2,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 276,
+		Players: ["Wilson"],
+		TeamName: "CF",
+		Place: 1
 	},
 	{
 		QuestName: "RT",
 		Ep: 2,
 		Server: 0,
-		PlayerCount: 2,
-		TimeInSeconds: 982,
-		Players: ["Starlord", "Wilson"]
+		PlayerCount: 4,
+		TimeInSeconds: 891,
+		Players: ["AIC@, JOJO, MUMU, Ume"],
+		TeamName: "六月などんよりとした空",
+		Place: 1
 	},
 	{
-		QuestName: "ROCT",
+		QuestName: "RT",
 		Ep: 2,
 		Server: 0,
-		PlayerCount: 4,
-		TimeInSeconds: 2440,
-		Players: ["Starlord", "Wilson", "Yannv", "MudkipzJM"]
+		PlayerCount: 5,
+		TimeInSeconds: 862,
+		Players: ["AIC@, JOJO, MUMU, Ume"],
+		TeamName: "六月などんよりとした空",
+		Place: 1
 	},
 	{
-		QuestName: "",
+		QuestName: "MU3",
 		Ep: 2,
 		Server: 0,
-		PlayerCount: 4,
-		TimeInSeconds: 2420,
-		Players: ["Patrick Bell", "Marcia", "TripleR", "MudkipzJM"]
+		PlayerCount: 0,
+		TimeInSeconds: 276,
+		Players: ["Wilson"],
+		TeamName: "CF",
+		Place: 1
+	},
+	{
+		QuestName: "MA4C",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 852,
+		Players: ["16085k"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "MA4C",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 841,
+		Players: ["Oberon"],
+		TeamName: "Stone Cutterz",
+		Place: 2
+	},
+	{
+		QuestName: "MA4C",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 5,
+		TimeInSeconds: 1324,
+		Players: ["DGM, Alukard, 16085k, mt76907"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "MA4C",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 5,
+		TimeInSeconds: 1289,
+		Players: ["500ryu, Alukard, 16085k, mt76907"],
+		TeamName: "MA4B",
+		Place: 2
+	},
+	{
+		QuestName: "MA4C",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 5,
+		TimeInSeconds: 1283,
+		Players: ["Brandon, Joey, Iter, Dyne"],
+		TeamName: "MA4C",
+		Place: 3
 	},
 	{
 		QuestName: "NMU3",
 		Ep: 4,
 		Server: 0,
-		PlayerCount: 2,
-		TimeInSeconds: 435,
-		Players: ["Starlord", "Rashan"]
-	},
-	
-	// ultima times ^
-	{
-		QuestName: "MA4A",
-		Ep: 1,
-		Server: 1,
 		PlayerCount: 0,
-		TimeInSeconds: 870,
-		Players: ["16085k"],
-		TeamName: "MA4B"
+		TimeInSeconds: 543,
+		Players: ["Zynetic"],
+		TeamName: "F9",
+		Place: 1
 	},
+	{
+		QuestName: "NMU3",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 539,
+		Players: ["Zynetic"],
+		TeamName: "F9",
+		Place: 2
+	},
+	{
+		QuestName: "NMU3",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 520,
+		Players: ["Brandon"],
+		TeamName: "MA4C",
+		Place: 3
+	},
+	{
+		QuestName: "NMU3",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 436,
+		Players: ["16085k"],
+		TeamName: "MA4B",
+		Place: 4
+	},
+	{
+		QuestName: "NMU3",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 543,
+		Players: ["Zynetic"],
+		TeamName: "F9",
+		Place: 1
+	},
+	{
+		QuestName: "NMU3",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 163,
+		Players: ["Sylph"],
+		TeamName: "Angelic",
+		Place: 1
+	},
+	{
+		QuestName: "NMU3",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 4,
+		TimeInSeconds: 601,
+		Players: ["ReVisioN, mt76907, Alukard, DGM"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "NMU3",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 4,
+		TimeInSeconds: 585,
+		Players: ["Brandon, Nemu, thepp0, Hatral"],
+		TeamName: "MA4C",
+		Place: 1
+	},
+	{
+		QuestName: "NMU4",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 211,
+		Players: ["Sylph"],
+		TeamName: "Angelic",
+		Place: 1
+	},
+	{
+		QuestName: "NMU4",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 4,
+		TimeInSeconds: 391,
+		Players: ["16085k, Alukard, DGM, AURA_V3"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "POD",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 1295,
+		Players: ["16085k"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "POD",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 1258,
+		Players: ["Sam5655"],
+		TeamName: "MA4B",
+		Place: 2
+	},
+	{
+		QuestName: "POD",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 1221,
+		Players: ["Sylph"],
+		TeamName: "Angelic",
+		Place: 3
+	},
+	{
+		QuestName: "ROW",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 5,
+		TimeInSeconds: 504,
+		Players: ["ReVisioN, Alukard, 16085k, mt76907"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "ROW",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 5,
+		TimeInSeconds: 244,
+		Players: ["Brandon, Iter, Joey, TT3"],
+		TeamName: "MA4C",
+		Place: 2
+	},
+	{
+		QuestName: "ROW",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 5,
+		TimeInSeconds: 244,
+		Players: ["Brandon, Iter, Joey, TT3"],
+		TeamName: "MA4C",
+		Place: 2
+	},
+	{
+		QuestName: "Christmas Fiasco IV",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 405,
+		Players: ["MUMU"],
+		TeamName: "六月などんよりとした空",
+		Place: 1
+	},
+
+
+
 
 
 ]

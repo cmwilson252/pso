@@ -10,7 +10,7 @@ let HeaderList = [
 let CurrentQuestName = "";
 let CurrentSearch = {};
 // from last to first
-let Colors = ["#ff4a1e","#ffb31e","#fbff1e","#a8ff1e","#4eff1e"];
+let Colors = ["#ffffff","#6bb6ff","#389dff","#0483ff","#006ad1"];
 
 let RESULT_ELEMENT_TEMPLATE = `
 <tr>
@@ -48,8 +48,8 @@ let RESULT_LIST_TEMPLATE = `
 
 function serverCodeToName(code){
 	switch(code){
-		case 0: return "Ultima";
-		case 1: return "2014";
+		case 0: return "2014";
+		case 1: return "Ultima";
 		case 2: return "Gamecube";
 		case 3: return "Vanilla";
 		default: return "Unknown"
@@ -90,7 +90,7 @@ function updateSearchTable() {
 
 	// sort
 	if (CurrentSearch.SortBy !== null) {
-		data = _.sortBy(data,(x) => {return x["TimeInSeconds"];});
+		data = _.sortBy(data,(x) => {return x["Place"];});
 		data = _.sortBy(data,(x) => {return x[CurrentSearch.SortBy];});
 	}
 
