@@ -225,7 +225,7 @@ let recordData_normal = [
 		Ep: 1,
 		Server: 0,
 		PlayerCount: 0,
-		TimeInSeconds: 624,
+		TimeInSeconds: 634,
 		Players: ["Ridji"],
 		TeamName: "",
 		Place: 1
@@ -261,12 +261,12 @@ let recordData_normal = [
 		Place: 2
 	},
 	{
-		QuestName: "MA1C",
+		QuestName: "MA1B",
 		Ep: 1,
 		Server: 0,
-		PlayerCount: 0,
-		TimeInSeconds: 849,
-		Players: ["16085k"],
+		PlayerCount: 4,
+		TimeInSeconds: 1147,
+		Players: ["16085k, DGM, ReVisioN, mt76907"],
 		TeamName: "MA4B",
 		Place: 1
 	},
@@ -431,6 +431,16 @@ let recordData_normal = [
 		Place: 1
 	},
 	{
+		QuestName: "MAE: Ruins",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 2,
+		TimeInSeconds: 225,
+		Players: ["mt76907, 16085k"],
+		TeamName: "MA4B",
+		Place: 2
+	},
+	{
 		QuestName: "MU1",
 		Ep: 1,
 		Server: 0,
@@ -535,10 +545,30 @@ let recordData_normal = [
 		Ep: 1,
 		Server: 0,
 		PlayerCount: 0,
+		TimeInSeconds: 679,
+		Players: ["HioThun"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "Christmas Fiasco I",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 446,
+		Players: ["XII"],
+		TeamName: "",
+		Place: 2
+	},
+	{
+		QuestName: "Christmas Fiasco I",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
 		TimeInSeconds: 380,
 		Players: ["Sylph"],
 		TeamName: "Angelic",
-		Place: 1
+		Place: 3
 	},
 	{
 		QuestName: "Christmas Fiasco I",
@@ -549,6 +579,16 @@ let recordData_normal = [
 		Players: ["DGM, mt76907, Alukard, ReVisioN"],
 		TeamName: "MA4B	",
 		Place: 1
+	},
+	{
+		QuestName: "Christmas Fiasco I",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 5,
+		TimeInSeconds: 1122,
+		Players: ["Brandon, Joey, Nemu, Jajaswipo"],
+		TeamName: "MA4C",
+		Place: 2
 	},
 	{
 		QuestName: "TTF",
@@ -604,8 +644,17 @@ let recordData_normal = [
 		QuestName: "TTF",
 		Ep: 1,
 		Server: 0,
-		PlayerCount: 3,
+		PlayerCount: 2,
 		TimeInSeconds: 516,
+		Players: ["Ume, HioThun"],
+		TeamName: "",
+		Place: 1
+	},	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 2,
+		TimeInSeconds: 527,
 		Players: ["Ume, HioThun"],
 		TeamName: "",
 		Place: 1
@@ -624,11 +673,31 @@ let recordData_normal = [
 		QuestName: "TTF",
 		Ep: 1,
 		Server: 0,
+		PlayerCount: 3,
+		TimeInSeconds: 513,
+		Players: ["Brandon, Joey"],
+		TeamName: "MA4C",
+		Place: 2
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 4,
+		TimeInSeconds: 548,
+		Players: ["mt76907, ReVisioN, DGM, AURA_V3"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 0,
 		PlayerCount: 4,
 		TimeInSeconds: 558,
 		Players: ["Brandon, Nemu, Hatral, Jajaswipo"],
 		TeamName: "MA4C",
-		Place: 1
+		Place: 2
 	},
 	{
 		QuestName: "MA2C",
@@ -645,10 +714,20 @@ let recordData_normal = [
 		Ep: 2,
 		Server: 0,
 		PlayerCount: 4,
+		TimeInSeconds: 995,
+		Players: ["ReVisioN, 16085k, mt76907, Alukard"],
+		TeamName: "MA4B",
+		Place: 2
+	},
+	{
+		QuestName: "MA2C",
+		Ep: 2,
+		Server: 0,
+		PlayerCount: 4,
 		TimeInSeconds: 947,
 		Players: ["Brandon, thepp0, Nemu, Hatral"],
 		TeamName: "MA4C",
-		Place: 2
+		Place: 3
 	},
 	{
 		QuestName: "MA2C",
@@ -669,6 +748,16 @@ let recordData_normal = [
 		Players: ["Brandon, Iter, Joey, Dyne"],
 		TeamName: "MA4C",
 		Place: 2
+	},
+	{
+		QuestName: "MA2C",
+		Ep: 2,
+		Server: 0,
+		PlayerCount: 2,
+		TimeInSeconds: 871,
+		Players: ["Brandon, Dyne"],
+		TeamName: "MA4C",
+		Place: 1
 	},
 	{
 		QuestName: "MA2C",
@@ -701,6 +790,16 @@ let recordData_normal = [
 		Place: 1
 	},
 	{
+		QuestName: "Christmas Fiasco II",
+		Ep: 2,
+		Server: 0,
+		PlayerCount: 5,
+		TimeInSeconds: 1059,
+		Players: ["Brandon, Joey, Nemu, Jajaswipo"],
+		TeamName: "MA4C",
+		Place: 1
+	},
+	{
 		QuestName: "RT",
 		Ep: 2,
 		Server: 0,
@@ -715,20 +814,70 @@ let recordData_normal = [
 		Ep: 2,
 		Server: 0,
 		PlayerCount: 5,
-		TimeInSeconds: 862,
-		Players: ["AIC@, JOJO, MUMU, Ume"],
-		TeamName: "六月などんよりとした空",
+		TimeInSeconds: 840,
+		Players: ["Brandon, Joey, Noodle, Morpha"],
+		TeamName: "MA4C",
 		Place: 1
 	},
 	{
-		QuestName: "MU3",
+		QuestName: "RT",
 		Ep: 2,
 		Server: 0,
-		PlayerCount: 0,
-		TimeInSeconds: 276,
-		Players: ["Wilson"],
-		TeamName: "CF",
+		PlayerCount: 5,
+		TimeInSeconds: 862,
+		Players: ["AIC@, JOJO, MUMU, Ume"],
+		TeamName: "六月などんよりとした空",
+		Place: 2
+	},
+	{
+		QuestName: "MA4A",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 4,
+		TimeInSeconds: 1330,
+		Players: ["16085k, DGM, ReVisioN, Alukard"],
+		TeamName: "MA4B",
 		Place: 1
+	},
+	{
+		QuestName: "MA4B",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 4,
+		TimeInSeconds: 1203,
+		Players: ["16085k, DGM, mt76907, Cava"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "MA4C",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 4,
+		TimeInSeconds: 1287	,
+		Players: ["mt76907, ReVisioN, 16085k, Alukard"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "MA4C",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 4,
+		TimeInSeconds: 1238,
+		Players: ["Brandon, Joey, Iter, Dyne"],
+		TeamName: "MA4C",
+		Place: 2
+	},
+	{
+		QuestName: "MA4C",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 4,
+		TimeInSeconds: 1201,
+		Players: ["mt76907, ReVisioN, 16085k, Alukard"],
+		TeamName: "MA4B",
+		Place: 3
 	},
 	{
 		QuestName: "MA4C",
@@ -781,6 +930,66 @@ let recordData_normal = [
 		Place: 3
 	},
 	{
+		QuestName: "MA4C",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 2,
+		TimeInSeconds: 987,
+		Players: ["16085k, Alukard"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "MA4C",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 2,
+		TimeInSeconds: 870,
+		Players: ["Brandon, Hatral"],
+		TeamName: "MA4C",
+		Place: 2
+	},
+	{
+		QuestName: "MA4C",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 2,
+		TimeInSeconds: 801,
+		Players: ["Zynetic, Sylph"],
+		TeamName: "",
+		Place: 3
+	},
+	{
+		QuestName: "MA4C",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 852,
+		Players: ["16085k"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "MA4C",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 841,
+		Players: ["Oberon"],
+		TeamName: "Stone Cutterz",
+		Place: 2
+	},
+	{
+		QuestName: "NMU2",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 4,
+		TimeInSeconds: 423,
+		Players: ["16085k, ReVisioN, Alukard, DGM"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
 		QuestName: "NMU3",
 		Ep: 4,
 		Server: 0,
@@ -824,20 +1033,20 @@ let recordData_normal = [
 		QuestName: "NMU3",
 		Ep: 4,
 		Server: 0,
-		PlayerCount: 0,
-		TimeInSeconds: 543,
-		Players: ["Zynetic"],
-		TeamName: "F9",
+		PlayerCount: 2,
+		TimeInSeconds: 425,
+		Players: ["16085k, Alukard"],
+		TeamName: "MA4B",
 		Place: 1
 	},
 	{
 		QuestName: "NMU3",
 		Ep: 4,
 		Server: 0,
-		PlayerCount: 0,
-		TimeInSeconds: 163,
-		Players: ["Sylph"],
-		TeamName: "Angelic",
+		PlayerCount: 4,
+		TimeInSeconds: 611,
+		Players: ["ReVisioN, 9898, Alukard, DGM"],
+		TeamName: "MA4B",
 		Place: 1
 	},
 	{
@@ -848,7 +1057,7 @@ let recordData_normal = [
 		TimeInSeconds: 601,
 		Players: ["ReVisioN, mt76907, Alukard, DGM"],
 		TeamName: "MA4B",
-		Place: 1
+		Place: 2
 	},
 	{
 		QuestName: "NMU3",
@@ -858,7 +1067,37 @@ let recordData_normal = [
 		TimeInSeconds: 585,
 		Players: ["Brandon, Nemu, thepp0, Hatral"],
 		TeamName: "MA4C",
+		Place: 3
+	},
+	{
+		QuestName: "NMU3",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 5,
+		TimeInSeconds: 650,
+		Players: ["mt76907, 16085k, ReVisioN, Alukard"],
+		TeamName: "MA4B",
 		Place: 1
+	},
+	{
+		QuestName: "NMU3",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 5,
+		TimeInSeconds: 629,
+		Players: ["mt76907, 16085k, ReVisioN, DGM"],
+		TeamName: "MA4B",
+		Place: 2
+	},
+	{
+		QuestName: "NMU3",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 5,
+		TimeInSeconds: 601,
+		Players: ["Brandon, Joey, Nemu, Rashan"],
+		TeamName: "",
+		Place: 3
 	},
 	{
 		QuestName: "NMU4",
@@ -878,6 +1117,16 @@ let recordData_normal = [
 		TimeInSeconds: 391,
 		Players: ["16085k, Alukard, DGM, AURA_V3"],
 		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "NMU5",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 5,
+		TimeInSeconds: 430,
+		Players: ["Brandon, Joey, thepp0, Hatral"],
+		TeamName: "MA4C",
 		Place: 1
 	},
 	{
@@ -914,10 +1163,10 @@ let recordData_normal = [
 		QuestName: "ROW",
 		Ep: 4,
 		Server: 0,
-		PlayerCount: 5,
-		TimeInSeconds: 504,
-		Players: ["ReVisioN, Alukard, 16085k, mt76907"],
-		TeamName: "MA4B",
+		PlayerCount: 4,
+		TimeInSeconds: 125,
+		Players: ["Brandon, Joey, Iter, Dyne"],
+		TeamName: "MA4C",
 		Place: 1
 	},
 	{
@@ -925,10 +1174,10 @@ let recordData_normal = [
 		Ep: 4,
 		Server: 0,
 		PlayerCount: 5,
-		TimeInSeconds: 244,
-		Players: ["Brandon, Iter, Joey, TT3"],
-		TeamName: "MA4C",
-		Place: 2
+		TimeInSeconds: 504,
+		Players: ["ReVisioN, Alukard, 16085k, mt76907"],
+		TeamName: "MA4B",
+		Place: 1
 	},
 	{
 		QuestName: "ROW",
@@ -950,7 +1199,16 @@ let recordData_normal = [
 		TeamName: "六月などんよりとした空",
 		Place: 1
 	},
-
+	{
+		QuestName: "Christmas Fiasco IV",
+		Ep: 4,
+		Server: 0,
+		PlayerCount: 5,
+		TimeInSeconds: 1032,
+		Players: ["Brandon, Joey, Nemu, Jajaswipo"],
+		TeamName: "MA4C",
+		Place: 1
+	},
 
 
 
