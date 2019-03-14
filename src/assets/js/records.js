@@ -411,6 +411,16 @@ let recordData_normal = [
 		Place: 1
 	},
 	{
+		QuestName: "MAE: Forest",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
+		TimeInSeconds: 250,
+		Players: ["Wilson"],
+		TeamName: "CF",
+		Place: 2
+	},
+	{
 		QuestName: "MAE: Ruins",
 		Ep: 1,
 		Server: 0,
@@ -704,7 +714,7 @@ let recordData_normal = [
 		Ep: 2,
 		Server: 0,
 		PlayerCount: 4,
-		TimeInSeconds: 1050,
+		TimeInSeconds: 995,
 		Players: ["ReVisioN, 16085k, mt76907, Alukard"],
 		TeamName: "MA4B",
 		Place: 1
@@ -714,20 +724,10 @@ let recordData_normal = [
 		Ep: 2,
 		Server: 0,
 		PlayerCount: 4,
-		TimeInSeconds: 995,
-		Players: ["ReVisioN, 16085k, mt76907, Alukard"],
-		TeamName: "MA4B",
-		Place: 2
-	},
-	{
-		QuestName: "MA2C",
-		Ep: 2,
-		Server: 0,
-		PlayerCount: 4,
 		TimeInSeconds: 947,
 		Players: ["Brandon, thepp0, Nemu, Hatral"],
 		TeamName: "MA4C",
-		Place: 3
+		Place: 2
 	},
 	{
 		QuestName: "MA2C",
@@ -753,7 +753,7 @@ let recordData_normal = [
 		QuestName: "MA2C",
 		Ep: 2,
 		Server: 0,
-		PlayerCount: 2,
+		PlayerCount: 3,
 		TimeInSeconds: 871,
 		Players: ["Brandon, Dyne"],
 		TeamName: "MA4C",
@@ -854,7 +854,7 @@ let recordData_normal = [
 		Ep: 4,
 		Server: 0,
 		PlayerCount: 4,
-		TimeInSeconds: 1287	,
+		TimeInSeconds: 1287,
 		Players: ["mt76907, ReVisioN, 16085k, Alukard"],
 		TeamName: "MA4B",
 		Place: 1
