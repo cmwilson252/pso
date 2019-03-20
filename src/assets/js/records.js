@@ -9,6 +9,8 @@
 //	_2P_PB:3,
 //	_4P_No-PB:4,
 //	_4P_PB:5
+//  _1P_No-PB: 6
+//  _1P_PB: 7
 //},
 //Servers: {
 //	_2014: 0,
@@ -18,6 +20,16 @@
 //}
 
 let recordData_normal = [
+	{
+		QuestName: "MA1A",
+		Ep: 1,
+		Server: 1,
+		PlayerCount: 6,
+		TimeInSeconds: 701,
+		Players: ["Sylph"],
+		TeamName: "Angelic",
+		Place: 1
+	},
 	{
 		QuestName: "MA1B",
 		Ep: 1,
@@ -29,10 +41,50 @@ let recordData_normal = [
 		Place: 1
 	},
 	{
+		QuestName: "MA1B",
+		Ep: 1,
+		Server: 1,
+		PlayerCount: 6,
+		TimeInSeconds: 759,
+		Players: ["Sylph"],
+		TeamName: "Angelic",
+		Place: 1
+	},
+	{
+		QuestName: "MA1C",
+		Ep: 1,
+		Server: 1,
+		PlayerCount: 5,
+		TimeInSeconds: 1031,
+		Players: ["Rashan", "Killz", "ScopedOut", "Starlord"],
+		TeamName: "CF",
+		Place: 1
+	},
+	{
+		QuestName: "MA1C",
+		Ep: 1,
+		Server: 1,
+		PlayerCount: 6,
+		TimeInSeconds: 670,
+		Players: ["Sylph"],
+		TeamName: "Angelic",
+		Place: 1
+	},
+	{
+		QuestName: "MA1V2",
+		Ep: 1,
+		Server: 1,
+		PlayerCount: 6,
+		TimeInSeconds: 1586,
+		Players: ["Sylph"],
+		TeamName: "Angelic",
+		Place: 1
+	},
+	{
 		QuestName: "MU1",
 		Ep: 1,
 		Server: 1,
-		PlayerCount: 0,
+		PlayerCount: 6,
 		TimeInSeconds: 373,
 		Players: ["Yannv"],
 		TeamName: "CF",
@@ -49,10 +101,50 @@ let recordData_normal = [
 		Place: 1
 	},
 	{
+		QuestName: "MU2",
+		Ep: 1,
+		Server: 1,
+		PlayerCount: 4,
+		TimeInSeconds: 528,
+		Players: ["Lemon", "Wilson", "Jezbuz"],
+		TeamName: "CF",
+		Place: 1
+	},
+	{
 		QuestName: "TTF",
 		Ep: 1,
 		Server: 1,
-		PlayerCount: 0,
+		PlayerCount: 4,
+		TimeInSeconds: 563,
+		Players: ["Wilson, Shoutgu, NDW"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 1,
+		PlayerCount: 4,
+		TimeInSeconds: 570,
+		Players: ["Shoutgu, Rashan, ScopedOut"],
+		TeamName: "CF",
+		Place: 2
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 1,
+		PlayerCount: 4,
+		TimeInSeconds: 586,
+		Players: ["Shoutgu, UltraJerky, Yakuza"],
+		TeamName: "CF",
+		Place: 3
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 1,
+		PlayerCount: 6,
 		TimeInSeconds: 638,
 		Players: ["Rashan"],
 		TeamName: "CF",
@@ -62,7 +154,7 @@ let recordData_normal = [
 		QuestName: "TTF",
 		Ep: 1,
 		Server: 1,
-		PlayerCount: 0,
+		PlayerCount: 6,
 		TimeInSeconds: 656,
 		Players: ["Izaya"],
 		TeamName: "Illuminati",
@@ -72,7 +164,7 @@ let recordData_normal = [
 		QuestName: "TTF",
 		Ep: 1,
 		Server: 1,
-		PlayerCount: 0,
+		PlayerCount: 6,
 		TimeInSeconds: 635,
 		Players: ["Killz"],
 		TeamName: "CF",
@@ -92,10 +184,50 @@ let recordData_normal = [
 		QuestName: "HOD II",
 		Ep: 1,
 		Server: 1,
-		PlayerCount: 0,
+		PlayerCount: 6,
 		TimeInSeconds: 656,
 		Players: ["Shiida"],
 		TeamName: "Univers-PS",
+		Place: 1
+	},
+	{
+		QuestName: "MA2B",
+		Ep: 2,
+		Server: 1,
+		PlayerCount: 5,
+		TimeInSeconds: 1057,
+		Players: ["Yannv", "Killz", "Wilson", "MudkipzJM"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MA2C",
+		Ep: 2,
+		Server: 1,
+		PlayerCount: 4,
+		TimeInSeconds: 1057,
+		Players: ["Yannv", "Killz", "Rasha", "ScopedOut"],
+		TeamName: "CF",
+		Place: 1
+	},
+	{
+		QuestName: "MAX S",
+		Ep: 2,
+		Server: 1,
+		PlayerCount: 5,
+		TimeInSeconds: 1031,
+		Players: ["Rashan", "MudkipzJM", "Night", "TripleR"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MAX S",
+		Ep: 2,
+		Server: 1,
+		PlayerCount: 4,
+		TimeInSeconds: 1517,
+		Players: ["Rashan", "MudkipzJM", "Yannv", "Killz"],
+		TeamName: "",
 		Place: 1
 	},
 	{
@@ -112,7 +244,7 @@ let recordData_normal = [
 		QuestName: "MU2",
 		Ep: 2,
 		Server: 1,
-		PlayerCount: 0,
+		PlayerCount: 6,
 		TimeInSeconds: 168,
 		Players: ["TripleR"],
 		TeamName: "Angelic",
@@ -122,7 +254,7 @@ let recordData_normal = [
 		QuestName: "MU3",
 		Ep: 2,
 		Server: 1,
-		PlayerCount: 0,
+		PlayerCount: 6,
 		TimeInSeconds: 120,
 		Players: ["MudkipzJM"],
 		TeamName: "CF",
@@ -132,7 +264,7 @@ let recordData_normal = [
 		QuestName: "MU3",
 		Ep: 2,
 		Server: 1,
-		PlayerCount: 0,
+		PlayerCount: 6,
 		TimeInSeconds: 78,
 		Players: ["TripleR"],
 		TeamName: "Angelic",
@@ -146,6 +278,16 @@ let recordData_normal = [
 		TimeInSeconds: 497,
 		Players: ["Rashan", "Killz"],
 		TeamName: "CF",
+		Place: 1
+	},
+	{
+		QuestName: "MU4",
+		Ep: 2,
+		Server: 1,
+		PlayerCount: 4,
+		TimeInSeconds: 553,
+		Players: ["Wilson", "Saith", "Killz"],
+		TeamName: "",
 		Place: 1
 	},
 	{
@@ -189,12 +331,62 @@ let recordData_normal = [
 		Place: 2
 	},
 	{
+		QuestName: "ROCT",
+		Ep: 2,
+		Server: 1,
+		PlayerCount: 4,
+		TimeInSeconds: 2394,
+		Players: ["Patrick Bell", "Night", "TripleR", "MudkipzJM"],
+		TeamName: "",
+		Place: 3
+	},
+	{
+		QuestName: "ROCT",
+		Ep: 2,
+		Server: 1,
+		PlayerCount: 4,
+		TimeInSeconds: 2371,
+		Players: ["Patrick Bell", "Yannv", "TripleR", "Lemon"],
+		TeamName: "",
+		Place: 4
+	},
+	{
+		QuestName: "CCC",
+		Ep: 2,
+		Server: 1,
+		PlayerCount: 5,
+		TimeInSeconds: 143,
+		Players: ["Starlord, Rashan, Killz, Yannv"],
+		TeamName: "CF",
+		Place: 1
+	},
+	{
+		QuestName: "MA4C",
+		Ep: 4,
+		Server: 1,
+		PlayerCount: 5,
+		TimeInSeconds: 1055,
+		Players: ["Killz, Rashan, Starlord, ScopedOut"],
+		TeamName: "CF",
+		Place: 1
+	},
+	{
 		QuestName: "NMU3",
 		Ep: 4,
 		Server: 1,
 		PlayerCount: 2,
 		TimeInSeconds: 435,
 		Players: ["Starlord", "Rashan"],
+		TeamName: "CF",
+		Place: 1
+	},
+	{
+		QuestName: "ROW",
+		Ep: 4,
+		Server: 1,
+		PlayerCount: 5,
+		TimeInSeconds: 39,
+		Players: ["Killz, Rashan, MudkipzJM, Yannv"],
 		TeamName: "CF",
 		Place: 1
 	},
@@ -335,7 +527,7 @@ let recordData_normal = [
 		Ep: 1,
 		Server: 0,
 		PlayerCount: 4,
-		TimeInSeconds: 1068,
+		TimeInSeconds: 1085,
 		Players: ["ReVisioN, 16085k, Alukard, mt76907"],
 		TeamName: "MA4B",
 		Place: 1
@@ -345,10 +537,20 @@ let recordData_normal = [
 		Ep: 1,
 		Server: 0,
 		PlayerCount: 4,
+		TimeInSeconds: 1068,
+		Players: ["ReVisioN, 16085k, Alukard, mt76907"],
+		TeamName: "MA4B",
+		Place: 2
+	},
+	{
+		QuestName: "MA1C",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 4,
 		TimeInSeconds: 1052,
 		Players: ["ReVisioN, DGM, Alukard, mt76907"],
 		TeamName: "MA4B",
-		Place: 2
+		Place: 3
 	},
 	{
 		QuestName: "MA1C",
@@ -358,7 +560,7 @@ let recordData_normal = [
 		TimeInSeconds: 1046,
 		Players: ["Brandon, Joey, Sylph, thepp0"],
 		TeamName: "",
-		Place: 3
+		Place: 4
 	},
 	{
 		QuestName: "MA1C",
@@ -1210,6 +1412,428 @@ let recordData_normal = [
 		Place: 1
 	},
 
+	//2014 Times^
+
+	{
+		QuestName: "MA1C",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 1066,
+		Players: ["9898", "ReVisioN", "mt76907", "16085k"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "MA1C",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 3,
+		TimeInSeconds: 900,
+		Players: ["Killz", "Demonized"],
+		TeamName: "CF",
+		Place: 1
+	},
+	{
+		QuestName: "MA1C",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 781,
+		Players: [".942937"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "MU1",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 393,
+		Players: ["Ender"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "MU1",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 388,
+		Players: ["16085k"],
+		TeamName: "MA4B",
+		Place: 2
+	},
+	{
+		QuestName: "MU1",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 388,
+		Players: ["Spuz"],
+		TeamName: "",
+		Place: 3
+	},
+	{
+		QuestName: "MU1",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 388,
+		Players: ["Lileya"],
+		TeamName: "",
+		Place: 3
+	},
+	{
+		QuestName: "MU1",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 378,
+		Players: ["Sange"],
+		TeamName: "Tankstelle",
+		Place: 5
+	},
+	{
+		QuestName: "MU1",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 2,
+		TimeInSeconds: 388,
+		Players: ["ReVisioN", "mt76907"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "MU1",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 2,
+		TimeInSeconds: 382,
+		Players: ["Belz", ".942937"],
+		TeamName: "Tankstelle",
+		Place: 2
+	},
+	{
+		QuestName: "MU1",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 2,
+		TimeInSeconds: 378,
+		Players: ["9898", "Demonized"],
+		TeamName: "",
+		Place: 3
+	},
+	{
+		QuestName: "MU1",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 6,
+		TimeInSeconds: 349,
+		Players: ["ReVisioN"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "MU1",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 6,
+		TimeInSeconds: 320,
+		Players: ["Belz"],
+		TeamName: "Tankstelle",
+		Place: 2
+	},
+	{
+		QuestName: "MU1",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 6,
+		TimeInSeconds: 315,
+		Players: ["9898"],
+		TeamName: "MA4B",
+		Place: 3
+	},
+	{
+		QuestName: "MU3",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 2,
+		TimeInSeconds: 188,
+		Players: ["Ender", "Brandon"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MU3",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 2,
+		TimeInSeconds: 147,
+		Players: ["Belz", ".942937"],
+		TeamName: "Tankstelle",
+		Place: 2
+	},
+	{
+		QuestName: "MU3",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 158,
+		Players: ["StevieWonderDownUnder"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MU3",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 129,
+		Players: ["Ender"],
+		TeamName: "Tankstelle",
+		Place: 2
+	},
+	{
+		QuestName: "MU4",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 3,
+		TimeInSeconds: 657,
+		Players: ["Killz", "Demonized"],
+		TeamName: "CF",
+		Place: 1
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 7,
+		TimeInSeconds: 	658,
+		Players: ["ReVisioN"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 7,
+		TimeInSeconds: 	696,
+		Players: ["Demonized"],
+		TeamName: "CF",
+		Place: 2
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 7,
+		TimeInSeconds: 	697,
+		Players: ["Killz"],
+		TeamName: "CF",
+		Place: 3
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 6,
+		TimeInSeconds: 	642,
+		Players: ["mt76907"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 6,
+		TimeInSeconds: 	645,
+		Players: ["Dongra"],
+		TeamName: "",
+		Place: 2
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 6,
+		TimeInSeconds: 	669,
+		Players: ["Shovel"],
+		TeamName: "",
+		Place: 3
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 6,
+		TimeInSeconds: 758,
+		Players: ["16085"],
+		TeamName: "MA4B",
+		Place: 4
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 2,
+		TimeInSeconds: 526,
+		Players: ["mt76907", "ReVisioN"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 2,
+		TimeInSeconds: 554,
+		Players: ["mt76907", "ReVisioN"],
+		TeamName: "MA4B",
+		Place: 2
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 511,
+		Players: ["mt76907", "ReVisioN", "NDW"],
+		TeamName: "",
+		Place: 2
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 532,
+		Players: ["mt76907", "ReVisioN", "16085k", "AURA_V3"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 5,
+		TimeInSeconds: 578,
+		Players: ["Government", "Natural", "Nebula", "Wigga"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MA2A",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 1146,
+		Players: [".942937", "Belz", "Sange"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "MA2B",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 1111,
+		Players: [".942937, Belz, Sange"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "MA2C",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 1051,
+		Players: ["Alukard", "ReVisioN", "mt76907", "16085k"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "MA2V2",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 2394,
+		Players: [".942937", "Belz", "Jake"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "MAE: Tower",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 536,
+		Players: [".942937"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "RT",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 935,
+		Players: [".942937", "Belz", "Sange", "Daisuri"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "Lost Chaos Calibur",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 2,
+		TimeInSeconds: 1338,
+		Players: [".942937", "Belz"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "MA4C",
+		Ep: 4,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 1189,
+		Players: ["9898", "ReVisioN", "mt76907", "16085k"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "MA4C",
+		Ep: 4,
+		Server: 3,
+		PlayerCount: 2,
+		TimeInSeconds: 910,
+		Players: ["ReVisioN", "16085k"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "NMU3",
+		Ep: 4,
+		Server: 3,
+		PlayerCount: 2,
+		TimeInSeconds: 417,
+		Players: ["ReVisioN", "16085k"],
+		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "ROW",
+		Ep: 4,
+		Server: 3,
+		PlayerCount: 5,
+		TimeInSeconds: 262,
+		Players: ["Alukard", "ReVisioN", "16085k", "mt76907"],
+		TeamName: "MA4B",
+		Place: 1
+	},
 
 
 
