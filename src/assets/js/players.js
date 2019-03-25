@@ -11,7 +11,7 @@ let Players = [
     }, {
         name: "Killz",
         image: "killz.png",
-        raw_desc: ` One of the best HUcts and is capabable on all other classes. Played Scht before the crash. Best player from Ultima and the leader of Chosen Few.
+        raw_desc: ` One of the best HUcts and is capable on all other classes. Played Scht before the crash. Best player from Ultima and the leader of Chosen Few.
                                   <br>
                                   <a href="https://www.youtube.com/channel/UC1A7WgI_7YKNxKMQSqw89KA">Killz PSO</a>`,
         servers: "Ultima, Unseen, Vanilla",
@@ -98,7 +98,7 @@ let Players = [
                                     <a href="https://www.youtube.com/channel/UCXh33WLwaVml21wyMommUXA">Jake</a>`,
         servers: "Unseen, GC",
         teams: "Tankstelle",
-        classes: "FOml FAml, HUml"
+        classes: "FOml RAml, HUml"
     }, {
         name: "NDW",
         image: "ndw.png",
