@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Quest Records</title>
+        <title>Quest Records | PSV: TA</title>
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,12 +15,16 @@
 
         <header class="ui inverted fixed menu">
             <div class="ui container">
-                <a href="index.html" class="header item">
+                <a class="header item">
                     <img class="logo mini image" src="./assets/images/logo.png">
                     PSV: TA
                 </a>
+                <a href="./quest-records.html" class="header item">Quest Records</a>
                 <a href="./teamz/index.html" class="header item">Teamz</a>
+                <a href="./concepts.html" class="header item">Concepts</a>
                 <a href="./player-cards.html" class="header item">Player Cards</a>
+                <a href="./miscellaneous.html" class="header item">Miscellaneous</a>
+                <a href="https://discord.gg/q8bwhFX" class="header item">PSV Discord</a>
             </div>
         </header>
 
@@ -30,19 +34,19 @@
                     <p class="small font">
                         <b>Normal Mode Rules</b>
                         <ul>
-                            <li>The in-game timer is used for timing each quest. Time starts when the in-game timer is activated and ends at the last meaningful input. 
+                            <li>The in-game timer is used for timing each quest. Time starts when the in-game timer is activated and ends at the last meaningful input.
                             This means the published time is when either the final monster is defeated, a text message is displayed signifying the conclusion of the quest,
                             or manually deactivating the timer at a terminal. This is commonly known as Time Attack (TA).</li>
                             <li>Any exploits, such as, defeating monsters before the timer starts are not allowed.</li>
-                            <li>Once the quest has started the whole party must complete the quest together. No one is to leave the game room before Dark Falz to manipulate 
+                            <li>Once the quest has started the whole party must complete the quest together. No one is to leave the game room before Dark Falz to manipulate
                             Darvant waves. No one is to join the game while the quest is in progress.
                             </li>
-                            <li>In the 4-Player PB Combo category the players are to start with a 4-Player PB combo for Lv 81 Shifta/Deband before the quest has started. 
-                            If the quest lasts longer than the S/D from the PB combo then the players may do another PB combo on quest progress, but not required if they 
-                            choose not to do so. Note that even though it requires 4 players to perform the PB combo before the quest any number of players can start the 
+                            <li>In the 4-Player PB Combo category the players are to start with a 4-Player PB combo for Lv 81 Shifta/Deband before the quest has started.
+                            If the quest lasts longer than the S/D from the PB combo then the players may do another PB combo on quest progress, but not required if they
+                            choose not to do so. Note that even though it requires 4 players to perform the PB combo before the quest any number of players can start the
                             quest together if a lower number of players is more beneficial, such as in TTF.
                             </li>
-                            <li>In the 2-Player category the highest level of S/D allowed on the characters is Lv 41 from a 2-Player PB combo. Using a PB combo is not 
+                            <li>In the 2-Player category the highest level of S/D allowed on the characters is Lv 41 from a 2-Player PB combo. Using a PB combo is not
                             required if the players choose not to do so. Additionally, the 2 players must be in the first and second character game slots. This is to prevent
                             any manipulation on where each player is positioned at the start of each area.</li>
                             <li>
@@ -56,7 +60,7 @@
                         <ul>
                             <li>In the 4-Player category reach the end of the stage. There are no additional restrictions.</li>
                             <li>In the 2-Player category since the team is limited to 2 players during the entire course of the game a third or fourth player cannot start with
-                            the original 2 players and drop items. Additionally, the 2 players must be in the first and second character game slots. This is to prevent 
+                            the original 2 players and drop items. Additionally, the 2 players must be in the first and second character game slots. This is to prevent
                             skipping rooms in stages where the order of the characters is a factor, such as, 2C4.</li>
                         </ul>
                     </p>
@@ -65,7 +69,7 @@
                 <div class="ui inverted segment grid">
                     <div class="row">
                         <div class="column">
-                                <div style="text-align: center;"><b>Normal Mode</b></div> 
+                                <div style="text-align: center;"><b>Normal Mode</b></div>
                             <br>
                             <div id="server_normal" class="ui selection dropdown">
                                 <input type="hidden" name="server_normal" value="0">
@@ -126,7 +130,7 @@
                 <div class="ui inverted segment grid">
                     <div class="row">
                         <div class="column">
-                                <div style="text-align: center;"><b>Challenge Mode</b></div> 
+                                <div style="text-align: center;"><b>Challenge Mode</b></div>
                                 <br>
                             <div id="episode_cmode" class="ui selection dropdown">
                                 <input type="hidden" name="episode_cmode" value="1">
@@ -161,6 +165,7 @@
                     </div>
                 </div>
                 <div id="results"></div>
+            </div>
         </main>
 
         <footer class="ui inverted vertical footer segment">
