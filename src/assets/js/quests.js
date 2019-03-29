@@ -22,7 +22,7 @@ var questListData = [
     {
         "name": "MA1B",
         "enabled": true
-    },	
+    },
     {
         "name": "MA1C",
         "enabled": true
@@ -82,7 +82,7 @@ var questListData = [
     {
         "name": "MA2B",
         "enabled": true
-    },	
+    },
     {
         "name": "MA2C",
         "enabled": true
@@ -142,7 +142,7 @@ var questListData = [
     {
         "name": "Gal Da Val Darkness",
         "enabled": true
-    },	
+    },
     {
         "name": "Power Plant Plight",
         "enabled": true
