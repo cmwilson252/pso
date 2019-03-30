@@ -1847,7 +1847,149 @@ let recordData_normal = [
 		Place: 1
 	},
 
+	//vanilla times ^
 
+	{
+		QuestName: "MA1V2",
+		Ep: 1,
+		Server: 2,
+		PlayerCount: 8,
+		TimeInSeconds: 724,
+		Players: ["Armand", "Belz", "Mattie"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MU1",
+		Ep: 1,
+		Server: 2,
+		PlayerCount: 0,
+		TimeInSeconds: 301,
+		Players: ["Belz"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MU1",
+		Ep: 1,
+		Server: 2,
+		PlayerCount: 4,
+		TimeInSeconds: 371,
+		Players: ["Belz", "Armand", "9898", "Tom"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MU2",
+		Ep: 1,
+		Server: 2,
+		PlayerCount: 2,
+		TimeInSeconds: 420,
+		Players: ["Belz", "Armand"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MU3",
+		Ep: 1,
+		Server: 2,
+		PlayerCount: 4,
+		TimeInSeconds: 180,
+		Players: ["Belz", "Armand", "9898", "Schranko"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MU3",
+		Ep: 1,
+		Server: 2,
+		PlayerCount: 4,
+		TimeInSeconds: 85,
+		Players: ["Bert", "Armand"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MU4",
+		Ep: 1,
+		Server: 2,
+		PlayerCount: 0,
+		TimeInSeconds: 283,
+		Players: ["Belz"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MU4",
+		Ep: 1,
+		Server: 2,
+		PlayerCount: 2,
+		TimeInSeconds: 517,
+		Players: ["Belz", "Armand"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MU4",
+		Ep: 1,
+		Server: 2,
+		PlayerCount: 2,
+		TimeInSeconds: 874,
+		Players: ["Belz", "Armand", "9898", "Blue World"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 2,
+		PlayerCount: 9,
+		TimeInSeconds: 616,
+		Players: ["Belz", "Kevka", "Kayak"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 2,
+		PlayerCount: 0,
+		TimeInSeconds: 783,
+		Players: ["Armand"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 2,
+		PlayerCount: 4,
+		TimeInSeconds: 662,
+		Players: ["Belz", "Schranko","Cody", "Kayak"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "Christmas Fiasco I",
+		Ep: 1,
+		Server: 2,
+		PlayerCount: 4,
+		TimeInSeconds: 864,
+		Players: ["Belz", "Schranko","Cody", "Armand"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "Christmas Fiasco I",
+		Ep: 1,
+		Server: 2,
+		PlayerCount: 2,
+		TimeInSeconds: 420,
+		Players: ["Belz","Armand"],
+		TeamName: "",
+		Place: 1
+	},
+	
 
 ]
 
