@@ -71,9 +71,7 @@ abbr[title] {
  * Body CSS
  */
 html,
-body,
-.pusher {
-    height: 100%;
+body {
     display: flex;
     flex-direction: column;
 }
@@ -84,15 +82,11 @@ body,
 
 body > header,
 body > main,
-body > footer,
-.pusher > header,
-.pusher > main,
-.pusher > footer {
+body > footer {
     flex: 0 0 auto;
 }
 
-body > main,
-.pusher > main {
+body > main {
     flex: 1 0 auto;
     margin-top: 7em;
     margin-bottom: 7em;
@@ -202,7 +196,7 @@ footer {
         display: none !important;
     }
 }
-@media (min-width: 1023px) {
+@media (min-width: 1025px) {
     .mobile {
         display: none !important;
     }
