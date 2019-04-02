@@ -71,19 +71,28 @@ abbr[title] {
  * Body CSS
  */
 html,
-body {
+body,
+.pusher {
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
+.pusher {
+    background: inherit !important;
+}
+
 body > header,
 body > main,
-body > footer {
+body > footer,
+.pusher > header,
+.pusher > main,
+.pusher > footer {
     flex: 0 0 auto;
 }
 
-body > main {
+body > main,
+.pusher > main {
     flex: 1 0 auto;
     margin-top: 7em;
     margin-bottom: 7em;
@@ -186,4 +195,15 @@ footer {
     text-align: left;
     margin: auto;
     justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+    .computer {
+        display: none !important;
     }
+}
+@media (min-width: 1023px) {
+    .mobile {
+        display: none !important;
+    }
+}

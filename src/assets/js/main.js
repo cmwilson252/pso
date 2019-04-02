@@ -7,11 +7,14 @@ if ($('.ui.accordion').length > 0) {
 if ($('.ui.dropdown').length > 0) {
     $('.ui.dropdown').dropdown();
 }
+if ($('.ui.sidebar').length > 0) {
+    $('.ui.sidebar').sidebar('attach events', '.toc.item');
+}
 
 let Enums = {
-    GameModeTypes:{ 
-        Challenge: 0, 
-        Normal: 1  
+    GameModeTypes:{
+        Challenge: 0,
+        Normal: 1
     },
     NumberOfPlayers: {
         OPM_No_PB:0,
