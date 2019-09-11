@@ -1427,6 +1427,16 @@ let recordData_normal = [
 	//2014 Times^
 
 	{
+		QuestName: "MA1A",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 0,
+		Players: [""],
+		TeamName: "",
+		Place: 1
+	},
+	{
 		QuestName: "MA1B",
 		Ep: 1,
 		Server: 3,
@@ -1464,6 +1474,16 @@ let recordData_normal = [
 		TimeInSeconds: 876,
 		Players: [".942937"],
 		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "MA1V2",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 0,
+		Players: [""],
+		TeamName: "",
 		Place: 1
 	},
 	{
@@ -1657,6 +1677,16 @@ let recordData_normal = [
 		Place: 2
 	},
 	{
+		QuestName: "MAS",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 0,
+		Players: [""],
+		TeamName: "",
+		Place: 1
+	},
+	{
 		QuestName: "MU1",
 		Ep: 1,
 		Server: 3,
@@ -1810,10 +1840,60 @@ let recordData_normal = [
 		QuestName: "MU4",
 		Ep: 1,
 		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 0,
+		Players: [""],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MU4",
+		Ep: 1,
+		Server: 3,
 		PlayerCount: 3,
 		TimeInSeconds: 657,
 		Players: ["Killz", "Demonized"],
 		TeamName: "CF",
+		Place: 1
+	},
+	{
+		QuestName: "SU1",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 0,
+		Players: [""],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "SU2",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 0,
+		Players: [""],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "SU3",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 0,
+		Players: [""],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "SU4",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 0,
+		Players: [""],
+		TeamName: "",
 		Place: 1
 	},
 	{
@@ -1937,6 +2017,26 @@ let recordData_normal = [
 		Place: 1
 	},
 	{
+		QuestName: "Christmas Fiasco I",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 0,
+		Players: [""],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "Passion of the Blacksmith",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 0,
+		Players: [""],
+		TeamName: "",
+		Place: 1
+	},
+	{
 		QuestName: "MA2A",
 		Ep: 2,
 		Server: 3,
@@ -1981,7 +2081,7 @@ let recordData_normal = [
 		Ep: 2,
 		Server: 3,
 		PlayerCount: 0,
-		TimeInSeconds: 379,
+		TimeInSeconds: 366,
 		Players: ["Wilson"],
 		TeamName: "CF",
 		Place: 1 
