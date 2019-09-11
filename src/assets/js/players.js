@@ -42,7 +42,7 @@ let Players = [
         classes: "HUct, FOnl, RAct"
     }, {
         name: "Lemon",
-        image: "lemon.bmp",
+        image: "lemon.png",
         raw_desc: `Plays FOmarl and enjoys teamz (when mic'd up). NA timezones.
                                        <br>
                                        <a href="https://www.youtube.com/user/PirlKnighte">Lemon</a>`,

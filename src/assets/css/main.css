@@ -72,9 +72,12 @@ abbr[title] {
  */
 html,
 body {
-    height: 100%;
     display: flex;
     flex-direction: column;
+}
+
+.pusher {
+    background: inherit !important;
 }
 
 body > header,
@@ -186,4 +189,15 @@ footer {
     text-align: left;
     margin: auto;
     justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+    .computer {
+        display: none !important;
     }
+}
+@media (min-width: 1025px) {
+    .mobile {
+        display: none !important;
+    }
+}
