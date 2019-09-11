@@ -49,9 +49,9 @@ let RESULT_LIST_TEMPLATE = `
 function serverCodeToName(code){
 	switch(code){
 		case 0: return "2014";
-		case 1: return "Ultima";
+		case 1: return "Vanilla";
 		case 2: return "Gamecube";
-		case 3: return "Vanilla";
+		case 3: return "Ultima";
 		default: return "Unknown"
 	}
 }

@@ -5,7 +5,7 @@ let Players = [
         raw_desc: `
                               <br>
                               <a href="https://www.youtube.com/channel/UCPdZQDN-PzLu9yA5XaI8nfA">Shade PSO</a>`,
-        servers: "Ultima, Unseen, Ephinea(barely)",
+        servers: "Unseen",
         teams: "CF",
         classes: "HUct, RAct, HUnl"
     }, {

@@ -1427,6 +1427,16 @@ let recordData_normal = [
 	//2014 Times^
 
 	{
+		QuestName: "MA1B",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 852,
+		Players: ["SteveCares"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
 		QuestName: "MA1C",
 		Ep: 1,
 		Server: 3,
@@ -1451,10 +1461,200 @@ let recordData_normal = [
 		Ep: 1,
 		Server: 3,
 		PlayerCount: 0,
-		TimeInSeconds: 781,
+		TimeInSeconds: 876,
 		Players: [".942937"],
 		TeamName: "Tankstelle",
 		Place: 1
+	},
+	{
+		QuestName: "MAE: Forest",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 250,
+		Players: ["Roo"],
+		TeamName: "Pioneers",
+		Place: 1
+	},
+	{
+		QuestName: "MAE: Forest",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 268,
+		Players: ["Shovel"],
+		TeamName: "",
+		Place: 2
+	},
+	{
+		QuestName: "MAE: Forest",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 201,
+		Players: ["Ender", "Sange", "Travendus", "NoHit"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "MAE: Forest",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 217,
+		Players: ["Roo", "Melody", "-10.0", "_shadowfix"],
+		TeamName: "",
+		Place: 2
+	},
+	{
+		QuestName: "MAE: Caves",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 280,
+		Players: ["Sange"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "MAE: Caves",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 322,
+		Players: ["Shovel"],
+		TeamName: "",
+		Place: 2
+	},
+	{
+		QuestName: "MAE: Caves",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 243,
+		Players: ["Roo", "SteveCares", "Ender", "Travendus"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MAE: Caves",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 269,
+		Players: ["lil b", "VENOM", "Siegmund", "empire"],
+		TeamName: "",
+		Place: 2
+	},
+	{
+		QuestName: "MAE: Mines",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 299,
+		Players: ["Sange"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "MAE: Mines",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 315,
+		Players: ["NoHit"],
+		TeamName: "",
+		Place: 2
+	},
+	{
+		QuestName: "MAE: Mines",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 317,
+		Players: ["Roo"],
+		TeamName: "Pioneers",
+		Place: 3
+	},
+	{
+		QuestName: "MAE: Mines",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 214,
+		Players: ["Sange", "Ender", "SteveCares", "Travendus"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "MAE: Mines",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 234,
+		Players: ["Sange", "Ender", "Zero 641", "Travendus"],
+		TeamName: "",
+		Place: 2
+	},
+	{
+		QuestName: "MAE: Mines",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 270,
+		Players: ["Roo", "Yuffie", "Fluidity", "Eun-Ji"],
+		TeamName: "",
+		Place: 3
+	},
+	{
+		QuestName: "MAE: Ruins",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 364,
+		Players: ["Roo"],
+		TeamName: "Pioneers",
+		Place: 1
+	},
+	{
+		QuestName: "MAE: Ruins",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 432,
+		Players: ["Saga"],
+		TeamName: "",
+		Place: 2
+	},
+	{
+		QuestName: "MAE: Ruins",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 442,
+		Players: ["A Man in Flames"],
+		TeamName: "",
+		Place: 3
+	},
+	{
+		QuestName: "MAE: Ruins",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 236,
+		Players: ["Roo", "jajaswipo", "Travendus", "Ender"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MAE: Ruins",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 270,
+		Players: ["Demonized", "Siegmund", "lil b", "bModE"],
+		TeamName: "",
+		Place: 2
 	},
 	{
 		QuestName: "MU1",
@@ -1501,9 +1701,9 @@ let recordData_normal = [
 		Ep: 1,
 		Server: 3,
 		PlayerCount: 0,
-		TimeInSeconds: 378,
-		Players: ["Sange"],
-		TeamName: "Tankstelle",
+		TimeInSeconds: 380,
+		Players: ["Roo"],
+		TeamName: "Pioneers",
 		Place: 5
 	},
 	{
@@ -1592,8 +1792,8 @@ let recordData_normal = [
 		Server: 3,
 		PlayerCount: 0,
 		TimeInSeconds: 158,
-		Players: ["StevieWonderDownUnder"],
-		TeamName: "",
+		Players: ["SteveCares"],
+		TeamName: "Tankstelle",
 		Place: 1
 	},
 	{
@@ -1732,7 +1932,7 @@ let recordData_normal = [
 		Server: 3,
 		PlayerCount: 5,
 		TimeInSeconds: 578,
-		Players: ["Government", "Natural", "Nebula", "Wigga"],
+		Players: ["Demonized", "Natural", "Nebula", "Wigga"],
 		TeamName: "",
 		Place: 1
 	},
@@ -1777,6 +1977,196 @@ let recordData_normal = [
 		Place: 1
 	},
 	{
+		QuestName: "MAE: Temple",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 379,
+		Players: ["Wilson"],
+		TeamName: "CF",
+		Place: 1 
+	},
+	{
+		QuestName: "MAE: Temple",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 390,
+		Players: ["Roo"],
+		TeamName: "Pioneers",
+		Place: 2 
+	},
+	{
+		QuestName: "MAE: Temple",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 507,
+		Players: ["A Man in Flames"],
+		TeamName: "",
+		Place: 3
+	},	
+	{
+		QuestName: "MAE: Temple",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 228,
+		Players: ["Ender", "Travendus", "Sange", "NoHit"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},	
+	{
+		QuestName: "MAE: Temple",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 229,
+		Players: ["VENOM", "Demonized", "lil b", "R66-Y"],
+		TeamName: "",
+		Place: 2 
+	},	
+	{
+		QuestName: "MAE: Spaceship",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 268,
+		Players: ["Roo"],
+		TeamName: "Pioneers",
+		Place: 1
+	},	
+	{
+		QuestName: "MAE: Spaceship",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 304,
+		Players: ["A Man in Flames"],
+		TeamName: "",
+		Place: 2 
+	},
+	{
+		QuestName: "MAE: Spaceship",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 211,
+		Players: ["Ender", "Travendus", "Sange", "SteveCares"],
+		TeamName: "Tankstelle",
+		Place: 1 
+	},
+	{
+		QuestName: "MAE: Spaceship",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 259,
+		Players: ["NoHit", "Sange", "Alisaryn", "LilYuki"],
+		TeamName: "",
+		Place: 2
+	},
+	{
+		QuestName: "MAE: Spaceship",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 267,
+		Players: ["Ender", "Dizzy", "Sange", "SteveCares"],
+		TeamName: "Tankstelle",
+		Place: 3 
+	},
+	{
+		QuestName: "MAE: CCA",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 427,
+		Players: ["Ender"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "MAE: CCA",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 731,
+		Players: ["A Man in Flames"],
+		TeamName: "",
+		Place: 2
+	},
+	{
+		QuestName: "MAE: CCA",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 187,
+		Players: ["Sange", "Ender", "SteveCares", "Travendus"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "MAE: CCA",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 230,
+		Players: ["Sange", "Ender", "Arsuru", "Travendus"],
+		TeamName: "",
+		Place: 2
+	},
+	{
+		QuestName: "MAE: Seabed",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 344,
+		Players: ["Ender"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "MAE: Seabed",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 355,
+		Players: ["NDW"],
+		TeamName: "Tankstelle",
+		Place: 2
+	},
+	{
+		QuestName: "MAE: Seabed",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 278,
+		Players: ["Arsuru", "Ender", "Sange", "Travendus"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MAE: Seabed",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 285,
+		Players: ["Ender", "Sange", "Travendus", "astallasalion"],
+		TeamName: "",
+		Place: 2
+	},
+	{
+		QuestName: "MAE: Seabed",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 289,
+		Players: ["Demonized", "VENOM", "bModE", "Mille"],
+		TeamName: "",
+		Place: 3
+	},
+	{
 		QuestName: "MAE: Tower",
 		Ep: 2,
 		Server: 3,
@@ -1786,6 +2176,46 @@ let recordData_normal = [
 		TeamName: "Tankstelle",
 		Place: 1
 	},
+	{
+		QuestName: "MAE: Tower",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 914,
+		Players: ["A Man in Flames"],
+		TeamName: "",
+		Place: 2
+	},
+	{
+		QuestName: "MAE: Tower",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 303,
+		Players: ["NoHit", "Ender", "Travendus", "Sange"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "MAE: Tower",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 334,
+		Players: ["Roo", "Ender", "Travendus", "SteveCares"],
+		TeamName: "",
+		Place: 2 
+	},
+	{
+		QuestName: "RT",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 1201,
+		Players: ["Esc"],
+		TeamName: "",
+		Place: 1
+	},	
 	{
 		QuestName: "RT",
 		Ep: 2,
@@ -1824,6 +2254,66 @@ let recordData_normal = [
 		TimeInSeconds: 910,
 		Players: ["ReVisioN", "16085k"],
 		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "MAE: Crater",
+		Ep: 4,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 424,
+		Players: ["Ade"],
+		TeamName: "CO",
+		Place: 1
+	},
+	{
+		QuestName: "MAE: Crater",
+		Ep: 4,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 274,
+		Players: ["Demonized", "VENOM", "bModE", "Siegmund"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MAE: Desert",
+		Ep: 4,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 640,
+		Players: ["A Man in Flames"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MAE: Desert",
+		Ep: 4,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 226,
+		Players: ["Ender", "SteveCares", "Sange", "Travendus"],
+		TeamName: "Tankstelle",
+		Place: 1 
+	},
+	{
+		QuestName: "MAE: Desert",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 297,
+		Players: ["Demonized", ".942937", "bModE", "gif"],
+		TeamName: "",
+		Place: 2 
+	},
+	{
+		QuestName: "NMU3",
+		Ep: 4,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 535,
+		Players: ["Ender"],
+		TeamName: "Tankstelle",
 		Place: 1
 	},
 	{
