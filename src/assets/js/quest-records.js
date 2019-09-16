@@ -1,5 +1,5 @@
 
-let HeaderList = [ 
+let HeaderList = [
 	{ key: "QuestName", header: "Quest", collapse:true, formatter: (x) => { return x; }},
 	//{ key: "Ep", header: "Episode", collapse: false, formatter: (x) => {return "Episode "+x;}},
 	{ key: "TimeInSeconds", header: "Time", collapse: false, formatter: (x) => { return secondsToString(x); } },
@@ -52,6 +52,7 @@ function serverCodeToName(code){
 		case 1: return "Vanilla";
 		case 2: return "Gamecube";
 		case 3: return "Ultima";
+		case 4: return "Blue Burst";
 		default: return "Unknown"
 	}
 }
@@ -83,7 +84,7 @@ function updateSearchTable() {
 	// filter episode
 	data = _.filter(data, (x) => {return x.Ep == CurrentSearch.Ep;});
 	// filter server
-	if (CurrentSearch.Serv !== null)	
+	if (CurrentSearch.Serv !== null)
 		data = _.filter(data, (x) => {return x.Server == CurrentSearch.Serv;});
 	// filter type
 	data = _.filter(data, (x) => {return x.PlayerCount == CurrentSearch.PlayerCount;});
@@ -109,7 +110,7 @@ function updateSearchTable() {
 	for(let d=0; d < data.length; d++){
 		let current_quest = data[d];
 		let quest_row_string = "";
-		if (CurrentQuestName !== current_quest.QuestName) 
+		if (CurrentQuestName !== current_quest.QuestName)
 			color_index = 4;
 
 		for(let i=0; i < HeaderList.length; i++){
@@ -119,11 +120,11 @@ function updateSearchTable() {
 			let color_replacement = "";
 			if (CurrentSearch.SortBy == "QuestName" && HeaderList[i].key == "TimeInSeconds"){
 				let color = Colors[color_index];
-				if (color_index > 0) 
+				if (color_index > 0)
 					color_index -= 1;
 				color_replacement = "color='"+color+"'";
 			}
-			// if cell is in a collapsable column && our header 
+			// if cell is in a collapsable column && our header
 			if (HeaderList[i].collapse && current_quest.QuestName == CurrentQuestName) {
 				element_string = element_string.replace("__VALUE__","");
 				quest_row_string += element_string.replace("__COLOR__",color_replacement);
@@ -134,7 +135,7 @@ function updateSearchTable() {
 			}
 		}
 		quest_row_string = RESULT_ELEMENT_TEMPLATE.substring(0).replace("__ELEMENT_VALUE_LIST__",quest_row_string);
-		elementList_string += quest_row_string; 
+		elementList_string += quest_row_string;
 	}
 	result_string = result_string.replace("__HEADER_LIST__",headerList_string);
 	result_string = result_string.replace("__ELEMENT_LIST__",elementList_string);
@@ -149,7 +150,7 @@ function setupButtons() {
     	CurrentSearch.GameMode = Enums.GameModeTypes.Challenge;
 		CurrentSearch.PlayerCount = $('#party_count_cmode').dropdown('get values');
 		CurrentSearch.Ep = $('#episode_cmode').dropdown('get values');
-		CurrentSearch.Serv = null;
+		CurrentSearch.Serv = $('#server_cmode').dropdown('get values');
 		CurrentSearch.SortBy = "QuestName";
         updateSearchTable();
     });

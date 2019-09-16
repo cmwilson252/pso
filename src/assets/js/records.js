@@ -1,6 +1,6 @@
-//    GameModeTypes:{ 
-//	Challenge: 0, 
-//	Normal: 1  
+//    GameModeTypes:{
+//	Challenge: 0,
+//	Normal: 1
 //},
 //NumberOfPlayers: {
 //	OPM_No-PB:0,
@@ -2084,7 +2084,7 @@ let recordData_normal = [
 		TimeInSeconds: 366,
 		Players: ["Wilson"],
 		TeamName: "CF",
-		Place: 1 
+		Place: 1
 	},
 	{
 		QuestName: "MAE: Temple",
@@ -2094,7 +2094,7 @@ let recordData_normal = [
 		TimeInSeconds: 390,
 		Players: ["Roo"],
 		TeamName: "Pioneers",
-		Place: 2 
+		Place: 2
 	},
 	{
 		QuestName: "MAE: Temple",
@@ -2105,7 +2105,7 @@ let recordData_normal = [
 		Players: ["A Man in Flames"],
 		TeamName: "",
 		Place: 3
-	},	
+	},
 	{
 		QuestName: "MAE: Temple",
 		Ep: 2,
@@ -2115,7 +2115,7 @@ let recordData_normal = [
 		Players: ["Ender", "Travendus", "Sange", "NoHit"],
 		TeamName: "Tankstelle",
 		Place: 1
-	},	
+	},
 	{
 		QuestName: "MAE: Temple",
 		Ep: 2,
@@ -2124,8 +2124,8 @@ let recordData_normal = [
 		TimeInSeconds: 229,
 		Players: ["VENOM", "Demonized", "lil b", "R66-Y"],
 		TeamName: "",
-		Place: 2 
-	},	
+		Place: 2
+	},
 	{
 		QuestName: "MAE: Spaceship",
 		Ep: 2,
@@ -2135,7 +2135,7 @@ let recordData_normal = [
 		Players: ["Roo"],
 		TeamName: "Pioneers",
 		Place: 1
-	},	
+	},
 	{
 		QuestName: "MAE: Spaceship",
 		Ep: 2,
@@ -2144,7 +2144,7 @@ let recordData_normal = [
 		TimeInSeconds: 304,
 		Players: ["A Man in Flames"],
 		TeamName: "",
-		Place: 2 
+		Place: 2
 	},
 	{
 		QuestName: "MAE: Spaceship",
@@ -2154,7 +2154,7 @@ let recordData_normal = [
 		TimeInSeconds: 211,
 		Players: ["Ender", "Travendus", "Sange", "SteveCares"],
 		TeamName: "Tankstelle",
-		Place: 1 
+		Place: 1
 	},
 	{
 		QuestName: "MAE: Spaceship",
@@ -2174,7 +2174,7 @@ let recordData_normal = [
 		TimeInSeconds: 267,
 		Players: ["Ender", "Dizzy", "Sange", "SteveCares"],
 		TeamName: "Tankstelle",
-		Place: 3 
+		Place: 3
 	},
 	{
 		QuestName: "MAE: CCA",
@@ -2304,7 +2304,7 @@ let recordData_normal = [
 		TimeInSeconds: 334,
 		Players: ["Roo", "Ender", "Travendus", "SteveCares"],
 		TeamName: "",
-		Place: 2 
+		Place: 2
 	},
 	{
 		QuestName: "RT",
@@ -2315,7 +2315,7 @@ let recordData_normal = [
 		Players: ["Esc"],
 		TeamName: "",
 		Place: 1
-	},	
+	},
 	{
 		QuestName: "RT",
 		Ep: 2,
@@ -2394,7 +2394,7 @@ let recordData_normal = [
 		TimeInSeconds: 226,
 		Players: ["Ender", "SteveCares", "Sange", "Travendus"],
 		TeamName: "Tankstelle",
-		Place: 1 
+		Place: 1
 	},
 	{
 		QuestName: "MAE: Desert",
@@ -2404,7 +2404,7 @@ let recordData_normal = [
 		TimeInSeconds: 297,
 		Players: ["Demonized", ".942937", "bModE", "gif"],
 		TeamName: "",
-		Place: 2 
+		Place: 2
 	},
 	{
 		QuestName: "NMU3",
@@ -2586,10 +2586,10 @@ let recordData_normal = [
 let recordData_cmode = [
 	{
 		QuestName: "ExampleQuestString_cmode",
-		Ep: 2,
+		Ep: -1,
+		Server: -1,
 		TimeInSeconds: 1337,
-		PlayerCount: 3,
+		PlayerCount: -1,
 		Players: ["Me","Myself","I",null]
-
 	}
 ]

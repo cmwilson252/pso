@@ -70,8 +70,13 @@
                 <div class="ui inverted segment grid">
                     <div class="row">
                         <div class="column">
-                                <div style="text-align: center;"><b>Normal Mode</b></div>
-                            <br>
+                            <div style="text-align: center;">
+                                <b>Normal Mode</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
                             <div id="server_normal" class="ui selection dropdown">
                                 <input type="hidden" name="server_normal" value="0">
                                 <i class="dropdown icon"></i>
@@ -133,12 +138,30 @@
                 <div class="ui inverted segment grid">
                     <div class="row">
                         <div class="column">
-                                <div style="text-align: center;"><b>Challenge Mode</b></div>
-                                <br>
+                            <div style="text-align: center;">
+                                <b>Challenge Mode</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <div id="server_cmode" class="ui selection dropdown">
+                                <input type="hidden" name="server_cmode" value="0">
+                                <i class="dropdown icon"></i>
+                                <div class="default text">Meta</div>
+                                <div class="menu">
+                                    <div class="item" data-value="2">GameCube</div>
+                                    <div class="item" data-value="4">Blue Burst</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
                             <div id="episode_cmode" class="ui selection dropdown">
                                 <input type="hidden" name="episode_cmode" value="1">
                                 <i class="dropdown icon"></i>
-                                <div class="default text">Challenge Mode</div>
+                                <div class="default text">Episode</div>
                                 <div class="menu">
                                     <div class="item" data-value="1">Episode 1</div>
                                     <div class="item" data-value="2">Episode 2</div>
