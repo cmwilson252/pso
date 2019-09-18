@@ -87,10 +87,30 @@ let recordData_normal = [
 		Ep: 1,
 		Server: 1,
 		PlayerCount: 6,
+		TimeInSeconds: 376,
+		Players: ["Shin"],
+		TeamName: "Jade",
+		Place: 1
+	},
+	{
+		QuestName: "MU1",
+		Ep: 1,
+		Server: 1,
+		PlayerCount: 6,
 		TimeInSeconds: 373,
 		Players: ["Yannv"],
 		TeamName: "CF",
-		Place: 1
+		Place: 2
+	},
+	{
+		QuestName: "MU1",
+		Ep: 1,
+		Server: 1,
+		PlayerCount: 6,
+		TimeInSeconds: 372,
+		Players: ["Shiida"],
+		TeamName: "Univers-PS",
+		Place: 3
 	},
 	{
 		QuestName: "MU1",
@@ -150,7 +170,7 @@ let recordData_normal = [
 		TimeInSeconds: 638,
 		Players: ["Rashan"],
 		TeamName: "CF",
-		Place: 1
+		Place: 2
 	},
 	{
 		QuestName: "TTF",
@@ -160,7 +180,7 @@ let recordData_normal = [
 		TimeInSeconds: 656,
 		Players: ["Izaya"],
 		TeamName: "Illuminati",
-		Place: 2
+		Place: 3
 	},
 	{
 		QuestName: "TTF",
@@ -183,11 +203,31 @@ let recordData_normal = [
 		Place: 1
 	},
 	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 1,
+		PlayerCount: 2,
+		TimeInSeconds: 576,
+		Players: ["ScopedOut", "Shoutgu"],
+		TeamName: "CF",
+		Place: 2
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 1,
+		PlayerCount: 2,
+		TimeInSeconds: 511,
+		Players: ["El Socko", "Night"],
+		TeamName: "Angelic",
+		Place: 2
+	},
+	{
 		QuestName: "HOD II",
 		Ep: 1,
 		Server: 1,
 		PlayerCount: 6,
-		TimeInSeconds: 656,
+		TimeInSeconds: 2697,
 		Players: ["Shiida"],
 		TeamName: "Univers-PS",
 		Place: 1
@@ -199,7 +239,7 @@ let recordData_normal = [
 		PlayerCount: 5,
 		TimeInSeconds: 1057,
 		Players: ["Yannv", "Killz", "Wilson", "MudkipzJM"],
-		TeamName: "",
+		TeamName: "CF",
 		Place: 1
 	},
 	{
@@ -207,8 +247,8 @@ let recordData_normal = [
 		Ep: 2,
 		Server: 1,
 		PlayerCount: 4,
-		TimeInSeconds: 1057,
-		Players: ["Yannv", "Killz", "Rasha", "ScopedOut"],
+		TimeInSeconds: 726,
+		Players: ["Yannv", "Killz", "Rashan", "ScopedOut"],
 		TeamName: "CF",
 		Place: 1
 	},
@@ -216,8 +256,8 @@ let recordData_normal = [
 		QuestName: "MAX S",
 		Ep: 2,
 		Server: 1,
-		PlayerCount: 5,
-		TimeInSeconds: 1031,
+		PlayerCount: 4,
+		TimeInSeconds: 1506,
 		Players: ["Rashan", "MudkipzJM", "Night", "TripleR"],
 		TeamName: "",
 		Place: 1
@@ -229,8 +269,8 @@ let recordData_normal = [
 		PlayerCount: 4,
 		TimeInSeconds: 1517,
 		Players: ["Rashan", "MudkipzJM", "Yannv", "Killz"],
-		TeamName: "",
-		Place: 1
+		TeamName: "CF",
+		Place: 2
 	},
 	{
 		QuestName: "MAE: Seabed",
