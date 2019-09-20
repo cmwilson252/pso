@@ -422,16 +422,16 @@ let recordData_normal = [
 		TeamName: "CF",
 		Place: 1
 	},
-        {
-                QuestName: “POD”,
-                Ep: 4,
-                Server: 1,
-                PlayerCount: 2,
-                TimeInSeconds: 1440,
-                Players: [“Shin”, “Jade”],
-                TeamName: “Jade”,
-                Place: 1
-        },
+    {
+        QuestName: "POD",
+        Ep: 4,
+        Server: 1,
+        PlayerCount: 2,
+        TimeInSeconds: 1440,
+        Players: ["Shin", "Jade"],
+        TeamName: "Jade",
+        Place: 1
+    },
 	{
 		QuestName: "ROW",
 		Ep: 4,
