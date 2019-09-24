@@ -1197,6 +1197,16 @@ let recordData_normal = [
 		QuestName: "MA4C",
 		Ep: 4,
 		Server: 0,
+		PlayerCount: 5,
+		TimeInSeconds: 1203,
+		Players: ["Grifter", "Darv", "Colin", "Rain"],
+		TeamName: "",
+		Place: 4
+	},
+	{
+		QuestName: "MA4C",
+		Ep: 4,
+		Server: 0,
 		PlayerCount: 2,
 		TimeInSeconds: 987,
 		Players: ["16085k", "Alukard"],
@@ -2073,6 +2083,16 @@ let recordData_normal = [
 		PlayerCount: 0,
 		TimeInSeconds: 0,
 		Players: [""],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "Christmas Fiasco I",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 0,
+		Players: ["Sange", "Belz", "ReVisioN",".942937"],
 		TeamName: "",
 		Place: 1
 	},
