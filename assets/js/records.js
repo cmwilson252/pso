@@ -1622,7 +1622,7 @@ let recordData_normal = [
 		Server: 3,
 		PlayerCount: 4,
 		TimeInSeconds: 269,
-		Players: ["lil b", "VENOM", "Siegmund", "empire"],
+		Players: ["lil b ", "VENOM", "Siegmund", "empire"],
 		TeamName: "",
 		Place: 2
 	},
@@ -1732,7 +1732,7 @@ let recordData_normal = [
 		Server: 3,
 		PlayerCount: 4,
 		TimeInSeconds: 270,
-		Players: ["Demonized", "Siegmund", "lil b", "bModE"],
+		Players: ["Demonized", "Siegmund", "lil b ", "bModE"],
 		TeamName: "",
 		Place: 2
 	},
@@ -1881,8 +1881,8 @@ let recordData_normal = [
 		Ep: 1,
 		Server: 3,
 		PlayerCount: 0,
-		TimeInSeconds: 158,
-		Players: ["SteveCares"],
+		TimeInSeconds: 99,
+		Players: ["Sange"],
 		TeamName: "Tankstelle",
 		Place: 1
 	},
@@ -1891,8 +1891,8 @@ let recordData_normal = [
 		Ep: 1,
 		Server: 3,
 		PlayerCount: 0,
-		TimeInSeconds: 129,
-		Players: ["Ender"],
+		TimeInSeconds: 98,
+		Players: ["SteveCares"],
 		TeamName: "Tankstelle",
 		Place: 2
 	},
@@ -1960,6 +1960,26 @@ let recordData_normal = [
 		QuestName: "TTF",
 		Ep: 1,
 		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 	510,
+		Players: ["Sange"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 	523,
+		Players: ["Brandon"],
+		TeamName: "MA4C",
+		Place: 2
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 3,
 		PlayerCount: 7,
 		TimeInSeconds: 	658,
 		Players: ["ReVisioN"],
@@ -2022,9 +2042,29 @@ let recordData_normal = [
 		Server: 3,
 		PlayerCount: 6,
 		TimeInSeconds: 758,
-		Players: ["16085"],
+		Players: ["16085k"],
 		TeamName: "MA4B",
 		Place: 4
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 2,
+		TimeInSeconds: 512,
+		Players: ["Ender", "Brandon"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "TTF",
+		Ep: 1,
+		Server: 3,
+		PlayerCount: 2,
+		TimeInSeconds: 516,
+		Players: ["Sange", ".942937"],
+		TeamName: "Tankstelle",
+		Place: 2
 	},
 	{
 		QuestName: "TTF",
@@ -2034,17 +2074,17 @@ let recordData_normal = [
 		TimeInSeconds: 526,
 		Players: ["mt76907", "ReVisioN"],
 		TeamName: "MA4B",
-		Place: 1
+		Place: 3
 	},
 	{
 		QuestName: "TTF",
 		Ep: 1,
 		Server: 3,
 		PlayerCount: 2,
-		TimeInSeconds: 554,
-		Players: ["mt76907", "ReVisioN"],
-		TeamName: "MA4B",
-		Place: 2
+		TimeInSeconds: 546,
+		Players: ["Ender", "Roo"],
+		TeamName: "",
+		Place: 4
 	},
 	{
 		QuestName: "TTF",
@@ -2091,7 +2131,7 @@ let recordData_normal = [
 		Ep: 1,
 		Server: 3,
 		PlayerCount: 4,
-		TimeInSeconds: 0,
+		TimeInSeconds: 1107,
 		Players: ["Sange", "Belz", "ReVisioN",".942937"],
 		TeamName: "",
 		Place: 1
@@ -2192,7 +2232,7 @@ let recordData_normal = [
 		Server: 3,
 		PlayerCount: 4,
 		TimeInSeconds: 229,
-		Players: ["VENOM", "Demonized", "lil b", "R66-Y"],
+		Players: ["VENOM", "Demonized", "lil b ", "R66-Y"],
 		TeamName: "",
 		Place: 2
 	},
@@ -2377,6 +2417,46 @@ let recordData_normal = [
 		Place: 2
 	},
 	{
+		QuestName: "MU1",
+		Ep: 4,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 489,
+		Players: [".942937"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "MU3",
+		Ep: 4,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 230,
+		Players: [".942937"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "MU4",
+		Ep: 4,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 722,
+		Players: ["Dizzy", "VENOM", "Brandon", "lil b"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MU5",
+		Ep: 4,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 671,
+		Players: [".942937"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
 		QuestName: "RT",
 		Ep: 2,
 		Server: 3,
@@ -2391,10 +2471,30 @@ let recordData_normal = [
 		Ep: 2,
 		Server: 3,
 		PlayerCount: 4,
+		TimeInSeconds: 843,
+		Players: [".942937", "Belz", "Sange", "Mote"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "RT",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 935,
+		Players: ["Brandon", "Dizzy", "lil b", "Ayria"],
+		TeamName: "",
+		Place: 2
+	},
+	{
+		QuestName: "RT",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 4,
 		TimeInSeconds: 935,
 		Players: [".942937", "Belz", "Sange", "Daisuri"],
 		TeamName: "Tankstelle",
-		Place: 1
+		Place: 3
 	},
 	{
 		QuestName: "Lost Chaos Calibur",
@@ -2424,6 +2524,16 @@ let recordData_normal = [
 		TimeInSeconds: 910,
 		Players: ["ReVisioN", "16085k"],
 		TeamName: "MA4B",
+		Place: 1
+	},
+	{
+		QuestName: "MA4C",
+		Ep: 4,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 856,
+		Players: ["Ender"],
+		TeamName: "Tankstelle",
 		Place: 1
 	},
 	{
@@ -2485,6 +2595,26 @@ let recordData_normal = [
 		Players: ["Ender"],
 		TeamName: "Tankstelle",
 		Place: 1
+	},
+	{
+		QuestName: "NMU3",
+		Ep: 4,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 520,
+		Players: ["Shovel"],
+		TeamName: "",
+		Place: 2
+	},
+	{
+		QuestName: "NMU3",
+		Ep: 4,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 425,
+		Players: ["Ade"],
+		TeamName: "CO",
+		Place: 3
 	},
 	{
 		QuestName: "NMU3",
