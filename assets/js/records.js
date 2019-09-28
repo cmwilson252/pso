@@ -1487,16 +1487,6 @@ let recordData_normal = [
 	//2014 Times^
 
 	{
-		QuestName: "MA1A",
-		Ep: 1,
-		Server: 3,
-		PlayerCount: 0,
-		TimeInSeconds: 0,
-		Players: [""],
-		TeamName: "",
-		Place: 1
-	},
-	{
 		QuestName: "MA1B",
 		Ep: 1,
 		Server: 3,
@@ -1534,16 +1524,6 @@ let recordData_normal = [
 		TimeInSeconds: 876,
 		Players: [".942937"],
 		TeamName: "Tankstelle",
-		Place: 1
-	},
-	{
-		QuestName: "MA1V2",
-		Ep: 1,
-		Server: 3,
-		PlayerCount: 0,
-		TimeInSeconds: 0,
-		Players: [""],
-		TeamName: "",
 		Place: 1
 	},
 	{
@@ -1737,16 +1717,6 @@ let recordData_normal = [
 		Place: 2
 	},
 	{
-		QuestName: "MAS",
-		Ep: 1,
-		Server: 3,
-		PlayerCount: 0,
-		TimeInSeconds: 0,
-		Players: [""],
-		TeamName: "",
-		Place: 1
-	},
-	{
 		QuestName: "MU1",
 		Ep: 1,
 		Server: 3,
@@ -1917,46 +1887,6 @@ let recordData_normal = [
 		Place: 1
 	},
 	{
-		QuestName: "SU1",
-		Ep: 1,
-		Server: 3,
-		PlayerCount: 0,
-		TimeInSeconds: 0,
-		Players: [""],
-		TeamName: "",
-		Place: 1
-	},
-	{
-		QuestName: "SU2",
-		Ep: 1,
-		Server: 3,
-		PlayerCount: 0,
-		TimeInSeconds: 0,
-		Players: [""],
-		TeamName: "",
-		Place: 1
-	},
-	{
-		QuestName: "SU3",
-		Ep: 1,
-		Server: 3,
-		PlayerCount: 0,
-		TimeInSeconds: 0,
-		Players: [""],
-		TeamName: "",
-		Place: 1
-	},
-	{
-		QuestName: "SU4",
-		Ep: 1,
-		Server: 3,
-		PlayerCount: 0,
-		TimeInSeconds: 0,
-		Players: [""],
-		TeamName: "",
-		Place: 1
-	},
-	{
 		QuestName: "TTF",
 		Ep: 1,
 		Server: 3,
@@ -2120,29 +2050,9 @@ let recordData_normal = [
 		QuestName: "Christmas Fiasco I",
 		Ep: 1,
 		Server: 3,
-		PlayerCount: 0,
-		TimeInSeconds: 0,
-		Players: [""],
-		TeamName: "",
-		Place: 1
-	},
-	{
-		QuestName: "Christmas Fiasco I",
-		Ep: 1,
-		Server: 3,
 		PlayerCount: 4,
 		TimeInSeconds: 1107,
 		Players: ["Sange", "Belz", "ReVisioN",".942937"],
-		TeamName: "",
-		Place: 1
-	},
-	{
-		QuestName: "Passion of the Blacksmith",
-		Ep: 1,
-		Server: 3,
-		PlayerCount: 0,
-		TimeInSeconds: 0,
-		Players: [""],
 		TeamName: "",
 		Place: 1
 	},
