@@ -1870,16 +1870,6 @@ let recordData_normal = [
 		QuestName: "MU4",
 		Ep: 1,
 		Server: 3,
-		PlayerCount: 0,
-		TimeInSeconds: 0,
-		Players: [""],
-		TeamName: "",
-		Place: 1
-	},
-	{
-		QuestName: "MU4",
-		Ep: 1,
-		Server: 3,
 		PlayerCount: 3,
 		TimeInSeconds: 657,
 		Players: ["Killz", "Demonized"],
