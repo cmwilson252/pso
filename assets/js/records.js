@@ -805,6 +805,16 @@ let recordData_normal = [
 		Place: 2
 	},
 	{
+		QuestName: "SU2",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 8,
+		TimeInSeconds: 373,
+		Players: ["Wilson, Lemon, NoHit"],
+		TeamName: "",
+		Place: 1
+	},
+	{
 		QuestName: "Christmas Fiasco I",
 		Ep: 1,
 		Server: 0,
@@ -1040,7 +1050,7 @@ let recordData_normal = [
 		PlayerCount: 0,
 		TimeInSeconds: 318,
 		Players: ["NoHit"],
-		TeamName: "Assistance",
+		TeamName: "",
 		Place: 1
 	},
 	{
