@@ -2097,6 +2097,16 @@ let recordData_normal = [
 		Place: 1
 	},
 	{
+		QuestName: "MA2V2",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 0,
+		TimeInSeconds: 2316,
+		Players: ["Cameron"],
+		TeamName: "",
+		Place: 1
+	},
+	{
 		QuestName: "MAE: Temple",
 		Ep: 2,
 		Server: 3,
