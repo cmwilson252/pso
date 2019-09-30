@@ -799,10 +799,20 @@ let recordData_normal = [
 		Ep: 1,
 		Server: 0,
 		PlayerCount: 0,
+		TimeInSeconds: 489,
+		Players: ["Wilson"],
+		TeamName: "CF",
+		Place: 2
+	},
+	{
+		QuestName: "MU4",
+		Ep: 1,
+		Server: 0,
+		PlayerCount: 0,
 		TimeInSeconds: 476,
 		Players: ["Sylph"],
 		TeamName: "Angelic",
-		Place: 2
+		Place: 3
 	},
 	{
 		QuestName: "SU2",
