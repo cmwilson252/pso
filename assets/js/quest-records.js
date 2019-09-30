@@ -10,7 +10,7 @@ let HeaderList = [
 let CurrentQuestName = "";
 let CurrentSearch = {};
 // from last to first
-let Colors = ["#C8E6C9","#81C784","#8BC34A","#388E3C","#1B5E20"];
+let Colors = ["#B3E5FC","#4FC3F7","#03A9F4","#0288D1","#01579B"];
 
 let RESULT_ELEMENT_TEMPLATE = `
 <tr>
