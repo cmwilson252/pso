@@ -2548,7 +2548,16 @@ let recordData_normal = [
 	},
 
 	//vanilla times ^
-
+	{
+		QuestName: "MA1C",
+		Ep: 1,
+		Server: 2,
+		PlayerCount: 2,
+		TimeInSeconds: 776,
+		Players: ["9898", "mt76907"],
+		TeamName: "",
+		Place: 1
+	},
 	{
 		QuestName: "MA1V2",
 		Ep: 1,
@@ -2563,11 +2572,21 @@ let recordData_normal = [
 		QuestName: "MU1",
 		Ep: 1,
 		Server: 2,
-		PlayerCount: 0,
+		PlayerCount: 6,
 		TimeInSeconds: 301,
 		Players: ["Belz"],
 		TeamName: "",
 		Place: 1
+	},
+	{
+		QuestName: "MU1",
+		Ep: 1,
+		Server: 2,
+		PlayerCount: 6,
+		TimeInSeconds: 272,
+		Players: ["Cody"],
+		TeamName: "",
+		Place: 2
 	},
 	{
 		QuestName: "MU1",
@@ -2594,7 +2613,7 @@ let recordData_normal = [
 		Ep: 1,
 		Server: 2,
 		PlayerCount: 4,
-		TimeInSeconds: 180,
+		TimeInSeconds: 179,
 		Players: ["Belz", "Armand", "9898", "Schranko"],
 		TeamName: "",
 		Place: 1
@@ -2613,7 +2632,7 @@ let recordData_normal = [
 		QuestName: "MU4",
 		Ep: 1,
 		Server: 2,
-		PlayerCount: 0,
+		PlayerCount: 6,
 		TimeInSeconds: 283,
 		Players: ["Belz"],
 		TeamName: "",
@@ -2633,11 +2652,31 @@ let recordData_normal = [
 		QuestName: "MU4",
 		Ep: 1,
 		Server: 2,
-		PlayerCount: 2,
+		PlayerCount: 4,
 		TimeInSeconds: 874,
 		Players: ["Belz", "Armand", "9898", "Blue World"],
 		TeamName: "",
 		Place: 1
+	},
+	{
+		QuestName: "MU4",
+		Ep: 1,
+		Server: 2,
+		PlayerCount: 4,
+		TimeInSeconds: 619,
+		Players: ["Cody", "Schranko", "Submarine", "AZMIDISKE"],
+		TeamName: "",
+		Place: 2
+	},
+	{
+		QuestName: "MU4",
+		Ep: 1,
+		Server: 2,
+		PlayerCount: 4,
+		TimeInSeconds: 583,
+		Players: ["Belz", "Tom", "Armand", "Ambrosia"],
+		TeamName: "",
+		Place: 3
 	},
 	{
 		QuestName: "TTF",
@@ -2684,13 +2723,101 @@ let recordData_normal = [
 		Ep: 1,
 		Server: 2,
 		PlayerCount: 2,
-		TimeInSeconds: 420,
+		TimeInSeconds: 864,
 		Players: ["Belz","Armand"],
 		TeamName: "",
 		Place: 1
 	},
-	
-
+	{
+		QuestName: "Labyrinthine Trial",
+		Ep: 1,
+		Server: 2,
+		PlayerCount: 4,
+		TimeInSeconds: 77,
+		Players: ["Belz","Armand", "Cody", "Bert"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "Fragments of a Memory",
+		Ep: 1,
+		Server: 2,
+		PlayerCount: 4,
+		TimeInSeconds: 352,
+		Players: ["Belz","Armand", "Tom", "Chi"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MA2",
+		Ep: 2,
+		Server: 2,
+		PlayerCount: 6,
+		TimeInSeconds: 1074,
+		Players: ["Belz"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MA2V2",
+		Ep: 2,
+		Server: 2,
+		PlayerCount: 6,
+		TimeInSeconds: 1849,
+		Players: ["Belz"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "RT",
+		Ep: 2,
+		Server: 2,
+		PlayerCount: 6,
+		TimeInSeconds: 1428,
+		Players: ["Belz"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "MA2V2",
+		Ep: 2,
+		Server: 2,
+		PlayerCount: 6,
+		TimeInSeconds: 1849,
+		Players: ["Belz"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "Christmas Fiasco II",
+		Ep: 2,
+		Server: 2,
+		PlayerCount: 2,
+		TimeInSeconds: 3,
+		Players: ["Belz", "Armand"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "CCC",
+		Ep: 2,
+		Server: 2,
+		PlayerCount: 4,
+		TimeInSeconds: 18,
+		Players: ["Armand", "9898", "Jake", "mt76907"],
+		TeamName: "",
+		Place: 1
+	},
+	{
+		QuestName: "Gal Da Vals Darkness",
+		Ep: 2,
+		Server: 2,
+		PlayerCount: 6,
+		TimeInSeconds: 319,
+		Players: ["Belz"],
+		TeamName: "",
+		Place: 1
+	},
 ]
 
 let recordData_cmode = [
