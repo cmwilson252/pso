@@ -918,16 +918,6 @@ let recordData_normal = [
 		QuestName: "TTF",
 		Ep: 1,
 		Server: 0,
-		PlayerCount: 0,
-		TimeInSeconds: 536,
-		Players: ["MUMU"],
-		TeamName: "六月などんよりとした空",
-		Place: 5
-	},
-	{
-		QuestName: "TTF",
-		Ep: 1,
-		Server: 0,
 		PlayerCount: 2,
 		TimeInSeconds: 516,
 		Players: ["Ume", "HioThun"],
