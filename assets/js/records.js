@@ -2272,7 +2272,7 @@ let recordData_normal = [
 		Server: 3,
 		PlayerCount: 4,
 		TimeInSeconds: 278,
-		Players: ["Arsuru", "Ender", "Sange", "Travendus"],
+		Players: ["Arsuru", "Ender", "Dizzy", "SteveCares"],
 		TeamName: "",
 		Place: 1
 	},
@@ -2498,7 +2498,7 @@ let recordData_normal = [
 	},
 	{
 		QuestName: "MAE: Desert",
-		Ep: 2,
+		Ep: 4,
 		Server: 3,
 		PlayerCount: 4,
 		TimeInSeconds: 297,
