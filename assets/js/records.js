@@ -1501,17 +1501,27 @@ let recordData_normal = [
 		Ep: 1,
 		Server: 3,
 		PlayerCount: 4,
-		TimeInSeconds: 1066,
-		Players: ["9898", "ReVisioN", "mt76907", "16085k"],
-		TeamName: "MA4B",
+		TimeInSeconds: 1080,
+		Players: ["Belz", "ReVisioN", "Sange", ".942937"],
+		TeamName: "",
 		Place: 1
 	},
 	{
 		QuestName: "MA1C",
 		Ep: 1,
 		Server: 3,
+		PlayerCount: 4,
+		TimeInSeconds: 1066,
+		Players: ["9898", "ReVisioN", "mt76907", "16085k"],
+		TeamName: "MA4B",
+		Place: 2
+	},
+	{
+		QuestName: "MA1C",
+		Ep: 1,
+		Server: 3,
 		PlayerCount: 3,
-		TimeInSeconds: 1002,
+		TimeInSeconds: 1006,
 		Players: ["Sange", ".942937"],
 		TeamName: "Tankstelle",
 		Place: 1
