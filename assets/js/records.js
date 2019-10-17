@@ -1521,7 +1521,7 @@ let recordData_normal = [
 		Ep: 1,
 		Server: 3,
 		PlayerCount: 3,
-		TimeInSeconds: 1006,
+		TimeInSeconds: 1035,
 		Players: ["Sange", ".942937"],
 		TeamName: "Tankstelle",
 		Place: 1
