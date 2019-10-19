@@ -782,17 +782,17 @@ let recordData_normal = [
 		TimeInSeconds: 522,
 		Players: ["16085k"],
 		TeamName: "MA4B",
-		Place: 1
+		Place: 2
 	},
 	{
 		QuestName: "MU4",
 		Ep: 1,
 		Server: 0,
 		PlayerCount: 0,
-		TimeInSeconds: 489,
+		TimeInSeconds: 526,
 		Players: ["Wilson"],
 		TeamName: "CF",
-		Place: 2
+		Place: 1
 	},
 	{
 		QuestName: "MU4",
