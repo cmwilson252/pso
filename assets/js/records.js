@@ -413,6 +413,16 @@ let recordData_normal = [
 		Place: 1
 	},
 	{
+		QuestName: "MAE: Desert",
+		Ep: 4,
+		Server: 1,
+		PlayerCount: 6,
+		TimeInSeconds: 444,
+		Players: ["Shiida"],
+		TeamName: "Univers-PS",
+		Place: 1
+	},
+	{
 		QuestName: "NMU3",
 		Ep: 4,
 		Server: 1,
