@@ -197,7 +197,7 @@ let recordData_normal = [
 		Ep: 1,
 		Server: 1,
 		PlayerCount: 2,
-		TimeInSeconds: 511,
+		TimeInSeconds: 538,
 		Players: ["Rashan", "Killz"],
 		TeamName: "CF",
 		Place: 1
@@ -217,10 +217,10 @@ let recordData_normal = [
 		Ep: 1,
 		Server: 1,
 		PlayerCount: 2,
-		TimeInSeconds: 511,
+		TimeInSeconds: 600,
 		Players: ["El Socko", "Night"],
 		TeamName: "Angelic",
-		Place: 2
+		Place: 3
 	},
 	{
 		QuestName: "HOD II",
