@@ -1773,7 +1773,7 @@ let recordData_normal = [
 		PlayerCount: 0,
 		TimeInSeconds: 388,
 		Players: ["Spuz"],
-		TeamName: "",
+		TeamName: "Pioneers",
 		Place: 3
 	},
 	{
@@ -2115,6 +2115,26 @@ let recordData_normal = [
 		Players: [".942937", "Belz", "Jake"],
 		TeamName: "Tankstelle",
 		Place: 1
+	},
+	{
+		QuestName: "MA2V2",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 2,
+		TimeInSeconds: 2424,
+		Players: [".942937", "Belz"],
+		TeamName: "Tankstelle",
+		Place: 1
+	},
+	{
+		QuestName: "MA2V2",
+		Ep: 2,
+		Server: 3,
+		PlayerCount: 2,
+		TimeInSeconds: 2409,
+		Players: ["Spuz", "CAPN"],
+		TeamName: "",
+		Place: 2
 	},
 	{
 		QuestName: "MA2V2",
