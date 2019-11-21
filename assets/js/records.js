@@ -393,6 +393,16 @@ let recordData_normal = [
 		Place: 4
 	},
 	{
+		QuestName: "ROCT",
+		Ep: 2,
+		Server: 1,
+		PlayerCount: 6,
+		TimeInSeconds: 1105,
+		Players: ["Noudle"],
+		TeamName: "Univers-PS",
+		Place: 1
+	},
+	{
 		QuestName: "CCC",
 		Ep: 2,
 		Server: 1,
