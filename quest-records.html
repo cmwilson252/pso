@@ -8,30 +8,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" type="icon" href="./assets/images/favicon.ico"/>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="./assets/semantic/semantic.css">
-        <link rel="stylesheet" type="text/css" href="./assets/semantic/semantic.darkly.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.2/dist/semantic.min.css">
         <link href="./assets/css/main.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-
-    <header class="ui inverted fixed menu">
-        <div class="ui container">
-            <a href="https://4waypb.com" class="header item">
-                <img class="logo mini image" src="./assets/images/techs/shifta.png">
-                PSO: TA
-            </a>
-            <a href="./quest-records.html" class="header item">Quest Records</a>
-            <a href="./teamz.html" class="header item">Teamz</a>
-            <a href="./concepts.html" class="header item">Concepts</a>
-            
-            <a href="./miscellaneous.html" class="header item">Miscellaneous</a>
-            <a href="https://discord.gg/q8bwhFX" class="header item">PSO: TA Discord</a>
-        </div>
-    </header>
-    <main class="ui main container">
-        <div class="ui segments">
-            <div class="ui inverted segment">
-                <p class="small font">
+        <header class="ui inverted fixed menu">
+            <div class="ui container">
+                <a href="https://4waypb.com" class="header item">
+                    <img class="logo mini image" src="./assets/images/techs/shifta.png">
+                    PSO: TA
+                </a>
+                <a href="./quest-records.html" class="header item">Quest Records</a>
+                <a href="./teamz.html" class="header item">Teamz</a>
+                <a href="./concepts.html" class="header item">Concepts</a>
+                
+                <a href="./miscellaneous.html" class="header item">Miscellaneous</a>
+                <a href="https://discord.gg/q8bwhFX" class="header item">PSO: TA Discord</a>
+            </div>
+        </header>
+        <main class="ui main container">
+            <div class="ui segments">
+                <div class="ui inverted segment">
                     <div class="ui accordion">
                         <div class="title">
                             <i class="inverted dropdown icon"></i>
@@ -64,8 +61,8 @@
                             </p>
                         </div>
                         <div class="title">
-                          <i class="inverted dropdown icon"></i>
-                          <b><font color="white">Challenge Mode Rules</font></b>
+                            <i class="inverted dropdown icon"></i>
+                            <b><font color="white">Challenge Mode Rules</font></b>
                         </div>
                         <div class="content">
                             <ul>
@@ -75,151 +72,218 @@
                                 skipping rooms in stages where the order of the characters is a factor, such as, 2C4.</li>
                             </ul>
                         </div>
-                    </p>
+                    </div>
                 </div>
                 <div class="ui hidden divider"></div>
-                <div class="ui inverted segment grid middle aligned">
+                <div class="ui inverted segment stackable grid aligned">
                     <div class="row">
-                        <div class="column">
-                            <div style="text-align: center;">
-                                <b>Normal Mode</b>
-                            </div>
+                        <div class="sixteen wide column">
+                            <label class="">Mode</label>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="column">
-                            <div>
-                                <b>Mode</b>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="ui checkbox read-only" data-indeterminate="true" state="unchecked">
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
                                 <input type="checkbox" tabindex="0" class="hidden" id="mode_normal">
-                                <label>Normal Mode</label>
+                                <label>Normal</label>
                             </div>
-                            <div class="ui checkbox read-only" data-indeterminate="true" state="unchecked">
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
                                 <input type="checkbox" tabindex="1" class="hidden" id="mode_challenge">
-                                <label>Challenge Mode</label>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="row">
-                        <div class="column">
-                            <div id="server_normal" class="ui selection dropdown">
-                                <input type="hidden" name="server_normal" value="3">
-                                <i class="dropdown icon"></i>
-                                <div class="default text">Meta</div>
-                                <div class="menu">
-                                    <div class="item" data-value="3">Vanilla</div>
-                                    <div class="item" data-value="0">2014</div>
-                                    <div class="item" data-value="2">Gamecube</div>
-                                    <div class="item" data-value="1">Ultima</div>
-                                </div>
+                                <label>Challenge</label>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="column">
-                            <div id="episode_normal" class="ui selection dropdown">
-                                <input type="hidden" name="episode_normal" value="1">
-                                <i class="dropdown icon"></i>
-                                <div class="default text">Episode</div>
-                                <div class="menu">
-                                    <div class="item" data-value="1">Episode 1</div>
-                                    <div class="item" data-value="2">Episode 2</div>
-                                    <div class="item" data-value="4">Episode 4</div>
-                                </div>
+                        <div class="sixteen wide column">
+                            <label class="">Meta</label>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="0" class="hidden" id="meta_vanilla">
+                                <label>Vanilla</label>
+                            </div>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="1" class="hidden" id="meta_2014">
+                                <label>2014</label>
+                            </div>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="1" class="hidden" id="meta_gamecube">
+                                <label>Gamecube</label>
+                            </div>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="1" class="hidden" id="meta_ultima">
+                                <label>Ultima</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <label class="">Episode</label>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="0" class="hidden" id="episode_1">
+                                <label>Episode 1</label>
+                            </div>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="0" class="hidden" id="episode_2">
+                                <label>Episode 2</label>
+                            </div>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="0" class="hidden" id="episode_4">
+                                <label>Episode 4</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <label class="">Category</label>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="0" class="hidden" id="category_opm">
+                                <label>OPM</label>
+                            </div>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="0" class="hidden" id="category_1p">
+                                <label>1P</label>
+                            </div>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="0" class="hidden" id="category_2p">
+                                <label>2P</label>
+                            </div>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="0" class="hidden" id="category_3p">
+                                <label>3P</label>
+                            </div>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="0" class="hidden" id="category_4p">
+                                <label>4P</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <label class="">Photon Blast</label>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="0" class="hidden" id="pn_no">
+                                <label>No PB</label>
+                            </div>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="0" class="hidden" id="pb_yes">
+                                <label>PB</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="sixteen wide column">
+                            <label class="">Class</label>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="0" class="hidden" id="class_humar">
+                                <label>HUmar</label>
+                            </div>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="0" class="hidden" id="class_hunewearl">
+                                <label>HUnewearl</label>
+                            </div>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="0" class="hidden" id="class_hucast">
+                                <label>HUcast</label>
+                            </div>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="0" class="hidden" id="class_hucaseal">
+                                <label>HUCaseal</label>
+                            </div>
+                        </div>
+                        <div class="eight wide column"></div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="0" class="hidden" id="class_ramar">
+                                <label>RAmar</label>
+                            </div>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="0" class="hidden" id="class_ramarl">
+                                <label>RAmarl</label>
+                            </div>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="0" class="hidden" id="class_racast">
+                                <label>RAcast</label>
+                            </div>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="0" class="hidden" id="class_racaseal">
+                                <label>RAcaseal</label>
+                            </div>
+                        </div>
+                        <div class="eight wide column"></div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="0" class="hidden" id="class_fomar">
+                                <label>FOmar</label>
+                            </div>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="0" class="hidden" id="class_fomarl">
+                                <label>FOmarl</label>
+                            </div>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="0" class="hidden" id="class_fonewmn">
+                                <label>FOnewmn</label>
+                            </div>
+                        </div>
+                        <div class="two wide column">
+                            <div class="ui inverted checkbox">
+                                <input type="checkbox" tabindex="0" class="hidden" id="class_fonewearl">
+                                <label>FOnewearl</label>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="column">
-                            <div id="party_count_normal" class="ui selection dropdown">
-                                <input type="hidden" name="party_count_normal" value="0">
-                                <i class="dropdown icon"></i>
-                                <div class="default text">Category</div>
-                                <div class="menu">
-                                    <div class="item" data-value="0">OPM No-PB</div>
-                                    <div class="item" data-value="1">OPM PB</div>
-                                    <div class="item" data-value="2">2P No-PB</div>
-                                    <div class="item" data-value="3">2P PB</div>
-                                    <div class="item" data-value="4">4P No-PB</div>
-                                    <div class="item" data-value="5">4P PB</div>
-                                    <div class="item" data-value="6">1P No-PB</div>
-                                    <div class="item" data-value="7">1P PB</div>
-                                    <div class="item" data-value="8">3P No-PB</div>
-                                    <div class="item" data-value="9">3P PB</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="column">
-                            <button class="ui inverted button" id="record_search_normal">
-                                Search
-                            </button>
+                            <button class="ui inverted button" id="search">Search</button>
                         </div>
                     </div>
                 </div>
                 <div class="ui hidden divider"></div>
-                <div class="ui inverted segment grid">
-                    <div class="row">
-                        <div class="column">
-                            <div style="text-align: center;">
-                                <b>Challenge Mode</b>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="column">
-                            <div id="server_cmode" class="ui selection dropdown">
-                                <input type="hidden" name="server_cmode" value="2">
-                                <i class="dropdown icon"></i>
-                                <div class="default text">Meta</div>
-                                <div class="menu">
-                                    <div class="item" data-value="2">Gamecube</div>
-                                    <div class="item" data-value="4">Blue Burst</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="column">
-                            <div id="episode_cmode" class="ui selection dropdown">
-                                <input type="hidden" name="episode_cmode" value="1">
-                                <i class="dropdown icon"></i>
-                                <div class="default text">Episode</div>
-                                <div class="menu">
-                                    <div class="item" data-value="1">Episode 1</div>
-                                    <div class="item" data-value="2">Episode 2</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="column">
-                            <div id="party_count_cmode" class="ui selection dropdown">
-                                <input type="hidden" name="party_count_cmode" value="5">
-                                <i class="dropdown icon"></i>
-                                <div class="default text">Category</div>
-                                <div class="menu">
-                                    <div class="item" data-value="3">2P</div>
-                                    <div class="item" data-value="5">4P</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="column">
-                            <button class="ui inverted button" id="record_search_challenge">
-                                Search
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div id="results"></div>
+                <div class="ui inverted segment" id="results"></div>
             </div>
         </main>
 
@@ -233,8 +297,8 @@
         </footer>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.2/dist/semantic.min.js"></script>
         <script src="./assets/js/lodash/core.js" type="text/javascript"></script>
-        <script src="./assets/semantic/semantic.js"></script>
         <script src="./assets/js/main.js" type="text/javascript" language="javascript"></script>
         <script src="./assets/js/records.js" type="text/javascript" language="javascript"></script>
         <script src="./assets/js/quest-records.js" type="text/javascript" language="javascript"></script>

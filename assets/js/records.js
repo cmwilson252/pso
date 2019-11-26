@@ -21,7 +21,7 @@
 //	Vanilla:3
 //}
 
-let recordData_normal = [
+let record_data = [
 	{
 		QuestName: "MA1A",
 		Ep: 1,
@@ -2878,15 +2878,4 @@ let recordData_normal = [
 		TeamName: "",
 		Place: 1
 	},
-]
-
-let recordData_cmode = [
-	{
-		QuestName: "ExampleQuestString_cmode",
-		Ep: -1,
-		Server: -1,
-		TimeInSeconds: 1337,
-		PlayerCount: -1,
-		Players: ["Me","Myself","I",null]
-	}
 ]
