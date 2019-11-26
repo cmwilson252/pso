@@ -10,6 +10,24 @@ if ($('.ui.dropdown').length > 0) {
 if ($('.ui.sidebar').length > 0) {
     $('.ui.sidebar').sidebar('attach events', '.toc.item');
 }
+if ($('.ui.checkbox').not('[data-indeterminate="true"]').length > 0) {
+    $('.ui.checkbox').not('[data-indeterminate="true"]').checkbox();
+}
+if ($('.ui.checkbox[data-indeterminate="true"]').length > 0) {
+    $('.ui.checkbox[data-indeterminate="true"]').checkbox().on('click', function(e) {
+        let checkbox = $(this);
+        if (checkbox.attr('state') == 'unchecked') {
+            checkbox.checkbox('set indeterminate');
+            checkbox.attr('state', 'indeterminate');
+        } else if (checkbox.attr('state') == 'indeterminate') {
+            checkbox.checkbox('set checked');
+            checkbox.attr('state', 'checked');
+        } else if (checkbox.attr('state') == 'checked') {
+            checkbox.checkbox('set unchecked');
+            checkbox.attr('state', 'unchecked');
+        }
+    });
+}
 
 let Enums = {
     GameModeTypes:{
