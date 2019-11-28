@@ -8,6 +8,10 @@ body {
     background: #222222;
 }
 
+.center {
+    text-align: center;
+}
+
 .pusher {
     background: inherit !important;
 }
