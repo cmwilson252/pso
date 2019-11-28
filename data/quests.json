@@ -151,67 +151,67 @@
 	},
 	{
 		"id": "max_cca",
-		"name": "MAX: CCA",
+		"name": "Max: CCA",
 		"enabled": true,
 		"is_countdown": false
 	},
 	{
 		"id": "max_caves",
-		"name": "MAX: Caves",
+		"name": "Max: Caves",
 		"enabled": true,
 		"is_countdown": false
 	},
 	{
 		"id": "max_crater",
-		"name": "MAX: Crater",
+		"name": "Max: Crater",
 		"enabled": true,
 		"is_countdown": false
 	},
 	{
 		"id": "max_desert",
-		"name": "MAX: Desert",
+		"name": "Max: Desert",
 		"enabled": true,
 		"is_countdown": false
 	},
 	{
 		"id": "max_forest",
-		"name": "MAX: Forest",
+		"name": "Max: Forest",
 		"enabled": true,
 		"is_countdown": false
 	},
 	{
 		"id": "max_mines",
-		"name": "MAX: Mines",
+		"name": "Max: Mines",
 		"enabled": true,
 		"is_countdown": false
 	},
 	{
 		"id": "max_ruins",
-		"name": "MAX: Ruins",
+		"name": "Max: Ruins",
 		"enabled": true,
 		"is_countdown": false
 	},
 	{
 		"id": "max_seabed",
-		"name": "MAX: Seabed",
+		"name": "Max: Seabed",
 		"enabled": true,
 		"is_countdown": false
 	},
 	{
 		"id": "max_spaceship",
-		"name": "MAX: Spaceship",
+		"name": "Max: Spaceship",
 		"enabled": true,
 		"is_countdown": false
 	},
 	{
 		"id": "max_temple",
-		"name": "MAX: Temple",
+		"name": "Max: Temple",
 		"enabled": true,
 		"is_countdown": false
 	},
 	{
 		"id": "max_tower",
-		"name": "MAX: Tower",
+		"name": "Max: Tower",
 		"enabled": true,
 		"is_countdown": false
 	},
