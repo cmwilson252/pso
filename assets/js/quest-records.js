@@ -168,41 +168,89 @@ function updateResults() {
             return true;
         }
         // Class
-        if (SearchSettings.class_humar && (x.class == 'humar')) {
-            return true;
+        if (SearchSettings.class_humar) {
+            for (let i = 0; i < x.players.length; i++) {
+                if (x.players[i].class == 'humar') {
+                    return true;
+                }
+            }
         }
-        if (SearchSettings.class_hunewearl && (x.class == 'hunewearl')) {
-            return true;
+        if (SearchSettings.class_hunewearl) {
+            for (let i = 0; i < x.players.length; i++) {
+                if (x.players[i].class == 'hunewearl') {
+                    return true;
+                }
+            }
         }
-        if (SearchSettings.class_hucast && (x.class == 'hucast')) {
-            return true;
+        if (SearchSettings.class_hucast) {
+            for (let i = 0; i < x.players.length; i++) {
+                if (x.players[i].class == 'hucast') {
+                    return true;
+                }
+            }
         }
-        if (SearchSettings.class_hucaseal && (x.class == 'hucaseal')) {
-            return true;
+        if (SearchSettings.class_hucaseal) {
+            for (let i = 0; i < x.players.length; i++) {
+                if (x.players[i].class == 'hucaseal') {
+                    return true;
+                }
+            }
         }
-        if (SearchSettings.class_ramar && (x.class == 'ramar')) {
-            return true;
+        if (SearchSettings.class_ramar) {
+            for (let i = 0; i < x.players.length; i++) {
+                if (x.players[i].class == 'ramar') {
+                    return true;
+                }
+            }
         }
-        if (SearchSettings.class_ramarl && (x.class == 'ramarl')) {
-            return true;
+        if (SearchSettings.class_ramarl) {
+            for (let i = 0; i < x.players.length; i++) {
+                if (x.players[i].class == 'ramarl') {
+                    return true;
+                }
+            }
         }
-        if (SearchSettings.class_racast && (x.class == 'racast')) {
-            return true;
+        if (SearchSettings.class_racast) {
+            for (let i = 0; i < x.players.length; i++) {
+                if (x.players[i].class == 'racast') {
+                    return true;
+                }
+            }
         }
-        if (SearchSettings.class_racaseal && (x.class == 'racaseal')) {
-            return true;
+        if (SearchSettings.class_racaseal) {
+            for (let i = 0; i < x.players.length; i++) {
+                if (x.players[i].class == 'racaseal') {
+                    return true;
+                }
+            }
         }
-        if (SearchSettings.class_fomar && (x.class == 'fomar')) {
-            return true;
+        if (SearchSettings.class_fomar) {
+            for (let i = 0; i < x.players.length; i++) {
+                if (x.players[i].class == 'fomar') {
+                    return true;
+                }
+            }
         }
-        if (SearchSettings.class_fomarl && (x.class == 'fomarl')) {
-            return true;
+        if (SearchSettings.class_fomarl) {
+            for (let i = 0; i < x.players.length; i++) {
+                if (x.players[i].class == 'fomarl') {
+                    return true;
+                }
+            }
         }
-        if (SearchSettings.class_fonewmn && (x.class == 'fonewmn')) {
-            return true;
+        if (SearchSettings.class_fonewmn) {
+            for (let i = 0; i < x.players.length; i++) {
+                if (x.players[i].class == 'fonewmn') {
+                    return true;
+                }
+            }
         }
-        if (SearchSettings.class_fonewearl && (x.class == 'fonewearl')) {
-            return true;
+        if (SearchSettings.class_fonewearl) {
+            for (let i = 0; i < x.players.length; i++) {
+                if (x.players[i].class == 'fonewearl') {
+                    return true;
+                }
+            }
         }
         return false;
     });
