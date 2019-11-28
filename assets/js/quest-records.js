@@ -123,7 +123,6 @@ function updateResults() {
     }
     
     let data = records;
-    console.log(SearchSettings);
     // Do all filters
     data = _.filter(data, function(x) {
         // Mode
@@ -185,7 +184,6 @@ function updateResults() {
             if (SearchSettings.class[key]) {
                 for (let i = 0; i < x.players.length; i++) {
                     if (x.players[i].class == key) {
-                        console.log('True');
                         class_check = true;
                     }
                 }
