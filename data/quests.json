@@ -1,0 +1,332 @@
+[
+	{
+		"id": "aol_cup_maximum_attack",
+		"name": "AOL Cup - Maximum Attack -",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "brutal_baranz_blight_",
+		"name": "Brutal Baranz Blight ",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "cals_clock_challenge",
+		"name": "Cal's Clock Challenge",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "christmas_fiasco_i",
+		"name": "Christmas Fiasco I",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "christmas_fiasco_ii",
+		"name": "Christmas Fiasco II",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "christmas_fiasco_iv",
+		"name": "Christmas Fiasco IV",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "fragments_of_a_memory",
+		"name": "Fragments of a Memory",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "gal_da_vals_darkness",
+		"name": "Gal Da Val\'s Darkness",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "harmony_of_despair_ii",
+		"name": "Harmony of Despair II",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "labyrinthine_trial",
+		"name": "Labyrinthine Trial",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "lost_chaos_calibur",
+		"name": "Lost Chaos Calibur",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "ma1a",
+		"name": "MA1A",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "ma1b",
+		"name": "MA1B",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "ma1c",
+		"name": "MA1C",
+		"enabled": true,
+		"is_countdown": true
+	},
+	{
+		"id": "ma1v2",
+		"name": "MA1V2",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "ma2",
+		"name": "MA2",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "ma2a",
+		"name": "MA2A",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "ma2b",
+		"name": "MA2B",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "ma2c",
+		"name": "MA2C",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "ma2v2",
+		"name": "MA2V2",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "ma4a",
+		"name": "MA4A",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "ma4b",
+		"name": "MA4B",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "ma4c",
+		"name": "MA4C",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "ma4dmd",
+		"name": "MA4DMD",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "mas",
+		"name": "MAS",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "max_cca",
+		"name": "MAX: CCA",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "max_caves",
+		"name": "MAX: Caves",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "max_crater",
+		"name": "MAX: Crater",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "max_desert",
+		"name": "MAX: Desert",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "max_forest",
+		"name": "MAX: Forest",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "max_mines",
+		"name": "MAX: Mines",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "max_ruins",
+		"name": "MAX: Ruins",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "max_seabed",
+		"name": "MAX: Seabed",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "max_spaceship",
+		"name": "MAX: Spaceship",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "max_temple",
+		"name": "MAX: Temple",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "max_tower",
+		"name": "MAX: Tower",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "mu1",
+		"name": "MU1",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "mu2",
+		"name": "MU2",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "mu3",
+		"name": "MU3",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "mu4",
+		"name": "MU4",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "mu5",
+		"name": "MU5",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "nmu1",
+		"name": "NMU1",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "nmu2",
+		"name": "NMU2",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "nmu3",
+		"name": "NMU3",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "nmu4",
+		"name": "NMU4",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "nmu5",
+		"name": "NMU5",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "passion_of_the_blacksmith",
+		"name": "Passion of the Blacksmith",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "pod",
+		"name": "PoD",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "power_plant_plight",
+		"name": "Power Plant Plight",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "roct",
+		"name": "ROCT",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "row",
+		"name": "RoW",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "rt",
+		"name": "RT",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "su2",
+		"name": "SU2",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "ttf",
+		"name": "TTF",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "ttf_ultima",
+		"name": "TTF Ultima",
+		"enabled": true,
+		"is_countdown": false
+	}
+]

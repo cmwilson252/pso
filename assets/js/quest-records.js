@@ -1,15 +1,15 @@
-
+let ready = false;
+let quests = null;
+let records = null;
 let HeaderList = [
-    { key: "QuestName", header: "Quest", collapse:true, formatter: (x) => { return x; }},
-    //{ key: "Ep", header: "Episode", collapse: false, formatter: (x) => {return "Episode "+x;}},
-    { key: "TimeInSeconds", header: "Time", collapse: false, formatter: (x) => { return secondsToString(x); } },
-    { key: "Players", header: "Players", collapse: false, formatter: (x) => { return playersToList(x);}},
-    //{ key: "Server", header: "Server", collapse: false, formatter: (x) => {return serverCodeToName(x);}},
-    { key: "TeamName", header: "Team Name", collapse: false, formatter: (x) => {return x || "";}},
+    { key: "quest", header: "Quest", collapse:true, formatter: (x) => { return x.name; }},
+    //{ key: "episode", header: "Episode", collapse: false, formatter: (x) => {return "Episode "+x;}},
+    { key: "time", header: "Time", collapse: false, formatter: (x) => { return secondsToString(x); } },
+    { key: "players", header: "Players", collapse: false, formatter: (x) => { return playersToList(x);}},
+    { key: "meta", header: "Meta", collapse: false, formatter: (x) => {return metaToName(x);}},
+    { key: "team", header: "Team", collapse: false, formatter: (x) => {return x || "";}},
 ]
-let CurrentQuestName = "";
 let SearchSettings = {
-    sort: '',
     mode_normal: false,
     mode_challange: false,
     meta_vanilla: false,
@@ -56,7 +56,7 @@ let RESULT_ELEMENT_VALUE_TEMPLATE = `
 `
 let RESULT_HEADER_TEMPLATE = `
 <th>
-    <a href="javascript:void(0)" onclick="sortBy('__HEADER__')">
+    <a>
         __HEADER__
     </a>
 </th>
@@ -74,14 +74,14 @@ let RESULT_LIST_TEMPLATE = `
 </table>
 `
 
-function serverCodeToName(code){
+function metaToName(code){
     switch(code){
-        case 0: return "2014";
-        case 1: return "Vanilla";
-        case 2: return "Gamecube";
-        case 3: return "Ultima";
-        case 4: return "Blue Burst";
-        default: return "Unknown"
+        case '2014': return "2014";
+        case 'vanilla': return "Vanilla";
+        case 'gamecube': return "Gamecube";
+        case 'ultima': return "Ultima";
+        case 'blueburst': return "Blue Burst";
+        default: return "Unknown";
     }
 }
 
@@ -94,39 +94,129 @@ function secondsToString(seconds){
 }
 
 function playersToList(arr){
-    if (arr[0] == null) return "";
-    let result = ""+arr[0];
-    for(let i=1; i < arr.length; i++){
-        if (arr[i] !== null)
-            result += "</br>"+arr[i];
+    let result = '';
+    for (let i = 0; i < arr.length; i++) {
+        if (i != 0) {
+            result += '</br>';
+        }
+        result += arr[i].name;
     }
     return result;
 }
 
 function updateResults() {
-    let data = record_data;
+    if (!ready) {
+        $('#results').empty().append('Records not loaded');
+        return;
+    }
     
+    let data = records;
+    console.log(SearchSettings);
     // Do all filters
     data = _.filter(data, function(x) {
-        if (SearchSettings.episode_1 && (x.Ep == 1)) {
+        // Mode
+        if (SearchSettings.mode_normal && (x.mode == 'normal')) {
             return true;
         }
-        if (SearchSettings.episode_2 && (x.Ep == 2)) {
+        if (SearchSettings.mode_challange && (x.mode == 'challenge')) {
             return true;
         }
-        if (SearchSettings.episode_4 && (x.Ep == 4)) {
+        // Meta
+        if (SearchSettings.meta_vanilla && (x.meta == 'vanilla')) {
+            return true;
+        }
+        if (SearchSettings.meta_2014 && (x.meta == '2014')) {
+            return true;
+        }
+        if (SearchSettings.meta_gamecube && (x.meta == 'gamecube')) {
+            return true;
+        }
+        if (SearchSettings.meta_ultima && (x.meta == 'ultima')) {
+            return true;
+        }
+        // Episiode
+        if (SearchSettings.episode_1 && (x.episode == 1)) {
+            return true;
+        }
+        if (SearchSettings.episode_2 && (x.episode == 2)) {
+            return true;
+        }
+        if (SearchSettings.episode_4 && (x.episode == 4)) {
+            return true;
+        }
+        // Category
+        if (SearchSettings.category_opm && (x.category == 'opm')) {
+            return true;
+        }
+        if (SearchSettings.category_1p && (x.category == '1p')) {
+            return true;
+        }
+        if (SearchSettings.category_2p && (x.category == '2p')) {
+            return true;
+        }
+        if (SearchSettings.category_3p && (x.category == '3p')) {
+            return true;
+        }
+        if (SearchSettings.category_4p && (x.category == '4p')) {
+            return true;
+        }
+        // Photon Blast
+        if (SearchSettings.pb_no && (x.pb == false)) {
+            return true;
+        }
+        if (SearchSettings.pb_yes && (x.pb == true)) {
+            return true;
+        }
+        // Class
+        if (SearchSettings.class_humar && (x.class == 'humar')) {
+            return true;
+        }
+        if (SearchSettings.class_hunewearl && (x.class == 'hunewearl')) {
+            return true;
+        }
+        if (SearchSettings.class_hucast && (x.class == 'hucast')) {
+            return true;
+        }
+        if (SearchSettings.class_hucaseal && (x.class == 'hucaseal')) {
+            return true;
+        }
+        if (SearchSettings.class_ramar && (x.class == 'ramar')) {
+            return true;
+        }
+        if (SearchSettings.class_ramarl && (x.class == 'ramarl')) {
+            return true;
+        }
+        if (SearchSettings.class_racast && (x.class == 'racast')) {
+            return true;
+        }
+        if (SearchSettings.class_racaseal && (x.class == 'racaseal')) {
+            return true;
+        }
+        if (SearchSettings.class_fomar && (x.class == 'fomar')) {
+            return true;
+        }
+        if (SearchSettings.class_fomarl && (x.class == 'fomarl')) {
+            return true;
+        }
+        if (SearchSettings.class_fonewmn && (x.class == 'fonewmn')) {
+            return true;
+        }
+        if (SearchSettings.class_fonewearl && (x.class == 'fonewearl')) {
             return true;
         }
         return false;
     });
     
-    //data = _.filter(data, (x) => {return x.Ep == CurrentSearch.Ep;});
-    
-    //// sort
-    //if (CurrentSearch.SortBy !== null) {
-    //    data = _.sortBy(data,(x) => {return x["Place"];});
-    //    data = _.sortBy(data,(x) => {return x[CurrentSearch.SortBy];});
-    //}
+    // Sort by time and group by quest (flatten afterwards)
+    data = _.sortBy(data, function(x) {
+        if (x.quest.is_countdown) {
+            return x.time * -1;
+        } else {
+            return x.time;
+        }
+    });
+    data = _.groupBy(data, x => x.quest_id);
+    data = _.flatMap(data, x => x);
 
     let result_string = RESULT_LIST_TEMPLATE.substring(0);
     // build header list
@@ -138,31 +228,22 @@ function updateResults() {
     }
     // build results list
     let elementList_string = "";
-    let color_index = 4;
-    CurrentQuestName = null;
+    let current_quest_id = null;
     for(let d=0; d < data.length; d++){
         let current_quest = data[d];
         let quest_row_string = "";
-        if (CurrentQuestName !== current_quest.QuestName)
-            color_index = 4;
 
         for(let i=0; i < HeaderList.length; i++){
             let element_string = RESULT_ELEMENT_VALUE_TEMPLATE.substring(0);
             let formatter = HeaderList[i].formatter;
             let value = formatter(current_quest[HeaderList[i].key]);
             let color_replacement = "";
-            if (SearchSettings.sort == "QuestName" && HeaderList[i].key == "TimeInSeconds"){
-                let color = Colors[color_index];
-                if (color_index > 0)
-                    color_index -= 1;
-                color_replacement = "color='"+color+"'";
-            }
             // if cell is in a collapsable column && our header
-            if (HeaderList[i].collapse && current_quest.QuestName == CurrentQuestName) {
+            if (HeaderList[i].collapse && current_quest.quest_id == current_quest_id) {
                 element_string = element_string.replace("__VALUE__","");
                 quest_row_string += element_string.replace("__COLOR__",color_replacement);
             } else {
-                CurrentQuestName = current_quest.QuestName;
+                current_quest_id = current_quest.quest_id;
                 element_string = element_string.replace("__VALUE__",value);
                 quest_row_string += element_string.replace("__COLOR__",color_replacement);
             }
@@ -173,8 +254,7 @@ function updateResults() {
     result_string = result_string.replace("__HEADER_LIST__",headerList_string);
     result_string = result_string.replace("__ELEMENT_LIST__",elementList_string);
 
-    $('#results').empty();
-    $('#results').append(result_string);
+    $('#results').empty().append(result_string);
 }
 
 function updateSearchSetting(id) {
@@ -219,7 +299,64 @@ $('#search').on('click', function() {
     updateResults();
 });
 
-function sortBy(header){
-    SearchSettings.sort = _.filter(HeaderList,(x)=>{return x.header === header;})[0].key;
+function updateRecords() {
+    records.forEach(function(record) {
+        record.quest = quests.find(x => x.id == record.quest_id);
+    });
+    ready = true;
+    console.log('Page ready');
+    updateSearchSettings();
     updateResults();
 }
+function loadRecords() {
+    $.ajax({
+        method: 'GET',
+        url: 'data/records.json',
+        dataType: 'json',
+        converters: {
+            'text json': function(result) {
+                if (typeof JSON5 === 'object' && typeof JSON5.parse === 'function') {
+                    return JSON5.parse(result);
+                } else if (typeof JSON === 'object' && typeof JSON.parse === 'function') {
+                    return JSON.parse(result);
+                } else {
+                    // Fallback to jQuery's parser
+                    return $.parseJSON(result);
+                }
+            }
+        },
+    }).done(function(data){
+        records = data;
+        loadQuests();
+    }).fail(function(jqxhr, textStatus, error) {
+        var err = textStatus + ", " + error;
+        console.log("Request Failed: " + err);
+    });
+}
+function loadQuests() {
+    $.ajax({
+        method: 'GET',
+        url: 'data/quests.json',
+        dataType: 'json',
+        converters: {
+            'text json': function(result) {
+                if (typeof JSON5 === 'object' && typeof JSON5.parse === 'function') {
+                    return JSON5.parse(result);
+                } else if (typeof JSON === 'object' && typeof JSON.parse === 'function') {
+                    return JSON.parse(result);
+                } else {
+                    // Fallback to jQuery's parser
+                    return $.parseJSON(result);
+                }
+            }
+        },
+    }).done(function(data){
+        quests = data;
+        updateRecords();
+    }).fail(function(jqxhr, textStatus, error) {
+        var err = textStatus + ", " + error;
+        console.log("Request Failed: " + err);
+    });
+}
+
+loadRecords();
