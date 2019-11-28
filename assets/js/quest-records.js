@@ -105,6 +105,24 @@ function secondsToString(seconds){
     return ""+hours+"\'"+min.padStart(2,'0')+"\""+seconds.padStart(2,'0');
 }
 
+function classKeyToName(key) {
+    switch (key) {
+        case 'humar':       return 'HUmar';
+        case 'hunewearl':   return 'HUnewearl';
+        case 'hucast':      return 'HUcast';
+        case 'hucaseal':    return 'HUcaseal';
+        case 'ramar':       return 'RAmar';
+        case 'ramarl':      return 'RAmarl';
+        case 'racast':      return 'RAcast';
+        case 'racaseal':    return 'RAcaseal';
+        case 'fomar':       return 'FOmar';
+        case 'fomarl':      return 'FOmarl';
+        case 'fonewmn':     return 'FOnewmn';
+        case 'fonewearl':   return 'FOnewearl';
+        default: return "Unknown";
+    }
+}
+
 function playersToList(arr){
     let result = '';
     for (let i = 0; i < arr.length; i++) {
@@ -112,6 +130,8 @@ function playersToList(arr){
             result += '</br>';
         }
         result += arr[i].name;
+        result += ' - ';
+        result += classKeyToName(arr[i].class);
     }
     return result;
 }
