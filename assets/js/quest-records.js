@@ -6,7 +6,7 @@ let HeaderList = [
     //{ key: "episode", header: "Episode", collapse: false, formatter: (x) => {return "Episode "+x;}},
     { key: "time", header: "Time", collapse: false, formatter: (x) => { return secondsToString(x); } },
     { key: "players", header: "Players", collapse: false, formatter: (x) => { return playersToList(x);}},
-    { key: "meta", header: "Meta", collapse: false, formatter: (x) => {return metaToName(x);}},
+    //{ key: "meta", header: "Meta", collapse: false, formatter: (x) => {return metaToName(x);}},
     { key: "team", header: "Team", collapse: false, formatter: (x) => {return x || "";}},
 ]
 let SearchSettings = {
@@ -127,56 +127,56 @@ function updateResults() {
     // Do all filters
     data = _.filter(data, function(x) {
         // Mode
-        if (SearchSettings.mode_normal && (x.mode == 'normal')) {
+        if (SearchSettings.mode.normal && (x.mode == 'normal')) {
             return true;
         }
-        if (SearchSettings.mode_challange && (x.mode == 'challenge')) {
+        if (SearchSettings.mode.challange && (x.mode == 'challenge')) {
             return true;
         }
         // Meta
-        if (SearchSettings.meta_vanilla && (x.meta == 'vanilla')) {
+        if (SearchSettings.meta.vanilla && (x.meta == 'vanilla')) {
             return true;
         }
-        if (SearchSettings.meta_2014 && (x.meta == '2014')) {
+        if (SearchSettings.meta._2014 && (x.meta == '2014')) {
             return true;
         }
-        if (SearchSettings.meta_gamecube && (x.meta == 'gamecube')) {
+        if (SearchSettings.meta.gamecube && (x.meta == 'gamecube')) {
             return true;
         }
-        if (SearchSettings.meta_ultima && (x.meta == 'ultima')) {
+        if (SearchSettings.meta.ultima && (x.meta == 'ultima')) {
             return true;
         }
         // Episiode
-        if (SearchSettings.episode_1 && (x.episode == 1)) {
+        if (SearchSettings.episode._1 && (x.episode == 1)) {
             return true;
         }
-        if (SearchSettings.episode_2 && (x.episode == 2)) {
+        if (SearchSettings.episode._2 && (x.episode == 2)) {
             return true;
         }
-        if (SearchSettings.episode_4 && (x.episode == 4)) {
+        if (SearchSettings.episode._4 && (x.episode == 4)) {
             return true;
         }
         // Category
-        if (SearchSettings.category_opm && (x.category == 'opm')) {
+        if (SearchSettings.category.opm && (x.category == 'opm')) {
             return true;
         }
-        if (SearchSettings.category_1p && (x.category == '1p')) {
+        if (SearchSettings.category._1p && (x.category == '1p')) {
             return true;
         }
-        if (SearchSettings.category_2p && (x.category == '2p')) {
+        if (SearchSettings.category._2p && (x.category == '2p')) {
             return true;
         }
-        if (SearchSettings.category_3p && (x.category == '3p')) {
+        if (SearchSettings.category._3p && (x.category == '3p')) {
             return true;
         }
-        if (SearchSettings.category_4p && (x.category == '4p')) {
+        if (SearchSettings.category._4p && (x.category == '4p')) {
             return true;
         }
         // Photon Blast
-        if (SearchSettings.pb_no && (x.pb == false)) {
+        if (SearchSettings.pb.no && (x.pb == false)) {
             return true;
         }
-        if (SearchSettings.pb_yes && (x.pb == true)) {
+        if (SearchSettings.pb.yes && (x.pb == true)) {
             return true;
         }
         // Class
@@ -227,6 +227,9 @@ function updateResults() {
             let element_string = RESULT_ELEMENT_VALUE_TEMPLATE.substring(0);
             let formatter = HeaderList[i].formatter;
             let value = formatter(current_quest[HeaderList[i].key]);
+            if (current_quest.quest.is_countdown && HeaderList[i].key == 'time') {
+                value = "Remaining: "+value;
+            }
             let color_replacement = "";
             // if cell is in a collapsable column && our header
             if (HeaderList[i].collapse && current_quest.quest_id == current_quest_id) {
