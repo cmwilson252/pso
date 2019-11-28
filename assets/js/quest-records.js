@@ -299,64 +299,16 @@ $('#search').on('click', function() {
     updateResults();
 });
 
-function updateRecords() {
-    records.forEach(function(record) {
-        record.quest = quests.find(x => x.id == record.quest_id);
-    });
-    ready = true;
-    console.log('Page ready');
-    updateSearchSettings();
-    updateResults();
-}
-function loadRecords() {
-    $.ajax({
-        method: 'GET',
-        url: 'data/records.json',
-        dataType: 'json',
-        converters: {
-            'text json': function(result) {
-                if (typeof JSON5 === 'object' && typeof JSON5.parse === 'function') {
-                    return JSON5.parse(result);
-                } else if (typeof JSON === 'object' && typeof JSON.parse === 'function') {
-                    return JSON.parse(result);
-                } else {
-                    // Fallback to jQuery's parser
-                    return $.parseJSON(result);
-                }
-            }
-        },
-    }).done(function(data){
-        records = data;
-        loadQuests();
-    }).fail(function(jqxhr, textStatus, error) {
-        var err = textStatus + ", " + error;
-        console.log("Request Failed: " + err);
-    });
-}
-function loadQuests() {
-    $.ajax({
-        method: 'GET',
-        url: 'data/quests.json',
-        dataType: 'json',
-        converters: {
-            'text json': function(result) {
-                if (typeof JSON5 === 'object' && typeof JSON5.parse === 'function') {
-                    return JSON5.parse(result);
-                } else if (typeof JSON === 'object' && typeof JSON.parse === 'function') {
-                    return JSON.parse(result);
-                } else {
-                    // Fallback to jQuery's parser
-                    return $.parseJSON(result);
-                }
-            }
-        },
-    }).done(function(data){
+getJSON5('data/records.json', (function(data) {
+    records = data;
+    getJSON5('data/quests.json', (function(data) {
         quests = data;
-        updateRecords();
-    }).fail(function(jqxhr, textStatus, error) {
-        var err = textStatus + ", " + error;
-        console.log("Request Failed: " + err);
-    });
-}
-
-loadRecords();
+        records.forEach(function(record) {
+            record.quest = quests.find(x => x.id == record.quest_id);
+        });
+        ready = true;
+        updateSearchSettings();
+        updateResults();
+        console.log('Page ready');
+    }));
+}));
