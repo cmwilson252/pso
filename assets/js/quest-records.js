@@ -10,34 +10,46 @@ let HeaderList = [
     { key: "team", header: "Team", collapse: false, formatter: (x) => {return x || "";}},
 ]
 let SearchSettings = {
-    mode_normal: false,
-    mode_challange: false,
-    meta_vanilla: false,
-    meta_2014: false,
-    meta_gamecube: false,
-    meta_ultima: false,
-    episode_1: false,
-    episode_2: false,
-    episode_4: false,
-    category_opm: false,
-    category_1p: false,
-    category_2p: false,
-    category_3p: false,
-    category_4p: false,
-    pb_no: false,
-    pb_yes: false,
-    class_humar: false,
-    class_hunewearl: false,
-    class_hucast: false,
-    class_hucaseal: false,
-    class_ramar: false,
-    class_ramarl: false,
-    class_racast: false,
-    class_racaseal: false,
-    class_fomar: false,
-    class_fomarl: false,
-    class_fonewmn: false,
-    class_fonewearl: false,
+    mode: {
+        normal: false,
+        challange: false,
+    },
+    meta: {
+        vanilla: false,
+        _2014: false,
+        gamecube: false,
+        ultima: false,
+    },
+    episode: {
+        _1: false,
+        _2: false,
+        _4: false,
+    },
+    category: {
+        opm: false,
+        _1p: false,
+        _2p: false,
+        _3p: false,
+        _4p: false,
+    },
+    pb: {
+        no: false,
+        yes: false,
+    },
+    class: {
+        humar: false,
+        hunewearl: false,
+        hucast: false,
+        hucaseal: false,
+        ramar: false,
+        ramarl: false,
+        racast: false,
+        racaseal: false,
+        fomar: false,
+        fomarl: false,
+        fonewmn: false,
+        fonewearl: false,
+    }
 };
 // from last to first
 let Colors = ["#B3E5FC","#4FC3F7","#03A9F4","#0288D1","#01579B"];
@@ -168,40 +180,18 @@ function updateResults() {
             return true;
         }
         // Class
-        if (SearchSettings.class_humar && (x.class == 'humar')) {
-            return true;
-        }
-        if (SearchSettings.class_hunewearl && (x.class == 'hunewearl')) {
-            return true;
-        }
-        if (SearchSettings.class_hucast && (x.class == 'hucast')) {
-            return true;
-        }
-        if (SearchSettings.class_hucaseal && (x.class == 'hucaseal')) {
-            return true;
-        }
-        if (SearchSettings.class_ramar && (x.class == 'ramar')) {
-            return true;
-        }
-        if (SearchSettings.class_ramarl && (x.class == 'ramarl')) {
-            return true;
-        }
-        if (SearchSettings.class_racast && (x.class == 'racast')) {
-            return true;
-        }
-        if (SearchSettings.class_racaseal && (x.class == 'racaseal')) {
-            return true;
-        }
-        if (SearchSettings.class_fomar && (x.class == 'fomar')) {
-            return true;
-        }
-        if (SearchSettings.class_fomarl && (x.class == 'fomarl')) {
-            return true;
-        }
-        if (SearchSettings.class_fonewmn && (x.class == 'fonewmn')) {
-            return true;
-        }
-        if (SearchSettings.class_fonewearl && (x.class == 'fonewearl')) {
+        let class_check = false;
+        Object.keys(SearchSettings.class).forEach(function(key,index) {
+            if (SearchSettings.class[key]) {
+                for (let i = 0; i < x.players.length; i++) {
+                    if (x.players[i].class == key) {
+                        console.log('True');
+                        class_check = true;
+                    }
+                }
+            }
+        });
+        if (class_check) {
             return true;
         }
         return false;
@@ -264,34 +254,34 @@ function updateSearchSetting(id) {
     return result;
 }
 function updateSearchSettings() {
-    SearchSettings.mode_normal = updateSearchSetting('mode_normal');
-    SearchSettings.mode_challange = updateSearchSetting('mode_challange');
-    SearchSettings.meta_vanilla = updateSearchSetting('meta_vanilla');
-    SearchSettings.meta_2014 = updateSearchSetting('meta_2014');
-    SearchSettings.meta_gamecube = updateSearchSetting('meta_gamecube');
-    SearchSettings.meta_ultima = updateSearchSetting('meta_ultima');
-    SearchSettings.episode_1 = updateSearchSetting('episode_1');
-    SearchSettings.episode_2 = updateSearchSetting('episode_2');
-    SearchSettings.episode_4 = updateSearchSetting('episode_4');
-    SearchSettings.category_opm = updateSearchSetting('category_opm');
-    SearchSettings.category_1p = updateSearchSetting('category_1p');
-    SearchSettings.category_2p = updateSearchSetting('category_2p');
-    SearchSettings.category_3p = updateSearchSetting('category_3p');
-    SearchSettings.category_4p = updateSearchSetting('category_4p');
-    SearchSettings.pb_no = updateSearchSetting('pb_no');
-    SearchSettings.pb_yes = updateSearchSetting('pb_yes');
-    SearchSettings.class_humar = updateSearchSetting('class_humar');
-    SearchSettings.class_hunewearl = updateSearchSetting('class_hunewearl');
-    SearchSettings.class_hucast = updateSearchSetting('class_hucast');
-    SearchSettings.class_hucaseal = updateSearchSetting('class_hucaseal');
-    SearchSettings.class_ramar = updateSearchSetting('class_ramar');
-    SearchSettings.class_ramarl = updateSearchSetting('class_ramarl');
-    SearchSettings.class_racast = updateSearchSetting('class_racast');
-    SearchSettings.class_racaseal = updateSearchSetting('class_racaseal');
-    SearchSettings.class_fomar = updateSearchSetting('class_fomar');
-    SearchSettings.class_fomarl = updateSearchSetting('class_fomarl');
-    SearchSettings.class_fonewmn = updateSearchSetting('class_fonewmn');
-    SearchSettings.class_fonewearl = updateSearchSetting('class_fonewearl');
+    SearchSettings.mode.normal = updateSearchSetting('mode_normal');
+    SearchSettings.mode.challange = updateSearchSetting('mode_challange');
+    SearchSettings.meta.vanilla = updateSearchSetting('meta_vanilla');
+    SearchSettings.meta._2014 = updateSearchSetting('meta_2014');
+    SearchSettings.meta.gamecube = updateSearchSetting('meta_gamecube');
+    SearchSettings.meta.ultima = updateSearchSetting('meta_ultima');
+    SearchSettings.episode._1 = updateSearchSetting('episode_1');
+    SearchSettings.episode._2 = updateSearchSetting('episode_2');
+    SearchSettings.episode._4 = updateSearchSetting('episode_4');
+    SearchSettings.category.opm = updateSearchSetting('category_opm');
+    SearchSettings.category._1p = updateSearchSetting('category_1p');
+    SearchSettings.category._2p = updateSearchSetting('category_2p');
+    SearchSettings.category._3p = updateSearchSetting('category_3p');
+    SearchSettings.category._4p = updateSearchSetting('category_4p');
+    SearchSettings.pb.no = updateSearchSetting('pb_no');
+    SearchSettings.pb.yes = updateSearchSetting('pb_yes');
+    SearchSettings.class.humar = updateSearchSetting('class_humar');
+    SearchSettings.class.hunewearl = updateSearchSetting('class_hunewearl');
+    SearchSettings.class.hucast = updateSearchSetting('class_hucast');
+    SearchSettings.class.hucaseal = updateSearchSetting('class_hucaseal');
+    SearchSettings.class.ramar = updateSearchSetting('class_ramar');
+    SearchSettings.class.ramarl = updateSearchSetting('class_ramarl');
+    SearchSettings.class.racast = updateSearchSetting('class_racast');
+    SearchSettings.class.racaseal = updateSearchSetting('class_racaseal');
+    SearchSettings.class.fomar = updateSearchSetting('class_fomar');
+    SearchSettings.class.fomarl = updateSearchSetting('class_fomarl');
+    SearchSettings.class.fonewmn = updateSearchSetting('class_fonewmn');
+    SearchSettings.class.fonewearl = updateSearchSetting('class_fonewearl');
 }
 
 $('#search').on('click', function() {
@@ -299,64 +289,16 @@ $('#search').on('click', function() {
     updateResults();
 });
 
-function updateRecords() {
-    records.forEach(function(record) {
-        record.quest = quests.find(x => x.id == record.quest_id);
-    });
-    ready = true;
-    console.log('Page ready');
-    updateSearchSettings();
-    updateResults();
-}
-function loadRecords() {
-    $.ajax({
-        method: 'GET',
-        url: 'data/records.json',
-        dataType: 'json',
-        converters: {
-            'text json': function(result) {
-                if (typeof JSON5 === 'object' && typeof JSON5.parse === 'function') {
-                    return JSON5.parse(result);
-                } else if (typeof JSON === 'object' && typeof JSON.parse === 'function') {
-                    return JSON.parse(result);
-                } else {
-                    // Fallback to jQuery's parser
-                    return $.parseJSON(result);
-                }
-            }
-        },
-    }).done(function(data){
-        records = data;
-        loadQuests();
-    }).fail(function(jqxhr, textStatus, error) {
-        var err = textStatus + ", " + error;
-        console.log("Request Failed: " + err);
-    });
-}
-function loadQuests() {
-    $.ajax({
-        method: 'GET',
-        url: 'data/quests.json',
-        dataType: 'json',
-        converters: {
-            'text json': function(result) {
-                if (typeof JSON5 === 'object' && typeof JSON5.parse === 'function') {
-                    return JSON5.parse(result);
-                } else if (typeof JSON === 'object' && typeof JSON.parse === 'function') {
-                    return JSON.parse(result);
-                } else {
-                    // Fallback to jQuery's parser
-                    return $.parseJSON(result);
-                }
-            }
-        },
-    }).done(function(data){
+getJSON5('data/records.json', (function(data) {
+    records = data;
+    getJSON5('data/quests.json', (function(data) {
         quests = data;
-        updateRecords();
-    }).fail(function(jqxhr, textStatus, error) {
-        var err = textStatus + ", " + error;
-        console.log("Request Failed: " + err);
-    });
-}
-
-loadRecords();
+        records.forEach(function(record) {
+            record.quest = quests.find(x => x.id == record.quest_id);
+        });
+        ready = true;
+        updateSearchSettings();
+        updateResults();
+        console.log('Page ready');
+    }));
+}));

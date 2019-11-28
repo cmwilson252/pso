@@ -25,30 +25,19 @@ Array.prototype.chunk = function (len) {
     return chunks;
 }
 
-let quesListItemTemplate =
-'<div class="item" data-value="__VALUE__">__TEXT__</div>';
-let partyCardPlayerTemplate =
-'                <li>__PLAYER_NAME__</li>';
-let partyCardTemplate =
-'<div class="ui inverted card">'+
-'    <div class="content">'+
-'        <div class="header">__PARTY_INDEX__</div>'+
-'        <div class="description">'+
-'            <ul>'+
-'                __PLAYER_LIST__'+
-'            </ul>'+
-'        </div>'+
-'    </div>'+
-'</div>';
 
+let quests = null;
 function setupQuests() {
     $('#quest_list').dropdown();
 
-    questListData.forEach(function (quest) {
-        let html = quesListItemTemplate;
-        html = html.replace('__VALUE__', quest.name);
-        html = html.replace('__TEXT__', quest.name);
-        $('#quest_list .menu').append(html);
+    quests.forEach(function (quest) {
+        $('#quest_list .menu').append(
+            $('<div/>', {
+                'class': 'item',
+                'data-value': quest.name,
+                'text': quest.name,
+            }),
+        );
     })
     $('#quest_list').removeClass('loading');
 }
@@ -69,9 +58,9 @@ function selectRandomQuest() {
     let activeQuests = $('#quest_list').dropdown('get values');
     if (activeQuests == '') {
         activeQuests = [];
-        questListData.forEach(function (quest) {
+        quests.forEach(function (quest) {
             activeQuests.push(quest.name);
-        })
+        });
     }
     
     let selectedQuest = activeQuests.random();
@@ -93,17 +82,32 @@ function generateParties() {
     
     let currentPartyIndex = 0;
     parties.forEach(party => {
-        let html = partyCardTemplate;
-        let htmlPartyPlayers = '';
-        
-        party.forEach(player => {
-            htmlPartyPlayers += partyCardPlayerTemplate.replace('__PLAYER_NAME__', player);
-        });
-        
+        $('#party_list').append(
+            $('<div/>', {
+                'class': 'ui inverted card',
+            }).append(
+                $('<div/>', {
+                    'class': 'content',
+                }).append(
+                    $('<div/>', {
+                        'class': 'header',
+                        'text': 'Party '+(currentPartyIndex+1),
+                    }),
+                    $('<div/>', {
+                        'class': 'description',
+                    }).append(
+                        $('<ul/>', {}).append(
+                            $.map(party, function(player) {
+                                return $('<li/>', {
+                                    'text': player,
+                                });
+                            }),
+                        ),
+                    ),
+                ),
+            ),
+        );
         currentPartyIndex++;
-        html = html.replace('__PARTY_INDEX__', 'Party '+currentPartyIndex);
-        html = html.replace('__PLAYER_LIST__', htmlPartyPlayers);
-        $('#party_list').append(html);
     });
 }
 
@@ -112,6 +116,11 @@ function generate() {
     generateParties();
 }
 
-setupQuests();
-setupPlayers();
-setupGeneration();
+getJSON5('data/quests.json', (function(data) {
+    quests = data;
+    setupQuests();
+    setupPlayers();
+    setupGeneration();
+    ready = true;
+    console.log('Page ready');
+}));

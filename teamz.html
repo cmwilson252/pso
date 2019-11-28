@@ -8,8 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" type="icon" href="./assets/images/favicon.ico"/>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="./assets/semantic/semantic.css">
-        <link rel="stylesheet" type="text/css" href="./assets/semantic/semantic.darkly.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.2/dist/semantic.min.css">
         <link href="./assets/css/main.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
@@ -57,7 +56,7 @@
                 <div class="ui inverted segment grid">
                     <div class="row">
                         <div class="column">
-                            <div id="party_count" class="ui selection dropdown">
+                            <div id="party_count" class="ui inverted selection dropdown">
                                 <input type="hidden" name="party_count" value="2">
                                 <i class="dropdown icon"></i>
                                 <div class="default text">Party Count</div>
@@ -71,7 +70,7 @@
                     </div>
                     <div class="row">
                         <div class="column">
-                            <div id="quest_list" class="ui inverted loading fluid search multiple dropdown">
+                            <div id="quest_list" class="ui inverted loading fluid search multiple selection dropdown">
                                 <i class="dropdown icon"></i>
                                 <div class="default text">All Quests...</div>
                                 <div class="menu"></div>
@@ -80,7 +79,7 @@
                     </div>
                     <div class="row">
                         <div class="column">
-                            <div id="player_list" class="ui inverted fluid search multiple dropdown">
+                            <div id="player_list" class="ui inverted fluid search multiple selection dropdown">
                                 <div class="default text">Players...</div>
                                 <div class="menu"></div>
                             </div>
@@ -115,10 +114,11 @@
             </div>
         </footer>
 
+        <script src="https://unpkg.com/json5@^2.0.0/dist/index.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="./assets/semantic/semantic.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.2/dist/semantic.min.js"></script>
         <script src="./assets/js/main.js" type="text/javascript" language="javascript"></script>
-        <script src="./assets/js/quests.js" type="text/javascript" language="javascript"></script>
         <script src="./assets/js/teamz.js" type="text/javascript" language="javascript"></script>
     </body>
 </html>
