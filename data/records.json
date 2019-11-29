@@ -541,7 +541,7 @@
 	},
 	{
 		"mode": "normal",
-		"quest_id": "mu2",
+		"quest_id": "mau2",
 		"episode": 2,
 		"meta": "ultima",
 		"category": "1p",
@@ -557,7 +557,7 @@
 	},
 	{
 		"mode": "normal",
-		"quest_id": "mu3",
+		"quest_id": "mau3",
 		"episode": 2,
 		"meta": "ultima",
 		"category": "1p",
@@ -589,7 +589,7 @@
 	},
 	{
 		"mode": "normal",
-		"quest_id": "mu4",
+		"quest_id": "mau4",
 		"episode": 2,
 		"meta": "ultima",
 		"category": "2p",
@@ -609,7 +609,7 @@
 	},
 	{
 		"mode": "normal",
-		"quest_id": "mu4",
+		"quest_id": "mau4",
 		"episode": 2,
 		"meta": "ultima",
 		"category": "3p",
@@ -633,7 +633,7 @@
 	},
 	{
 		"mode": "normal",
-		"quest_id": "mu5",
+		"quest_id": "mau5",
 		"episode": 2,
 		"meta": "ultima",
 		"category": "2p",
@@ -2286,7 +2286,7 @@
 	},
 	{
 		"mode": "normal",
-		"quest_id": "mu3",
+		"quest_id": "mau3",
 		"episode": 2,
 		"meta": "2014",
 		"category": "opm",
@@ -2302,7 +2302,7 @@
 	},
 	{
 		"mode": "normal",
-		"quest_id": "mu3",
+		"quest_id": "mau3",
 		"episode": 2,
 		"meta": "2014",
 		"category": "opm",
@@ -2318,7 +2318,7 @@
 	},
 	{
 		"mode": "normal",
-		"quest_id": "mu5",
+		"quest_id": "mau5",
 		"episode": 2,
 		"meta": "2014",
 		"category": "opm",
@@ -5170,7 +5170,7 @@
 	},
 	{
 		"mode": "normal",
-		"quest_id": "mu1",
+		"quest_id": "mau1",
 		"episode": 2,
 		"meta": "vanilla",
 		"category": "opm",
@@ -5186,7 +5186,7 @@
 	},
 	{
 		"mode": "normal",
-		"quest_id": "mu3",
+		"quest_id": "mau3",
 		"episode": 2,
 		"meta": "vanilla",
 		"category": "opm",
@@ -5202,7 +5202,7 @@
 	},
 	{
 		"mode": "normal",
-		"quest_id": "mu4",
+		"quest_id": "mau4",
 		"episode": 2,
 		"meta": "vanilla",
 		"category": "4p",
@@ -5230,7 +5230,7 @@
 	},
 	{
 		"mode": "normal",
-		"quest_id": "mu5",
+		"quest_id": "mau5",
 		"episode": 2,
 		"meta": "vanilla",
 		"category": "opm",

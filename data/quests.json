@@ -240,8 +240,32 @@
 		"is_countdown": true
 	},
 	{
-		"id": "mu5",
-		"name": "MU5",
+		"id": "mau1",
+		"name": "MaU1",
+		"enabled": true,
+		"is_countdown": true
+	},
+	{
+		"id": "mau2",
+		"name": "MaU2",
+		"enabled": true,
+		"is_countdown": true
+	},
+	{
+		"id": "mau3",
+		"name": "MaU3",
+		"enabled": true,
+		"is_countdown": true
+	},
+	{
+		"id": "mau4",
+		"name": "MaU4",
+		"enabled": true,
+		"is_countdown": true
+	},
+	{
+		"id": "mau5",
+		"name": "MaU5",
 		"enabled": true,
 		"is_countdown": true
 	},
