@@ -2,12 +2,12 @@ let ready = false;
 let quests = null;
 let records = null;
 let HeaderList = [
-    { key: "quest", header: "Quest", collapse:true, formatter: (x) => { return x.name; }},
+    { key: "meta", header: "Meta", collapse: false, formatter: (x) => {return metaToName(x);}},
     { key: "episode", header: "Episode", collapse: false, formatter: (x) => {return "Episode "+x;}},
+    { key: "quest", header: "Quest", collapse:true, formatter: (x) => { return x.name; }},
     { key: "time", header: "Time", collapse: false, formatter: (x) => { return secondsToString(x); } },
     { key: "players", header: "Players", collapse: false, formatter: (x) => { return playerNamesToList(x);}},
     { key: "players", header: "Classes", collapse: false, formatter: (x) => { return playerClassesToList(x);}},
-    { key: "meta", header: "Meta", collapse: false, formatter: (x) => {return metaToName(x);}},
     { key: "team", header: "Team", collapse: false, formatter: (x) => {return x || "";}},
 ]
 let SearchSettings = {
