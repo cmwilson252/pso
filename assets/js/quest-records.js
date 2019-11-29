@@ -11,46 +11,13 @@ let HeaderList = [
     { key: "team", header: "Team", collapse: false, formatter: (x) => {return x || "";}},
 ]
 let SearchSettings = {
-    mode: {
-        normal: false,
-        challange: false,
-    },
-    meta: {
-        vanilla: false,
-        _2014: false,
-        gamecube: false,
-        ultima: false,
-    },
-    episode: {
-        _1: false,
-        _2: false,
-        _4: false,
-    },
-    category: {
-        opm: false,
-        _1p: false,
-        _2p: false,
-        _3p: false,
-        _4p: false,
-    },
-    pb: {
-        no: false,
-        yes: false,
-    },
-    class: {
-        humar: false,
-        hunewearl: false,
-        hucast: false,
-        hucaseal: false,
-        ramar: false,
-        ramarl: false,
-        racast: false,
-        racaseal: false,
-        fomar: false,
-        fomarl: false,
-        fonewmn: false,
-        fonewearl: false,
-    }
+    modes: [],
+    metas: [],
+    episodes: [],
+    categories: [],
+    photon_blasts: [],
+    classes: [],
+    players: [],
 };
 // from last to first
 let Colors = ["#B3E5FC","#4FC3F7","#03A9F4","#0288D1","#01579B"];
@@ -163,110 +130,104 @@ function updateResults() {
         // If options in a group are selected, only include matching ones
         let result = true;
         
-        //// Mode
-        if (SearchSettings.mode.normal || SearchSettings.mode.challenge) {
+        // Mode
+        if (SearchSettings.modes.length > 0) {
             let group = false;
-            if (SearchSettings.mode.normal && (x.mode == 'normal')) {
-                group = true;
-            }
-            if (SearchSettings.mode.challenge && (x.mode == 'challenge')) {
-                group = true;
-            }
+            SearchSettings.modes.forEach(function (mode) {
+                if (x.mode == mode) {
+                    group = true;
+                }
+            });
+            
             if (!group) {
                 result = false;
             }
         }
         // Meta
-        if (SearchSettings.meta.vanilla || SearchSettings.meta._2014 ||
-            SearchSettings.meta.gamecube || SearchSettings.meta.ultima) {
+        if (SearchSettings.metas.length > 0) {
             let group = false;
-            if (SearchSettings.meta.vanilla && (x.meta == 'vanilla')) {
-                group = true;
-            }
-            if (SearchSettings.meta._2014 && (x.meta == '2014')) {
-                group = true;
-            }
-            if (SearchSettings.meta.gamecube && (x.meta == 'gamecube')) {
-                group = true;
-            }
-            if (SearchSettings.meta.ultima && (x.meta == 'ultima')) {
-                group = true;
-            }
+            SearchSettings.metas.forEach(function (meta) {
+                if (x.meta == meta) {
+                    group = true;
+                }
+            });
+            
             if (!group) {
                 result = false;
             }
         }
         // Episode
-        if (SearchSettings.episode._1 || SearchSettings.episode._2 ||
-            SearchSettings.episode._3) {
+        if (SearchSettings.episodes.length > 0) {
             let group = false;
-            if (SearchSettings.episode._1 && (x.episode == 1)) {
-                group = true;
-            }
-            if (SearchSettings.episode._2 && (x.episode == 2)) {
-                group = true;
-            }
-            if (SearchSettings.episode._4 && (x.episode == 4)) {
-                group = true;
-            }
+            SearchSettings.episodes.forEach(function (episode) {
+                if (x.episode == episode) {
+                    group = true;
+                }
+            });
+            
             if (!group) {
                 result = false;
             }
         }
         // Category
-        if (SearchSettings.category.opm ||
-            SearchSettings.category._1p || SearchSettings.category._2p ||
-            SearchSettings.category._3p || SearchSettings.category._4p) {
+        if (SearchSettings.categories.length > 0) {
             let group = false;
-            if (SearchSettings.category.opm && (x.category == 'opm')) {
-                group = true;
-            }
-            if (SearchSettings.category._1p && (x.category == '1p')) {
-                group = true;
-            }
-            if (SearchSettings.category._2p && (x.category == '2p')) {
-                group = true;
-            }
-            if (SearchSettings.category._3p && (x.category == '3p')) {
-                group = true;
-            }
-            if (SearchSettings.category._4p && (x.category == '4p')) {
-                group = true;
-            }
+            SearchSettings.categories.forEach(function (category) {
+                if (x.category == category) {
+                    group = true;
+                }
+            });
+            
             if (!group) {
                 result = false;
             }
         }
         // Photon Blast
-        if (SearchSettings.pb.no || SearchSettings.pb.yes) {
+        if (SearchSettings.photon_blasts.length > 0) {
             let group = false;
-            if (SearchSettings.pb.no && (x.pb == false)) {
-                group = true;
-            }
-            if (SearchSettings.pb.yes && (x.pb == true)) {
-                group = true;
-            }
+            SearchSettings.photon_blasts.forEach(function (photon_blast) {
+                if (x.pb == photon_blast) {
+                    group = true;
+                }
+            });
+            
             if (!group) {
                 result = false;
             }
         }
-        // Class
-        let class_check = false;
-        let class_group = false;
-        Object.keys(SearchSettings.class).forEach(function(key,index) {
-            if (SearchSettings.class[key]) {
-                class_check = true;
+        // Classes
+        if (SearchSettings.classes.length > 0) {
+            let group = false;
+            SearchSettings.classes.forEach(function (className) {
                 for (let i = 0; i < x.players.length; i++) {
-                    if (x.players[i].class == key) {
-                        class_group = true;
+                    if (x.players[i].class == className) {
+                        group = true;
                         break;
                     }
                 }
+            });
+            
+            if (!group) {
+                result = false;
             }
-        });
-        if (class_check && !class_group) {
-            result = false;
         }
+        // Player names
+        if (SearchSettings.players.length > 0) {
+            let group = false;
+            SearchSettings.players.forEach(function (player) {
+                for (let i = 0; i < x.players.length; i++) {
+                    if (x.players[i].name == player) {
+                        group = true;
+                        break;
+                    }
+                }
+            });
+            
+            if (!group) {
+                result = false;
+            }
+        }
+        
         return result;
     });
     
@@ -330,48 +291,217 @@ function updateSearchSetting(id) {
     return result;
 }
 function updateSearchSettings() {
-    SearchSettings.mode.normal = updateSearchSetting('mode_normal');
-    SearchSettings.mode.challenge = updateSearchSetting('mode_challenge');
-    SearchSettings.meta.vanilla = updateSearchSetting('meta_vanilla');
-    SearchSettings.meta._2014 = updateSearchSetting('meta_2014');
-    SearchSettings.meta.gamecube = updateSearchSetting('meta_gamecube');
-    SearchSettings.meta.ultima = updateSearchSetting('meta_ultima');
-    SearchSettings.episode._1 = updateSearchSetting('episode_1');
-    SearchSettings.episode._2 = updateSearchSetting('episode_2');
-    SearchSettings.episode._4 = updateSearchSetting('episode_4');
-    SearchSettings.category.opm = updateSearchSetting('category_opm');
-    SearchSettings.category._1p = updateSearchSetting('category_1p');
-    SearchSettings.category._2p = updateSearchSetting('category_2p');
-    SearchSettings.category._3p = updateSearchSetting('category_3p');
-    SearchSettings.category._4p = updateSearchSetting('category_4p');
-    SearchSettings.pb.no = updateSearchSetting('pb_no');
-    SearchSettings.pb.yes = updateSearchSetting('pb_yes');
-    SearchSettings.class.humar = updateSearchSetting('class_humar');
-    SearchSettings.class.hunewearl = updateSearchSetting('class_hunewearl');
-    SearchSettings.class.hucast = updateSearchSetting('class_hucast');
-    SearchSettings.class.hucaseal = updateSearchSetting('class_hucaseal');
-    SearchSettings.class.ramar = updateSearchSetting('class_ramar');
-    SearchSettings.class.ramarl = updateSearchSetting('class_ramarl');
-    SearchSettings.class.racast = updateSearchSetting('class_racast');
-    SearchSettings.class.racaseal = updateSearchSetting('class_racaseal');
-    SearchSettings.class.fomar = updateSearchSetting('class_fomar');
-    SearchSettings.class.fomarl = updateSearchSetting('class_fomarl');
-    SearchSettings.class.fonewmn = updateSearchSetting('class_fonewmn');
-    SearchSettings.class.fonewearl = updateSearchSetting('class_fonewearl');
+    SearchSettings.modes = $('#modes').dropdown('get values');
+    SearchSettings.metas = $('#metas').dropdown('get values');
+    SearchSettings.episodes = $('#episodes').dropdown('get values');
+    SearchSettings.categories = $('#categories').dropdown('get values');
+    SearchSettings.photon_blasts = $('#photon_blasts').dropdown('get values');
+    SearchSettings.classes = $('#classes').dropdown('get values');
+    SearchSettings.players = $('#players').dropdown('get values');
 }
 
 $('#search').on('click', function() {
     updateSearchSettings();
     updateResults();
+    $('html, body').animate({
+        scrollTop: $("#results").offset().top - 50,
+    }, 500);
 });
+
+function updateDropdownColumns() {
+    $('.columned').removeClass('column one two three four');
+    if (window.innerWidth <= 375) {
+        $('.columned').addClass('one');
+    } else if (window.innerWidth <= 480) {
+        $('.columned').addClass('two');
+    } else if (window.innerWidth <= 768) {
+        $('.columned').addClass('three');
+    } else {
+        $('.columned').addClass('four');
+    }
+    $('.columned').addClass('column');
+}
+
+function setupPage() {
+    let players = [];
+    records.forEach(function(record) {
+        record.quest = quests.find(x => x.id == record.quest_id);
+        record.players.forEach(function(player) {
+            let current_player = players.find(x => x.name == player.name);
+            if (current_player != undefined) {
+                current_player.records++;
+            } else {
+                players.push({
+                    name: player.name,
+                    records: 1,
+                });
+            }
+        });
+    });
+    players = _.sortBy(players, ['name']);
+    
+    let dropdown = {
+        values: [],
+    };
+    players.forEach(function(player) {
+        dropdown.values.push({
+            value: player.name,
+            //text: player.name+' ('+player.records+')',
+            name: player.name+' ('+player.records+')',
+        });
+    });
+    
+    $('#modes').dropdown({
+        values: [
+            {
+                name: 'Normal',
+                value: 'normal'
+            },
+            {
+                name : 'Challenge',
+                value : 'challenge',
+            }
+        ]
+    });
+    $('#metas').dropdown({
+        values: [
+            {
+                name: 'Vanilla',
+                value: 'vanilla'
+            },
+            {
+                name : '2014',
+                value : '2014',
+            },
+            {
+                name : 'Gamecube',
+                value : 'gamecube',
+            },
+            {
+                name : 'Ultima',
+                value : 'ultima',
+            }
+        ]
+    });
+    $('#episodes').dropdown({
+        values: [
+            {
+                name: 'Episode 1',
+                value: '1'
+            },
+            {
+                name : 'Episode 2',
+                value : '2',
+            },
+            {
+                name : 'Episode 4',
+                value : '4',
+            }
+        ]
+    });
+    $('#categories').dropdown({
+        values: [
+            {
+                name: 'OPM',
+                value: 'opm'
+            },
+            {
+                name : '1P',
+                value : '1p',
+            },
+            {
+                name : '2P',
+                value : '2p',
+            },
+            {
+                name : '3P',
+                value : '3p',
+            },
+            {
+                name : '4P',
+                value : '4p',
+            }
+        ]
+    });
+    $('#photon_blasts').dropdown({
+        values: [
+            {
+                name: 'No PB',
+                value: 'false'
+            },
+            {
+                name : 'PB',
+                value : 'true',
+            }
+        ]
+    });
+    $('#classes').dropdown({
+        values: [
+            {
+                name: 'HUmar',
+                value: 'humar'
+            },
+            {
+                name: 'HUnewearl',
+                value: 'hunewearl'
+            },
+            {
+                name: 'HUcast',
+                value: 'hucast'
+            },
+            {
+                name: 'HUcaseal',
+                value: 'hucaseal'
+            },
+            {
+                name: 'RAmar',
+                value: 'ramar'
+            },
+            {
+                name: 'RAmarl',
+                value: 'ramarl'
+            },
+            {
+                name: 'RAcast',
+                value: 'racast'
+            },
+            {
+                name: 'RAcaseal',
+                value: 'racaseal'
+            },
+            {
+                name: 'FOmar',
+                value: 'fomar'
+            },
+            {
+                name: 'FOmarl',
+                value: 'fomarl'
+            },
+            {
+                name: 'FOnewmn',
+                value: 'fonewmn'
+            },
+            {
+                name: 'FOnewearl',
+                value: 'fonewearl'
+            }
+        ]
+    });
+    $('#players').dropdown(dropdown);
+    
+    $(window).on('resize', _.debounce(function () {
+        updateDropdownColumns();
+    }, 250));
+    updateDropdownColumns();
+};
 
 getJSON5('data/records.json', (function(data) {
     records = data;
     getJSON5('data/quests.json', (function(data) {
         quests = data;
-        records.forEach(function(record) {
-            record.quest = quests.find(x => x.id == record.quest_id);
-        });
+        
+        setupPage();
+        
         ready = true;
         updateSearchSettings();
         updateResults();

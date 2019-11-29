@@ -76,203 +76,61 @@
                 </div>
                 <div class="ui hidden divider"></div>
                 <div class="ui inverted segment stackable grid aligned">
-                    <div class="row">
-                        <div class="sixteen wide column">
-                            <label class="">Mode</label>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="mode_normal">
-                                <label>Normal</label>
+                    <div class="three column row">
+                        <div class="column">
+                            <label>Mode</label>
+                            <div id="modes" class="ui inverted fluid multiple selection dropdown">
+                                <div class="text"></div>
+                                <i class="dropdown icon"></i>
                             </div>
                         </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="1" class="hidden" id="mode_challenge">
-                                <label>Challenge</label>
+                        <div class="column">
+                            <label>Meta</label>
+                            <div id="metas" class="ui inverted fluid multiple selection dropdown">
+                                <div class="text"></div>
+                                <i class="dropdown icon"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="column">
+                            <label>Episode</label>
+                            <div id="episodes" class="ui inverted fluid multiple selection dropdown">
+                                <div class="text"></div>
+                                <i class="dropdown icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="two column row">
+                        <div class="column">
+                            <label>Category</label>
+                            <div id="categories" class="ui inverted fluid multiple selection dropdown">
+                                <div class="text"></div>
+                                <i class="dropdown icon"></i>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <label>Photon Blast</label>
+                            <div id="photon_blasts" class="ui inverted fluid multiple selection dropdown">
+                                <div class="text"></div>
+                                <i class="dropdown icon"></i>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="sixteen wide column">
-                            <label class="">Meta</label>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="meta_vanilla">
-                                <label>Vanilla</label>
-                            </div>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="1" class="hidden" id="meta_2014">
-                                <label>2014</label>
-                            </div>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="1" class="hidden" id="meta_gamecube">
-                                <label>Gamecube</label>
-                            </div>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="1" class="hidden" id="meta_ultima">
-                                <label>Ultima</label>
+                            <label>Classes</label>
+                            <div id="classes" class="ui inverted fluid multiple selection dropdown columned">
+                                <div class="text"></div>
+                                <i class="dropdown icon"></i>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="sixteen wide column">
-                            <label class="">Episode</label>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="episode_1">
-                                <label>Episode 1</label>
-                            </div>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="episode_2">
-                                <label>Episode 2</label>
-                            </div>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="episode_4">
-                                <label>Episode 4</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="sixteen wide column">
-                            <label class="">Category</label>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="category_opm">
-                                <label>OPM</label>
-                            </div>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="category_1p">
-                                <label>1P</label>
-                            </div>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="category_2p">
-                                <label>2P</label>
-                            </div>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="category_3p">
-                                <label>3P</label>
-                            </div>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="category_4p">
-                                <label>4P</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="sixteen wide column">
-                            <label class="">Photon Blast</label>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="pb_no">
-                                <label>No PB</label>
-                            </div>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="pb_yes">
-                                <label>PB</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="sixteen wide column">
-                            <label class="">Class</label>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="class_humar">
-                                <label>HUmar</label>
-                            </div>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="class_hunewearl">
-                                <label>HUnewearl</label>
-                            </div>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="class_hucast">
-                                <label>HUcast</label>
-                            </div>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="class_hucaseal">
-                                <label>HUCaseal</label>
-                            </div>
-                        </div>
-                        <div class="eight wide column"></div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="class_ramar">
-                                <label>RAmar</label>
-                            </div>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="class_ramarl">
-                                <label>RAmarl</label>
-                            </div>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="class_racast">
-                                <label>RAcast</label>
-                            </div>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="class_racaseal">
-                                <label>RAcaseal</label>
-                            </div>
-                        </div>
-                        <div class="eight wide column"></div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="class_fomar">
-                                <label>FOmar</label>
-                            </div>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="class_fomarl">
-                                <label>FOmarl</label>
-                            </div>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="class_fonewmn">
-                                <label>FOnewmn</label>
-                            </div>
-                        </div>
-                        <div class="two wide column">
-                            <div class="ui inverted checkbox">
-                                <input type="checkbox" tabindex="0" class="hidden" id="class_fonewearl">
-                                <label>FOnewearl</label>
+                            <label>Players</label>
+                            <div id="players" class="ui inverted fluid multiple search selection dropdown columned">
+                                <div class="text"></div>
+                                <i class="dropdown icon"></i>
                             </div>
                         </div>
                     </div>
