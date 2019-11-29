@@ -559,8 +559,6 @@ getJSON5('data/records.json', (function(data) {
         setupPage();
         
         ready = true;
-        updateSearchSettings();
-        updateResults();
         console.log('Page ready');
     }));
 }));
