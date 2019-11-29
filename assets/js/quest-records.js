@@ -186,7 +186,7 @@ function updateResults() {
         if (SearchSettings.photon_blasts.length > 0) {
             let group = false;
             SearchSettings.photon_blasts.forEach(function (photon_blast) {
-                if (x.pb == photon_blast) {
+                if (x.pb+'' == photon_blast) {
                     group = true;
                 }
             });
