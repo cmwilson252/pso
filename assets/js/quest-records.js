@@ -2,13 +2,69 @@ let ready = false;
 let quests = null;
 let records = null;
 let HeaderList = [
-    { key: "meta", header: "Meta", collapse: false, formatter: (x) => {return metaToName(x);}},
-    { key: "episode", header: "Episode", collapse: false, formatter: (x) => {return "Episode "+x;}},
-    { key: "quest", header: "Quest", collapse: true, formatter: (x) => { return x.name; }},
-    { key: "time", header: "Time", collapse: false, formatter: (x) => { return secondsToString(x); }},
-    { key: "players", header: "Players", collapse: false, formatter: (x) => { return playerNamesToList(x);}},
-    { key: "players", header: "Classes", collapse: false, formatter: (x) => { return playerClassesToList(x);}},
-    { key: "team", header: "Team", collapse: false, formatter: (x) => {return x || "";}},
+    {
+        key: "meta",
+        header: "Meta",
+        collapse: false,
+        last_value: null,
+        formatter: (x) => {
+            return metaToName(x);
+        }
+    },
+    {
+        key: "episode",
+        header: "Episode",
+        collapse: false,
+        last_value: null,
+        formatter: (x) => {
+            return "Episode "+x;
+        }
+    },
+    {
+        key: "quest",
+        header: "Quest",
+        collapse: true,
+        last_value: null,
+        formatter: (x) => {
+            return x.name;
+        }
+    },
+    {
+        key: "time",
+        header: "Time",
+        collapse: false,
+        last_value: null,
+        formatter: (x) => {
+            return secondsToString(x);
+        }
+    },
+    {
+        key: "players",
+        header: "Players",
+        collapse: false,
+        last_value: null,
+        formatter: (x) => {
+            return playerNamesToList(x);
+        }
+    },
+    {
+        key: "players",
+        header: "Classes",
+        collapse: false,
+        last_value: null,
+        formatter: (x) => {
+            return playerClassesToList(x);
+        }
+    },
+    {
+        key: "team",
+        header: "Team",
+        collapse: false,
+        last_value: null,
+        formatter: (x) => {
+            return x || "";
+        }
+    },
 ]
 let SearchSettings = {
     modes: [],
@@ -29,9 +85,7 @@ let RESULT_ELEMENT_TEMPLATE = `
 `
 let RESULT_ELEMENT_VALUE_TEMPLATE = `
 <td>
-    <font __COLOR__>
-        __VALUE__
-    </font>
+    __VALUE__
 </td>
 `
 let RESULT_HEADER_TEMPLATE = `
@@ -116,12 +170,7 @@ function xor(a, b) {
     return (a || b) && !(a && b);
 }
 
-function updateResults() {
-    if (!ready) {
-        $('#results').empty().append('Records not loaded');
-        return;
-    }
-    
+function filterData() {
     let data = records;
     // Do all filters
     data = _.filter(data, function(x) {
@@ -230,6 +279,15 @@ function updateResults() {
         
         return result;
     });
+    return data;
+}
+function updateResults() {
+    if (!ready) {
+        $('#results').empty().append('Records not loaded');
+        return;
+    }
+    
+    let data = filterData();
     
     // Sort by time and group by quest (flatten afterwards)
     data = _.sortBy(data, function(x) {
@@ -252,7 +310,6 @@ function updateResults() {
     }
     // build results list
     let elementList_string = "";
-    let current_quest_id = null;
     for(let d=0; d < data.length; d++){
         let current_quest = data[d];
         let quest_row_string = "";
@@ -261,19 +318,18 @@ function updateResults() {
             let element_string = RESULT_ELEMENT_VALUE_TEMPLATE.substring(0);
             let formatter = HeaderList[i].formatter;
             let value = formatter(current_quest[HeaderList[i].key]);
+            
             if (current_quest.quest.is_countdown && HeaderList[i].key == 'time') {
                 value = "Remaining: "+value;
             }
-            let color_replacement = "";
-            // if cell is in a collapsable column && our header
-            if (HeaderList[i].collapse && current_quest.quest_id == current_quest_id) {
+            
+            if (HeaderList[i].collapse && HeaderList[i].last_value == value) {
                 element_string = element_string.replace("__VALUE__","");
-                quest_row_string += element_string.replace("__COLOR__",color_replacement);
             } else {
-                current_quest_id = current_quest.quest_id;
                 element_string = element_string.replace("__VALUE__",value);
-                quest_row_string += element_string.replace("__COLOR__",color_replacement);
+                HeaderList[i].last_value = value;
             }
+            quest_row_string += element_string;
         }
         quest_row_string = RESULT_ELEMENT_TEMPLATE.substring(0).replace("__ELEMENT_VALUE_LIST__",quest_row_string);
         elementList_string += quest_row_string;
