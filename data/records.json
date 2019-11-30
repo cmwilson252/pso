@@ -967,26 +967,22 @@
 			}
 		]
 	},
-	{
-		"mode": "normal",
-		"quest_id": "pod",
-		"episode": 4,
-		"meta": "ultima",
-		"category": "2p",
-		"pb": false,
-		"time": 1440,
-		"team": "Jade",
-		"players": [
-			{
-				"name": "Shin",
-				"class": "fonewearl"
-			},
-			{
-				"name": "Jade",
-				"class": "hucast"
-			}
-		]
-	},
+		{
+			"mode": "normal",
+			"quest_id": "pod",
+			"episode": 4,
+			"meta": "ultima",
+			"category": "1p",
+			"pb": false,
+			"time": 1249,
+			"team": "Univers-PS",
+			"players": [
+				{
+					"name": "Lipelis",
+					"class": "racast"
+				}
+			]
+		},
 	{
 		"mode": "normal",
 		"quest_id": "row",
