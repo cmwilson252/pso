@@ -2048,26 +2048,6 @@
 		"quest_id": "ttf",
 		"episode": 1,
 		"meta": "2014",
-		"category": "2p",
-		"pb": true,
-		"time": 513,
-		"team": "MA4C",
-		"players": [
-			{
-				"name": "Brandon",
-				"class": "unknown"
-			},
-			{
-				"name": "Joey",
-				"class": "unknown"
-			}
-		]
-	},
-	{
-		"mode": "normal",
-		"quest_id": "ttf",
-		"episode": 1,
-		"meta": "2014",
 		"category": "4p",
 		"pb": false,
 		"time": 548,
