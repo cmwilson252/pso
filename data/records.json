@@ -2512,19 +2512,19 @@
 		"players": [
 			{
 				"name": "mt76907",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "ReVisioN",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "16085k",
-				"class": "unknown"
+				"class": "fonewman"
 			},
 			{
 				"name": "Alukard",
-				"class": "unknown"
+				"class": "hucast"
 			}
 		]
 	},
@@ -2628,19 +2628,19 @@
 		"players": [
 			{
 				"name": "DGM",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "Alukard",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "16085k",
-				"class": "unknown"
+				"class": "fonewman"
 			},
 			{
 				"name": "mt76907",
-				"class": "unknown"
+				"class": "hucast"
 			}
 		]
 	},
@@ -2656,19 +2656,19 @@
 		"players": [
 			{
 				"name": "500ryu",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "Alukard",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "16085k",
-				"class": "unknown"
+				"class": "fonewman"
 			},
 			{
 				"name": "mt76907",
-				"class": "unknown"
+				"class": "hucast"
 			}
 		]
 	},
@@ -2712,19 +2712,19 @@
 		"players": [
 			{
 				"name": "Grifter",
-				"class": "unknown"
+				"class": "racast"
 			},
 			{
 				"name": "Darv",
-				"class": "unknown"
+				"class": "racast"
 			},
 			{
 				"name": "Colin",
-				"class": "unknown"
+				"class": "racast"
 			},
 			{
 				"name": "Rain",
-				"class": "unknown"
+				"class": "fonewman"
 			}
 		]
 	},
@@ -3555,8 +3555,8 @@
 				"class": "hunewearl"
 			},
 			{
-				"name": "-10.0",
-				"class": "unknown"
+				"name": "Ayria",
+				"class": "ramarl"
 			},
 			{
 				"name": "_shadowfix",
@@ -3636,19 +3636,19 @@
 		"players": [
 			{
 				"name": "lil b ",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "VENOM",
-				"class": "unknown"
+				"class": "fonewman"
 			},
 			{
-				"name": "Siegmund",
-				"class": "unknown"
+				"name": "Sange",
+				"class": "hucast"
 			},
 			{
-				"name": "empire",
-				"class": "unknown"
+				"name": "Demonized",
+				"class": "racast"
 			}
 		]
 	},
@@ -3768,19 +3768,19 @@
 		"players": [
 			{
 				"name": "Roo",
-				"class": "unknown"
+				"class": "racast"
 			},
 			{
 				"name": "Yuffie",
-				"class": "unknown"
+				"class": "hunewearl"
 			},
 			{
 				"name": "Fluidity",
-				"class": "unknown"
+				"class": "fonewearl"
 			},
 			{
 				"name": "Eun-Ji",
-				"class": "unknown"
+				"class": "racaseal"
 			}
 		]
 	},
@@ -3872,19 +3872,19 @@
 		"players": [
 			{
 				"name": "Demonized",
-				"class": "unknown"
+				"class": "racast"
 			},
 			{
-				"name": "Siegmund",
-				"class": "unknown"
+				"name": "Sange",
+				"class": "racast"
 			},
 			{
 				"name": "lil b ",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
-				"name": "bModE",
-				"class": "unknown"
+				"name": "killz",
+				"class": "hucast"
 			}
 		]
 	},
@@ -4744,15 +4744,15 @@
 		"players": [
 			{
 				"name": "VENOM",
-				"class": "unknown"
+				"class": "fonewman"
 			},
 			{
 				"name": "Demonized",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "lil b ",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "Sange",
@@ -5068,11 +5068,11 @@
 			},
 			{
 				"name": "VENOM",
-				"class": "unknown"
+				"class": "fonewearl"
 			},
 			{
-				"name": "bModE",
-				"class": "unknown"
+				"name": "killz",
+				"class": "hucast"
 			},
 			{
 				"name": "Sange",
@@ -5404,19 +5404,19 @@
 		"players": [
 			{
 				"name": "9898",
-				"class": "unknown"
+				"class": "racast"
 			},
 			{
 				"name": "ReVisioN",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "mt76907",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "16085k",
-				"class": "unknown"
+				"class": "fonewman"
 			}
 		]
 	},
@@ -5432,11 +5432,11 @@
 		"players": [
 			{
 				"name": "ReVisioN",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "16085k",
-				"class": "unknown"
+				"class": "fonewman"
 			}
 		]
 	},
@@ -5452,7 +5452,7 @@
 		"players": [
 			{
 				"name": "Ender",
-				"class": "unknown"
+				"class": "fonewman"
 			}
 		]
 	},
@@ -5468,7 +5468,7 @@
 		"players": [
 			{
 				"name": "Ade",
-				"class": "unknown"
+				"class": "foneweman"
 			}
 		]
 	},
@@ -5484,19 +5484,19 @@
 		"players": [
 			{
 				"name": "Demonized",
-				"class": "unknown"
+				"class": "racast"
 			},
 			{
 				"name": "VENOM",
-				"class": "unknown"
+				"class": "fonewman"
 			},
 			{
-				"name": "bModE",
-				"class": "unknown"
+				"name": "killz",
+				"class": "hucast"
 			},
 			{
-				"name": "Siegmund",
-				"class": "unknown"
+				"name": "Sange",
+				"class": "hucast"
 			}
 		]
 	},
@@ -5512,7 +5512,7 @@
 		"players": [
 			{
 				"name": "A Man in Flames",
-				"class": "unknown"
+				"class": "humar"
 			}
 		]
 	},
@@ -5528,19 +5528,19 @@
 		"players": [
 			{
 				"name": "Ender",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "SteveCares",
-				"class": "unknown"
+				"class": "fonewman"
 			},
 			{
 				"name": "Sange",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "Travendus",
-				"class": "unknown"
+				"class": "hucast"
 			}
 		]
 	},
@@ -5556,19 +5556,19 @@
 		"players": [
 			{
 				"name": "Demonized",
-				"class": "unknown"
+				"class": "racast"
 			},
 			{
 				"name": ".942937",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
-				"name": "bModE",
-				"class": "unknown"
+				"name": "killz",
+				"class": "hucast"
 			},
 			{
-				"name": "gif",
-				"class": "unknown"
+				"name": "Sange",
+				"class": "fonewman"
 			}
 		]
 	},
@@ -5584,7 +5584,7 @@
 		"players": [
 			{
 				"name": "Ender",
-				"class": "unknown"
+				"class": "fonewman"
 			}
 		]
 	},
@@ -5600,7 +5600,7 @@
 		"players": [
 			{
 				"name": "Shovel",
-				"class": "unknown"
+				"class": "fonewman"
 			}
 		]
 	},
@@ -5616,7 +5616,7 @@
 		"players": [
 			{
 				"name": "Ade",
-				"class": "unknown"
+				"class": "fonewman"
 			}
 		]
 	},
@@ -5632,11 +5632,11 @@
 		"players": [
 			{
 				"name": "ReVisioN",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "16085k",
-				"class": "unknown"
+				"class": "fonewman"
 			}
 		]
 	},
@@ -5652,19 +5652,19 @@
 		"players": [
 			{
 				"name": "Alukard",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "ReVisioN",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "16085k",
-				"class": "unknown"
+				"class": "fonewman"
 			},
 			{
 				"name": "mt76907",
-				"class": "unknown"
+				"class": "hucast"
 			}
 		]
 	},
@@ -5680,11 +5680,11 @@
 		"players": [
 			{
 				"name": "9898",
-				"class": "unknown"
+				"class": "ramar"
 			},
 			{
 				"name": "mt76907",
-				"class": "unknown"
+				"class": "hucast"
 			}
 		]
 	},
@@ -5700,15 +5700,15 @@
 		"players": [
 			{
 				"name": "Armand",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "Belz",
-				"class": "unknown"
+				"class": "hunewearl"
 			},
 			{
 				"name": "Mattie",
-				"class": "unknown"
+				"class": "ramarl"
 			}
 		]
 	},
@@ -5724,7 +5724,23 @@
 		"players": [
 			{
 				"name": "Belz",
-				"class": "unknown"
+				"class": "hunewearl"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "mu1",
+		"episode": 1,
+		"meta": "gamecube",
+		"category": "1p",
+		"pb": false,
+		"time": 275,
+		"team": "",
+		"players": [
+			{
+				"name": "Belz",
+				"class": "humar"
 			}
 		]
 	},
@@ -5740,7 +5756,7 @@
 		"players": [
 			{
 				"name": "Cody",
-				"class": "unknown"
+				"class": "hucast"
 			}
 		]
 	},
@@ -5756,19 +5772,19 @@
 		"players": [
 			{
 				"name": "Belz",
-				"class": "unknown"
+				"class": "hunewearl"
 			},
 			{
 				"name": "Armand",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "9898",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "Tom",
-				"class": "unknown"
+				"class": "hucast"
 			}
 		]
 	},
@@ -5784,11 +5800,11 @@
 		"players": [
 			{
 				"name": "Belz",
-				"class": "unknown"
+				"class": "hunewearl"
 			},
 			{
 				"name": "Armand",
-				"class": "unknown"
+				"class": "hucast"
 			}
 		]
 	},
@@ -5804,19 +5820,19 @@
 		"players": [
 			{
 				"name": "Belz",
-				"class": "unknown"
+				"class": "racast"
 			},
 			{
 				"name": "Armand",
-				"class": "unknown"
+				"class": "fonewman"
 			},
 			{
 				"name": "9898",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "Schranko",
-				"class": "unknown"
+				"class": "hucast"
 			}
 		]
 	},
@@ -5832,11 +5848,11 @@
 		"players": [
 			{
 				"name": "Bert",
-				"class": "unknown"
+				"class": "ramarl"
 			},
 			{
 				"name": "Armand",
-				"class": "unknown"
+				"class": "racast"
 			}
 		]
 	},
@@ -5852,7 +5868,7 @@
 		"players": [
 			{
 				"name": "Belz",
-				"class": "unknown"
+				"class": "hucast"
 			}
 		]
 	},
@@ -5868,11 +5884,11 @@
 		"players": [
 			{
 				"name": "Belz",
-				"class": "unknown"
+				"class": "hunewearl"
 			},
 			{
 				"name": "Armand",
-				"class": "unknown"
+				"class": "hucast"
 			}
 		]
 	},
@@ -5888,19 +5904,19 @@
 		"players": [
 			{
 				"name": "Belz",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "Armand",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "9898",
-				"class": "unknown"
+				"class": "ramarl"
 			},
 			{
 				"name": "Blue World",
-				"class": "unknown"
+				"class": "hucast"
 			}
 		]
 	},
@@ -5916,19 +5932,19 @@
 		"players": [
 			{
 				"name": "Cody",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "Schranko",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "Submarine",
-				"class": "unknown"
+				"class": "racast"
 			},
 			{
 				"name": "AZMIDISKE",
-				"class": "unknown"
+				"class": "fomar"
 			}
 		]
 	},
@@ -5944,19 +5960,19 @@
 		"players": [
 			{
 				"name": "Belz",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "Tom",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "Armand",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "Ambrosia",
-				"class": "unknown"
+				"class": "ramarl"
 			}
 		]
 	},
@@ -5972,15 +5988,15 @@
 		"players": [
 			{
 				"name": "Belz",
-				"class": "unknown"
+				"class": "racast"
 			},
 			{
 				"name": "Kevka",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "Kayak",
-				"class": "unknown"
+				"class": "fomar"
 			}
 		]
 	},
@@ -5989,14 +6005,14 @@
 		"quest_id": "ttf",
 		"episode": 1,
 		"meta": "gamecube",
-		"category": "opm",
+		"category": "1p",
 		"pb": false,
 		"time": 783,
 		"team": "",
 		"players": [
 			{
 				"name": "Armand",
-				"class": "unknown"
+				"class": "racast"
 			}
 		]
 	},
@@ -6012,19 +6028,19 @@
 		"players": [
 			{
 				"name": "Belz",
-				"class": "unknown"
+				"class": "ramarl"
 			},
 			{
 				"name": "Schranko",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "Cody",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "Kayak",
-				"class": "unknown"
+				"class": "fomar"
 			}
 		]
 	},
@@ -6040,19 +6056,19 @@
 		"players": [
 			{
 				"name": "Belz",
-				"class": "unknown"
+				"class": "racast"
 			},
 			{
 				"name": "Schranko",
-				"class": "unknown"
+				"class": "fonewman"
 			},
 			{
 				"name": "Cody",
-				"class": "unknown"
+				"class": "racast"
 			},
 			{
 				"name": "Armand",
-				"class": "unknown"
+				"class": "racast"
 			}
 		]
 	},
@@ -6063,16 +6079,16 @@
 		"meta": "gamecube",
 		"category": "2p",
 		"pb": false,
-		"time": 864,
+		"time": 420,
 		"team": "",
 		"players": [
 			{
 				"name": "Belz",
-				"class": "unknown"
+				"class": "hunewearl"
 			},
 			{
 				"name": "Armand",
-				"class": "unknown"
+				"class": "racast"
 			}
 		]
 	},
@@ -6083,24 +6099,24 @@
 		"meta": "gamecube",
 		"category": "4p",
 		"pb": false,
-		"time": 77,
+		"time": 87,
 		"team": "",
 		"players": [
 			{
 				"name": "Belz",
-				"class": "unknown"
+				"class": "hunewearl"
 			},
 			{
 				"name": "Armand",
-				"class": "unknown"
+				"class": "racast"
 			},
 			{
 				"name": "Cody",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "Bert",
-				"class": "unknown"
+				"class": "fomar"
 			}
 		]
 	},
@@ -6116,19 +6132,19 @@
 		"players": [
 			{
 				"name": "Belz",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "Armand",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "Tom",
-				"class": "unknown"
+				"class": "fomar"
 			},
 			{
 				"name": "Chi",
-				"class": "unknown"
+				"class": "ramarl"
 			}
 		]
 	},
@@ -6144,7 +6160,7 @@
 		"players": [
 			{
 				"name": "Belz",
-				"class": "unknown"
+				"class": "hunewearl"
 			}
 		]
 	},
@@ -6160,7 +6176,7 @@
 		"players": [
 			{
 				"name": "Belz",
-				"class": "unknown"
+				"class": "hunewearl"
 			}
 		]
 	},
@@ -6176,7 +6192,7 @@
 		"players": [
 			{
 				"name": "Belz",
-				"class": "unknown"
+				"class": "hucast"
 			}
 		]
 	},
@@ -6192,11 +6208,11 @@
 		"players": [
 			{
 				"name": "Belz",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "Armand",
-				"class": "unknown"
+				"class": "ramarl"
 			}
 		]
 	},
@@ -6212,19 +6228,19 @@
 		"players": [
 			{
 				"name": "Armand",
-				"class": "unknown"
+				"class": "racast"
 			},
 			{
 				"name": "9898",
-				"class": "unknown"
+				"class": "hucast"
 			},
 			{
 				"name": "Jake",
-				"class": "unknown"
+				"class": "fomarl"
 			},
 			{
 				"name": "mt76907",
-				"class": "unknown"
+				"class": "hucast"
 			}
 		]
 	},
@@ -6240,7 +6256,7 @@
 		"players": [
 			{
 				"name": "Belz",
-				"class": "unknown"
+				"class": "racast"
 			}
 		]
 	}
