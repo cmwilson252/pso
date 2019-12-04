@@ -336,8 +336,26 @@
 		"is_countdown": false
 	},
 	{
+		"id": "su1",
+		"name": "SU1",
+		"enabled": true,
+		"is_countdown": true
+	},
+	{
 		"id": "su2",
 		"name": "SU2",
+		"enabled": true,
+		"is_countdown": true
+	},
+	{
+		"id": "su3",
+		"name": "SU3",
+		"enabled": true,
+		"is_countdown": true
+	},
+	{
+		"id": "su4",
+		"name": "SU4",
 		"enabled": true,
 		"is_countdown": true
 	},
@@ -350,6 +368,89 @@
 	{
 		"id": "ttf_ultima",
 		"name": "TTF Ultima",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "1c1",
+		"name": "1C1",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "1c2",
+		"name": "1C2",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "1c3",
+		"name": "1C3",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "1c4",
+		"name": "1C4",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "1c5",
+		"name": "1C5",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "1c6",
+		"name": "1C6",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "1c7",
+		"name": "1C7",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "1c8",
+		"name": "1C8",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "1c9",
+		"name": "1C9",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "2c1",
+		"name": "2C1",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "2c2",
+		"name": "2C2",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "2c3",
+		"name": "2C3",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "2c4",
+		"name": "2C4",
+		"enabled": true,
+		"is_countdown": false
+	},	{
+		"id": "2c5",
+		"name": "2C5",
 		"enabled": true,
 		"is_countdown": false
 	}

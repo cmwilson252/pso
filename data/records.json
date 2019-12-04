@@ -6235,5 +6235,291 @@
 				"class": "racast"
 			}
 		]
+	},
+
+
+
+
+	{
+		"mode": "challenge",
+		"quest_id": "1c1",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 394,
+		"team": "",
+		"players": [
+			{
+				"name": "Klekt",
+				"class": "hucast"
+			},
+			{
+				"name": "Mote",
+				"class": "hucast"
+			},
+			{
+				"name": "Roo",
+				"class": "hucaseal"
+			},
+			{
+				"name": "CAPN",
+				"class": "fonewearl"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c2",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 1116,
+		"team": "",
+		"players": [
+			{
+				"name": "Belz",
+				"class": "fonewearl"
+			},
+			{
+				"name": "Zynetic",
+				"class": "fonewearl"
+			},
+			{
+				"name": "BlueWorld",
+				"class": "hucasT"
+			},
+			{
+				"name": "KuromoriYu",
+				"class": "fonewearl"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c2",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 1382,
+		"team": "",
+		"players": [
+			{
+				"name": "Klekt",
+				"class": "fonewearl"
+			},
+			{
+				"name": "Mote",
+				"class": "hucaseal"
+			},
+			{
+				"name": "Schranko",
+				"class": "hucast"
+			},
+			{
+				"name": "Vex",
+				"class": "fonewearl"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c3",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 1341,
+		"team": "",
+		"players": [
+			{
+				"name": "Aerolis",
+				"class": "fonewearl"
+			},
+			{
+				"name": "Spuz",
+				"class": "humar"
+			},
+			{
+				"name": "Arsuru",
+				"class": "racaseal"
+			},
+			{
+				"name": "Schranko",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c3",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 1394,
+		"team": "",
+		"players": [
+			{
+				"name": "Klekt",
+				"class": "fonewearl"
+			},
+			{
+				"name": "Mote",
+				"class": "hucaseal"
+			},
+			{
+				"name": "Vex",
+				"class": "fonewearl"
+			},
+			{
+				"name": "Schranko",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c3",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 1415,
+		"team": "",
+		"players": [
+			{
+				"name": "Red",
+				"class": "hucast"
+			},
+			{
+				"name": "Spuz",
+				"class": "fonewearl"
+			},
+			{
+				"name": "Uno",
+				"class": "hucast"
+			},
+			{
+				"name": "Eis",
+				"class": "hucaseal"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c4",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 1475,
+		"team": "",
+		"players": [
+			{
+				"name": "Belz",
+				"class": "fonewearl"
+			},
+			{
+				"name": "NDW",
+				"class": "hucaseal"
+			},
+			{
+				"name": "SteveCares",
+				"class": "hucaseal"
+			},
+			{
+				"name": "KuromoriYu",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c5",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 1076,
+		"team": "",
+		"players": [
+			{
+				"name": "Belz",
+				"class": "hucast"
+			},
+			{
+				"name": "NDW",
+				"class": "hucaseal"
+			},
+			{
+				"name": "Zynetic",
+				"class": "fonewearl"
+			},
+			{
+				"name": "marineBlue",
+				"class": "fonewearl"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c5",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 1198,
+		"team": "",
+		"players": [
+			{
+				"name": "Spuz",
+				"class": "racast"
+			},
+			{
+				"name": "NDW",
+				"class": "hucast"
+			},
+			{
+				"name": "Arsuru",
+				"class": "hucaseal"
+			},
+			{
+				"name": "Niht",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c5",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 1307,
+		"team": "",
+		"players": [
+			{
+				"name": "Spuz",
+				"class": "humar"
+			},
+			{
+				"name": "Arsuru",
+				"class": "racaseal"
+			},
+			{
+				"name": "Aerolis",
+				"class": "fonewearl"
+			},
+			{
+				"name": "Schranko",
+				"class": "hucast"
+			}
+		]
 	}
+
+
 ]
