@@ -415,7 +415,7 @@
 		"category": "4p",
 		"pb": true,
 		"time": 1057,
-		"team": "CF",
+		"team": "",
 		"players": [
 			{
 				"name": "Yannv",
@@ -563,7 +563,7 @@
 		"category": "1p",
 		"pb": false,
 		"time": 120,
-		"team": "CF",
+		"team": "",
 		"players": [
 			{
 				"name": "MudkipzJM",
@@ -679,7 +679,7 @@
 		"category": "4p",
 		"pb": false,
 		"time": 2440,
-		"team": "CF",
+		"team": "",
 		"players": [
 			{
 				"name": "Starlord",
@@ -991,7 +991,7 @@
 		"category": "4p",
 		"pb": true,
 		"time": 39,
-		"team": "CF",
+		"team": "",
 		"players": [
 			{
 				"name": "Killz",
@@ -1238,7 +1238,7 @@
 		"team": "Tankstelle",
 		"players": [
 			{
-				"name": ".942937",
+				"name": "Zen",
 				"class": "hucast"
 			}
 		]
@@ -1586,7 +1586,7 @@
 				"class": "hucast"
 			},
 			{
-				"name": ".942937",
+				"name": "Zen",
 				"class": "hunewearl"
 			}
 		]
@@ -3363,7 +3363,7 @@
 				"class": "hucast"
 			},
 			{
-				"name": ".942937",
+				"name": "Zen",
 				"class": "hucast"
 			}
 		]
@@ -3411,7 +3411,7 @@
 				"class": "hucast"
 			},
 			{
-				"name": ".942937",
+				"name": "Zen",
 				"class": "hucast"
 			}
 		]
@@ -3447,7 +3447,7 @@
 		"team": "Tankstelle",
 		"players": [
 			{
-				"name": ".942937",
+				"name": "Zen",
 				"class": "hucast"
 			}
 		]
@@ -3979,7 +3979,7 @@
 				"class": "ramar"
 			},
 			{
-				"name": ".942937",
+				"name": "Zen",
 				"class": "hucast"
 			}
 		]
@@ -4087,7 +4087,7 @@
 				"class": "ramar"
 			},
 			{
-				"name": ".942937",
+				"name": "Zen",
 				"class": "hucast"
 			}
 		]
@@ -4323,7 +4323,7 @@
 				"class": "ramarl"
 			},
 			{
-				"name": ".942937",
+				"name": "Zen",
 				"class": "hucast"
 			}
 		]
@@ -4471,7 +4471,7 @@
 				"class": "hucast"
 			},
 			{
-				"name": ".942937",
+				"name": "Zen",
 				"class": "hucast"
 			}
 		]
@@ -4487,7 +4487,7 @@
 		"team": "Tankstelle",
 		"players": [
 			{
-				"name": ".942937",
+				"name": "Zen",
 				"class": "hucast"
 			},
 			{
@@ -4511,7 +4511,7 @@
 		"team": "Tankstelle",
 		"players": [
 			{
-				"name": ".942937",
+				"name": "Zen",
 				"class": "hucast"
 			},
 			{
@@ -4563,7 +4563,7 @@
 		"team": "Tankstelle",
 		"players": [
 			{
-				"name": ".942937",
+				"name": "Zen",
 				"class": "hucast"
 			},
 			{
@@ -4587,7 +4587,7 @@
 		"team": "Tankstelle",
 		"players": [
 			{
-				"name": ".942937",
+				"name": "Zen",
 				"class": "hucast"
 			},
 			{
@@ -5067,7 +5067,7 @@
 		"team": "Tankstelle",
 		"players": [
 			{
-				"name": ".942937",
+				"name": "Zen",
 				"class": "hucast"
 			}
 		]
@@ -5155,7 +5155,7 @@
 		"team": "Tankstelle",
 		"players": [
 			{
-				"name": ".942937",
+				"name": "Zen",
 				"class": "hucast"
 			}
 		]
@@ -5171,7 +5171,7 @@
 		"team": "Tankstelle",
 		"players": [
 			{
-				"name": ".942937",
+				"name": "Zen",
 				"class": "hucast"
 			}
 		]
@@ -5215,7 +5215,7 @@
 		"team": "Tankstelle",
 		"players": [
 			{
-				"name": ".942937",
+				"name": "Zen",
 				"class": "hucast"
 			}
 		]
@@ -5247,7 +5247,7 @@
 		"team": "Tankstelle",
 		"players": [
 			{
-				"name": ".942937",
+				"name": "Zen",
 				"class": "hucast"
 			},
 			{
@@ -5275,7 +5275,7 @@
 		"team": "Tankstelle",
 		"players": [
 			{
-				"name": ".942937",
+				"name": "Zen",
 				"class": "hucast"
 			},
 			{
@@ -5331,7 +5331,7 @@
 		"team": "Tankstelle",
 		"players": [
 			{
-				"name": ".942937",
+				"name": "Zen",
 				"class": "hucast"
 			},
 			{
@@ -5359,7 +5359,7 @@
 		"team": "Tankstelle",
 		"players": [
 			{
-				"name": ".942937",
+				"name": "Zen",
 				"class": "hucast"
 			},
 			{
@@ -5535,7 +5535,7 @@
 				"class": "racast"
 			},
 			{
-				"name": ".942937",
+				"name": "Zen",
 				"class": "hucast"
 			},
 			{
@@ -6494,17 +6494,101 @@
 	},
 	{
 		"mode": "challenge",
-		"quest_id": "1c5",
+		"quest_id": "1c6",
 		"episode": 1,
 		"meta": "vanilla",
 		"category": "4p",
 		"pb": false,
-		"time": 1307,
+		"time": 1563,
+		"team": "",
+		"players": [
+			{
+				"name": "Uno",
+				"class": "hucast"
+			},
+			{
+				"name": "VENOM",
+				"class": "hucast"
+			},
+			{
+				"name": "Vex",
+				"class": "fonewearl"
+			},
+			{
+				"name": "Aizen",
+				"class": "ramar"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c7",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 1471,
+		"team": "",
+		"players": [
+			{
+				"name": "Zynetic",
+				"class": "hucast"
+			},
+			{
+				"name": "Belz",
+				"class": "hucast"
+			},
+			{
+				"name": "Rain",
+				"class": "hucast"
+			},
+			{
+				"name": "marineBlue",
+				"class": "fonewearl"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c7",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 1692,
 		"team": "",
 		"players": [
 			{
 				"name": "Spuz",
-				"class": "humar"
+				"class": "racast"
+			},
+			{
+				"name": "NDW",
+				"class": "hucast"
+			},
+			{
+				"name": "Arsuru",
+				"class": "hucaseal"
+			},
+			{
+				"name": "Niht",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c8",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 1621,
+		"team": "",
+		"players": [
+			{
+				"name": "Schranko",
+				"class": "hucast"
 			},
 			{
 				"name": "Arsuru",
@@ -6515,8 +6599,64 @@
 				"class": "fonewearl"
 			},
 			{
-				"name": "Schranko",
+				"name": "Spuz",
+				"class": "humar"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c8",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 1667,
+		"team": "",
+		"players": [
+			{
+				"name": "NDW",
 				"class": "hucast"
+			},
+			{
+				"name": "Niht",
+				"class": "hucast"
+			},
+			{
+				"name": "Arsuru",
+				"class": "hucaseal"
+			},
+			{
+				"name": "Spuz",
+				"class": "racast"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c8",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 1694,
+		"team": "",
+		"players": [
+			{
+				"name": "CAPN",
+				"class": "hucast"
+			},
+			{
+				"name": "GSC",
+				"class": "hucaseal"
+			},
+			{
+				"name": "ffeJ",
+				"class": "hucaseal"
+			},
+			{
+				"name": "Spuz",
+				"class": "fonewmn"
 			}
 		]
 	}
