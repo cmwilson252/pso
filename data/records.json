@@ -7075,6 +7075,34 @@
 				"class": "hucast"
 			}
 		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "2c5",
+		"episode": 2,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 721,
+		"team": "",
+		"players": [
+			{
+				"name": "Mote",
+				"class": "racast"
+			},
+			{
+				"name": "Spuz",
+				"class": "fonewearl"
+			},
+			{
+				"name": "Belz",
+				"class": "fonewemn"
+			},
+			{
+				"name": "Klekt",
+				"class": "fonewearl"
+			}
+		]
 	}
 
 
