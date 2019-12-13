@@ -658,6 +658,26 @@
 		"meta": "ultima",
 		"category": "2p",
 		"pb": false,
+		"time": 955,
+		"team": "CF",
+		"players": [
+			{
+				"name": "Starlord",
+				"class": "ramarl"
+			},
+			{
+				"name": "Killz",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "rt",
+		"episode": 2,
+		"meta": "ultima",
+		"category": "2p",
+		"pb": false,
 		"time": 982,
 		"team": "CF",
 		"players": [
