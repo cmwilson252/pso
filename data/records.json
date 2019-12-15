@@ -1856,6 +1856,34 @@
 		"quest_id": "su2",
 		"episode": 1,
 		"meta": "2014",
+		"category": "4p",
+		"pb": false,
+		"time": 440,
+		"team": "",
+		"players": [
+			{
+				"name": "Wilson",
+				"class": "hunewearl"
+			},
+			{
+				"name": "HUNTER_",
+				"class": "hucast"
+			},
+			{
+				"name": "mt76907",
+				"class": "hucast"
+			},
+			{
+				"name": "killz",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "su2",
+		"episode": 1,
+		"meta": "2014",
 		"category": "3p",
 		"pb": false,
 		"time": 373,
