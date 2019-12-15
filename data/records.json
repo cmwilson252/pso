@@ -470,6 +470,34 @@
 		"meta": "ultima",
 		"category": "4p",
 		"pb": false,
+		"time": 1838,
+		"team": "",
+		"players": [
+			{
+				"name": "Rashan",
+				"class": "ramar"
+			},
+			{
+				"name": "Killz",
+				"class": "ramar"
+			},
+			{
+				"name": "Shiida",
+				"class": "ramarl"
+			},
+			{
+				"name": "Noudle",
+				"class": "ramar"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "mas",
+		"episode": 2,
+		"meta": "ultima",
+		"category": "4p",
+		"pb": false,
 		"time": 1506,
 		"team": "",
 		"players": [
@@ -2341,6 +2369,26 @@
 			{
 				"name": "HUNTER_",
 				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "SU9",
+		"episode": 2,
+		"meta": "2014",
+		"category": "2p",
+		"pb": false,
+		"time": 513,
+		"team": "CF",
+		"players": [
+			{
+				"name": "HUNTER_",
+				"class": "hucast"
+			},
+			{
+				"name": "Wilson",
+				"class": "hunewearl"
 			}
 		]
 	},
@@ -6387,7 +6435,7 @@
 		"meta": "vanilla",
 		"category": "2p",
 		"pb": false,
-		"time": 1468,
+		"time": 1267,
 		"team": "",
 		"players": [
 			{

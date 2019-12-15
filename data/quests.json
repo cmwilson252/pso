@@ -360,6 +360,36 @@
 		"is_countdown": true
 	},
 	{
+		"id": "su5",
+		"name": "SU5",
+		"enabled": true,
+		"is_countdown": true
+	},
+	{
+		"id": "su6",
+		"name": "SU6",
+		"enabled": true,
+		"is_countdown": true
+	},
+	{
+		"id": "su7",
+		"name": "SU7",
+		"enabled": true,
+		"is_countdown": true
+	},
+	{
+		"id": "su8",
+		"name": "SU8",
+		"enabled": true,
+		"is_countdown": true
+	},
+	{
+		"id": "su9",
+		"name": "SU9",
+		"enabled": true,
+		"is_countdown": true
+	},
+	{
 		"id": "ttf",
 		"name": "TTF",
 		"enabled": true,
