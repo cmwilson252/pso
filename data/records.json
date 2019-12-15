@@ -6382,6 +6382,46 @@
 	},
 	{
 		"mode": "challenge",
+		"quest_id": "1c1",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
+		"time": 479,
+		"team": "",
+		"players": [
+			{
+				"name": "Roo",
+				"class": "hucast"
+			},
+			{
+				"name": "CAPN",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c1",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
+		"time": 561,
+		"team": "",
+		"players": [
+			{
+				"name": "Spuz",
+				"class": "hucast"
+			},
+			{
+				"name": "Wilson",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
 		"quest_id": "1c2",
 		"episode": 1,
 		"meta": "vanilla",
@@ -6562,6 +6602,46 @@
 	},
 	{
 		"mode": "challenge",
+		"quest_id": "1c3",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
+		"time": 1293,
+		"team": "",
+		"players": [
+			{
+				"name": "Roo",
+				"class": "hucast"
+			},
+			{
+				"name": "Aerilas",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c3",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
+		"time": 1367,
+		"team": "",
+		"players": [
+			{
+				"name": "Klekt",
+				"class": "hucast"
+			},
+			{
+				"name": "Mote",
+				"class": "hucaseal"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
 		"quest_id": "1c4",
 		"episode": 1,
 		"meta": "vanilla",
@@ -6585,6 +6665,66 @@
 			{
 				"name": "KuromoriYu",
 				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c4",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
+		"time": 1581,
+		"team": "",
+		"players": [
+			{
+				"name": "Roo",
+				"class": "hucast"
+			},
+			{
+				"name": "CAPN",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c4",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
+		"time": 1892,
+		"team": "",
+		"players": [
+			{
+				"name": "Roo",
+				"class": "hucast"
+			},
+			{
+				"name": "Spuz",
+				"class": "fonewmn"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c4",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
+		"time": 2275,
+		"team": "",
+		"players": [
+			{
+				"name": "Roo",
+				"class": "hucast"
+			},
+			{
+				"name": "Schranko",
+				"class": "fonewearl"
 			}
 		]
 	},
@@ -6641,6 +6781,46 @@
 			{
 				"name": "Niht",
 				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c5",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
+		"time": 1183,
+		"team": "",
+		"players": [
+			{
+				"name": "Roo",
+				"class": "hucast"
+			},
+			{
+				"name": "Aerilas",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c5",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
+		"time": 1578,
+		"team": "",
+		"players": [
+			{
+				"name": "Roo",
+				"class": "hucast"
+			},
+			{
+				"name": "NoHit",
+				"class": "ramar"
 			}
 		]
 	},
@@ -6730,6 +6910,46 @@
 	},
 	{
 		"mode": "challenge",
+		"quest_id": "1c7",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
+		"time": 1779,
+		"team": "",
+		"players": [
+			{
+				"name": "Roo",
+				"class": "hucast"
+			},
+			{
+				"name": "Aerilas",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c7",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
+		"time": 2436,
+		"team": "",
+		"players": [
+			{
+				"name": "Klekt",
+				"class": "hucast"
+			},
+			{
+				"name": "Mote",
+				"class": "racaseal"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
 		"quest_id": "1c8",
 		"episode": 1,
 		"meta": "vanilla",
@@ -6791,6 +7011,34 @@
 		"meta": "vanilla",
 		"category": "4p",
 		"pb": false,
+		"time": 1674,
+		"team": "",
+		"players": [
+			{
+				"name": "Spuz",
+				"class": "hucast"
+			},
+			{
+				"name": "Roo",
+				"class": "hucaseal"
+			},
+			{
+				"name": "DJ Ridoo",
+				"class": "hucast"
+			},
+			{
+				"name": "Bubblegum",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c8",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
 		"time": 1694,
 		"team": "",
 		"players": [
@@ -6837,6 +7085,94 @@
 			{
 				"name": "Spuz",
 				"class": "fonewmn"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c8",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
+		"time": 2109,
+		"team": "",
+		"players": [
+			{
+				"name": "Roo",
+				"class": "hucast"
+			},
+			{
+				"name": "Aerilas",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c8",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
+		"time": 2208,
+		"team": "",
+		"players": [
+			{
+				"name": "Schranko",
+				"class": "hucast"
+			},
+			{
+				"name": "Spuz",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c8",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
+		"time": 2254,
+		"team": "",
+		"players": [
+			{
+				"name": "Klekt",
+				"class": "hucast"
+			},
+			{
+				"name": "Mote",
+				"class": "racaseal"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c9",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 2094,
+		"team": "",
+		"players": [
+			{
+				"name": "Spuz",
+				"class": "hucast"
+			},
+			{
+				"name": "Roo",
+				"class": "hucaseal"
+			},
+			{
+				"name": "DJ Ridoo",
+				"class": "hucast"
+			},
+			{
+				"name": "Bubblegum",
+				"class": "hucast"
 			}
 		]
 	},
@@ -6901,7 +7237,7 @@
 		"quest_id": "1c9",
 		"episode": 1,
 		"meta": "vanilla",
-		"category": "4p",
+		"category": "3p",
 		"pb": false,
 		"time": 2455,
 		"team": "",
@@ -6917,6 +7253,66 @@
 			{
 				"name": "Spuz",
 				"class": "fonewearl"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c9",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
+		"time": 2304,
+		"team": "",
+		"players": [
+			{
+				"name": "Schranko",
+				"class": "hucast"
+			},
+			{
+				"name": "Mote",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c9",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
+		"time": 2477,
+		"team": "",
+		"players": [
+			{
+				"name": "Schranko",
+				"class": "hucast"
+			},
+			{
+				"name": "Spuz",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c9",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
+		"time": 2844,
+		"team": "",
+		"players": [
+			{
+				"name": "Zynetic",
+				"class": "hucast"
+			},
+			{
+				"name": "Ender",
+				"class": "hucaseal"
 			}
 		]
 	},
