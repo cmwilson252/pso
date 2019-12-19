@@ -393,6 +393,26 @@
 	},
 	{
 		"mode": "normal",
+		"quest_id": "ttf",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "2p",
+		"pb": false,
+		"time": 660,
+		"team": "",
+		"players": [
+			{
+				"name": "MudkipzJM",
+				"class": "hunewearl"
+			},
+			{
+				"name": "Jez",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
 		"quest_id": "harmony_of_despair_ii",
 		"episode": 1,
 		"meta": "ultima",
@@ -864,6 +884,62 @@
 		"quest_id": "roct",
 		"episode": 2,
 		"meta": "ultima",
+		"category": "2p",
+		"pb": false,
+		"time": 2377,
+		"team": "Univers-PS",
+		"players": [
+			{
+				"name": "Shiida",
+				"class": "fomarl"
+			},
+			{
+				"name": "Noudle",
+				"class": "ramar"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "roct",
+		"episode": 2,
+		"meta": "ultima",
+		"category": "2p",
+		"pb": false,
+		"time": 2189,
+		"team": "CF",
+		"players": [
+			{
+				"name": "Rashan",
+				"class": "ramar"
+			},
+			{
+				"name": "HUNTER_",
+				"class": "fonewearl"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "roct",
+		"episode": 2,
+		"meta": "ultima",
+		"category": "1p",
+		"pb": false,
+		"time": 1598,
+		"team": "Univers-PS",
+		"players": [
+			{
+				"name": "Shiida",
+				"class": "ramarl"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "roct",
+		"episode": 2,
+		"meta": "ultima",
 		"category": "1p",
 		"pb": false,
 		"time": 1105,
@@ -956,6 +1032,62 @@
 			{
 				"name": "Capo",
 				"class": "racaseal"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "tower_of_dreams",
+		"episode": 2,
+		"meta": "ultima",
+		"category": "4p",
+		"pb": false,
+		"time": 2658,
+		"team": "",
+		"players": [
+			{
+				"name": "Shiida",
+				"class": "fomarl"
+			},
+			{
+				"name": "Rashan",
+				"class": "hucast"
+			},
+			{
+				"name": "Noudle",
+				"class": "ramar"
+			},
+			{
+				"name": "Yannv",
+				"class": "racast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "tower_of_dreams",
+		"episode": 2,
+		"meta": "ultima",
+		"category": "4p",
+		"pb": false,
+		"time": 2966,
+		"team": "CF",
+		"players": [
+			{
+				"name": "HUNTER_",
+				"class": "ramarl"
+			},
+			{
+				"name": "Rashan",
+				"class": "hucast"
+			},
+			{
+				"name": "Starlord",
+				"class": "racast"
+			},
+			{
+				"name": "Yannv",
+				"class": "racast"
 			}
 		]
 	},
