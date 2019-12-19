@@ -726,6 +726,34 @@
 		"meta": "ultima",
 		"category": "4p",
 		"pb": false,
+		"time": 2648,
+		"team": "CF",
+		"players": [
+			{
+				"name": "Starlord",
+				"class": "fonewearl"
+			},
+			{
+				"name": "Wilson",
+				"class": "hucast"
+			},
+			{
+				"name": "Rashan",
+				"class": "hucast"
+			},
+			{
+				"name": "Killz",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "roct",
+		"episode": 2,
+		"meta": "ultima",
+		"category": "4p",
+		"pb": false,
 		"time": 2440,
 		"team": "",
 		"players": [
