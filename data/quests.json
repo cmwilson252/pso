@@ -324,6 +324,12 @@
 		"is_countdown": true
 	},
 	{
+		"id": "tower_of_dreams",
+		"name": "Tower of Dreams",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
 		"id": "row",
 		"name": "RoW",
 		"enabled": true,
