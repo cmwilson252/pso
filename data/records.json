@@ -4403,6 +4403,22 @@
 		"meta": "vanilla",
 		"category": "opm",
 		"pb": false,
+		"time": 134,
+		"team": "Tankstelle",
+		"players": [
+			{
+				"name": "SteveCares",
+				"class": "fonewm"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "mu3",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
 		"time": 128,
 		"team": "Tankstelle",
 		"players": [
@@ -4419,12 +4435,12 @@
 		"meta": "vanilla",
 		"category": "opm",
 		"pb": false,
-		"time": 124,
+		"time": 118,
 		"team": "Tankstelle",
 		"players": [
 			{
-				"name": "SteveCares",
-				"class": "fonewm"
+				"name": "Ender",
+				"class": "hucast"
 			}
 		]
 	},
