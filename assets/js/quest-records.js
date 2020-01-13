@@ -139,7 +139,7 @@ function classKeyToName(key) {
         case 'racaseal':    return 'RAcaseal';
         case 'fomar':       return 'FOmar';
         case 'fomarl':      return 'FOmarl';
-        case 'fonewmn':     return 'FOnewmn';
+        case 'fonewm':     return 'FOnewm';
         case 'fonewearl':   return 'FOnewearl';
         default: return "Unknown";
     }
