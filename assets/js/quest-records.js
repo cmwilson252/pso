@@ -534,8 +534,8 @@ function setupPage() {
                 value: 'fomarl'
             },
             {
-                name: 'FOnewmn',
-                value: 'fonewmn'
+                name: 'FOnewm',
+                value: 'fonewm'
             },
             {
                 name: 'FOnewearl',
