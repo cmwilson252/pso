@@ -704,6 +704,38 @@
 		"quest_id": "rt",
 		"episode": 2,
 		"meta": "ultima",
+		"category": "1p",
+		"pb": false,
+		"time": 1135,
+		"team": "",
+		"players": [
+			{
+				"name": "Ryan Ford",
+				"class": "ramarl"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "rt",
+		"episode": 2,
+		"meta": "ultima",
+		"category": "1p",
+		"pb": false,
+		"time": 1141,
+		"team": "",
+		"players": [
+			{
+				"name": "MudkipzJM",
+				"class": "ramar"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "rt",
+		"episode": 2,
+		"meta": "ultima",
 		"category": "2p",
 		"pb": false,
 		"time": 955,
@@ -4371,12 +4403,12 @@
 		"meta": "vanilla",
 		"category": "opm",
 		"pb": false,
-		"time": 99,
+		"time": 124,
 		"team": "Tankstelle",
 		"players": [
 			{
-				"name": "Sange",
-				"class": "hucast"
+				"name": "SteveCares",
+				"class": "fonewmn"
 			}
 		]
 	},
@@ -4387,12 +4419,12 @@
 		"meta": "vanilla",
 		"category": "opm",
 		"pb": false,
-		"time": 98,
+		"time": 99,
 		"team": "Tankstelle",
 		"players": [
 			{
-				"name": "SteveCares",
-				"class": "fonewmn"
+				"name": "Sange",
+				"class": "hucast"
 			}
 		]
 	},
