@@ -2567,7 +2567,7 @@
 		"meta": "2014",
 		"category": "opm",
 		"pb": false,
-		"time": 276,
+		"time": 315,
 		"team": "CF",
 		"players": [
 			{
@@ -7461,6 +7461,26 @@
 			{
 				"name": "Spuz",
 				"class": "fonewearl"
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c9",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
+		"time": 2278,
+		"team": "",
+		"players": [
+			{
+				"name": "Spuz",
+				"class": "hucast"
+			},
+			{
+				"name": "Hardwood",
+				"class": "humar"
 			}
 		]
 	},
