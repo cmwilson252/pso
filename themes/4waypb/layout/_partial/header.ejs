@@ -1,0 +1,22 @@
+<header class="ui inverted fixed main menu">
+    <div class="ui container pc">
+        <a class="item" href="<%- url_for() %>">
+            <div class="ui logo shape">
+                <div class="sides">
+                    <div class="active ui side">
+                        <%- image_tag('images/logo.png', {class: 'ui mini image'}) %>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a class="item sidebar-button">
+            <i class="sidebar icon"></i>
+            Menu
+        </a>
+    </div>
+    <div class="ui container sp">
+        <a class="item sidebar-button">
+            <i class="content icon"></i>
+        </a>
+    </div>
+</header>

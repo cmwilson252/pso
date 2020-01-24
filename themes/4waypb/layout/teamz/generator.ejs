@@ -1,0 +1,73 @@
+<div class="ui segments">
+    <div class="ui inverted segment">
+        <h1>Teamz Generator</h1>
+        <div class="ui accordion">
+            <div class="title">
+                <i class=" inverted dropdown icon"></i>
+                <span class="ui inverted grey text">What is TEAMZ?</span>
+            </div>
+            <div class="content">
+                <p class="transition hidden">
+                    TEAMZ is a friendly, yet competitive, impromptu Time Attack event where a group of players are split up into equally sized random or drafted teams. Each team will generally have around 10 minutes to prepare, before spending an hour or so TAing a random quest. Obviously, the team with the best time at the cutoff is the victor.
+                </p>
+            </div>
+            <div class="title">
+                <i class=" inverted dropdown icon"></i>
+                <span class="ui inverted grey text">Why TEAMZ?</span>
+            </div>
+            <div class="content">
+                <p class="transition hidden">
+                        TEAMZ emphasizes quick planning and coordination between party members that may not be familiar with each others' playstyles. Additionally, the quest selected may be unfamiliar to the players; this forces players to learn new quests and tests each player's ability to memorize enemy spawns in a time-constrained environment. Thanks 98.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="ui hidden divider"></div>
+    <div class="ui inverted segment grid">
+        <div class="row">
+            <div class="column">
+                <div id="party_count" class="ui inverted selection dropdown">
+                    <input type="hidden" name="party_count" value="2">
+                    <i class="dropdown icon"></i>
+                    <div class="default text">Party Count</div>
+                    <div class="menu">
+                        <div class="item" data-value="2">2 Players</div>
+                        <div class="item" data-value="3">3 Players</div>
+                        <div class="item" data-value="3">4 Players</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div id="quest_list" class="ui inverted loading fluid search multiple selection dropdown">
+                    <i class="dropdown icon"></i>
+                    <div class="default text">All Quests...</div>
+                    <div class="menu"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div id="player_list" class="ui inverted fluid search multiple selection dropdown">
+                    <div class="default text">Players...</div>
+                    <div class="menu"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <button class="ui inverted button" id="generate">
+                    Generate
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="ui hidden divider"></div>
+    <div class="ui inverted segment">
+        <h3 id="quest_name"></h3>
+        <div class="ui hidden divider"></div>
+        <div id="party_list" class="ui three stackable cards"></div>
+    </div>
+</div>
+<%- js('js/teamz-generator.js') %>

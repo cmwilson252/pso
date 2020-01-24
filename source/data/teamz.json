@@ -1,0 +1,380 @@
+[
+	{
+		"name": "MAE: Seabed EP 2",
+		"duration": "2 Weeks",
+		"date": "03/09/2019",
+		"is_countdown": false,
+		"teams": [
+			{
+				"winner": true,
+				"time": 315,
+				"players": [
+					"MudkipzJM",
+					"Shiida"
+				]
+			},
+			{
+				"winner": false,
+				"time": 453,
+				"players": [
+					"Wilson",
+					"Hunter"
+				]
+			}
+		]
+	},
+	{
+		"name": "MU2 EP 1",
+		"duration": "1 Hour",
+		"date": "02/02/2019",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 528,
+				"players": [
+					"Lemon",
+					"Wilson",
+					"Jez"
+				]
+			},
+			{
+				"winner": false,
+				"time": 496,
+				"players": [
+					"Yan",
+					"Mud",
+					"Hunter"
+				]
+			}
+		]
+	},
+	{
+		"name": "PPP EP 2",
+		"duration": "30 Minutes",
+		"date": "02/02/2019",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 1308,
+				"players": [
+					"Wilson",
+					"Hunter",
+					"Shiida"
+				]
+			},
+			{
+				"winner": false,
+				"time": 1226,
+				"players": [
+					"Killz",
+					"Yan",
+					"Lemon"
+				]
+			}
+		]
+	},
+	{
+		"name": "MA4B EP 1",
+		"duration": "1 Hour",
+		"date": "01/20/2019",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 938,
+				"players": [
+					"Shoutgu",
+					"Jade"
+				]
+			},
+			{
+				"winner": false,
+				"time": 874,
+				"players": [
+					"Wilson",
+					"Yan",
+					"Hunter"
+				]
+			}
+		]
+	},
+	{
+		"name": "MU5 EP 2",
+		"duration": "1 Hour",
+		"date": "01/12/2019",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 433,
+				"players": [
+					"Wilson",
+					"Lemon",
+					"RF"
+				]
+			},
+			{
+				"winner": false,
+				"time": 418,
+				"players": [
+					"Yan",
+					"Jade",
+					"Hunter"
+				]
+			}
+		]
+	},
+	{
+		"name": "MAE: Ruins EP 1",
+		"duration": "1 Hour",
+		"date": "12/08/2018",
+		"is_countdown": false,
+		"teams": [
+			{
+				"winner": true,
+				"time": 261,
+				"players": [
+					"Killz",
+					"Lemon",
+					"Starlord"
+				]
+			},
+			{
+				"winner": false,
+				"time": 284,
+				"players": [
+					"NDW",
+					"Nemo",
+					"Wilson"
+				]
+			}
+		]
+	},
+	{
+		"name": "CCC EP 2",
+		"duration": "1 Hour",
+		"date": "11/17/2018",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 85,
+				"players": [
+					"Killz",
+					"mt76907",
+					"Alukard",
+					"Nemo"
+				]
+			},
+			{
+				"winner": false,
+				"time": 50,
+				"players": [
+					"ReVisioN",
+					"9898",
+					"NoHit",
+					"Lemon"
+				]
+			}
+		]
+	},
+	{
+		"name": "MAE: Seabed EP 2",
+		"duration": "1 Hour",
+		"date": "11/15/2018",
+		"is_countdown": false,
+		"teams": [
+			{
+				"winner": true,
+				"time": 371,
+				"players": [
+					"Lemon",
+					"9898",
+					"Alukard"
+				]
+			},
+			{
+				"winner": false,
+				"time": 372,
+				"players": [
+					"ReVisioN",
+					"16085k",
+					"Wilson"
+				]
+			}
+		]
+	},
+	{
+		"name": "MA3 EP 4",
+		"duration": "1 Hour",
+		"date": "10/31/2018",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 1020,
+				"players": [
+					"MudkipzJM",
+					"mt76907",
+					"ReVisioN"
+				]
+			},
+			{
+				"winner": false,
+				"time": 673,
+				"players": [
+					"Killz",
+					"9898",
+					"Alukard"
+				]
+			},
+			{
+				"winner": false,
+				"time": 608,
+				"players": [
+					"Carnage",
+					"Starlord",
+					"16085k"
+				]
+			}
+		]
+	},
+	{
+		"name": "MA4C EP 1",
+		"duration": "1 Hour",
+		"date": "10/31/2018",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 1039,
+				"players": [
+					"16085k",
+					"Killz",
+					"Rashan",
+					"NDW"
+				]
+			},
+			{
+				"winner": false,
+				"time": 992,
+				"players": [
+					"ReVisioN",
+					"Alukard",
+					"9898",
+					"MudkipzJM"
+				]
+			}
+		]
+	},
+	{
+		"name": "MA4C EP 2",
+		"duration": "1 Hour",
+		"date": "10/30/2018",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 865,
+				"players": [
+					"16085k",
+					"Killz",
+					"mt76907"
+				]
+			},
+			{
+				"winner": false,
+				"time": 540,
+				"players": [
+					"Starlord",
+					"Alukard",
+					"Wilson"
+				]
+			}
+		]
+	},
+	{
+		"name": "Gal Da Val's Darkness EP 2",
+		"duration": "1 Hour",
+		"date": "10/29/2018",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 1070,
+				"players": [
+					"Wilson",
+					"Killz",
+					"Alukard",
+					"NDW"
+				]
+			},
+			{
+				"winner": false,
+				"time": 1050,
+				"players": [
+					"Carnage",
+					"mt76907",
+					"Nemo",
+					"16085k"
+				]
+			}
+		]
+	},
+	{
+		"name": "MU3 EP 1",
+		"duration": "1 Hour",
+		"date": "10/27/2018",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 212,
+				"players": [
+					"Nemo",
+					"Killz",
+					"mt76907"
+				]
+			},
+			{
+				"winner": false,
+				"time": 195,
+				"players": [
+					"Alukard",
+					"9898",
+					"16085k"
+				]
+			}
+		]
+	},
+	{
+		"name": "MU3 EP 2",
+		"duration": "1 Hour",
+		"date": "10/27/2018",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 413,
+				"players": [
+					"Alukard",
+					"NDW",
+					"16085k",
+					"ReVisioN"
+				]
+			},
+			{
+				"winner": false,
+				"time": 378,
+				"players": [
+					"Carnage",
+					"9898",
+					"Nemo",
+					"mt76907"
+				]
+			}
+		]
+	}
+]

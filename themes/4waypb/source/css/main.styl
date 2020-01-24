@@ -1,0 +1,45 @@
+@import "_variables"
+@import "_sectionid"
+
+html,
+body
+    background: #222222 !important;
+
+body header .pc
+    display: none !important
+    @media mq-normal
+        display: flex !important
+
+body header .sp
+    display: flex !important
+    @media mq-normal
+        display: none !important
+
+body.pushable > .pusher
+    background: inherit;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    
+    main
+        flex: 1
+
+.ui.sidebar.menu .item
+    will-change: transform
+
+.sidebar.menu .logo.image,
+.ui.menu .logo.image
+    width: 35px;
+    margin-right: 1em;
+
+.main.container
+    margin-top: 6em;
+
+// Index
+.index-content
+    text-align: center
+    
+    .image
+        margin-bottom: 2em;
+    .main-text
+        font-weight: bold

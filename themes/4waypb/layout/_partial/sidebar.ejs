@@ -1,0 +1,38 @@
+<div class="ui left inverted vertical menu sidebar" id="sidebar">
+<div class="item">
+    <a class="ui logo icon image" href="<%- url_for() %>">
+        <%- image_tag('images/logo.png', {class: ''}) %>
+    </a>
+    <a href="<%- url_for() %>">
+        <b><%= config.title %></b>
+    </a>
+</div>
+<%
+theme.menu.forEach(function(item){
+    if (item.children && item.children.length) {
+        %>
+        <div class="item">
+            <div class="header"><%= item.name %></div>
+            <div class="menu">
+                <%
+                item.children.forEach(function(child) {
+                    %>
+                    <a class="item" href="<%- /^https?:\/\//.test(child.url) ? child.url : url_for(child.url) %>">
+                        <%= child.name %>
+                    </a>
+                    <%
+                })
+                %>
+            </div>
+        </div>
+        <%
+    } else {
+        %>
+        <a class="item" href="<%- /^https?:\/\//.test(item.url) ? item.url : url_for(item.url) %>">
+            <b><%= item.name %></b>
+        </a>
+        <%
+    }
+})
+%>
+</div>

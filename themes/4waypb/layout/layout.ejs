@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<%- partial('_partial/head') %>
+<body class="pushable">
+    <%- partial('_partial/sidebar') %>
+    <div class="pusher">
+        <%- partial('_partial/header') %>
+        <main class="ui main container">
+            <%- body %>
+        </main>
+        
+        <%- partial('_partial/footer') %>
+    </div>
+    
+    <%- partial('_partial/after-footer') %>
+</body>
+
+</html>

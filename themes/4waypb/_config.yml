@@ -1,0 +1,41 @@
+# Header
+menu:
+  - name: 'Quest Records'
+    url: '/quest-records'
+  - name: 'Teamz'
+    url: '/teamz'
+    children:
+      - name: 'Generator'
+        url: '/teamz/generator'
+      - name: 'Results'
+        url: '/teamz/results'
+  - name: 'Concepts'
+    url: '/concepts'
+    children:
+      - name: 'Max Stats and gear'
+        url: '/concepts/max-stats-and-gear'
+      - name: 'Set attack damage'
+        url: '/concepts/set-attack-damage'
+      - name: 'Sandbox TA'
+        url: '/concepts/sandbox-ta'
+  - name: 'Servers'
+    url: '/servers'
+    children:
+      - name: 'Gamecube'
+        url: '/servers/gamecube'
+      - name: 'Unseen'
+        url: '/servers/unseen'
+  - name: 'Miscellaneous'
+    url: '/miscellaneous'
+  - name: 'PSO: TA Discord'
+    url: 'https://discord.gg/q8bwhFX'
+
+# Content
+excerpt_link: Read More
+
+# Miscellaneous
+google_analytics:
+favicon: images/favicon.png
+twitter:
+fb_admins:
+fb_app_id:
