@@ -12,7 +12,7 @@ menu:
   - name: 'Concepts'
     url: '/concepts'
     children:
-      - name: 'Max Stats and gear'
+      - name: 'Max stats and gear'
         url: '/concepts/max-stats-and-gear'
       - name: 'Set attack damage'
         url: '/concepts/set-attack-damage'
