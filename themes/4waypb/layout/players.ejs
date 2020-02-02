@@ -1,0 +1,6 @@
+Load all player posts
+<% site.categories.findOne({name: 'Players'}).posts.sort('date', -1).each(function(post, i){%>
+    <li>
+    <%- partial('_partial/player-card', { post: post }) %>
+    </li>
+<% }) %>

@@ -1,0 +1,4 @@
+---
+title: Players
+layout: players
+---
