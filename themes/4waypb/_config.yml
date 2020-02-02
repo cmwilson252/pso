@@ -25,6 +25,8 @@ menu:
         url: '/servers/gamecube'
       - name: 'Unseen'
         url: '/servers/unseen'
+#  - name: 'Players'
+#    url: '/players'
   - name: 'Miscellaneous'
     url: '/miscellaneous'
   - name: 'PSO: TA Discord'
