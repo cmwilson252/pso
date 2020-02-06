@@ -4501,6 +4501,22 @@
 		"quest_id": "ttf",
 		"episode": 1,
 		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
+		"time": 533,
+		"team": "Pioneers",
+		"players": [
+			{
+				"name": "Roo",
+				"class": "ramarl"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ttf",
+		"episode": 1,
+		"meta": "vanilla",
 		"category": "1p",
 		"pb": true,
 		"time": 658,
