@@ -1,6 +1,29 @@
 <div class="ui segments">
     <div class="ui inverted segment">
-        
+        <div class="ui inverted link four cards">
+            <% for(let i = 0; i < 6; i++) {%>
+                <div class="card">
+                    <div class="image">
+                        <img src="https://via.placeholder.com/800x800?text=Player+image">
+                    </div>
+                    <div class="content">
+                        <div class="header">Player name</div>
+                        <div class="meta">
+                            <span>Class: class</span><br />
+                            <span>Section ID: section id</span><br />
+                            <span>Something else</span>
+                        </div>
+                        <div class="description">
+                            Some short text about the player
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <span>Total records?</span><br />
+                        <span>Something else</span>
+                    </div>
+                </div>
+             <% } %>
+        </div>
     </div>
 </div>
 <%- js('js/players.js') %>

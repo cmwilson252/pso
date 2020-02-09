@@ -25,6 +25,19 @@ window.fourwaypb.players.ready = function() {
         }
     }
     
+    function updateColumns() {
+        $('.cards').removeClass('one two three four');
+        if (window.innerWidth <= 375) {
+            $('.cards').addClass('one');
+        } else if (window.innerWidth <= 640) {
+            $('.cards').addClass('two');
+        } else if (window.innerWidth <= 960) {
+            $('.cards').addClass('three');
+        } else {
+            $('.cards').addClass('four');
+        }
+    }
+    
     function addCard(player) {
         $('#something').append(
             $('<div/>', {
@@ -45,6 +58,11 @@ window.fourwaypb.players.ready = function() {
         players.forEach(function(player) {
             addCard(player);
         });
+        
+        $(window).on('resize', _.debounce(function () {
+            updateColumns();
+        }, 250));
+        updateColumns();
     };
     
     getJSON5(url_for('data/players.json'), (function(data) {
