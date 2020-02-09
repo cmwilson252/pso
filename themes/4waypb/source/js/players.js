@@ -42,8 +42,9 @@ window.fourwaypb.players.ready = function() {
             $('<div/>', {
                 'class': 'card',
             }).append(
-                $('<div/>', {
-                    'class': 'image',
+                $('<a/>', {
+                    'class': 'ui large image',
+                    'href': url_for('players?id='+player.id),
                 }).append(
                     $('<img/>', {
                         'src': /^https?:\/\//.test(player.image) ? player.image : url_for(player.image)
@@ -52,8 +53,9 @@ window.fourwaypb.players.ready = function() {
                 $('<div/>', {
                     'class': 'content',
                 }).append(
-                    $('<div/>', {
+                    $('<a/>', {
                         'class': 'header',
+                        'href': url_for('players?id='+player.id),
                         'text': player.name,
                     }),
                     $('<div/>', {

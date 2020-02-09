@@ -1,6 +1,6 @@
 [
 	{
-		"id": "",
+		"id": "test",
 		"name": "Player",
 		"image": "images/logo.png",
 		"classes": [
