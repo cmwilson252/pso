@@ -7,6 +7,7 @@ window.fourwaypb.players.ready = function() {
     let ready = false;
     let players = null;
     
+    // TODO remove if not used
     function classKeyToName(key) {
         switch (key) {
             case 'humar':       return 'HUmar';
@@ -31,32 +32,122 @@ window.fourwaypb.players.ready = function() {
             $('.cards').addClass('one');
         } else if (window.innerWidth <= 640) {
             $('.cards').addClass('two');
-        } else if (window.innerWidth <= 960) {
-            $('.cards').addClass('three');
         } else {
-            $('.cards').addClass('four');
+            $('.cards').addClass('three');
         }
     }
     
     function addCard(player) {
-        $('#something').append(
+        $('#players').append(
             $('<div/>', {
-                'class': '',
-                'text': player.name,
+                'class': 'card',
             }).append(
-                $('<span/>', {
-                    'text': player.name,
-                }),
-                $('<img/>', {
-                    'src': /^https?:\/\//.test(player.image) ? player.image : url_for(player.image),
-                })
+                $('<div/>', {
+                    'class': 'image',
+                }).append(
+                    $('<img/>', {
+                        'src': /^https?:\/\//.test(player.image) ? player.image : url_for(player.image)
+                    })
+                ),
+                $('<div/>', {
+                    'class': 'content',
+                }).append(
+                    $('<div/>', {
+                        'class': 'header',
+                        'text': player.name,
+                    }),
+                    $('<div/>', {
+                        'class': 'meta',
+                        'text': 'meta',
+                    }),
+                    $('<div/>', {
+                        'class': 'description',
+                        'html': (function() {
+                            let content = '';
+                            player.card_content.forEach(function(line){
+                                content += line;
+                            });
+                            return content;
+                        }),
+                    }),
+                ),
+                $('<div/>', {
+                    'class': 'extra content',
+                }).append(
+                    (function() {
+                        let float = false;
+                        let result = [];
+                        
+                        if (player.discord) {
+                            result.push(
+                                $('<span/>', {
+                                }).append(
+                                    $('<i/>', {
+                                        'class': 'icon discord',
+                                    }),
+                                    player.discord,
+                                ),
+                                $('<br />')
+                            );
+                        }
+                        if (player.twitter) {
+                            result.push(
+                                $('<a/>', {
+                                    'href': 'https://twitter.com/'+player.twitter,
+                                }).append(
+                                    $('<i/>', {
+                                        'class': 'icon twitter',
+                                    }),
+                                    $('<span/>', {
+                                        'text': '@'+player.twitter,
+                                    }),
+                                ),
+                                $('<br />')
+                            );
+                        }
+                        if (player.youtube.name && player.youtube.url) {
+                            result.push(
+                                $('<a/>', {
+                                    'href': player.youtube.url,
+                                }).append(
+                                    $('<i/>', {
+                                        'class': 'icon youtube',
+                                    }),
+                                    $('<span/>', {
+                                        'text': player.youtube.name,
+                                    }),
+                                ),
+                                $('<br />')
+                            );
+                        }
+                        if (player.twitch.name && player.twitch.url) {
+                            result.push(
+                                $('<a/>', {
+                                    'href': player.twitch.url,
+                                }).append(
+                                    $('<i/>', {
+                                        'class': 'icon twitch',
+                                    }),
+                                    $('<span/>', {
+                                        'text': player.twitch.name,
+                                    }),
+                                ),
+                                $('<br />')
+                            );
+                        }
+                        
+                        return result;
+                    }),
+                ),
             ),
         );
     }
     
     function setupPage() {
         players.forEach(function(player) {
-            addCard(player);
+            if (player.id) {
+                addCard(player);
+            }
         });
         
         $(window).on('resize', _.debounce(function () {

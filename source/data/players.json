@@ -1,10 +1,80 @@
 [
 	{
-		"name": "Player 1",
-		"image": "https://via.placeholder.com/140x100"
+		"id": "",
+		"name": "Player",
+		"image": "images/logo.png",
+		"classes": [
+			"Class 1",
+			"Class 2"
+		],
+		"metas": [
+			"Meta 1",
+			"Meta 2"
+		],
+		"teams": [
+			"Team 1",
+			"Team 2"
+		],
+		"timezone": "Timezone",
+		"card_content": [
+			"Card content is html",
+			"<br />",
+			"use br to add a new line"
+		],
+		"page_content": [
+			"Page content is html",
+			"<br />",
+			"use br to add a new line"
+		],
+		"discord": "Discord",
+		"twitter": "Twitter",
+		"youtube": {
+			"name": "Youtube",
+			"url": "#"
+		},
+		"twitch": {
+			"name": "Twitch",
+			"url": "#"
+		}
 	},
 	{
-		"name": "Player 2",
-		"image": "images/logo.png"
+		"id": "wilson",
+		"name": "Wilson",
+		"image": "images/players/wilson.jpg",
+		"classes": [
+			"hucast",
+			"racast",
+			"hunewearl"
+		],
+		"metas": [
+			"Gamecube",
+			"2014",
+			"Vanilla",
+			"Ultima"
+		],
+		"teams": [
+			"CF"
+		],
+		"timezone": "Timezone",
+		"card_content": [
+			"Card content",
+			"<br />",
+			"new line"
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "Wilson#0001",
+		"twitter": "wilsonpsobb",
+		"youtube": {
+			"name": "wilsonpsobb",
+			"url": "https://www.youtube.com/channel/UC29uGMxI7poTYHEifhZwILw"
+		},
+		"twitch": {
+			"name": "some random twitch",
+			"url": "#"
+		}
 	}
 ]
