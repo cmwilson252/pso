@@ -66,6 +66,34 @@
 		"meta": "ultima",
 		"category": "4p",
 		"pb": true,
+		"time": 1146,
+		"team": "CF",
+		"players": [
+			{
+				"name": "Rashan",
+				"class": "hucast"
+			},
+			{
+				"name": "Killz",
+				"class": "hucast"
+			},
+			{
+				"name": "HUNTER_",
+				"class": "hucast"
+			},
+			{
+				"name": "Starlord",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ma1c",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "4p",
+		"pb": true,
 		"time": 1031,
 		"team": "CF",
 		"players": [
@@ -6107,6 +6135,26 @@
 		"meta": "gamecube",
 		"category": "2p",
 		"pb": false,
+		"time": 426,
+		"team": "",
+		"players": [
+			{
+				"name": "Armand",
+				"class": "hunewearl"
+			},
+			{
+				"name": "Wilson",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "mu2",
+		"episode": 1,
+		"meta": "gamecube",
+		"category": "2p",
+		"pb": false,
 		"time": 420,
 		"team": "",
 		"players": [
@@ -6153,7 +6201,7 @@
 		"quest_id": "mu3",
 		"episode": 1,
 		"meta": "gamecube",
-		"category": "4p",
+		"category": "2p",
 		"pb": false,
 		"time": 85,
 		"team": "",
