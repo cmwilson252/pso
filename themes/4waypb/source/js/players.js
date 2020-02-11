@@ -60,7 +60,16 @@ window.fourwaypb.players.ready = function() {
                     }),
                     $('<div/>', {
                         'class': 'meta',
-                        'text': 'meta',
+                        'html': (function() {
+                            let content = '';
+                            for (let i = 0; i < player.metas.length; i++) {
+                                if (i > 0) {
+                                    content += ', ';
+                                }
+                                content += player.metas[i];
+                            }
+                            return content;
+                        }),
                     }),
                     $('<div/>', {
                         'class': 'description',
