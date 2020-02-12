@@ -53,6 +53,10 @@ window.fourwaypb.players.ready = function() {
                 $('<div/>', {
                     'class': 'content',
                 }).append(
+                    $('<span/>', {
+                        'class': 'ui inverted secondary small text right floated',
+                        'text': player.timezone,
+                    }),
                     $('<a/>', {
                         'class': 'header',
                         'href': url_for('player?id='+player.id),
@@ -60,44 +64,35 @@ window.fourwaypb.players.ready = function() {
                     }),
                     $('<div/>', {
                         'class': 'meta',
-                        'html': (function() {
-                            let content = '';
-                            for (let i = 0; i < player.metas.length; i++) {
-                                if (i > 0) {
-                                    content += ', ';
+                    }).append(
+                        $('<span/>', {
+                            'html': (function() {
+                                let content = '';
+                                for (let i = 0; i < player.metas.length; i++) {
+                                    if (i > 0) {
+                                        content += ', ';
+                                    }
+                                    content += player.metas[i];
                                 }
-                                content += player.metas[i];
-                            }
-                            return content;
+                                return content;
+                            }),
                         }),
-                    }),
-                    $('<div/>', {
-                        'class': 'classes',
-                        'html': (function() {
-                            let content = '';
-                            for (let i = 0; i < player.classes.length; i++) {
-                                if (i > 0) {
-                                    content += ', ';
+                        $('<br/>'),
+                        $('<span/>', {
+                            'html': (function() {
+                                let content = '';
+                                for (let i = 0; i < player.classes.length; i++) {
+                                    if (i > 0) {
+                                        content += ', ';
+                                    }
+                                    content += classKeyToName(player.classes[i]);
                                 }
-                                content += classKeyToName(player.classes[i]);
-                            }
-                            return content;
+                                return content;
+                            }),
                         }),
-                    }),
-                    $('<div/>', {
-                        'class': 'timezone',
-                        'html': (function() {
-                            let content = '';
-                            for (let i = 0; i < player.timezone.length; i++) {
-                                if (i > 0) {
-                                    content += '';
-                                }
-                                content += player.timezone[i];
-                            }
-                            return content;
-                        }),
-                    }),
-                    $('<div/>', {
+                        $('<br/>'),
+                    ),
+                    $('<span/>', {
                         'class': 'description',
                         'html': (function() {
                             let content = '';
