@@ -91,6 +91,7 @@ window.fourwaypb.players.ready = function() {
                             }),
                         }),
                         $('<br/>'),
+                        $('<br/>'),
                     ),
                     $('<span/>', {
                         'class': 'description',
