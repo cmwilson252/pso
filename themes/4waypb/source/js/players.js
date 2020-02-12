@@ -20,7 +20,7 @@ window.fourwaypb.players.ready = function() {
             case 'racaseal':    return 'RAcaseal';
             case 'fomar':       return 'FOmar';
             case 'fomarl':      return 'FOmarl';
-            case 'fonewm':      return 'Fonewm';
+            case 'fonewm':      return 'FOnewm';
             case 'fonewearl':   return 'FOnewearl';
             default: return "Unknown";
         }
@@ -67,6 +67,32 @@ window.fourwaypb.players.ready = function() {
                                     content += ', ';
                                 }
                                 content += player.metas[i];
+                            }
+                            return content;
+                        }),
+                    }),
+                    $('<div/>', {
+                        'class': 'classes',
+                        'html': (function() {
+                            let content = '';
+                            for (let i = 0; i < player.classes.length; i++) {
+                                if (i > 0) {
+                                    content += ', ';
+                                }
+                                content += classKeyToName(player.classes[i]);
+                            }
+                            return content;
+                        }),
+                    }),
+                    $('<div/>', {
+                        'class': 'timezone',
+                        'html': (function() {
+                            let content = '';
+                            for (let i = 0; i < player.timezone.length; i++) {
+                                if (i > 0) {
+                                    content += '';
+                                }
+                                content += player.timezone[i];
                             }
                             return content;
                         }),

@@ -55,7 +55,7 @@
 		"teams": [
 			"CF"
 		],
-		"timezone": "Timezone",
+		"timezone": "CST",
 		"card_content": [
 			"Card content",
 			"<br />",
@@ -73,8 +73,8 @@
 			"url": "https://www.youtube.com/channel/UC29uGMxI7poTYHEifhZwILw"
 		},
 		"twitch": {
-			"name": "some random twitch",
-			"url": "#"
+			"name": "wilsonpsobb",
+			"url": "https://www.twitch.tv/wilsonpsobb"
 		}
 	}
 ]
