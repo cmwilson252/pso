@@ -143,7 +143,7 @@ window.fourwaypb.quest_records.ready = function() {
             case 'racaseal':    return 'RAcaseal';
             case 'fomar':       return 'FOmar';
             case 'fomarl':      return 'FOmarl';
-            case 'fonewm':      return 'Fonewm';
+            case 'fonewm':      return 'FOnewm';
             case 'fonewearl':   return 'FOnewearl';
             default: return "Unknown";
         }
