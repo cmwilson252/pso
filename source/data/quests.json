@@ -145,7 +145,7 @@
 	},
 	{
 		"id": "mas",
-		"name": "MAS",
+		"name": "Max Attack S",
 		"enabled": true,
 		"is_countdown": true
 	},
@@ -217,85 +217,85 @@
 	},
 	{
 		"id": "mu1",
-		"name": "MU1",
+		"name": "Mop-Up Operation #1",
 		"enabled": true,
 		"is_countdown": true
 	},
 	{
 		"id": "mu2",
-		"name": "MU2",
+		"name": "Mop-Up Operation #2",
 		"enabled": true,
 		"is_countdown": true
 	},
 	{
 		"id": "mu3",
-		"name": "MU3",
+		"name": "Mop-Up Operation #3",
 		"enabled": true,
 		"is_countdown": true
 	},
 	{
 		"id": "mu4",
-		"name": "MU4",
+		"name": "Mop-Up Operation #4",
 		"enabled": true,
 		"is_countdown": true
 	},
 	{
 		"id": "mau1",
-		"name": "MaU1",
+		"name": "Malicious Uprising #1",
 		"enabled": true,
 		"is_countdown": true
 	},
 	{
 		"id": "mau2",
-		"name": "MaU2",
+		"name": "Malicious Uprising #2",
 		"enabled": true,
 		"is_countdown": true
 	},
 	{
 		"id": "mau3",
-		"name": "MaU3",
+		"name": "Malicious Uprising #3",
 		"enabled": true,
 		"is_countdown": true
 	},
 	{
 		"id": "mau4",
-		"name": "MaU4",
+		"name": "Malicious Uprising #4",
 		"enabled": true,
 		"is_countdown": true
 	},
 	{
 		"id": "mau5",
-		"name": "MaU5",
+		"name": "Malicious Uprising #5",
 		"enabled": true,
 		"is_countdown": true
 	},
 	{
 		"id": "nmu1",
-		"name": "NMU1",
+		"name": "New Mop-Up Operation #1",
 		"enabled": true,
 		"is_countdown": true
 	},
 	{
 		"id": "nmu2",
-		"name": "NMU2",
+		"name": "New Mop-Up Operation #2",
 		"enabled": true,
 		"is_countdown": true
 	},
 	{
 		"id": "nmu3",
-		"name": "NMU3",
+		"name": "New Mop-Up Operation #3",
 		"enabled": true,
 		"is_countdown": true
 	},
 	{
 		"id": "nmu4",
-		"name": "NMU4",
+		"name": "New Mop-Up Operation #4",
 		"enabled": true,
 		"is_countdown": true
 	},
 	{
 		"id": "nmu5",
-		"name": "NMU5",
+		"name": "New Mop-Up Operation #5",
 		"enabled": true,
 		"is_countdown": true
 	},
@@ -307,7 +307,7 @@
 	},
 	{
 		"id": "pod",
-		"name": "PoD",
+		"name": "Point of Disaster",
 		"enabled": true,
 		"is_countdown": true
 	},
@@ -319,7 +319,7 @@
 	},
 	{
 		"id": "roct",
-		"name": "ROCT",
+		"name": "Raid on Central Tower",
 		"enabled": true,
 		"is_countdown": true
 	},
@@ -331,79 +331,79 @@
 	},
 	{
 		"id": "row",
-		"name": "RoW",
+		"name": "Realms of War",
 		"enabled": true,
 		"is_countdown": true
 	},
 	{
 		"id": "rt",
-		"name": "RT",
+		"name": "Respective Tomorrow",
 		"enabled": true,
 		"is_countdown": false
 	},
 	{
 		"id": "su1",
-		"name": "SU1",
+		"name": "Sweep-Up Operation #1",
 		"enabled": true,
 		"is_countdown": true
 	},
 	{
 		"id": "su2",
-		"name": "SU2",
+		"name": "Sweep-Up Operation #2",
 		"enabled": true,
 		"is_countdown": true
 	},
 	{
 		"id": "su3",
-		"name": "SU3",
+		"name": "Sweep-Up Operation #3",
 		"enabled": true,
 		"is_countdown": true
 	},
 	{
 		"id": "su4",
-		"name": "SU4",
+		"name": "Sweep-Up Operation #4",
 		"enabled": true,
 		"is_countdown": true
 	},
 	{
 		"id": "su5",
-		"name": "SU5",
+		"name": "Sweep-Up Operation #5",
 		"enabled": true,
 		"is_countdown": true
 	},
 	{
 		"id": "su6",
-		"name": "SU6",
+		"name": "Sweep-Up Operation #6",
 		"enabled": true,
 		"is_countdown": true
 	},
 	{
 		"id": "su7",
-		"name": "SU7",
+		"name": "Sweep-Up Operation #7",
 		"enabled": true,
 		"is_countdown": true
 	},
 	{
 		"id": "su8",
-		"name": "SU8",
+		"name": "Sweep-Up Operation #8",
 		"enabled": true,
 		"is_countdown": true
 	},
 	{
 		"id": "su9",
-		"name": "SU9",
+		"name": "Sweep-Up Operation #9",
 		"enabled": true,
 		"is_countdown": true
 	},
 	{
 		"id": "ttf",
-		"name": "TTF",
+		"name": "Towards the Future",
 		"enabled": true,
 		"is_countdown": false
 	},
 	{
 		"id": "ttf_ultima",
-		"name": "TTF Ultima",
+		"name": "Towards the Future Ultima",
 		"enabled": true,
 		"is_countdown": false
 	},
