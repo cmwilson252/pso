@@ -53,13 +53,11 @@
 			"Ultima"
 		],
 		"teams": [
-			"CF"
+			"Chosen Few"
 		],
 		"timezone": "CST",
 		"card_content": [
-			"Card content",
-			"<br />",
-			"new line"
+			
 		],
 		"page_content": [
 			"Page content",

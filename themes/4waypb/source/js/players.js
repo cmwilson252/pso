@@ -91,6 +91,19 @@ window.fourwaypb.players.ready = function() {
                             }),
                         }),
                         $('<br/>'),
+                      $('<span/>', {
+                            'text': (function() {
+                                let content = '';
+                                for (let i = 0; i < player.teams.length; i++) {
+                                    if (i > 0) {
+                                        content += ', ';
+                                    }
+                                    content += player.teams[i];
+                                }
+                                return content;
+                            }),
+                        }),  
+                        $('<br/>'),
                         $('<br/>'),
                     ),
                     $('<span/>', {
