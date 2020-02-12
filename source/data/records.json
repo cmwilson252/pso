@@ -4099,6 +4099,22 @@
 		"meta": "vanilla",
 		"category": "opm",
 		"pb": false,
+		"time": 276,
+		"team": "Tankstelle",
+		"players": [
+			{
+				"name": "Sange",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_ruins",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
 		"time": 364,
 		"team": "Pioneers",
 		"players": [
