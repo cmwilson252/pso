@@ -7,7 +7,7 @@
 		"category": "1p",
 		"pb": false,
 		"time": 701,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
@@ -51,7 +51,7 @@
 		"category": "1p",
 		"pb": false,
 		"time": 759,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
@@ -66,7 +66,7 @@
 		"meta": "ultima",
 		"category": "4p",
 		"pb": true,
-		"time": 1146,
+		"time": 1153,
 		"team": "Chosen Few",
 		"players": [
 			{
@@ -123,7 +123,7 @@
 		"category": "1p",
 		"pb": false,
 		"time": 670,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
@@ -139,7 +139,7 @@
 		"category": "1p",
 		"pb": false,
 		"time": 1586,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
@@ -147,6 +147,95 @@
 			}
 		]
 	},
+	{
+		"mode": "normal",
+		"quest_id": "max_forest",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "2p",
+		"pb": true,
+		"time": 230,
+		"team": "Chosen Few",
+		"players": [
+			{
+				"name": "HUNTER_",
+				"class": "hucast"
+			},
+			{
+				"name:": "Starlord",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_mines",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "2p",
+		"pb": true,
+		"time": 257,
+		"team": "Chosen Few",
+		"players": [
+			{
+				"name": "HUNTER_",
+				"class": "hucast"
+			},
+			{
+				"name:": "Starlord",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_ruins",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "1p",
+		"pb": false,
+		"time": 351,
+		"team": "Chosen Few",
+		"players": [
+			{
+				"name": "Killz",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_ruins",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "1p",
+		"pb": false,
+		"time": 357,
+		"team": "Chosen Few",
+		"players": [
+			{
+				"name": "Starlord",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_ruins",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "1p",
+		"pb": false,
+		"time": 426,
+		"team": "Universe-PS",
+		"players": [
+			{
+				"name": "Noudle",
+				"class": "hucaseal"
+			}
+		]
+	},
+
 	{
 		"mode": "normal",
 		"quest_id": "mu1",
@@ -407,7 +496,7 @@
 		"category": "2p",
 		"pb": false,
 		"time": 600,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "El Socko",
@@ -623,7 +712,7 @@
 		"category": "1p",
 		"pb": false,
 		"time": 168,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "TripleR",
@@ -655,7 +744,7 @@
 		"category": "1p",
 		"pb": false,
 		"time": 78,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "TripleR",
@@ -1419,7 +1508,7 @@
 		"category": "opm",
 		"pb": false,
 		"time": 624,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
@@ -2015,7 +2104,7 @@
 		"category": "opm",
 		"pb": false,
 		"time": 32,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
@@ -2063,7 +2152,7 @@
 		"category": "opm",
 		"pb": false,
 		"time": 476,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
@@ -2163,7 +2252,7 @@
 		"category": "opm",
 		"pb": false,
 		"time": 380,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
@@ -2548,7 +2637,7 @@
 		"category": "opm",
 		"pb": false,
 		"time": 342,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
@@ -2564,11 +2653,31 @@
 		"category": "opm",
 		"pb": false,
 		"time": 1203,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
 				"class": "humar"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_tower",
+		"episode": 2,
+		"meta": "2014",
+		"category": "2p",
+		"pb": false,
+		"time": 364,
+		"team": "Chosen Few",
+		"players": [
+			{
+				"name": "HUNTER_",
+				"class": "hucast"
+			},
+			{
+				"name": "Starlord",
+				"class": "hunewearl"
 			}
 		]
 	},
@@ -3416,7 +3525,7 @@
 		"category": "opm",
 		"pb": false,
 		"time": 211,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
@@ -3520,7 +3629,7 @@
 		"category": "opm",
 		"pb": false,
 		"time": 1221,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
