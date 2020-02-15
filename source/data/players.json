@@ -182,5 +182,41 @@
 			"name": "",
 			"url": ""
 		}	
+	},
+	{
+		"id": "lemon",
+		"name": "Lemon",
+		"image": "images/players/lemon.png",
+		"classes": [
+			"fomarl",
+			"racast",
+			"fonewearl"
+		],
+		"metas": [
+			"2014",
+			"Ultima"
+		],
+		"teams": [
+			"Chosen Few"
+		],
+		"timezone": "EST",
+		"card_content": [
+			
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "lemonolia",
+			"url": "https://www.twitch.tv/lemonolia"
+		}	
 	}
 ]
