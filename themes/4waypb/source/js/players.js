@@ -29,7 +29,7 @@ window.fourwaypb.players.ready = function() {
     function updateColumns() {
         $('.cards').removeClass('one two three four');
         if (window.innerWidth < 640) {
-            $('.cards').addClass('two');
+            $('.cards').addClass('one');
         } else if (window.innerWidth < 992) {
             $('.cards').addClass('two');
         } else if (window.innerWidth < 1200) {
@@ -45,7 +45,7 @@ window.fourwaypb.players.ready = function() {
                 'class': 'card',
             }).append(
                 $('<a/>', {
-                    'class': 'ui large image',
+                    'class': 'ui image',
                     'href': url_for('player?id='+player.id),
                 }).append(
                     $('<img/>', {
@@ -93,7 +93,7 @@ window.fourwaypb.players.ready = function() {
                             }),
                         }),
                         $('<br/>'),
-                      $('<span/>', {
+                        $('<span/>', {
                             'text': (function() {
                                 let content = '';
                                 for (let i = 0; i < player.teams.length; i++) {
@@ -153,7 +153,7 @@ window.fourwaypb.players.ready = function() {
                                 $('<br />')
                             );
                         }
-                        if (player.youtube.name && player.youtube.url) {
+                        if (player.youtube && player.youtube.name && player.youtube.url) {
                             result.push(
                                 $('<a/>', {
                                     'href': player.youtube.url,
@@ -168,7 +168,7 @@ window.fourwaypb.players.ready = function() {
                                 $('<br />')
                             );
                         }
-                        if (player.twitch.name && player.twitch.url) {
+                        if (player.twitch && player.twitch.name && player.twitch.url) {
                             result.push(
                                 $('<a/>', {
                                     'href': player.twitch.url,
@@ -178,6 +178,21 @@ window.fourwaypb.players.ready = function() {
                                     }),
                                     $('<span/>', {
                                         'text': player.twitch.name,
+                                    }),
+                                ),
+                                $('<br />')
+                            );
+                        }
+                        if (player.github && player.github.name && player.github.url) {
+                            result.push(
+                                $('<a/>', {
+                                    'href': player.github.url,
+                                }).append(
+                                    $('<i/>', {
+                                        'class': 'icon github',
+                                    }),
+                                    $('<span/>', {
+                                        'text': player.github.name,
                                     }),
                                 ),
                                 $('<br />')

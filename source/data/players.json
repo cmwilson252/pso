@@ -2,26 +2,20 @@
 	{
 		"id": "soly",
 		"name": "Soly",
-		"image": "images/players/",
+		"image": "images/players/solybum.jpg",
 		"classes": [
-			"racast",
-			"",
-			""
+			"racast"
 		],
 		"metas": [
 			"Ultima"
 		],
 		"teams": [
-			"Chosen Few"
 		],
 		"timezone": "CST",
 		"card_content": [
 			
 		],
 		"page_content": [
-			"Page content",
-			"<br />",
-			"new line"
 		],
 		"discord": "Soly#0637",
 		"twitter": "solybum",
@@ -32,6 +26,10 @@
 		"twitch": {
 			"name": "",
 			"url": ""
+		},
+		"github": {
+			"name": "Solybum",
+			"url": "https://github.com/Solybum"
 		}
 	},
 	{
@@ -181,42 +179,6 @@
 		"twitch": {
 			"name": "",
 			"url": ""
-		}	
-	},
-	{
-		"id": "lemon",
-		"name": "Lemon",
-		"image": "images/players/lemon.png",
-		"classes": [
-			"fomarl",
-			"racast",
-			"fonewearl"
-		],
-		"metas": [
-			"2014",
-			"Ultima"
-		],
-		"teams": [
-			"Chosen Few"
-		],
-		"timezone": "EST",
-		"card_content": [
-			
-		],
-		"page_content": [
-			"Page content",
-			"<br />",
-			"new line"
-		],
-		"discord": "",
-		"twitter": "",
-		"youtube": {
-			"name": "",
-			"url": ""
-		},
-		"twitch": {
-			"name": "lemonolia",
-			"url": "https://www.twitch.tv/lemonolia"
-		}	
+		}
 	}
 ]
