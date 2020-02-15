@@ -20,8 +20,8 @@
 		"discord": "Soly#0637",
 		"twitter": "solybum",
 		"youtube": {
-			"name": "",
-			"url": ""
+			"name": "Soleil Rojas",
+			"url": "https://www.youtube.com/channel/UC9gcllXeb1BEkXcfctxMt6w"
 		},
 		"twitch": {
 			"name": "",
@@ -179,6 +179,75 @@
 		"twitch": {
 			"name": "",
 			"url": ""
+		}
+	},
+	{
+		"id": "rashan",
+		"name": "Rashan",
+		"image": "images/players/rashan0121.jpg",
+		"classes": [
+			"hucast",
+			"racast",
+			"ramar"
+		],
+		"metas": [
+			"Ultima"
+		],
+		"teams": [
+			"Chosen Few"
+		],
+		"timezone": "GMT",
+		"card_content": [
+			
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "rashan0121#7208",
+		"twitter": "",
+		"youtube": {
+			"name": "rashan0121",
+			"url": "https://www.youtube.com/channel/UC1xvaqDyBHY5C-EHo_liB6w"
+		},
+		"twitch": {
+			"name": "rashan0121",
+			"url": "https://m.twitch.tv/rashan0121"
+		}
+	},
+	{
+		"id": "lemon",
+		"name": "Lemon",
+		"image": "images/players/lemon.png",
+		"classes": [
+			"fomarl"
+		],
+		"metas": [
+			"2014",
+			"Ultima"
+		],
+		"teams": [
+			"Chosen Few"
+		],
+		"timezone": "EST",
+		"card_content": [
+			
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "Lemon#5620",
+		"twitter": "",
+		"youtube": {
+			"name": "Lemon",
+			"url": "https://www.youtube.com/user/PirlKnighte"
+		},
+		"twitch": {
+			"name": "lemonolia",
+			"url": "https://www.twitch.tv/lemonolia"
 		}
 	}
 ]
