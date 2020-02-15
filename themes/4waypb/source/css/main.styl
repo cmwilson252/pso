@@ -57,10 +57,23 @@ pre
     span:hover,
     a:hover
         .icon.discord
-                color: #7289da;
+                color: color-discord;
         .icon.twitter
-                color: #1da1f2;
+                color: color-twitter;
         .icon.youtube
-                color: #ff0000;
+                color: color-youtube;
         .icon.twitch
-                color: #9147ff;
+                color: color-twitch;
+
+#players > .card > .image
+    &::before
+        content: '';
+        height: 0px;
+        padding-top: 100%;
+        float: left;
+    &::after
+        content: '';
+        clear: both;
+    img
+        height: 100%;
+        object-fit: cover

@@ -28,12 +28,14 @@ window.fourwaypb.players.ready = function() {
     
     function updateColumns() {
         $('.cards').removeClass('one two three four');
-        if (window.innerWidth <= 375) {
-            $('.cards').addClass('one');
-        } else if (window.innerWidth <= 640) {
+        if (window.innerWidth < 640) {
             $('.cards').addClass('two');
-        } else {
+        } else if (window.innerWidth < 992) {
+            $('.cards').addClass('two');
+        } else if (window.innerWidth < 1200) {
             $('.cards').addClass('three');
+        } else {
+            $('.cards').addClass('four');
         }
     }
     
@@ -47,7 +49,7 @@ window.fourwaypb.players.ready = function() {
                     'href': url_for('player?id='+player.id),
                 }).append(
                     $('<img/>', {
-                        'src': /^https?:\/\//.test(player.image) ? player.image : url_for(player.image)
+                        'src': /^https?:\/\//.test(player.image) ? player.image : url_for(player.image),
                     })
                 ),
                 $('<div/>', {
@@ -102,7 +104,7 @@ window.fourwaypb.players.ready = function() {
                                 }
                                 return content;
                             }),
-                        }),  
+                        }),
                         $('<br/>'),
                         $('<br/>'),
                     ),
