@@ -1,40 +1,37 @@
 [
 	{
-		"id": "test",
-		"name": "Player",
-		"image": "images/logo.png",
+		"id": "soly",
+		"name": "Soly",
+		"image": "images/players/",
 		"classes": [
-			"Class 1",
-			"Class 2"
+			"racast",
+			"",
+			""
 		],
 		"metas": [
-			"Meta 1",
-			"Meta 2"
+			"Ultima"
 		],
 		"teams": [
-			"Team 1",
-			"Team 2"
+			"Chosen Few"
 		],
-		"timezone": "Timezone",
+		"timezone": "CST",
 		"card_content": [
-			"Card content is html",
-			"<br />",
-			"use br to add a new line"
+			
 		],
 		"page_content": [
-			"Page content is html",
+			"Page content",
 			"<br />",
-			"use br to add a new line"
+			"new line"
 		],
-		"discord": "Discord",
-		"twitter": "Twitter",
+		"discord": "Soly#0637",
+		"twitter": "solybum",
 		"youtube": {
-			"name": "Youtube",
-			"url": "#"
+			"name": "",
+			"url": ""
 		},
 		"twitch": {
-			"name": "Twitch",
-			"url": "#"
+			"name": "",
+			"url": ""
 		}
 	},
 	{
@@ -74,5 +71,116 @@
 			"name": "wilsonpsobb",
 			"url": "https://www.twitch.tv/wilsonpsobb"
 		}
+	},
+	{
+		"id": "killz",
+		"name": "Killz",
+		"image": "images/players/killz.png",
+		"classes": [
+			"hucast",
+			"humar",
+			"racast"
+		],
+		"metas": [
+			"2014",
+			"Vanilla",
+			"Ultima"
+		],
+		"teams": [
+			"Chosen Few"
+		],
+		"timezone": "GMT",
+		"card_content": [
+			
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "bmode#7810",
+		"twitter": "",
+		"youtube": {
+			"name": "Killz PSO",
+			"url": "https://www.youtube.com/channel/UC1A7WgI_7YKNxKMQSqw89KA"
+		},
+		"twitch": {
+			"name": "shoutgu",
+			"url": "https://www.twitch.tv/shoutgu"
+		}
+	},
+	{
+		"id": "starlord",
+		"name": "Starlord",
+		"image": "images/players/starlord.jpg",
+		"classes": [
+			"hucast",
+			"ramarl",
+			"fonewm"
+		],
+		"metas": [
+			"2014",
+			"Vanilla",
+			"Ultima"
+		],
+		"teams": [
+			"Chosen Few"
+		],
+		"timezone": "EST",
+		"card_content": [
+			
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "Estroman#5054",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "hunter",
+		"name": "HUNTER_",
+		"image": "images/players/hunter.jpg",
+		"classes": [
+			"hucast",
+			"racast",
+			"fonewearl"
+		],
+		"metas": [
+			"2014",
+			"Vanilla",
+			"Ultima"
+		],
+		"teams": [
+			"Chosen Few"
+		],
+		"timezone": "EST",
+		"card_content": [
+			
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "HUNTER_#6863",
+		"twitter": "",
+		"youtube": {
+			"name": "HUNTER PSO",
+			"url": "https://www.youtube.com/channel/UCmXEhNag8znys8nOKb_llKg"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		}	
 	}
 ]
