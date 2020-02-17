@@ -431,6 +431,107 @@
 		}
 	},
 	{
+		"id": "16085k",
+		"name": "16085k",
+		"image": "images/players/",
+		"classes": [
+
+		],
+		"metas": [
+			"2014",
+			"Vanilla"
+		],
+		"teams": [
+			"MA4B"
+		],
+		"timezone": "",
+		"card_content": [
+
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "Azami#7762",
+		"twitter": "",
+		"youtube": {
+			"name": "XxXxCharizardXxXx",
+			"url": "https://www.youtube.com/channel/UCnvHjn4HnhJGaQ8L6H2GINA"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "alukard",
+		"name": "Alukard",
+		"image": "images/players/",
+		"classes": [
+	
+		],
+		"metas": [
+			"2014",
+			"Vanilla"
+		],
+		"teams": [
+			"MA4B"
+		],
+		"timezone": "",
+		"card_content": [
+
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "not pew pew#9791",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "500ryu",
+		"name": "500ryu",
+		"image": "images/players/",
+		"classes": [
+	
+		],
+		"metas": [
+			"2014"
+		],
+		"teams": [
+			"MA4B"
+		],
+		"timezone": "EST",
+		"card_content": [
+
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "bp#8044",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "zen",
 		"name": "Zen",
 		"image": "images/players/zen.jpg",
