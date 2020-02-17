@@ -3207,38 +3207,6 @@
 	},
 	{
 		"mode": "normal",
-		"quest_id": "ma4c",
-		"episode": 4,
-		"meta": "2014",
-		"category": "opm",
-		"pb": false,
-		"time": 852,
-		"team": "MA4B",
-		"players": [
-			{
-				"name": "16085k",
-				"class": "fonewm"
-			}
-		]
-	},
-	{
-		"mode": "normal",
-		"quest_id": "ma4c",
-		"episode": 4,
-		"meta": "2014",
-		"category": "opm",
-		"pb": false,
-		"time": 841,
-		"team": "Stone Cutterz",
-		"players": [
-			{
-				"name": "Oberon",
-				"class": "fonewm"
-			}
-		]
-	},
-	{
-		"mode": "normal",
 		"quest_id": "nmu2",
 		"episode": 4,
 		"meta": "2014",
