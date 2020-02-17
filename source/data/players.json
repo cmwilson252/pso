@@ -435,7 +435,9 @@
 		"name": "Jack",
 		"image": "images/players/",
 		"classes": [
-
+			"fonewearl",
+			"racaseal",
+			"fomarl"
 		],
 		"metas": [
 			"2014",
