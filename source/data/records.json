@@ -407,6 +407,38 @@
 		"meta": "ultima",
 		"category": "1p",
 		"pb": false,
+		"time": 608,
+		"team": "Chosen Few",
+		"players": [
+			{
+				"name": "Killz",
+				"class": "humar"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ttf",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "1p",
+		"pb": false,
+		"time": 635,
+		"team": "Chosen Few",
+		"players": [
+			{
+				"name": "Killz",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ttf",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "1p",
+		"pb": false,
 		"time": 639,
 		"team": "Chosen Few",
 		"players": [
@@ -429,22 +461,6 @@
 			{
 				"name": "Izaya",
 				"class": "fomar"
-			}
-		]
-	},
-	{
-		"mode": "normal",
-		"quest_id": "ttf",
-		"episode": 1,
-		"meta": "ultima",
-		"category": "1p",
-		"pb": false,
-		"time": 635,
-		"team": "Chosen Few",
-		"players": [
-			{
-				"name": "Killz",
-				"class": "hucast"
 			}
 		]
 	},
