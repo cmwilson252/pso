@@ -249,5 +249,290 @@
 			"name": "lemonolia",
 			"url": "https://www.twitch.tv/lemonolia"
 		}
+	},
+	{
+		"id": "yannv",
+		"name": "Yannv",
+		"image": "images/players/yannv.png",
+		"classes": [
+			"hucast",
+			"racast",
+			"ramarl"
+		],
+		"metas": [
+			"Ultima"
+		],
+		"teams": [
+			"Chosen Few"
+		],
+		"timezone": "GMT -3",
+		"card_content": [
+			"Retired"
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "Yannv#7091",
+		"twitter": "",
+		"youtube": {
+			"name": "Yannv",
+			"url": "https://www.youtube.com/channel/UC0IoPFFsZDjOiUyvd6DFQ-A"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "revision",
+		"name": "ReVisioN",
+		"image": "images/players/ReVisioN.jpg",
+		"classes": [
+			"hucast",
+			"racast",
+			"fonewm"
+		],
+		"metas": [
+			"2014",
+			"Vanilla"
+		],
+		"teams": [
+			"MA4B"
+		],
+		"timezone": "EST",
+		"card_content": [
+
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "Harmful#6425",
+		"twitter": "",
+		"youtube": {
+			"name": "Rev+",
+			"url": "https://www.youtube.com/channel/UCtDfLhy4irUIFAUao6_ymbQ"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "dgm",
+		"name": "DGM",
+		"image": "images/players/dgm.jpg",
+		"classes": [
+			"hucast",
+			"hucaseal",
+			"fonewearl"
+		],
+		"metas": [
+			"2014"
+		],
+		"teams": [
+			"MA4B"
+		],
+		"timezone": "GMT",
+		"card_content": [
+
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "DGM#2352",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "9898",
+		"name": "9898",
+		"image": "images/players/nineeight.jpg",
+		"classes": [
+			"hucast",
+			"racast",
+			"ramarl"
+		],
+		"metas": [
+			"Gamecube",
+			"2014",
+			"Vanilla"
+		],
+		"teams": [
+			"MA4B"
+		],
+		"timezone": "PST",
+		"card_content": [
+
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "not a troublemaker#4114",
+		"twitter": "",
+		"youtube": {
+			"name": "9898atPSO",
+			"url": "https://www.youtube.com/user/9898atPSO/"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "zen",
+		"name": "Zen",
+		"image": "images/players/zen.jpg",
+		"classes": [
+			"hucast",
+			"hunewearl"
+		],
+		"metas": [
+			"2014",
+			"Vanilla"
+		],
+		"teams": [
+			"Tankstelle"
+		],
+		"timezone": "",
+		"card_content": [
+
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": ".942937#4224",
+		"twitter": "",
+		"youtube": {
+			"name": "PSOBB TA",
+			"url": "https://www.youtube.com/channel/UCq9Gmto4_hp6NlW_qk4-TVQ"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "jake",
+		"name": "Jake",
+		"image": "images/players/jake.png",
+		"classes": [
+			"ramarl",
+			"fomarl"
+		],
+		"metas": [
+			"Gamecube"
+		],
+		"teams": [
+			"Tankstelle"
+		],
+		"timezone": "",
+		"card_content": [
+
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "jake#5165",
+		"twitter": "",
+		"youtube": {
+			"name": "Jake Probst",
+			"url": "https://www.youtube.com/channel/UCXh33WLwaVml21wyMommUXA"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "ndw",
+		"name": "NDW",
+		"image": "images/players/ndw.png",
+		"classes": [
+			"hucast",
+			"racast",
+			"ramarl"
+		],
+		"metas": [
+			"2014",
+			"Vanilla",
+			"Ultima"
+		],
+		"teams": [
+			"Tankstelle"
+		],
+		"timezone": "",
+		"card_content": [
+
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "NDW#9615",
+		"twitter": "NDWoodruff",
+		"youtube": {
+			"name": "Nathan Woodruff",
+			"url": "https://www.youtube.com/channel/UC8rL-oHELkod_gOQuy55bdw"
+		},
+		"twitch": {
+			"name": "NDWoodruff",
+			"url": "https://www.twitch.tv/ndwoodruff"
+		}
+	},
+	{
+		"id": "jade",
+		"name": "Jade",
+		"image": "images/players/jade.png",
+		"classes": [
+			"fomarl",
+			"fonewm",
+			"racast"
+		],
+		"metas": [
+			"Ultima"
+		],
+		"teams": [
+			"Jade"
+		],
+		"timezone": "EST",
+		"card_content": [
+
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "JADE#8460",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		}
 	}
+
 ]
