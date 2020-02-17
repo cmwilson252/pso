@@ -286,6 +286,43 @@
 		}
 	},
 	{
+		"id": "mt",
+		"name": "mt76907",
+		"image": "images/players/mt.png",
+		"classes": [
+			"hucast",
+			"hunewearl",
+			"ramar"
+		],
+		"metas": [
+			"Gamecube",
+			"2014",
+			"Vanilla"
+		],
+		"teams": [
+			"MA4B"
+		],
+		"timezone": "EST",
+		"card_content": [
+
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "mt#3811",
+		"twitter": "Mt76097",
+		"youtube": {
+			"name": "mt76907",
+			"url": "https://www.youtube.com/channel/UCM7WtTGChM9ZmDE1kmRyCsA"
+		},
+		"twitch": {
+			"name": "mtmt",
+			"url": "https://www.twitch.tv/mtmt"
+		}
+	},
+	{
 		"id": "revision",
 		"name": "ReVisioN",
 		"image": "images/players/ReVisioN.jpg",
