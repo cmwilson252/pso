@@ -287,7 +287,7 @@
 	},
 	{
 		"id": "mt",
-		"name": "mt76907",
+		"name": "mt",
 		"image": "images/players/mt.png",
 		"classes": [
 			"hucast",
@@ -431,8 +431,8 @@
 		}
 	},
 	{
-		"id": "16085k",
-		"name": "16085k",
+		"id": "jack",
+		"name": "Jack",
 		"image": "images/players/",
 		"classes": [
 
@@ -560,6 +560,73 @@
 		"youtube": {
 			"name": "PSOBB TA",
 			"url": "https://www.youtube.com/channel/UCq9Gmto4_hp6NlW_qk4-TVQ"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "sange",
+		"name": "Sange",
+		"image": "images/players/",
+		"classes": [
+			
+		],
+		"metas": [
+			"2014",
+			"Vanilla"
+		],
+		"teams": [
+			"Tankstelle"
+		],
+		"timezone": "",
+		"card_content": [
+
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "Sange#7478",
+		"twitter": "",
+		"youtube": {
+			"name": "Sange",
+			"url": "https://www.youtube.com/channel/UCPt_RJRsfdcllhMFP2e_b4g"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "ender",
+		"name": "Ender",
+		"image": "images/players/",
+		"classes": [
+			
+		],
+		"metas": [
+			"Vanilla"
+		],
+		"teams": [
+			"Tankstelle"
+		],
+		"timezone": "",
+		"card_content": [
+
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "Ender#4384",
+		"twitter": "",
+		"youtube": {
+			"name": "Ender",
+			"url": "https://www.youtube.com/channel/UCXCpdNha7SQTP09888FcQNw"
 		},
 		"twitch": {
 			"name": "",
