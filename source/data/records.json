@@ -174,7 +174,27 @@
 		"meta": "ultima",
 		"category": "2p",
 		"pb": true,
-		"time": 257,
+		"time": 242,
+		"team": "Chosen Few",
+		"players": [
+			{
+				"name": "Wilson",
+				"class": "hucast"
+			},
+			{
+				"name:": "Killz",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_mines",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "2p",
+		"pb": true,
+		"time": 255,
 		"team": "Chosen Few",
 		"players": [
 			{
@@ -5690,6 +5710,22 @@
 			{
 				"name": "Zen",
 				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "su6",
+		"episode": 2,
+		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
+		"time": 453,
+		"team": "Tankstelle",
+		"players": [
+			{
+				"name": "SteveCares",
+				"class": "racaseal"
 			}
 		]
 	},
