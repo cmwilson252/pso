@@ -446,7 +446,7 @@
 		"teams": [
 			"MA4B"
 		],
-		"timezone": "",
+		"timezone": "EST",
 		"card_content": [
 
 		],
@@ -462,8 +462,8 @@
 			"url": "https://www.youtube.com/channel/UCnvHjn4HnhJGaQ8L6H2GINA"
 		},
 		"twitch": {
-			"name": "",
-			"url": ""
+			"name": "accretion",
+			"url": "https://www.twitch.tv/accretion"
 		}
 	},
 	{
