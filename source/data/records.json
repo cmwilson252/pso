@@ -154,6 +154,26 @@
 		"meta": "ultima",
 		"category": "2p",
 		"pb": true,
+		"time": 217,
+		"team": "Chosen Few",
+		"players": [
+			{
+				"name": "Wilson",
+				"class": "hucast"
+			},
+			{
+				"name": "Killz",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_forest",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "2p",
+		"pb": true,
 		"time": 230,
 		"team": "Chosen Few",
 		"players": [
@@ -1976,6 +1996,34 @@
 		"players": [
 			{
 				"name": "NDW",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_ruins",
+		"episode": 1,
+		"meta": "2014",
+		"category": "4p",
+		"pb": false,
+		"time": 219,
+		"team": "",
+		"players": [
+			{
+				"name": "Wilson",
+				"class": "hunewearl"
+			},
+			{
+				"name": "500ryu",
+				"class": "hucast"
+			},
+			{
+				"name": "Killz",
+				"class": "hucast"
+			},
+			{
+				"name": "mt",
 				"class": "hucast"
 			}
 		]
