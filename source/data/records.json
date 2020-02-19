@@ -1989,25 +1989,9 @@
 		"quest_id": "max_ruins",
 		"episode": 1,
 		"meta": "2014",
-		"category": "opm",
-		"pb": true,
-		"time": 239,
-		"team": "Tankstelle",
-		"players": [
-			{
-				"name": "NDW",
-				"class": "hucast"
-			}
-		]
-	},
-	{
-		"mode": "normal",
-		"quest_id": "max_ruins",
-		"episode": 1,
-		"meta": "2014",
 		"category": "4p",
 		"pb": false,
-		"time": 219,
+		"time": 186,
 		"team": "",
 		"players": [
 			{
@@ -2065,6 +2049,22 @@
 			{
 				"name": "Jack",
 				"class": "humar"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_ruins",
+		"episode": 1,
+		"meta": "2014",
+		"category": "opm",
+		"pb": true,
+		"time": 239,
+		"team": "Tankstelle",
+		"players": [
+			{
+				"name": "NDW",
+				"class": "hucast"
 			}
 		]
 	},
