@@ -1,7 +1,7 @@
 # Header
 menu:
-  - name: 'Quest Records'
-    url: '/quest-records'
+  - name: 'Time Attack Records'
+    url: '/time-attack-records'
   - name: 'Teamz'
     url: '/teamz'
     children:
