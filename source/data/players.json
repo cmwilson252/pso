@@ -433,7 +433,7 @@
 	{
 		"id": "jack",
 		"name": "Jack",
-		"image": "images/players/",
+		"image": "images/players/jack.png",
 		"classes": [
 			"fonewearl",
 			"racaseal",
@@ -717,7 +717,7 @@
 	{
 		"id": "cameron",
 		"name": "Cameron",
-		"image": "images/players/",
+		"image": "images/players/cameron.jpg",
 		"classes": [
 			"hucast",
 			"ramarl",
@@ -739,14 +739,14 @@
 			"new line"
 		],
 		"discord": "cameron-#8833",
-		"twitter": "",
+		"twitter": "stillpicklez",
 		"youtube": {
-			"name": "",
-			"url": ""
+			"name": "Cameron Riley",
+			"url": "https://www.youtube.com/channel/UCvVdKGL6nyw2R9kjhVB7ZCw"
 		},
 		"twitch": {
-			"name": "",
-			"url": ""
+			"name": "cameronrgr",
+			"url": "https://m.twitch.tv/cameronrgr/profile"
 		}
 	},
 	{
