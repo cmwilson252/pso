@@ -469,9 +469,11 @@
 	{
 		"id": "alukard",
 		"name": "Alukard",
-		"image": "images/players/",
+		"image": "images/players/alukard.png",
 		"classes": [
-	
+			"hucast",
+			"humar",
+			"racast"
 		],
 		"metas": [
 			"2014",
@@ -480,7 +482,7 @@
 		"teams": [
 			"MA4B"
 		],
-		"timezone": "",
+		"timezone": "GMT +2",
 		"card_content": [
 
 		],
@@ -492,8 +494,8 @@
 		"discord": "not pew pew#9791",
 		"twitter": "",
 		"youtube": {
-			"name": "",
-			"url": ""
+			"name": "PSOBB Tutorials",
+			"url": "https://www.youtube.com/channel/UCsC3EJXKlX_37UHF48j7I_A"
 		},
 		"twitch": {
 			"name": "",
@@ -503,12 +505,15 @@
 	{
 		"id": "500ryu",
 		"name": "500ryu",
-		"image": "images/players/",
+		"image": "images/players/500ryu.jpg",
 		"classes": [
-	
+			"hucast",
+			"racast",
+			"fonewm"
 		],
 		"metas": [
-			"2014"
+			"2014",
+			"Vanilla"
 		],
 		"teams": [
 			"MA4B"
@@ -523,14 +528,14 @@
 			"new line"
 		],
 		"discord": "bp#8044",
-		"twitter": "",
+		"twitter": "500ryu",
 		"youtube": {
 			"name": "",
 			"url": ""
 		},
 		"twitch": {
-			"name": "",
-			"url": ""
+			"name": "500ryu",
+			"url": "https://www.twitch.tv/500ryu"
 		}
 	},
 	{
@@ -573,7 +578,9 @@
 		"name": "Sange",
 		"image": "images/players/",
 		"classes": [
-			
+			"hucast",
+			"ramar",
+			"fomar"
 		],
 		"metas": [
 			"2014",
@@ -582,7 +589,7 @@
 		"teams": [
 			"Tankstelle"
 		],
-		"timezone": "",
+		"timezone": "CST",
 		"card_content": [
 
 		],
@@ -596,39 +603,6 @@
 		"youtube": {
 			"name": "Sange",
 			"url": "https://www.youtube.com/channel/UCPt_RJRsfdcllhMFP2e_b4g"
-		},
-		"twitch": {
-			"name": "",
-			"url": ""
-		}
-	},
-	{
-		"id": "ender",
-		"name": "Ender",
-		"image": "images/players/",
-		"classes": [
-			
-		],
-		"metas": [
-			"Vanilla"
-		],
-		"teams": [
-			"Tankstelle"
-		],
-		"timezone": "",
-		"card_content": [
-
-		],
-		"page_content": [
-			"Page content",
-			"<br />",
-			"new line"
-		],
-		"discord": "Ender#4384",
-		"twitter": "",
-		"youtube": {
-			"name": "Ender",
-			"url": "https://www.youtube.com/channel/UCXCpdNha7SQTP09888FcQNw"
 		},
 		"twitch": {
 			"name": "",
@@ -707,6 +681,75 @@
 		}
 	},
 	{
+		"id": "vex",
+		"name": "Vex",
+		"image": "images/players/",
+		"classes": [
+			
+		],
+		"metas": [
+			"2014",
+			"Vanilla"
+		],
+		"teams": [
+			"BattleMode"
+		],
+		"timezone": "EST",
+		"card_content": [
+
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "cameron",
+		"name": "Cameron",
+		"image": "images/players/",
+		"classes": [
+			"hucast",
+			"ramarl",
+			"ramar"
+		],
+		"metas": [
+			"Vanilla"
+		],
+		"teams": [
+			"BattleMode"
+		],
+		"timezone": "EST",
+		"card_content": [
+
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "cameron-#8833",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "jade",
 		"name": "Jade",
 		"image": "images/players/jade.png",
@@ -741,5 +784,4 @@
 			"url": ""
 		}
 	}
-
 ]
