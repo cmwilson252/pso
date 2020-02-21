@@ -681,6 +681,41 @@
 		}
 	},
 	{
+		"id": "spuz",
+		"name": "Spuz",
+		"image": "images/players/spuz.jpg",
+		"classes": [
+			"hucast",
+			"racast",
+			"fonewearl"
+		],
+		"metas": [
+			"Vanilla"
+		],
+		"teams": [
+			"Pioneers"
+		],
+		"timezone": "GMT",
+		"card_content": [
+
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "Spuz#1528",
+		"twitter": "",
+		"youtube": {
+			"name": "SpuzPSO",
+			"url": "https://www.youtube.com/channel/UCh34ymKEoMjSbz9zx_rqmpA"
+		},
+		"twitch": {
+			"name": "spuz_man",
+			"url": "https://www.twitch.tv/spuz_man"
+		}
+	},
+	{
 		"id": "vex",
 		"name": "Vex",
 		"image": "images/players/vex.png",
