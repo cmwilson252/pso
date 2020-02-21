@@ -681,42 +681,6 @@
 		}
 	},
 	{
-		"id": "nohit",
-		"name": "NoHit",
-		"image": "images/players/nohit.png",
-		"classes": [
-			"hucast",
-			"ramar",
-			"fonewm"
-		],
-		"metas": [
-			"2014",
-			"Vanilla"
-		],
-		"teams": [
-			"Tankstelle"
-		],
-		"timezone": "",
-		"card_content": [
-
-		],
-		"page_content": [
-			"Page content",
-			"<br />",
-			"new line"
-		],
-		"discord": "No Hit#5158",
-		"twitter": "_NoHit_",
-		"youtube": {
-			"name": "No Hit",
-			"url": "https://www.youtube.com/channel/UCJHtHXzrRw2TnQllvawBLxw"
-		},
-		"twitch": {
-			"name": "nohit",
-			"url": "https://www.twitch.tv/nohit"
-		}
-	},
-	{
 		"id": "vex",
 		"name": "Vex",
 		"image": "images/players/",
@@ -783,6 +747,42 @@
 		"twitch": {
 			"name": "cameronrgr",
 			"url": "https://m.twitch.tv/cameronrgr/profile"
+		}
+	},
+	{
+		"id": "nohit",
+		"name": "NoHit",
+		"image": "images/players/nohit.png",
+		"classes": [
+			"hucast",
+			"ramar",
+			"fonewm"
+		],
+		"metas": [
+			"2014",
+			"Vanilla"
+		],
+		"teams": [
+
+		],
+		"timezone": "",
+		"card_content": [
+
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "No Hit#5158",
+		"twitter": "_NoHit_",
+		"youtube": {
+			"name": "No Hit",
+			"url": "https://www.youtube.com/channel/UCJHtHXzrRw2TnQllvawBLxw"
+		},
+		"twitch": {
+			"name": "nohit",
+			"url": "https://www.twitch.tv/nohit"
 		}
 	},
 	{
