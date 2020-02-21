@@ -576,7 +576,7 @@
 	{
 		"id": "sange",
 		"name": "Sange",
-		"image": "images/players/",
+		"image": "images/players/sange.png",
 		"classes": [
 			"hucast",
 			"ramar",
@@ -683,7 +683,7 @@
 	{
 		"id": "vex",
 		"name": "Vex",
-		"image": "images/players/",
+		"image": "images/players/vex.png",
 		"classes": [
 			
 		],
@@ -747,6 +747,76 @@
 		"twitch": {
 			"name": "cameronrgr",
 			"url": "https://m.twitch.tv/cameronrgr/profile"
+		}
+	},
+	{
+		"id": "shiida",
+		"name": "Shiida",
+		"image": "images/players/shiida.png",
+		"classes": [
+			"hunewearl",
+			"racaseal",
+			"fonewearl"
+		],
+		"metas": [
+			"Ultima"
+		],
+		"teams": [
+			"Univers-PS"
+		],
+		"timezone": "CET",
+		"card_content": [
+
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "R-78#2983",
+		"twitter": "",
+		"youtube": {
+			"name": "Shiida Talys",
+			"url": "https://www.youtube.com/channel/UC5aIQEdCTZ4BklkHQ-UpD8A"
+		},
+		"twitch": {
+			"name": "Ersvi",
+			"url": "https://www.twitch.tv/ersvi"
+		}
+	},
+	{
+		"id": "noudle",
+		"name": "Noudle",
+		"image": "images/players/noudle.jpg",
+		"classes": [
+			"hucaseal",
+			"ramarl",
+			"fonewearl"
+		],
+		"metas": [
+			"Ultima"
+		],
+		"teams": [
+			"Univers-PS"
+		],
+		"timezone": "GMT +1",
+		"card_content": [
+
+		],
+		"page_content": [
+			"Page content",
+			"<br />",
+			"new line"
+		],
+		"discord": "Nol#8354",
+		"twitter": "",
+		"youtube": {
+			"name": "jupiter de mars",
+			"url": "https://www.youtube.com/channel/UCPW-OkltrXR_MLvbM8IGwHw"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
 		}
 	},
 	{
