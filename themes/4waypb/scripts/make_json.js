@@ -93,4 +93,6 @@ hexo.extend.filter.register('before_generate', function(){
         console.log(error);
         throw error;
     }
+    
+    console.log('Finish make_json.js');
 });
