@@ -1,0 +1,67 @@
+[
+    {
+        "id": "六月などんよりとした空",
+        "name": "六月などんよりとした空",
+        "image": "images/team_flags/六月などんよりとした空.png"
+    },
+    {
+        "id": "battlemode",
+        "name": "BattleMode",
+        "image": "images/team_flags/BattleMode.png"
+    },
+    {
+        "id": "chosen_few",
+        "name": "Chosen Few",
+        "image": "images/team_flags/chosen-few.png"
+    },
+    {
+        "id": "co",
+        "name": "CO",
+        "image": "images/team_flags/co.png"
+    },
+    {
+        "id": "f9",
+        "name": "F9",
+        "image": "images/team_flags/f9.png"
+    },
+    {
+        "id": "illuminati",
+        "name": "Illuminati",
+        "image": "images/team.png"
+    },
+    {
+        "id": "jade",
+        "name": "Jade",
+        "image": "images/team_flags/jade.png"
+    },
+    {
+        "id": "ma4b",
+        "name": "MA4B",
+        "image": "images/team_flags/ma4b.png"
+    },
+    {
+        "id": "ma4c",
+        "name": "MA4C",
+        "image": "images/team_flags/ma4c.png"
+    },
+    {
+        "id": "pioneers",
+        "name": "Pioneers",
+        "image": "images/team_flags/pioneers.png"
+    },
+    {
+        "id": "stonecutters",
+        "name": "Stonecutters",
+        "image": "images/team.png"
+    },
+    {
+        "id": "tankstelle",
+        "name": "Tankstelle",
+        "image": "images/team_flags/tankstelle.png"
+    },
+    {
+        "id": "univers_ps",
+        "name": "Univers-PS",
+        "image": "images/team_flags/universe-ps.png"
+    }
+]

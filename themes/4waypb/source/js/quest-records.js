@@ -124,11 +124,11 @@ window.fourwaypb.quest_records.ready = function() {
     }
     
     function secondsToString(seconds){
-        let hours = ""+Math.floor(seconds / 3600);
-        seconds = seconds % 3600;
-        let min = ""+Math.floor(seconds / 60);
-        seconds = ""+seconds % 60;
-        return ""+hours+"\'"+min.padStart(2,'0')+"\""+seconds.padStart(2,'0');
+        let format = 'mm:ss';
+        if (seconds >= 3600) {
+            format = 'HH:mm:ss';
+        }
+        return moment.unix(moment.duration().add(seconds, 's').asSeconds()).utc().format(format);
     }
     
     function classKeyToName(key) {
@@ -344,12 +344,6 @@ window.fourwaypb.quest_records.ready = function() {
         $('#results').empty().append(result_string);
     }
     
-    function updateSearchSetting(id) {
-        let result = true;
-        let checkbox = $('#'+id).closest('.checkbox');
-        result = checkbox.checkbox('is checked');
-        return result;
-    }
     function updateSearchSettings() {
         SearchSettings.modes = $('#modes').dropdown('get values');
         SearchSettings.metas = $('#metas').dropdown('get values');

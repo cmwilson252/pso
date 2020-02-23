@@ -52,3 +52,41 @@ pre
     margin: 1em 0;
     color: #fff;
     width: 100%;
+
+.card
+    span:hover,
+    a:hover
+        .icon.discord
+                color: color-discord;
+        .icon.twitter
+                color: color-twitter;
+        .icon.youtube
+                color: color-youtube;
+        .icon.twitch
+                color: color-twitch;
+        .icon.github
+                color: color-github;
+
+#players > .card > .image
+    overflow: hidden;
+    width: 100%;
+    
+    &::before
+        content: '';
+        float: left;
+        padding-top: 100%;
+    &::after
+        content: '';
+        clear: both;
+    img
+        float: left;
+        min-width: 100%;
+        min-height: 100%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+
+.team-flag
+    width: 32px;
+    height: 32px;
