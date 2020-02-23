@@ -1,6 +1,6 @@
 [
     {
-        "name": "MAE: Seabed EP 2",
+        "quest_id": "max_seabed",
         "duration": "2 Weeks",
         "date": "03/09/2019",
         "is_countdown": false,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "name": "MU2 EP 1",
+        "quest_id": "mu2",
         "duration": "1 Hour",
         "date": "02/02/2019",
         "is_countdown": true,
@@ -50,7 +50,7 @@
         ]
     },
     {
-        "name": "PPP EP 2",
+        "quest_id": "power_plant_plight",
         "duration": "30 Minutes",
         "date": "02/02/2019",
         "is_countdown": true,
@@ -76,7 +76,7 @@
         ]
     },
     {
-        "name": "MA4B EP 1",
+        "quest_id": "ma1b",
         "duration": "1 Hour",
         "date": "01/20/2019",
         "is_countdown": true,
@@ -101,7 +101,7 @@
         ]
     },
     {
-        "name": "MU5 EP 2",
+        "quest_id": "mau5",
         "duration": "1 Hour",
         "date": "01/12/2019",
         "is_countdown": true,
@@ -127,7 +127,7 @@
         ]
     },
     {
-        "name": "MAE: Ruins EP 1",
+        "quest_id": "max_ruins",
         "duration": "1 Hour",
         "date": "12/08/2018",
         "is_countdown": false,
@@ -153,7 +153,7 @@
         ]
     },
     {
-        "name": "CCC EP 2",
+        "quest_id": "cals_clock_challenge",
         "duration": "1 Hour",
         "date": "11/17/2018",
         "is_countdown": true,
@@ -181,7 +181,7 @@
         ]
     },
     {
-        "name": "MAE: Seabed EP 2",
+        "quest_id": "max_seabed",
         "duration": "1 Hour",
         "date": "11/15/2018",
         "is_countdown": false,
@@ -207,7 +207,7 @@
         ]
     },
     {
-        "name": "MA3 EP 4",
+        "quest_id": "ma3",
         "duration": "1 Hour",
         "date": "10/31/2018",
         "is_countdown": true,
@@ -242,7 +242,7 @@
         ]
     },
     {
-        "name": "MA4C EP 1",
+        "quest_id": "ma1c",
         "duration": "1 Hour",
         "date": "10/31/2018",
         "is_countdown": true,
@@ -270,7 +270,7 @@
         ]
     },
     {
-        "name": "MA4C EP 2",
+        "quest_id": "ma2c",
         "duration": "1 Hour",
         "date": "10/30/2018",
         "is_countdown": true,
@@ -296,7 +296,7 @@
         ]
     },
     {
-        "name": "Gal Da Val's Darkness EP 2",
+        "quest_id": "gal_da_vals_darkness",
         "duration": "1 Hour",
         "date": "10/29/2018",
         "is_countdown": true,
@@ -324,7 +324,7 @@
         ]
     },
     {
-        "name": "MU3 EP 1",
+        "quest_id": "mu3",
         "duration": "1 Hour",
         "date": "10/27/2018",
         "is_countdown": true,
@@ -350,7 +350,7 @@
         ]
     },
     {
-        "name": "MU3 EP 2",
+        "quest_id": "mau3",
         "duration": "1 Hour",
         "date": "10/27/2018",
         "is_countdown": true,

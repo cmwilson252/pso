@@ -138,6 +138,12 @@
 		"is_countdown": true
 	},
 	{
+		"id": "ma3",
+		"name": "MA3",
+		"enabled": true,
+		"is_countdown": true
+	},
+	{
 		"id": "ma4dmd",
 		"name": "MA4DMD",
 		"enabled": true,
