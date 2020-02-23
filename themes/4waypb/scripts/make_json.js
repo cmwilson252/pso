@@ -111,7 +111,7 @@ hexo.extend.filter.register('after_init', function(){
         player.team_ids.forEach(function(team_id) {
             let team = teams.data.find(x => {
                 return x.id === team_id;
-            })
+            });
             if (team == undefined) {
                 console.log('Could not find team: '+team_id);
                 has_errors = true;
@@ -123,12 +123,23 @@ hexo.extend.filter.register('after_init', function(){
     });
     
     teamz.data.forEach(function(event) {
+        let quest = quests.data.find(x => {
+            return x.id === event.quest_id;
+        });
+        if (quest == undefined) {
+            console.log('Could not find quest: '+event.name);
+            has_errors = true;
+        } else {
+            event.quest = quest;
+        }
+        delete event.quest_id;
+        
         event.teams.forEach(function(team) {
             team.players = [];
             team.player_ids.forEach(function(player_id) {
                 let player = players.data.find(x => {
                     return x.id === player_id;
-                })
+                });
                 if (player == undefined) {
                     console.log('Could not find player: '+player_id);
                     has_errors = true;

@@ -18,7 +18,7 @@ window.fourwaypb.teamz_results.ready = function() {
                     'class': 'twelve wide column',
                 }).append(
                     $('<h2/>', {
-                        'text': event.name,
+                        'text': event.quest.name,
                     }),
                 ),
                 $('<div/>', {
@@ -57,7 +57,7 @@ window.fourwaypb.teamz_results.ready = function() {
                                     'text': moment.unix(moment.duration().add(team.time, 's').asSeconds()).utc().format('mm:ss'),
                                 }),
                                 $('<span/>', {
-                                    'text': event.is_countdown ? ' remaning' : '',
+                                    'text': event.quest.is_countdown ? ' remaning' : '',
                                 }),
                             ),
                             $('<div/>', {
