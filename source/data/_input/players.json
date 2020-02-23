@@ -746,6 +746,39 @@
 		}
 	},
 	{
+		"id": "ryan_ford",
+		"name": "Ryan Ford",
+		"image": "images/players/ryanford.jpg",
+		"classes": [
+			"humar",
+			"fomar",
+			"racast"
+		],
+		"metas": [
+			"Ultima"
+		],
+		"team_ids": [
+			"jade"
+		],
+		"timezone": "",
+		"card_content": [],
+		"page_content": [],
+		"discord": "Ryan Ford#8879",
+		"twitter": "Ryan_Ford522",
+		"youtube": {
+			"name": "Ryan Ford",
+			"url": "https://www.youtube.com/user/unknown522"
+		},
+		"twitch": {
+			"name": "Ryan_Ford522",
+			"url": "https://www.twitch.tv/ryan_ford522"
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "nohit",
 		"name": "NoHit",
 		"image": "images/players/nohit.png",
@@ -759,7 +792,7 @@
 			"Vanilla"
 		],
 		"team_ids": [],
-		"timezone": "",
+		"timezone": "PST",
 		"card_content": [],
 		"page_content": [],
 		"discord": "No Hit#5158",
@@ -2657,31 +2690,6 @@
 	{
 		"id": "roo",
 		"name": "Roo",
-		"image": "images/player.png",
-		"classes": [],
-		"metas": [],
-		"team_ids": [],
-		"timezone": "",
-		"card_content": [],
-		"page_content": [],
-		"discord": "",
-		"twitter": "",
-		"youtube": {
-			"name": "",
-			"url": ""
-		},
-		"twitch": {
-			"name": "",
-			"url": ""
-		},
-		"github": {
-			"name": "",
-			"url": ""
-		}
-	},
-	{
-		"id": "ryan_ford",
-		"name": "Ryan Ford",
 		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
