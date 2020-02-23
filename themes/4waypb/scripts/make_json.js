@@ -133,7 +133,10 @@ hexo.extend.filter.register('after_init', function(){
                     console.log('Could not find player: '+player_id);
                     has_errors = true;
                 } else {
-                    team.players.push(player.name);
+                    team.players.push({
+                        id: player.id,
+                        name: player.name,
+                    });
                 }
             });
             delete team.player_ids;

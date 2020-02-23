@@ -65,9 +65,12 @@ window.fourwaypb.teamz_results.ready = function() {
                             }).append(
                                 $('<ul/>', {}).append(
                                     $.map(team.players, function(player) {
-                                        return $('<li/>', {
-                                            'text': player,
-                                        });
+                                        return $('<li/>').append(
+                                            $('<a/>', {
+                                                'href': url_for('player?id='+player.id),
+                                                'text': player.name,
+                                            })
+                                        );
                                     })
                                 ),
                             ),
