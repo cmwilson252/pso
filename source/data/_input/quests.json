@@ -484,7 +484,8 @@
 		"name": "2C4",
 		"enabled": true,
 		"is_countdown": false
-	},	{
+	},
+	{
 		"id": "2c5",
 		"name": "2C5",
 		"enabled": true,
