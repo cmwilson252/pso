@@ -1,12 +1,11 @@
 const fs = require('fs');
 const path = require("path");
 
-hexo.extend.filter.register('after_init', function(){
+hexo.extend.filter.register('before_generate', function(){
     console.log('Starting make_json.js');
     
-    let data_dir = path.join(hexo.base_dir, 'source', 'data');
-    let input_data_dir = path.join(data_dir, '_input');
-    let output_data_dir = path.join(data_dir);
+    let input_data_dir = path.join(hexo.source_dir, 'data', '_input');
+    let output_data_dir = path.join(hexo.public_dir, 'data');
     
     let players = {
         input: path.join(input_data_dir, 'players.json'),
