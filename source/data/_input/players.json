@@ -533,14 +533,14 @@
 		"card_content": [],
 		"page_content": [],
 		"discord": "jake#5165",
-		"twitter": "",
+		"twitter": "tmjake",
 		"youtube": {
 			"name": "Jake Probst",
 			"url": "https://www.youtube.com/channel/UCXh33WLwaVml21wyMommUXA"
 		},
 		"twitch": {
-			"name": "",
-			"url": ""
+			"name": "toastermage",
+			"url": "https://www.twitch.tv/toastermage"
 		}
 	},
 	{
@@ -606,7 +606,7 @@
 	{
 		"id": "vex",
 		"name": "Vex",
-		"image": "images/players/vex.png",
+		"image": "images/players/vex.jpg",
 		"classes": [],
 		"metas": [
 			"2014",
@@ -1640,6 +1640,31 @@
 	{
 		"id": "eis",
 		"name": "Eis",
+		"image": "images/player.png",
+		"classes": [],
+		"metas": [],
+		"team_ids": [],
+		"timezone": "",
+		"card_content": [],
+		"page_content": [],
+		"discord": "",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "el_socko",
+		"name": "El Socko",
 		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
@@ -2840,6 +2865,31 @@
 	{
 		"id": "scopedout",
 		"name": "ScopedOut",
+		"image": "images/player.png",
+		"classes": [],
+		"metas": [],
+		"team_ids": [],
+		"timezone": "",
+		"card_content": [],
+		"page_content": [],
+		"discord": "",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "scotty",
+		"name": "Scotty",
 		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
