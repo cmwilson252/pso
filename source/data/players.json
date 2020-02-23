@@ -3,6 +3,7 @@
 		"id": "soly",
 		"name": "Soly",
 		"image": "images/players/solybum.jpg",
+		"team_id": "",
 		"classes": [
 			"racast"
 		],
@@ -36,6 +37,7 @@
 		"id": "wilson",
 		"name": "Wilson",
 		"image": "images/players/wilson.jpg",
+		"team_id": "chosen_few",
 		"classes": [
 			"hucast",
 			"racast",
@@ -74,6 +76,7 @@
 		"id": "killz",
 		"name": "Killz",
 		"image": "images/players/killz.png",
+		"team_id": "chosen_few",
 		"classes": [
 			"hucast",
 			"humar",
@@ -111,6 +114,7 @@
 		"id": "starlord",
 		"name": "Starlord",
 		"image": "images/players/starlord.jpg",
+		"team_id": "chosen_few",
 		"classes": [
 			"hucast",
 			"ramarl",
@@ -148,6 +152,7 @@
 		"id": "hunter",
 		"name": "HUNTER_",
 		"image": "images/players/hunter.jpg",
+		"team_id": "chosen_few",
 		"classes": [
 			"hucast",
 			"racast",
@@ -185,6 +190,7 @@
 		"id": "rashan",
 		"name": "Rashan",
 		"image": "images/players/rashan0121.jpg",
+		"team_id": "chosen_few",
 		"classes": [
 			"hucast",
 			"racast",
@@ -220,6 +226,7 @@
 		"id": "lemon",
 		"name": "Lemon",
 		"image": "images/players/lemon.png",
+		"team_id": "chosen_few",
 		"classes": [
 			"fomarl"
 		],
@@ -254,6 +261,7 @@
 		"id": "yannv",
 		"name": "Yannv",
 		"image": "images/players/yannv.png",
+		"team_id": "chosen_few",
 		"classes": [
 			"hucast",
 			"racast",
@@ -289,6 +297,7 @@
 		"id": "mt",
 		"name": "mt",
 		"image": "images/players/mt.png",
+		"team_id": "ma4b",
 		"classes": [
 			"hucast",
 			"hunewearl",
@@ -326,6 +335,7 @@
 		"id": "revision",
 		"name": "ReVisioN",
 		"image": "images/players/ReVisioN.jpg",
+		"team_id": "ma4b",
 		"classes": [
 			"hucast",
 			"racast",
@@ -362,6 +372,7 @@
 		"id": "dgm",
 		"name": "DGM",
 		"image": "images/players/dgm.jpg",
+		"team_id": "ma4b",
 		"classes": [
 			"hucast",
 			"hucaseal",
@@ -397,6 +408,7 @@
 		"id": "9898",
 		"name": "9898",
 		"image": "images/players/nineeight.jpg",
+		"team_id": "ma4b",
 		"classes": [
 			"hucast",
 			"racast",
@@ -434,6 +446,7 @@
 		"id": "jack",
 		"name": "Jack",
 		"image": "images/players/jack.png",
+		"team_id": "ma4b",
 		"classes": [
 			"fonewearl",
 			"racaseal",
@@ -470,6 +483,7 @@
 		"id": "alukard",
 		"name": "Alukard",
 		"image": "images/players/alukard.png",
+		"team_id": "ma4b",
 		"classes": [
 			"hucast",
 			"humar",
@@ -506,6 +520,7 @@
 		"id": "500ryu",
 		"name": "500ryu",
 		"image": "images/players/500ryu.jpg",
+		"team_id": "ma4b",
 		"classes": [
 			"hucast",
 			"racast",
@@ -542,6 +557,7 @@
 		"id": "zen",
 		"name": "Zen",
 		"image": "images/players/zen.jpg",
+		"team_id": "tankstelle",
 		"classes": [
 			"hucast",
 			"hunewearl"
@@ -577,6 +593,7 @@
 		"id": "sange",
 		"name": "Sange",
 		"image": "images/players/sange.png",
+		"team_id": "tankstelle",
 		"classes": [
 			"hucast",
 			"ramar",
@@ -613,6 +630,7 @@
 		"id": "jake",
 		"name": "Jake",
 		"image": "images/players/jake.png",
+		"team_id": "tankstelle",
 		"classes": [
 			"ramarl",
 			"fomarl"
@@ -647,6 +665,7 @@
 		"id": "ndw",
 		"name": "NDW",
 		"image": "images/players/ndw.png",
+		"team_id": "tankstelle",
 		"classes": [
 			"hucast",
 			"racast",
@@ -684,6 +703,7 @@
 		"id": "spuz",
 		"name": "Spuz",
 		"image": "images/players/spuz.jpg",
+		"team_id": "pioneers",
 		"classes": [
 			"hucast",
 			"racast",
@@ -719,6 +739,7 @@
 		"id": "vex",
 		"name": "Vex",
 		"image": "images/players/vex.png",
+		"team_id": "battlemode",
 		"classes": [
 			
 		],
@@ -753,6 +774,7 @@
 		"id": "cameron",
 		"name": "Cameron",
 		"image": "images/players/cameron.jpg",
+		"team_id": "battlemode",
 		"classes": [
 			"hucast",
 			"ramarl",
@@ -788,6 +810,7 @@
 		"id": "shiida",
 		"name": "Shiida",
 		"image": "images/players/shiida.png",
+		"team_id": "univers_ps",
 		"classes": [
 			"hunewearl",
 			"racaseal",
@@ -823,6 +846,7 @@
 		"id": "noudle",
 		"name": "Noudle",
 		"image": "images/players/noudle.jpg",
+		"team_id": "univers_ps",
 		"classes": [
 			"hucaseal",
 			"ramarl",
