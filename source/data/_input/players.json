@@ -671,7 +671,7 @@
 			"Ultima"
 		],
 		"team_ids": [
-			"univers-ps"
+			"univers_ps"
 		],
 		"timezone": "CET",
 		"card_content": [],
@@ -700,7 +700,7 @@
 			"Ultima"
 		],
 		"team_ids": [
-			"univers-ps"
+			"univers_ps"
 		],
 		"timezone": "GMT +1",
 		"card_content": [],
@@ -710,6 +710,35 @@
 		"youtube": {
 			"name": "jupiter de mars",
 			"url": "https://www.youtube.com/channel/UCPW-OkltrXR_MLvbM8IGwHw"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "jade",
+		"name": "Jade",
+		"image": "images/players/jade.png",
+		"classes": [
+			"fomarl",
+			"fonewm",
+			"racast"
+		],
+		"metas": [
+			"Ultima"
+		],
+		"team_ids": [
+			"jade"
+		],
+		"timezone": "EST",
+		"card_content": [],
+		"page_content": [],
+		"discord": "JADE#8460",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
 		},
 		"twitch": {
 			"name": "",
@@ -745,30 +774,32 @@
 		}
 	},
 	{
-		"id": "jade",
-		"name": "Jade",
-		"image": "images/players/jade.png",
+		"id": "armand",
+		"name": "Armand",
+		"image": "images/players/armand.jpg",
 		"classes": [
-			"fomarl",
-			"fonewm",
-			"racast"
+			"hunewearl",
+			"hucast",
+			"fomar"
 		],
 		"metas": [
-			"Ultima"
+			"Gamecube"
 		],
-		"team_ids": [
-			"jade"
-		],
-		"timezone": "EST",
+		"team_ids": [],
+		"timezone": "PST",
 		"card_content": [],
 		"page_content": [],
-		"discord": "JADE#8460",
+		"discord": "pheonixmog#6263",
 		"twitter": "",
 		"youtube": {
-			"name": "",
-			"url": ""
+			"name": "pheonixmog",
+			"url": "https://www.youtube.com/channel/UCtfkhE4eHfSuxkeFFPovIFQ"
 		},
 		"twitch": {
+			"name": "pheonixmog",
+			"url": "https://www.twitch.tv/pheonixmog"
+		},
+		"github": {
 			"name": "",
 			"url": ""
 		}
@@ -976,31 +1007,6 @@
 	{
 		"id": "ambrosia",
 		"name": "Ambrosia",
-		"image": "images/player.png",
-		"classes": [],
-		"metas": [],
-		"team_ids": [],
-		"timezone": "",
-		"card_content": [],
-		"page_content": [],
-		"discord": "",
-		"twitter": "",
-		"youtube": {
-			"name": "",
-			"url": ""
-		},
-		"twitch": {
-			"name": "",
-			"url": ""
-		},
-		"github": {
-			"name": "",
-			"url": ""
-		}
-	},
-	{
-		"id": "armand",
-		"name": "Armand",
 		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
