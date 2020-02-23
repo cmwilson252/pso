@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const colors = require('colors/safe');
 
 hexo.extend.filter.register('before_generate', function(){
     let cwd = process.cwd();
@@ -19,10 +18,10 @@ hexo.extend.filter.register('before_generate', function(){
     }
     
     function logError(...args) {
-        console.log(colors.red('ERROR'), args);
+        console.log('\x1b[31m', 'ERROR', '\x1b[0m', args);
     }
     function logWarn(...args) {
-        console.log(colors.yellow('WARN'), args);
+        console.log('\x1b[33m', 'WARN', '\x1b[0m', args);
     }
     
     function readJsonFile(path) {
