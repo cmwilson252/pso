@@ -1,5 +1,6 @@
 const fs = require('fs');
-const path = require("path");
+const path = require('path');
+const colors = require('colors/safe');
 
 hexo.extend.filter.register('before_generate', function(){
     let cwd = process.cwd();
@@ -17,13 +18,20 @@ hexo.extend.filter.register('before_generate', function(){
         data: null,
     }
     
+    function logError(...args) {
+        console.log(colors.red('ERROR'), args);
+    }
+    function logWarn(...args) {
+        console.log(colors.yellow('WARN'), args);
+    }
+    
     function readJsonFile(path) {
         let result = null;
         try {
             let buffer = fs.readFileSync(path);
             result = JSON.parse(buffer);
         } catch(error) {
-            console.log("Error reading json file:", error);
+            logError('Error reading json file:', error);
         }
         return result;
     }
@@ -33,7 +41,7 @@ hexo.extend.filter.register('before_generate', function(){
             fs.writeFileSync(path, data);
             result = true;
         } catch(error) {
-            console.log("Error writing file:", error);
+            logError('Error writing file:', error);
         }
         return result;
     }
@@ -43,7 +51,7 @@ hexo.extend.filter.register('before_generate', function(){
         let hasDuplicates = array.some(function(array_item) {
             let is_duplicate = seen.size === seen.add(array_item[key]).size;
             if (is_duplicate) {
-                console.log('Duplicated id: '+array_item[key]);
+                logWarn('Duplicated id: '+array_item[key]);
             }
             return is_duplicate;
         });
@@ -53,24 +61,24 @@ hexo.extend.filter.register('before_generate', function(){
     players.data = readJsonFile(players.input);
     if (players.data == null) {
         let error = 'Could not load players';
-        console.log(error);
+        logError(error);
         throw error;
     }
     if (hasDuplicates(players.data, 'id')) {
         let error = 'Players contains duplicate ids';
-        console.log(error);
+        logError(error);
         throw error;
     }
     
     teams.data = readJsonFile(teams.input);
     if (teams.data == null) {
         let error = 'Could not load teams';
-        console.log(error);
+        logError(error);
         throw error;
     }
     if (hasDuplicates(teams.data, 'id')) {
         let error = 'Teams contains duplicate ids';
-        console.log(error);
+        logError(error);
         throw error;
     }
     
@@ -88,7 +96,7 @@ hexo.extend.filter.register('before_generate', function(){
     
     if (writeFile(players.output, JSON.stringify(players.data)) == false) {
         let error = 'Could not write players file';
-        console.log(error);
+        logError(error);
         throw error;
     }
 });
