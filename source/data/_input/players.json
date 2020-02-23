@@ -1313,6 +1313,31 @@
 		}
 	},
 	{
+		"id": "carnage",
+		"name": "CARNAGE",
+		"image": "images/player.png",
+		"classes": [],
+		"metas": [],
+		"team_ids": [],
+		"timezone": "",
+		"card_content": [],
+		"page_content": [],
+		"discord": "",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "cava",
 		"name": "Cava",
 		"image": "images/player.png",
@@ -1765,31 +1790,6 @@
 	{
 		"id": "grifter",
 		"name": "Grifter",
-		"image": "images/player.png",
-		"classes": [],
-		"metas": [],
-		"team_ids": [],
-		"timezone": "",
-		"card_content": [],
-		"page_content": [],
-		"discord": "",
-		"twitter": "",
-		"youtube": {
-			"name": "",
-			"url": ""
-		},
-		"twitch": {
-			"name": "",
-			"url": ""
-		},
-		"github": {
-			"name": "",
-			"url": ""
-		}
-	},
-	{
-		"id": "hunter_",
-		"name": "HUNTER_",
 		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
@@ -2415,6 +2415,31 @@
 	{
 		"id": "nebula",
 		"name": "Nebula",
+		"image": "images/player.png",
+		"classes": [],
+		"metas": [],
+		"team_ids": [],
+		"timezone": "",
+		"card_content": [],
+		"page_content": [],
+		"discord": "",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "nemo",
+		"name": "Nemo",
 		"image": "images/player.png",
 		"classes": [],
 		"metas": [],

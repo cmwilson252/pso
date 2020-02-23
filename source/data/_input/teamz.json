@@ -18,7 +18,7 @@
                 "time": 453,
                 "player_ids": [
                     "wilson",
-                    "Hunter"
+                    "hunter"
                 ]
             }
         ]
@@ -42,9 +42,9 @@
                 "winner": false,
                 "time": 496,
                 "player_ids": [
-                    "Yan",
-                    "Mud",
-                    "Hunter"
+                    "yannv",
+                    "mudkipzjm",
+                    "hunter"
                 ]
             }
         ]
@@ -60,7 +60,7 @@
                 "time": 1308,
                 "player_ids": [
                     "wilson",
-                    "Hunter",
+                    "hunter",
                     "shiida"
                 ]
             },
@@ -69,7 +69,7 @@
                 "time": 1226,
                 "player_ids": [
                     "killz",
-                    "Yan",
+                    "yannv",
                     "lemon"
                 ]
             }
@@ -85,7 +85,7 @@
                 "winner": true,
                 "time": 938,
                 "player_ids": [
-                    "Shoutgu",
+                    "killz",
                     "jade"
                 ]
             },
@@ -94,8 +94,8 @@
                 "time": 874,
                 "player_ids": [
                     "wilson",
-                    "Yan",
-                    "Hunter"
+                    "yannv",
+                    "hunter"
                 ]
             }
         ]
@@ -112,16 +112,16 @@
                 "player_ids": [
                     "wilson",
                     "lemon",
-                    "RF"
+                    "ryan_ford"
                 ]
             },
             {
                 "winner": false,
                 "time": 418,
                 "player_ids": [
-                    "Yan",
+                    "yannv",
                     "jade",
-                    "Hunter"
+                    "hunter"
                 ]
             }
         ]
@@ -146,7 +146,7 @@
                 "time": 284,
                 "player_ids": [
                     "ndw",
-                    "Nemo",
+                    "nemo",
                     "wilson"
                 ]
             }
@@ -163,9 +163,9 @@
                 "time": 85,
                 "player_ids": [
                     "killz",
-                    "mt76907",
+                    "mt",
                     "alukard",
-                    "Nemo"
+                    "nemo"
                 ]
             },
             {
@@ -200,7 +200,7 @@
                 "time": 372,
                 "player_ids": [
                     "revision",
-                    "16085k",
+                    "jack",
                     "wilson"
                 ]
             }
@@ -217,7 +217,7 @@
                 "time": 1020,
                 "player_ids": [
                     "mudkipzjm",
-                    "mt76907",
+                    "mt",
                     "revision"
                 ]
             },
@@ -234,9 +234,9 @@
                 "winner": false,
                 "time": 608,
                 "player_ids": [
-                    "Carnage",
+                    "carnage",
                     "starlord",
-                    "16085k"
+                    "jack"
                 ]
             }
         ]
@@ -251,7 +251,7 @@
                 "winner": true,
                 "time": 1039,
                 "player_ids": [
-                    "16085k",
+                    "jack",
                     "killz",
                     "rashan",
                     "ndw"
@@ -279,9 +279,9 @@
                 "winner": true,
                 "time": 865,
                 "player_ids": [
-                    "16085k",
+                    "jack",
                     "killz",
-                    "mt76907"
+                    "mt"
                 ]
             },
             {
@@ -315,10 +315,10 @@
                 "winner": false,
                 "time": 1050,
                 "player_ids": [
-                    "Carnage",
-                    "mt76907",
-                    "Nemo",
-                    "16085k"
+                    "carnage",
+                    "mt",
+                    "nemo",
+                    "jack"
                 ]
             }
         ]
@@ -333,9 +333,9 @@
                 "winner": true,
                 "time": 212,
                 "player_ids": [
-                    "Nemo",
+                    "nemo",
                     "killz",
-                    "mt76907"
+                    "mt"
                 ]
             },
             {
@@ -344,7 +344,7 @@
                 "player_ids": [
                     "alukard",
                     "9898",
-                    "16085k"
+                    "jack"
                 ]
             }
         ]
@@ -361,7 +361,7 @@
                 "player_ids": [
                     "alukard",
                     "ndw",
-                    "16085k",
+                    "jack",
                     "revision"
                 ]
             },
@@ -369,10 +369,10 @@
                 "winner": false,
                 "time": 378,
                 "player_ids": [
-                    "Carnage",
+                    "carnage",
                     "9898",
-                    "Nemo",
-                    "mt76907"
+                    "nemo",
+                    "mt"
                 ]
             }
         ]
