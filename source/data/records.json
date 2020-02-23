@@ -7,7 +7,7 @@
 		"category": "1p",
 		"pb": false,
 		"time": 701,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
@@ -23,7 +23,7 @@
 		"category": "4p",
 		"pb": true,
 		"time": 1206,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Rashan",
@@ -51,7 +51,7 @@
 		"category": "1p",
 		"pb": false,
 		"time": 759,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
@@ -66,8 +66,36 @@
 		"meta": "ultima",
 		"category": "4p",
 		"pb": true,
+		"time": 1153,
+		"team": "Chosen Few",
+		"players": [
+			{
+				"name": "Rashan",
+				"class": "hucast"
+			},
+			{
+				"name": "Killz",
+				"class": "hucast"
+			},
+			{
+				"name": "HUNTER_",
+				"class": "hucast"
+			},
+			{
+				"name": "Starlord",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ma1c",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "4p",
+		"pb": true,
 		"time": 1031,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Rashan",
@@ -95,7 +123,7 @@
 		"category": "1p",
 		"pb": false,
 		"time": 670,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
@@ -111,7 +139,7 @@
 		"category": "1p",
 		"pb": false,
 		"time": 1586,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
@@ -119,6 +147,135 @@
 			}
 		]
 	},
+	{
+		"mode": "normal",
+		"quest_id": "max_forest",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "2p",
+		"pb": true,
+		"time": 217,
+		"team": "Chosen Few",
+		"players": [
+			{
+				"name": "Wilson",
+				"class": "hucast"
+			},
+			{
+				"name": "Killz",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_forest",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "2p",
+		"pb": true,
+		"time": 230,
+		"team": "Chosen Few",
+		"players": [
+			{
+				"name": "HUNTER_",
+				"class": "hucast"
+			},
+			{
+				"name": "Starlord",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_mines",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "2p",
+		"pb": true,
+		"time": 242,
+		"team": "Chosen Few",
+		"players": [
+			{
+				"name": "Wilson",
+				"class": "hucast"
+			},
+			{
+				"name": "Killz",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_mines",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "2p",
+		"pb": true,
+		"time": 255,
+		"team": "Chosen Few",
+		"players": [
+			{
+				"name": "HUNTER_",
+				"class": "hucast"
+			},
+			{
+				"name": "Starlord",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_ruins",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "1p",
+		"pb": false,
+		"time": 351,
+		"team": "Chosen Few",
+		"players": [
+			{
+				"name": "Killz",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_ruins",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "1p",
+		"pb": false,
+		"time": 357,
+		"team": "Chosen Few",
+		"players": [
+			{
+				"name": "Starlord",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_ruins",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "1p",
+		"pb": false,
+		"time": 426,
+		"team": "Univers-PS",
+		"players": [
+			{
+				"name": "Noudle",
+				"class": "hucaseal"
+			}
+		]
+	},
+
 	{
 		"mode": "normal",
 		"quest_id": "mu1",
@@ -143,7 +300,7 @@
 		"category": "1p",
 		"pb": false,
 		"time": 373,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Yannv",
@@ -175,7 +332,7 @@
 		"category": "2p",
 		"pb": false,
 		"time": 399,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Starlord",
@@ -195,7 +352,7 @@
 		"category": "3p",
 		"pb": false,
 		"time": 528,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Lemon",
@@ -206,7 +363,7 @@
 				"class": "hunewearl"
 			},
 			{
-				"name": "Jezbuz",
+				"name": "Jez",
 				"class": "hucast"
 			}
 		]
@@ -243,7 +400,7 @@
 		"category": "3p",
 		"pb": false,
 		"time": 570,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Killz",
@@ -267,7 +424,7 @@
 		"category": "3p",
 		"pb": false,
 		"time": 586,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Killz",
@@ -290,8 +447,40 @@
 		"meta": "ultima",
 		"category": "1p",
 		"pb": false,
+		"time": 608,
+		"team": "Chosen Few",
+		"players": [
+			{
+				"name": "Killz",
+				"class": "humar"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ttf",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "1p",
+		"pb": false,
+		"time": 635,
+		"team": "Chosen Few",
+		"players": [
+			{
+				"name": "Killz",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ttf",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "1p",
+		"pb": false,
 		"time": 639,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Rashan",
@@ -320,26 +509,10 @@
 		"quest_id": "ttf",
 		"episode": 1,
 		"meta": "ultima",
-		"category": "1p",
-		"pb": false,
-		"time": 635,
-		"team": "CF",
-		"players": [
-			{
-				"name": "Killz",
-				"class": "hucast"
-			}
-		]
-	},
-	{
-		"mode": "normal",
-		"quest_id": "ttf",
-		"episode": 1,
-		"meta": "ultima",
 		"category": "2p",
 		"pb": false,
 		"time": 538,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Rashan",
@@ -359,7 +532,7 @@
 		"category": "2p",
 		"pb": false,
 		"time": 576,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "ScopedOut",
@@ -379,7 +552,7 @@
 		"category": "2p",
 		"pb": false,
 		"time": 600,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "El Socko",
@@ -463,7 +636,7 @@
 		"category": "4p",
 		"pb": false,
 		"time": 726,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Yannv",
@@ -547,7 +720,7 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1517,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Rashan",
@@ -595,7 +768,7 @@
 		"category": "1p",
 		"pb": false,
 		"time": 168,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "TripleR",
@@ -627,7 +800,7 @@
 		"category": "1p",
 		"pb": false,
 		"time": 78,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "TripleR",
@@ -643,7 +816,7 @@
 		"category": "2p",
 		"pb": false,
 		"time": 497,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Rashan",
@@ -687,7 +860,7 @@
 		"category": "2p",
 		"pb": false,
 		"time": 575,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Rashan",
@@ -739,7 +912,7 @@
 		"category": "2p",
 		"pb": false,
 		"time": 955,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Starlord",
@@ -759,7 +932,7 @@
 		"category": "2p",
 		"pb": false,
 		"time": 982,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Starlord",
@@ -779,7 +952,7 @@
 		"category": "4p",
 		"pb": false,
 		"time": 2648,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Starlord",
@@ -939,7 +1112,7 @@
 		"category": "2p",
 		"pb": false,
 		"time": 2189,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Rashan",
@@ -991,7 +1164,7 @@
 		"category": "4p",
 		"pb": true,
 		"time": 175,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "HUNTER_",
@@ -1019,7 +1192,7 @@
 		"category": "4p",
 		"pb": true,
 		"time": 143,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Starlord",
@@ -1103,7 +1276,7 @@
 		"category": "4p",
 		"pb": false,
 		"time": 2966,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "HUNTER_",
@@ -1131,7 +1304,7 @@
 		"category": "4p",
 		"pb": true,
 		"time": 1055,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Killz",
@@ -1175,7 +1348,7 @@
 		"category": "2p",
 		"pb": false,
 		"time": 478,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "HUNTER_",
@@ -1195,7 +1368,7 @@
 		"category": "2p",
 		"pb": false,
 		"time": 435,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Starlord",
@@ -1275,7 +1448,7 @@
 		"category": "4p",
 		"pb": true,
 		"time": 34,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Killz",
@@ -1334,7 +1507,7 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewearl"
 			}
 		]
@@ -1350,7 +1523,7 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewearl"
 			},
 			{
@@ -1362,7 +1535,7 @@
 				"class": "racaseal"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			}
 		]
@@ -1391,7 +1564,7 @@
 		"category": "opm",
 		"pb": false,
 		"time": 624,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
@@ -1422,7 +1595,7 @@
 				"class": "hucast"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			}
 		]
@@ -1438,7 +1611,7 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewearl"
 			},
 			{
@@ -1450,7 +1623,7 @@
 				"class": "hucast"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			}
 		]
@@ -1466,7 +1639,7 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewearl"
 			},
 			{
@@ -1478,7 +1651,7 @@
 				"class": "hucast"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			}
 		]
@@ -1526,7 +1699,7 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewearl"
 			}
 		]
@@ -1578,7 +1751,7 @@
 				"class": "hucast"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			}
 		]
@@ -1598,7 +1771,7 @@
 				"class": "hucast"
 			},
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewearl"
 			},
 			{
@@ -1606,7 +1779,7 @@
 				"class": "hucast"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			}
 		]
@@ -1630,11 +1803,11 @@
 				"class": "racaseal"
 			},
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewearl"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			}
 		]
@@ -1690,7 +1863,7 @@
 				"class": "hucast"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			}
 		]
@@ -1718,7 +1891,7 @@
 				"class": "hucast"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			}
 		]
@@ -1746,7 +1919,7 @@
 				"class": "hucast"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			}
 		]
@@ -1803,7 +1976,7 @@
 		"category": "opm",
 		"pb": false,
 		"time": 250,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Wilson",
@@ -1816,13 +1989,25 @@
 		"quest_id": "max_ruins",
 		"episode": 1,
 		"meta": "2014",
-		"category": "opm",
-		"pb": true,
-		"time": 239,
-		"team": "Tankstelle",
+		"category": "4p",
+		"pb": false,
+		"time": 186,
+		"team": "",
 		"players": [
 			{
-				"name": "NDW",
+				"name": "Wilson",
+				"class": "hunewearl"
+			},
+			{
+				"name": "500ryu",
+				"class": "hucast"
+			},
+			{
+				"name": "Killz",
+				"class": "hucast"
+			},
+			{
+				"name": "mt",
 				"class": "hucast"
 			}
 		]
@@ -1858,12 +2043,28 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hunewearl"
 			},
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "humar"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_ruins",
+		"episode": 1,
+		"meta": "2014",
+		"category": "opm",
+		"pb": true,
+		"time": 239,
+		"team": "Tankstelle",
+		"players": [
+			{
+				"name": "NDW",
+				"class": "hucast"
 			}
 		]
 	},
@@ -1923,7 +2124,7 @@
 		"category": "opm",
 		"pb": false,
 		"time": 373,
-		"team": "bmode",
+		"team": "BattleMode",
 		"players": [
 			{
 				"name": "Vex",
@@ -1987,7 +2188,7 @@
 		"category": "opm",
 		"pb": false,
 		"time": 32,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
@@ -2006,7 +2207,7 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewearl"
 			}
 		]
@@ -2019,7 +2220,7 @@
 		"category": "opm",
 		"pb": false,
 		"time": 540,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Wilson",
@@ -2035,7 +2236,7 @@
 		"category": "opm",
 		"pb": false,
 		"time": 476,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
@@ -2062,11 +2263,11 @@
 				"class": "hucast"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			},
 			{
-				"name": "killz",
+				"name": "Killz",
 				"class": "hucast"
 			}
 		]
@@ -2135,7 +2336,7 @@
 		"category": "opm",
 		"pb": false,
 		"time": 380,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
@@ -2158,7 +2359,7 @@
 				"class": "hucast"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			},
 			{
@@ -2334,7 +2535,7 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hunewearl"
 			},
 			{
@@ -2394,11 +2595,11 @@
 				"class": "hucast"
 			},
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fomarl"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			},
 			{
@@ -2454,7 +2655,7 @@
 				"class": "hucast"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			},
 			{
@@ -2520,7 +2721,7 @@
 		"category": "opm",
 		"pb": false,
 		"time": 342,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
@@ -2536,11 +2737,47 @@
 		"category": "opm",
 		"pb": false,
 		"time": 1203,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
 				"class": "humar"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_tower",
+		"episode": 2,
+		"meta": "2014",
+		"category": "2p",
+		"pb": false,
+		"time": 364,
+		"team": "Chosen Few",
+		"players": [
+			{
+				"name": "HUNTER_",
+				"class": "hucast"
+			},
+			{
+				"name": "Starlord",
+				"class": "hunewearl"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "mau3",
+		"episode": 2,
+		"meta": "2014",
+		"category": "opm",
+		"pb": false,
+		"time": 320,
+		"team": "Chosen Few",
+		"players": [
+			{
+				"name": "Wilson",
+				"class": "hucast"
 			}
 		]
 	},
@@ -2562,29 +2799,13 @@
 	},
 	{
 		"mode": "normal",
-		"quest_id": "mau3",
-		"episode": 2,
-		"meta": "2014",
-		"category": "opm",
-		"pb": false,
-		"time": 315,
-		"team": "CF",
-		"players": [
-			{
-				"name": "Wilson",
-				"class": "hucast"
-			}
-		]
-	},
-	{
-		"mode": "normal",
 		"quest_id": "mau5",
 		"episode": 2,
 		"meta": "2014",
 		"category": "opm",
 		"pb": false,
 		"time": 683,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "HUNTER_",
@@ -2600,7 +2821,7 @@
 		"category": "2p",
 		"pb": false,
 		"time": 513,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "HUNTER_",
@@ -2735,7 +2956,7 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewm"
 			},
 			{
@@ -2747,7 +2968,7 @@
 				"class": "hucast"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			}
 		]
@@ -2763,7 +2984,7 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewm"
 			},
 			{
@@ -2771,7 +2992,7 @@
 				"class": "racaseal"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			},
 			{
@@ -2791,7 +3012,7 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			},
 			{
@@ -2799,7 +3020,7 @@
 				"class": "hucast"
 			},
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewm"
 			},
 			{
@@ -2847,7 +3068,7 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "racast"
 			},
 			{
@@ -2855,7 +3076,7 @@
 				"class": "hucast"
 			},
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewm"
 			},
 			{
@@ -2875,7 +3096,7 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewm"
 			}
 		]
@@ -2888,7 +3109,7 @@
 		"category": "opm",
 		"pb": false,
 		"time": 841,
-		"team": "Stone Cutterz",
+		"team": "Stonecutters",
 		"players": [
 			{
 				"name": "Oberon",
@@ -2915,11 +3136,11 @@
 				"class": "hucast"
 			},
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewm"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			}
 		]
@@ -2943,11 +3164,11 @@
 				"class": "hucast"
 			},
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewm"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			}
 		]
@@ -3019,7 +3240,7 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewm"
 			},
 			{
@@ -3070,38 +3291,6 @@
 	},
 	{
 		"mode": "normal",
-		"quest_id": "ma4c",
-		"episode": 4,
-		"meta": "2014",
-		"category": "opm",
-		"pb": false,
-		"time": 852,
-		"team": "MA4B",
-		"players": [
-			{
-				"name": "16085k",
-				"class": "fonewm"
-			}
-		]
-	},
-	{
-		"mode": "normal",
-		"quest_id": "ma4c",
-		"episode": 4,
-		"meta": "2014",
-		"category": "opm",
-		"pb": false,
-		"time": 841,
-		"team": "Stone Cutterz",
-		"players": [
-			{
-				"name": "Oberon",
-				"class": "fonewm"
-			}
-		]
-	},
-	{
-		"mode": "normal",
 		"quest_id": "nmu2",
 		"episode": 4,
 		"meta": "2014",
@@ -3111,7 +3300,7 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewm"
 			},
 			{
@@ -3187,7 +3376,7 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fomarl"
 			}
 		]
@@ -3203,7 +3392,7 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewm"
 			},
 			{
@@ -3255,7 +3444,7 @@
 				"class": "hucast"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "racast"
 			},
 			{
@@ -3307,11 +3496,11 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "racast"
 			},
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewm"
 			},
 			{
@@ -3335,11 +3524,11 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "racast"
 			},
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewm"
 			},
 			{
@@ -3388,7 +3577,7 @@
 		"category": "opm",
 		"pb": false,
 		"time": 211,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
@@ -3407,7 +3596,7 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewm"
 			},
 			{
@@ -3463,7 +3652,7 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fomarl"
 			}
 		]
@@ -3492,7 +3681,7 @@
 		"category": "opm",
 		"pb": false,
 		"time": 1221,
-		"team": "Angelic",
+		"team": "",
 		"players": [
 			{
 				"name": "Sylph",
@@ -3547,11 +3736,11 @@
 				"class": "hucast"
 			},
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewearl"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			}
 		]
@@ -3691,11 +3880,11 @@
 				"class": "hucast"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			},
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fomar"
 			}
 		]
@@ -4071,6 +4260,22 @@
 		"meta": "vanilla",
 		"category": "opm",
 		"pb": false,
+		"time": 276,
+		"team": "Tankstelle",
+		"players": [
+			{
+				"name": "Sange",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_ruins",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
 		"time": 364,
 		"team": "Pioneers",
 		"players": [
@@ -4195,7 +4400,7 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewm"
 			}
 		]
@@ -4263,7 +4468,7 @@
 				"class": "ramar"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "ramar"
 			}
 		]
@@ -4452,7 +4657,7 @@
 		"category": "2p",
 		"pb": true,
 		"time": 657,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Killz",
@@ -4471,7 +4676,7 @@
 		"meta": "vanilla",
 		"category": "opm",
 		"pb": false,
-		"time": 510,
+		"time": 508,
 		"team": "Tankstelle",
 		"players": [
 			{
@@ -4501,6 +4706,22 @@
 		"quest_id": "ttf",
 		"episode": 1,
 		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
+		"time": 533,
+		"team": "Pioneers",
+		"players": [
+			{
+				"name": "Roo",
+				"class": "ramarl"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ttf",
+		"episode": 1,
+		"meta": "vanilla",
 		"category": "1p",
 		"pb": true,
 		"time": 658,
@@ -4520,7 +4741,7 @@
 		"category": "1p",
 		"pb": true,
 		"time": 696,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Demonized",
@@ -4536,7 +4757,7 @@
 		"category": "1p",
 		"pb": true,
 		"time": 697,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Killz",
@@ -4555,7 +4776,7 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "ramar"
 			}
 		]
@@ -4603,7 +4824,7 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fomarl"
 			}
 		]
@@ -4659,7 +4880,7 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "ramarl"
 			},
 			{
@@ -4699,7 +4920,7 @@
 		"team": "",
 		"players": [
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "ramarl"
 			},
 			{
@@ -4723,7 +4944,7 @@
 		"team": "MA4B",
 		"players": [
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "ramarl"
 			},
 			{
@@ -4731,7 +4952,7 @@
 				"class": "hucast"
 			},
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewearl"
 			},
 			{
@@ -4863,11 +5084,11 @@
 				"class": "hucast"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "ramar"
 			},
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fomarl"
 			}
 		]
@@ -4960,7 +5181,7 @@
 		"category": "opm",
 		"pb": false,
 		"time": 366,
-		"team": "CF",
+		"team": "Chosen Few",
 		"players": [
 			{
 				"name": "Wilson",
@@ -5542,6 +5763,22 @@
 	},
 	{
 		"mode": "normal",
+		"quest_id": "su6",
+		"episode": 2,
+		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
+		"time": 453,
+		"team": "Tankstelle",
+		"players": [
+			{
+				"name": "SteveCares",
+				"class": "racaseal"
+			}
+		]
+	},
+	{
+		"mode": "normal",
 		"quest_id": "rt",
 		"episode": 2,
 		"meta": "vanilla",
@@ -5707,11 +5944,11 @@
 				"class": "hucast"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			},
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewm"
 			}
 		]
@@ -5731,7 +5968,7 @@
 				"class": "hucast"
 			},
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewm"
 			}
 		]
@@ -5931,7 +6168,7 @@
 				"class": "hucast"
 			},
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewm"
 			}
 		]
@@ -5955,11 +6192,11 @@
 				"class": "hucast"
 			},
 			{
-				"name": "16085k",
+				"name": "Jack",
 				"class": "fonewm"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			}
 		]
@@ -5979,7 +6216,7 @@
 				"class": "ramar"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			}
 		]
@@ -6091,6 +6328,26 @@
 		"meta": "gamecube",
 		"category": "2p",
 		"pb": false,
+		"time": 448,
+		"team": "",
+		"players": [
+			{
+				"name": "Armand",
+				"class": "hunewearl"
+			},
+			{
+				"name": "Wilson",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "mu2",
+		"episode": 1,
+		"meta": "gamecube",
+		"category": "2p",
+		"pb": false,
 		"time": 420,
 		"team": "",
 		"players": [
@@ -6137,7 +6394,7 @@
 		"quest_id": "mu3",
 		"episode": 1,
 		"meta": "gamecube",
-		"category": "4p",
+		"category": "2p",
 		"pb": false,
 		"time": 85,
 		"team": "",
@@ -6535,7 +6792,7 @@
 				"class": "fomarl"
 			},
 			{
-				"name": "mt76907",
+				"name": "mt",
 				"class": "hucast"
 			}
 		]
@@ -6867,7 +7124,7 @@
 				"class": "hucaseal"
 			},
 			{
-				"name": "SteveCares",
+				"name": "Scotty",
 				"class": "hucaseal"
 			},
 			{
