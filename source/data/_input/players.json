@@ -671,7 +671,7 @@
 			"Ultima"
 		],
 		"team_ids": [
-			"univers-ps"
+			"univers_ps"
 		],
 		"timezone": "CET",
 		"card_content": [],
@@ -700,7 +700,7 @@
 			"Ultima"
 		],
 		"team_ids": [
-			"univers-ps"
+			"univers_ps"
 		],
 		"timezone": "GMT +1",
 		"card_content": [],
@@ -710,6 +710,35 @@
 		"youtube": {
 			"name": "jupiter de mars",
 			"url": "https://www.youtube.com/channel/UCPW-OkltrXR_MLvbM8IGwHw"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "jade",
+		"name": "Jade",
+		"image": "images/players/jade.png",
+		"classes": [
+			"fomarl",
+			"fonewm",
+			"racast"
+		],
+		"metas": [
+			"Ultima"
+		],
+		"team_ids": [
+			"jade"
+		],
+		"timezone": "EST",
+		"card_content": [],
+		"page_content": [],
+		"discord": "JADE#8460",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
 		},
 		"twitch": {
 			"name": "",
@@ -742,35 +771,6 @@
 		"twitch": {
 			"name": "nohit",
 			"url": "https://www.twitch.tv/nohit"
-		}
-	},
-	{
-		"id": "jade",
-		"name": "Jade",
-		"image": "images/players/jade.png",
-		"classes": [
-			"fomarl",
-			"fonewm",
-			"racast"
-		],
-		"metas": [
-			"Ultima"
-		],
-		"team_ids": [
-			"jade"
-		],
-		"timezone": "EST",
-		"card_content": [],
-		"page_content": [],
-		"discord": "JADE#8460",
-		"twitter": "",
-		"youtube": {
-			"name": "",
-			"url": ""
-		},
-		"twitch": {
-			"name": "",
-			"url": ""
 		}
 	},
 	{
