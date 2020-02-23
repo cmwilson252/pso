@@ -2,6 +2,8 @@ const fs = require('fs');
 const path = require("path");
 
 hexo.extend.filter.register('before_generate', function(){
+    console.log('Starting make_json.js');
+    
     let cwd = process.cwd();
     let input_data_dir = path.join(cwd, 'source', 'data', '_input');
     let output_data_dir = path.join(cwd, 'source', 'data');
