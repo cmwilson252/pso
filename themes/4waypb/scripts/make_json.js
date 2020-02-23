@@ -22,6 +22,11 @@ hexo.extend.filter.register('after_init', function(){
         output: path.join(output_data_dir, 'quests.json'),
         data: null,
     }
+    let teamz = {
+        input: path.join(input_data_dir, 'teamz.json'),
+        output: path.join(output_data_dir, 'teamz.json'),
+        data: null,
+    }
     
     function readJsonFile(path) {
         let result = null;
@@ -79,6 +84,7 @@ hexo.extend.filter.register('after_init', function(){
         console.log(error);
         throw error;
     }
+    
     quests.data = readJsonFile(quests.input);
     if (quests.data == null) {
         let error = 'Could not load quests';
@@ -91,17 +97,52 @@ hexo.extend.filter.register('after_init', function(){
         throw error;
     }
     
+    teamz.data = readJsonFile(teamz.input);
+    if (teamz.data == null) {
+        let error = 'Could not load teamz';
+        console.log(error);
+        throw error;
+    }
+    
+    let has_errors = false;
+    
     players.data.forEach(function(player) {
         player.teams = [];
         player.team_ids.forEach(function(team_id) {
             let team = teams.data.find(x => {
                 return x.id === team_id;
             })
-            if (team != undefined) {
+            if (team == undefined) {
+                console.log('Could not find team: '+team_id);
+                has_errors = true;
+            } else {
                 player.teams.push(team);
             }
         });
+        delete player.team_ids;
     });
+    
+    teamz.data.forEach(function(event) {
+        event.teams.forEach(function(team) {
+            team.players = [];
+            team.player_ids.forEach(function(player_id) {
+                let player = players.data.find(x => {
+                    return x.id === player_id;
+                })
+                if (player == undefined) {
+                    console.log('Could not find player: '+player_id);
+                    has_errors = true;
+                } else {
+                    team.players.push(player.name);
+                }
+            });
+            delete team.player_ids;
+        });
+    });
+    
+    if (has_errors) {
+        throw 'There were errors in the file generation';
+    }
     
     if (writeFile(players.output, JSON.stringify(players.data)) == false) {
         let error = 'Could not write players file';
@@ -116,6 +157,13 @@ hexo.extend.filter.register('after_init', function(){
         throw error;
     } else {
         console.log('Generated '+quests.output);
+    }
+    if (writeFile(teamz.output, JSON.stringify(teamz.data)) == false) {
+        let error = 'Could not write teamz file';
+        console.log(error);
+        throw error;
+    } else {
+        console.log('Generated '+teamz.output);
     }
     
     console.log('Finish make_json.js');

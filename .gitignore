@@ -6,5 +6,7 @@ node_modules/
 public/
 .deploy*/
 
+.vscode
 source/data/players.json
 source/data/quests.json
+source/data/teamz.json
