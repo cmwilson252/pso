@@ -774,6 +774,37 @@
 		}
 	},
 	{
+		"id": "armand",
+		"name": "Armand",
+		"image": "images/armand.jpg",
+		"classes": [
+			"hunewearl",
+			"hucast",
+			"fomar"
+		],
+		"metas": [
+			"Gamecube"
+		],
+		"team_ids": [],
+		"timezone": "PST",
+		"card_content": [],
+		"page_content": [],
+		"discord": "pheonixmog#6263",
+		"twitter": "",
+		"youtube": {
+			"name": "pheonixmog",
+			"url": "https://www.youtube.com/channel/UCtfkhE4eHfSuxkeFFPovIFQ"
+		},
+		"twitch": {
+			"name": "pheonixmog",
+			"url": "https://www.twitch.tv/pheonixmog"
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "a_man_in_flames",
 		"name": "A Man in Flames",
 		"image": "images/player.png",
@@ -976,31 +1007,6 @@
 	{
 		"id": "ambrosia",
 		"name": "Ambrosia",
-		"image": "images/player.png",
-		"classes": [],
-		"metas": [],
-		"team_ids": [],
-		"timezone": "",
-		"card_content": [],
-		"page_content": [],
-		"discord": "",
-		"twitter": "",
-		"youtube": {
-			"name": "",
-			"url": ""
-		},
-		"twitch": {
-			"name": "",
-			"url": ""
-		},
-		"github": {
-			"name": "",
-			"url": ""
-		}
-	},
-	{
-		"id": "armand",
-		"name": "Armand",
 		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
