@@ -17,6 +17,11 @@ hexo.extend.filter.register('after_init', function(){
         output: path.join(output_data_dir, 'teams.json'),
         data: null,
     }
+    let quests = {
+        input: path.join(input_data_dir, 'quests.json'),
+        output: path.join(output_data_dir, 'quests.json'),
+        data: null,
+    }
     
     function readJsonFile(path) {
         let result = null;
@@ -74,6 +79,17 @@ hexo.extend.filter.register('after_init', function(){
         console.log(error);
         throw error;
     }
+    quests.data = readJsonFile(quests.input);
+    if (quests.data == null) {
+        let error = 'Could not load quests';
+        console.log(error);
+        throw error;
+    }
+    if (hasDuplicates(quests.data, 'id')) {
+        let error = 'Quests contains duplicate ids';
+        console.log(error);
+        throw error;
+    }
     
     players.data.forEach(function(player) {
         player.teams = [];
@@ -93,6 +109,13 @@ hexo.extend.filter.register('after_init', function(){
         throw error;
     } else {
         console.log('Generated '+players.output);
+    }
+    if (writeFile(quests.output, JSON.stringify(quests.data)) == false) {
+        let error = 'Could not write quests file';
+        console.log(error);
+        throw error;
+    } else {
+        console.log('Generated '+quests.output);
     }
     
     console.log('Finish make_json.js');

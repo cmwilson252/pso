@@ -7,3 +7,4 @@ public/
 .deploy*/
 
 source/data/players.json
+source/data/quests.json
