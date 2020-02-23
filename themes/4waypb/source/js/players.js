@@ -67,57 +67,77 @@ window.fourwaypb.players.ready = function() {
                     $('<div/>', {
                         'class': 'meta',
                     }).append(
-                        $('<span/>', {
-                            'html': (function() {
-                                let content = '';
-                                for (let i = 0; i < player.metas.length; i++) {
-                                    if (i > 0) {
-                                        content += ', ';
-                                    }
-                                    content += player.metas[i];
-                                }
-                                return content;
-                            }),
+                        (function() {
+                            let result = [];
+                            if (player.metas.length > 0) {
+                                result.push($('<span/>', {
+                                    'html': (function() {
+                                        let content = '';
+                                        for (let i = 0; i < player.metas.length; i++) {
+                                            if (i > 0) {
+                                                content += ', ';
+                                            }
+                                            content += player.metas[i];
+                                        }
+                                        return content;
+                                    }),
+                                }));
+                                result.push($('<br/>'));
+                            }
+                            
+                            if (player.classes.length > 0) {
+                                result.push($('<span/>', {
+                                    'html': (function() {
+                                        let content = '';
+                                        for (let i = 0; i < player.classes.length; i++) {
+                                            if (i > 0) {
+                                                content += ', ';
+                                            }
+                                            content += classKeyToName(player.classes[i]);
+                                        }
+                                        return content;
+                                    }),
+                                }));
+                                result.push($('<br/>'));
+                            }
+                            if (player.teams.length > 0) {
+                                result.push($('<div/>').append(
+                                    (function() {
+                                        let result = [];
+                                        for (let i = 0; i < player.teams.length; i++) {
+                                            if (i > 0) {
+                                                result.push($('<br/>'));
+                                            }
+                                            result.push($('<span/>', {
+                                                'class': 'ui image team-flag',
+                                            }).append(
+                                                $('<img/>', {
+                                                    'src': /^https?:\/\//.test(player.teams[i].image) ? player.teams[i].image : url_for(player.teams[i].image),
+                                                })
+                                            ));
+                                            result.push($('<span/>', {
+                                                'text': player.teams[i].name,
+                                            }));
+                                        }
+                                        return result;
+                                    }),
+                                ));
+                                result.push($('<br/>'));
+                            }
+                            if (player.card_content.length > 0) {
+                                result.push($('<span/>', {
+                                    'html': (function() {
+                                        let content = '';
+                                        player.card_content.forEach(function(line){
+                                            content += line;
+                                        });
+                                        return content;
+                                    }),
+                                }));
+                            }
+                            return result;
                         }),
-                        $('<br/>'),
-                        $('<span/>', {
-                            'html': (function() {
-                                let content = '';
-                                for (let i = 0; i < player.classes.length; i++) {
-                                    if (i > 0) {
-                                        content += ', ';
-                                    }
-                                    content += classKeyToName(player.classes[i]);
-                                }
-                                return content;
-                            }),
-                        }),
-                        $('<br/>'),
-                        $('<span/>', {
-                            'text': (function() {
-                                let content = '';
-                                for (let i = 0; i < player.teams.length; i++) {
-                                    if (i > 0) {
-                                        content += ', ';
-                                    }
-                                    content += player.teams[i].name;
-                                }
-                                return content;
-                            }),
-                        }),
-                        $('<br/>'),
-                        $('<br/>'),
                     ),
-                    $('<span/>', {
-                        'class': 'description',
-                        'html': (function() {
-                            let content = '';
-                            player.card_content.forEach(function(line){
-                                content += line;
-                            });
-                            return content;
-                        }),
-                    }),
                 ),
                 $('<div/>', {
                     'class': 'extra content',

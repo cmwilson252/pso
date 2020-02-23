@@ -2,66 +2,66 @@
     {
         "id": "六月などんよりとした空",
         "name": "六月などんよりとした空",
-        "image": "images/players/六月などんよりとした空.png"
+        "image": "images/team_flags/六月などんよりとした空.png"
     },
     {
         "id": "battlemode",
         "name": "BattleMode",
-        "image": "images/players/BattleMode.png"
+        "image": "images/team_flags/BattleMode.png"
     },
     {
         "id": "chosen_few",
         "name": "Chosen Few",
-        "image": "images/players/chosen-few.png"
+        "image": "images/team_flags/chosen-few.png"
     },
     {
         "id": "co",
         "name": "CO",
-        "image": "images/players/co.png"
+        "image": "images/team_flags/co.png"
     },
     {
         "id": "f9",
         "name": "F9",
-        "image": "images/players/f9.png"
+        "image": "images/team_flags/f9.png"
     },
     {
         "id": "illuminati",
         "name": "Illuminati",
-        "image": "images/players/"
+        "image": "images/team.png"
     },
     {
         "id": "jade",
         "name": "Jade",
-        "image": "images/players/jade.png"
+        "image": "images/team_flags/jade.png"
     },
     {
         "id": "ma4b",
         "name": "MA4B",
-        "image": "images/players/ma4b.png"
+        "image": "images/team_flags/ma4b.png"
     },
     {
         "id": "ma4c",
         "name": "MA4C",
-        "image": "images/players/ma4c.png"
+        "image": "images/team_flags/ma4c.png"
     },
     {
         "id": "pioneers",
         "name": "Pioneers",
-        "image": "images/players/pioneers.png"
+        "image": "images/team_flags/pioneers.png"
     },
     {
         "id": "stonecutters",
         "name": "Stonecutters",
-        "image": "images/players/"
+        "image": "images/team.png"
     },
     {
         "id": "tankstelle",
         "name": "Tankstelle",
-        "image": "images/players/tankstelle.png"
+        "image": "images/team_flags/tankstelle.png"
     },
     {
         "id": "univers_ps",
         "name": "Univers-PS",
-        "image": "images/players/universe-ps.png"
+        "image": "images/team_flags/universe-ps.png"
     }
 ]
