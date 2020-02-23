@@ -776,7 +776,7 @@
 	{
 		"id": "a_man_in_flames",
 		"name": "A Man in Flames",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -801,7 +801,7 @@
 	{
 		"id": "aura_v3",
 		"name": "AURA_v3",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -826,7 +826,7 @@
 	{
 		"id": "azmidiske",
 		"name": "AZMIDISKE",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -851,7 +851,7 @@
 	{
 		"id": "ade",
 		"name": "Ade",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -876,7 +876,7 @@
 	{
 		"id": "aerilas",
 		"name": "Aerilas",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -901,7 +901,7 @@
 	{
 		"id": "aic",
 		"name": "Aic",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -926,7 +926,7 @@
 	{
 		"id": "aizen",
 		"name": "Aizen",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -951,7 +951,7 @@
 	{
 		"id": "alisaryn",
 		"name": "Alisaryn",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -976,7 +976,7 @@
 	{
 		"id": "ambrosia",
 		"name": "Ambrosia",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1001,7 +1001,7 @@
 	{
 		"id": "armand",
 		"name": "Armand",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1026,7 +1026,7 @@
 	{
 		"id": "arsuru",
 		"name": "Arsuru",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1051,7 +1051,7 @@
 	{
 		"id": "astallasalion",
 		"name": "Astallasalion",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1076,7 +1076,7 @@
 	{
 		"id": "atal",
 		"name": "Atal",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1101,7 +1101,7 @@
 	{
 		"id": "ayria",
 		"name": "Ayria",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1126,7 +1126,7 @@
 	{
 		"id": "belz",
 		"name": "Belz",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1151,7 +1151,7 @@
 	{
 		"id": "bert",
 		"name": "Bert",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1176,7 +1176,7 @@
 	{
 		"id": "blue_world",
 		"name": "Blue World",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1201,7 +1201,7 @@
 	{
 		"id": "brandon",
 		"name": "Brandon",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1226,7 +1226,7 @@
 	{
 		"id": "capn",
 		"name": "CAPN",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1251,7 +1251,7 @@
 	{
 		"id": "capo",
 		"name": "Capo",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1276,7 +1276,7 @@
 	{
 		"id": "cava",
 		"name": "Cava",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1301,7 +1301,7 @@
 	{
 		"id": "chi",
 		"name": "Chi",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1326,7 +1326,7 @@
 	{
 		"id": "cody",
 		"name": "Cody",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1351,7 +1351,7 @@
 	{
 		"id": "colin",
 		"name": "Colin",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1376,7 +1376,7 @@
 	{
 		"id": "current_character",
 		"name": "Current Character",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1401,7 +1401,7 @@
 	{
 		"id": "dj_ridoo",
 		"name": "DJ Ridoo",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1426,7 +1426,7 @@
 	{
 		"id": "daisuri",
 		"name": "Daisuri",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1451,7 +1451,7 @@
 	{
 		"id": "darv",
 		"name": "Darv",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1476,7 +1476,7 @@
 	{
 		"id": "demonized",
 		"name": "Demonized",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1501,7 +1501,7 @@
 	{
 		"id": "dizzy",
 		"name": "Dizzy",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1526,7 +1526,7 @@
 	{
 		"id": "dongra",
 		"name": "Dongra",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1551,7 +1551,7 @@
 	{
 		"id": "dyne",
 		"name": "Dyne",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1576,7 +1576,7 @@
 	{
 		"id": "eis",
 		"name": "Eis",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1601,7 +1601,7 @@
 	{
 		"id": "ender",
 		"name": "Ender",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1626,7 +1626,7 @@
 	{
 		"id": "esc",
 		"name": "Esc",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1651,7 +1651,7 @@
 	{
 		"id": "eun-ji",
 		"name": "Eun-Ji",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1676,7 +1676,7 @@
 	{
 		"id": "fluidity",
 		"name": "Fluidity",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1701,7 +1701,7 @@
 	{
 		"id": "gsc",
 		"name": "GSC",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1726,7 +1726,7 @@
 	{
 		"id": "grifter",
 		"name": "Grifter",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1751,7 +1751,7 @@
 	{
 		"id": "hunter_",
 		"name": "HUNTER_",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1776,7 +1776,7 @@
 	{
 		"id": "hardwood",
 		"name": "Hardwood",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1801,7 +1801,7 @@
 	{
 		"id": "hatral",
 		"name": "Hatral",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1826,7 +1826,7 @@
 	{
 		"id": "hiothun",
 		"name": "HioThun",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1851,7 +1851,7 @@
 	{
 		"id": "iter",
 		"name": "Iter",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1876,7 +1876,7 @@
 	{
 		"id": "izaya",
 		"name": "Izaya",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1901,7 +1901,7 @@
 	{
 		"id": "jojo",
 		"name": "JOJO",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1926,7 +1926,7 @@
 	{
 		"id": "jajaswipo",
 		"name": "Jajaswipo",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1951,7 +1951,7 @@
 	{
 		"id": "jez",
 		"name": "Jez",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -1976,7 +1976,7 @@
 	{
 		"id": "joey",
 		"name": "Joey",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2001,7 +2001,7 @@
 	{
 		"id": "kayak",
 		"name": "Kayak",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2026,7 +2026,7 @@
 	{
 		"id": "kevka",
 		"name": "Kevka",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2051,7 +2051,7 @@
 	{
 		"id": "klekt",
 		"name": "Klekt",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2076,7 +2076,7 @@
 	{
 		"id": "kuromoriyu",
 		"name": "KuromoriYu",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2101,7 +2101,7 @@
 	{
 		"id": "lilyuki",
 		"name": "LilYuki",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2126,7 +2126,7 @@
 	{
 		"id": "lileya",
 		"name": "Lileya",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2151,7 +2151,7 @@
 	{
 		"id": "lipelis",
 		"name": "Lipelis",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2176,7 +2176,7 @@
 	{
 		"id": "mumu",
 		"name": "MUMU",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2201,7 +2201,7 @@
 	{
 		"id": "marcia",
 		"name": "Marcia",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2226,7 +2226,7 @@
 	{
 		"id": "mattie",
 		"name": "Mattie",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2251,7 +2251,7 @@
 	{
 		"id": "melody",
 		"name": "Melody",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2276,7 +2276,7 @@
 	{
 		"id": "morpha",
 		"name": "Morpha",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2301,7 +2301,7 @@
 	{
 		"id": "mote",
 		"name": "Mote",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2326,7 +2326,7 @@
 	{
 		"id": "mudkipzjm",
 		"name": "MudkipzJM",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2351,7 +2351,7 @@
 	{
 		"id": "natural",
 		"name": "Natural",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2376,7 +2376,7 @@
 	{
 		"id": "nebula",
 		"name": "Nebula",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2401,7 +2401,7 @@
 	{
 		"id": "nemu",
 		"name": "Nemu",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2426,7 +2426,7 @@
 	{
 		"id": "night",
 		"name": "Night",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2451,7 +2451,7 @@
 	{
 		"id": "niht",
 		"name": "Niht",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2476,7 +2476,7 @@
 	{
 		"id": "no_future",
 		"name": "No Future",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2501,7 +2501,7 @@
 	{
 		"id": "noodle",
 		"name": "Noodle",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2526,7 +2526,7 @@
 	{
 		"id": "oberon",
 		"name": "Oberon",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2551,7 +2551,7 @@
 	{
 		"id": "patrick_bell",
 		"name": "Patrick Bell",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2576,7 +2576,7 @@
 	{
 		"id": "rain",
 		"name": "Rain",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2601,7 +2601,7 @@
 	{
 		"id": "red",
 		"name": "Red",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2626,7 +2626,7 @@
 	{
 		"id": "ridji",
 		"name": "Ridji",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2651,7 +2651,7 @@
 	{
 		"id": "roo",
 		"name": "Roo",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2676,7 +2676,7 @@
 	{
 		"id": "ryan_ford",
 		"name": "Ryan Ford",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2701,7 +2701,7 @@
 	{
 		"id": "saga",
 		"name": "Sage",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2726,7 +2726,7 @@
 	{
 		"id": "saith",
 		"name": "Saith",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2751,7 +2751,7 @@
 	{
 		"id": "sam5655",
 		"name": "Sam5655",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2776,7 +2776,7 @@
 	{
 		"id": "schranko",
 		"name": "Schranko",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2801,7 +2801,7 @@
 	{
 		"id": "scopedout",
 		"name": "ScopedOut",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2826,7 +2826,7 @@
 	{
 		"id": "shin",
 		"name": "Shin",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2851,7 +2851,7 @@
 	{
 		"id": "shovel",
 		"name": "Shovel",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2876,7 +2876,7 @@
 	{
 		"id": "stevecares",
 		"name": "SteveCares",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2901,7 +2901,7 @@
 	{
 		"id": "submarine",
 		"name": "Submarine",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2926,7 +2926,7 @@
 	{
 		"id": "sylph",
 		"name": "Sylph",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2951,7 +2951,7 @@
 	{
 		"id": "tt3",
 		"name": "TT3",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -2976,7 +2976,7 @@
 	{
 		"id": "tom",
 		"name": "Tom",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -3001,7 +3001,7 @@
 	{
 		"id": "travendus",
 		"name": "Travendus",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -3026,7 +3026,7 @@
 	{
 		"id": "tripler",
 		"name": "TripleR",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -3051,7 +3051,7 @@
 	{
 		"id": "ultrajerky",
 		"name": "UltraJerky",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -3076,7 +3076,7 @@
 	{
 		"id": "ume",
 		"name": "Ume",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -3101,7 +3101,7 @@
 	{
 		"id": "uno",
 		"name": "Uno",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -3126,7 +3126,7 @@
 	{
 		"id": "venom",
 		"name": "VENOM",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -3151,7 +3151,7 @@
 	{
 		"id": "wigga",
 		"name": "Wigga",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -3176,7 +3176,7 @@
 	{
 		"id": "xii",
 		"name": "XII",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -3201,7 +3201,7 @@
 	{
 		"id": "yakuza",
 		"name": "Yakuza",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -3226,7 +3226,7 @@
 	{
 		"id": "yuffie",
 		"name": "Yuffie",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -3251,7 +3251,7 @@
 	{
 		"id": "zeal",
 		"name": "Zeal",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -3276,7 +3276,7 @@
 	{
 		"id": "zero_641",
 		"name": "Zero 641",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -3301,7 +3301,7 @@
 	{
 		"id": "zynetic",
 		"name": "Zynetic",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -3326,7 +3326,7 @@
 	{
 		"id": "_shadofix",
 		"name": "_shadowfix",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -3351,7 +3351,7 @@
 	{
 		"id": "ffej",
 		"name": "ffej",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -3376,7 +3376,7 @@
 	{
 		"id": "lil_b",
 		"name": "lil b",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
@@ -3401,7 +3401,7 @@
 	{
 		"id": "thepp0",
 		"name": "thepp0",
-		"image": "images/player.jpg",
+		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
 		"team_ids": [],
