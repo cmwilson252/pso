@@ -4,9 +4,9 @@ const path = require("path");
 hexo.extend.filter.register('before_generate', function(){
     console.log('Starting make_json.js');
     
-    let cwd = process.cwd();
-    let input_data_dir = path.join(cwd, 'source', 'data', '_input');
-    let output_data_dir = path.join(cwd, 'source', 'data');
+    let data_dir = path.join(hexo.base_dir, 'source', 'data');
+    let input_data_dir = path.join(data_dir, '_input');
+    let output_data_dir = path.join(data_dir);
     
     let players = {
         input: path.join(input_data_dir, 'players.json'),
