@@ -96,12 +96,12 @@ window.fourwaypb.players.ready = function() {
                         $('<span/>', {
                             'text': (function() {
                                 let content = '';
-                                //for (let i = 0; i < player.teams.length; i++) {
-                                //    if (i > 0) {
-                                //        content += ', ';
-                                //    }
-                                //    content += player.teams[i];
-                                //}
+                                for (let i = 0; i < player.teams.length; i++) {
+                                    if (i > 0) {
+                                        content += ', ';
+                                    }
+                                    content += player.teams[i].name;
+                                }
                                 return content;
                             }),
                         }),
