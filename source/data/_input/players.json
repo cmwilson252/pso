@@ -33,6 +33,39 @@
 		}
 	},
 	{
+		"id": "soly",
+		"name": "Soly",
+		"image": "images/players/solybum.jpg",
+		"classes": [
+			"racast"
+		],
+		"metas": [
+			"Ultima"
+		],
+		"team_ids": [],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [
+			"Test",
+			"<br/>",
+			"Test"
+		],
+		"discord": "Soly#0637",
+		"twitter": "solybum",
+		"youtube": {
+			"name": "Soleil Rojas",
+			"url": "https://www.youtube.com/channel/UC9gcllXeb1BEkXcfctxMt6w"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "Solybum",
+			"url": "https://github.com/Solybum"
+		}
+	},
+	{
 		"id": "wilson",
 		"name": "Wilson",
 		"image": "images/players/wilson.jpg",
