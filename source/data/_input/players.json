@@ -776,7 +776,7 @@
 	{
 		"id": "armand",
 		"name": "Armand",
-		"image": "images/armand.jpg",
+		"image": "images/players/armand.jpg",
 		"classes": [
 			"hunewearl",
 			"hucast",
