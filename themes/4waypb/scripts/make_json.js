@@ -92,6 +92,8 @@ hexo.extend.filter.register('before_generate', function(){
         let error = 'Could not write players file';
         console.log(error);
         throw error;
+    } else {
+        console.log('Generated '+players.output);
     }
     
     console.log('Finish make_json.js');
