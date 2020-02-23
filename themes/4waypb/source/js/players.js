@@ -139,89 +139,95 @@ window.fourwaypb.players.ready = function() {
                         }),
                     ),
                 ),
-                $('<div/>', {
-                    'class': 'extra content',
-                }).append(
-                    (function() {
-                        let float = false;
-                        let result = [];
-                        
-                        if (player.discord) {
-                            result.push(
+                (function() {
+                    let result = [];
+                    let elements = [];
+                    
+                    if (player.discord) {
+                        elements.push(
+                            $('<span/>', {
+                            }).append(
+                                $('<i/>', {
+                                    'class': 'icon discord',
+                                }),
+                                player.discord,
+                            ),
+                            $('<br />')
+                        );
+                    }
+                    if (player.twitter) {
+                        elements.push(
+                            $('<a/>', {
+                                'href': 'https://twitter.com/'+player.twitter,
+                            }).append(
+                                $('<i/>', {
+                                    'class': 'icon twitter',
+                                }),
                                 $('<span/>', {
-                                }).append(
-                                    $('<i/>', {
-                                        'class': 'icon discord',
-                                    }),
-                                    player.discord,
-                                ),
-                                $('<br />')
-                            );
-                        }
-                        if (player.twitter) {
-                            result.push(
-                                $('<a/>', {
-                                    'href': 'https://twitter.com/'+player.twitter,
-                                }).append(
-                                    $('<i/>', {
-                                        'class': 'icon twitter',
-                                    }),
-                                    $('<span/>', {
-                                        'text': '@'+player.twitter,
-                                    }),
-                                ),
-                                $('<br />')
-                            );
-                        }
-                        if (player.youtube && player.youtube.name && player.youtube.url) {
-                            result.push(
-                                $('<a/>', {
-                                    'href': player.youtube.url,
-                                }).append(
-                                    $('<i/>', {
-                                        'class': 'icon youtube',
-                                    }),
-                                    $('<span/>', {
-                                        'text': player.youtube.name,
-                                    }),
-                                ),
-                                $('<br />')
-                            );
-                        }
-                        if (player.twitch && player.twitch.name && player.twitch.url) {
-                            result.push(
-                                $('<a/>', {
-                                    'href': player.twitch.url,
-                                }).append(
-                                    $('<i/>', {
-                                        'class': 'icon twitch',
-                                    }),
-                                    $('<span/>', {
-                                        'text': player.twitch.name,
-                                    }),
-                                ),
-                                $('<br />')
-                            );
-                        }
-                        if (player.github && player.github.name && player.github.url) {
-                            result.push(
-                                $('<a/>', {
-                                    'href': player.github.url,
-                                }).append(
-                                    $('<i/>', {
-                                        'class': 'icon github',
-                                    }),
-                                    $('<span/>', {
-                                        'text': player.github.name,
-                                    }),
-                                ),
-                                $('<br />')
-                            );
-                        }
-                        
-                        return result;
-                    }),
-                ),
+                                    'text': '@'+player.twitter,
+                                }),
+                            ),
+                            $('<br />')
+                        );
+                    }
+                    if (player.youtube && player.youtube.name && player.youtube.url) {
+                        elements.push(
+                            $('<a/>', {
+                                'href': player.youtube.url,
+                            }).append(
+                                $('<i/>', {
+                                    'class': 'icon youtube',
+                                }),
+                                $('<span/>', {
+                                    'text': player.youtube.name,
+                                }),
+                            ),
+                            $('<br />')
+                        );
+                    }
+                    if (player.twitch && player.twitch.name && player.twitch.url) {
+                        elements.push(
+                            $('<a/>', {
+                                'href': player.twitch.url,
+                            }).append(
+                                $('<i/>', {
+                                    'class': 'icon twitch',
+                                }),
+                                $('<span/>', {
+                                    'text': player.twitch.name,
+                                }),
+                            ),
+                            $('<br />')
+                        );
+                    }
+                    if (player.github && player.github.name && player.github.url) {
+                        elements.push(
+                            $('<a/>', {
+                                'href': player.github.url,
+                            }).append(
+                                $('<i/>', {
+                                    'class': 'icon github',
+                                }),
+                                $('<span/>', {
+                                    'text': player.github.name,
+                                }),
+                            ),
+                            $('<br />')
+                        );
+                    }
+                    
+                    if (elements.length == 0) {
+                        result = null;
+                    } else {
+                        result.push($('<div/>', {
+                            'class': 'extra content',
+                        }).append(
+                            elements,
+                        ));
+                    }
+                    
+                    return result;
+                })(),
             ),
         );
     }
