@@ -67,6 +67,20 @@ window.fourwaypb.players.ready = function() {
                     $('<div/>', {
                         'class': 'meta',
                     }).append(
+                        $('<span/>', {}).append(
+                            $('<span/>', {
+                                'text': '🏆 '+(player.record_results[1] ? player.record_results[1] : '0'),
+                                'title': 'First place records: '+(player.record_results[1] ? player.record_results[1] : '0'),
+                            }),
+                            $('<span/>', {
+                                'text': ' | ',
+                            }),
+                            $('<span/>', {
+                                'text': '⏱️ '+player.record_count,
+                                'title': 'Total records: '+player.record_count,
+                            }),
+                        ),
+                        $('<br/>'),
                         (function() {
                             let result = [];
                             if (player.metas.length > 0) {
@@ -136,7 +150,7 @@ window.fourwaypb.players.ready = function() {
                                 }));
                             }
                             return result;
-                        }),
+                        })(),
                     ),
                 ),
                 (function() {
