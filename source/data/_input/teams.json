@@ -30,6 +30,11 @@
         "image": "images/team.png"
     },
     {
+        "id": "imgay",
+        "name": "IMGAY",
+        "image": "images/team_flags/imgay.png"
+    },
+    {
         "id": "jade",
         "name": "Jade",
         "image": "images/team_flags/jade.png"

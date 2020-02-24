@@ -807,6 +807,35 @@
 		}
 	},
 	{
+		"id": "hardwood",
+		"name": "Hardwood",
+		"image": "images/players/hardwood.png",
+		"classes": [
+			"humar"
+		],
+		"metas": [
+			"Vanilla"
+		],
+		"team_ids": [],
+		"timezone": "EST",
+		"card_content": [],
+		"page_content": [],
+		"discord": "Hardwood#7157",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "armand",
 		"name": "Armand",
 		"image": "images/players/armand.jpg",
