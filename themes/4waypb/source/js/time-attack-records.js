@@ -5,7 +5,7 @@ window.fourwaypb.time_attack_records = window.fourwaypb.time_attack_records || {
 window.fourwaypb.time_attack_records.ready = function() {
     let ready = false;
     let records = null;
-    let SearchSettings = {
+    let search_settings = {
         modes: [],
         metas: [],
         episodes: [],
@@ -13,6 +13,135 @@ window.fourwaypb.time_attack_records.ready = function() {
         photon_blasts: [],
         players: [],
         classes: [],
+        teams: [],
+        quests: [],
+    };
+    let filter_settings = {
+        modes: [
+            {
+                name: 'Normal',
+                value: 'normal'
+            },
+            {
+                name : 'Challenge',
+                value : 'challenge',
+            },
+        ],
+        metas: [
+            {
+                name: 'Vanilla',
+                value: 'vanilla'
+            },
+            {
+                name : '2014',
+                value : '2014',
+            },
+            {
+                name : 'Gamecube',
+                value : 'gamecube',
+            },
+            {
+                name : 'Ultima',
+                value : 'ultima',
+            },
+        ],
+        episodes: [
+            {
+                name: 'Episode 1',
+                value: '1'
+            },
+            {
+                name : 'Episode 2',
+                value : '2',
+            },
+            {
+                name : 'Episode 4',
+                value : '4',
+            },
+        ],
+        categories: [
+            {
+                name: 'OPM',
+                value: 'opm'
+            },
+            {
+                name : '1P',
+                value : '1p',
+            },
+            {
+                name : '2P',
+                value : '2p',
+            },
+            {
+                name : '3P',
+                value : '3p',
+            },
+            {
+                name : '4P',
+                value : '4p',
+            },
+        ],
+        photon_blasts: [
+            {
+                name: 'No PB',
+                value: 'false'
+            },
+            {
+                name : 'PB',
+                value : 'true',
+            },
+        ],
+        classes: [
+            {
+                name: 'HUmar',
+                value: 'humar'
+            },
+            {
+                name: 'HUnewearl',
+                value: 'hunewearl'
+            },
+            {
+                name: 'HUcast',
+                value: 'hucast'
+            },
+            {
+                name: 'HUcaseal',
+                value: 'hucaseal'
+            },
+            {
+                name: 'RAmar',
+                value: 'ramar'
+            },
+            {
+                name: 'RAmarl',
+                value: 'ramarl'
+            },
+            {
+                name: 'RAcast',
+                value: 'racast'
+            },
+            {
+                name: 'RAcaseal',
+                value: 'racaseal'
+            },
+            {
+                name: 'FOmar',
+                value: 'fomar'
+            },
+            {
+                name: 'FOmarl',
+                value: 'fomarl'
+            },
+            {
+                name: 'Fonewm',
+                value: 'fonewm'
+            },
+            {
+                name: 'FOnewearl',
+                value: 'fonewearl'
+            },
+        ],
+        players: [],
         teams: [],
         quests: [],
     };
@@ -64,9 +193,9 @@ window.fourwaypb.time_attack_records.ready = function() {
             let result = true;
             
             // Mode
-            if (SearchSettings.modes.length > 0) {
+            if (search_settings.modes.length > 0) {
                 let group = false;
-                SearchSettings.modes.forEach(function (mode) {
+                search_settings.modes.forEach(function (mode) {
                     if (x.mode == mode) {
                         group = true;
                     }
@@ -77,9 +206,9 @@ window.fourwaypb.time_attack_records.ready = function() {
                 }
             }
             // Meta
-            if (SearchSettings.metas.length > 0) {
+            if (search_settings.metas.length > 0) {
                 let group = false;
-                SearchSettings.metas.forEach(function (meta) {
+                search_settings.metas.forEach(function (meta) {
                     if (x.meta == meta) {
                         group = true;
                     }
@@ -90,9 +219,9 @@ window.fourwaypb.time_attack_records.ready = function() {
                 }
             }
             // Episode
-            if (SearchSettings.episodes.length > 0) {
+            if (search_settings.episodes.length > 0) {
                 let group = false;
-                SearchSettings.episodes.forEach(function (episode) {
+                search_settings.episodes.forEach(function (episode) {
                     if (x.episode == episode) {
                         group = true;
                     }
@@ -103,9 +232,9 @@ window.fourwaypb.time_attack_records.ready = function() {
                 }
             }
             // Category
-            if (SearchSettings.categories.length > 0) {
+            if (search_settings.categories.length > 0) {
                 let group = false;
-                SearchSettings.categories.forEach(function (category) {
+                search_settings.categories.forEach(function (category) {
                     if (x.category == category) {
                         group = true;
                     }
@@ -116,9 +245,9 @@ window.fourwaypb.time_attack_records.ready = function() {
                 }
             }
             // Photon Blast
-            if (SearchSettings.photon_blasts.length > 0) {
+            if (search_settings.photon_blasts.length > 0) {
                 let group = false;
-                SearchSettings.photon_blasts.forEach(function (photon_blast) {
+                search_settings.photon_blasts.forEach(function (photon_blast) {
                     if (String(x.pb) == photon_blast) {
                         group = true;
                     }
@@ -129,9 +258,9 @@ window.fourwaypb.time_attack_records.ready = function() {
                 }
             }
             // Player names
-            if (SearchSettings.players.length > 0) {
+            if (search_settings.players.length > 0) {
                 let group = false;
-                SearchSettings.players.forEach(function (player) {
+                search_settings.players.forEach(function (player) {
                     for (let i = 0; i < x.players.length; i++) {
                         if (x.players[i].id == player) {
                             group = true;
@@ -145,9 +274,9 @@ window.fourwaypb.time_attack_records.ready = function() {
                 }
             }
             // Classes
-            if (SearchSettings.classes.length > 0) {
+            if (search_settings.classes.length > 0) {
                 let group = false;
-                SearchSettings.classes.forEach(function (className) {
+                search_settings.classes.forEach(function (className) {
                     for (let i = 0; i < x.players.length; i++) {
                         if (x.players[i].class == className) {
                             group = true;
@@ -161,9 +290,9 @@ window.fourwaypb.time_attack_records.ready = function() {
                 }
             }
             // Team names
-            if (SearchSettings.teams.length > 0) {
+            if (search_settings.teams.length > 0) {
                 let group = false;
-                SearchSettings.teams.forEach(function (team) {
+                search_settings.teams.forEach(function (team) {
                     if (x.team != null && x.team.id == team) {
                         group = true;
                     }
@@ -174,9 +303,9 @@ window.fourwaypb.time_attack_records.ready = function() {
                 }
             }
             // Quest names
-            if (SearchSettings.quests.length > 0) {
+            if (search_settings.quests.length > 0) {
                 let group = false;
-                SearchSettings.quests.forEach(function (quest) {
+                search_settings.quests.forEach(function (quest) {
                     if (x.quest != null && x.quest.id == quest) {
                         group = true;
                     }
@@ -192,25 +321,17 @@ window.fourwaypb.time_attack_records.ready = function() {
         return data;
     }
     
-    function updateSearchSettings() {
-        SearchSettings.modes = $('#modes').dropdown('get values');
-        SearchSettings.metas = $('#metas').dropdown('get values');
-        SearchSettings.episodes = $('#episodes').dropdown('get values');
-        SearchSettings.categories = $('#categories').dropdown('get values');
-        SearchSettings.photon_blasts = $('#photon_blasts').dropdown('get values');
-        SearchSettings.players = $('#players').dropdown('get values');
-        SearchSettings.classes = $('#classes').dropdown('get values');
-        SearchSettings.teams = $('#teams').dropdown('get values');
-        SearchSettings.quests = $('#quests').dropdown('get values');
+    function updatesearch_settings() {
+        search_settings.modes = $('#modes').dropdown('get values');
+        search_settings.metas = $('#metas').dropdown('get values');
+        search_settings.episodes = $('#episodes').dropdown('get values');
+        search_settings.categories = $('#categories').dropdown('get values');
+        search_settings.photon_blasts = $('#photon_blasts').dropdown('get values');
+        search_settings.players = $('#players').dropdown('get values');
+        search_settings.classes = $('#classes').dropdown('get values');
+        search_settings.teams = $('#teams').dropdown('get values');
+        search_settings.quests = $('#quests').dropdown('get values');
     }
-    
-    $('#search').on('click', function() {
-        updateSearchSettings();
-        updateResults();
-        //$('html, body').animate({
-        //    scrollTop: $("#results").offset().top - 50,
-        //}, 500);
-    });
     
     function updateDropdownColumns() {
         let elements = $('.columned');
@@ -231,145 +352,8 @@ window.fourwaypb.time_attack_records.ready = function() {
         });
     }
     
-    function filters1() {
-        $('#modes').dropdown({
-            values: [
-                {
-                    name: 'Normal',
-                    value: 'normal'
-                },
-                {
-                    name : 'Challenge',
-                    value : 'challenge',
-                }
-            ]
-        });
-        $('#metas').dropdown({
-            values: [
-                {
-                    name: 'Vanilla',
-                    value: 'vanilla'
-                },
-                {
-                    name : '2014',
-                    value : '2014',
-                },
-                {
-                    name : 'Gamecube',
-                    value : 'gamecube',
-                },
-                {
-                    name : 'Ultima',
-                    value : 'ultima',
-                }
-            ]
-        });
-        $('#episodes').dropdown({
-            values: [
-                {
-                    name: 'Episode 1',
-                    value: '1'
-                },
-                {
-                    name : 'Episode 2',
-                    value : '2',
-                },
-                {
-                    name : 'Episode 4',
-                    value : '4',
-                }
-            ]
-        });
-        $('#categories').dropdown({
-            values: [
-                {
-                    name: 'OPM',
-                    value: 'opm'
-                },
-                {
-                    name : '1P',
-                    value : '1p',
-                },
-                {
-                    name : '2P',
-                    value : '2p',
-                },
-                {
-                    name : '3P',
-                    value : '3p',
-                },
-                {
-                    name : '4P',
-                    value : '4p',
-                }
-            ]
-        });
-        $('#photon_blasts').dropdown({
-            values: [
-                {
-                    name: 'No PB',
-                    value: 'false'
-                },
-                {
-                    name : 'PB',
-                    value : 'true',
-                }
-            ]
-        });
-        $('#classes').dropdown({
-            values: [
-                {
-                    name: 'HUmar',
-                    value: 'humar'
-                },
-                {
-                    name: 'HUnewearl',
-                    value: 'hunewearl'
-                },
-                {
-                    name: 'HUcast',
-                    value: 'hucast'
-                },
-                {
-                    name: 'HUcaseal',
-                    value: 'hucaseal'
-                },
-                {
-                    name: 'RAmar',
-                    value: 'ramar'
-                },
-                {
-                    name: 'RAmarl',
-                    value: 'ramarl'
-                },
-                {
-                    name: 'RAcast',
-                    value: 'racast'
-                },
-                {
-                    name: 'RAcaseal',
-                    value: 'racaseal'
-                },
-                {
-                    name: 'FOmar',
-                    value: 'fomar'
-                },
-                {
-                    name: 'FOmarl',
-                    value: 'fomarl'
-                },
-                {
-                    name: 'Fonewm',
-                    value: 'fonewm'
-                },
-                {
-                    name: 'FOnewearl',
-                    value: 'fonewearl'
-                }
-            ]
-        });
-    };
-    function filters2() {
+    function buildDynamicFilters() {
+        // Players
         let players = [];
         records.forEach(function(record) {
             record.players.forEach(function(player) {
@@ -380,19 +364,15 @@ window.fourwaypb.time_attack_records.ready = function() {
             });
         });
         players = _.sortBy(players, ['name']);
-        
-        let players_dropdown = {
-            values: [],
-        };
+        filter_settings.players = [];
         players.forEach(function(player) {
-            players_dropdown.values.push({
+            filter_settings.players.push({
                 value: player.id,
-                //text: player.name,
                 name: player.name,
             });
         });
-        $('#players').dropdown(players_dropdown);
         
+        // Teams
         let teams = [];
         records.forEach(function(record) {
             if (record.team != null) {
@@ -403,20 +383,16 @@ window.fourwaypb.time_attack_records.ready = function() {
             }
         });
         teams = _.sortBy(teams, ['name']);
-        
-        let teams_dropdown = {
-            values: [],
-        };
+        filter_settings.teams = [];
         teams.forEach(function(team) {
-            teams_dropdown.values.push({
+            filter_settings.teams.push({
                 value: team.id,
-                //text: team.name,
                 name: team.name,
                 image: url_for(team.image),
             });
         });
-        $('#teams').dropdown(teams_dropdown);
         
+        // Quests
         let quests = [];
         records.forEach(function(record) {
             if (record.quest != null) {
@@ -427,19 +403,43 @@ window.fourwaypb.time_attack_records.ready = function() {
             }
         });
         quests = _.sortBy(quests, ['name']);
-        
-        let quests_dropdown = {
-            values: [],
-        };
+        filter_settings.quests = [];
         quests.forEach(function(quest) {
-            quests_dropdown.values.push({
+            filter_settings.quests.push({
                 value: quest.id,
-                //text: quest.name,
                 name: quest.name,
             });
         });
-        $('#quests').dropdown(quests_dropdown);
+    }
+    function filters() {
+        buildDynamicFilters();
+        
+        $('#modes').dropdown({ values: filter_settings.modes, });
+        $('#metas').dropdown({ values: filter_settings.metas, });
+        $('#episodes').dropdown({ values: filter_settings.episodes, });
+        $('#categories').dropdown({ values: filter_settings.categories, });
+        $('#photon_blasts').dropdown({ values: filter_settings.photon_blasts, });
+        $('#classes').dropdown({ values: filter_settings.classes, });
+        $('#players').dropdown({ values: filter_settings.players, });
+        $('#teams').dropdown({ values: filter_settings.teams, });
+        $('#quests').dropdown({ values: filter_settings.quests, });
     };
+    function handlers() {
+        // TODO add handlers to all filters
+        
+        $('#search').on('click', function() {
+            updatesearch_settings();
+            updateResults();
+            //$('html, body').animate({
+            //    scrollTop: $("#results").offset().top - 50,
+            //}, 500);
+        });
+        
+        $(window).on('resize', _.debounce(function () {
+            updateDropdownColumns();
+        }, 250));
+        updateDropdownColumns();
+    }
     function filters3() {
         var table = new Tabulator("#results-table", {
             data: records,
@@ -530,14 +530,9 @@ window.fourwaypb.time_attack_records.ready = function() {
     }
     
     function setupPage() {
-        filters1();
-        filters2();
+        filters();
+        handlers();
         filters3();
-        
-        $(window).on('resize', _.debounce(function () {
-            updateDropdownColumns();
-        }, 250));
-        updateDropdownColumns();
     };
     
     getJSON5(url_for('data/records.json'), (function(data) {
