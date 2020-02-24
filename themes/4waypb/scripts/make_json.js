@@ -258,6 +258,7 @@ hexo.extend.filter.register('after_init', function(){
                 }
             } else {
                 record.team = {
+                    id: team.id,
                     name: team.name,
                     image: team.image,
                 };
