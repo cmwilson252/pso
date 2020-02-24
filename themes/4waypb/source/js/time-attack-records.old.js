@@ -77,10 +77,8 @@ window.fourwaypb.time_attack_records.ready = function() {
         episodes: [],
         categories: [],
         photon_blasts: [],
-        players: [],
         classes: [],
-        teams: [],
-        quests: [],
+        players: [],
     };
     
     let RESULT_ELEMENT_TEMPLATE = `
@@ -249,22 +247,6 @@ window.fourwaypb.time_attack_records.ready = function() {
                     result = false;
                 }
             }
-            // Player names
-            if (SearchSettings.players.length > 0) {
-                let group = false;
-                SearchSettings.players.forEach(function (player) {
-                    for (let i = 0; i < x.players.length; i++) {
-                        if (x.players[i].id == player) {
-                            group = true;
-                            break;
-                        }
-                    }
-                });
-                
-                if (!group) {
-                    result = false;
-                }
-            }
             // Classes
             if (SearchSettings.classes.length > 0) {
                 let group = false;
@@ -281,25 +263,15 @@ window.fourwaypb.time_attack_records.ready = function() {
                     result = false;
                 }
             }
-            // Team names
-            if (SearchSettings.teams.length > 0) {
+            // Player names
+            if (SearchSettings.players.length > 0) {
                 let group = false;
-                SearchSettings.teams.forEach(function (team) {
-                    if (x.team != null && x.team.id == team) {
-                        group = true;
-                    }
-                });
-                
-                if (!group) {
-                    result = false;
-                }
-            }
-            // Quest names
-            if (SearchSettings.quests.length > 0) {
-                let group = false;
-                SearchSettings.quests.forEach(function (quest) {
-                    if (x.quest != null && x.quest.id == quest) {
-                        group = true;
+                SearchSettings.players.forEach(function (player) {
+                    for (let i = 0; i < x.players.length; i++) {
+                        if (x.players[i].id == player) {
+                            group = true;
+                            break;
+                        }
                     }
                 });
                 
@@ -377,10 +349,8 @@ window.fourwaypb.time_attack_records.ready = function() {
         SearchSettings.episodes = $('#episodes').dropdown('get values');
         SearchSettings.categories = $('#categories').dropdown('get values');
         SearchSettings.photon_blasts = $('#photon_blasts').dropdown('get values');
-        SearchSettings.players = $('#players').dropdown('get values');
         SearchSettings.classes = $('#classes').dropdown('get values');
-        SearchSettings.teams = $('#teams').dropdown('get values');
-        SearchSettings.quests = $('#quests').dropdown('get values');
+        SearchSettings.players = $('#players').dropdown('get values');
     }
     
     $('#search').on('click', function() {
@@ -392,25 +362,42 @@ window.fourwaypb.time_attack_records.ready = function() {
     });
     
     function updateDropdownColumns() {
-        let elements = $('.columned');
-        elements.removeClass('column one two three four');
-        
-        elements.each(function() {
-            let max_columns = $(this).data('max-columns');
-            if (window.innerWidth <= 375 || max_columns < 2) {
-                $(this).addClass('one');
-            } else if (window.innerWidth <= 480 || max_columns < 3) {
-                $(this).addClass('two');
-            } else if (window.innerWidth <= 768 || max_columns < 4) {
-                $(this).addClass('three');
-            } else {
-                $(this).addClass('four');
-            }
-            $(this).addClass('column');
-        });
+        $('.columned').removeClass('column one two three four');
+        if (window.innerWidth <= 375) {
+            $('.columned').addClass('one');
+        } else if (window.innerWidth <= 480) {
+            $('.columned').addClass('two');
+        } else if (window.innerWidth <= 768) {
+            $('.columned').addClass('three');
+        } else {
+            $('.columned').addClass('four');
+        }
+        $('.columned').addClass('column');
     }
     
     function setupPage() {
+        let players = [];
+        records.forEach(function(record) {
+            record.players.forEach(function(player) {
+                let current_player = players.find(x => x.id == player.id);
+                if (current_player == undefined) {
+                    players.push(player);
+                }
+            });
+        });
+        players = _.sortBy(players, ['name']);
+        
+        let dropdown = {
+            values: [],
+        };
+        players.forEach(function(player) {
+            dropdown.values.push({
+                value: player.id,
+                //text: player.name,
+                name: player.name,
+            });
+        });
+        
         $('#modes').dropdown({
             values: [
                 {
@@ -547,77 +534,7 @@ window.fourwaypb.time_attack_records.ready = function() {
                 }
             ]
         });
-        
-        let players = [];
-        records.forEach(function(record) {
-            record.players.forEach(function(player) {
-                let current_player = players.find(x => x.id == player.id);
-                if (current_player == undefined) {
-                    players.push(player);
-                }
-            });
-        });
-        players = _.sortBy(players, ['name']);
-        
-        let players_dropdown = {
-            values: [],
-        };
-        players.forEach(function(player) {
-            players_dropdown.values.push({
-                value: player.id,
-                //text: player.name,
-                name: player.name,
-            });
-        });
-        $('#players').dropdown(players_dropdown);
-        
-        let teams = [];
-        records.forEach(function(record) {
-            if (record.team != null) {
-                let current_team = teams.find(x => x.id == record.team.id);
-                if (current_team == undefined) {
-                    teams.push(record.team);
-                }
-            }
-        });
-        teams = _.sortBy(teams, ['name']);
-        
-        let teams_dropdown = {
-            values: [],
-        };
-        teams.forEach(function(team) {
-            teams_dropdown.values.push({
-                value: team.id,
-                //text: team.name,
-                name: team.name,
-                image: url_for(team.image),
-            });
-        });
-        $('#teams').dropdown(teams_dropdown);
-        
-        let quests = [];
-        records.forEach(function(record) {
-            if (record.quest != null) {
-                let current_quest = quests.find(x => x.id == record.quest.id);
-                if (current_quest == undefined) {
-                    quests.push(record.quest);
-                }
-            }
-        });
-        quests = _.sortBy(quests, ['name']);
-        
-        let quests_dropdown = {
-            values: [],
-        };
-        quests.forEach(function(quest) {
-            quests_dropdown.values.push({
-                value: quest.id,
-                //text: quest.name,
-                name: quest.name,
-            });
-        });
-        $('#quests').dropdown(quests_dropdown);
-        
+        $('#players').dropdown(dropdown);
         
         $(window).on('resize', _.debounce(function () {
             updateDropdownColumns();
