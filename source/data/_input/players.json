@@ -779,6 +779,37 @@
 		}
 	},
 	{
+		"id": "hardwood",
+		"name": "Hardwood",
+		"image": "images/players/hardwood.png",
+		"classes": [
+			"humar"
+		],
+		"metas": [
+			"Vanilla"
+		],
+		"team_ids": [
+			"imgay"
+		],
+		"timezone": "EST",
+		"card_content": [],
+		"page_content": [],
+		"discord": "Hardwood#7157",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "nohit",
 		"name": "NoHit",
 		"image": "images/players/nohit.png",
@@ -1838,31 +1869,6 @@
 		}
 	},
 	{
-		"id": "hardwood",
-		"name": "Hardwood",
-		"image": "images/player.png",
-		"classes": [],
-		"metas": [],
-		"team_ids": [],
-		"timezone": "",
-		"card_content": [],
-		"page_content": [],
-		"discord": "",
-		"twitter": "",
-		"youtube": {
-			"name": "",
-			"url": ""
-		},
-		"twitch": {
-			"name": "",
-			"url": ""
-		},
-		"github": {
-			"name": "",
-			"url": ""
-		}
-	},
-	{
 		"id": "hatral",
 		"name": "Hatral",
 		"image": "images/player.png",
@@ -2764,7 +2770,7 @@
 	},
 	{
 		"id": "saga",
-		"name": "Sage",
+		"name": "Saga",
 		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
