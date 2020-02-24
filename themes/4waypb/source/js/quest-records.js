@@ -268,7 +268,7 @@ window.fourwaypb.quest_records.ready = function() {
                 let group = false;
                 SearchSettings.players.forEach(function (player) {
                     for (let i = 0; i < x.players.length; i++) {
-                        if (x.players[i].name == player) {
+                        if (x.players[i].id == player) {
                             group = true;
                             break;
                         }
