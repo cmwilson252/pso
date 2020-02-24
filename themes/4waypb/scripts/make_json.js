@@ -127,6 +127,7 @@ hexo.extend.filter.register('after_init', function(){
     // Process files
     let has_errors = false;
     
+    // Pre populate record quests so filtering works
     console.log('Pre-populating records data (quest only)');
     records.data.forEach(function(record, index) {
         record.index = index;
@@ -139,6 +140,7 @@ hexo.extend.filter.register('after_init', function(){
             has_errors = true;
         } else {
             record.quest = {
+                id: quest.id,
                 name: quest.name,
                 is_countdown: quest.is_countdown,
             };
