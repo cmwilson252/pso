@@ -1,8 +1,8 @@
 window.fourwaypb = window.fourwaypb || {};
-window.fourwaypb.quest_records = window.fourwaypb.quest_records || {};
+window.fourwaypb.time_attack_records = window.fourwaypb.time_attack_records || {};
 
 // ready event
-window.fourwaypb.quest_records.ready = function() {
+window.fourwaypb.time_attack_records.ready = function() {
     
     let ready = false;
     let records = null;
@@ -554,5 +554,5 @@ window.fourwaypb.quest_records.ready = function() {
 
 // attach ready event
 window.addEventListener('DOMContentLoaded', function() {
-    window.fourwaypb.quest_records.ready();
+    window.fourwaypb.time_attack_records.ready();
 });
