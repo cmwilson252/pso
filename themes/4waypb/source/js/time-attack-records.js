@@ -3,74 +3,8 @@ window.fourwaypb.time_attack_records = window.fourwaypb.time_attack_records || {
 
 // ready event
 window.fourwaypb.time_attack_records.ready = function() {
-    
     let ready = false;
     let records = null;
-    let HeaderList = [
-        {
-            key: "meta",
-            header: "Meta",
-            collapse: false,
-            last_value: null,
-            formatter: (x) => {
-                return metaToName(x);
-            }
-        },
-        {
-            key: "episode",
-            header: "Episode",
-            collapse: false,
-            last_value: null,
-            formatter: (x) => {
-                return "Episode "+x;
-            }
-        },
-        {
-            key: "quest",
-            header: "Quest",
-            collapse: true,
-            last_value: null,
-            formatter: (x) => {
-                return x.name;
-            }
-        },
-        {
-            key: "time",
-            header: "Time",
-            collapse: false,
-            last_value: null,
-            formatter: (x) => {
-                return secondsToString(x);
-            }
-        },
-        {
-            key: "players",
-            header: "Players",
-            collapse: false,
-            last_value: null,
-            formatter: (x) => {
-                return playerNamesToList(x);
-            }
-        },
-        {
-            key: "players",
-            header: "Classes",
-            collapse: false,
-            last_value: null,
-            formatter: (x) => {
-                return playerClassesToList(x);
-            }
-        },
-        {
-            key: "team",
-            header: "Team",
-            collapse: false,
-            last_value: null,
-            formatter: (x) => {
-                return (x ? x.name : "");
-            }
-        },
-    ]
     let SearchSettings = {
         modes: [],
         metas: [],
@@ -82,36 +16,6 @@ window.fourwaypb.time_attack_records.ready = function() {
         teams: [],
         quests: [],
     };
-    
-    let RESULT_ELEMENT_TEMPLATE = `
-    <tr>
-        __ELEMENT_VALUE_LIST__
-    </tr>
-    `
-    let RESULT_ELEMENT_VALUE_TEMPLATE = `
-    <td>
-        __VALUE__
-    </td>
-    `
-    let RESULT_HEADER_TEMPLATE = `
-    <th>
-        <a>
-            __HEADER__
-        </a>
-    </th>
-    `
-    let RESULT_LIST_TEMPLATE = `
-    <table class="ui selectable inverted table">
-        <thead>
-            <tr>
-                __HEADER_LIST__
-            </tr>
-        </thead>
-        <tbody>
-        __ELEMENT_LIST__
-        </tbody>
-    </table>
-    `
     
     function metaToName(code){
         switch(code){
@@ -148,31 +52,6 @@ window.fourwaypb.time_attack_records.ready = function() {
             case 'fonewearl':   return 'FOnewearl';
             default: return "Unknown";
         }
-    }
-    
-    function playerNamesToList(arr){
-        let result = '';
-        for (let i = 0; i < arr.length; i++) {
-            if (i != 0) {
-                result += '</br>';
-            }
-            result += arr[i].name;
-        }
-        return result;
-    }
-    function playerClassesToList(arr){
-        let result = '';
-        for (let i = 0; i < arr.length; i++) {
-            if (i != 0) {
-                result += '</br>';
-            }
-            result += classKeyToName(arr[i].class);
-        }
-        return result;
-    }
-    
-    function xor(a, b) {
-        return (a || b) && !(a && b);
     }
     
     function filterData() {
@@ -312,64 +191,6 @@ window.fourwaypb.time_attack_records.ready = function() {
         });
         return data;
     }
-    function updateResults() {
-        if (!ready) {
-            $('#results').empty().append('Records not loaded');
-            return;
-        }
-        
-        let data = filterData();
-        
-        // Sort by time and group by quest (flatten afterwards)
-        data = _.sortBy(data, function(x) {
-            if (x.quest.is_countdown) {
-                return x.time * -1;
-            } else {
-                return x.time;
-            }
-        });
-        data = _.groupBy(data, x => x.quest.id);
-        data = _.flatMap(data, x => x);
-    
-        let result_string = RESULT_LIST_TEMPLATE.substring(0);
-        // build header list
-        let headerList_string = "";
-        for(let i=0; i < HeaderList.length; i++){
-            let header_string = RESULT_HEADER_TEMPLATE.substring(0);
-            header_string = header_string.replace(/__HEADER__/g, HeaderList[i].header)
-            headerList_string += header_string;
-        }
-        // build results list
-        let elementList_string = "";
-        for(let d=0; d < data.length; d++){
-            let current_quest = data[d];
-            let quest_row_string = "";
-    
-            for(let i=0; i < HeaderList.length; i++){
-                let element_string = RESULT_ELEMENT_VALUE_TEMPLATE.substring(0);
-                let formatter = HeaderList[i].formatter;
-                let value = formatter(current_quest[HeaderList[i].key]);
-                
-                if (current_quest.quest.is_countdown && HeaderList[i].key == 'time') {
-                    value = "Remaining: "+value;
-                }
-                
-                if (HeaderList[i].collapse && HeaderList[i].last_value == value) {
-                    element_string = element_string.replace("__VALUE__","");
-                } else {
-                    element_string = element_string.replace("__VALUE__",value);
-                    HeaderList[i].last_value = value;
-                }
-                quest_row_string += element_string;
-            }
-            quest_row_string = RESULT_ELEMENT_TEMPLATE.substring(0).replace("__ELEMENT_VALUE_LIST__",quest_row_string);
-            elementList_string += quest_row_string;
-        }
-        result_string = result_string.replace("__HEADER_LIST__",headerList_string);
-        result_string = result_string.replace("__ELEMENT_LIST__",elementList_string);
-    
-        $('#results').empty().append(result_string);
-    }
     
     function updateSearchSettings() {
         SearchSettings.modes = $('#modes').dropdown('get values');
@@ -386,9 +207,9 @@ window.fourwaypb.time_attack_records.ready = function() {
     $('#search').on('click', function() {
         updateSearchSettings();
         updateResults();
-        $('html, body').animate({
-            scrollTop: $("#results").offset().top - 50,
-        }, 500);
+        //$('html, body').animate({
+        //    scrollTop: $("#results").offset().top - 50,
+        //}, 500);
     });
     
     function updateDropdownColumns() {
@@ -410,15 +231,6 @@ window.fourwaypb.time_attack_records.ready = function() {
         });
     }
     
-    function setupPage() {
-        filters1();
-        filters2();
-        
-        $(window).on('resize', _.debounce(function () {
-            updateDropdownColumns();
-        }, 250));
-        updateDropdownColumns();
-    };
     function filters1() {
         $('#modes').dropdown({
             values: [
@@ -627,7 +439,107 @@ window.fourwaypb.time_attack_records.ready = function() {
             });
         });
         $('#quests').dropdown(quests_dropdown);
-        
+    };
+    function filters3() {
+        var table = new Tabulator("#results-table", {
+            data: records,
+            layout:"fitColumns",
+            groupBy: function(data) {
+                return data.quest.name;
+            },
+            groupHeader:function(value, count, data, group){
+                //value - the value all members of this group share
+                //count - the number of rows in this group
+                //data - an array of all the row data objects in this group
+                //group - the group component for the group
+            
+                return value + "<span style='color:#d00; margin-left:10px;'>(" + count + " item" + (count == 1 ? '' : 's') +")</span>";
+            },
+            columns:[
+                {title:"Meta", field:"meta", sorter:"string",formatter:function(cell, formatterParams, onRendered) {
+                    let result = '';
+                    let value = cell.getValue();
+                    result = metaToName(value);
+                    return result;
+                },width:80,},
+                {title:"Episode", field:"episode", sorter:"number",width:85},
+                {title:"Quest", field:"quest.name", sorter:"string",widthGrow:1,},
+                {title:"Time", field:"time", sorter:function(a, b, aRow, bRow, column, dir, sorterParams){
+                        if (aRow.getData().quest.is_countdown) {
+                            a *= -1;
+                        }
+                        if (bRow.getData().quest.is_countdown) {
+                            b *= -1;
+                        }
+                        
+                        return a - b;
+                    },
+                    formatter:function(cell, formatterParams, onRendered) {
+                        let result = '';
+                        let format = 'mm:ss';
+                        let seconds = cell.getValue();
+                        if (seconds >= 3600) {
+                            format = 'HH:mm:ss';
+                        }
+                        result = secondsToString(seconds);
+                        if (cell.getRow().getData().quest.is_countdown) {
+                            result = 'Remaining: '+result;
+                        }
+                        return result;
+                },width:150,},
+                {title:"Team", field:"team", sorter:"string",formatter:function(cell, formatterParams, onRendered) {
+                    let result = '';
+                    let value = cell.getValue();
+                    if (value != null) {
+                        result += '<span class="ui image team-flag"><img src="'+url_for(value.image)+'"></span>';
+                        result += value.name;
+                        result += '<br/>';
+                    }
+                    return result;
+                },widthGrow:1,},
+                {title:"Players", field:"players", sorter:"string",formatter:function(cell, formatterParams, onRendered) {
+                    let result = '';
+                    let value = cell.getValue();
+                    if (value instanceof Array) {
+                        value.forEach(function(player){
+                            result += player.name;
+                            result += '<br/>';
+                        });
+                    }
+                    return result;
+                },widthGrow:1,},
+                {title:"Classes", field:"players", sorter:"string",formatter:function(cell, formatterParams, onRendered) {
+                    let result = '';
+                    let value = cell.getValue();
+                    if (value instanceof Array) {
+                        value.forEach(function(player){
+                            result += classKeyToName(player.class);
+                            result += '<br/>';
+                        });
+                    }
+                    return result;
+                },width:100,},
+                {title:"Videos", field:"players", sorter:"string",formatter:function(cell, formatterParams, onRendered) {
+                    let result = '';
+                    let value = cell.getValue();
+                    if (value instanceof Array) {
+                        value.forEach(function(player){
+                            if (true || player.video) {
+                                result += '<a href="'+'#some_link'+'"/>Video</a>';
+                            }
+                            result += '<br/>';
+                        });
+                    }
+                    return result;
+                },width:100,},
+            ],
+        });
+    }
+    
+    function setupPage() {
+        filters1();
+        filters2();
+        filters3();
         
         $(window).on('resize', _.debounce(function () {
             updateDropdownColumns();
