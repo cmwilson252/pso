@@ -11,3 +11,5 @@ source/data/players.json
 source/data/quests.json
 source/data/records.json
 source/data/teamz.json
+
+source/data/players/*.json

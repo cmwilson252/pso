@@ -7,10 +7,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 701,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Sylph",
+				"id": "sylph",
 				"class": "racast"
 			}
 		]
@@ -23,22 +23,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 1206,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "hucast"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			},
 			{
-				"name": "Wilson",
+				"id": "wilson",
 				"class": "hucast"
 			},
 			{
-				"name": "Starlord",
+				"id": "starlord",
 				"class": "hucast"
 			}
 		]
@@ -51,10 +51,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 759,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Sylph",
+				"id": "sylph",
 				"class": "racast"
 			}
 		]
@@ -67,22 +67,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 1153,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "hucast"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			},
 			{
-				"name": "HUNTER_",
+				"id": "hunter",
 				"class": "hucast"
 			},
 			{
-				"name": "Starlord",
+				"id": "starlord",
 				"class": "hucast"
 			}
 		]
@@ -95,22 +95,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 1031,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "hucast"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			},
 			{
-				"name": "ScopedOut",
+				"id": "scopedout",
 				"class": "hucast"
 			},
 			{
-				"name": "Starlord",
+				"id": "starlord",
 				"class": "hucast"
 			}
 		]
@@ -123,10 +123,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 670,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Sylph",
+				"id": "sylph",
 				"class": "racast"
 			}
 		]
@@ -139,10 +139,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 1586,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Sylph",
+				"id": "sylph",
 				"class": "hucast"
 			}
 		]
@@ -155,14 +155,14 @@
 		"category": "2p",
 		"pb": true,
 		"time": 217,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Wilson",
+				"id": "wilson",
 				"class": "hucast"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			}
 		]
@@ -175,14 +175,14 @@
 		"category": "2p",
 		"pb": true,
 		"time": 230,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "HUNTER_",
+				"id": "hunter",
 				"class": "hucast"
 			},
 			{
-				"name": "Starlord",
+				"id": "starlord",
 				"class": "hucast"
 			}
 		]
@@ -195,14 +195,14 @@
 		"category": "2p",
 		"pb": true,
 		"time": 242,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Wilson",
+				"id": "wilson",
 				"class": "hucast"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			}
 		]
@@ -215,14 +215,14 @@
 		"category": "2p",
 		"pb": true,
 		"time": 255,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "HUNTER_",
+				"id": "hunter",
 				"class": "hucast"
 			},
 			{
-				"name": "Starlord",
+				"id": "starlord",
 				"class": "hucast"
 			}
 		]
@@ -235,10 +235,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 351,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			}
 		]
@@ -251,10 +251,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 357,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Starlord",
+				"id": "starlord",
 				"class": "hucast"
 			}
 		]
@@ -267,15 +267,14 @@
 		"category": "1p",
 		"pb": false,
 		"time": 426,
-		"team": "Univers-PS",
+		"team_id": "univers_ps",
 		"players": [
 			{
-				"name": "Noudle",
+				"id": "noudle",
 				"class": "hucaseal"
 			}
 		]
 	},
-
 	{
 		"mode": "normal",
 		"quest_id": "mu1",
@@ -284,10 +283,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 376,
-		"team": "Jade",
+		"team_id": "jade",
 		"players": [
 			{
-				"name": "Shin",
+				"id": "shin",
 				"class": "ramar"
 			}
 		]
@@ -300,10 +299,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 373,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Yannv",
+				"id": "yannv",
 				"class": "racast"
 			}
 		]
@@ -316,10 +315,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 372,
-		"team": "Univers-PS",
+		"team_id": "univers_ps",
 		"players": [
 			{
-				"name": "Shiida",
+				"id": "shiida",
 				"class": "racast"
 			}
 		]
@@ -332,14 +331,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 399,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Starlord",
+				"id": "starlord",
 				"class": "ramarl"
 			},
 			{
-				"name": "Wilson",
+				"id": "wilson",
 				"class": "racast"
 			}
 		]
@@ -352,18 +351,18 @@
 		"category": "3p",
 		"pb": false,
 		"time": 528,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Lemon",
+				"id": "lemon",
 				"class": "racaseal"
 			},
 			{
-				"name": "Wilson",
+				"id": "wilson",
 				"class": "hunewearl"
 			},
 			{
-				"name": "Jez",
+				"id": "jez",
 				"class": "hucast"
 			}
 		]
@@ -376,18 +375,18 @@
 		"category": "3p",
 		"pb": false,
 		"time": 563,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Wilson",
+				"id": "wilson",
 				"class": "hucast"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			},
 			{
-				"name": "NDW",
+				"id": "ndw",
 				"class": "fomar"
 			}
 		]
@@ -400,18 +399,18 @@
 		"category": "3p",
 		"pb": false,
 		"time": 570,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			},
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "ramarl"
 			},
 			{
-				"name": "ScopedOut",
+				"id": "scopedout",
 				"class": "hucast"
 			}
 		]
@@ -424,18 +423,18 @@
 		"category": "3p",
 		"pb": false,
 		"time": 586,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "fonewm"
 			},
 			{
-				"name": "UltraJerky",
+				"id": "ultrajerky",
 				"class": "hucast"
 			},
 			{
-				"name": "Yakuza",
+				"id": "yakuza",
 				"class": "hucaseal"
 			}
 		]
@@ -448,10 +447,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 608,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "humar"
 			}
 		]
@@ -464,10 +463,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 635,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			}
 		]
@@ -480,10 +479,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 639,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "hunewearl"
 			}
 		]
@@ -496,10 +495,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 656,
-		"team": "Illuminati",
+		"team_id": "illuminati",
 		"players": [
 			{
-				"name": "Izaya",
+				"id": "izaya",
 				"class": "fomar"
 			}
 		]
@@ -512,14 +511,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 538,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "hunewearl"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			}
 		]
@@ -532,14 +531,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 576,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "ScopedOut",
+				"id": "scopedout",
 				"class": "hunewearl"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			}
 		]
@@ -552,14 +551,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 600,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "El Socko",
+				"id": "el_socko",
 				"class": "racast"
 			},
 			{
-				"name": "Night",
+				"id": "night",
 				"class": "fomarl"
 			}
 		]
@@ -572,14 +571,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 660,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "MudkipzJM",
+				"id": "mudkipzjm",
 				"class": "hunewearl"
 			},
 			{
-				"name": "Jez",
+				"id": "jez",
 				"class": "hucast"
 			}
 		]
@@ -592,10 +591,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 2697,
-		"team": "Univers-PS",
+		"team_id": "univers_ps",
 		"players": [
 			{
-				"name": "Shiida",
+				"id": "shiida",
 				"class": "hunewearl"
 			}
 		]
@@ -608,22 +607,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 1057,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Yannv",
+				"id": "yannv",
 				"class": "racast"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "racast"
 			},
 			{
-				"name": "Wilson",
+				"id": "wilson",
 				"class": "hucast"
 			},
 			{
-				"name": "MudkipzJM",
+				"id": "mudkipzjm",
 				"class": "ramarl"
 			}
 		]
@@ -636,22 +635,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 726,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Yannv",
+				"id": "yannv",
 				"class": "racast"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			},
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "ramarl"
 			},
 			{
-				"name": "ScopedOut",
+				"id": "scopedout",
 				"class": "racast"
 			}
 		]
@@ -664,22 +663,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1838,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "ramar"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "ramar"
 			},
 			{
-				"name": "Shiida",
+				"id": "shiida",
 				"class": "ramarl"
 			},
 			{
-				"name": "Noudle",
+				"id": "noudle",
 				"class": "ramar"
 			}
 		]
@@ -692,22 +691,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1506,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "ramarl"
 			},
 			{
-				"name": "MudkipzJM",
+				"id": "mudkipzjm",
 				"class": "ramar"
 			},
 			{
-				"name": "Night",
+				"id": "night",
 				"class": "racast"
 			},
 			{
-				"name": "TripleR",
+				"id": "tripler",
 				"class": "racast"
 			}
 		]
@@ -720,22 +719,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1517,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "ramarl"
 			},
 			{
-				"name": "MudkipzJM",
+				"id": "mudkipzjm",
 				"class": "ramar"
 			},
 			{
-				"name": "Yannv",
+				"id": "yannv",
 				"class": "racast"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "racast"
 			}
 		]
@@ -748,14 +747,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 315,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Shiida",
+				"id": "shiida",
 				"class": "racast"
 			},
 			{
-				"name": "MudkipzJM",
+				"id": "mudkipzjm",
 				"class": "ramarl"
 			}
 		]
@@ -768,10 +767,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 168,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "TripleR",
+				"id": "tripler",
 				"class": "hucaseal"
 			}
 		]
@@ -784,10 +783,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 120,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "MudkipzJM",
+				"id": "mudkipzjm",
 				"class": "ramar"
 			}
 		]
@@ -800,10 +799,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 78,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "TripleR",
+				"id": "tripler",
 				"class": "hucaseal"
 			}
 		]
@@ -816,14 +815,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 497,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "ramar"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "racast"
 			}
 		]
@@ -836,18 +835,18 @@
 		"category": "3p",
 		"pb": false,
 		"time": 553,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Wilson",
+				"id": "wilson",
 				"class": "hucast"
 			},
 			{
-				"name": "Saith",
+				"id": "saith",
 				"class": "hucaseal"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "racast"
 			}
 		]
@@ -860,14 +859,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 575,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "hucast"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			}
 		]
@@ -880,10 +879,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 1135,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Ryan Ford",
+				"id": "ryan_ford",
 				"class": "ramarl"
 			}
 		]
@@ -896,10 +895,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 1141,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "MudkipzJM",
+				"id": "mudkipzjm",
 				"class": "ramar"
 			}
 		]
@@ -912,14 +911,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 955,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Starlord",
+				"id": "starlord",
 				"class": "ramarl"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			}
 		]
@@ -932,14 +931,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 982,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Starlord",
+				"id": "starlord",
 				"class": "ramarl"
 			},
 			{
-				"name": "Wilson",
+				"id": "wilson",
 				"class": "hucast"
 			}
 		]
@@ -952,22 +951,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 2648,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Starlord",
+				"id": "starlord",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Wilson",
+				"id": "wilson",
 				"class": "hucast"
 			},
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "hucast"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			}
 		]
@@ -980,22 +979,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 2440,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Starlord",
+				"id": "starlord",
 				"class": "racast"
 			},
 			{
-				"name": "Wilson",
+				"id": "wilson",
 				"class": "hucast"
 			},
 			{
-				"name": "Yannv",
+				"id": "yannv",
 				"class": "fomar"
 			},
 			{
-				"name": "MudkipzJM",
+				"id": "mudkipzjm",
 				"class": "ramar"
 			}
 		]
@@ -1008,22 +1007,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 2420,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Patrick Bell",
+				"id": "patrick_bell",
 				"class": "ramarl"
 			},
 			{
-				"name": "Marcia",
+				"id": "marcia",
 				"class": "fomarl"
 			},
 			{
-				"name": "TripleR",
+				"id": "tripler",
 				"class": "hucaseal"
 			},
 			{
-				"name": "MudkipzJM",
+				"id": "mudkipzjm",
 				"class": "ramar"
 			}
 		]
@@ -1036,22 +1035,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 2394,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Patrick Bell",
+				"id": "patrick_bell",
 				"class": "ramarl"
 			},
 			{
-				"name": "Night",
+				"id": "night",
 				"class": "racast"
 			},
 			{
-				"name": "TripleR",
+				"id": "tripler",
 				"class": "hucaseal"
 			},
 			{
-				"name": "MudkipzJM",
+				"id": "mudkipzjm",
 				"class": "fomarl"
 			}
 		]
@@ -1064,22 +1063,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 2371,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Patrick Bell",
+				"id": "patrick_bell",
 				"class": "ramarl"
 			},
 			{
-				"name": "Yannv",
+				"id": "yannv",
 				"class": "racast"
 			},
 			{
-				"name": "TripleR",
+				"id": "tripler",
 				"class": "hucaseal"
 			},
 			{
-				"name": "Lemon",
+				"id": "lemon",
 				"class": "fomarl"
 			}
 		]
@@ -1092,14 +1091,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 2377,
-		"team": "Univers-PS",
+		"team_id": "univers_ps",
 		"players": [
 			{
-				"name": "Shiida",
+				"id": "shiida",
 				"class": "fomarl"
 			},
 			{
-				"name": "Noudle",
+				"id": "noudle",
 				"class": "ramar"
 			}
 		]
@@ -1112,14 +1111,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 2189,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "ramar"
 			},
 			{
-				"name": "HUNTER_",
+				"id": "hunter",
 				"class": "fonewearl"
 			}
 		]
@@ -1132,10 +1131,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 1727,
-		"team": "Univers-PS",
+		"team_id": "univers_ps",
 		"players": [
 			{
-				"name": "Shiida",
+				"id": "shiida",
 				"class": "ramarl"
 			}
 		]
@@ -1148,10 +1147,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 1105,
-		"team": "Univers-PS",
+		"team_id": "univers_ps",
 		"players": [
 			{
-				"name": "Noudle",
+				"id": "noudle",
 				"class": "ramarl"
 			}
 		]
@@ -1164,22 +1163,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 175,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "HUNTER_",
+				"id": "hunter",
 				"class": "hucast"
 			},
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "ramar"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "racast"
 			},
 			{
-				"name": "Yannv",
+				"id": "yannv",
 				"class": "racast"
 			}
 		]
@@ -1192,22 +1191,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 143,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Starlord",
+				"id": "starlord",
 				"class": "ramarl"
 			},
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "racast"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "racast"
 			},
 			{
-				"name": "Yannv",
+				"id": "yannv",
 				"class": "racast"
 			}
 		]
@@ -1220,22 +1219,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 29,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Shiida",
+				"id": "shiida",
 				"class": "racast"
 			},
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "ramarl"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "racast"
 			},
 			{
-				"name": "Capo",
+				"id": "capo",
 				"class": "racaseal"
 			}
 		]
@@ -1248,22 +1247,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 2658,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Shiida",
+				"id": "shiida",
 				"class": "fomarl"
 			},
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "hucast"
 			},
 			{
-				"name": "Noudle",
+				"id": "noudle",
 				"class": "ramar"
 			},
 			{
-				"name": "Yannv",
+				"id": "yannv",
 				"class": "racast"
 			}
 		]
@@ -1276,22 +1275,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 2966,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "HUNTER_",
+				"id": "hunter",
 				"class": "ramarl"
 			},
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "hucast"
 			},
 			{
-				"name": "Starlord",
+				"id": "starlord",
 				"class": "racast"
 			},
 			{
-				"name": "Yannv",
+				"id": "yannv",
 				"class": "racast"
 			}
 		]
@@ -1304,22 +1303,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 1055,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			},
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "hucast"
 			},
 			{
-				"name": "Starlord",
+				"id": "starlord",
 				"class": "fonewm"
 			},
 			{
-				"name": "ScopedOut",
+				"id": "scopedout",
 				"class": "racast"
 			}
 		]
@@ -1332,10 +1331,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 444,
-		"team": "Univers-PS",
+		"team_id": "univers_ps",
 		"players": [
 			{
-				"name": "Shiida",
+				"id": "shiida",
 				"class": "fonewearl"
 			}
 		]
@@ -1348,14 +1347,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 478,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "HUNTER_",
+				"id": "hunter",
 				"class": "hucast"
 			},
 			{
-				"name": "Yannv",
+				"id": "yannv",
 				"class": "fonewm"
 			}
 		]
@@ -1368,14 +1367,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 435,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Starlord",
+				"id": "starlord",
 				"class": "fonewm"
 			},
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "hucast"
 			}
 		]
@@ -1388,10 +1387,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 1277,
-		"team": "Univers-PS",
+		"team_id": "univers_ps",
 		"players": [
 			{
-				"name": "Noudle",
+				"id": "noudle",
 				"class": "ramar"
 			}
 		]
@@ -1404,10 +1403,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 1249,
-		"team": "Univers-PS",
+		"team_id": "univers_ps",
 		"players": [
 			{
-				"name": "Lipelis",
+				"id": "lipelis",
 				"class": "racast"
 			}
 		]
@@ -1420,22 +1419,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 39,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "racast"
 			},
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "ramarl"
 			},
 			{
-				"name": "MudkipzJM",
+				"id": "mudkipzjm",
 				"class": "ramar"
 			},
 			{
-				"name": "Yannv",
+				"id": "yannv",
 				"class": "racast"
 			}
 		]
@@ -1448,22 +1447,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 34,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "fonewm"
 			},
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "racast"
 			},
 			{
-				"name": "ScopedOut",
+				"id": "scopedout",
 				"class": "racast"
 			},
 			{
-				"name": "Starlord",
+				"id": "starlord",
 				"class": "hucast"
 			}
 		]
@@ -1476,22 +1475,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 19,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "fonewm"
 			},
 			{
-				"name": "Yannv",
+				"id": "yannv",
 				"class": "racast"
 			},
 			{
-				"name": "MudkipzJM",
+				"id": "mudkipzjm",
 				"class": "racast"
 			},
 			{
-				"name": "TripleR",
+				"id": "tripler",
 				"class": "hucast"
 			}
 		]
@@ -1504,10 +1503,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 870,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewearl"
 			}
 		]
@@ -1520,22 +1519,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1079,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewearl"
 			},
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "DGM",
+				"id": "dgm",
 				"class": "racaseal"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			}
 		]
@@ -1548,10 +1547,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 634,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Ridji",
+				"id": "ridji",
 				"class": "fonewearl"
 			}
 		]
@@ -1564,10 +1563,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 624,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Sylph",
+				"id": "sylph",
 				"class": "hucaseal"
 			}
 		]
@@ -1580,22 +1579,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 1286,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			},
 			{
-				"name": "9898",
+				"id": "9898",
 				"class": "hucast"
 			},
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "hucast"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			}
 		]
@@ -1608,22 +1607,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 1210,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewearl"
 			},
 			{
-				"name": "9898",
+				"id": "9898",
 				"class": "racast"
 			},
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			}
 		]
@@ -1636,22 +1635,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1147,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewearl"
 			},
 			{
-				"name": "DGM",
+				"id": "dgm",
 				"class": "racaseal"
 			},
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			}
 		]
@@ -1664,10 +1663,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 891,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Zen",
+				"id": "zen",
 				"class": "hucast"
 			}
 		]
@@ -1680,10 +1679,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 853,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "hucast"
 			}
 		]
@@ -1696,10 +1695,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 849,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewearl"
 			}
 		]
@@ -1712,10 +1711,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 844,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "HioThun",
+				"id": "hiothun",
 				"class": "hucast"
 			}
 		]
@@ -1728,10 +1727,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 804,
-		"team": "六月などんよりとした空",
+		"team_id": "六月などんよりとした空",
 		"players": [
 			{
-				"name": "Ume",
+				"id": "ume",
 				"class": "hucast"
 			}
 		]
@@ -1744,14 +1743,14 @@
 		"category": "2p",
 		"pb": true,
 		"time": 1014,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "hucast"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			}
 		]
@@ -1764,22 +1763,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1125,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "hucast"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			}
 		]
@@ -1792,22 +1791,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1052,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "DGM",
+				"id": "dgm",
 				"class": "racaseal"
 			},
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewearl"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			}
 		]
@@ -1820,22 +1819,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1046,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "hucast"
 			},
 			{
-				"name": "Joey",
+				"id": "joey",
 				"class": "racast"
 			},
 			{
-				"name": "Sylph",
+				"id": "sylph",
 				"class": "hucast"
 			},
 			{
-				"name": "thepp0",
+				"id": "thepp0",
 				"class": "fonewearl"
 			}
 		]
@@ -1848,22 +1847,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 1174,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "500ryu",
+				"id": "500ryu",
 				"class": "hucast"
 			},
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "hucast"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			}
 		]
@@ -1876,22 +1875,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 1172,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "500ryu",
+				"id": "500ryu",
 				"class": "hucast"
 			},
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "hucast"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			}
 		]
@@ -1904,22 +1903,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 1147,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "500ryu",
+				"id": "500ryu",
 				"class": "hucast"
 			},
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "hucast"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			}
 		]
@@ -1932,22 +1931,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 1141,
-		"team": "MA4C",
+		"team_id": "ma4c",
 		"players": [
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "hucast"
 			},
 			{
-				"name": "Joey",
+				"id": "joey",
 				"class": "hucast"
 			},
 			{
-				"name": "Iter",
+				"id": "iter",
 				"class": "hucast"
 			},
 			{
-				"name": "TT3",
+				"id": "tt3",
 				"class": "hucast"
 			}
 		]
@@ -1960,10 +1959,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 239,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "NDW",
+				"id": "ndw",
 				"class": "hucast"
 			}
 		]
@@ -1976,10 +1975,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 250,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Wilson",
+				"id": "wilson",
 				"class": "hunewearl"
 			}
 		]
@@ -1992,22 +1991,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 186,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Wilson",
+				"id": "wilson",
 				"class": "hunewearl"
 			},
 			{
-				"name": "500ryu",
+				"id": "500ryu",
 				"class": "hucast"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			}
 		]
@@ -2020,14 +2019,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 219,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "hucast"
 			},
 			{
-				"name": "Zen",
+				"id": "zen",
 				"class": "hunewearl"
 			}
 		]
@@ -2040,14 +2039,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 225,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hunewearl"
 			},
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "humar"
 			}
 		]
@@ -2060,10 +2059,10 @@
 		"category": "opm",
 		"pb": true,
 		"time": 239,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "NDW",
+				"id": "ndw",
 				"class": "hucast"
 			}
 		]
@@ -2076,10 +2075,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 403,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "AURA_V3",
+				"id": "aura_v3",
 				"class": "fonewm"
 			}
 		]
@@ -2092,10 +2091,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 390,
-		"team": "F9",
+		"team_id": "f9",
 		"players": [
 			{
-				"name": "Zynetic",
+				"id": "zynetic",
 				"class": "fonewearl"
 			}
 		]
@@ -2108,10 +2107,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 386,
-		"team": "MA4C",
+		"team_id": "ma4c",
 		"players": [
 			{
-				"name": "Nemu",
+				"id": "nemu",
 				"class": "fonewearl"
 			}
 		]
@@ -2124,10 +2123,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 373,
-		"team": "BattleMode",
+		"team_id": "battlemode",
 		"players": [
 			{
-				"name": "Vex",
+				"id": "vex",
 				"class": "hucast"
 			}
 		]
@@ -2140,10 +2139,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 372,
-		"team": "MA4C",
+		"team_id": "ma4c",
 		"players": [
 			{
-				"name": "Joey",
+				"id": "joey",
 				"class": "hucast"
 			}
 		]
@@ -2156,10 +2155,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 444,
-		"team": "F9",
+		"team_id": "f9",
 		"players": [
 			{
-				"name": "Zynetic",
+				"id": "zynetic",
 				"class": "fonewearl"
 			}
 		]
@@ -2172,10 +2171,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 400,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "500ryu",
+				"id": "500ryu",
 				"class": "fonewm"
 			}
 		]
@@ -2188,10 +2187,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 32,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Sylph",
+				"id": "sylph",
 				"class": "humar"
 			}
 		]
@@ -2204,10 +2203,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 522,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewearl"
 			}
 		]
@@ -2220,10 +2219,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 540,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Wilson",
+				"id": "wilson",
 				"class": "hunewearl"
 			}
 		]
@@ -2236,10 +2235,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 476,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Sylph",
+				"id": "sylph",
 				"class": "humar"
 			}
 		]
@@ -2252,22 +2251,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 440,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Wilson",
+				"id": "wilson",
 				"class": "hunewearl"
 			},
 			{
-				"name": "HUNTER_",
+				"id": "hunter",
 				"class": "hucast"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			}
 		]
@@ -2280,18 +2279,18 @@
 		"category": "3p",
 		"pb": false,
 		"time": 373,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Wilson",
+				"id": "wilson",
 				"class": "hucast"
 			},
 			{
-				"name": "Lemon",
+				"id": "lemon",
 				"class": "fomarl"
 			},
 			{
-				"name": "NoHit",
+				"id": "nohit",
 				"class": "hucast"
 			}
 		]
@@ -2304,10 +2303,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 679,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "HioThun",
+				"id": "hiothun",
 				"class": "hucast"
 			}
 		]
@@ -2320,10 +2319,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 446,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "XII",
+				"id": "xii",
 				"class": "fonewm"
 			}
 		]
@@ -2336,10 +2335,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 380,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Sylph",
+				"id": "sylph",
 				"class": "hucast"
 			}
 		]
@@ -2352,22 +2351,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 1216,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "DGM",
+				"id": "dgm",
 				"class": "hucast"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			},
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "hucast"
 			},
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			}
 		]
@@ -2380,22 +2379,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 1129,
-		"team": "MA4C",
+		"team_id": "ma4c",
 		"players": [
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "hucast"
 			},
 			{
-				"name": "Joey",
+				"id": "joey",
 				"class": "hucast"
 			},
 			{
-				"name": "Nemu",
+				"id": "nemu",
 				"class": "hucast"
 			},
 			{
-				"name": "Jajaswipo",
+				"id": "jajaswipo",
 				"class": "hucast"
 			}
 		]
@@ -2408,10 +2407,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 525,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "AURA_V3",
+				"id": "aura_v3",
 				"class": "ramarl"
 			}
 		]
@@ -2424,10 +2423,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 526,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "HioThun",
+				"id": "hiothun",
 				"class": "hunewearl"
 			}
 		]
@@ -2440,10 +2439,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 532,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Zeal",
+				"id": "zeal",
 				"class": "ramarl"
 			}
 		]
@@ -2456,10 +2455,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 535,
-		"team": "六月などんよりとした空",
+		"team_id": "六月などんよりとした空",
 		"players": [
 			{
-				"name": "MUMU",
+				"id": "mumu",
 				"class": "hunewearl"
 			}
 		]
@@ -2472,14 +2471,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 516,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Ume",
+				"id": "ume",
 				"class": "hucast"
 			},
 			{
-				"name": "HioThun",
+				"id": "hiothun",
 				"class": "hunewearl"
 			}
 		]
@@ -2492,14 +2491,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 527,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "hucast"
 			},
 			{
-				"name": "Aic",
+				"id": "aic",
 				"class": "ramarl"
 			}
 		]
@@ -2512,14 +2511,14 @@
 		"category": "2p",
 		"pb": true,
 		"time": 505,
-		"team": "六月などんよりとした空",
+		"team_id": "六月などんよりとした空",
 		"players": [
 			{
-				"name": "Ume",
+				"id": "ume",
 				"class": "hucast"
 			},
 			{
-				"name": "Aic",
+				"id": "aic",
 				"class": "ramarl"
 			}
 		]
@@ -2532,22 +2531,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 548,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hunewearl"
 			},
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "DGM",
+				"id": "dgm",
 				"class": "fonewearl"
 			},
 			{
-				"name": "AURA_V3",
+				"id": "aura_v3",
 				"class": "hucast"
 			}
 		]
@@ -2560,22 +2559,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 558,
-		"team": "MA4C",
+		"team_id": "ma4c",
 		"players": [
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "hucast"
 			},
 			{
-				"name": "Nemu",
+				"id": "nemu",
 				"class": "fomarl"
 			},
 			{
-				"name": "Hatral",
+				"id": "hatral",
 				"class": "racast"
 			},
 			{
-				"name": "Jajaswipo",
+				"id": "jajaswipo",
 				"class": "humar"
 			}
 		]
@@ -2588,22 +2587,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 995,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fomarl"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			},
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "hucast"
 			}
 		]
@@ -2616,22 +2615,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 947,
-		"team": "MA4C",
+		"team_id": "ma4c",
 		"players": [
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "hucast"
 			},
 			{
-				"name": "thepp0",
+				"id": "thepp0",
 				"class": "racast"
 			},
 			{
-				"name": "Nemu",
+				"id": "nemu",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Hatral",
+				"id": "hatral",
 				"class": "racast"
 			}
 		]
@@ -2644,22 +2643,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 1195,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			},
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "hucast"
 			}
 		]
@@ -2671,24 +2670,23 @@
 		"meta": "2014",
 		"category": "4p",
 		"pb": true,
-		"time": 1122
-		,
-		"team": "MA4C",
+		"time": 1122,
+		"team_id": "ma4c",
 		"players": [
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "hucast"
 			},
 			{
-				"name": "Iter",
+				"id": "iter",
 				"class": "hucast"
 			},
 			{
-				"name": "Joey",
+				"id": "joey",
 				"class": "hucast"
 			},
 			{
-				"name": "Dyne",
+				"id": "dyne",
 				"class": "hucast"
 			}
 		]
@@ -2701,14 +2699,14 @@
 		"category": "2p",
 		"pb": true,
 		"time": 871,
-		"team": "MA4C",
+		"team_id": "ma4c",
 		"players": [
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "hucast"
 			},
 			{
-				"name": "Dyne",
+				"id": "dyne",
 				"class": "hucast"
 			}
 		]
@@ -2721,10 +2719,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 342,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Sylph",
+				"id": "sylph",
 				"class": "hucast"
 			}
 		]
@@ -2737,10 +2735,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 1203,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Sylph",
+				"id": "sylph",
 				"class": "humar"
 			}
 		]
@@ -2753,14 +2751,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 364,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "HUNTER_",
+				"id": "hunter",
 				"class": "hucast"
 			},
 			{
-				"name": "Starlord",
+				"id": "starlord",
 				"class": "hunewearl"
 			}
 		]
@@ -2773,10 +2771,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 320,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Wilson",
+				"id": "wilson",
 				"class": "hucast"
 			}
 		]
@@ -2789,10 +2787,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 318,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "NoHit",
+				"id": "nohit",
 				"class": "hucast"
 			}
 		]
@@ -2805,10 +2803,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 683,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "HUNTER_",
+				"id": "hunter",
 				"class": "hucast"
 			}
 		]
@@ -2821,14 +2819,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 513,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "HUNTER_",
+				"id": "hunter",
 				"class": "hucast"
 			},
 			{
-				"name": "Wilson",
+				"id": "wilson",
 				"class": "hunewearl"
 			}
 		]
@@ -2841,22 +2839,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 1059,
-		"team": "MA4C",
+		"team_id": "ma4c",
 		"players": [
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "racast"
 			},
 			{
-				"name": "Joey",
+				"id": "joey",
 				"class": "hucast"
 			},
 			{
-				"name": "Nemu",
+				"id": "nemu",
 				"class": "racast"
 			},
 			{
-				"name": "Jajaswipo",
+				"id": "jajaswipo",
 				"class": "racast"
 			}
 		]
@@ -2869,22 +2867,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 891,
-		"team": "六月などんよりとした空",
+		"team_id": "六月などんよりとした空",
 		"players": [
 			{
-				"name": "Aic",
+				"id": "aic",
 				"class": "fonewearl"
 			},
 			{
-				"name": "JOJO",
+				"id": "jojo",
 				"class": "hucast"
 			},
 			{
-				"name": "MUMU",
+				"id": "mumu",
 				"class": "racast"
 			},
 			{
-				"name": "Ume",
+				"id": "ume",
 				"class": "hucast"
 			}
 		]
@@ -2897,22 +2895,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 840,
-		"team": "MA4C",
+		"team_id": "ma4c",
 		"players": [
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "hucast"
 			},
 			{
-				"name": "Joey",
+				"id": "joey",
 				"class": "racast"
 			},
 			{
-				"name": "Noodle",
+				"id": "noodle",
 				"class": "hucast"
 			},
 			{
-				"name": "Morpha",
+				"id": "morpha",
 				"class": "hucast"
 			}
 		]
@@ -2925,22 +2923,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 862,
-		"team": "六月などんよりとした空",
+		"team_id": "六月などんよりとした空",
 		"players": [
 			{
-				"name": "Aic",
+				"id": "aic",
 				"class": "hucast"
 			},
 			{
-				"name": "JOJO",
+				"id": "jojo",
 				"class": "racast"
 			},
 			{
-				"name": "MUMU",
+				"id": "mumu",
 				"class": "ramarl"
 			},
 			{
-				"name": "Ume",
+				"id": "ume",
 				"class": "hucast"
 			}
 		]
@@ -2953,22 +2951,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1330,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewm"
 			},
 			{
-				"name": "DGM",
+				"id": "dgm",
 				"class": "racaseal"
 			},
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			}
 		]
@@ -2981,22 +2979,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1203,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewm"
 			},
 			{
-				"name": "DGM",
+				"id": "dgm",
 				"class": "racaseal"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			},
 			{
-				"name": "Cava",
+				"id": "cava",
 				"class": "hucast"
 			}
 		]
@@ -3009,22 +3007,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1287,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			},
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewm"
 			},
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "hucast"
 			}
 		]
@@ -3037,22 +3035,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1238,
-		"team": "MA4C",
+		"team_id": "ma4c",
 		"players": [
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "hucast"
 			},
 			{
-				"name": "Joey",
+				"id": "joey",
 				"class": "fonewm"
 			},
 			{
-				"name": "Iter",
+				"id": "iter",
 				"class": "hucast"
 			},
 			{
-				"name": "Dyne",
+				"id": "dyne",
 				"class": "hucast"
 			}
 		]
@@ -3065,22 +3063,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1201,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "racast"
 			},
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewm"
 			},
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "humar"
 			}
 		]
@@ -3093,10 +3091,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 852,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewm"
 			}
 		]
@@ -3109,10 +3107,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 841,
-		"team": "Stonecutters",
+		"team_id": "stonecutters",
 		"players": [
 			{
-				"name": "Oberon",
+				"id": "oberon",
 				"class": "fonewm"
 			}
 		]
@@ -3125,22 +3123,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 1324,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "DGM",
+				"id": "dgm",
 				"class": "hucast"
 			},
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "hucast"
 			},
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewm"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			}
 		]
@@ -3153,22 +3151,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 1289,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "500ryu",
+				"id": "500ryu",
 				"class": "hucast"
 			},
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "hucast"
 			},
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewm"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			}
 		]
@@ -3181,22 +3179,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 1283,
-		"team": "MA4C",
+		"team_id": "ma4c",
 		"players": [
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "hucast"
 			},
 			{
-				"name": "Joey",
+				"id": "joey",
 				"class": "fonewm"
 			},
 			{
-				"name": "Iter",
+				"id": "iter",
 				"class": "racast"
 			},
 			{
-				"name": "Dyne",
+				"id": "dyne",
 				"class": "hucast"
 			}
 		]
@@ -3209,22 +3207,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 1203,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Grifter",
+				"id": "grifter",
 				"class": "racast"
 			},
 			{
-				"name": "Darv",
+				"id": "darv",
 				"class": "racast"
 			},
 			{
-				"name": "Colin",
+				"id": "colin",
 				"class": "racast"
 			},
 			{
-				"name": "Rain",
+				"id": "rain",
 				"class": "fonewm"
 			}
 		]
@@ -3237,14 +3235,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 987,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewm"
 			},
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "hucast"
 			}
 		]
@@ -3257,14 +3255,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 870,
-		"team": "MA4C",
+		"team_id": "ma4c",
 		"players": [
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Hatral",
+				"id": "hatral",
 				"class": "racast"
 			}
 		]
@@ -3277,14 +3275,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 801,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Zynetic",
+				"id": "zynetic",
 				"class": "fonewm"
 			},
 			{
-				"name": "Sylph",
+				"id": "sylph",
 				"class": "hucast"
 			}
 		]
@@ -3297,22 +3295,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 423,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewm"
 			},
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "hucast"
 			},
 			{
-				"name": "DGM",
+				"id": "dgm",
 				"class": "racaseal"
 			}
 		]
@@ -3325,10 +3323,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 543,
-		"team": "F9",
+		"team_id": "f9",
 		"players": [
 			{
-				"name": "Zynetic",
+				"id": "zynetic",
 				"class": "fonewm"
 			}
 		]
@@ -3341,10 +3339,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 539,
-		"team": "F9",
+		"team_id": "f9",
 		"players": [
 			{
-				"name": "Zynetic",
+				"id": "zynetic",
 				"class": "fonewearl"
 			}
 		]
@@ -3357,10 +3355,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 520,
-		"team": "MA4C",
+		"team_id": "ma4c",
 		"players": [
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "fonewearl"
 			}
 		]
@@ -3373,10 +3371,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 436,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fomarl"
 			}
 		]
@@ -3389,14 +3387,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 425,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewm"
 			},
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "hucast"
 			}
 		]
@@ -3409,22 +3407,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 611,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "9898",
+				"id": "9898",
 				"class": "racast"
 			},
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "humar"
 			},
 			{
-				"name": "DGM",
+				"id": "dgm",
 				"class": "fonewearl"
 			}
 		]
@@ -3437,22 +3435,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 601,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "racast"
 			},
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "humar"
 			},
 			{
-				"name": "DGM",
+				"id": "dgm",
 				"class": "fonewearl"
 			}
 		]
@@ -3465,22 +3463,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 585,
-		"team": "MA4C",
+		"team_id": "ma4c",
 		"players": [
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Nemu",
+				"id": "nemu",
 				"class": "racast"
 			},
 			{
-				"name": "thepp0",
+				"id": "thepp0",
 				"class": "hucast"
 			},
 			{
-				"name": "Hatral",
+				"id": "hatral",
 				"class": "hucast"
 			}
 		]
@@ -3493,22 +3491,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 650,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "racast"
 			},
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewm"
 			},
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "hucast"
 			}
 		]
@@ -3521,22 +3519,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 629,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "racast"
 			},
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewm"
 			},
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "DGM",
+				"id": "dgm",
 				"class": "racaseal"
 			}
 		]
@@ -3549,22 +3547,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 601,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "racast"
 			},
 			{
-				"name": "Joey",
+				"id": "joey",
 				"class": "hucast"
 			},
 			{
-				"name": "Nemu",
+				"id": "nemu",
 				"class": "racast"
 			},
 			{
-				"name": "Rashan",
+				"id": "rashan",
 				"class": "racast"
 			}
 		]
@@ -3577,10 +3575,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 211,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Sylph",
+				"id": "sylph",
 				"class": "hucast"
 			}
 		]
@@ -3593,22 +3591,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 391,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewm"
 			},
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "hucast"
 			},
 			{
-				"name": "DGM",
+				"id": "dgm",
 				"class": "racaseal"
 			},
 			{
-				"name": "AURA_V3",
+				"id": "aura_v3",
 				"class": "hucast"
 			}
 		]
@@ -3621,22 +3619,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 430,
-		"team": "MA4C",
+		"team_id": "ma4c",
 		"players": [
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "racast"
 			},
 			{
-				"name": "Joey",
+				"id": "joey",
 				"class": "fonewm"
 			},
 			{
-				"name": "thepp0",
+				"id": "thepp0",
 				"class": "hucast"
 			},
 			{
-				"name": "Hatral",
+				"id": "hatral",
 				"class": "racast"
 			}
 		]
@@ -3649,10 +3647,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 1295,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fomarl"
 			}
 		]
@@ -3665,10 +3663,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 1258,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "Sam5655",
+				"id": "sam5655",
 				"class": "fonewearl"
 			}
 		]
@@ -3681,10 +3679,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 1221,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Sylph",
+				"id": "sylph",
 				"class": "hucaseal"
 			}
 		]
@@ -3697,22 +3695,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 125,
-		"team": "MA4C",
+		"team_id": "ma4c",
 		"players": [
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "hucast"
 			},
 			{
-				"name": "Joey",
+				"id": "joey",
 				"class": "fonewm"
 			},
 			{
-				"name": "Iter",
+				"id": "iter",
 				"class": "hucast"
 			},
 			{
-				"name": "Dyne",
+				"id": "dyne",
 				"class": "hucast"
 			}
 		]
@@ -3725,22 +3723,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 504,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "hucast"
 			},
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewearl"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			}
 		]
@@ -3753,22 +3751,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 244,
-		"team": "MA4C",
+		"team_id": "ma4c",
 		"players": [
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "hucast"
 			},
 			{
-				"name": "Iter",
+				"id": "iter",
 				"class": "hucast"
 			},
 			{
-				"name": "Joey",
+				"id": "joey",
 				"class": "fonewm"
 			},
 			{
-				"name": "Dyne",
+				"id": "dyne",
 				"class": "hucast"
 			}
 		]
@@ -3781,10 +3779,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 405,
-		"team": "六月などんよりとした空",
+		"team_id": "六月などんよりとした空",
 		"players": [
 			{
-				"name": "MUMU",
+				"id": "mumu",
 				"class": "fonewm"
 			}
 		]
@@ -3797,22 +3795,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 1032,
-		"team": "MA4C",
+		"team_id": "ma4c",
 		"players": [
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "racast"
 			},
 			{
-				"name": "Joey",
+				"id": "joey",
 				"class": "racast"
 			},
 			{
-				"name": "Nemu",
+				"id": "nemu",
 				"class": "fonewm"
 			},
 			{
-				"name": "Jajaswipo",
+				"id": "jajaswipo",
 				"class": "racast"
 			}
 		]
@@ -3825,10 +3823,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 852,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "SteveCares",
+				"id": "stevecares",
 				"class": "fonewm"
 			}
 		]
@@ -3841,22 +3839,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1080,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "fomar"
 			},
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "hucast"
 			},
 			{
-				"name": "Zen",
+				"id": "zen",
 				"class": "hucast"
 			}
 		]
@@ -3869,22 +3867,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1066,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "9898",
+				"id": "9898",
 				"class": "racast"
 			},
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			},
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fomar"
 			}
 		]
@@ -3897,14 +3895,14 @@
 		"category": "2p",
 		"pb": true,
 		"time": 1035,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "hucast"
 			},
 			{
-				"name": "Zen",
+				"id": "zen",
 				"class": "hucast"
 			}
 		]
@@ -3917,14 +3915,14 @@
 		"category": "2p",
 		"pb": true,
 		"time": 900,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			},
 			{
-				"name": "Demonized",
+				"id": "demonized",
 				"class": "hucast"
 			}
 		]
@@ -3937,10 +3935,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 876,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Zen",
+				"id": "zen",
 				"class": "hucast"
 			}
 		]
@@ -3953,10 +3951,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 250,
-		"team": "Pioneers",
+		"team_id": "pioneers",
 		"players": [
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "ramar"
 			}
 		]
@@ -3969,10 +3967,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 268,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Shovel",
+				"id": "shovel",
 				"class": "ramar"
 			}
 		]
@@ -3985,22 +3983,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 201,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "hucast"
 			},
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "racast"
 			},
 			{
-				"name": "Travendus",
+				"id": "travendus",
 				"class": "hucast"
 			},
 			{
-				"name": "NoHit",
+				"id": "nohit",
 				"class": "fonewm"
 			}
 		]
@@ -4013,22 +4011,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 217,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "racast"
 			},
 			{
-				"name": "Melody",
+				"id": "melody",
 				"class": "hunewearl"
 			},
 			{
-				"name": "Ayria",
+				"id": "ayria",
 				"class": "ramarl"
 			},
 			{
-				"name": "_shadowfix",
+				"id": "_shadofix",
 				"class": "fonewearl"
 			}
 		]
@@ -4041,10 +4039,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 280,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "ramar"
 			}
 		]
@@ -4057,10 +4055,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 322,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Shovel",
+				"id": "shovel",
 				"class": "ramar"
 			}
 		]
@@ -4073,22 +4071,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 243,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "ramar"
 			},
 			{
-				"name": "SteveCares",
+				"id": "stevecares",
 				"class": "fonewm"
 			},
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "hucast"
 			},
 			{
-				"name": "Travendus",
+				"id": "travendus",
 				"class": "hucast"
 			}
 		]
@@ -4101,22 +4099,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 269,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "lil b",
+				"id": "lil_b",
 				"class": "hucast"
 			},
 			{
-				"name": "VENOM",
+				"id": "venom",
 				"class": "fonewm"
 			},
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "hucast"
 			},
 			{
-				"name": "Demonized",
+				"id": "demonized",
 				"class": "racast"
 			}
 		]
@@ -4129,10 +4127,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 281,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "hucast"
 			}
 		]
@@ -4145,10 +4143,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 315,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "NoHit",
+				"id": "nohit",
 				"class": "hucast"
 			}
 		]
@@ -4161,10 +4159,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 317,
-		"team": "Pioneers",
+		"team_id": "pioneers",
 		"players": [
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "racast"
 			}
 		]
@@ -4177,22 +4175,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 214,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "hucast"
 			},
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "hucast"
 			},
 			{
-				"name": "SteveCares",
+				"id": "stevecares",
 				"class": "fonewm"
 			},
 			{
-				"name": "Travendus",
+				"id": "travendus",
 				"class": "hucast"
 			}
 		]
@@ -4205,22 +4203,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 234,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "hucast"
 			},
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "hucast"
 			},
 			{
-				"name": "Zero 641",
+				"id": "zero_641",
 				"class": "fonewm"
 			},
 			{
-				"name": "Travendus",
+				"id": "travendus",
 				"class": "hucast"
 			}
 		]
@@ -4233,22 +4231,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 270,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "racast"
 			},
 			{
-				"name": "Yuffie",
+				"id": "yuffie",
 				"class": "hunewearl"
 			},
 			{
-				"name": "Fluidity",
+				"id": "fluidity",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Eun-Ji",
+				"id": "eun-ji",
 				"class": "racaseal"
 			}
 		]
@@ -4261,10 +4259,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 276,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "hucast"
 			}
 		]
@@ -4277,10 +4275,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 364,
-		"team": "Pioneers",
+		"team_id": "pioneers",
 		"players": [
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "racast"
 			}
 		]
@@ -4293,10 +4291,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 432,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Saga",
+				"id": "saga",
 				"class": "racast"
 			}
 		]
@@ -4309,10 +4307,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 442,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "A Man in Flames",
+				"id": "a_man_in_flames",
 				"class": "hucaseal"
 			}
 		]
@@ -4325,22 +4323,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 236,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "racast"
 			},
 			{
-				"name": "Jajaswipo",
+				"id": "jajaswipo",
 				"class": "fonewm"
 			},
 			{
-				"name": "Travendus",
+				"id": "travendus",
 				"class": "hucast"
 			},
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "hucast"
 			}
 		]
@@ -4353,22 +4351,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 270,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Demonized",
+				"id": "demonized",
 				"class": "racast"
 			},
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "racast"
 			},
 			{
-				"name": "lil b",
+				"id": "lil_b",
 				"class": "hucast"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			}
 		]
@@ -4381,10 +4379,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 393,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "fonewm"
 			}
 		]
@@ -4397,10 +4395,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 392,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewm"
 			}
 		]
@@ -4413,10 +4411,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 389,
-		"team": "Pioneers",
+		"team_id": "pioneers",
 		"players": [
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "fonewm"
 			}
 		]
@@ -4429,10 +4427,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 389,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Lileya",
+				"id": "lileya",
 				"class": "fonewm"
 			}
 		]
@@ -4445,10 +4443,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 380,
-		"team": "Pioneers",
+		"team_id": "pioneers",
 		"players": [
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "ramar"
 			}
 		]
@@ -4461,14 +4459,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 388,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "ramar"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "ramar"
 			}
 		]
@@ -4481,14 +4479,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 382,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "ramar"
 			},
 			{
-				"name": "Zen",
+				"id": "zen",
 				"class": "hucast"
 			}
 		]
@@ -4501,14 +4499,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 378,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "9898",
+				"id": "9898",
 				"class": "ramar"
 			},
 			{
-				"name": "Demonized",
+				"id": "demonized",
 				"class": "hucast"
 			}
 		]
@@ -4521,10 +4519,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 349,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "ramar"
 			}
 		]
@@ -4537,10 +4535,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 320,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "ramar"
 			}
 		]
@@ -4553,10 +4551,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 315,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "9898",
+				"id": "9898",
 				"class": "ramar"
 			}
 		]
@@ -4569,14 +4567,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 188,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "hucast"
 			},
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "ramar"
 			}
 		]
@@ -4589,14 +4587,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 147,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "ramar"
 			},
 			{
-				"name": "Zen",
+				"id": "zen",
 				"class": "hucast"
 			}
 		]
@@ -4609,10 +4607,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 134,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "SteveCares",
+				"id": "stevecares",
 				"class": "fonewm"
 			}
 		]
@@ -4625,10 +4623,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 128,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "hucast"
 			}
 		]
@@ -4641,10 +4639,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 118,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "hucast"
 			}
 		]
@@ -4657,14 +4655,14 @@
 		"category": "2p",
 		"pb": true,
 		"time": 657,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			},
 			{
-				"name": "Demonized",
+				"id": "demonized",
 				"class": "racast"
 			}
 		]
@@ -4677,10 +4675,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 508,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "hunewearl"
 			}
 		]
@@ -4693,10 +4691,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 523,
-		"team": "MA4C",
+		"team_id": "ma4c",
 		"players": [
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "ramar"
 			}
 		]
@@ -4709,10 +4707,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 533,
-		"team": "Pioneers",
+		"team_id": "pioneers",
 		"players": [
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "ramarl"
 			}
 		]
@@ -4725,10 +4723,10 @@
 		"category": "1p",
 		"pb": true,
 		"time": 658,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			}
 		]
@@ -4741,10 +4739,10 @@
 		"category": "1p",
 		"pb": true,
 		"time": 696,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Demonized",
+				"id": "demonized",
 				"class": "hucast"
 			}
 		]
@@ -4757,10 +4755,10 @@
 		"category": "1p",
 		"pb": true,
 		"time": 697,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			}
 		]
@@ -4773,10 +4771,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 642,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "ramar"
 			}
 		]
@@ -4789,10 +4787,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 645,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Dongra",
+				"id": "dongra",
 				"class": "ramar"
 			}
 		]
@@ -4805,10 +4803,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 669,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Shovel",
+				"id": "shovel",
 				"class": "ramar"
 			}
 		]
@@ -4821,10 +4819,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 758,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fomarl"
 			}
 		]
@@ -4837,14 +4835,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 512,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "ramarl"
 			},
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "hucast"
 			}
 		]
@@ -4857,14 +4855,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 529,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "ramarl"
 			},
 			{
-				"name": "Zen",
+				"id": "zen",
 				"class": "hucast"
 			}
 		]
@@ -4877,14 +4875,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 526,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "ramarl"
 			},
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			}
 		]
@@ -4897,14 +4895,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 546,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "hunewearl"
 			},
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "hucast"
 			}
 		]
@@ -4917,18 +4915,18 @@
 		"category": "3p",
 		"pb": false,
 		"time": 511,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "ramarl"
 			},
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "NDW",
+				"id": "ndw",
 				"class": "hucast"
 			}
 		]
@@ -4941,22 +4939,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 532,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "ramarl"
 			},
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewearl"
 			},
 			{
-				"name": "AURA_V3",
+				"id": "aura_v3",
 				"class": "hucast"
 			}
 		]
@@ -4969,22 +4967,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 578,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Demonized",
+				"id": "demonized",
 				"class": "hucast"
 			},
 			{
-				"name": "Natural",
+				"id": "natural",
 				"class": "racast"
 			},
 			{
-				"name": "Nebula",
+				"id": "nebula",
 				"class": "racast"
 			},
 			{
-				"name": "Wigga",
+				"id": "wigga",
 				"class": "racast"
 			}
 		]
@@ -4997,22 +4995,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1107,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "racast"
 			},
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "fomar"
 			},
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "Zen",
+				"id": "zen",
 				"class": "hucast"
 			}
 		]
@@ -5025,18 +5023,18 @@
 		"category": "3p",
 		"pb": false,
 		"time": 1146,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Zen",
+				"id": "zen",
 				"class": "hucast"
 			},
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "ramar"
 			},
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "racast"
 			}
 		]
@@ -5049,18 +5047,18 @@
 		"category": "3p",
 		"pb": false,
 		"time": 1111,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Zen",
+				"id": "zen",
 				"class": "hucast"
 			},
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "ramar"
 			},
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "racast"
 			}
 		]
@@ -5073,22 +5071,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1051,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "hucast"
 			},
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "ramar"
 			},
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fomarl"
 			}
 		]
@@ -5101,18 +5099,18 @@
 		"category": "3p",
 		"pb": false,
 		"time": 2394,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Zen",
+				"id": "zen",
 				"class": "hucast"
 			},
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "ramar"
 			},
 			{
-				"name": "Jake",
+				"id": "jake",
 				"class": "ramarl"
 			}
 		]
@@ -5125,14 +5123,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 2424,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Zen",
+				"id": "zen",
 				"class": "hucast"
 			},
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "ramar"
 			}
 		]
@@ -5145,14 +5143,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 2409,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "hucast"
 			},
 			{
-				"name": "CAPN",
+				"id": "capn",
 				"class": "ramar"
 			}
 		]
@@ -5165,10 +5163,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 2316,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Cameron",
+				"id": "cameron",
 				"class": "racast"
 			}
 		]
@@ -5181,10 +5179,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 366,
-		"team": "Chosen Few",
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"name": "Wilson",
+				"id": "wilson",
 				"class": "ramar"
 			}
 		]
@@ -5197,10 +5195,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 390,
-		"team": "Pioneers",
+		"team_id": "pioneers",
 		"players": [
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "ramar"
 			}
 		]
@@ -5213,10 +5211,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 507,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "A Man in Flames",
+				"id": "a_man_in_flames",
 				"class": "hucaseal"
 			}
 		]
@@ -5229,22 +5227,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 228,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "ramarl"
 			},
 			{
-				"name": "Travendus",
+				"id": "travendus",
 				"class": "hucast"
 			},
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "hucast"
 			},
 			{
-				"name": "NoHit",
+				"id": "nohit",
 				"class": "hucast"
 			}
 		]
@@ -5257,22 +5255,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 229,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "VENOM",
+				"id": "venom",
 				"class": "fonewm"
 			},
 			{
-				"name": "Demonized",
+				"id": "demonized",
 				"class": "hucast"
 			},
 			{
-				"name": "lil b",
+				"id": "lil_b",
 				"class": "hucast"
 			},
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "racast"
 			}
 		]
@@ -5285,10 +5283,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 268,
-		"team": "Pioneers",
+		"team_id": "pioneers",
 		"players": [
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "racaseal"
 			}
 		]
@@ -5301,10 +5299,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 304,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "A Man in Flames",
+				"id": "a_man_in_flames",
 				"class": "hucaseal"
 			}
 		]
@@ -5317,22 +5315,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 211,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "hucast"
 			},
 			{
-				"name": "Travendus",
+				"id": "travendus",
 				"class": "hucast"
 			},
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "hucast"
 			},
 			{
-				"name": "SteveCares",
+				"id": "stevecares",
 				"class": "ramarl"
 			}
 		]
@@ -5345,22 +5343,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 259,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "NoHit",
+				"id": "nohit",
 				"class": "hucast"
 			},
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "racast"
 			},
 			{
-				"name": "Alisaryn",
+				"id": "alisaryn",
 				"class": "racaseal"
 			},
 			{
-				"name": "LilYuki",
+				"id": "lilyuki",
 				"class": "fomarl"
 			}
 		]
@@ -5373,22 +5371,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 267,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "hucast"
 			},
 			{
-				"name": "Dizzy",
+				"id": "dizzy",
 				"class": "racast"
 			},
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "fomar"
 			},
 			{
-				"name": "SteveCares",
+				"id": "stevecares",
 				"class": "racast"
 			}
 		]
@@ -5401,10 +5399,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 427,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "racast"
 			}
 		]
@@ -5417,10 +5415,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 731,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "A Man in Flames",
+				"id": "a_man_in_flames",
 				"class": "hucaseal"
 			}
 		]
@@ -5433,22 +5431,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 187,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "hucast"
 			},
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "hucast"
 			},
 			{
-				"name": "SteveCares",
+				"id": "stevecares",
 				"class": "ramarl"
 			},
 			{
-				"name": "Travendus",
+				"id": "travendus",
 				"class": "hucast"
 			}
 		]
@@ -5461,22 +5459,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 230,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "hucast"
 			},
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "hucaseal"
 			},
 			{
-				"name": "Arsuru",
+				"id": "arsuru",
 				"class": "ramar"
 			},
 			{
-				"name": "Travendus",
+				"id": "travendus",
 				"class": "hucast"
 			}
 		]
@@ -5489,10 +5487,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 344,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "racast"
 			}
 		]
@@ -5505,10 +5503,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 355,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "NDW",
+				"id": "ndw",
 				"class": "racast"
 			}
 		]
@@ -5521,22 +5519,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 278,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Arsuru",
+				"id": "arsuru",
 				"class": "ramar"
 			},
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "hucaseal"
 			},
 			{
-				"name": "Dizzy",
+				"id": "dizzy",
 				"class": "racast"
 			},
 			{
-				"name": "SteveCares",
+				"id": "stevecares",
 				"class": "racast"
 			}
 		]
@@ -5549,22 +5547,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 285,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "hucast"
 			},
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "hucast"
 			},
 			{
-				"name": "Travendus",
+				"id": "travendus",
 				"class": "racaseal"
 			},
 			{
-				"name": "Astallasalion",
+				"id": "astallasalion",
 				"class": "fomarl"
 			}
 		]
@@ -5577,22 +5575,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 289,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Demonized",
+				"id": "demonized",
 				"class": "hucast"
 			},
 			{
-				"name": "VENOM",
+				"id": "venom",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			},
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "ramarl"
 			}
 		]
@@ -5605,10 +5603,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 536,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Zen",
+				"id": "zen",
 				"class": "hucast"
 			}
 		]
@@ -5621,10 +5619,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 914,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "A Man in Flames",
+				"id": "a_man_in_flames",
 				"class": "hucast"
 			}
 		]
@@ -5637,22 +5635,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 303,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "NoHit",
+				"id": "nohit",
 				"class": "hucast"
 			},
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "hunewearl"
 			},
 			{
-				"name": "Travendus",
+				"id": "travendus",
 				"class": "hucast"
 			},
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "hucast"
 			}
 		]
@@ -5665,22 +5663,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 334,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "ramar"
 			},
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "hucast"
 			},
 			{
-				"name": "Travendus",
+				"id": "travendus",
 				"class": "hucast"
 			},
 			{
-				"name": "SteveCares",
+				"id": "stevecares",
 				"class": "fonewm"
 			}
 		]
@@ -5693,10 +5691,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 489,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Zen",
+				"id": "zen",
 				"class": "hucast"
 			}
 		]
@@ -5709,10 +5707,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 230,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Zen",
+				"id": "zen",
 				"class": "hucast"
 			}
 		]
@@ -5725,22 +5723,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 722,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Dizzy",
+				"id": "dizzy",
 				"class": "racast"
 			},
 			{
-				"name": "VENOM",
+				"id": "venom",
 				"class": "ramar"
 			},
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "racast"
 			},
 			{
-				"name": "lil b",
+				"id": "lil_b",
 				"class": "hucast"
 			}
 		]
@@ -5753,10 +5751,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 671,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Zen",
+				"id": "zen",
 				"class": "hucast"
 			}
 		]
@@ -5769,10 +5767,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 453,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "SteveCares",
+				"id": "stevecares",
 				"class": "racaseal"
 			}
 		]
@@ -5785,10 +5783,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 1201,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Esc",
+				"id": "esc",
 				"class": "racast"
 			}
 		]
@@ -5801,22 +5799,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 838,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Zen",
+				"id": "zen",
 				"class": "hucast"
 			},
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hucast"
 			},
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "ramarl"
 			},
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "racast"
 			}
 		]
@@ -5829,22 +5827,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 843,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Zen",
+				"id": "zen",
 				"class": "hucast"
 			},
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hucast"
 			},
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "ramarl"
 			},
 			{
-				"name": "Mote",
+				"id": "mote",
 				"class": "racast"
 			}
 		]
@@ -5857,22 +5855,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 935,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Brandon",
+				"id": "brandon",
 				"class": "racast"
 			},
 			{
-				"name": "Dizzy",
+				"id": "dizzy",
 				"class": "racast"
 			},
 			{
-				"name": "lil b",
+				"id": "lil_b",
 				"class": "hucast"
 			},
 			{
-				"name": "Ayria",
+				"id": "ayria",
 				"class": "fomarl"
 			}
 		]
@@ -5885,22 +5883,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 935,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Zen",
+				"id": "zen",
 				"class": "hucast"
 			},
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "ramar"
 			},
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "racast"
 			},
 			{
-				"name": "Daisuri",
+				"id": "daisuri",
 				"class": "fonewearl"
 			}
 		]
@@ -5913,14 +5911,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 1338,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Zen",
+				"id": "zen",
 				"class": "hucast"
 			},
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "ramar"
 			}
 		]
@@ -5933,22 +5931,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1189,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "9898",
+				"id": "9898",
 				"class": "racast"
 			},
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			},
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewm"
 			}
 		]
@@ -5961,14 +5959,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 910,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewm"
 			}
 		]
@@ -5981,10 +5979,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 965,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "fonewm"
 			}
 		]
@@ -5997,10 +5995,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 424,
-		"team": "CO",
+		"team_id": "co",
 		"players": [
 			{
-				"name": "Ade",
+				"id": "ade",
 				"class": "fonewm"
 			}
 		]
@@ -6013,22 +6011,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 274,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Demonized",
+				"id": "demonized",
 				"class": "racast"
 			},
 			{
-				"name": "VENOM",
+				"id": "venom",
 				"class": "fonewm"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			},
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "hucast"
 			}
 		]
@@ -6041,10 +6039,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 640,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "A Man in Flames",
+				"id": "a_man_in_flames",
 				"class": "humar"
 			}
 		]
@@ -6057,22 +6055,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 226,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "hucast"
 			},
 			{
-				"name": "SteveCares",
+				"id": "stevecares",
 				"class": "fonewm"
 			},
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "hucast"
 			},
 			{
-				"name": "Travendus",
+				"id": "travendus",
 				"class": "hucast"
 			}
 		]
@@ -6085,22 +6083,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 297,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Demonized",
+				"id": "demonized",
 				"class": "racast"
 			},
 			{
-				"name": "Zen",
+				"id": "zen",
 				"class": "hucast"
 			},
 			{
-				"name": "Killz",
+				"id": "killz",
 				"class": "hucast"
 			},
 			{
-				"name": "Sange",
+				"id": "sange",
 				"class": "fonewm"
 			}
 		]
@@ -6113,10 +6111,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 535,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "fonewm"
 			}
 		]
@@ -6129,10 +6127,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 520,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Shovel",
+				"id": "shovel",
 				"class": "fonewm"
 			}
 		]
@@ -6145,10 +6143,10 @@
 		"category": "opm",
 		"pb": false,
 		"time": 425,
-		"team": "CO",
+		"team_id": "co",
 		"players": [
 			{
-				"name": "Ade",
+				"id": "ade",
 				"class": "fonewm"
 			}
 		]
@@ -6161,14 +6159,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 417,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewm"
 			}
 		]
@@ -6181,22 +6179,22 @@
 		"category": "4p",
 		"pb": true,
 		"time": 262,
-		"team": "MA4B",
+		"team_id": "ma4b",
 		"players": [
 			{
-				"name": "Alukard",
+				"id": "alukard",
 				"class": "hucast"
 			},
 			{
-				"name": "ReVisioN",
+				"id": "revision",
 				"class": "hucast"
 			},
 			{
-				"name": "Jack",
+				"id": "jack",
 				"class": "fonewm"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			}
 		]
@@ -6209,14 +6207,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 776,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "9898",
+				"id": "9898",
 				"class": "ramar"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			}
 		]
@@ -6229,18 +6227,18 @@
 		"category": "3p",
 		"pb": false,
 		"time": 724,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Armand",
+				"id": "armand",
 				"class": "hucast"
 			},
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hunewearl"
 			},
 			{
-				"name": "Mattie",
+				"id": "mattie",
 				"class": "ramarl"
 			}
 		]
@@ -6253,10 +6251,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 301,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hunewearl"
 			}
 		]
@@ -6269,10 +6267,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 275,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "humar"
 			}
 		]
@@ -6285,10 +6283,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 272,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Cody",
+				"id": "cody",
 				"class": "hucast"
 			}
 		]
@@ -6301,22 +6299,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 371,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hunewearl"
 			},
 			{
-				"name": "Armand",
+				"id": "armand",
 				"class": "hucast"
 			},
 			{
-				"name": "9898",
+				"id": "9898",
 				"class": "hucast"
 			},
 			{
-				"name": "Tom",
+				"id": "tom",
 				"class": "hucast"
 			}
 		]
@@ -6329,14 +6327,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 448,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Armand",
+				"id": "armand",
 				"class": "hunewearl"
 			},
 			{
-				"name": "Wilson",
+				"id": "wilson",
 				"class": "hucast"
 			}
 		]
@@ -6349,14 +6347,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 420,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hunewearl"
 			},
 			{
-				"name": "Armand",
+				"id": "armand",
 				"class": "hucast"
 			}
 		]
@@ -6369,22 +6367,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 179,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "racast"
 			},
 			{
-				"name": "Armand",
+				"id": "armand",
 				"class": "fonewm"
 			},
 			{
-				"name": "9898",
+				"id": "9898",
 				"class": "hucast"
 			},
 			{
-				"name": "Schranko",
+				"id": "schranko",
 				"class": "hucast"
 			}
 		]
@@ -6397,14 +6395,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 85,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Bert",
+				"id": "bert",
 				"class": "ramarl"
 			},
 			{
-				"name": "Armand",
+				"id": "armand",
 				"class": "racast"
 			}
 		]
@@ -6417,10 +6415,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 283,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hucast"
 			}
 		]
@@ -6433,14 +6431,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 517,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hunewearl"
 			},
 			{
-				"name": "Armand",
+				"id": "armand",
 				"class": "hucast"
 			}
 		]
@@ -6453,22 +6451,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 874,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hucast"
 			},
 			{
-				"name": "Armand",
+				"id": "armand",
 				"class": "hucast"
 			},
 			{
-				"name": "9898",
+				"id": "9898",
 				"class": "ramarl"
 			},
 			{
-				"name": "Blue World",
+				"id": "blue_world",
 				"class": "hucast"
 			}
 		]
@@ -6481,22 +6479,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 619,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Cody",
+				"id": "cody",
 				"class": "hucast"
 			},
 			{
-				"name": "Schranko",
+				"id": "schranko",
 				"class": "hucast"
 			},
 			{
-				"name": "Submarine",
+				"id": "submarine",
 				"class": "racast"
 			},
 			{
-				"name": "AZMIDISKE",
+				"id": "azmidiske",
 				"class": "fomar"
 			}
 		]
@@ -6509,22 +6507,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 583,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hucast"
 			},
 			{
-				"name": "Tom",
+				"id": "tom",
 				"class": "hucast"
 			},
 			{
-				"name": "Armand",
+				"id": "armand",
 				"class": "hucast"
 			},
 			{
-				"name": "Ambrosia",
+				"id": "ambrosia",
 				"class": "ramarl"
 			}
 		]
@@ -6537,18 +6535,18 @@
 		"category": "3p",
 		"pb": true,
 		"time": 616,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "racast"
 			},
 			{
-				"name": "Kevka",
+				"id": "kevka",
 				"class": "hucast"
 			},
 			{
-				"name": "Kayak",
+				"id": "kayak",
 				"class": "fomar"
 			}
 		]
@@ -6561,10 +6559,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 783,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Armand",
+				"id": "armand",
 				"class": "racast"
 			}
 		]
@@ -6577,22 +6575,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 662,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "ramarl"
 			},
 			{
-				"name": "Schranko",
+				"id": "schranko",
 				"class": "hucast"
 			},
 			{
-				"name": "Cody",
+				"id": "cody",
 				"class": "hucast"
 			},
 			{
-				"name": "Kayak",
+				"id": "kayak",
 				"class": "fomar"
 			}
 		]
@@ -6605,22 +6603,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 864,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "racast"
 			},
 			{
-				"name": "Schranko",
+				"id": "schranko",
 				"class": "fonewm"
 			},
 			{
-				"name": "Cody",
+				"id": "cody",
 				"class": "racast"
 			},
 			{
-				"name": "Armand",
+				"id": "armand",
 				"class": "racast"
 			}
 		]
@@ -6633,14 +6631,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 420,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hunewearl"
 			},
 			{
-				"name": "Armand",
+				"id": "armand",
 				"class": "racast"
 			}
 		]
@@ -6653,22 +6651,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 87,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hunewearl"
 			},
 			{
-				"name": "Armand",
+				"id": "armand",
 				"class": "racast"
 			},
 			{
-				"name": "Cody",
+				"id": "cody",
 				"class": "hucast"
 			},
 			{
-				"name": "Bert",
+				"id": "bert",
 				"class": "fomar"
 			}
 		]
@@ -6681,22 +6679,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 352,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hucast"
 			},
 			{
-				"name": "Armand",
+				"id": "armand",
 				"class": "hucast"
 			},
 			{
-				"name": "Tom",
+				"id": "tom",
 				"class": "fomar"
 			},
 			{
-				"name": "Chi",
+				"id": "chi",
 				"class": "ramarl"
 			}
 		]
@@ -6709,10 +6707,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 1074,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hunewearl"
 			}
 		]
@@ -6725,10 +6723,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 1849,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hunewearl"
 			}
 		]
@@ -6741,10 +6739,10 @@
 		"category": "1p",
 		"pb": false,
 		"time": 1428,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hucast"
 			}
 		]
@@ -6757,14 +6755,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 3,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hucast"
 			},
 			{
-				"name": "Armand",
+				"id": "armand",
 				"class": "ramarl"
 			}
 		]
@@ -6777,22 +6775,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 18,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Armand",
+				"id": "armand",
 				"class": "racast"
 			},
 			{
-				"name": "9898",
+				"id": "9898",
 				"class": "hucast"
 			},
 			{
-				"name": "Jake",
+				"id": "jake",
 				"class": "fomarl"
 			},
 			{
-				"name": "mt",
+				"id": "mt",
 				"class": "hucast"
 			}
 		]
@@ -6805,18 +6803,14 @@
 		"category": "1p",
 		"pb": false,
 		"time": 319,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "racast"
 			}
 		]
 	},
-
-
-
-
 	{
 		"mode": "challenge",
 		"quest_id": "1c1",
@@ -6825,22 +6819,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 394,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Klekt",
+				"id": "klekt",
 				"class": "hucast"
 			},
 			{
-				"name": "Mote",
+				"id": "mote",
 				"class": "hucast"
 			},
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "hucaseal"
 			},
 			{
-				"name": "CAPN",
+				"id": "capn",
 				"class": "fonewearl"
 			}
 		]
@@ -6853,14 +6847,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 479,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "hucast"
 			},
 			{
-				"name": "CAPN",
+				"id": "capn",
 				"class": "hucast"
 			}
 		]
@@ -6873,14 +6867,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 561,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "hucast"
 			},
 			{
-				"name": "Wilson",
+				"id": "wilson",
 				"class": "hucast"
 			}
 		]
@@ -6893,22 +6887,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1116,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Zynetic",
+				"id": "zynetic",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Blue World",
+				"id": "blue_world",
 				"class": "hucasT"
 			},
 			{
-				"name": "KuromoriYu",
+				"id": "kuromoriyu",
 				"class": "fonewearl"
 			}
 		]
@@ -6921,22 +6915,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1382,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Klekt",
+				"id": "klekt",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Mote",
+				"id": "mote",
 				"class": "hucaseal"
 			},
 			{
-				"name": "Schranko",
+				"id": "schranko",
 				"class": "hucast"
 			},
 			{
-				"name": "Vex",
+				"id": "vex",
 				"class": "fonewearl"
 			}
 		]
@@ -6949,14 +6943,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 1549,
-		"team": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
-				"name": "Klekt",
+				"id": "klekt",
 				"class": "hucast"
 			},
 			{
-				"name": "Mote",
+				"id": "mote",
 				"class": "ramar"
 			}
 		]
@@ -6969,14 +6963,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 1267,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Hardwood",
+				"id": "hardwood",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Current Character",
+				"id": "current_character",
 				"class": "racaseal"
 			}
 		]
@@ -6989,22 +6983,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1341,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Aerilas",
+				"id": "aerilas",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "humar"
 			},
 			{
-				"name": "Arsuru",
+				"id": "arsuru",
 				"class": "racaseal"
 			},
 			{
-				"name": "Schranko",
+				"id": "schranko",
 				"class": "hucast"
 			}
 		]
@@ -7017,22 +7011,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1394,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Klekt",
+				"id": "klekt",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Mote",
+				"id": "mote",
 				"class": "hucaseal"
 			},
 			{
-				"name": "Vex",
+				"id": "vex",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Schranko",
+				"id": "schranko",
 				"class": "hucast"
 			}
 		]
@@ -7045,22 +7039,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1415,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Red",
+				"id": "red",
 				"class": "hucast"
 			},
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Uno",
+				"id": "uno",
 				"class": "hucast"
 			},
 			{
-				"name": "Eis",
+				"id": "eis",
 				"class": "hucaseal"
 			}
 		]
@@ -7073,14 +7067,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 1293,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "hucast"
 			},
 			{
-				"name": "Aerilas",
+				"id": "aerilas",
 				"class": "hucast"
 			}
 		]
@@ -7093,14 +7087,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 1367,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Klekt",
+				"id": "klekt",
 				"class": "hucast"
 			},
 			{
-				"name": "Mote",
+				"id": "mote",
 				"class": "hucaseal"
 			}
 		]
@@ -7113,22 +7107,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1475,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "fonewearl"
 			},
 			{
-				"name": "NDW",
+				"id": "ndw",
 				"class": "hucaseal"
 			},
 			{
-				"name": "Scotty",
+				"id": "scotty",
 				"class": "hucaseal"
 			},
 			{
-				"name": "KuromoriYu",
+				"id": "kuromoriyu",
 				"class": "hucast"
 			}
 		]
@@ -7141,14 +7135,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 1581,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "hucast"
 			},
 			{
-				"name": "CAPN",
+				"id": "capn",
 				"class": "hucast"
 			}
 		]
@@ -7161,14 +7155,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 1892,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "hucast"
 			},
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "fonewm"
 			}
 		]
@@ -7181,14 +7175,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 2275,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "hucast"
 			},
 			{
-				"name": "Schranko",
+				"id": "schranko",
 				"class": "fonewearl"
 			}
 		]
@@ -7201,22 +7195,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1076,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hucast"
 			},
 			{
-				"name": "NDW",
+				"id": "ndw",
 				"class": "hucaseal"
 			},
 			{
-				"name": "Zynetic",
+				"id": "zynetic",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Joey",
+				"id": "joey",
 				"class": "fonewearl"
 			}
 		]
@@ -7229,22 +7223,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1198,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "racast"
 			},
 			{
-				"name": "NDW",
+				"id": "ndw",
 				"class": "hucast"
 			},
 			{
-				"name": "Arsuru",
+				"id": "arsuru",
 				"class": "hucaseal"
 			},
 			{
-				"name": "Niht",
+				"id": "niht",
 				"class": "hucast"
 			}
 		]
@@ -7257,14 +7251,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 1183,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "hucast"
 			},
 			{
-				"name": "Aerilas",
+				"id": "aerilas",
 				"class": "hucast"
 			}
 		]
@@ -7277,14 +7271,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 1578,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "hucast"
 			},
 			{
-				"name": "NoHit",
+				"id": "nohit",
 				"class": "ramar"
 			}
 		]
@@ -7297,22 +7291,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1563,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Uno",
+				"id": "uno",
 				"class": "hucast"
 			},
 			{
-				"name": "VENOM",
+				"id": "venom",
 				"class": "hucast"
 			},
 			{
-				"name": "Vex",
+				"id": "vex",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Aizen",
+				"id": "aizen",
 				"class": "ramar"
 			}
 		]
@@ -7325,22 +7319,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1471,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Zynetic",
+				"id": "zynetic",
 				"class": "hucast"
 			},
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hucast"
 			},
 			{
-				"name": "Rain",
+				"id": "rain",
 				"class": "hucast"
 			},
 			{
-				"name": "Joey",
+				"id": "joey",
 				"class": "fonewearl"
 			}
 		]
@@ -7353,22 +7347,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1692,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "racast"
 			},
 			{
-				"name": "NDW",
+				"id": "ndw",
 				"class": "hucast"
 			},
 			{
-				"name": "Arsuru",
+				"id": "arsuru",
 				"class": "hucaseal"
 			},
 			{
-				"name": "Niht",
+				"id": "niht",
 				"class": "hucast"
 			}
 		]
@@ -7381,14 +7375,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 1779,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "hucast"
 			},
 			{
-				"name": "Aerilas",
+				"id": "aerilas",
 				"class": "hucast"
 			}
 		]
@@ -7401,14 +7395,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 2436,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Klekt",
+				"id": "klekt",
 				"class": "hucast"
 			},
 			{
-				"name": "Mote",
+				"id": "mote",
 				"class": "racaseal"
 			}
 		]
@@ -7421,22 +7415,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1621,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Schranko",
+				"id": "schranko",
 				"class": "hucast"
 			},
 			{
-				"name": "Arsuru",
+				"id": "arsuru",
 				"class": "racaseal"
 			},
 			{
-				"name": "Aerilas",
+				"id": "aerilas",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "humar"
 			}
 		]
@@ -7449,22 +7443,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1667,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "NDW",
+				"id": "ndw",
 				"class": "hucast"
 			},
 			{
-				"name": "Niht",
+				"id": "niht",
 				"class": "hucast"
 			},
 			{
-				"name": "Arsuru",
+				"id": "arsuru",
 				"class": "hucaseal"
 			},
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "racast"
 			}
 		]
@@ -7477,22 +7471,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1674,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "hucast"
 			},
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "hucaseal"
 			},
 			{
-				"name": "DJ Ridoo",
+				"id": "dj_ridoo",
 				"class": "hucast"
 			},
 			{
-				"name": "No Future",
+				"id": "no_future",
 				"class": "hucast"
 			}
 		]
@@ -7505,22 +7499,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1694,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "CAPN",
+				"id": "capn",
 				"class": "hucast"
 			},
 			{
-				"name": "GSC",
+				"id": "gsc",
 				"class": "hucaseal"
 			},
 			{
-				"name": "ffeJ",
+				"id": "ffej",
 				"class": "hucaseal"
 			},
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "fonewm"
 			}
 		]
@@ -7533,22 +7527,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1708,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Schranko",
+				"id": "schranko",
 				"class": "hucast"
 			},
 			{
-				"name": "Uno",
+				"id": "uno",
 				"class": "hucast"
 			},
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "hucaseal"
 			},
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "fonewm"
 			}
 		]
@@ -7561,14 +7555,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 2109,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "hucast"
 			},
 			{
-				"name": "Aerilas",
+				"id": "aerilas",
 				"class": "hucast"
 			}
 		]
@@ -7581,14 +7575,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 2208,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Schranko",
+				"id": "schranko",
 				"class": "hucast"
 			},
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "hucast"
 			}
 		]
@@ -7601,14 +7595,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 2254,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Klekt",
+				"id": "klekt",
 				"class": "hucast"
 			},
 			{
-				"name": "Mote",
+				"id": "mote",
 				"class": "racaseal"
 			}
 		]
@@ -7621,22 +7615,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 2094,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "hucast"
 			},
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "hucaseal"
 			},
 			{
-				"name": "DJ Ridoo",
+				"id": "dj_ridoo",
 				"class": "hucast"
 			},
 			{
-				"name": "No Future",
+				"id": "no_future",
 				"class": "hucast"
 			}
 		]
@@ -7649,22 +7643,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 2344,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "ffeJ",
+				"id": "ffej",
 				"class": "hucaseal"
 			},
 			{
-				"name": "GSC",
+				"id": "gsc",
 				"class": "hucaseal"
 			},
 			{
-				"name": "CAPN",
+				"id": "capn",
 				"class": "hucast"
 			},
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "fonewm"
 			}
 		]
@@ -7677,22 +7671,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 2365,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Schranko",
+				"id": "schranko",
 				"class": "hucast"
 			},
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Atal",
+				"id": "atal",
 				"class": "hucast"
 			},
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "racast"
 			}
 		]
@@ -7705,18 +7699,18 @@
 		"category": "3p",
 		"pb": false,
 		"time": 2455,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Roo",
+				"id": "roo",
 				"class": "hucast"
 			},
 			{
-				"name": "Vex",
+				"id": "vex",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "fonewearl"
 			}
 		]
@@ -7729,14 +7723,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 2278,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "hucast"
 			},
 			{
-				"name": "Hardwood",
+				"id": "hardwood",
 				"class": "humar"
 			}
 		]
@@ -7749,14 +7743,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 2304,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Schranko",
+				"id": "schranko",
 				"class": "hucast"
 			},
 			{
-				"name": "Mote",
+				"id": "mote",
 				"class": "hucast"
 			}
 		]
@@ -7769,14 +7763,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 2477,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Schranko",
+				"id": "schranko",
 				"class": "hucast"
 			},
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "hucast"
 			}
 		]
@@ -7789,14 +7783,14 @@
 		"category": "2p",
 		"pb": false,
 		"time": 2844,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Zynetic",
+				"id": "zynetic",
 				"class": "hucast"
 			},
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "hucaseal"
 			}
 		]
@@ -7809,22 +7803,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 2063,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hucast"
 			},
 			{
-				"name": "Joey",
+				"id": "joey",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Zynetic",
+				"id": "zynetic",
 				"class": "hucast"
 			},
 			{
-				"name": "Rain",
+				"id": "rain",
 				"class": "hucast"
 			}
 		]
@@ -7837,22 +7831,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 2097,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Zynetic",
+				"id": "zynetic",
 				"class": "hucast"
 			},
 			{
-				"name": "Demonized",
+				"id": "demonized",
 				"class": "hucaseal"
 			},
 			{
-				"name": "Joey",
+				"id": "joey",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hucast"
 			}
 		]
@@ -7865,22 +7859,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1689,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Zynetic",
+				"id": "zynetic",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Rain",
+				"id": "rain",
 				"class": "hucast"
 			},
 			{
-				"name": "Joey",
+				"id": "joey",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hucast"
 			}
 		]
@@ -7893,22 +7887,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1716,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Klekt",
+				"id": "klekt",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Daisuri",
+				"id": "daisuri",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Mote",
+				"id": "mote",
 				"class": "hucaseal"
 			},
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hucast"
 			}
 		]
@@ -7921,22 +7915,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1758,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Zynetic",
+				"id": "zynetic",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Schranko",
+				"id": "schranko",
 				"class": "hucast"
 			},
 			{
-				"name": "Joey",
+				"id": "joey",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hucast"
 			}
 		]
@@ -7949,22 +7943,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 540,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Schranko",
+				"id": "schranko",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Klekt",
+				"id": "klekt",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "fonewearl"
 			}
 		]
@@ -7977,22 +7971,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 640,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Zynetic",
+				"id": "zynetic",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Uno",
+				"id": "uno",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "fonewearl"
 			}
 		]
@@ -8005,22 +7999,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 739,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Zynetic",
+				"id": "zynetic",
 				"class": "fonewm"
 			},
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "fomarl"
 			},
 			{
-				"name": "Uno",
+				"id": "uno",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "fomar"
 			}
 		]
@@ -8033,22 +8027,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 2090,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Zynetic",
+				"id": "zynetic",
 				"class": "hucaseal"
 			},
 			{
-				"name": "Astallasalion",
+				"id": "astallasalion",
 				"class": "fonewm"
 			},
 			{
-				"name": "Joey",
+				"id": "joey",
 				"class": "hucast"
 			},
 			{
-				"name": "Ender",
+				"id": "ender",
 				"class": "hucast"
 			}
 		]
@@ -8061,22 +8055,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 2124,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Zynetic",
+				"id": "zynetic",
 				"class": "hucaseal"
 			},
 			{
-				"name": "Zen",
+				"id": "zen",
 				"class": "hucast"
 			},
 			{
-				"name": "Joey",
+				"id": "joey",
 				"class": "fonewemn"
 			},
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hucast"
 			}
 		]
@@ -8089,22 +8083,22 @@
 		"category": "4p",
 		"pb": false,
 		"time": 2211,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Zynetic",
+				"id": "zynetic",
 				"class": "hucaseal"
 			},
 			{
-				"name": "Schranko",
+				"id": "schranko",
 				"class": "hucast"
 			},
 			{
-				"name": "Joey",
+				"id": "joey",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "hucast"
 			}
 		]
@@ -8117,26 +8111,24 @@
 		"category": "4p",
 		"pb": false,
 		"time": 721,
-		"team": "",
+		"team_id": null,
 		"players": [
 			{
-				"name": "Mote",
+				"id": "mote",
 				"class": "racast"
 			},
 			{
-				"name": "Spuz",
+				"id": "spuz",
 				"class": "fonewearl"
 			},
 			{
-				"name": "Belz",
+				"id": "belz",
 				"class": "fonewemn"
 			},
 			{
-				"name": "Klekt",
+				"id": "klekt",
 				"class": "fonewearl"
 			}
 		]
 	}
-
-
 ]
