@@ -5,7 +5,6 @@ window.fourwaypb.quest_records = window.fourwaypb.quest_records || {};
 window.fourwaypb.quest_records.ready = function() {
     
     let ready = false;
-    let quests = null;
     let records = null;
     let HeaderList = [
         {
@@ -68,7 +67,7 @@ window.fourwaypb.quest_records.ready = function() {
             collapse: false,
             last_value: null,
             formatter: (x) => {
-                return x || "";
+                return (x ? x.name : "");
             }
         },
     ]
@@ -301,7 +300,7 @@ window.fourwaypb.quest_records.ready = function() {
                 return x.time;
             }
         });
-        data = _.groupBy(data, x => x.quest_id);
+        data = _.groupBy(data, x => x.quest.id);
         data = _.flatMap(data, x => x);
     
         let result_string = RESULT_LIST_TEMPLATE.substring(0);
@@ -379,16 +378,10 @@ window.fourwaypb.quest_records.ready = function() {
     function setupPage() {
         let players = [];
         records.forEach(function(record) {
-            record.quest = quests.find(x => x.id == record.quest_id);
             record.players.forEach(function(player) {
-                let current_player = players.find(x => x.name == player.name);
-                if (current_player != undefined) {
-                    current_player.records++;
-                } else {
-                    players.push({
-                        name: player.name,
-                        records: 1,
-                    });
+                let current_player = players.find(x => x.id == player.id);
+                if (current_player == undefined) {
+                    players.push(player);
                 }
             });
         });
@@ -399,9 +392,9 @@ window.fourwaypb.quest_records.ready = function() {
         };
         players.forEach(function(player) {
             dropdown.values.push({
-                value: player.name,
-                //text: player.name+' ('+player.records+')',
-                name: player.name+' ('+player.records+')',
+                value: player.id,
+                //text: player.name,
+                name: player.name,
             });
         });
         
@@ -551,14 +544,11 @@ window.fourwaypb.quest_records.ready = function() {
     
     getJSON5(url_for('data/records.json'), (function(data) {
         records = data;
-        getJSON5(url_for('data/quests.json'), (function(data) {
-            quests = data;
-            
-            setupPage();
-            
-            ready = true;
-            console.log('Page ready');
-        }));
+        
+        setupPage();
+        
+        ready = true;
+        console.log('Page ready');
     }));
 };
 
