@@ -816,7 +816,9 @@
 		"metas": [
 			"Vanilla"
 		],
-		"team_ids": [],
+		"team_ids": [
+			"imgay"
+		],
 		"timezone": "EST",
 		"card_content": [],
 		"page_content": [],
