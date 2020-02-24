@@ -69,6 +69,7 @@ window.fourwaypb.players.ready = function() {
                     }).append(
                         $('<span/>', {}).append(
                             $('<span/>', {
+                                'class': 'first-place-records',
                                 'text': '🏆 '+(player.record_results[1] ? player.record_results[1] : '0'),
                                 'title': 'First place records: '+(player.record_results[1] ? player.record_results[1] : '0'),
                             }),
@@ -76,8 +77,9 @@ window.fourwaypb.players.ready = function() {
                                 'text': ' | ',
                             }),
                             $('<span/>', {
+                                'class': 'total-entries',
                                 'text': '⏱️ '+player.record_count,
-                                'title': 'Total records: '+player.record_count,
+                                'title': 'Total entries: '+player.record_count,
                             }),
                         ),
                         $('<br/>'),
