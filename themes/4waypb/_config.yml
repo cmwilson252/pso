@@ -12,12 +12,12 @@ menu:
   - name: 'Concepts'
     url: '/concepts'
     children:
-      - name: 'Max stats and gear'
-        url: '/concepts/max-stats-and-gear'
-      - name: 'Set attack damage'
-        url: '/concepts/set-attack-damage'
       - name: 'Sandbox TA'
         url: '/concepts/sandbox-ta'
+      - name: 'Set attack damage'
+        url: '/concepts/set-attack-damage'
+      - name: 'Frame 1 Data'
+        url: '/concepts/f1-data'
   - name: 'Servers'
     url: '/servers'
     children:
