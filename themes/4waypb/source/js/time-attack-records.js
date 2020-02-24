@@ -444,17 +444,10 @@ window.fourwaypb.time_attack_records.ready = function() {
         var table = new Tabulator("#results-table", {
             data: records,
             layout:"fitColumns",
-            groupBy: function(data) {
-                return data.quest.name;
-            },
-            groupHeader:function(value, count, data, group){
-                //value - the value all members of this group share
-                //count - the number of rows in this group
-                //data - an array of all the row data objects in this group
-                //group - the group component for the group
-            
-                return value + "<span style='color:#d00; margin-left:10px;'>(" + count + " item" + (count == 1 ? '' : 's') +")</span>";
-            },
+            groupBy: ['quest.name', 'meta', 'category', 'pb'],
+            //groupHeader:function(value, count, data, group){
+            //    return value + "<span style='color:#d00; margin-left:10px;'>(" + count + " item" + (count == 1 ? '' : 's') +")</span>";
+            //},
             columns:[
                 {title:"Meta", field:"meta", sorter:"string",formatter:function(cell, formatterParams, onRendered) {
                     let result = '';
