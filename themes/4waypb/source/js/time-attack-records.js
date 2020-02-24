@@ -411,6 +411,15 @@ window.fourwaypb.time_attack_records.ready = function() {
     }
     
     function setupPage() {
+        filters1();
+        filters2();
+        
+        $(window).on('resize', _.debounce(function () {
+            updateDropdownColumns();
+        }, 250));
+        updateDropdownColumns();
+    };
+    function filters1() {
         $('#modes').dropdown({
             values: [
                 {
@@ -547,7 +556,8 @@ window.fourwaypb.time_attack_records.ready = function() {
                 }
             ]
         });
-        
+    };
+    function filters2() {
         let players = [];
         records.forEach(function(record) {
             record.players.forEach(function(player) {
