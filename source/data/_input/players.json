@@ -302,8 +302,8 @@
 			"url": "https://www.youtube.com/channel/UCtDfLhy4irUIFAUao6_ymbQ"
 		},
 		"twitch": {
-			"name": "",
-			"url": ""
+			"name": "RiskAddiction",
+			"url": "https://www.twitch.tv/riskaddiction"
 		}
 	},
 	{
@@ -721,9 +721,9 @@
 		"name": "Jade",
 		"image": "images/players/jade.png",
 		"classes": [
-			"fomarl",
+			"fomar",
 			"fonewm",
-			"racast"
+			"ramarl"
 		],
 		"metas": [
 			"Ultima"

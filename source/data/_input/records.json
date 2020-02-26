@@ -4669,6 +4669,22 @@
 	},
 	{
 		"mode": "normal",
+		"quest_id": "mu4",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "opm",
+		"pb": true,
+		"time": 492,
+		"team_id": "tankstelle",
+		"players": [
+			{
+				"id": "stevecares",
+				"class": "fonewm"
+			}
+		]
+	},
+	{
+		"mode": "normal",
 		"quest_id": "ttf",
 		"episode": 1,
 		"meta": "vanilla",
