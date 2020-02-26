@@ -1760,6 +1760,46 @@
 		"quest_id": "ma1c",
 		"episode": 1,
 		"meta": "2014",
+		"category": "2p",
+		"pb": true,
+		"time": 988,
+		"team_id": "chosen_few",
+		"players": [
+			{
+				"id": "wilson",
+				"class": "hucast"
+			},
+			{
+				"id": "killz",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ma1c",
+		"episode": 1,
+		"meta": "2014",
+		"category": "2p",
+		"pb": true,
+		"time": 924,
+		"team_id": "",
+		"players": [
+			{
+				"id": "iter",
+				"class": "hucast"
+			},
+			{
+				"id": "zynetic",
+				"class": "hucast"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ma1c",
+		"episode": 1,
+		"meta": "2014",
 		"category": "4p",
 		"pb": false,
 		"time": 1125,
