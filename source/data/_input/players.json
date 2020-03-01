@@ -578,6 +578,37 @@
 		}
 	},
 	{
+		"id": "stevecares",
+		"name": "SteveCares",
+		"image": "images/players/stevecares.jpg",
+		"classes": [
+			"ramarl",
+			"racast",
+			"fonewm"
+		],
+		"metas": [
+			"Vanilla"
+		],
+		"team_ids": ["tankstelle"],
+		"timezone": "PST",
+		"card_content": [],
+		"page_content": [],
+		"discord": "StevieWonderDownUnder#1943",
+		"twitter": "",
+		"youtube": {
+			"name": "StevieWonderDownUnder",
+			"url": "https://youtu.be/Ji325voVtjw"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "ndw",
 		"name": "NDW",
 		"image": "images/players/ndw.png",
@@ -2955,31 +2986,6 @@
 	{
 		"id": "shovel",
 		"name": "Shovel",
-		"image": "images/player.png",
-		"classes": [],
-		"metas": [],
-		"team_ids": [],
-		"timezone": "",
-		"card_content": [],
-		"page_content": [],
-		"discord": "",
-		"twitter": "",
-		"youtube": {
-			"name": "",
-			"url": ""
-		},
-		"twitch": {
-			"name": "",
-			"url": ""
-		},
-		"github": {
-			"name": "",
-			"url": ""
-		}
-	},
-	{
-		"id": "stevecares",
-		"name": "SteveCares",
 		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
