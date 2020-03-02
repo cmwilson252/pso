@@ -4058,7 +4058,7 @@
 				"class": "racast"
 			},
 			{
-				"id": "melody",
+				"id": "travendus",
 				"class": "hunewearl"
 			},
 			{
@@ -4282,7 +4282,7 @@
 				"class": "hunewearl"
 			},
 			{
-				"id": "fluidity",
+				"id": "ender",
 				"class": "fonewearl"
 			},
 			{
@@ -4713,7 +4713,7 @@
 		"episode": 1,
 		"meta": "vanilla",
 		"category": "opm",
-		"pb": true,
+		"pb": false,
 		"time": 496,
 		"team_id": "tankstelle",
 		"players": [
