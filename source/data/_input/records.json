@@ -11,7 +11,7 @@
 		"players": [
 			{
 				"id": "sylph",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -28,22 +28,22 @@
 		"players": [
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "wilson",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "starlord",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -60,7 +60,7 @@
 		"players": [
 			{
 				"id": "sylph",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -77,22 +77,22 @@
 		"players": [
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "hunter",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "starlord",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -109,22 +109,22 @@
 		"players": [
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "scopedout",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "starlord",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -141,7 +141,7 @@
 		"players": [
 			{
 				"id": "sylph",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -158,7 +158,7 @@
 		"players": [
 			{
 				"id": "sylph",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -175,12 +175,12 @@
 		"players": [
 			{
 				"id": "wilson",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -197,12 +197,12 @@
 		"players": [
 			{
 				"id": "hunter",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "starlord",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -219,12 +219,12 @@
 		"players": [
 			{
 				"id": "wilson",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -241,12 +241,12 @@
 		"players": [
 			{
 				"id": "hunter",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "starlord",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -263,7 +263,7 @@
 		"players": [
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -280,7 +280,7 @@
 		"players": [
 			{
 				"id": "starlord",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -314,7 +314,7 @@
 		"players": [
 			{
 				"id": "shin",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -331,7 +331,7 @@
 		"players": [
 			{
 				"id": "yannv",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -348,7 +348,7 @@
 		"players": [
 			{
 				"id": "shiida",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -365,12 +365,12 @@
 		"players": [
 			{
 				"id": "starlord",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "wilson",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -387,17 +387,17 @@
 		"players": [
 			{
 				"id": "lemon",
-				"class": "hucaseal",
+				"class": "racaseal",
 				"video": ""
 			},
 			{
 				"id": "wilson",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			},
 			{
 				"id": "jez",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -414,17 +414,17 @@
 		"players": [
 			{
 				"id": "wilson",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "ndw",
-				"class": "hucaseal",
+				"class": "fomar",
 				"video": ""
 			}
 		]
@@ -441,17 +441,17 @@
 		"players": [
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "scopedout",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -468,12 +468,12 @@
 		"players": [
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "ultrajerky",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
@@ -495,7 +495,7 @@
 		"players": [
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "humar",
 				"video": ""
 			}
 		]
@@ -512,7 +512,7 @@
 		"players": [
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -529,7 +529,7 @@
 		"players": [
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			}
 		]
@@ -546,7 +546,7 @@
 		"players": [
 			{
 				"id": "izaya",
-				"class": "hucaseal",
+				"class": "fomar",
 				"video": ""
 			}
 		]
@@ -563,12 +563,12 @@
 		"players": [
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -585,12 +585,12 @@
 		"players": [
 			{
 				"id": "scopedout",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -607,12 +607,12 @@
 		"players": [
 			{
 				"id": "el_socko",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "night",
-				"class": "hucaseal",
+				"class": "fomarl",
 				"video": ""
 			}
 		]
@@ -629,12 +629,12 @@
 		"players": [
 			{
 				"id": "mudkipzjm",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			},
 			{
 				"id": "jez",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -651,7 +651,7 @@
 		"players": [
 			{
 				"id": "shiida",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			}
 		]
@@ -668,22 +668,22 @@
 		"players": [
 			{
 				"id": "yannv",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "wilson",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mudkipzjm",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			}
 		]
@@ -700,22 +700,22 @@
 		"players": [
 			{
 				"id": "yannv",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "scopedout",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -732,22 +732,22 @@
 		"players": [
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
 				"id": "shiida",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "noudle",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -764,22 +764,22 @@
 		"players": [
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "mudkipzjm",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
 				"id": "night",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "tripler",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -796,22 +796,22 @@
 		"players": [
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "mudkipzjm",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
 				"id": "yannv",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -828,12 +828,12 @@
 		"players": [
 			{
 				"id": "shiida",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "mudkipzjm",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			}
 		]
@@ -867,7 +867,7 @@
 		"players": [
 			{
 				"id": "mudkipzjm",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -901,12 +901,12 @@
 		"players": [
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -923,7 +923,7 @@
 		"players": [
 			{
 				"id": "wilson",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
@@ -933,7 +933,7 @@
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -950,12 +950,12 @@
 		"players": [
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -972,7 +972,7 @@
 		"players": [
 			{
 				"id": "ryan_ford",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			}
 		]
@@ -989,7 +989,7 @@
 		"players": [
 			{
 				"id": "mudkipzjm",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -1006,12 +1006,12 @@
 		"players": [
 			{
 				"id": "starlord",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -1028,12 +1028,12 @@
 		"players": [
 			{
 				"id": "starlord",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "wilson",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -1050,22 +1050,22 @@
 		"players": [
 			{
 				"id": "starlord",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "wilson",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -1082,22 +1082,22 @@
 		"players": [
 			{
 				"id": "starlord",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "wilson",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "yannv",
-				"class": "hucaseal",
+				"class": "fomar",
 				"video": ""
 			},
 			{
 				"id": "mudkipzjm",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -1114,12 +1114,12 @@
 		"players": [
 			{
 				"id": "patrick_bell",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "marcia",
-				"class": "hucaseal",
+				"class": "fomarl",
 				"video": ""
 			},
 			{
@@ -1129,7 +1129,7 @@
 			},
 			{
 				"id": "mudkipzjm",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -1146,12 +1146,12 @@
 		"players": [
 			{
 				"id": "patrick_bell",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "night",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
@@ -1161,7 +1161,7 @@
 			},
 			{
 				"id": "mudkipzjm",
-				"class": "hucaseal",
+				"class": "fomarl",
 				"video": ""
 			}
 		]
@@ -1178,12 +1178,12 @@
 		"players": [
 			{
 				"id": "patrick_bell",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "yannv",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
@@ -1193,7 +1193,7 @@
 			},
 			{
 				"id": "lemon",
-				"class": "hucaseal",
+				"class": "fomarl",
 				"video": ""
 			}
 		]
@@ -1210,12 +1210,12 @@
 		"players": [
 			{
 				"id": "shiida",
-				"class": "hucaseal",
+				"class": "fomarl",
 				"video": ""
 			},
 			{
 				"id": "noudle",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -1232,12 +1232,12 @@
 		"players": [
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
 				"id": "hunter",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -1254,7 +1254,7 @@
 		"players": [
 			{
 				"id": "shiida",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			}
 		]
@@ -1271,7 +1271,7 @@
 		"players": [
 			{
 				"id": "noudle",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			}
 		]
@@ -1288,22 +1288,22 @@
 		"players": [
 			{
 				"id": "hunter",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "yannv",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -1320,22 +1320,22 @@
 		"players": [
 			{
 				"id": "starlord",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "yannv",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -1352,22 +1352,22 @@
 		"players": [
 			{
 				"id": "shiida",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "capo",
-				"class": "hucaseal",
+				"class": "racaseal",
 				"video": ""
 			}
 		]
@@ -1384,22 +1384,22 @@
 		"players": [
 			{
 				"id": "shiida",
-				"class": "hucaseal",
+				"class": "fomarl",
 				"video": ""
 			},
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "noudle",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
 				"id": "yannv",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -1416,22 +1416,22 @@
 		"players": [
 			{
 				"id": "hunter",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "starlord",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "yannv",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -1448,22 +1448,22 @@
 		"players": [
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "starlord",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "scopedout",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -1480,7 +1480,7 @@
 		"players": [
 			{
 				"id": "shiida",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -1497,12 +1497,12 @@
 		"players": [
 			{
 				"id": "hunter",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "yannv",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -1519,12 +1519,12 @@
 		"players": [
 			{
 				"id": "starlord",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -1541,7 +1541,7 @@
 		"players": [
 			{
 				"id": "noudle",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -1558,7 +1558,7 @@
 		"players": [
 			{
 				"id": "lipelis",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -1575,22 +1575,22 @@
 		"players": [
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "mudkipzjm",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
 				"id": "yannv",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -1607,22 +1607,22 @@
 		"players": [
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "scopedout",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "starlord",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -1639,22 +1639,22 @@
 		"players": [
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "yannv",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "mudkipzjm",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "tripler",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -1671,7 +1671,7 @@
 		"players": [
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -1688,22 +1688,22 @@
 		"players": [
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "dgm",
-				"class": "hucaseal",
+				"class": "racaseal",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -1720,7 +1720,7 @@
 		"players": [
 			{
 				"id": "ridji",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -1754,22 +1754,22 @@
 		"players": [
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "9898",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -1786,22 +1786,22 @@
 		"players": [
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "9898",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -1818,22 +1818,22 @@
 		"players": [
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "dgm",
-				"class": "hucaseal",
+				"class": "racaseal",
 				"video": ""
 			},
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -1850,7 +1850,7 @@
 		"players": [
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -1867,7 +1867,7 @@
 		"players": [
 			{
 				"id": "zen",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -1884,7 +1884,7 @@
 		"players": [
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -1901,7 +1901,7 @@
 		"players": [
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -1918,7 +1918,7 @@
 		"players": [
 			{
 				"id": "hiothun",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -1935,12 +1935,12 @@
 		"players": [
 			{
 				"id": "wilson",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -1957,12 +1957,12 @@
 		"players": [
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -1979,12 +1979,12 @@
 		"players": [
 			{
 				"id": "iter",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "zynetic",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -2001,22 +2001,22 @@
 		"players": [
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -2033,22 +2033,22 @@
 		"players": [
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "dgm",
-				"class": "hucaseal",
+				"class": "racaseal",
 				"video": ""
 			},
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -2065,22 +2065,22 @@
 		"players": [
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "joey",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "sylph",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "thepp0",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -2097,22 +2097,22 @@
 		"players": [
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "500ryu",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -2129,22 +2129,22 @@
 		"players": [
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "500ryu",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -2161,22 +2161,22 @@
 		"players": [
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "500ryu",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -2193,22 +2193,22 @@
 		"players": [
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "joey",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "iter",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "tt3",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -2225,7 +2225,7 @@
 		"players": [
 			{
 				"id": "ndw",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -2242,7 +2242,7 @@
 		"players": [
 			{
 				"id": "wilson",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			}
 		]
@@ -2259,22 +2259,22 @@
 		"players": [
 			{
 				"id": "wilson",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			},
 			{
 				"id": "500ryu",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -2291,12 +2291,12 @@
 		"players": [
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "zen",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			}
 		]
@@ -2313,12 +2313,12 @@
 		"players": [
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			},
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "humar",
 				"video": ""
 			}
 		]
@@ -2335,7 +2335,7 @@
 		"players": [
 			{
 				"id": "ndw",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -2352,7 +2352,7 @@
 		"players": [
 			{
 				"id": "aura_v3",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -2369,7 +2369,7 @@
 		"players": [
 			{
 				"id": "zynetic",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -2386,7 +2386,7 @@
 		"players": [
 			{
 				"id": "nemu",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -2403,7 +2403,7 @@
 		"players": [
 			{
 				"id": "vex",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -2420,7 +2420,7 @@
 		"players": [
 			{
 				"id": "joey",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -2437,7 +2437,7 @@
 		"players": [
 			{
 				"id": "zynetic",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -2454,7 +2454,7 @@
 		"players": [
 			{
 				"id": "500ryu",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -2471,7 +2471,7 @@
 		"players": [
 			{
 				"id": "sylph",
-				"class": "hucaseal",
+				"class": "humar",
 				"video": ""
 			}
 		]
@@ -2488,7 +2488,7 @@
 		"players": [
 			{
 				"id": "wilson",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			}
 		]
@@ -2505,7 +2505,7 @@
 		"players": [
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -2522,7 +2522,7 @@
 		"players": [
 			{
 				"id": "sylph",
-				"class": "hucaseal",
+				"class": "humar",
 				"video": ""
 			}
 		]
@@ -2539,22 +2539,22 @@
 		"players": [
 			{
 				"id": "wilson",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			},
 			{
 				"id": "hunter",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -2571,17 +2571,17 @@
 		"players": [
 			{
 				"id": "wilson",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "lemon",
-				"class": "hucaseal",
+				"class": "fomarl",
 				"video": ""
 			},
 			{
 				"id": "nohit",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -2598,7 +2598,7 @@
 		"players": [
 			{
 				"id": "hiothun",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -2615,7 +2615,7 @@
 		"players": [
 			{
 				"id": "xii",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -2632,7 +2632,7 @@
 		"players": [
 			{
 				"id": "sylph",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -2649,22 +2649,22 @@
 		"players": [
 			{
 				"id": "dgm",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -2681,22 +2681,22 @@
 		"players": [
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "joey",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "nemu",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "jajaswipo",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -2713,7 +2713,7 @@
 		"players": [
 			{
 				"id": "aura_v3",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			}
 		]
@@ -2730,7 +2730,7 @@
 		"players": [
 			{
 				"id": "hiothun",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			}
 		]
@@ -2747,7 +2747,7 @@
 		"players": [
 			{
 				"id": "zeal",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			}
 		]
@@ -2764,7 +2764,7 @@
 		"players": [
 			{
 				"id": "mumu",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			}
 		]
@@ -2781,12 +2781,12 @@
 		"players": [
 			{
 				"id": "ume",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "hiothun",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			}
 		]
@@ -2803,12 +2803,12 @@
 		"players": [
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "aic",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			}
 		]
@@ -2825,12 +2825,12 @@
 		"players": [
 			{
 				"id": "ume",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "aic",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			}
 		]
@@ -2847,22 +2847,22 @@
 		"players": [
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			},
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "dgm",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "aura_v3",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -2879,22 +2879,22 @@
 		"players": [
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "nemu",
-				"class": "hucaseal",
+				"class": "fomarl",
 				"video": ""
 			},
 			{
 				"id": "hatral",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "jajaswipo",
-				"class": "hucaseal",
+				"class": "humar",
 				"video": ""
 			}
 		]
@@ -2911,22 +2911,22 @@
 		"players": [
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fomarl",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -2943,22 +2943,22 @@
 		"players": [
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "thepp0",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "nemu",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "hatral",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -2975,22 +2975,22 @@
 		"players": [
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -3007,22 +3007,22 @@
 		"players": [
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "iter",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "joey",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "dyne",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -3039,12 +3039,12 @@
 		"players": [
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "dyne",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -3061,7 +3061,7 @@
 		"players": [
 			{
 				"id": "sylph",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -3078,7 +3078,7 @@
 		"players": [
 			{
 				"id": "sylph",
-				"class": "hucaseal",
+				"class": "humar",
 				"video": ""
 			}
 		]
@@ -3095,12 +3095,12 @@
 		"players": [
 			{
 				"id": "hunter",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "starlord",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			}
 		]
@@ -3117,7 +3117,7 @@
 		"players": [
 			{
 				"id": "wilson",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -3134,7 +3134,7 @@
 		"players": [
 			{
 				"id": "nohit",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -3151,7 +3151,7 @@
 		"players": [
 			{
 				"id": "hunter",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -3168,12 +3168,12 @@
 		"players": [
 			{
 				"id": "hunter",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "wilson",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			}
 		]
@@ -3190,22 +3190,22 @@
 		"players": [
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "joey",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "nemu",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "jajaswipo",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -3222,22 +3222,22 @@
 		"players": [
 			{
 				"id": "aic",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "jojo",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mumu",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "ume",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -3254,22 +3254,22 @@
 		"players": [
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "joey",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "noodle",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "morpha",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -3286,22 +3286,22 @@
 		"players": [
 			{
 				"id": "aic",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "jojo",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "mumu",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "ume",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -3318,22 +3318,22 @@
 		"players": [
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "dgm",
-				"class": "hucaseal",
+				"class": "racaseal",
 				"video": ""
 			},
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -3350,22 +3350,22 @@
 		"players": [
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "dgm",
-				"class": "hucaseal",
+				"class": "racaseal",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "cava",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -3382,22 +3382,22 @@
 		"players": [
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -3414,22 +3414,22 @@
 		"players": [
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "joey",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "iter",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "dyne",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -3446,22 +3446,22 @@
 		"players": [
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "humar",
 				"video": ""
 			}
 		]
@@ -3478,7 +3478,7 @@
 		"players": [
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -3495,7 +3495,7 @@
 		"players": [
 			{
 				"id": "oberon",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -3512,22 +3512,22 @@
 		"players": [
 			{
 				"id": "dgm",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -3544,22 +3544,22 @@
 		"players": [
 			{
 				"id": "500ryu",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -3576,22 +3576,22 @@
 		"players": [
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "joey",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "iter",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "dyne",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -3608,22 +3608,22 @@
 		"players": [
 			{
 				"id": "grifter",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "darv",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "colin",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "rain",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -3640,12 +3640,12 @@
 		"players": [
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -3662,12 +3662,12 @@
 		"players": [
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "hatral",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -3684,12 +3684,12 @@
 		"players": [
 			{
 				"id": "zynetic",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "sylph",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -3706,22 +3706,22 @@
 		"players": [
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "dgm",
-				"class": "hucaseal",
+				"class": "racaseal",
 				"video": ""
 			}
 		]
@@ -3738,7 +3738,7 @@
 		"players": [
 			{
 				"id": "zynetic",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -3755,7 +3755,7 @@
 		"players": [
 			{
 				"id": "zynetic",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -3772,7 +3772,7 @@
 		"players": [
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -3789,7 +3789,7 @@
 		"players": [
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fomarl",
 				"video": ""
 			}
 		]
@@ -3806,12 +3806,12 @@
 		"players": [
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -3828,22 +3828,22 @@
 		"players": [
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "9898",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "humar",
 				"video": ""
 			},
 			{
 				"id": "dgm",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -3860,22 +3860,22 @@
 		"players": [
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "humar",
 				"video": ""
 			},
 			{
 				"id": "dgm",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -3892,22 +3892,22 @@
 		"players": [
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "nemu",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "thepp0",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "hatral",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -3924,22 +3924,22 @@
 		"players": [
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -3956,22 +3956,22 @@
 		"players": [
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "dgm",
-				"class": "hucaseal",
+				"class": "racaseal",
 				"video": ""
 			}
 		]
@@ -3988,22 +3988,22 @@
 		"players": [
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "joey",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "nemu",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "rashan",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -4020,7 +4020,7 @@
 		"players": [
 			{
 				"id": "sylph",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -4037,22 +4037,22 @@
 		"players": [
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "dgm",
-				"class": "hucaseal",
+				"class": "racaseal",
 				"video": ""
 			},
 			{
 				"id": "aura_v3",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -4069,22 +4069,22 @@
 		"players": [
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "joey",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "thepp0",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "hatral",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -4101,7 +4101,7 @@
 		"players": [
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fomarl",
 				"video": ""
 			}
 		]
@@ -4118,7 +4118,7 @@
 		"players": [
 			{
 				"id": "sam5655",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -4152,22 +4152,22 @@
 		"players": [
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "joey",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "iter",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "dyne",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -4184,22 +4184,22 @@
 		"players": [
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -4216,22 +4216,22 @@
 		"players": [
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "iter",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "joey",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "dyne",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -4248,7 +4248,7 @@
 		"players": [
 			{
 				"id": "mumu",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -4265,22 +4265,22 @@
 		"players": [
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "joey",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "nemu",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "jajaswipo",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -4297,7 +4297,7 @@
 		"players": [
 			{
 				"id": "stevecares",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -4314,22 +4314,22 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "fomar",
 				"video": ""
 			},
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "zen",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -4346,22 +4346,22 @@
 		"players": [
 			{
 				"id": "9898",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fomar",
 				"video": ""
 			}
 		]
@@ -4378,12 +4378,12 @@
 		"players": [
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "zen",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -4400,12 +4400,12 @@
 		"players": [
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "demonized",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -4422,7 +4422,7 @@
 		"players": [
 			{
 				"id": "zen",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -4439,7 +4439,7 @@
 		"players": [
 			{
 				"id": "roo",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -4456,7 +4456,7 @@
 		"players": [
 			{
 				"id": "shovel",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -4473,22 +4473,22 @@
 		"players": [
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "travendus",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "nohit",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -4505,22 +4505,22 @@
 		"players": [
 			{
 				"id": "roo",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "travendus",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			},
 			{
 				"id": "ayria",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "_shadofix",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -4537,7 +4537,7 @@
 		"players": [
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -4554,7 +4554,7 @@
 		"players": [
 			{
 				"id": "shovel",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -4571,22 +4571,22 @@
 		"players": [
 			{
 				"id": "roo",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
 				"id": "stevecares",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "travendus",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -4603,22 +4603,22 @@
 		"players": [
 			{
 				"id": "lil_b",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "venom",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "demonized",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -4635,7 +4635,7 @@
 		"players": [
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -4652,7 +4652,7 @@
 		"players": [
 			{
 				"id": "nohit",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -4669,7 +4669,7 @@
 		"players": [
 			{
 				"id": "roo",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -4686,22 +4686,22 @@
 		"players": [
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "stevecares",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "travendus",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -4718,22 +4718,22 @@
 		"players": [
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "zero_641",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "travendus",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -4750,22 +4750,22 @@
 		"players": [
 			{
 				"id": "roo",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "yuffie",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			},
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "eun-ji",
-				"class": "hucaseal",
+				"class": "racaseal",
 				"video": ""
 			}
 		]
@@ -4782,7 +4782,7 @@
 		"players": [
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -4799,7 +4799,7 @@
 		"players": [
 			{
 				"id": "roo",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -4816,7 +4816,7 @@
 		"players": [
 			{
 				"id": "saga",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -4850,22 +4850,22 @@
 		"players": [
 			{
 				"id": "roo",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "jajaswipo",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "travendus",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -4882,22 +4882,22 @@
 		"players": [
 			{
 				"id": "demonized",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "lil_b",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -4914,7 +4914,7 @@
 		"players": [
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -4931,7 +4931,7 @@
 		"players": [
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -4948,7 +4948,7 @@
 		"players": [
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -4965,7 +4965,7 @@
 		"players": [
 			{
 				"id": "lileya",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -4982,7 +4982,7 @@
 		"players": [
 			{
 				"id": "roo",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -4999,12 +4999,12 @@
 		"players": [
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -5021,12 +5021,12 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
 				"id": "zen",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -5043,12 +5043,12 @@
 		"players": [
 			{
 				"id": "9898",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
 				"id": "demonized",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -5065,7 +5065,7 @@
 		"players": [
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -5082,7 +5082,7 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -5099,7 +5099,7 @@
 		"players": [
 			{
 				"id": "9898",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -5116,12 +5116,12 @@
 		"players": [
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -5138,12 +5138,12 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
 				"id": "zen",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -5160,7 +5160,7 @@
 		"players": [
 			{
 				"id": "stevecares",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -5177,7 +5177,7 @@
 		"players": [
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -5194,7 +5194,7 @@
 		"players": [
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -5211,12 +5211,12 @@
 		"players": [
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "demonized",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -5233,7 +5233,7 @@
 		"players": [
 			{
 				"id": "stevecares",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -5250,7 +5250,7 @@
 		"players": [
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			}
 		]
@@ -5267,7 +5267,7 @@
 		"players": [
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -5284,7 +5284,7 @@
 		"players": [
 			{
 				"id": "roo",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			}
 		]
@@ -5301,7 +5301,7 @@
 		"players": [
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -5318,7 +5318,7 @@
 		"players": [
 			{
 				"id": "demonized",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -5335,7 +5335,7 @@
 		"players": [
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -5352,7 +5352,7 @@
 		"players": [
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -5369,7 +5369,7 @@
 		"players": [
 			{
 				"id": "dongra",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -5386,7 +5386,7 @@
 		"players": [
 			{
 				"id": "shovel",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -5403,7 +5403,7 @@
 		"players": [
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fomarl",
 				"video": ""
 			}
 		]
@@ -5420,12 +5420,12 @@
 		"players": [
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -5442,12 +5442,12 @@
 		"players": [
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "zen",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -5464,12 +5464,12 @@
 		"players": [
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -5486,12 +5486,12 @@
 		"players": [
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			},
 			{
 				"id": "roo",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -5508,17 +5508,17 @@
 		"players": [
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "ndw",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -5535,22 +5535,22 @@
 		"players": [
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "aura_v3",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -5567,22 +5567,22 @@
 		"players": [
 			{
 				"id": "demonized",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "natural",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "nebula",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "wigga",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -5599,22 +5599,22 @@
 		"players": [
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "fomar",
 				"video": ""
 			},
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "zen",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -5631,17 +5631,17 @@
 		"players": [
 			{
 				"id": "zen",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -5658,17 +5658,17 @@
 		"players": [
 			{
 				"id": "zen",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -5685,22 +5685,22 @@
 		"players": [
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fomarl",
 				"video": ""
 			}
 		]
@@ -5717,17 +5717,17 @@
 		"players": [
 			{
 				"id": "zen",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
 				"id": "jake",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			}
 		]
@@ -5744,12 +5744,12 @@
 		"players": [
 			{
 				"id": "zen",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -5766,12 +5766,12 @@
 		"players": [
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "capn",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -5788,7 +5788,7 @@
 		"players": [
 			{
 				"id": "cameron",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -5805,7 +5805,7 @@
 		"players": [
 			{
 				"id": "wilson",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -5822,7 +5822,7 @@
 		"players": [
 			{
 				"id": "roo",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -5856,22 +5856,22 @@
 		"players": [
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "travendus",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "nohit",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -5888,22 +5888,22 @@
 		"players": [
 			{
 				"id": "venom",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "demonized",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "lil_b",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -5920,7 +5920,7 @@
 		"players": [
 			{
 				"id": "roo",
-				"class": "hucaseal",
+				"class": "racaseal",
 				"video": ""
 			}
 		]
@@ -5954,22 +5954,22 @@
 		"players": [
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "travendus",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "stevecares",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			}
 		]
@@ -5986,22 +5986,22 @@
 		"players": [
 			{
 				"id": "nohit",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "alisaryn",
-				"class": "hucaseal",
+				"class": "racaseal",
 				"video": ""
 			},
 			{
 				"id": "lilyuki",
-				"class": "hucaseal",
+				"class": "fomarl",
 				"video": ""
 			}
 		]
@@ -6018,22 +6018,22 @@
 		"players": [
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "dizzy",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "fomar",
 				"video": ""
 			},
 			{
 				"id": "stevecares",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -6050,7 +6050,7 @@
 		"players": [
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -6084,22 +6084,22 @@
 		"players": [
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "stevecares",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "travendus",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -6116,7 +6116,7 @@
 		"players": [
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
@@ -6126,12 +6126,12 @@
 			},
 			{
 				"id": "arsuru",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
 				"id": "travendus",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -6148,7 +6148,7 @@
 		"players": [
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -6165,7 +6165,7 @@
 		"players": [
 			{
 				"id": "ndw",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -6182,7 +6182,7 @@
 		"players": [
 			{
 				"id": "arsuru",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
@@ -6192,12 +6192,12 @@
 			},
 			{
 				"id": "dizzy",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "stevecares",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -6214,22 +6214,22 @@
 		"players": [
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "travendus",
-				"class": "hucaseal",
+				"class": "racaseal",
 				"video": ""
 			},
 			{
 				"id": "astallasalion",
-				"class": "hucaseal",
+				"class": "fomarl",
 				"video": ""
 			}
 		]
@@ -6246,22 +6246,22 @@
 		"players": [
 			{
 				"id": "demonized",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "venom",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			}
 		]
@@ -6278,7 +6278,7 @@
 		"players": [
 			{
 				"id": "zen",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -6295,7 +6295,7 @@
 		"players": [
 			{
 				"id": "a_man_in_flames",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -6312,22 +6312,22 @@
 		"players": [
 			{
 				"id": "nohit",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			},
 			{
 				"id": "travendus",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -6344,22 +6344,22 @@
 		"players": [
 			{
 				"id": "roo",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "travendus",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "stevecares",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -6376,7 +6376,7 @@
 		"players": [
 			{
 				"id": "zen",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -6393,7 +6393,7 @@
 		"players": [
 			{
 				"id": "zen",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -6410,22 +6410,22 @@
 		"players": [
 			{
 				"id": "dizzy",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "venom",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "lil_b",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -6442,7 +6442,7 @@
 		"players": [
 			{
 				"id": "zen",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -6459,7 +6459,7 @@
 		"players": [
 			{
 				"id": "stevecares",
-				"class": "hucaseal",
+				"class": "racaseal",
 				"video": ""
 			}
 		]
@@ -6476,7 +6476,7 @@
 		"players": [
 			{
 				"id": "esc",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -6493,22 +6493,22 @@
 		"players": [
 			{
 				"id": "zen",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -6525,22 +6525,22 @@
 		"players": [
 			{
 				"id": "zen",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "mote",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -6557,22 +6557,22 @@
 		"players": [
 			{
 				"id": "brandon",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "dizzy",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "lil_b",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "ayria",
-				"class": "hucaseal",
+				"class": "fomarl",
 				"video": ""
 			}
 		]
@@ -6589,22 +6589,22 @@
 		"players": [
 			{
 				"id": "zen",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "daisuri",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -6621,12 +6621,12 @@
 		"players": [
 			{
 				"id": "zen",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -6643,22 +6643,22 @@
 		"players": [
 			{
 				"id": "9898",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -6675,12 +6675,12 @@
 		"players": [
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -6697,7 +6697,7 @@
 		"players": [
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -6714,7 +6714,7 @@
 		"players": [
 			{
 				"id": "ade",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -6731,22 +6731,22 @@
 		"players": [
 			{
 				"id": "demonized",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "venom",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -6763,7 +6763,7 @@
 		"players": [
 			{
 				"id": "a_man_in_flames",
-				"class": "hucaseal",
+				"class": "humar",
 				"video": ""
 			}
 		]
@@ -6780,22 +6780,22 @@
 		"players": [
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "stevecares",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "travendus",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -6812,22 +6812,22 @@
 		"players": [
 			{
 				"id": "demonized",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "zen",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "killz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "sange",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -6844,7 +6844,7 @@
 		"players": [
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -6861,7 +6861,7 @@
 		"players": [
 			{
 				"id": "shovel",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -6878,7 +6878,7 @@
 		"players": [
 			{
 				"id": "ade",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -6895,12 +6895,12 @@
 		"players": [
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -6917,22 +6917,22 @@
 		"players": [
 			{
 				"id": "alukard",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "revision",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "jack",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -6949,12 +6949,12 @@
 		"players": [
 			{
 				"id": "9898",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -6971,17 +6971,17 @@
 		"players": [
 			{
 				"id": "armand",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			},
 			{
 				"id": "mattie",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			}
 		]
@@ -6998,7 +6998,7 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			}
 		]
@@ -7015,7 +7015,7 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "humar",
 				"video": ""
 			}
 		]
@@ -7032,7 +7032,7 @@
 		"players": [
 			{
 				"id": "cody",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -7049,22 +7049,22 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			},
 			{
 				"id": "armand",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "9898",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "tom",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -7081,12 +7081,12 @@
 		"players": [
 			{
 				"id": "armand",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			},
 			{
 				"id": "wilson",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -7103,12 +7103,12 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			},
 			{
 				"id": "armand",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -7125,22 +7125,22 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "armand",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "9898",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "schranko",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -7157,12 +7157,12 @@
 		"players": [
 			{
 				"id": "bert",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "armand",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -7179,7 +7179,7 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -7196,12 +7196,12 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			},
 			{
 				"id": "armand",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -7218,22 +7218,22 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "armand",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "9898",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "blue_world",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -7250,22 +7250,22 @@
 		"players": [
 			{
 				"id": "cody",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "schranko",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "submarine",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "azmidiske",
-				"class": "hucaseal",
+				"class": "fomar",
 				"video": ""
 			}
 		]
@@ -7282,22 +7282,22 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "tom",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "armand",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "ambrosia",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			}
 		]
@@ -7314,17 +7314,17 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "kevka",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "kayak",
-				"class": "hucaseal",
+				"class": "fomar",
 				"video": ""
 			}
 		]
@@ -7341,7 +7341,7 @@
 		"players": [
 			{
 				"id": "armand",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -7358,22 +7358,22 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			},
 			{
 				"id": "schranko",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "cody",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "kayak",
-				"class": "hucaseal",
+				"class": "fomar",
 				"video": ""
 			}
 		]
@@ -7390,22 +7390,22 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "schranko",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "cody",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "armand",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -7422,12 +7422,12 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			},
 			{
 				"id": "armand",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -7444,22 +7444,22 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			},
 			{
 				"id": "armand",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "cody",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "bert",
-				"class": "hucaseal",
+				"class": "fomar",
 				"video": ""
 			}
 		]
@@ -7476,22 +7476,22 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "armand",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "tom",
-				"class": "hucaseal",
+				"class": "fomar",
 				"video": ""
 			},
 			{
 				"id": "chi",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			}
 		]
@@ -7508,7 +7508,7 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			}
 		]
@@ -7525,7 +7525,7 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hunewearl",
 				"video": ""
 			}
 		]
@@ -7542,7 +7542,7 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -7559,12 +7559,12 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "armand",
-				"class": "hucaseal",
+				"class": "ramarl",
 				"video": ""
 			}
 		]
@@ -7581,22 +7581,22 @@
 		"players": [
 			{
 				"id": "armand",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "9898",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "jake",
-				"class": "hucaseal",
+				"class": "fomarl",
 				"video": ""
 			},
 			{
 				"id": "mt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -7613,7 +7613,7 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -7630,12 +7630,12 @@
 		"players": [
 			{
 				"id": "klekt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mote",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
@@ -7645,7 +7645,7 @@
 			},
 			{
 				"id": "capn",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -7662,12 +7662,12 @@
 		"players": [
 			{
 				"id": "roo",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "capn",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -7684,12 +7684,12 @@
 		"players": [
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "wilson",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -7706,22 +7706,22 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "zynetic",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "blue_world",
-				"class": "hucaseal",
+				"class": "hucasT",
 				"video": ""
 			},
 			{
 				"id": "kuromoriyu",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -7738,7 +7738,7 @@
 		"players": [
 			{
 				"id": "klekt",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
@@ -7748,12 +7748,12 @@
 			},
 			{
 				"id": "schranko",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "vex",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -7770,12 +7770,12 @@
 		"players": [
 			{
 				"id": "klekt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mote",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -7792,12 +7792,12 @@
 		"players": [
 			{
 				"id": "hardwood",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "current_character",
-				"class": "hucaseal",
+				"class": "racaseal",
 				"video": ""
 			}
 		]
@@ -7814,22 +7814,22 @@
 		"players": [
 			{
 				"id": "aerilas",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "humar",
 				"video": ""
 			},
 			{
 				"id": "arsuru",
-				"class": "hucaseal",
+				"class": "racaseal",
 				"video": ""
 			},
 			{
 				"id": "schranko",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -7846,7 +7846,7 @@
 		"players": [
 			{
 				"id": "klekt",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
@@ -7856,12 +7856,12 @@
 			},
 			{
 				"id": "vex",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "schranko",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -7878,17 +7878,17 @@
 		"players": [
 			{
 				"id": "red",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "uno",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
@@ -7910,12 +7910,12 @@
 		"players": [
 			{
 				"id": "roo",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "aerilas",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -7932,7 +7932,7 @@
 		"players": [
 			{
 				"id": "klekt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
@@ -7954,7 +7954,7 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
@@ -7969,7 +7969,7 @@
 			},
 			{
 				"id": "kuromoriyu",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -7986,12 +7986,12 @@
 		"players": [
 			{
 				"id": "roo",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "capn",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -8008,12 +8008,12 @@
 		"players": [
 			{
 				"id": "roo",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -8030,12 +8030,12 @@
 		"players": [
 			{
 				"id": "roo",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "schranko",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -8052,7 +8052,7 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
@@ -8062,12 +8062,12 @@
 			},
 			{
 				"id": "zynetic",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "joey",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -8084,12 +8084,12 @@
 		"players": [
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "ndw",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
@@ -8099,7 +8099,7 @@
 			},
 			{
 				"id": "niht",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -8116,12 +8116,12 @@
 		"players": [
 			{
 				"id": "roo",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "aerilas",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -8138,12 +8138,12 @@
 		"players": [
 			{
 				"id": "roo",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "nohit",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -8160,22 +8160,22 @@
 		"players": [
 			{
 				"id": "uno",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "venom",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "vex",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "aizen",
-				"class": "hucaseal",
+				"class": "ramar",
 				"video": ""
 			}
 		]
@@ -8192,22 +8192,22 @@
 		"players": [
 			{
 				"id": "zynetic",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "rain",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "joey",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -8224,12 +8224,12 @@
 		"players": [
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "ndw",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
@@ -8239,7 +8239,7 @@
 			},
 			{
 				"id": "niht",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -8256,12 +8256,12 @@
 		"players": [
 			{
 				"id": "roo",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "aerilas",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -8278,12 +8278,12 @@
 		"players": [
 			{
 				"id": "klekt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mote",
-				"class": "hucaseal",
+				"class": "racaseal",
 				"video": ""
 			}
 		]
@@ -8300,22 +8300,22 @@
 		"players": [
 			{
 				"id": "schranko",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "arsuru",
-				"class": "hucaseal",
+				"class": "racaseal",
 				"video": ""
 			},
 			{
 				"id": "aerilas",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "humar",
 				"video": ""
 			}
 		]
@@ -8332,12 +8332,12 @@
 		"players": [
 			{
 				"id": "ndw",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "niht",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
@@ -8347,7 +8347,7 @@
 			},
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -8364,7 +8364,7 @@
 		"players": [
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
@@ -8374,12 +8374,12 @@
 			},
 			{
 				"id": "dj_ridoo",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "no_future",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -8396,7 +8396,7 @@
 		"players": [
 			{
 				"id": "capn",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
@@ -8411,7 +8411,7 @@
 			},
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -8428,12 +8428,12 @@
 		"players": [
 			{
 				"id": "schranko",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "uno",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
@@ -8443,7 +8443,7 @@
 			},
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -8460,12 +8460,12 @@
 		"players": [
 			{
 				"id": "roo",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "aerilas",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -8482,12 +8482,12 @@
 		"players": [
 			{
 				"id": "schranko",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -8504,12 +8504,12 @@
 		"players": [
 			{
 				"id": "klekt",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mote",
-				"class": "hucaseal",
+				"class": "racaseal",
 				"video": ""
 			}
 		]
@@ -8526,7 +8526,7 @@
 		"players": [
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
@@ -8536,12 +8536,12 @@
 			},
 			{
 				"id": "dj_ridoo",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "no_future",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -8568,12 +8568,12 @@
 			},
 			{
 				"id": "capn",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			}
 		]
@@ -8590,22 +8590,22 @@
 		"players": [
 			{
 				"id": "schranko",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "atal",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			}
 		]
@@ -8622,17 +8622,17 @@
 		"players": [
 			{
 				"id": "roo",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "vex",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -8649,12 +8649,12 @@
 		"players": [
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "hardwood",
-				"class": "hucaseal",
+				"class": "humar",
 				"video": ""
 			}
 		]
@@ -8671,12 +8671,12 @@
 		"players": [
 			{
 				"id": "schranko",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "mote",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -8693,12 +8693,12 @@
 		"players": [
 			{
 				"id": "schranko",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -8715,7 +8715,7 @@
 		"players": [
 			{
 				"id": "zynetic",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
@@ -8737,22 +8737,22 @@
 		"players": [
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "joey",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "zynetic",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "rain",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -8769,7 +8769,7 @@
 		"players": [
 			{
 				"id": "zynetic",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
@@ -8779,12 +8779,12 @@
 			},
 			{
 				"id": "joey",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -8801,22 +8801,22 @@
 		"players": [
 			{
 				"id": "zynetic",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "rain",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "joey",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -8833,12 +8833,12 @@
 		"players": [
 			{
 				"id": "klekt",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "daisuri",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
@@ -8848,7 +8848,7 @@
 			},
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -8865,22 +8865,22 @@
 		"players": [
 			{
 				"id": "zynetic",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "schranko",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "joey",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -8897,22 +8897,22 @@
 		"players": [
 			{
 				"id": "schranko",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "klekt",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -8929,22 +8929,22 @@
 		"players": [
 			{
 				"id": "zynetic",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "uno",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -8961,22 +8961,22 @@
 		"players": [
 			{
 				"id": "zynetic",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "fomarl",
 				"video": ""
 			},
 			{
 				"id": "uno",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "fomar",
 				"video": ""
 			}
 		]
@@ -8998,17 +8998,17 @@
 			},
 			{
 				"id": "astallasalion",
-				"class": "hucaseal",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
 				"id": "joey",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "ender",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -9030,17 +9030,17 @@
 			},
 			{
 				"id": "zen",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "joey",
-				"class": "hucaseal",
+				"class": "fonewemn",
 				"video": ""
 			},
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -9062,17 +9062,17 @@
 			},
 			{
 				"id": "schranko",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			},
 			{
 				"id": "joey",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -9089,22 +9089,22 @@
 		"players": [
 			{
 				"id": "mote",
-				"class": "hucaseal",
+				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "spuz",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			},
 			{
 				"id": "belz",
-				"class": "hucaseal",
+				"class": "fonewemn",
 				"video": ""
 			},
 			{
 				"id": "klekt",
-				"class": "hucaseal",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
