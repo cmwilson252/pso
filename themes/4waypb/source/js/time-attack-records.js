@@ -44,6 +44,15 @@ window.fourwaypb.time_attack_records.ready = function() {
             }
         },
         {
+            key: "team",
+            header: "Team",
+            collapse: false,
+            last_value: null,
+            formatter: (x) => {
+                return (x ? x.name : "");
+            }
+        },
+        {
             key: "players",
             header: "Players",
             collapse: false,
@@ -62,14 +71,15 @@ window.fourwaypb.time_attack_records.ready = function() {
             }
         },
         {
-            key: "team",
-            header: "Team",
+            key: "players",
+            header: "POV",
             collapse: false,
             last_value: null,
             formatter: (x) => {
-                return (x ? x.name : "");
+                return playerPOVToList(x);
             }
         },
+        
     ]
     let SearchSettings = {
         modes: [],
@@ -157,6 +167,18 @@ window.fourwaypb.time_attack_records.ready = function() {
                 result += '</br>';
             }
             result += arr[i].name;
+        }
+        return result;
+    }
+    function playerPOVToList(arr){
+        let result = '';
+        for (let i = 0; i < arr.length; i++) {
+            if (i != 0) {
+                result += '</br>';
+            }
+            if (arr[i].video) {
+                result += '<a href="'+arr[i].video+'">POV</a>';
+            }
         }
         return result;
     }
