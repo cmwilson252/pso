@@ -198,7 +198,7 @@
 			{
 				"id": "hunter",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/K57sQMu6AKM"
 			},
 			{
 				"id": "starlord",
@@ -242,7 +242,7 @@
 			{
 				"id": "hunter",
 				"class": "hucast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=Aw99BbNxFM4"
 			},
 			{
 				"id": "starlord",
@@ -524,13 +524,13 @@
 		"meta": "ultima",
 		"category": "1p",
 		"pb": false,
-		"time": 639,
+		"time": 638,
 		"team_id": "chosen_few",
 		"players": [
 			{
 				"id": "rashan",
 				"class": "hunewearl",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=H3SUH_7QURg"
 			}
 		]
 	},
@@ -564,7 +564,7 @@
 			{
 				"id": "rashan",
 				"class": "hunewearl",
-				"video": ""
+				"video": "https://youtu.be/q9HQBx8_NlA"
 			},
 			{
 				"id": "killz",
@@ -792,7 +792,7 @@
 		"category": "4p",
 		"pb": false,
 		"time": 1517,
-		"team_id": "chosen_few",
+		"team_id": "",
 		"players": [
 			{
 				"id": "rashan",
@@ -808,6 +808,28 @@
 				"id": "yannv",
 				"class": "racast",
 				"video": ""
+			},
+			{
+				"id": "killz",
+				"class": "racast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "mas",
+		"episode": 2,
+		"meta": "ultima",
+		"category": "4p",
+		"pb": false,
+		"time": 1122,
+		"team_id": "chosen_few",
+		"players": [
+			{
+				"id": "rashan",
+				"class": "ramarl",
+				"video": "https://www.youtube.com/watch?v=OmmQ3TkGl5Q"
 			},
 			{
 				"id": "killz",
@@ -1233,12 +1255,12 @@
 			{
 				"id": "rashan",
 				"class": "ramar",
-				"video": ""
+				"video": "https://youtu.be/LVLjx1vLIgs"
 			},
 			{
 				"id": "hunter",
 				"class": "fonewearl",
-				"video": ""
+				"video": "https://youtu.be/6gnxPiL26d0"
 			}
 		]
 	},
@@ -1770,7 +1792,7 @@
 			{
 				"id": "mt",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/dqsFEzpzkWs"
 			}
 		]
 	},
@@ -1786,8 +1808,8 @@
 		"players": [
 			{
 				"id": "jack",
-				"class": "fonewearl",
-				"video": ""
+				"class": "racaseal",
+				"video": "https://www.youtube.com/watch?v=0TVJ0vSYY4Y"
 			},
 			{
 				"id": "9898",
@@ -1802,7 +1824,7 @@
 			{
 				"id": "mt",
 				"class": "hucast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=7ZUo8f-yZnc"
 			}
 		]
 	},
@@ -1963,7 +1985,7 @@
 			{
 				"id": "mt",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/8cqmdD7XiKc"
 			}
 		]
 	},
@@ -2098,7 +2120,7 @@
 			{
 				"id": "revision",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/oLiVPovRhFE"
 			},
 			{
 				"id": "500ryu",
@@ -2292,7 +2314,7 @@
 			{
 				"id": "sange",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/2xqrJEXopiY"
 			},
 			{
 				"id": "zen",
@@ -2314,7 +2336,7 @@
 			{
 				"id": "mt",
 				"class": "hunewearl",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=jyFhrTrkyTk"
 			},
 			{
 				"id": "jack",
@@ -2776,6 +2798,28 @@
 		"meta": "2014",
 		"category": "2p",
 		"pb": false,
+		"time": 513,
+		"team_id": null,
+		"players": [
+			{
+				"id": "revision",
+				"class": "hucast",
+				"video": "https://www.youtube.com/watch?v=zd6haJwkbB0&"
+			},
+			{
+				"id": "alukard",
+				"class": "hunewearl",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ttf",
+		"episode": 1,
+		"meta": "2014",
+		"category": "2p",
+		"pb": false,
 		"time": 516,
 		"team_id": null,
 		"players": [
@@ -3096,7 +3140,7 @@
 			{
 				"id": "hunter",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/jpgA0tMT-aE"
 			},
 			{
 				"id": "starlord",
@@ -3135,7 +3179,7 @@
 			{
 				"id": "nohit",
 				"class": "hucast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=Cdx8_Q-7QZQ"
 			}
 		]
 	},
@@ -3152,7 +3196,7 @@
 			{
 				"id": "hunter",
 				"class": "hucast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=Qinm2qHNQes"
 			}
 		]
 	},
@@ -3169,7 +3213,7 @@
 			{
 				"id": "hunter",
 				"class": "hucast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=ZXcQCowoomw"
 			},
 			{
 				"id": "wilson",
@@ -3383,7 +3427,7 @@
 			{
 				"id": "mt",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/8vFxNj3JfK0"
 			},
 			{
 				"id": "revision",
@@ -3810,6 +3854,28 @@
 				"video": ""
 			},
 			{
+				"id": "revision",
+				"class": "fonewm",
+				"video": "https://youtu.be/k-A-32f9ddc"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "nmu3",
+		"episode": 4,
+		"meta": "2014",
+		"category": "2p",
+		"pb": false,
+		"time": 425,
+		"team_id": "ma4b",
+		"players": [
+			{
+				"id": "jack",
+				"class": "fonewm",
+				"video": ""
+			},
+			{
 				"id": "alukard",
 				"class": "hucast",
 				"video": ""
@@ -4185,7 +4251,7 @@
 			{
 				"id": "revision",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/jJjVtsntyYs"
 			},
 			{
 				"id": "alukard",
@@ -4379,7 +4445,7 @@
 			{
 				"id": "sange",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/qrzJ39Ee_oU"
 			},
 			{
 				"id": "zen",
@@ -4423,7 +4489,7 @@
 			{
 				"id": "zen",
 				"class": "hucast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=sIolE8eBf-E"
 			}
 		]
 	},
@@ -4538,7 +4604,7 @@
 			{
 				"id": "sange",
 				"class": "ramar",
-				"video": ""
+				"video": "https://youtu.be/1Bqwh7Se2sU"
 			}
 		]
 	},
@@ -4636,7 +4702,7 @@
 			{
 				"id": "sange",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/-XEJfUhTaVo"
 			}
 		]
 	},
@@ -4653,7 +4719,7 @@
 			{
 				"id": "nohit",
 				"class": "hucast",
-				"video": ""
+				"video": "https://streamable.com/njn03"
 			}
 		]
 	},
@@ -4687,7 +4753,7 @@
 			{
 				"id": "sange",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/_le_aWXhKnE"
 			},
 			{
 				"id": "ender",
@@ -5172,13 +5238,13 @@
 		"meta": "vanilla",
 		"category": "opm",
 		"pb": false,
-		"time": 128,
+		"time": 129,
 		"team_id": "tankstelle",
 		"players": [
 			{
 				"id": "sange",
 				"class": "hucast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=9RktnYHnssk&list=PLGFvsEsFgHliakLlr99KhRPUvrHEG_s5M&index=16&t=0s"
 			}
 		]
 	},
@@ -5251,7 +5317,7 @@
 			{
 				"id": "sange",
 				"class": "hunewearl",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=nVltmlrIMLY"
 			}
 		]
 	},
@@ -5302,7 +5368,7 @@
 			{
 				"id": "revision",
 				"class": "hucast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=-xNcQEVCNVw"
 			}
 		]
 	},
@@ -5347,13 +5413,30 @@
 		"meta": "vanilla",
 		"category": "1p",
 		"pb": false,
+		"time": 616,
+		"team_id": "Tankstelle",
+		"players": [
+			{
+				"id": "sange",
+				"class": "ramar",
+				"video": "https://www.youtube.com/watch?v=YYXpKU7M1sU"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ttf",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "1p",
+		"pb": false,
 		"time": 642,
 		"team_id": "ma4b",
 		"players": [
 			{
 				"id": "mt",
 				"class": "ramar",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=pJwiuPvhLxA"
 			}
 		]
 	},
@@ -5396,23 +5479,6 @@
 		"quest_id": "ttf",
 		"episode": 1,
 		"meta": "vanilla",
-		"category": "1p",
-		"pb": false,
-		"time": 758,
-		"team_id": "ma4b",
-		"players": [
-			{
-				"id": "jack",
-				"class": "fomarl",
-				"video": ""
-			}
-		]
-	},
-	{
-		"mode": "normal",
-		"quest_id": "ttf",
-		"episode": 1,
-		"meta": "vanilla",
 		"category": "2p",
 		"pb": false,
 		"time": 512,
@@ -5443,7 +5509,7 @@
 			{
 				"id": "sange",
 				"class": "ramarl",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=YxmOLYaCkJo"
 			},
 			{
 				"id": "zen",
@@ -5465,7 +5531,7 @@
 			{
 				"id": "mt",
 				"class": "ramarl",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=G8nQpl4tZqg"
 			},
 			{
 				"id": "revision",
@@ -5509,12 +5575,12 @@
 			{
 				"id": "mt",
 				"class": "ramarl",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=mZ_QBPCToyA"
 			},
 			{
 				"id": "revision",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/c5pzc2XS0PY"
 			},
 			{
 				"id": "ndw",
@@ -5536,7 +5602,7 @@
 			{
 				"id": "mt",
 				"class": "ramarl",
-				"video": ""
+				"video": "https://youtu.be/fHAztN1rF-Y"
 			},
 			{
 				"id": "revision",
@@ -5600,7 +5666,7 @@
 			{
 				"id": "sange",
 				"class": "racast",
-				"video": ""
+				"video": "https://youtu.be/aU3-4utO9pc"
 			},
 			{
 				"id": "belz",
@@ -5610,7 +5676,7 @@
 			{
 				"id": "revision",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/wqGnS2KcJjM"
 			},
 			{
 				"id": "zen",
@@ -5745,7 +5811,7 @@
 			{
 				"id": "zen",
 				"class": "hucast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=FmGMOdLFGVA"
 			},
 			{
 				"id": "belz",
@@ -5965,7 +6031,7 @@
 			{
 				"id": "sange",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/IgqwV979Ado"
 			},
 			{
 				"id": "stevecares",
@@ -6313,7 +6379,7 @@
 			{
 				"id": "nohit",
 				"class": "hucast",
-				"video": ""
+				"video": "https://streamable.com/r2r3o"
 			},
 			{
 				"id": "ender",
@@ -6328,7 +6394,7 @@
 			{
 				"id": "sange",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/BUZdQCImgDY"
 			}
 		]
 	},
@@ -6654,7 +6720,7 @@
 			{
 				"id": "mt",
 				"class": "hucast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=aORi0h-ep3E"
 			},
 			{
 				"id": "jack",
@@ -6791,7 +6857,7 @@
 			{
 				"id": "sange",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/QEKm6Q0zBoQ"
 			},
 			{
 				"id": "travendus",
@@ -7597,7 +7663,7 @@
 			{
 				"id": "mt",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/FY3SApymITY"
 			}
 		]
 	},
