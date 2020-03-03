@@ -63,20 +63,20 @@ window.fourwaypb.time_attack_records.ready = function() {
         },
         {
             key: "players",
-            header: "Classes",
-            collapse: false,
-            last_value: null,
-            formatter: (x) => {
-                return playerClassesToList(x);
-            }
-        },
-        {
-            key: "players",
             header: "POV",
             collapse: false,
             last_value: null,
             formatter: (x) => {
                 return playerPOVToList(x);
+            }
+        },
+        {
+            key: "players",
+            header: "Classes",
+            collapse: false,
+            last_value: null,
+            formatter: (x) => {
+                return playerClassesToList(x);
             }
         },
         

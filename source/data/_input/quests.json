@@ -66,6 +66,12 @@
 		"is_countdown": false
 	},
 	{
+		"id": "lost_riot_raygun",
+		"name": "Lost Riot Raygun",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
 		"id": "ma1a",
 		"name": "MA1A",
 		"enabled": true,
