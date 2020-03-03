@@ -1711,7 +1711,7 @@
 			{
 				"id": "jack",
 				"class": "fonewearl",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=Z3uIw_WKPsA"
 			},
 			{
 				"id": "revision",
@@ -2066,12 +2066,12 @@
 			{
 				"id": "jack",
 				"class": "fonewearl",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=BFSB3QLhCoU"
 			},
 			{
 				"id": "mt",
 				"class": "hucast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=3Cc2b0n2ywU"
 			}
 		]
 	},
@@ -2093,7 +2093,7 @@
 			{
 				"id": "joey",
 				"class": "racast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=L5euzwYY-0E"
 			},
 			{
 				"id": "sylph",
@@ -2103,7 +2103,7 @@
 			{
 				"id": "thepp0",
 				"class": "fonewearl",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=ELxs_W-Et7U"
 			}
 		]
 	},
@@ -2221,7 +2221,7 @@
 			{
 				"id": "joey",
 				"class": "hucast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=g-Y74TvJqtM"
 			},
 			{
 				"id": "iter",
@@ -2831,7 +2831,7 @@
 			{
 				"id": "hiothun",
 				"class": "hunewearl",
-				"video": ""
+				"video": "https://youtu.be/LxP-j4yNOHU"
 			}
 		]
 	},
@@ -2847,28 +2847,6 @@
 		"players": [
 			{
 				"id": "brandon",
-				"class": "hucast",
-				"video": ""
-			},
-			{
-				"id": "aic",
-				"class": "ramarl",
-				"video": ""
-			}
-		]
-	},
-	{
-		"mode": "normal",
-		"quest_id": "ttf",
-		"episode": 1,
-		"meta": "2014",
-		"category": "2p",
-		"pb": true,
-		"time": 505,
-		"team_id": "六月などんよりとした空",
-		"players": [
-			{
-				"id": "ume",
 				"class": "hucast",
 				"video": ""
 			},
@@ -2939,7 +2917,7 @@
 			{
 				"id": "jajaswipo",
 				"class": "humar",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=sgSyaQ3zqIc"
 			}
 		]
 	},
@@ -2998,7 +2976,7 @@
 			{
 				"id": "nemu",
 				"class": "fonewearl",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=1pyiEuOaH7c"
 			},
 			{
 				"id": "hatral",
@@ -3062,12 +3040,44 @@
 			{
 				"id": "joey",
 				"class": "hucast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=_yebemii5BM"
 			},
 			{
 				"id": "dyne",
 				"class": "hucast",
 				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ma2c",
+		"episode": 2,
+		"meta": "2014",
+		"category": "4p",
+		"pb": true,
+		"time": 1036,
+		"team_id": "ma4c",
+		"players": [
+			{
+				"id": "brandon",
+				"class": "racast",
+				"video": ""
+			},
+			{
+				"id": "nemu",
+				"class": "racast",
+				"video": ""
+			},
+			{
+				"id": "joey",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "noodle",
+				"class": "racast",
+				"video": "https://www.youtube.com/watch?v=MkADmqpT1CM"
 			}
 		]
 	},
@@ -3267,22 +3277,22 @@
 			{
 				"id": "aic",
 				"class": "fonewearl",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=0kPq6d5EzFw"
 			},
 			{
 				"id": "jojo",
 				"class": "hucast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=suyexdAanAg"
 			},
 			{
 				"id": "mumu",
 				"class": "racast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=wsMZVLLlCu0"
 			},
 			{
 				"id": "ume",
 				"class": "hucast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=NbN3dw6bV8Y"
 			}
 		]
 	},
@@ -3331,17 +3341,17 @@
 			{
 				"id": "aic",
 				"class": "hucast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=5kYUojK6x5Y"
 			},
 			{
 				"id": "jojo",
 				"class": "racast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=sMymhjNU_Xc"
 			},
 			{
 				"id": "mumu",
 				"class": "ramarl",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=-TGLUCskRf8"
 			},
 			{
 				"id": "ume",
@@ -3626,7 +3636,7 @@
 			{
 				"id": "joey",
 				"class": "fonewm",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=Rv4C5nJfzT0"
 			},
 			{
 				"id": "iter",
@@ -3777,23 +3787,6 @@
 		"meta": "2014",
 		"category": "opm",
 		"pb": false,
-		"time": 543,
-		"team_id": "f9",
-		"players": [
-			{
-				"id": "zynetic",
-				"class": "fonewm",
-				"video": ""
-			}
-		]
-	},
-	{
-		"mode": "normal",
-		"quest_id": "nmu3",
-		"episode": 4,
-		"meta": "2014",
-		"category": "opm",
-		"pb": false,
 		"time": 539,
 		"team_id": "f9",
 		"players": [
@@ -3932,7 +3925,7 @@
 			{
 				"id": "mt",
 				"class": "racast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=OE0vHttW_Io"
 			},
 			{
 				"id": "alukard",
@@ -3964,7 +3957,7 @@
 			{
 				"id": "nemu",
 				"class": "racast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=Tdei6rkpyss"
 			},
 			{
 				"id": "thepp0",
@@ -4104,7 +4097,7 @@
 			{
 				"id": "jack",
 				"class": "fonewm",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=iGwV5TmqckM"
 			},
 			{
 				"id": "alukard",
@@ -4293,7 +4286,7 @@
 			{
 				"id": "joey",
 				"class": "fonewm",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=VDd7olQEi2U"
 			},
 			{
 				"id": "dyne",

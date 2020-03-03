@@ -934,6 +934,34 @@
 		}
 	},
 	{
+		"id": "jajaswipo",
+		"name": "Jajaswipo",
+		"image": "images/player.png",
+		"classes": [],
+		"metas": [
+			"2014",
+			"Vanilla"
+		],
+		"team_ids": [],
+		"timezone": "",
+		"card_content": [],
+		"page_content": [],
+		"discord": "BigBlack&Beautiful#6783",
+		"twitter": "",
+		"youtube": {
+			"name": "jayzOfPso",
+			"url": "https://www.youtube.com/user/jayzOfPso"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "a_man_in_flames",
 		"name": "A Man in Flames",
 		"image": "images/player.png",
@@ -1986,31 +2014,6 @@
 	{
 		"id": "jojo",
 		"name": "JOJO",
-		"image": "images/player.png",
-		"classes": [],
-		"metas": [],
-		"team_ids": [],
-		"timezone": "",
-		"card_content": [],
-		"page_content": [],
-		"discord": "",
-		"twitter": "",
-		"youtube": {
-			"name": "",
-			"url": ""
-		},
-		"twitch": {
-			"name": "",
-			"url": ""
-		},
-		"github": {
-			"name": "",
-			"url": ""
-		}
-	},
-	{
-		"id": "jajaswipo",
-		"name": "Jajaswipo",
 		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
