@@ -936,16 +936,24 @@
 	{
 		"id": "jajaswipo",
 		"name": "Jajaswipo",
-		"image": "images/player.png",
-		"classes": [],
+		"image": "images/players/jajaswipo.png",
+		"classes": [
+			"hucast",
+			"humar",
+			"ramar"
+		],
 		"metas": [
 			"2014",
 			"Vanilla"
 		],
 		"team_ids": [],
-		"timezone": "",
-		"card_content": [],
-		"page_content": [],
+		"timezone": "PST",
+		"card_content": [
+			"GriefMode"
+		],
+		"page_content": [
+			
+		],
 		"discord": "BigBlack&Beautiful#6783",
 		"twitter": "",
 		"youtube": {
