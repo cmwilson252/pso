@@ -4991,7 +4991,7 @@
 			{
 				"id": "jack",
 				"class": "fonewm",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=oaz-7z_mO9I"
 			}
 		]
 	},
@@ -5008,7 +5008,7 @@
 			{
 				"id": "spuz",
 				"class": "fonewm",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=n4SSgdtmyUc"
 			}
 		]
 	},
@@ -5025,7 +5025,7 @@
 			{
 				"id": "lileya",
 				"class": "fonewm",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=D8bn2vKgk-4"
 			}
 		]
 	},
@@ -5086,7 +5086,7 @@
 			{
 				"id": "zen",
 				"class": "hucast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=y6i9AY7-5mk"
 			}
 		]
 	},
@@ -5680,6 +5680,38 @@
 	},
 	{
 		"mode": "normal",
+		"quest_id": "christmas_fiasco_i",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 1077,
+		"team_id": null,
+		"players": [
+			{
+				"id": "sange",
+				"class": "racast",
+				"video": "https://youtu.be/wQfr6CQ6X-M"
+			},
+			{
+				"id": "jack",
+				"class": "fonewm",
+				"video": ""
+			},
+			{
+				"id": "revision",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "killz",
+				"class": "hucast",
+				"video": ""
+			}
+		]
+	},	
+	{
+		"mode": "normal",
 		"quest_id": "ma2a",
 		"episode": 2,
 		"meta": "vanilla",
@@ -5809,7 +5841,7 @@
 			{
 				"id": "belz",
 				"class": "ramar",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=5GLE_nmiLkk"
 			}
 		]
 	},
@@ -5826,12 +5858,12 @@
 			{
 				"id": "spuz",
 				"class": "hucast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=wReN0iDwHRk"
 			},
 			{
 				"id": "capn",
 				"class": "ramar",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=Jg0V88CVPDM"
 			}
 		]
 	},
@@ -5848,7 +5880,7 @@
 			{
 				"id": "cameron",
 				"class": "racast",
-				"video": ""
+				"video": "https://youtu.be/0ocg5NMqg70"
 			}
 		]
 	},
@@ -6110,7 +6142,7 @@
 			{
 				"id": "ender",
 				"class": "racast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=UVTQ5GKQdYY"
 			}
 		]
 	},
@@ -6144,7 +6176,7 @@
 			{
 				"id": "sange",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/RmD9FX7IaqM"
 			},
 			{
 				"id": "ender",
