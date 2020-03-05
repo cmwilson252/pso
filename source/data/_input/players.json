@@ -1020,31 +1020,6 @@
 		}
 	},
 	{
-		"id": "azmidiske",
-		"name": "AZMIDISKE",
-		"image": "images/player.png",
-		"classes": [],
-		"metas": [],
-		"team_ids": [],
-		"timezone": "",
-		"card_content": [],
-		"page_content": [],
-		"discord": "",
-		"twitter": "",
-		"youtube": {
-			"name": "",
-			"url": ""
-		},
-		"twitch": {
-			"name": "",
-			"url": ""
-		},
-		"github": {
-			"name": "",
-			"url": ""
-		}
-	},
-	{
 		"id": "ade",
 		"name": "Ade",
 		"image": "images/player.png",
@@ -1222,31 +1197,6 @@
 	{
 		"id": "astallasalion",
 		"name": "Astallasalion",
-		"image": "images/player.png",
-		"classes": [],
-		"metas": [],
-		"team_ids": [],
-		"timezone": "",
-		"card_content": [],
-		"page_content": [],
-		"discord": "",
-		"twitter": "",
-		"youtube": {
-			"name": "",
-			"url": ""
-		},
-		"twitch": {
-			"name": "",
-			"url": ""
-		},
-		"github": {
-			"name": "",
-			"url": ""
-		}
-	},
-	{
-		"id": "atal",
-		"name": "Atal",
 		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
@@ -2945,58 +2895,8 @@
 		}
 	},
 	{
-		"id": "submarine",
-		"name": "Submarine",
-		"image": "images/player.png",
-		"classes": [],
-		"metas": [],
-		"team_ids": [],
-		"timezone": "",
-		"card_content": [],
-		"page_content": [],
-		"discord": "",
-		"twitter": "",
-		"youtube": {
-			"name": "",
-			"url": ""
-		},
-		"twitch": {
-			"name": "",
-			"url": ""
-		},
-		"github": {
-			"name": "",
-			"url": ""
-		}
-	},
-	{
 		"id": "sylph",
 		"name": "Sylph",
-		"image": "images/player.png",
-		"classes": [],
-		"metas": [],
-		"team_ids": [],
-		"timezone": "",
-		"card_content": [],
-		"page_content": [],
-		"discord": "",
-		"twitter": "",
-		"youtube": {
-			"name": "",
-			"url": ""
-		},
-		"twitch": {
-			"name": "",
-			"url": ""
-		},
-		"github": {
-			"name": "",
-			"url": ""
-		}
-	},
-	{
-		"id": "tt3",
-		"name": "TT3",
 		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
