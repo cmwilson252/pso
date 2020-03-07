@@ -1596,18 +1596,18 @@
 		"team_id": null,
 		"players": [
 			{
-				"id": "killz",
+				"id": "tripler",
+				"class": "hucaseal",
+				"video": ""
+			},
+			{
+				"id": "mudkipzjm",
 				"class": "racast",
 				"video": ""
 			},
 			{
 				"id": "rashan",
-				"class": "ramarl",
-				"video": ""
-			},
-			{
-				"id": "mudkipzjm",
-				"class": "ramar",
+				"class": "fonewm",
 				"video": ""
 			},
 			{
