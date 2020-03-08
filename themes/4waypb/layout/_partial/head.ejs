@@ -22,9 +22,9 @@
     %>
     <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
     <%# open_graph({twitter_id: theme.twitter, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
-    <% if (theme.favicon) { %>
-        <%- favicon_tag(theme.favicon) %>
-    <% } %>
+    
+    <%- partial('favicon') %>
+    
     <% if (config.highlight.enable) { %>
         <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
     <% } %>
