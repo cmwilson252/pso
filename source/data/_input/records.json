@@ -258,6 +258,23 @@
 		"meta": "ultima",
 		"category": "1p",
 		"pb": false,
+		"time": 323,
+		"team_id": "univers_ps",
+		"players": [
+			{
+				"id": "shiida",
+				"class": "hucast",
+				"video": "https://www.youtube.com/watch?v=qT2rGWwCIcU"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_ruins",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "1p",
+		"pb": false,
 		"time": 351,
 		"team_id": "chosen_few",
 		"players": [
@@ -4368,7 +4385,7 @@
 		"meta": "vanilla",
 		"category": "4p",
 		"pb": true,
-		"time": 1178,
+		"time": 1185,
 		"team_id": null,
 		"players": [
 			{
