@@ -855,15 +855,15 @@
 		"quest_id": "mas",
 		"episode": 2,
 		"meta": "ultima",
-		"category": "4p",
+		"category": "2p",
 		"pb": false,
-		"time": 1122,
+		"time": 1410,
 		"team_id": "chosen_few",
 		"players": [
 			{
 				"id": "rashan",
 				"class": "ramarl",
-				"video": "https://www.youtube.com/watch?v=OmmQ3TkGl5Q"
+				"video": ""
 			},
 			{
 				"id": "killz",
