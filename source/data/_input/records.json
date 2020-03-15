@@ -72,6 +72,23 @@
 		"meta": "ultima",
 		"category": "1p",
 		"pb": false,
+		"time": 821,
+		"team_id": "univers_ps",
+		"players": [
+			{
+				"id": "shiida",
+				"class": "racast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ma1b",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "1p",
+		"pb": false,
 		"time": 759,
 		"team_id": null,
 		"players": [
