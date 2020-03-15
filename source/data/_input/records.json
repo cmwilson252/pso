@@ -6,6 +6,23 @@
 		"meta": "ultima",
 		"category": "1p",
 		"pb": false,
+		"time": 740,
+		"team_id": "univers_ps",
+		"players": [
+			{
+				"id": "shiida",
+				"class": "racast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ma1a",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "1p",
+		"pb": false,
 		"time": 701,
 		"team_id": null,
 		"players": [
@@ -6601,6 +6618,23 @@
 				"id": "stevecares",
 				"class": "racaseal",
 				"video": "https://www.youtube.com/watch?v=h8Aw_lrZn3E"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "su8",
+		"episode": 2,
+		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
+		"time": 192,
+		"team_id": "tankstelle",
+		"players": [
+			{
+				"id": "stevecares",
+				"class": "racast",
+				"video": ""
 			}
 		]
 	},
