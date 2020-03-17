@@ -4419,7 +4419,7 @@
 		"meta": "vanilla",
 		"category": "4p",
 		"pb": true,
-		"time": 1185,
+		"time": 1191,
 		"team_id": null,
 		"players": [
 			{
@@ -4549,6 +4549,23 @@
 				"id": "demonized",
 				"class": "hucast",
 				"video": "https://www.youtube.com/watch?v=6TNm7MOfL3I"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ma1c",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
+		"time": 900,
+		"team_id": "tankstelle",
+		"players": [
+			{
+				"id": "ender",
+				"class": "fonewm",
+				"video": ""
 			}
 		]
 	},
@@ -6645,7 +6662,7 @@
 		"meta": "vanilla",
 		"category": "opm",
 		"pb": false,
-		"time": 192,
+		"time": 225,
 		"team_id": "tankstelle",
 		"players": [
 			{
