@@ -640,6 +640,36 @@
 		}
 	},
 	{
+		"id": "nohit",
+		"name": "NoHit",
+		"image": "images/players/nohit.png",
+		"classes": [
+			"hucast",
+			"ramar",
+			"fonewm"
+		],
+		"metas": [
+			"2014",
+			"Vanilla"
+		],
+		"team_ids": [
+			"rephlex"
+		],
+		"timezone": "PST",
+		"card_content": [],
+		"page_content": [],
+		"discord": "No Hit#5158",
+		"twitter": "_NoHit_",
+		"youtube": {
+			"name": "No Hit",
+			"url": "https://www.youtube.com/channel/UCJHtHXzrRw2TnQllvawBLxw"
+		},
+		"twitch": {
+			"name": "nohit",
+			"url": "https://www.twitch.tv/nohit"
+		}
+	},
+	{
 		"id": "spuz",
 		"name": "Spuz",
 		"image": "images/players/spuz.jpg",
@@ -872,34 +902,6 @@
 		"github": {
 			"name": "",
 			"url": ""
-		}
-	},
-	{
-		"id": "nohit",
-		"name": "NoHit",
-		"image": "images/players/nohit.png",
-		"classes": [
-			"hucast",
-			"ramar",
-			"fonewm"
-		],
-		"metas": [
-			"2014",
-			"Vanilla"
-		],
-		"team_ids": [],
-		"timezone": "PST",
-		"card_content": [],
-		"page_content": [],
-		"discord": "No Hit#5158",
-		"twitter": "_NoHit_",
-		"youtube": {
-			"name": "No Hit",
-			"url": "https://www.youtube.com/channel/UCJHtHXzrRw2TnQllvawBLxw"
-		},
-		"twitch": {
-			"name": "nohit",
-			"url": "https://www.twitch.tv/nohit"
 		}
 	},
 	{

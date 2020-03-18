@@ -55,6 +55,11 @@
         "image": "images/team_flags/pioneers.png"
     },
     {
+        "id": "rephlex",
+        "name": "Rephlex",
+        "image": "images/team_flags/rephlex.png"
+    },
+    {
         "id": "stonecutters",
         "name": "Stonecutters",
         "image": "images/team.png"
