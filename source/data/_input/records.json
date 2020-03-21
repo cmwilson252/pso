@@ -4419,13 +4419,13 @@
 		"meta": "vanilla",
 		"category": "4p",
 		"pb": true,
-		"time": 1191,
+		"time": 1203,
 		"team_id": null,
 		"players": [
 			{
 				"id": "wilson",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/gbmSBOATK_4"
 			},
 			{
 				"id": "killz",
@@ -4435,12 +4435,12 @@
 			{
 				"id": "sange",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/joUdbn3rMoA"
 			},
 			{
 				"id": "nohit",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/HARf5pJds2A"
 			}
 		]
 	},
