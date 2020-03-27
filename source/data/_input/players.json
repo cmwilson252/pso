@@ -972,6 +972,37 @@
 		}
 	},
 	{
+		"id": "phelix",
+		"name": "phelix",
+		"image": "images/players/phelix.jpg",
+		"classes": [
+			"hucast",
+			"hunewearl",
+			"ramarl"
+		],
+		"metas": [
+			"Vanilla"
+		],
+		"team_ids": [],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [],
+		"discord": "phelix#2844",
+		"twitter": "",
+		"youtube": {
+			"name": "Phelix",
+			"url": "https://www.youtube.com/channel/UCexmChiqhPjnkSbKd8dx88g"
+		},
+		"twitch": {
+			"name": "Phelixxxx",
+			"url": "https://www.twitch.tv/phelixxxx"
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "a_man_in_flames",
 		"name": "A Man in Flames",
 		"image": "images/player.png",

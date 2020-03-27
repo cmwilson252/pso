@@ -170,6 +170,23 @@
 		"meta": "ultima",
 		"category": "1p",
 		"pb": false,
+		"time": 780,
+		"team_id": "univers_ps",
+		"players": [
+			{
+				"id": "shiida",
+				"class": "racast",
+				"video": "https://youtu.be/LT7szevV-8s"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ma1c",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "1p",
+		"pb": false,
 		"time": 670,
 		"team_id": null,
 		"players": [
@@ -292,13 +309,13 @@
 		"meta": "ultima",
 		"category": "1p",
 		"pb": false,
-		"time": 323,
-		"team_id": "univers_ps",
+		"time": 319,
+		"team_id": "chosen_few",
 		"players": [
 			{
-				"id": "shiida",
+				"id": "killz",
 				"class": "hucast",
-				"video": "https://www.youtube.com/watch?v=qT2rGWwCIcU"
+				"video": ""
 			}
 		]
 	},
@@ -309,13 +326,13 @@
 		"meta": "ultima",
 		"category": "1p",
 		"pb": false,
-		"time": 351,
-		"team_id": "chosen_few",
+		"time": 323,
+		"team_id": "univers_ps",
 		"players": [
 			{
-				"id": "killz",
+				"id": "shiida",
 				"class": "hucast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=qT2rGWwCIcU"
 			}
 		]
 	},

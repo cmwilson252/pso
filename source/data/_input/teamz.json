@@ -1,5 +1,33 @@
 [
     {
+        "quest_id": "christmas_fiasco_i",
+        "duration": "1 hour",
+        "date": "03/27/2020",
+        "is_countdown": true,
+        "teams": [
+            {
+                "winner": true,
+                "time": 1034,
+                "player_ids": [
+                    "sange",
+                    "revision",
+                    "nohit",
+                    "phelix"
+                ]
+            },
+            {
+                "winner": false,
+                "time": 954,
+                "player_ids": [
+                    "wilson",
+                    "killz",
+                    "mt",
+                    "lemon"
+                ]
+            }
+        ]
+    },
+    {
         "quest_id": "max_seabed",
         "duration": "2 Weeks",
         "date": "03/09/2019",
