@@ -1,5 +1,31 @@
 [
     {
+        "quest_id": "ma4b",
+        "duration": "1 hour",
+        "date": "03/29/2020",
+        "is_countdown": true,
+        "teams": [
+            {
+                "winner": true,
+                "time": 1032,
+                "player_ids": [
+                    "mt",
+                    "cameron",
+                    "phelix"
+                ]
+            },
+            {
+                "winner": false,
+                "time": 876,
+                "player_ids": [
+                    "wilson",
+                    "ndw",
+                    "nohit"
+                ]
+            }
+        ]
+    },
+    {
         "quest_id": "christmas_fiasco_i",
         "duration": "1 hour",
         "date": "03/27/2020",
