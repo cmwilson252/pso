@@ -1,5 +1,31 @@
 [
     {
+        "quest_id": "ma1b",
+        "duration": "1 hour",
+        "date": "03/29/2020",
+        "is_countdown": true,
+        "teams": [
+            {
+                "winner": true,
+                "time": 965,
+                "player_ids": [
+                    "mt",
+                    "nohit",
+                    "phelix"
+                ]
+            },
+            {
+                "winner": false,
+                "time": 963,
+                "player_ids": [
+                    "wilson",
+                    "cameron",
+                    "500ryu"
+                ]
+            }
+        ]
+    },
+    {
         "quest_id": "ma4b",
         "duration": "1 hour",
         "date": "03/29/2020",
