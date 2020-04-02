@@ -309,6 +309,23 @@
 		"meta": "ultima",
 		"category": "1p",
 		"pb": false,
+		"time": 316,
+		"team_id": "chosen_few",
+		"players": [
+			{
+				"id": "starlord",
+				"class": "hucast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_ruins",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "1p",
+		"pb": false,
 		"time": 319,
 		"team_id": "chosen_few",
 		"players": [
@@ -333,23 +350,6 @@
 				"id": "shiida",
 				"class": "hucast",
 				"video": "https://www.youtube.com/watch?v=qT2rGWwCIcU"
-			}
-		]
-	},
-	{
-		"mode": "normal",
-		"quest_id": "max_ruins",
-		"episode": 1,
-		"meta": "ultima",
-		"category": "1p",
-		"pb": false,
-		"time": 351,
-		"team_id": "chosen_few",
-		"players": [
-			{
-				"id": "starlord",
-				"class": "hucast",
-				"video": ""
 			}
 		]
 	},
@@ -924,6 +924,23 @@
 			{
 				"id": "mudkipzjm",
 				"class": "ramarl",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "mau2",
+		"episode": 2,
+		"meta": "ultima",
+		"category": "1p",
+		"pb": false,
+		"time": 499,
+		"team_id": "univers_ps",
+		"players": [
+			{
+				"id": "shiida",
+				"class": "hucaseal",
 				"video": ""
 			}
 		]
@@ -6674,12 +6691,40 @@
 	},
 	{
 		"mode": "normal",
+		"quest_id": "su7",
+		"episode": 2,
+		"meta": "vanilla",
+		"category": "3p",
+		"pb": false,
+		"time": 391,
+		"team_id": "",
+		"players": [
+			{
+				"id": "nohit",
+				"class": "hucast",
+				"video": "https://www.twitch.tv/videos/581271057"
+			},
+			{
+				"id": "phelix",
+				"class": "hucast",
+				"video": "https://www.youtube.com/watch?v=Xbq3RNIiT70"
+			},
+			{
+				"id": "yui",
+				"class": "fomarl",
+				"video": ""
+			}
+			
+		]
+	},
+	{
+		"mode": "normal",
 		"quest_id": "su8",
 		"episode": 2,
 		"meta": "vanilla",
 		"category": "opm",
 		"pb": false,
-		"time": 225,
+		"time": 245,
 		"team_id": "tankstelle",
 		"players": [
 			{
