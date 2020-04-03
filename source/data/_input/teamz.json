@@ -1,6 +1,6 @@
 [
     {
-        "quest_id": "max: desert",
+        "quest_id": "max_desert",
         "duration": "1 hour",
         "date": "04/02/2020",
         "is_countdown": true,
