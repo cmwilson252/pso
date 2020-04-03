@@ -1,5 +1,33 @@
 [
     {
+        "quest_id": "max: desert",
+        "duration": "1 hour",
+        "date": "04/02/2020",
+        "is_countdown": true,
+        "teams": [
+            {
+                "winner": true,
+                "time": 272,
+                "player_ids": [
+                    "killz",
+                    "nohit",
+                    "starlord",
+                    "cameron"
+                ]
+            },
+            {
+                "winner": false,
+                "time": 288,
+                "player_ids": [
+                    "wilson",
+                    "mt",
+                    "sange",
+                    "yui"
+                ]
+            }
+        ]
+    },
+    {
         "quest_id": "ma1b",
         "duration": "1 hour",
         "date": "03/29/2020",
