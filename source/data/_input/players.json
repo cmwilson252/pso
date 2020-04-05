@@ -699,6 +699,35 @@
 		}
 	},
 	{
+		"id": "gally",
+		"name": "Gally",
+		"image": "images/players/gally.jpg",
+		"classes": [
+			"hucast",
+			"fonewm",
+			"fomar"
+		],
+		"metas": [
+			"Vanilla"
+		],
+		"team_ids": [
+			"pioneers"
+		],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [],
+		"discord": "Gally/Ryry#0713",
+		"twitter": "",
+		"youtube": {
+			"name": "Gally Smax",
+			"url": "https://www.youtube.com/channel/UC6GbsbnQWKcfi9MDQug0aXA"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "vex",
 		"name": "Vex",
 		"image": "images/players/vex.jpg",

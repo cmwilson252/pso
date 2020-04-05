@@ -5433,6 +5433,23 @@
 	},
 	{
 		"mode": "normal",
+		"quest_id": "su2",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
+		"time": 303,
+		"team_id": "pioneers",
+		"players": [
+			{
+				"id": "gally",
+				"class": "fonewm",
+				"video": "https://www.youtube.com/watch?v=40urmn7XJSo&feature=youtu.be"
+			}
+		]
+	},
+	{
+		"mode": "normal",
 		"quest_id": "ttf",
 		"episode": 1,
 		"meta": "vanilla",
