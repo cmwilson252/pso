@@ -1,5 +1,31 @@
 [
     {
+        "quest_id": "max_mines",
+        "duration": "1 hour",
+        "date": "04/04/2020",
+        "is_countdown": true,
+        "teams": [
+            {
+                "winner": true,
+                "time": 254,
+                "player_ids": [
+                    "killz",
+                    "wilson",
+                    "mt"
+                ]
+            },
+            {
+                "winner": false,
+                "time": 278,
+                "player_ids": [
+                    "starlord",
+                    "500ryu",
+                    "phelix"
+                ]
+            }
+        ]
+    },
+    {
         "quest_id": "max_desert",
         "duration": "1 hour",
         "date": "04/02/2020",
