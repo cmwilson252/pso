@@ -1,5 +1,40 @@
 [
     {
+        "quest_id": "ma2a",
+        "duration": "1 hour",
+        "date": "04/05/2020",
+        "is_countdown": true,
+        "teams": [
+            {
+                "winner": true,
+                "time": 1137,
+                "player_ids": [
+                    "sange",
+                    "wilson",
+                    "stevecares"
+                ]
+            },
+            {
+                "winner": false,
+                "time": 1135,
+                "player_ids": [
+                    "phelix",
+                    "cameron",
+                    "nohit"
+                ]
+            },
+            {
+                "winner": false,
+                "time": 1065,
+                "player_ids": [
+                    "killz",
+                    "gally",
+                    "mt"
+                ]
+            }
+        ]
+    },
+    {
         "quest_id": "max_mines",
         "duration": "1 hour",
         "date": "04/04/2020",
