@@ -6713,6 +6713,34 @@
 		"meta": "vanilla",
 		"category": "3p",
 		"pb": false,
+		"time": 427,
+		"team_id": "",
+		"players": [
+			{
+				"id": "nohit",
+				"class": "hucast",
+				"video": "https://www.twitch.tv/videos/585294215"
+			},
+			{
+				"id": "stevecares",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "esther",
+				"class": "fomarl",
+				"video": ""
+			}
+			
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "su7",
+		"episode": 2,
+		"meta": "vanilla",
+		"category": "3p",
+		"pb": false,
 		"time": 391,
 		"team_id": "",
 		"players": [

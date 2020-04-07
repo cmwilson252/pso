@@ -1032,6 +1032,38 @@
 		}
 	},
 	{
+		"id": "esther",
+		"name": "Esther",
+		"image": "images/players/esther.png",
+		"classes": [
+			"hucaseal",
+			"ramarl",
+			"fomarl"
+		],
+		"metas": [
+			"Vanilla",
+			"Ultima"
+		],
+		"team_ids": [],
+		"timezone": "EST",
+		"card_content": [],
+		"page_content": [],
+		"discord": "Sassmeister#8177",
+		"twitter": "",
+		"youtube": {
+			"name": "Sassmeister",
+			"url": "https://www.youtube.com/channel/UCjXDHYpWjEY5yVPeOX5EEnQ"
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "a_man_in_flames",
 		"name": "A Man in Flames",
 		"image": "images/player.png",
