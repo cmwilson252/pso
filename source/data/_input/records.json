@@ -6713,6 +6713,34 @@
 		"meta": "vanilla",
 		"category": "3p",
 		"pb": false,
+		"time": 480,
+		"team_id": "",
+		"players": [
+			{
+				"id": "mt",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "wilson",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "phelix",
+				"class": "ramarl",
+				"video": ""
+			}
+			
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "su7",
+		"episode": 2,
+		"meta": "vanilla",
+		"category": "3p",
+		"pb": false,
 		"time": 427,
 		"team_id": "",
 		"players": [
