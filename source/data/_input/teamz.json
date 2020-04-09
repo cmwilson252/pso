@@ -16,7 +16,7 @@
             },
             {
                 "winner": true,
-                "time": 158,
+                "time": 154,
                 "player_ids": [
                     "phelix",
                     "nohit",
@@ -32,16 +32,6 @@
         "is_countdown": true,
         "teams": [
             {
-                "winner": false,
-                "time": 865,
-                "player_ids": [
-                    "nohit",
-                    "wilson",
-                    "cameron",
-                    "ndw"
-                ]
-            },
-            {
                 "winner": true,
                 "time": 914,
                 "player_ids": [
@@ -50,7 +40,18 @@
                     "sange",
                     "killz"
                 ]
+            },
+            {
+                "winner": false,
+                "time": 865,
+                "player_ids": [
+                    "nohit",
+                    "wilson",
+                    "cameron",
+                    "ndw"
+                ]
             }
+
         ]
     },
     {
