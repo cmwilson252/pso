@@ -1,5 +1,59 @@
 [
     {
+        "quest_id": "mu3",
+        "duration": "1 hour",
+        "date": "04/08/2020",
+        "is_countdown": true,
+        "teams": [
+            {
+                "winner": true,
+                "time": 98,
+                "player_ids": [
+                    "mt",
+                    "wilson",
+                    "sange"
+                ]
+            },
+            {
+                "winner": true,
+                "time": 158,
+                "player_ids": [
+                    "phelix",
+                    "nohit",
+                    "killz"
+                ]
+            }
+        ]
+    },
+    {
+        "quest_id": "christmas_fiasco_ii",
+        "duration": "1 hour",
+        "date": "04/08/2020",
+        "is_countdown": true,
+        "teams": [
+            {
+                "winner": false,
+                "time": 865,
+                "player_ids": [
+                    "nohit",
+                    "wilson",
+                    "cameron",
+                    "ndw"
+                ]
+            },
+            {
+                "winner": true,
+                "time": 914,
+                "player_ids": [
+                    "phelix",
+                    "mt",
+                    "sange",
+                    "killz"
+                ]
+            }
+        ]
+    },
+    {
         "quest_id": "ma2a",
         "duration": "1 hour",
         "date": "04/05/2020",
