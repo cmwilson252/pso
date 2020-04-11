@@ -1,5 +1,33 @@
 [
     {
+        "quest_id": "power_plant_plight",
+        "duration": "1 hour",
+        "date": "04/10/2020",
+        "is_countdown": true,
+        "teams": [
+            {
+                "winner": true,
+                "time": 1441,
+                "player_ids": [
+                    "phelix",
+                    "mt",
+                    "nohit",
+                    "yui"
+                ]
+            },
+            {
+                "winner": false,
+                "time": 1410,
+                "player_ids": [
+                    "sange",
+                    "wilson",
+                    "killz",
+                    "ndw"
+                ]
+            }
+        ]
+    },
+    {
         "quest_id": "nmu3",
         "duration": "1 hour",
         "date": "04/09/2020",
