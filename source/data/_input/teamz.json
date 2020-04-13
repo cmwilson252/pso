@@ -1,5 +1,34 @@
 [
     {
+        "quest_id": "su2",
+        "duration": "1 hour",
+        "date": "04/12/2020",
+        "is_countdown": true,
+        "teams": [
+            {
+                "winner": true,
+                "time": 366,
+                "player_ids": [
+                    "mt",
+                    "wilson",
+                    "killz",
+                    "rozalin"
+                ]
+            },
+            {
+                "winner": true,
+                "time": 361,
+                "player_ids": [
+                    "phelix",
+                    "sange",
+                    "nohit",
+                    "ndw"
+                ]
+            }
+
+        ]
+    },  
+    {
         "quest_id": "power_plant_plight",
         "duration": "1 hour",
         "date": "04/10/2020",
