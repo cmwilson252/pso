@@ -16,7 +16,7 @@
                 ]
             },
             {
-                "winner": true,
+                "winner": false,
                 "time": 361,
                 "player_ids": [
                     "phelix",
