@@ -3923,7 +3923,7 @@
 		"meta": "2014",
 		"category": "2p",
 		"pb": false,
-		"time": 425,
+		"time": 522,
 		"team_id": "ma4b",
 		"players": [
 			{
@@ -7233,12 +7233,34 @@
 		"meta": "vanilla",
 		"category": "2p",
 		"pb": false,
+		"time": 490,
+		"team_id": "ma4b",
+		"players": [
+			{
+				"id": "ender",
+				"class": "fonewm",
+				"video": ""
+			},
+			{
+				"id": "brandon",
+				"class": "racast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "nmu3",
+		"episode": 4,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
 		"time": 417,
 		"team_id": "ma4b",
 		"players": [
 			{
 				"id": "revision",
-				"class": "hucast",
+				"class": "fonewm",
 				"video": "https://www.youtube.com/watch?v=VBM8F9PZjp8"
 			},
 			{
