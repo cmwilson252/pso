@@ -1,5 +1,34 @@
 [
     {
+        "quest_id": "christmas_fiasco_iv",
+        "duration": "1 hour",
+        "date": "04/14/2020",
+        "is_countdown": true,
+        "teams": [
+            {
+                "winner": true,
+                "time": 813,
+                "player_ids": [
+                    "phelix",
+                    "killz",
+                    "nohit",
+                    "mt"
+                ]
+            },
+            {
+                "winner": false,
+                "time": 782,
+                "player_ids": [
+                    "revision",
+                    "wilson",
+                    "sange",
+                    "ndw"
+                ]
+            }
+
+        ]
+    },  
+    {
         "quest_id": "su9",
         "duration": "1 hour",
         "date": "04/13/2020",
@@ -121,20 +150,20 @@
         "teams": [
             {
                 "winner": true,
-                "time": 98,
-                "player_ids": [
-                    "mt",
-                    "wilson",
-                    "sange"
-                ]
-            },
-            {
-                "winner": true,
                 "time": 154,
                 "player_ids": [
                     "phelix",
                     "nohit",
                     "killz"
+                ]
+            },
+            {
+                "winner": true,
+                "time": 98,
+                "player_ids": [
+                    "mt",
+                    "wilson",
+                    "sange"
                 ]
             }
         ]
