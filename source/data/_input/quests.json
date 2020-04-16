@@ -228,6 +228,30 @@
 		"is_countdown": false
 	},
 	{
+		"id": "max_e1",
+		"name": "Max: E1",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "max_gdv",
+		"name": "Max: GDV",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "max_vr",
+		"name": "Max: VR",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
+		"id": "max_e4",
+		"name": "Max: E4",
+		"enabled": true,
+		"is_countdown": false
+	},
+	{
 		"id": "mu1",
 		"name": "Mop-Up Operation #1",
 		"enabled": true,
