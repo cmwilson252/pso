@@ -7233,18 +7233,18 @@
 		"meta": "vanilla",
 		"category": "2p",
 		"pb": false,
-		"time": 490,
-		"team_id": "ma4b",
+		"time": 513,
+		"team_id": "",
 		"players": [
 			{
 				"id": "ender",
 				"class": "fonewm",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=NErlCimPifo"
 			},
 			{
 				"id": "brandon",
 				"class": "racast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=UANPb3XydfI"
 			}
 		]
 	},
