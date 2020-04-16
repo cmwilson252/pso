@@ -57,7 +57,7 @@ window.fourwaypb.teamz_results.ready = function() {
                                     'text': moment.unix(moment.duration().add(team.time, 's').asSeconds()).utc().format('mm:ss'),
                                 }),
                                 $('<span/>', {
-                                    'text': event.quest.is_countdown ? ' remaning' : '',
+                                    'text': event.quest.is_countdown ? ' remaining' : '',
                                 }),
                             ),
                             $('<div/>', {
