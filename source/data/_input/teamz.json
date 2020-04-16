@@ -1,5 +1,34 @@
 [
     {
+        "quest_id": "ma4a",
+        "duration": "1 hour",
+        "date": "04/15/2020",
+        "is_countdown": true,
+        "teams": [
+            {
+                "winner": true,
+                "time": 1247,
+                "player_ids": [
+                    "phelix",
+                    "killz",
+                    "revision",
+                    "ndw"
+                ]
+            },
+            {
+                "winner": false,
+                "time": 1237,
+                "player_ids": [
+                    "mt",
+                    "wilson",
+                    "sange",
+                    "nohit"
+                ]
+            }
+
+        ]
+    },  
+    {
         "quest_id": "christmas_fiasco_iv",
         "duration": "1 hour",
         "date": "04/14/2020",
