@@ -1,5 +1,32 @@
 [
     {
+        "quest_id": "gal_da_vals_darkness",
+        "duration": "1 hour",
+        "date": "04/16/2020",
+        "is_countdown": true,
+        "teams": [
+            {
+                "winner": true,
+                "time": 1020,
+                "player_ids": [
+                    "mt",
+                    "phelix",
+                    "nohit"
+                ]
+            },
+            {
+                "winner": false,
+                "time": 994,
+                "player_ids": [
+                    "wilson",
+                    "killz",
+                    "nemo"
+                ]
+            }
+
+        ]
+    },  
+    {
         "quest_id": "ma4a",
         "duration": "1 hour",
         "date": "04/15/2020",
