@@ -1,7 +1,7 @@
 [
     {
         "quest_id": "row",
-        "duration": "1 hour",
+        "duration": "2 hour",
         "date": "04/17/2020",
         "is_countdown": true,
         "teams": [
