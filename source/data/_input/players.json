@@ -215,6 +215,35 @@
 		}
 	},
 	{
+		"id": "boom",
+		"name": "Boom",
+		"image": "images/players/yannv.png",
+		"classes": [
+			"hucast",
+			"ramarl",
+			"formar"
+		],
+		"metas": [
+			"Vanilla"
+		],
+		"team_ids": [
+			"chosen_few"
+		],
+		"timezone": "GMT -3",
+		"card_content": [],
+		"page_content": [],
+		"discord": "BoomShakaLarka#0664",
+		"twitter": "",
+		"youtube": {
+			"name": "GoldenLarka",
+			"url": "https://www.youtube.com/channel/UCkEDyF-VeAUScXuXZmi9KXA?view_as=subscriber"
+		},
+		"twitch": {
+			"name": "boomshakalarka",
+			"url": "https://www.twitch.tv/boomshakalarka"
+		}
+	},
+	{
 		"id": "yannv",
 		"name": "Yannv",
 		"image": "images/players/yannv.png",
