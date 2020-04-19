@@ -217,7 +217,7 @@
 	{
 		"id": "boom",
 		"name": "Boom",
-		"image": "images/players/yannv.png",
+		"image": "images/players/boom.png",
 		"classes": [
 			"hucast",
 			"ramarl",
@@ -229,7 +229,7 @@
 		"team_ids": [
 			"chosen_few"
 		],
-		"timezone": "GMT -3",
+		"timezone": "PST",
 		"card_content": [],
 		"page_content": [],
 		"discord": "BoomShakaLarka#0664",
