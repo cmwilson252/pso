@@ -643,13 +643,12 @@
 		"image": "images/players/ndw.png",
 		"classes": [
 			"hucast",
-			"racast",
-			"ramarl"
+			"ramarl",
+			"fomar"
 		],
 		"metas": [
 			"2014",
-			"Vanilla",
-			"Ultima"
+			"Vanilla"
 		],
 		"team_ids": [
 			"tankstelle"
@@ -696,6 +695,39 @@
 		"twitch": {
 			"name": "nohit",
 			"url": "https://www.twitch.tv/nohit"
+		}
+	},
+	{
+		"id": "nemo",
+		"name": "nemo",
+		"image": "images/player.png",
+		"classes": [
+			"racast",
+			"ramarl",
+			"formar"
+		],
+		"metas": [
+			"Vanilla"
+		],
+		"team_ids": [
+			"rephlex"
+		],
+		"timezone": "EST",
+		"card_content": [],
+		"page_content": [],
+		"discord": "nemo#1967",
+		"twitter": "ElNemoFuerte",
+		"youtube": {
+			"name": "nemo",
+			"url": "https://www.youtube.com/channel/UCzU3l1hYgKOi0Zp0JTyhAuQ"
+		},
+		"twitch": {
+			"name": "ElNemoFuerte",
+			"url": "https://www.twitch.tv/elnemofuerte"
+		},
+		"github": {
+			"name": "",
+			"url": ""
 		}
 	},
 	{
@@ -2613,31 +2645,6 @@
 	{
 		"id": "nebula",
 		"name": "Nebula",
-		"image": "images/player.png",
-		"classes": [],
-		"metas": [],
-		"team_ids": [],
-		"timezone": "",
-		"card_content": [],
-		"page_content": [],
-		"discord": "",
-		"twitter": "",
-		"youtube": {
-			"name": "",
-			"url": ""
-		},
-		"twitch": {
-			"name": "",
-			"url": ""
-		},
-		"github": {
-			"name": "",
-			"url": ""
-		}
-	},
-	{
-		"id": "nemo",
-		"name": "Nemo",
 		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
