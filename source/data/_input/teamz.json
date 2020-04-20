@@ -1,5 +1,44 @@
 [
     {
+        "quest_id": "ma2b",
+        "duration": "1 hour",
+        "date": "04/19/2020",
+        "is_countdown": true,
+        "teams": [
+            {
+                "winner": true,
+                "time": 1208,
+                "player_ids": [
+                    "killz",
+                    "revision",
+                    "jack",
+                    "phelix"
+                ]
+            },
+            {
+                "winner": false,
+                "time": 1154,
+                "player_ids": [
+                    "nemo",
+                    "mt",
+                    "nohit",
+                    "500ryu"
+                ]
+            },
+            {
+                "winner": false,
+                "time": 1098,
+                "player_ids": [
+                    "readth",
+                    "wilson",
+                    "ndw",
+                    "starlord"
+                ]
+            }
+
+        ]
+    },  
+    {
         "quest_id": "mau5",
         "duration": "1 hour",
         "date": "04/19/2020",
