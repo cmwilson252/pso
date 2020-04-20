@@ -700,7 +700,7 @@
 	{
 		"id": "nemo",
 		"name": "nemo",
-		"image": "images/player.png",
+		"image": "images/players/nemo.png",
 		"classes": [
 			"racast",
 			"ramarl",
