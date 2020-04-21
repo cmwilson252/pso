@@ -533,7 +533,7 @@
 						"id": "nohit",
 						"class": "fonewm",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/593168653?t=00h37m02s"
 					}
 				]
 			}
@@ -622,40 +622,40 @@
 		"duration": "1 hour",
 		"date": "04/13/2020",
 		"is_countdown": true,
-		"set_game": 0,
+		"set_game": 2,
 		"teams": [
 			{
 				"winner": true,
 				"highlight": false,
 				"time": 535,
 				"score": {
-					"wins": 0,
+					"wins": 2,
 					"losses": 0
 				},
 				"players": [
 					{
 						"id": "wilson",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
-						"video": ""
+						"video": "https://www.youtube.com/watch?v=41YKMC7OAX8"
 					},
 					{
 						"id": "revision",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "killz",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "ndw",
-						"class": "",
+						"class": "fomar",
 						"is_captain": false,
-						"video": ""
+						"video": "https://youtu.be/P3Y8hAJXtTA"
 					}
 				]
 			},
@@ -664,32 +664,32 @@
 				"time": 520,
 				"score": {
 					"wins": 0,
-					"losses": 0
+					"losses": 2
 				},
 				"players": [
 					{
 						"id": "phelix",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
-						"video": ""
+						"video": "https://youtu.be/2qXc_Z37c04"
 					},
 					{
 						"id": "readth",
-						"class": "",
+						"class": "fomarl",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nohit",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "mt",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/591396625"
 					}
 				]
 			}
