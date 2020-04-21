@@ -4,12 +4,16 @@
 		"duration": "1 hour",
 		"date": "04/19/2020",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 1208,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "killz",
@@ -40,8 +44,10 @@
 			{
 				"winner": false,
 				"time": 1154,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "nemo",
@@ -72,8 +78,10 @@
 			{
 				"winner": false,
 				"time": 1098,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "readth",
@@ -108,12 +116,16 @@
 		"duration": "1 hour",
 		"date": "04/19/2020",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 909,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "nohit",
@@ -144,8 +156,10 @@
 			{
 				"winner": false,
 				"time": 899,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "wilson",
@@ -176,8 +190,10 @@
 			{
 				"winner": false,
 				"time": 865,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "venom",
@@ -212,12 +228,16 @@
 		"duration": "1 hour",
 		"date": "04/18/2020",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 982,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "nohit",
@@ -242,8 +262,10 @@
 			{
 				"winner": false,
 				"time": 955,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "wilson",
@@ -268,8 +290,10 @@
 			{
 				"winner": false,
 				"time": 885,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "phelix",
@@ -298,12 +322,16 @@
 		"duration": "2 hour",
 		"date": "04/17/2020",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 99,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "revision",
@@ -334,8 +362,10 @@
 			{
 				"winner": false,
 				"time": 87,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "mt",
@@ -370,12 +400,16 @@
 		"duration": "1 hour",
 		"date": "04/16/2020",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 1020,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "mt",
@@ -400,8 +434,10 @@
 			{
 				"winner": false,
 				"time": 994,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "wilson",
@@ -430,12 +466,16 @@
 		"duration": "1 hour",
 		"date": "04/15/2020",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 1247,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "revision",
@@ -466,8 +506,10 @@
 			{
 				"winner": false,
 				"time": 1237,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "mt",
@@ -502,12 +544,16 @@
 		"duration": "1 hour",
 		"date": "04/14/2020",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 813,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "mt",
@@ -538,8 +584,10 @@
 			{
 				"winner": false,
 				"time": 782,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "revision",
@@ -574,12 +622,16 @@
 		"duration": "1 hour",
 		"date": "04/13/2020",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 535,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "wilson",
@@ -610,8 +662,10 @@
 			{
 				"winner": false,
 				"time": 520,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "phelix",
@@ -646,12 +700,16 @@
 		"duration": "1 hour",
 		"date": "04/12/2020",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 416,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "wilson",
@@ -682,8 +740,10 @@
 			{
 				"winner": false,
 				"time": 412,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "phelix",
@@ -718,12 +778,16 @@
 		"duration": "1 hour",
 		"date": "04/10/2020",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 1441,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "nohit",
@@ -754,8 +818,10 @@
 			{
 				"winner": false,
 				"time": 1410,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "killz",
@@ -790,12 +856,16 @@
 		"duration": "1 hour",
 		"date": "04/09/2020",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 557,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "nohit",
@@ -826,8 +896,10 @@
 			{
 				"winner": false,
 				"time": 534,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "killz",
@@ -862,12 +934,16 @@
 		"duration": "1 hour",
 		"date": "04/08/2020",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 154,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "phelix",
@@ -891,9 +967,12 @@
 			},
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 98,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "mt",
@@ -922,12 +1001,16 @@
 		"duration": "1 hour",
 		"date": "04/08/2020",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 914,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "killz",
@@ -958,8 +1041,10 @@
 			{
 				"winner": false,
 				"time": 865,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "nohit",
@@ -994,12 +1079,16 @@
 		"duration": "1 hour",
 		"date": "04/05/2020",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 1137,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "sange",
@@ -1024,8 +1113,10 @@
 			{
 				"winner": false,
 				"time": 1135,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "phelix",
@@ -1050,8 +1141,10 @@
 			{
 				"winner": false,
 				"time": 1065,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "killz",
@@ -1080,12 +1173,16 @@
 		"duration": "1 hour",
 		"date": "04/04/2020",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 254,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "killz",
@@ -1110,8 +1207,10 @@
 			{
 				"winner": false,
 				"time": 278,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "starlord",
@@ -1140,12 +1239,16 @@
 		"duration": "1 hour",
 		"date": "04/02/2020",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 272,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "killz",
@@ -1176,8 +1279,10 @@
 			{
 				"winner": false,
 				"time": 288,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "wilson",
@@ -1212,12 +1317,16 @@
 		"duration": "1 hour",
 		"date": "04/01/2020",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 965,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "mt",
@@ -1242,8 +1351,10 @@
 			{
 				"winner": false,
 				"time": 963,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "wilson",
@@ -1272,12 +1383,16 @@
 		"duration": "1 hour",
 		"date": "03/29/2020",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 1032,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "mt",
@@ -1302,8 +1417,10 @@
 			{
 				"winner": false,
 				"time": 876,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "wilson",
@@ -1332,12 +1449,16 @@
 		"duration": "1 hour",
 		"date": "03/27/2020",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 1034,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "sange",
@@ -1368,8 +1489,10 @@
 			{
 				"winner": false,
 				"time": 954,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "wilson",
@@ -1407,9 +1530,12 @@
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 315,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "mudkipzjm",
@@ -1428,8 +1554,10 @@
 			{
 				"winner": false,
 				"time": 453,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "wilson",
@@ -1452,12 +1580,16 @@
 		"duration": "1 Hour",
 		"date": "02/02/2019",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 528,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "lemon",
@@ -1482,8 +1614,10 @@
 			{
 				"winner": false,
 				"time": 496,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "yannv",
@@ -1512,12 +1646,16 @@
 		"duration": "30 Minutes",
 		"date": "02/02/2019",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 1308,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "wilson",
@@ -1542,8 +1680,10 @@
 			{
 				"winner": false,
 				"time": 1226,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "killz",
@@ -1572,12 +1712,16 @@
 		"duration": "1 Hour",
 		"date": "01/20/2019",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 938,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "killz",
@@ -1596,8 +1740,10 @@
 			{
 				"winner": false,
 				"time": 874,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "wilson",
@@ -1626,12 +1772,16 @@
 		"duration": "1 Hour",
 		"date": "01/12/2019",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 433,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "wilson",
@@ -1656,8 +1806,10 @@
 			{
 				"winner": false,
 				"time": 418,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "yannv",
@@ -1689,9 +1841,12 @@
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 261,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "killz",
@@ -1716,8 +1871,10 @@
 			{
 				"winner": false,
 				"time": 284,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "ndw",
@@ -1746,12 +1903,16 @@
 		"duration": "1 Hour",
 		"date": "11/17/2018",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 85,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "killz",
@@ -1782,8 +1943,10 @@
 			{
 				"winner": false,
 				"time": 50,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "revision",
@@ -1821,9 +1984,12 @@
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 371,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "lemon",
@@ -1848,8 +2014,10 @@
 			{
 				"winner": false,
 				"time": 372,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "revision",
@@ -1878,12 +2046,16 @@
 		"duration": "1 Hour",
 		"date": "10/31/2018",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 1020,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "mudkipzjm",
@@ -1908,8 +2080,10 @@
 			{
 				"winner": false,
 				"time": 673,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "killz",
@@ -1934,8 +2108,10 @@
 			{
 				"winner": false,
 				"time": 608,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "carnage",
@@ -1964,12 +2140,16 @@
 		"duration": "1 Hour",
 		"date": "10/31/2018",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 1039,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "jack",
@@ -2000,8 +2180,10 @@
 			{
 				"winner": false,
 				"time": 992,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "revision",
@@ -2036,12 +2218,16 @@
 		"duration": "1 Hour",
 		"date": "10/30/2018",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 865,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "jack",
@@ -2066,8 +2252,10 @@
 			{
 				"winner": false,
 				"time": 540,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "starlord",
@@ -2096,12 +2284,16 @@
 		"duration": "1 Hour",
 		"date": "10/29/2018",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 1070,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "wilson",
@@ -2132,8 +2324,10 @@
 			{
 				"winner": false,
 				"time": 1050,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "carnage",
@@ -2168,12 +2362,16 @@
 		"duration": "1 Hour",
 		"date": "10/27/2018",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 212,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "nemo",
@@ -2198,8 +2396,10 @@
 			{
 				"winner": false,
 				"time": 195,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "alukard",
@@ -2228,12 +2428,16 @@
 		"duration": "1 Hour",
 		"date": "10/27/2018",
 		"is_countdown": true,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
+				"highlight": false,
 				"time": 413,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "alukard",
@@ -2264,8 +2468,10 @@
 			{
 				"winner": false,
 				"time": 378,
-				"wins": 0,
-				"losses": 0,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
 				"players": [
 					{
 						"id": "carnage",
