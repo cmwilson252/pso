@@ -8,7 +8,31 @@
             {
                 "winner": true,
                 "time": 1208,
-                "player_ids": [
+                "wins": 0,
+                "losses": 0,
+                "players": [
+                    {
+                        "id": "killz",
+                        "is_captain": false
+                    },
+                    {
+                        "id": "revision",
+                        "is_captain": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "quest_id": "ma2b",
+        "duration": "1 hour",
+        "date": "04/19/2020",
+        "is_countdown": true,
+        "teams": [
+            {
+                "winner": true,
+                "time": 1208,
+                "players": [
                     "killz",
                     "revision",
                     "jack",
@@ -35,9 +59,8 @@
                     "starlord"
                 ]
             }
-
         ]
-    },  
+    },
     {
         "quest_id": "mau5",
         "duration": "1 hour",
@@ -76,7 +99,7 @@
             }
 
         ]
-    },  
+    },
     {
         "quest_id": "ma1c",
         "duration": "1 hour",
@@ -112,7 +135,7 @@
             }
 
         ]
-    },  
+    },
     {
         "quest_id": "row",
         "duration": "2 hour",
@@ -141,7 +164,7 @@
             }
 
         ]
-    },  
+    },
     {
         "quest_id": "gal_da_vals_darkness",
         "duration": "1 hour",
@@ -168,7 +191,7 @@
             }
 
         ]
-    },  
+    },
     {
         "quest_id": "ma4a",
         "duration": "1 hour",
@@ -197,7 +220,7 @@
             }
 
         ]
-    },  
+    },
     {
         "quest_id": "christmas_fiasco_iv",
         "duration": "1 hour",
@@ -226,7 +249,7 @@
             }
 
         ]
-    },  
+    },
     {
         "quest_id": "su9",
         "duration": "1 hour",
@@ -255,7 +278,7 @@
             }
 
         ]
-    },  
+    },
     {
         "quest_id": "su2",
         "duration": "1 hour",
@@ -284,7 +307,7 @@
             }
 
         ]
-    },  
+    },
     {
         "quest_id": "power_plant_plight",
         "duration": "1 hour",
