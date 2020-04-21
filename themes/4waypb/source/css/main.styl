@@ -53,6 +53,9 @@ pre
     color: #fff
     width: 100%
 
+.visibility-hidden
+    visibility: hidden
+
 .card
     span:hover,
     a:hover
@@ -94,9 +97,14 @@ pre
 .first-place-records
     color: #f9a602
 
-#teamz-results-container .winner .content
-    -webkit-box-shadow: teamz-winner-card-shadow
-    box-shadow: teamz-winner-card-shadow
+#teamz-results-container
+    .highlight .content
+        -webkit-box-shadow: teamz-winner-card-shadow
+        box-shadow: teamz-winner-card-shadow
+    .captain
+        color: #fe713f
+    table
+        -webkit-border-horizontal-spacing: 15px;
 
 // Fomantic UI Checkbox vertical alignment fix
 .ui.segment .ui.checkbox
