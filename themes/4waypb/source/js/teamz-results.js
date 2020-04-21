@@ -40,7 +40,7 @@ window.fourwaypb.teamz_results.ready = function() {
             }).append(
                 $.map(event.teams, function(team) {
                     return $('<div/>', {
-                        'class': 'ui inverted card',
+                        'class': 'ui inverted card '+(team.winner ? 'winner' : ''),
                     }).append(
                         $('<div/>', {
                             'class': 'content',
