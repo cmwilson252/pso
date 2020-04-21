@@ -59,7 +59,7 @@
 						"id": "mt",
 						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/596945526?t=02h52m48s"
 					},
 					{
 						"id": "nohit",
@@ -129,25 +129,25 @@
 				"players": [
 					{
 						"id": "nohit",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/597164336"
 					},
 					{
 						"id": "kamlang",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nemo",
-						"class": "",
+						"class": "fomar",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "sange",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					}
@@ -163,25 +163,25 @@
 				"players": [
 					{
 						"id": "wilson",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
-						"video": ""
+						"video": "https://youtu.be/wYxFoioy9fM"
 					},
 					{
 						"id": "killz",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "mt",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/596945526"
 					},
 					{
 						"id": "readth",
-						"class": "",
+						"class": "fomarl",
 						"is_captain": false,
 						"video": ""
 					}
@@ -197,25 +197,25 @@
 				"players": [
 					{
 						"id": "venom",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "revision",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://youtu.be/oMe6nc8SigU"
 					},
 					{
 						"id": "500ryu",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "jack",
-						"class": "",
+						"class": "ramarl",
 						"is_captain": false,
 						"video": ""
 					}
@@ -241,19 +241,19 @@
 				"players": [
 					{
 						"id": "nohit",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/596195557"
 					},
 					{
 						"id": "killz",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nemo",
-						"class": "",
+						"class": "fomar",
 						"is_captain": false,
 						"video": ""
 					}
@@ -269,19 +269,19 @@
 				"players": [
 					{
 						"id": "wilson",
-						"class": "",
+						"class": "https://youtu.be/wrCBj-wIA7M",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "starlord",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "jack",
-						"class": "",
+						"class": "ramarl",
 						"is_captain": false,
 						"video": ""
 					}
@@ -297,19 +297,19 @@
 				"players": [
 					{
 						"id": "phelix",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "mt",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/596115663"
 					},
 					{
 						"id": "boom",
-						"class": "",
+						"class": "fomar",
 						"is_captain": false,
 						"video": ""
 					}
@@ -322,40 +322,40 @@
 		"duration": "2 hour",
 		"date": "04/17/2020",
 		"is_countdown": true,
-		"set_game": 0,
+		"set_game": 3,
 		"teams": [
 			{
 				"winner": true,
-				"highlight": false,
+				"highlight": true,
 				"time": 99,
 				"score": {
-					"wins": 0,
-					"losses": 0
+					"wins": 2,
+					"losses": 1
 				},
 				"players": [
 					{
 						"id": "revision",
-						"class": "",
+						"class": "racast",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "wilson",
-						"class": "",
+						"class": "racast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.youtube.com/watch?v=O9mNCRLjYOw"
 					},
 					{
 						"id": "nohit",
-						"class": "",
+						"class": "fonewm",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/595227965"
 					},
 					{
 						"id": "sange",
-						"class": "",
+						"class": "racast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.youtube.com/watch?v=rjPz3UU0HNc"
 					}
 				]
 			},
@@ -363,31 +363,31 @@
 				"winner": false,
 				"time": 87,
 				"score": {
-					"wins": 0,
-					"losses": 0
+					"wins": 1,
+					"losses": 2
 				},
 				"players": [
 					{
 						"id": "mt",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/595145540"
 					},
 					{
 						"id": "killz",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nemo",
-						"class": "",
+						"class": "fomar",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "phelix",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					}
@@ -413,8 +413,8 @@
 				"players": [
 					{
 						"id": "mt",
-						"class": "",
-						"is_captain": true,
+						"class": "https://www.twitch.tv/videos/594088807",
+						"is_captain": false,
 						"video": ""
 					},
 					{
@@ -442,7 +442,7 @@
 					{
 						"id": "wilson",
 						"class": "",
-						"is_captain": true,
+						"is_captain": false,
 						"video": ""
 					},
 					{
