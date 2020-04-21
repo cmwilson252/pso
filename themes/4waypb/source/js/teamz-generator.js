@@ -30,19 +30,32 @@ window.fourwaypb.teamz_generator.ready = function() {
     }
     
     let quests = null;
+    let currentQuests = null;
+    let challengeMode = false;
+    
     function setupQuests() {
         let questsToAdd = [];
         quests.forEach(function (quest) {
             if (quest.is_teamz_enabled) {
-                questsToAdd.push({
-                    name: quest.name,
-                    value: quest.id,
-                });
+                if (challengeMode) {
+                    if (quest.is_cmode) {
+                        questsToAdd.push({
+                            name: quest.name,
+                            value: quest.id,
+                        });
+                    }
+                } else {
+                    questsToAdd.push({
+                        name: quest.name,
+                        value: quest.id,
+                    });
+                }
             }
         });
         
+        currentQuests = questsToAdd;
         $('#quest_list').dropdown({
-            values: questsToAdd,
+            values: currentQuests,
         });
         $('#quest_list').removeClass('loading');
     }
@@ -54,6 +67,12 @@ window.fourwaypb.teamz_generator.ready = function() {
     }
     
     function setupGeneration() {
+        $('#challenge_mode').checkbox({
+            onChange: function() {
+                challengeMode = $('#challenge_mode').checkbox('is checked');
+                setupQuests();
+            }
+        });
         $('#generate_quest').on('click', function () {
             generateQuest();
         });
@@ -68,11 +87,9 @@ window.fourwaypb.teamz_generator.ready = function() {
         
         excludedQuests = Array.isArray(excludedQuests) ? excludedQuests : [excludedQuests];
         
-        quests.forEach(function (quest) {
-            if (quest.is_teamz_enabled) {
-                if (!excludedQuests.includes(quest.id)) {
-                    questsToRandomize.push(quest.name);
-                }
+        currentQuests.forEach(function (quest) {
+            if (!excludedQuests.includes(quest.value)) {
+                questsToRandomize.push(quest.name);
             }
         });
         
