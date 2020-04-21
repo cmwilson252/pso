@@ -1,7 +1,6 @@
 window.fourwaypb = window.fourwaypb || {};
 window.fourwaypb.teamz_results = window.fourwaypb.teamz_results || {};
 
-// ready event
 window.fourwaypb.teamz_results.ready = function() {
     
     let ready = false;
@@ -104,7 +103,6 @@ window.fourwaypb.teamz_results.ready = function() {
     }));
 };
 
-// attach ready event
 window.addEventListener('DOMContentLoaded', function() {
     window.fourwaypb.teamz_results.ready();
 });

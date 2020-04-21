@@ -1,6 +1,39 @@
 window.fourwaypb = window.fourwaypb || {};
 
-// ready event
+
+window.fourwaypb.psobbClasses = [
+    'humar',
+    'hunewearl',
+    'hucast',
+    'hucaseal',
+    'ramar',
+    'ramarl',
+    'racast',
+    'racaseal',
+    'fomar',
+    'fomarl',
+    'fonewm',
+    'fonewearl',
+];
+
+window.fourwaypb.classKeyToName = function(key) {
+    switch (key) {
+        case 'humar':       return 'HUmar';
+        case 'hunewearl':   return 'HUnewearl';
+        case 'hucast':      return 'HUcast';
+        case 'hucaseal':    return 'HUcaseal';
+        case 'ramar':       return 'RAmar';
+        case 'ramarl':      return 'RAmarl';
+        case 'racast':      return 'RAcast';
+        case 'racaseal':    return 'RAcaseal';
+        case 'fomar':       return 'FOmar';
+        case 'fomarl':      return 'FOmarl';
+        case 'fonewm':      return 'FOnewm';
+        case 'fonewearl':   return 'FOnewearl';
+        default: return "Unknown";
+    }
+};
+
 window.fourwaypb.ready = function() {
     var sidebar = $('#sidebar');
     sidebar.sidebar('setting', {
@@ -23,7 +56,6 @@ window.fourwaypb.ready = function() {
     }
 };
 
-// attach ready event
 window.addEventListener('DOMContentLoaded', function() {
     window.fourwaypb.ready();
 });
