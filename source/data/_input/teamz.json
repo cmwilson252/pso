@@ -1,971 +1,2054 @@
 [
-    {
-        "quest_id": "ma2b",
-        "duration": "1 hour",
-        "date": "04/19/2020",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 1208,
-                "wins": 0,
-                "losses": 0,
-                "players": [
-                    {
-                        "id": "killz",
-                        "is_captain": false,
-                        "video": ""
-                    },
-                    {
-                        "id": "revision",
-                        "is_captain": true,
-                        "video": ""
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "ma2b",
-        "duration": "1 hour",
-        "date": "04/19/2020",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 1208,
-                "players": [
-                    "killz",
-                    "revision",
-                    "jack",
-                    "phelix"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 1154,
-                "player_ids": [
-                    "nemo",
-                    "mt",
-                    "nohit",
-                    "500ryu"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 1098,
-                "player_ids": [
-                    "readth",
-                    "wilson",
-                    "ndw",
-                    "starlord"
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "mau5",
-        "duration": "1 hour",
-        "date": "04/19/2020",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 909,
-                "player_ids": [
-                    "nohit",
-                    "kamlang",
-                    "nemo",
-                    "sange"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 899,
-                "player_ids": [
-                    "wilson",
-                    "killz",
-                    "mt",
-                    "readth"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 865,
-                "player_ids": [
-                    "venom",
-                    "revision",
-                    "500ryu",
-                    "jack"
-                ]
-            }
-
-        ]
-    },
-    {
-        "quest_id": "ma1c",
-        "duration": "1 hour",
-        "date": "04/18/2020",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 982,
-                "player_ids": [
-                    "nohit",
-                    "killz",
-                    "nemo"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 955,
-                "player_ids": [
-                    "wilson",
-                    "starlord",
-                    "jack"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 885,
-                "player_ids": [
-                    "phelix",
-                    "mt",
-                    "boom"
-                ]
-            }
-
-        ]
-    },
-    {
-        "quest_id": "row",
-        "duration": "2 hour",
-        "date": "04/17/2020",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 99,
-                "player_ids": [
-                    "revision",
-                    "wilson",
-                    "nohit",
-                    "sange"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 87,
-                "player_ids": [
-                    "mt",
-                    "killz",
-                    "nemo",
-                    "phelix"
-                ]
-            }
-
-        ]
-    },
-    {
-        "quest_id": "gal_da_vals_darkness",
-        "duration": "1 hour",
-        "date": "04/16/2020",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 1020,
-                "player_ids": [
-                    "mt",
-                    "phelix",
-                    "nohit"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 994,
-                "player_ids": [
-                    "wilson",
-                    "killz",
-                    "nemo"
-                ]
-            }
-
-        ]
-    },
-    {
-        "quest_id": "ma4a",
-        "duration": "1 hour",
-        "date": "04/15/2020",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 1247,
-                "player_ids": [
-                    "revision",
-                    "killz",
-                    "phelix",
-                    "ndw"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 1237,
-                "player_ids": [
-                    "mt",
-                    "wilson",
-                    "sange",
-                    "nohit"
-                ]
-            }
-
-        ]
-    },
-    {
-        "quest_id": "christmas_fiasco_iv",
-        "duration": "1 hour",
-        "date": "04/14/2020",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 813,
-                "player_ids": [
-                    "mt",
-                    "killz",
-                    "nohit",
-                    "phelix"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 782,
-                "player_ids": [
-                    "revision",
-                    "wilson",
-                    "sange",
-                    "ndw"
-                ]
-            }
-
-        ]
-    },
-    {
-        "quest_id": "su9",
-        "duration": "1 hour",
-        "date": "04/13/2020",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 535,
-                "player_ids": [
-                    "wilson",
-                    "revision",
-                    "killz",
-                    "ndw"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 520,
-                "player_ids": [
-                    "phelix",
-                    "readth",
-                    "nohit",
-                    "mt"
-                ]
-            }
-
-        ]
-    },
-    {
-        "quest_id": "su2",
-        "duration": "1 hour",
-        "date": "04/12/2020",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 416,
-                "player_ids": [
-                    "wilson",
-                    "mt",
-                    "killz",
-                    "rozalin"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 412,
-                "player_ids": [
-                    "phelix",
-                    "sange",
-                    "nohit",
-                    "ndw"
-                ]
-            }
-
-        ]
-    },
-    {
-        "quest_id": "power_plant_plight",
-        "duration": "1 hour",
-        "date": "04/10/2020",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 1441,
-                "player_ids": [
-                    "nohit",
-                    "mt",
-                    "phelix",
-                    "yui"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 1410,
-                "player_ids": [
-                    "killz",
-                    "wilson",
-                    "sange",
-                    "ndw"
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "nmu3",
-        "duration": "1 hour",
-        "date": "04/09/2020",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 557,
-                "player_ids": [
-                    "nohit",
-                    "wilson",
-                    "mt",
-                    "esther"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 534,
-                "player_ids": [
-                    "killz",
-                    "starlord",
-                    "phelix",
-                    "yui"
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "mu3",
-        "duration": "1 hour",
-        "date": "04/08/2020",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 154,
-                "player_ids": [
-                    "phelix",
-                    "nohit",
-                    "killz"
-                ]
-            },
-            {
-                "winner": true,
-                "time": 98,
-                "player_ids": [
-                    "mt",
-                    "wilson",
-                    "sange"
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "christmas_fiasco_ii",
-        "duration": "1 hour",
-        "date": "04/08/2020",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 914,
-                "player_ids": [
-                    "killz",
-                    "mt",
-                    "sange",
-                    "phelix"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 865,
-                "player_ids": [
-                    "nohit",
-                    "wilson",
-                    "cameron",
-                    "ndw"
-                ]
-            }
-
-        ]
-    },
-    {
-        "quest_id": "ma2a",
-        "duration": "1 hour",
-        "date": "04/05/2020",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 1137,
-                "player_ids": [
-                    "sange",
-                    "wilson",
-                    "stevecares"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 1135,
-                "player_ids": [
-                    "phelix",
-                    "cameron",
-                    "nohit"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 1065,
-                "player_ids": [
-                    "killz",
-                    "gally",
-                    "mt"
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "max_mines",
-        "duration": "1 hour",
-        "date": "04/04/2020",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 254,
-                "player_ids": [
-                    "killz",
-                    "wilson",
-                    "mt"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 278,
-                "player_ids": [
-                    "starlord",
-                    "500ryu",
-                    "phelix"
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "max_desert",
-        "duration": "1 hour",
-        "date": "04/02/2020",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 272,
-                "player_ids": [
-                    "killz",
-                    "nohit",
-                    "starlord",
-                    "cameron"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 288,
-                "player_ids": [
-                    "wilson",
-                    "mt",
-                    "sange",
-                    "yui"
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "ma1b",
-        "duration": "1 hour",
-        "date": "04/01/2020",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 965,
-                "player_ids": [
-                    "mt",
-                    "nohit",
-                    "phelix"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 963,
-                "player_ids": [
-                    "wilson",
-                    "cameron",
-                    "500ryu"
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "ma4b",
-        "duration": "1 hour",
-        "date": "03/29/2020",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 1032,
-                "player_ids": [
-                    "mt",
-                    "cameron",
-                    "phelix"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 876,
-                "player_ids": [
-                    "wilson",
-                    "ndw",
-                    "nohit"
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "christmas_fiasco_i",
-        "duration": "1 hour",
-        "date": "03/27/2020",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 1034,
-                "player_ids": [
-                    "sange",
-                    "revision",
-                    "nohit",
-                    "phelix"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 954,
-                "player_ids": [
-                    "wilson",
-                    "killz",
-                    "mt",
-                    "lemon"
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "max_seabed",
-        "duration": "2 Weeks",
-        "date": "03/09/2019",
-        "is_countdown": false,
-        "teams": [
-            {
-                "winner": true,
-                "time": 315,
-                "player_ids": [
-                    "mudkipzjm",
-                    "shiida"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 453,
-                "player_ids": [
-                    "wilson",
-                    "hunter"
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "mu2",
-        "duration": "1 Hour",
-        "date": "02/02/2019",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 528,
-                "player_ids": [
-                    "lemon",
-                    "wilson",
-                    "jez"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 496,
-                "player_ids": [
-                    "yannv",
-                    "mudkipzjm",
-                    "hunter"
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "power_plant_plight",
-        "duration": "30 Minutes",
-        "date": "02/02/2019",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 1308,
-                "player_ids": [
-                    "wilson",
-                    "hunter",
-                    "shiida"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 1226,
-                "player_ids": [
-                    "killz",
-                    "yannv",
-                    "lemon"
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "ma1b",
-        "duration": "1 Hour",
-        "date": "01/20/2019",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 938,
-                "player_ids": [
-                    "killz",
-                    "jade"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 874,
-                "player_ids": [
-                    "wilson",
-                    "yannv",
-                    "hunter"
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "mau5",
-        "duration": "1 Hour",
-        "date": "01/12/2019",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 433,
-                "player_ids": [
-                    "wilson",
-                    "lemon",
-                    "ryan_ford"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 418,
-                "player_ids": [
-                    "yannv",
-                    "jade",
-                    "hunter"
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "max_ruins",
-        "duration": "1 Hour",
-        "date": "12/08/2018",
-        "is_countdown": false,
-        "teams": [
-            {
-                "winner": true,
-                "time": 261,
-                "player_ids": [
-                    "killz",
-                    "lemon",
-                    "starlord"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 284,
-                "player_ids": [
-                    "ndw",
-                    "nemo",
-                    "wilson"
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "cals_clock_challenge",
-        "duration": "1 Hour",
-        "date": "11/17/2018",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 85,
-                "player_ids": [
-                    "killz",
-                    "mt",
-                    "alukard",
-                    "nemo"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 50,
-                "player_ids": [
-                    "revision",
-                    "9898",
-                    "nohit",
-                    "lemon"
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "max_seabed",
-        "duration": "1 Hour",
-        "date": "11/15/2018",
-        "is_countdown": false,
-        "teams": [
-            {
-                "winner": true,
-                "time": 371,
-                "player_ids": [
-                    "lemon",
-                    "9898",
-                    "alukard"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 372,
-                "player_ids": [
-                    "revision",
-                    "jack",
-                    "wilson"
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "ma3",
-        "duration": "1 Hour",
-        "date": "10/31/2018",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 1020,
-                "player_ids": [
-                    "mudkipzjm",
-                    "mt",
-                    "revision"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 673,
-                "player_ids": [
-                    "killz",
-                    "9898",
-                    "alukard"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 608,
-                "player_ids": [
-                    "carnage",
-                    "starlord",
-                    "jack"
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "ma1c",
-        "duration": "1 Hour",
-        "date": "10/31/2018",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 1039,
-                "player_ids": [
-                    "jack",
-                    "killz",
-                    "rashan",
-                    "ndw"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 992,
-                "player_ids": [
-                    "revision",
-                    "alukard",
-                    "9898",
-                    "mudkipzjm"
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "ma2c",
-        "duration": "1 Hour",
-        "date": "10/30/2018",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 865,
-                "player_ids": [
-                    "jack",
-                    "killz",
-                    "mt"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 540,
-                "player_ids": [
-                    "starlord",
-                    "alukard",
-                    "wilson"
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "gal_da_vals_darkness",
-        "duration": "1 Hour",
-        "date": "10/29/2018",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 1070,
-                "player_ids": [
-                    "wilson",
-                    "killz",
-                    "alukard",
-                    "ndw"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 1050,
-                "player_ids": [
-                    "carnage",
-                    "mt",
-                    "nemo",
-                    "jack"
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "mu3",
-        "duration": "1 Hour",
-        "date": "10/27/2018",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 212,
-                "player_ids": [
-                    "nemo",
-                    "killz",
-                    "mt"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 195,
-                "player_ids": [
-                    "alukard",
-                    "9898",
-                    "jack"
-                ]
-            }
-        ]
-    },
-    {
-        "quest_id": "mau3",
-        "duration": "1 Hour",
-        "date": "10/27/2018",
-        "is_countdown": true,
-        "teams": [
-            {
-                "winner": true,
-                "time": 413,
-                "player_ids": [
-                    "alukard",
-                    "ndw",
-                    "jack",
-                    "revision"
-                ]
-            },
-            {
-                "winner": false,
-                "time": 378,
-                "player_ids": [
-                    "carnage",
-                    "9898",
-                    "nemo",
-                    "mt"
-                ]
-            }
-        ]
-    }
+	{
+		"quest_id": "ma2b",
+		"duration": "1 hour",
+		"date": "04/19/2020",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 1208,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "killz",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "revision",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "jack",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 1154,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "nemo",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "500ryu",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 1098,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "readth",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "ndw",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "starlord",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "mau5",
+		"duration": "1 hour",
+		"date": "04/19/2020",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 909,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "nohit",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "kamlang",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nemo",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "sange",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 899,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "wilson",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "readth",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 865,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "venom",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "revision",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "500ryu",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "jack",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "ma1c",
+		"duration": "1 hour",
+		"date": "04/18/2020",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 982,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "nohit",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nemo",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 955,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "wilson",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "starlord",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "jack",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 885,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "phelix",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "boom",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "row",
+		"duration": "2 hour",
+		"date": "04/17/2020",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 99,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "revision",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "sange",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 87,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "mt",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nemo",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "gal_da_vals_darkness",
+		"duration": "1 hour",
+		"date": "04/16/2020",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 1020,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "mt",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 994,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "wilson",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nemo",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "ma4a",
+		"duration": "1 hour",
+		"date": "04/15/2020",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 1247,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "revision",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "ndw",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 1237,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "mt",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "sange",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "christmas_fiasco_iv",
+		"duration": "1 hour",
+		"date": "04/14/2020",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 813,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "mt",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 782,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "revision",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "sange",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "ndw",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "su9",
+		"duration": "1 hour",
+		"date": "04/13/2020",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 535,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "wilson",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "revision",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "ndw",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 520,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "phelix",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "readth",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "su2",
+		"duration": "1 hour",
+		"date": "04/12/2020",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 416,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "wilson",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "rozalin",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 412,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "phelix",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "sange",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "ndw",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "power_plant_plight",
+		"duration": "1 hour",
+		"date": "04/10/2020",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 1441,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "nohit",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "yui",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 1410,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "killz",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "sange",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "ndw",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "nmu3",
+		"duration": "1 hour",
+		"date": "04/09/2020",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 557,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "nohit",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "esther",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 534,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "killz",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "starlord",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "yui",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "mu3",
+		"duration": "1 hour",
+		"date": "04/08/2020",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 154,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "phelix",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": true,
+				"time": 98,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "mt",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "sange",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "christmas_fiasco_ii",
+		"duration": "1 hour",
+		"date": "04/08/2020",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 914,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "killz",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "sange",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 865,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "nohit",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "cameron",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "ndw",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "ma2a",
+		"duration": "1 hour",
+		"date": "04/05/2020",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 1137,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "sange",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "stevecares",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 1135,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "phelix",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "cameron",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 1065,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "killz",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "gally",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "max_mines",
+		"duration": "1 hour",
+		"date": "04/04/2020",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 254,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "killz",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 278,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "starlord",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "500ryu",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "max_desert",
+		"duration": "1 hour",
+		"date": "04/02/2020",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 272,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "killz",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "starlord",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "cameron",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 288,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "wilson",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "sange",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "yui",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "ma1b",
+		"duration": "1 hour",
+		"date": "04/01/2020",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 965,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "mt",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 963,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "wilson",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "cameron",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "500ryu",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "ma4b",
+		"duration": "1 hour",
+		"date": "03/29/2020",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 1032,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "mt",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "cameron",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 876,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "wilson",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "ndw",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "christmas_fiasco_i",
+		"duration": "1 hour",
+		"date": "03/27/2020",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 1034,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "sange",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "revision",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 954,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "wilson",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "lemon",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "max_seabed",
+		"duration": "2 Weeks",
+		"date": "03/09/2019",
+		"is_countdown": false,
+		"teams": [
+			{
+				"winner": true,
+				"time": 315,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "mudkipzjm",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "shiida",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 453,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "wilson",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "hunter",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "mu2",
+		"duration": "1 Hour",
+		"date": "02/02/2019",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 528,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "lemon",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "jez",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 496,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "yannv",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "mudkipzjm",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "hunter",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "power_plant_plight",
+		"duration": "30 Minutes",
+		"date": "02/02/2019",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 1308,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "wilson",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "hunter",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "shiida",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 1226,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "killz",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "yannv",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "lemon",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "ma1b",
+		"duration": "1 Hour",
+		"date": "01/20/2019",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 938,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "killz",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "jade",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 874,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "wilson",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "yannv",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "hunter",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "mau5",
+		"duration": "1 Hour",
+		"date": "01/12/2019",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 433,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "wilson",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "lemon",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "ryan_ford",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 418,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "yannv",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "jade",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "hunter",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "max_ruins",
+		"duration": "1 Hour",
+		"date": "12/08/2018",
+		"is_countdown": false,
+		"teams": [
+			{
+				"winner": true,
+				"time": 261,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "killz",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "lemon",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "starlord",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 284,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "ndw",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "nemo",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "cals_clock_challenge",
+		"duration": "1 Hour",
+		"date": "11/17/2018",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 85,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "killz",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "alukard",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nemo",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 50,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "revision",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "9898",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "lemon",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "max_seabed",
+		"duration": "1 Hour",
+		"date": "11/15/2018",
+		"is_countdown": false,
+		"teams": [
+			{
+				"winner": true,
+				"time": 371,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "lemon",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "9898",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "alukard",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 372,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "revision",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "jack",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "ma3",
+		"duration": "1 Hour",
+		"date": "10/31/2018",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 1020,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "mudkipzjm",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "revision",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 673,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "killz",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "9898",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "alukard",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 608,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "carnage",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "starlord",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "jack",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "ma1c",
+		"duration": "1 Hour",
+		"date": "10/31/2018",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 1039,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "jack",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "rashan",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "ndw",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 992,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "revision",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "alukard",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "9898",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mudkipzjm",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "ma2c",
+		"duration": "1 Hour",
+		"date": "10/30/2018",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 865,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "jack",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 540,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "starlord",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "alukard",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "gal_da_vals_darkness",
+		"duration": "1 Hour",
+		"date": "10/29/2018",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 1070,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "wilson",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "alukard",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "ndw",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 1050,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "carnage",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nemo",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "jack",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "mu3",
+		"duration": "1 Hour",
+		"date": "10/27/2018",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 212,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "nemo",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 195,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "alukard",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "9898",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "jack",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "mau3",
+		"duration": "1 Hour",
+		"date": "10/27/2018",
+		"is_countdown": true,
+		"teams": [
+			{
+				"winner": true,
+				"time": 413,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "alukard",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "ndw",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "jack",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "revision",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 378,
+				"wins": 0,
+				"losses": 0,
+				"players": [
+					{
+						"id": "carnage",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "9898",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nemo",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	}
 ]
