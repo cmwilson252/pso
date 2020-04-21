@@ -1,30 +1,10 @@
 window.fourwaypb = window.fourwaypb || {};
 window.fourwaypb.players = window.fourwaypb.players || {};
 
-// ready event
 window.fourwaypb.players.ready = function() {
     
     let ready = false;
     let players = null;
-    
-    // TODO remove if not used
-    function classKeyToName(key) {
-        switch (key) {
-            case 'humar':       return 'HUmar';
-            case 'hunewearl':   return 'HUnewearl';
-            case 'hucast':      return 'HUcast';
-            case 'hucaseal':    return 'HUcaseal';
-            case 'ramar':       return 'RAmar';
-            case 'ramarl':      return 'RAmarl';
-            case 'racast':      return 'RAcast';
-            case 'racaseal':    return 'RAcaseal';
-            case 'fomar':       return 'FOmar';
-            case 'fomarl':      return 'FOmarl';
-            case 'fonewm':      return 'FOnewm';
-            case 'fonewearl':   return 'FOnewearl';
-            default: return "Unknown";
-        }
-    }
     
     function updateColumns() {
         $('.cards').removeClass('one two three four');
@@ -109,7 +89,7 @@ window.fourwaypb.players.ready = function() {
                                             if (i > 0) {
                                                 content += ', ';
                                             }
-                                            content += classKeyToName(player.classes[i]);
+                                            content += window.fourwaypb.classKeyToName(player.classes[i]);
                                         }
                                         return content;
                                     }),
@@ -271,7 +251,6 @@ window.fourwaypb.players.ready = function() {
     }));
 };
 
-// attach ready event
 window.addEventListener('DOMContentLoaded', function() {
     window.fourwaypb.players.ready();
 });

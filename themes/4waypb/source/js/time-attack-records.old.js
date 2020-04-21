@@ -1,7 +1,6 @@
 window.fourwaypb = window.fourwaypb || {};
 window.fourwaypb.time_attack_records = window.fourwaypb.time_attack_records || {};
 
-// ready event
 window.fourwaypb.time_attack_records.ready = function() {
     
     let ready = false;
@@ -130,24 +129,6 @@ window.fourwaypb.time_attack_records.ready = function() {
         return moment.unix(moment.duration().add(seconds, 's').asSeconds()).utc().format(format);
     }
     
-    function classKeyToName(key) {
-        switch (key) {
-            case 'humar':       return 'HUmar';
-            case 'hunewearl':   return 'HUnewearl';
-            case 'hucast':      return 'HUcast';
-            case 'hucaseal':    return 'HUcaseal';
-            case 'ramar':       return 'RAmar';
-            case 'ramarl':      return 'RAmarl';
-            case 'racast':      return 'RAcast';
-            case 'racaseal':    return 'RAcaseal';
-            case 'fomar':       return 'FOmar';
-            case 'fomarl':      return 'FOmarl';
-            case 'fonewm':      return 'FOnewm';
-            case 'fonewearl':   return 'FOnewearl';
-            default: return "Unknown";
-        }
-    }
-    
     function playerNamesToList(arr){
         let result = '';
         for (let i = 0; i < arr.length; i++) {
@@ -164,7 +145,7 @@ window.fourwaypb.time_attack_records.ready = function() {
             if (i != 0) {
                 result += '</br>';
             }
-            result += classKeyToName(arr[i].class);
+            result += window.fourwaypb.classKeyToName(arr[i].class);
         }
         return result;
     }
@@ -552,7 +533,6 @@ window.fourwaypb.time_attack_records.ready = function() {
     }));
 };
 
-// attach ready event
 window.addEventListener('DOMContentLoaded', function() {
     window.fourwaypb.time_attack_records.ready();
 });

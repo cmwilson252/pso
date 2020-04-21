@@ -1,7 +1,6 @@
 window.fourwaypb = window.fourwaypb || {};
 window.fourwaypb.teamz_generator = window.fourwaypb.teamz_generator || {};
 
-// ready event
 window.fourwaypb.teamz_generator.ready = function() {
     Array.prototype.random = function () {
         return this[Math.floor((Math.random() * this.length))];
@@ -74,6 +73,7 @@ window.fourwaypb.teamz_generator.ready = function() {
         $('#party_list').empty();
         
         let partyCount = parseInt($('#party_count').dropdown('get value'));
+        let classMixer = $('#class_mixer').checkbox('is checked');
         let players = $('#player_list').dropdown('get values');
         
         if (players == '') {
@@ -103,7 +103,13 @@ window.fourwaypb.teamz_generator.ready = function() {
                             $('<ul/>', {}).append(
                                 $.map(party, function(player) {
                                     return $('<li/>', {
-                                        'text': player,
+                                        'text': (function() {
+                                            let result = player;
+                                            if (classMixer) {
+                                                result += ' ['+window.fourwaypb.classKeyToName(window.fourwaypb.psobbClasses.random())+']';
+                                            }
+                                            return result;
+                                        }),
                                     });
                                 }),
                             ),
@@ -129,7 +135,6 @@ window.fourwaypb.teamz_generator.ready = function() {
     }));
 };
 
-// attach ready event
 window.addEventListener('DOMContentLoaded', function() {
     window.fourwaypb.teamz_generator.ready();
 });
