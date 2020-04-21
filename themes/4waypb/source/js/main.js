@@ -34,6 +34,17 @@ window.fourwaypb.classKeyToName = function(key) {
     }
 };
 
+window.fourwaypb.decodeHTML = function(str) {
+    var txt = document.createElement('textarea');
+    txt.innerHTML = str;
+    return txt.value;
+};
+window.fourwaypb.encodeHTML = function(str) {
+    return str.replace(/[\u00A0-\u9999<>\&]/gim, function(i) {
+        return '&#'+i.charCodeAt(0)+';';
+    });
+};
+
 window.fourwaypb.ready = function() {
     var sidebar = $('#sidebar');
     sidebar.sidebar('setting', {
