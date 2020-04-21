@@ -13,21 +13,25 @@
 				"players": [
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "revision",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "jack",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "phelix",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -41,21 +45,25 @@
 				"players": [
 					{
 						"id": "nemo",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nohit",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "500ryu",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -69,21 +77,25 @@
 				"players": [
 					{
 						"id": "readth",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "ndw",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "starlord",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -105,21 +117,25 @@
 				"players": [
 					{
 						"id": "nohit",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "kamlang",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nemo",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "sange",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -133,21 +149,25 @@
 				"players": [
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "readth",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -161,21 +181,25 @@
 				"players": [
 					{
 						"id": "venom",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "revision",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "500ryu",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "jack",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -197,16 +221,19 @@
 				"players": [
 					{
 						"id": "nohit",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nemo",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -220,16 +247,19 @@
 				"players": [
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "starlord",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "jack",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -243,16 +273,19 @@
 				"players": [
 					{
 						"id": "phelix",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "boom",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -274,21 +307,25 @@
 				"players": [
 					{
 						"id": "revision",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nohit",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "sange",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -302,21 +339,25 @@
 				"players": [
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nemo",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "phelix",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -338,16 +379,19 @@
 				"players": [
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "phelix",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nohit",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -361,16 +405,19 @@
 				"players": [
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nemo",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -392,21 +439,25 @@
 				"players": [
 					{
 						"id": "revision",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "phelix",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "ndw",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -420,21 +471,25 @@
 				"players": [
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "sange",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nohit",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -456,21 +511,25 @@
 				"players": [
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nohit",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "phelix",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -484,21 +543,25 @@
 				"players": [
 					{
 						"id": "revision",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "sange",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "ndw",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -520,21 +583,25 @@
 				"players": [
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "revision",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "ndw",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -548,21 +615,25 @@
 				"players": [
 					{
 						"id": "phelix",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "readth",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nohit",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -584,21 +655,25 @@
 				"players": [
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "rozalin",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -612,21 +687,25 @@
 				"players": [
 					{
 						"id": "phelix",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "sange",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nohit",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "ndw",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -648,21 +727,25 @@
 				"players": [
 					{
 						"id": "nohit",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "phelix",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "yui",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -676,21 +759,25 @@
 				"players": [
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "sange",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "ndw",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -712,21 +799,25 @@
 				"players": [
 					{
 						"id": "nohit",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "esther",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -740,21 +831,25 @@
 				"players": [
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "starlord",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "phelix",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "yui",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -776,16 +871,19 @@
 				"players": [
 					{
 						"id": "phelix",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "nohit",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -799,16 +897,19 @@
 				"players": [
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "sange",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -830,21 +931,25 @@
 				"players": [
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "sange",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "phelix",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -858,21 +963,25 @@
 				"players": [
 					{
 						"id": "nohit",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "cameron",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "ndw",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -894,16 +1003,19 @@
 				"players": [
 					{
 						"id": "sange",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "stevecares",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -917,16 +1029,19 @@
 				"players": [
 					{
 						"id": "phelix",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "cameron",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nohit",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -940,16 +1055,19 @@
 				"players": [
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "gally",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -971,16 +1089,19 @@
 				"players": [
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -994,16 +1115,19 @@
 				"players": [
 					{
 						"id": "starlord",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "500ryu",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "phelix",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1025,21 +1149,25 @@
 				"players": [
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "nohit",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "starlord",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "cameron",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1053,21 +1181,25 @@
 				"players": [
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "sange",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "yui",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1089,16 +1221,19 @@
 				"players": [
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "nohit",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "phelix",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1112,16 +1247,19 @@
 				"players": [
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "cameron",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "500ryu",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1143,16 +1281,19 @@
 				"players": [
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "cameron",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "phelix",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1166,16 +1307,19 @@
 				"players": [
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "ndw",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nohit",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1197,21 +1341,25 @@
 				"players": [
 					{
 						"id": "sange",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "revision",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nohit",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "phelix",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1225,21 +1373,25 @@
 				"players": [
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "lemon",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1261,11 +1413,13 @@
 				"players": [
 					{
 						"id": "mudkipzjm",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "shiida",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1279,11 +1433,13 @@
 				"players": [
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "hunter",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1305,16 +1461,19 @@
 				"players": [
 					{
 						"id": "lemon",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "jez",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1328,16 +1487,19 @@
 				"players": [
 					{
 						"id": "yannv",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "mudkipzjm",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "hunter",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1359,16 +1521,19 @@
 				"players": [
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "hunter",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "shiida",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1382,16 +1547,19 @@
 				"players": [
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "yannv",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "lemon",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1413,11 +1581,13 @@
 				"players": [
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "jade",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1431,16 +1601,19 @@
 				"players": [
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "yannv",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "hunter",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1462,16 +1635,19 @@
 				"players": [
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "lemon",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "ryan_ford",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1485,16 +1661,19 @@
 				"players": [
 					{
 						"id": "yannv",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "jade",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "hunter",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1516,16 +1695,19 @@
 				"players": [
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "lemon",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "starlord",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1539,16 +1721,19 @@
 				"players": [
 					{
 						"id": "ndw",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "nemo",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1570,21 +1755,25 @@
 				"players": [
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "alukard",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nemo",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1598,21 +1787,25 @@
 				"players": [
 					{
 						"id": "revision",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "9898",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nohit",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "lemon",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1634,16 +1827,19 @@
 				"players": [
 					{
 						"id": "lemon",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "9898",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "alukard",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1657,16 +1853,19 @@
 				"players": [
 					{
 						"id": "revision",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "jack",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1688,16 +1887,19 @@
 				"players": [
 					{
 						"id": "mudkipzjm",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "revision",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1711,16 +1913,19 @@
 				"players": [
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "9898",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "alukard",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1734,16 +1939,19 @@
 				"players": [
 					{
 						"id": "carnage",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "starlord",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "jack",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1765,21 +1973,25 @@
 				"players": [
 					{
 						"id": "jack",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "rashan",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "ndw",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1793,21 +2005,25 @@
 				"players": [
 					{
 						"id": "revision",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "alukard",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "9898",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "mudkipzjm",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1829,16 +2045,19 @@
 				"players": [
 					{
 						"id": "jack",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1852,16 +2071,19 @@
 				"players": [
 					{
 						"id": "starlord",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "alukard",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1883,21 +2105,25 @@
 				"players": [
 					{
 						"id": "wilson",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "alukard",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "ndw",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1911,21 +2137,25 @@
 				"players": [
 					{
 						"id": "carnage",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nemo",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "jack",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1947,16 +2177,19 @@
 				"players": [
 					{
 						"id": "nemo",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "killz",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1970,16 +2203,19 @@
 				"players": [
 					{
 						"id": "alukard",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "9898",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "jack",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2001,21 +2237,25 @@
 				"players": [
 					{
 						"id": "alukard",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "ndw",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "jack",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "revision",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2029,21 +2269,25 @@
 				"players": [
 					{
 						"id": "carnage",
+						"class": "",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "9898",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nemo",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "mt",
+						"class": "",
 						"is_captain": false,
 						"video": ""
 					}
