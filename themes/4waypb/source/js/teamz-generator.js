@@ -52,12 +52,15 @@ window.fourwaypb.teamz_generator.ready = function() {
     }
     
     function setupGeneration() {
-        $('#generate').on('click', function () {
-            generate();
+        $('#generate_quest').on('click', function () {
+            generateQuest();
+        });
+        $('#generate_parties').on('click', function () {
+            generateParties();
         });
     }
     
-    function selectRandomQuest() {
+    function generateQuest() {
         let activeQuests = $('#quest_list').dropdown('get values');
         if (activeQuests == '') {
             activeQuests = [];
@@ -119,11 +122,6 @@ window.fourwaypb.teamz_generator.ready = function() {
             );
             currentPartyIndex++;
         });
-    }
-    
-    function generate() {
-        selectRandomQuest();
-        generateParties();
     }
     
     getJSON5(url_for('data/quests.json'), (function(data) {
