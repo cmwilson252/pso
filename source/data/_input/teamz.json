@@ -13,11 +13,13 @@
                 "players": [
                     {
                         "id": "killz",
-                        "is_captain": false
+                        "is_captain": false,
+                        "video": ""
                     },
                     {
                         "id": "revision",
-                        "is_captain": true
+                        "is_captain": true,
+                        "video": ""
                     }
                 ]
             }
