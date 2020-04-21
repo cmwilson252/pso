@@ -223,22 +223,17 @@ hexo.extend.filter.register('after_init', function(){
         delete event.quest_id;
         
         event.teams.forEach(function(team) {
-            team.players = [];
-            team.player_ids.forEach(function(player_id) {
-                let player = players.data.find(x => {
-                    return x.id === player_id;
+            team.players.forEach(function(player) {
+                let player_data = players.data.find(x => {
+                    return x.id === player.id;
                 });
-                if (player == undefined) {
-                    console.log('Could not find player: '+player_id);
+                if (player_data == undefined) {
+                    console.log('Could not find player: '+player.id);
                     has_errors = true;
                 } else {
-                    team.players.push({
-                        id: player.id,
-                        name: player.name,
-                    });
+                    player.name = player_data.name;
                 }
             });
-            delete team.player_ids;
         });
     });
     
