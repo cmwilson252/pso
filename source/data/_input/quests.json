@@ -44,7 +44,7 @@
 	{
 		"id": "fragments_of_a_memory",
 		"name": "Fragments of a Memory",
-		"is_teamz_enabled": true,
+		"is_teamz_enabled": false,
 		"is_cmode": false,
 		"is_countdown": false
 	},
@@ -58,14 +58,14 @@
 	{
 		"id": "harmony_of_despair_ii",
 		"name": "Harmony of Despair II",
-		"is_teamz_enabled": true,
+		"is_teamz_enabled": false,
 		"is_cmode": false,
 		"is_countdown": false
 	},
 	{
 		"id": "labyrinthine_trial",
 		"name": "Labyrinthine Trial",
-		"is_teamz_enabled": true,
+		"is_teamz_enabled": false,
 		"is_cmode": false,
 		"is_countdown": true
 	},
@@ -177,7 +177,7 @@
 	{
 		"id": "ma4dmd",
 		"name": "MA4DMD",
-		"is_teamz_enabled": true,
+		"is_teamz_enabled": false,
 		"is_cmode": false,
 		"is_countdown": true
 	},
@@ -422,7 +422,7 @@
 	{
 		"id": "tower_of_dreams",
 		"name": "Tower of Dreams",
-		"is_teamz_enabled": true,
+		"is_teamz_enabled": false,
 		"is_cmode": false,
 		"is_countdown": false
 	},
@@ -513,7 +513,7 @@
 	{
 		"id": "ttf_ultima",
 		"name": "Towards the Future Ultima",
-		"is_teamz_enabled": true,
+		"is_teamz_enabled": false,
 		"is_cmode": false,
 		"is_countdown": false
 	},
