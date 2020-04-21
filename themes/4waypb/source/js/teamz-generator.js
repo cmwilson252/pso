@@ -30,18 +30,33 @@ window.fourwaypb.teamz_generator.ready = function() {
     }
     
     let quests = null;
-    function setupQuests() {
-        $('#quest_list').dropdown();
+    let currentQuests = null;
+    let challengeMode = false;
     
+    function setupQuests() {
+        let questsToAdd = [];
         quests.forEach(function (quest) {
-            $('#quest_list .menu').append(
-                $('<div/>', {
-                    'class': 'item',
-                    'data-value': quest.name,
-                    'text': quest.name,
-                }),
-            );
-        })
+            if (quest.is_teamz_enabled) {
+                if (challengeMode) {
+                    if (quest.is_cmode) {
+                        questsToAdd.push({
+                            name: quest.name,
+                            value: quest.id,
+                        });
+                    }
+                } else {
+                    questsToAdd.push({
+                        name: quest.name,
+                        value: quest.id,
+                    });
+                }
+            }
+        });
+        
+        currentQuests = questsToAdd;
+        $('#quest_list').dropdown({
+            values: currentQuests,
+        });
         $('#quest_list').removeClass('loading');
     }
     
@@ -52,6 +67,12 @@ window.fourwaypb.teamz_generator.ready = function() {
     }
     
     function setupGeneration() {
+        $('#challenge_mode').checkbox({
+            onChange: function() {
+                challengeMode = $('#challenge_mode').checkbox('is checked');
+                setupQuests();
+            }
+        });
         $('#generate_quest').on('click', function () {
             generateQuest();
         });
@@ -61,15 +82,18 @@ window.fourwaypb.teamz_generator.ready = function() {
     }
     
     function generateQuest() {
-        let activeQuests = $('#quest_list').dropdown('get values');
-        if (activeQuests == '') {
-            activeQuests = [];
-            quests.forEach(function (quest) {
-                activeQuests.push(quest.name);
-            });
-        }
+        let excludedQuests = $('#quest_list').dropdown('get values');
+        let questsToRandomize = [];
         
-        let selectedQuest = activeQuests.random();
+        excludedQuests = Array.isArray(excludedQuests) ? excludedQuests : [excludedQuests];
+        
+        currentQuests.forEach(function (quest) {
+            if (!excludedQuests.includes(quest.value)) {
+                questsToRandomize.push(quest.name);
+            }
+        });
+        
+        let selectedQuest = questsToRandomize.random();
         $('#quest_name').text('Quest: '+selectedQuest);
     }
     function generateParties() {
