@@ -1,5 +1,83 @@
 [
 	{
+		"quest_id": "max_crater",
+		"duration": "1 hour",
+		"date": "04/22/2020",
+		"is_countdown": true,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 248,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "revision",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"class": "hucast",
+						"is_captain": false,
+						"video": "https://www.twitch.tv/videos/600041675"
+					},
+					{
+						"id": "dgm",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "boom",
+						"class": "fonewm",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 255,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "killz",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nemo",
+						"class": "fonewm",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
 		"quest_id": "su7",
 		"duration": "1 hour",
 		"date": "04/22/2020",

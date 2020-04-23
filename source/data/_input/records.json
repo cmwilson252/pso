@@ -7069,12 +7069,44 @@
 		"meta": "vanilla",
 		"category": "4p",
 		"pb": false,
+		"time": 248,
+		"team_id": null,
+		"players": [
+			{
+				"id": "mt",
+				"class": "hucast",
+				"video": "https://www.twitch.tv/videos/600041675"
+			},
+			{
+				"id": "revision",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "dgm",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "boom",
+				"class": "fonewm",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_crater",
+		"episode": 4,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
 		"time": 271,
 		"team_id": null,
 		"players": [
 			{
 				"id": "demonized",
-				"class": "racast",
+				"class": "hucast",
 				"video": "https://www.youtube.com/watch?v=WXxYL5GBh7M"
 			},
 			{
