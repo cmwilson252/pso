@@ -4,7 +4,7 @@
 		"duration": "1 hour",
 		"date": "04/22/2020",
 		"is_countdown": true,
-		"set_game": 1,
+		"set_game": 2,
 		"teams": [
 			{
 				"winner": true,
@@ -1683,6 +1683,7 @@
 		"duration": "2 Weeks",
 		"date": "03/09/2019",
 		"is_countdown": false,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
@@ -1994,6 +1995,7 @@
 		"duration": "1 Hour",
 		"date": "12/08/2018",
 		"is_countdown": false,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
@@ -2137,6 +2139,7 @@
 		"duration": "1 Hour",
 		"date": "11/15/2018",
 		"is_countdown": false,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
