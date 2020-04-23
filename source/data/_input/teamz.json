@@ -9,6 +9,84 @@
 			{
 				"winner": true,
 				"highlight": false,
+				"time": 506,
+				"score": {
+					"wins": 1,
+					"losses": 1
+				},
+				"players": [
+					{
+						"id": "wilson",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"class": "hucast",
+						"is_captain": false,
+						"video": "https://www.twitch.tv/videos/599790048"
+					},
+					{
+						"id": "ndw",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nemo",
+						"class": "ramarl",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 503,
+				"score": {
+					"wins": 1,
+					"losses": 1
+				},
+				"players": [
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": true,
+						"video": "https://www.twitch.tv/videos/599859192"
+					},
+					{
+						"id": "killz",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "starlord",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"class": "ramarl",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "ma1b",
+		"duration": "1 hour",
+		"date": "04/21/2020",
+		"is_countdown": true,
+		"set_game": 1,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
 				"time": 1172,
 				"score": {
 					"wins": 1,
