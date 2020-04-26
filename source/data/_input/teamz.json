@@ -75,34 +75,6 @@
 					}
 					
 				]
-			},
-			{
-				"winner": false,
-				"time": 731,
-				"score": {
-					"wins": 0,
-					"losses": 0
-				},
-				"players": [
-					{
-						"id": "boom",
-						"class": "hucast",
-						"is_captain": true,
-						"video": ""
-					},
-					{
-						"id": "alukard",
-						"class": "hucast",
-						"is_captain": false,
-						"video": ""
-					},
-					{
-						"id": "nohit",
-						"class": "ramarl",
-						"is_captain": false,
-						"video": ""
-					}
-				]
 			}
 		]
 	},
