@@ -48,7 +48,8 @@
 			"Ultima"
 		],
 		"team_ids": [
-			"chosen_few"
+			"chosen_few",
+			"rephlex"
 		],
 		"timezone": "CST",
 		"card_content": [],
@@ -528,7 +529,8 @@
 			"Vanilla"
 		],
 		"team_ids": [
-			"tankstelle"
+			"tankstelle",
+			"rephlex"
 		],
 		"timezone": "CST",
 		"card_content": [],
@@ -635,36 +637,6 @@
 		"github": {
 			"name": "",
 			"url": ""
-		}
-	},
-	{
-		"id": "ndw",
-		"name": "NDW",
-		"image": "images/players/ndw.png",
-		"classes": [
-			"hucast",
-			"ramarl",
-			"fomar"
-		],
-		"metas": [
-			"2014",
-			"Vanilla"
-		],
-		"team_ids": [
-			"tankstelle"
-		],
-		"timezone": "EST",
-		"card_content": [],
-		"page_content": [],
-		"discord": "NDW#9615",
-		"twitter": "NDWoodruff",
-		"youtube": {
-			"name": "Nathan Woodruff",
-			"url": "https://www.youtube.com/channel/UC8rL-oHELkod_gOQuy55bdw"
-		},
-		"twitch": {
-			"name": "NDWoodruff",
-			"url": "https://www.twitch.tv/ndwoodruff"
 		}
 	},
 	{
@@ -961,6 +933,36 @@
 		"github": {
 			"name": "",
 			"url": ""
+		}
+	},
+	{
+		"id": "ndw",
+		"name": "NDW",
+		"image": "images/players/ndw.png",
+		"classes": [
+			"hucast",
+			"ramarl",
+			"fomar"
+		],
+		"metas": [
+			"2014",
+			"Vanilla"
+		],
+		"team_ids": [
+			"hunters_guild"
+		],
+		"timezone": "EST",
+		"card_content": [],
+		"page_content": [],
+		"discord": "NDW#9615",
+		"twitter": "NDWoodruff",
+		"youtube": {
+			"name": "Nathan Woodruff",
+			"url": "https://www.youtube.com/channel/UC8rL-oHELkod_gOQuy55bdw"
+		},
+		"twitch": {
+			"name": "NDWoodruff",
+			"url": "https://www.twitch.tv/ndwoodruff"
 		}
 	},
 	{

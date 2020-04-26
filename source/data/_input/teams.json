@@ -25,6 +25,11 @@
         "image": "images/team_flags/f9.png"
     },
     {
+        "id": "hunters_guild",
+        "name": "Hunters Guild",
+        "image": "images/team_flags/huntersguild.png"
+    },
+    {
         "id": "illuminati",
         "name": "Illuminati",
         "image": "images/team.png"
