@@ -14,10 +14,12 @@ menu:
     children:
       - name: 'Sandbox TA'
         url: '/concepts/sandbox-ta'
-      - name: 'Set attack damage'
+      - name: 'Set Attack Damage'
         url: '/concepts/set-attack-damage'
       - name: 'Frame 1 Data'
         url: '/concepts/f1-data'
+      - name: 'Quest Warp Values'
+        url: '/concepts/quest-warp-values'
   - name: 'Servers'
     url: '/servers'
     children:
