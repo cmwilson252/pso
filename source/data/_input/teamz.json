@@ -1,5 +1,83 @@
 [
 	{
+		"quest_id": "max_tower",
+		"duration": "1 hour",
+		"date": "04/28/2020",
+		"is_countdown": true,
+		"set_game": 1,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 352,
+				"score": {
+					"wins": 1,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "revision",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},					
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "jack",
+						"class": "hunewearl",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 381,
+				"score": {
+					"wins": 0,
+					"losses": 1
+				},
+				"players": [
+					{
+						"id": "wilson",
+						"class": "hunewearl",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "sange",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nemo",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
 		"quest_id": "su8",
 		"duration": "1 hour",
 		"date": "04/26/2020",
