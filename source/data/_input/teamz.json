@@ -1,4 +1,83 @@
 [
+	
+	{
+		"quest_id": "christmas_fiasco_i",
+		"duration": "1 hour",
+		"date": "04/28/2020",
+		"is_countdown": true,
+		"set_game": 2,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 1078,
+				"score": {
+					"wins": 2,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "revision",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},					
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": false,
+						"video": "https://www.twitch.tv/videos/605775897"
+					},
+					{
+						"id": "killz",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "readth",
+						"class": "fomar",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 1022,
+				"score": {
+					"wins": 0,
+					"losses": 2
+				},
+				"players": [
+					{
+						"id": "wilson",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "sange",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nemo",
+						"class": "fomar",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
 	{
 		"quest_id": "max_tower",
 		"duration": "1 hour",
