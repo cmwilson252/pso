@@ -123,7 +123,7 @@
 					},
 					{
 						"id": "sange",
-						"class": "racast",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
@@ -163,7 +163,7 @@
 					},
 					{
 						"id": "jack",
-						"class": "fonewmn",
+						"class": "fonewm",
 						"is_captain": false,
 						"video": ""
 					}
