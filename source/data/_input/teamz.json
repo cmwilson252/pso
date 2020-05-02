@@ -9,7 +9,7 @@
 			{
 				"winner": true,
 				"highlight": false,
-				"time": 946,
+				"time": 947,
 				"score": {
 					"wins": 0,
 					"losses": 0
@@ -25,7 +25,7 @@
 						"id": "mt",
 						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/608712400"
 					},
 					{
 						"id": "phelix",
@@ -265,7 +265,7 @@
 						"id": "mt",
 						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/607606144"
 					},
 					{
 						"id": "sange",
