@@ -1,5 +1,151 @@
 [
 	{
+		"quest_id": "christmas_fiasco_iv",
+		"duration": "1 hour",
+		"date": "04/30/2020",
+		"is_countdown": true,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 946,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "revision",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},					
+					{
+						"id": "mt",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "jack",
+						"class": "fonewm",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 888,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "killz",
+						"class": "racast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "alukard",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "sange",
+						"class": "boom",
+						"is_captain": false,
+						"video": "fonewm"
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 732,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "wilson",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "dgm",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "cameron",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nemo",
+						"class": "fonewm",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 712,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "sange",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "ndw",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "500ryu",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "readth",
+						"class": "fonewm",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
 		"quest_id": "max_crater",
 		"duration": "1 hour",
 		"date": "04/30/2020",
