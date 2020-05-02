@@ -211,7 +211,7 @@
 			},
 			{
 				"winner": false,
-				"time": 372,
+				"time": 312,
 				"score": {
 					"wins": 0,
 					"losses": 0
@@ -269,7 +269,7 @@
 					},
 					{
 						"id": "sange",
-						"class": "racast",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
@@ -309,7 +309,7 @@
 					},
 					{
 						"id": "jack",
-						"class": "fonewmn",
+						"class": "fonewm",
 						"is_captain": false,
 						"video": ""
 					}
