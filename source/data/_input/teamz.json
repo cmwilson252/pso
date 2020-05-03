@@ -4,7 +4,7 @@
 		"duration": "1 hour",
 		"date": "05/01/2020",
 		"is_countdown": true,
-		"season": null,
+		"season": 0,
 		"set_game": 0,
 		"teams": [
 			{
@@ -151,7 +151,7 @@
 		"duration": "1 hour",
 		"date": "04/30/2020",
 		"is_countdown": true,
-		"season": null,
+		"season": 0,
 		"set_game": 0,
 		"teams": [
 			{
@@ -2724,7 +2724,7 @@
 		"duration": "2 Weeks",
 		"date": "03/09/2019",
 		"is_countdown": false,
-		"season": null,
+		"season": 0,
 		"set_game": 0,
 		"teams": [
 			{
@@ -2779,7 +2779,7 @@
 		"duration": "1 Hour",
 		"date": "02/02/2019",
 		"is_countdown": true,
-		"season": null,
+		"season": 0,
 		"set_game": 0,
 		"teams": [
 			{
@@ -2846,7 +2846,7 @@
 		"duration": "30 Minutes",
 		"date": "02/02/2019",
 		"is_countdown": true,
-		"season": null,
+		"season": 0,
 		"set_game": 0,
 		"teams": [
 			{
@@ -2913,7 +2913,7 @@
 		"duration": "1 Hour",
 		"date": "01/20/2019",
 		"is_countdown": true,
-		"season": null,
+		"season": 0,
 		"set_game": 0,
 		"teams": [
 			{
@@ -2974,7 +2974,7 @@
 		"duration": "1 Hour",
 		"date": "01/12/2019",
 		"is_countdown": true,
-		"season": null,
+		"season": 0,
 		"set_game": 0,
 		"teams": [
 			{
@@ -3041,7 +3041,7 @@
 		"duration": "1 Hour",
 		"date": "12/08/2018",
 		"is_countdown": false,
-		"season": null,
+		"season": 0,
 		"set_game": 0,
 		"teams": [
 			{
@@ -3108,7 +3108,7 @@
 		"duration": "1 Hour",
 		"date": "11/17/2018",
 		"is_countdown": true,
-		"season": null,
+		"season": 0,
 		"set_game": 0,
 		"teams": [
 			{
@@ -3187,7 +3187,7 @@
 		"duration": "1 Hour",
 		"date": "11/15/2018",
 		"is_countdown": false,
-		"season": null,
+		"season": 0,
 		"set_game": 0,
 		"teams": [
 			{
@@ -3254,7 +3254,7 @@
 		"duration": "1 Hour",
 		"date": "10/31/2018",
 		"is_countdown": true,
-		"season": null,
+		"season": 0,
 		"set_game": 0,
 		"teams": [
 			{
@@ -3349,7 +3349,7 @@
 		"duration": "1 Hour",
 		"date": "10/31/2018",
 		"is_countdown": true,
-		"season": null,
+		"season": 0,
 		"set_game": 0,
 		"teams": [
 			{
@@ -3428,7 +3428,7 @@
 		"duration": "1 Hour",
 		"date": "10/30/2018",
 		"is_countdown": true,
-		"season": null,
+		"season": 0,
 		"set_game": 0,
 		"teams": [
 			{
@@ -3495,7 +3495,7 @@
 		"duration": "1 Hour",
 		"date": "10/29/2018",
 		"is_countdown": true,
-		"season": null,
+		"season": 0,
 		"set_game": 0,
 		"teams": [
 			{
@@ -3574,7 +3574,7 @@
 		"duration": "1 Hour",
 		"date": "10/27/2018",
 		"is_countdown": true,
-		"season": null,
+		"season": 0,
 		"set_game": 0,
 		"teams": [
 			{
@@ -3641,7 +3641,7 @@
 		"duration": "1 Hour",
 		"date": "10/27/2018",
 		"is_countdown": true,
-		"season": null,
+		"season": 0,
 		"set_game": 0,
 		"teams": [
 			{
