@@ -6,7 +6,7 @@ window.fourwaypb.teamz_results.ready = function() {
     let ready = false;
     let events = null;
     let seasons = [];
-    let current_season = 1;
+    let current_season = 0;
     
     function updateColumns() {
         $('.cards-container').removeClass('one two three');
@@ -49,6 +49,7 @@ window.fourwaypb.teamz_results.ready = function() {
         }).on('click', function() {
             $('#teamz-seasons-container button').removeClass('active');
             $('#teamz-seasons-container button[data-season="'+season+'"]').addClass('active');
+            window.location.hash = '#'+season;
             fnSetupResults($(this).data('season'));
         });
     }
