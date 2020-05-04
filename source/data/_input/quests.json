@@ -504,6 +504,41 @@
 		"is_countdown": true
 	},
 	{
+		"id": "su5",
+		"name": "Sweep-Up Operation #10",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": true
+	},
+	{
+		"id": "su6",
+		"name": "Sweep-Up Operation #11",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": true
+	},
+	{
+		"id": "su7",
+		"name": "Sweep-Up Operation #12",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": true
+	},
+	{
+		"id": "su8",
+		"name": "Sweep-Up Operation #13",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": true
+	},
+	{
+		"id": "su9",
+		"name": "Sweep-Up Operation #14",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": true
+	},
+	{
 		"id": "ttf",
 		"name": "Towards the Future",
 		"is_teamz_enabled": true,
