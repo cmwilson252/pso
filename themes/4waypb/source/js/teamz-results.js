@@ -5,6 +5,8 @@ window.fourwaypb.teamz_results.ready = function() {
     
     let ready = false;
     let events = null;
+    let seasons = [];
+    let current_season = 0;
     
     function updateColumns() {
         $('.cards-container').removeClass('one two three');
@@ -31,9 +33,28 @@ window.fourwaypb.teamz_results.ready = function() {
         }
     }
     
+    function createSeason(season) {
+        let fnSetupResults = setupResults;
+        let season_name;
+        if (season == 0) {
+            season_name = 'Off Season';
+        } else {
+            season_name = 'Season '+season;
+        }
+        
+        return $('<button/>', {
+            'class': 'ui inverted button',
+            'text': season_name,
+            'data-season': season,
+        }).on('click', function() {
+            $('#teamz-seasons-container button').removeClass('active');
+            $('#teamz-seasons-container button[data-season="'+season+'"]').addClass('active');
+            window.location.hash = '#'+season;
+            fnSetupResults($(this).data('season'));
+        });
+    }
     function createResult(event) {
         return $('<div/>', {
-            'class': 'ui inverted segment',
         }).append(
             $('<div/>', {
                 'class': 'ui grid stacking',
@@ -152,17 +173,59 @@ window.fourwaypb.teamz_results.ready = function() {
         );
     }
     
-    function setupPage() {
-        $('#teamz-results-container').empty().append(
-            $.map(events, function(event) {
+    function setupSeasons() {
+        seasons = events.map(function(obj) { return obj.season });
+        seasons = seasons.filter(function(v, i) { return seasons.indexOf(v) == i });
+        seasons.sort(function(a, b) {
+            if (a === b) {
+                return 0;
+            } else if (a === 0) {
+                return 1;
+            } else if (b === 0) {
+                return -1;
+            } else {
+                return a < b ? -1 : 1;
+            }
+        });
+        
+        $('#teamz-seasons-container').empty().append(
+            $.map(seasons, function(season) {
                 return [
-                    createResult(event),
-                    $('<div/>', {
-                        'class': 'ui hidden divider',
-                    }),
+                    createSeason(season),
                 ];
             }),
         );
+    }
+    function setupResults(season) {
+        $('#teamz-results-container').empty();
+        let season_events = events.filter(function(event) {
+            return event.season == season;
+        });
+        for(let i = 0; i < season_events.length; i++) {
+            if (i != 0) {
+                $('#teamz-results-container').append(
+                    $('<div/>', {
+                        'class': 'ui inverted hidden divider',
+                    }),
+                );
+            }
+            $('#teamz-results-container').append(
+                createResult(season_events[i]),
+            );
+        }
+    }
+    
+    function setupPage() {
+        let selected_season = current_season;
+        if (window.location.hash) {
+            let url_hash = window.location.hash.substring(1);
+            let hash_season = parseInt(url_hash);
+            if (seasons.indexOf(hash_season) != -1) {
+                selected_season = hash_season;
+            }
+        }
+        
+        $('#teamz-seasons-container button[data-season="'+selected_season+'"]').click();
         
         $(window).on('resize', _.debounce(function () {
             updateColumns();
@@ -173,6 +236,8 @@ window.fourwaypb.teamz_results.ready = function() {
     getJSON5(url_for('data/teamz.json'), (function(data) {
         events = data;
         
+        setupSeasons();
+        //setupResults();
         setupPage();
         
         ready = true;
