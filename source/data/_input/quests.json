@@ -504,35 +504,35 @@
 		"is_countdown": true
 	},
 	{
-		"id": "su5",
+		"id": "su10",
 		"name": "Sweep-Up Operation #10",
 		"is_teamz_enabled": true,
 		"is_cmode": false,
 		"is_countdown": true
 	},
 	{
-		"id": "su6",
+		"id": "su11",
 		"name": "Sweep-Up Operation #11",
 		"is_teamz_enabled": true,
 		"is_cmode": false,
 		"is_countdown": true
 	},
 	{
-		"id": "su7",
+		"id": "su12",
 		"name": "Sweep-Up Operation #12",
 		"is_teamz_enabled": true,
 		"is_cmode": false,
 		"is_countdown": true
 	},
 	{
-		"id": "su8",
+		"id": "su13",
 		"name": "Sweep-Up Operation #13",
 		"is_teamz_enabled": true,
 		"is_cmode": false,
 		"is_countdown": true
 	},
 	{
-		"id": "su9",
+		"id": "su14",
 		"name": "Sweep-Up Operation #14",
 		"is_teamz_enabled": true,
 		"is_cmode": false,
