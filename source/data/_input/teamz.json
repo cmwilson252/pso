@@ -2559,25 +2559,25 @@
 				"players": [
 					{
 						"id": "wilson",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "mt",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "sange",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "yui",
-						"class": "",
+						"class": "fonewm",
 						"is_captain": false,
 						"video": ""
 					}
