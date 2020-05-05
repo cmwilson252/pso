@@ -506,7 +506,7 @@
 	{
 		"id": "su10",
 		"name": "Sweep-Up Operation #10",
-		"is_teamz_enabled": true,
+		"is_teamz_enabled": false,
 		"is_cmode": false,
 		"is_countdown": true
 	},
