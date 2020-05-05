@@ -2245,19 +2245,19 @@
 				"players": [
 					{
 						"id": "mt",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "wilson",
-						"class": "",
+						"class": "hunewearl",
 						"is_captain": false,
-						"video": ""
+						"video": "https://youtu.be/_u8PukxYCM8"
 					},
 					{
 						"id": "sange",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2458,19 +2458,19 @@
 				"players": [
 					{
 						"id": "killz",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "wilson",
-						"class": "",
+						"class": "hunewearl",
 						"is_captain": false,
-						"video": ""
+						"video": "https://youtu.be/jjpjhUv36-k"
 					},
 					{
 						"id": "mt",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2632,19 +2632,19 @@
 				"players": [
 					{
 						"id": "wilson",
-						"class": "",
+						"class": "racast",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "cameron",
-						"class": "",
+						"class": "fonewm",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "500ryu",
-						"class": "",
+						"class": "racast",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2772,25 +2772,25 @@
 				"players": [
 					{
 						"id": "wilson",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "killz",
-						"class": "",
+						"class": "racast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "mt",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "lemon",
-						"class": "",
+						"class": "fomarl",
 						"is_captain": false,
 						"video": ""
 					}
