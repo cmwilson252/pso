@@ -2013,25 +2013,25 @@
 				"players": [
 					{
 						"id": "phelix",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
-						"video": ""
+						"video": "https://www.youtube.com/watch?v=MZwNINbdoTE"
 					},
 					{
 						"id": "sange",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nohit",
-						"class": "",
+						"class": "hunewearl",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/590612702"
 					},
 					{
 						"id": "ndw",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2058,25 +2058,25 @@
 				"players": [
 					{
 						"id": "nohit",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/588792155"
 					},
 					{
 						"id": "mt",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "phelix",
-						"class": "",
+						"class": "racast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "yui",
-						"class": "",
+						"class": "fonewm",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2092,27 +2092,27 @@
 				"players": [
 					{
 						"id": "killz",
-						"class": "",
+						"class": "racast",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "wilson",
-						"class": "",
+						"class": "racast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "sange",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "ndw",
-						"class": "",
+						"class": "ramarl",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/591891298"
 					}
 				]
 			}
@@ -2137,25 +2137,25 @@
 				"players": [
 					{
 						"id": "nohit",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/587793779"
 					},
 					{
 						"id": "wilson",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "mt",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "esther",
-						"class": "",
+						"class": "fonewm",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2171,25 +2171,25 @@
 				"players": [
 					{
 						"id": "killz",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "starlord",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "phelix",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.youtube.com/watch?v=gzAqLAEO62M"
 					},
 					{
 						"id": "yui",
-						"class": "",
+						"class": "fonewm",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2216,19 +2216,19 @@
 				"players": [
 					{
 						"id": "phelix",
-						"class": "",
-						"is_captain": true,
-						"video": ""
-					},
-					{
-						"id": "nohit",
-						"class": "",
+						"class": "hunewearl",
 						"is_captain": false,
 						"video": ""
 					},
 					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": false,
+						"video": "https://www.twitch.tv/videos/586948817"
+					},
+					{
 						"id": "killz",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2246,7 +2246,7 @@
 					{
 						"id": "mt",
 						"class": "",
-						"is_captain": true,
+						"is_captain": false,
 						"video": ""
 					},
 					{
@@ -2284,27 +2284,27 @@
 				"players": [
 					{
 						"id": "killz",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "mt",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "hucast"
 					},
 					{
 						"id": "sange",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "phelix",
-						"class": "",
+						"class": "ramarl",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.youtube.com/watch?v=q8bAV8THaBA"
 					}
 				]
 			},
@@ -2318,25 +2318,25 @@
 				"players": [
 					{
 						"id": "nohit",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/586900226"
 					},
 					{
 						"id": "wilson",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "cameron",
-						"class": "",
+						"class": "ramarl",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "ndw",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2363,19 +2363,19 @@
 				"players": [
 					{
 						"id": "sange",
-						"class": "",
-						"is_captain": true,
+						"class": "hucast",
+						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "wilson",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "stevecares",
-						"class": "",
+						"class": "ramarl",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2391,19 +2391,19 @@
 				"players": [
 					{
 						"id": "phelix",
-						"class": "",
-						"is_captain": true,
-						"video": ""
+						"class": "ramarl",
+						"is_captain": false,
+						"video": "https://www.youtube.com/watch?v=Dr4hXOim-aA"
 					},
 					{
 						"id": "cameron",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nohit",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2419,19 +2419,19 @@
 				"players": [
 					{
 						"id": "killz",
-						"class": "",
-						"is_captain": true,
+						"class": "hucast",
+						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "gally",
-						"class": "",
+						"class": "ramarl",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "mt",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2459,7 +2459,7 @@
 					{
 						"id": "killz",
 						"class": "",
-						"is_captain": true,
+						"is_captain": false,
 						"video": ""
 					},
 					{
@@ -2486,21 +2486,21 @@
 				"players": [
 					{
 						"id": "starlord",
-						"class": "",
-						"is_captain": true,
+						"class": "hucast",
+						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "500ryu",
-						"class": "",
+						"class": "fonewm",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "phelix",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.youtube.com/watch?v=c6RsaDrr530"
 					}
 				]
 			}
@@ -2525,25 +2525,25 @@
 				"players": [
 					{
 						"id": "killz",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "nohit",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "starlord",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "cameron",
-						"class": "",
+						"class": "fonewm",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2604,21 +2604,21 @@
 				"players": [
 					{
 						"id": "mt",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "nohit",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/580334524"
 					},
 					{
 						"id": "phelix",
-						"class": "",
+						"class": "hunewearl",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.youtube.com/watch?v=YSTljFvUlCQ"
 					}
 				]
 			},
@@ -2671,21 +2671,21 @@
 				"players": [
 					{
 						"id": "mt",
-						"class": "",
-						"is_captain": true,
+						"class": "hucast",
+						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "cameron",
-						"class": "",
+						"class": "fonewm",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "phelix",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.youtube.com/watch?v=Fv72Clv502w"
 					}
 				]
 			},
@@ -2699,21 +2699,21 @@
 				"players": [
 					{
 						"id": "wilson",
-						"class": "",
-						"is_captain": true,
+						"class": "hucast",
+						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "ndw",
-						"class": "",
+						"class": "fonewm",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nohit",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/578834918"
 					}
 				]
 			}
@@ -2738,25 +2738,25 @@
 				"players": [
 					{
 						"id": "sange",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "revision",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nohit",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/575573397"
 					},
 					{
 						"id": "phelix",
-						"class": "",
+						"class": "fomar",
 						"is_captain": false,
 						"video": ""
 					}
