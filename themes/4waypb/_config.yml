@@ -9,6 +9,8 @@ menu:
         url: '/teamz/generator'
       - name: 'Results'
         url: '/teamz/results'
+      - name: 'Leaderboards'
+        url: '/teamz/leaderboards'   
   - name: 'Concepts'
     url: '/concepts'
     children:
