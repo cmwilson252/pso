@@ -111,7 +111,7 @@
 						"id": "phelix",
 						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.youtube.com/watch?v=-SCWClX9X88"
 					},
 					{
 						"id": "jack",
@@ -1891,7 +1891,7 @@
 		"teams": [
 			{
 				"winner": true,
-				"highlight": false,
+				"highlight": true,
 				"time": 535,
 				"score": {
 					"wins": 2,
@@ -1966,38 +1966,38 @@
 		"date": "04/12/2020",
 		"is_countdown": true,
 		"season": 1,
-		"set_game": 0,
+		"set_game": 1,
 		"teams": [
 			{
 				"winner": true,
 				"highlight": false,
 				"time": 416,
 				"score": {
-					"wins": 0,
+					"wins": 1,
 					"losses": 0
 				},
 				"players": [
 					{
 						"id": "wilson",
-						"class": "",
+						"class": "hunewearl",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "mt",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/590612191"
 					},
 					{
 						"id": "killz",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "rozalin",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2008,7 +2008,7 @@
 				"time": 412,
 				"score": {
 					"wins": 0,
-					"losses": 0
+					"losses": 1
 				},
 				"players": [
 					{
@@ -2045,15 +2045,15 @@
 		"date": "04/10/2020",
 		"is_countdown": true,
 		"season": 1,
-		"set_game": 0,
+		"set_game": 3,
 		"teams": [
 			{
 				"winner": true,
-				"highlight": false,
+				"highlight": true,
 				"time": 1441,
 				"score": {
-					"wins": 0,
-					"losses": 0
+					"wins": 2,
+					"losses": 1
 				},
 				"players": [
 					{
@@ -2086,8 +2086,8 @@
 				"winner": false,
 				"time": 1410,
 				"score": {
-					"wins": 0,
-					"losses": 0
+					"wins": 1,
+					"losses": 2
 				},
 				"players": [
 					{
@@ -2124,15 +2124,15 @@
 		"date": "04/09/2020",
 		"is_countdown": true,
 		"season": 1,
-		"set_game": 0,
+		"set_game": 2,
 		"teams": [
 			{
 				"winner": true,
 				"highlight": false,
 				"time": 557,
 				"score": {
-					"wins": 0,
-					"losses": 0
+					"wins": 1,
+					"losses": 1
 				},
 				"players": [
 					{
@@ -2165,8 +2165,8 @@
 				"winner": false,
 				"time": 534,
 				"score": {
-					"wins": 0,
-					"losses": 0
+					"wins": 1,
+					"losses": 1
 				},
 				"players": [
 					{
@@ -2271,14 +2271,14 @@
 		"date": "04/08/2020",
 		"is_countdown": true,
 		"season": 1,
-		"set_game": 0,
+		"set_game": 1,
 		"teams": [
 			{
 				"winner": true,
 				"highlight": false,
 				"time": 914,
 				"score": {
-					"wins": 0,
+					"wins": 1,
 					"losses": 0
 				},
 				"players": [
@@ -2313,7 +2313,7 @@
 				"time": 865,
 				"score": {
 					"wins": 0,
-					"losses": 0
+					"losses": 1
 				},
 				"players": [
 					{
