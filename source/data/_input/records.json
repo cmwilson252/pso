@@ -6691,6 +6691,23 @@
 	},
 	{
 		"mode": "normal",
+		"quest_id": "su5",
+		"episode": 2,
+		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
+		"time": 306,
+		"team_id": "",
+		"players": [
+			{
+				"id": "el",
+				"class": "racaseal",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
 		"quest_id": "su6",
 		"episode": 2,
 		"meta": "vanilla",

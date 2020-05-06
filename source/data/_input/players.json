@@ -1220,6 +1220,36 @@
 		}
 	},
 	{
+		"id": "el",
+		"name": "EL",
+		"image": "images/players/el.jpg",
+		"classes": [
+			"racaseal",
+			"fonewearl"
+		],
+		"metas": [
+			"Vanilla"
+		],
+		"team_ids": [],
+		"timezone": "GMT",
+		"card_content": [],
+		"page_content": [],
+		"discord": "EL#1456",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "a_man_in_flames",
 		"name": "A Man in Flames",
 		"image": "images/player.png",
