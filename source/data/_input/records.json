@@ -5895,6 +5895,33 @@
 		"meta": "vanilla",
 		"category": "3p",
 		"pb": false,
+		"time": 1138,
+		"team_id": "rephlex",
+		"players": [
+			{
+				"id": "wilson",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "phelix",
+				"class": "ramarl",
+				"video": ""
+			},
+			{
+				"id": "nemo",
+				"class": "racast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ma2b",
+		"episode": 2,
+		"meta": "vanilla",
+		"category": "3p",
+		"pb": false,
 		"time": 1111,
 		"team_id": "tankstelle",
 		"players": [
