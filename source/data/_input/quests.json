@@ -539,6 +539,13 @@
 		"is_countdown": true
 	},
 	{
+		"id": "pw4",
+		"name": "Phantasmal World #4",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": false
+	},
+	{
 		"id": "ttf",
 		"name": "Towards the Future",
 		"is_teamz_enabled": true,
