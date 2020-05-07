@@ -703,6 +703,39 @@
 		}
 	},
 	{
+		"id": "phelix",
+		"name": "phelix",
+		"image": "images/players/phelix.jpg",
+		"classes": [
+			"hucast",
+			"hunewearl",
+			"ramarl"
+		],
+		"metas": [
+			"Vanilla"
+		],
+		"team_ids": [
+			"rephlex"
+		],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [],
+		"discord": "phelix#2844",
+		"twitter": "",
+		"youtube": {
+			"name": "Phelix",
+			"url": "https://www.youtube.com/channel/UCexmChiqhPjnkSbKd8dx88g"
+		},
+		"twitch": {
+			"name": "Phelixxxx",
+			"url": "https://www.twitch.tv/phelixxxx"
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "spuz",
 		"name": "Spuz",
 		"image": "images/players/spuz.jpg",
@@ -1064,30 +1097,30 @@
 		}
 	},
 	{
-		"id": "phelix",
-		"name": "phelix",
-		"image": "images/players/phelix.jpg",
+		"id": "shoe",
+		"name": "shoe",
+		"image": "images/players/shoe.png",
 		"classes": [
 			"hucast",
-			"hunewearl",
-			"ramarl"
+			"ramar",
+			"fonewearl"
 		],
 		"metas": [
 			"Vanilla"
 		],
 		"team_ids": [],
-		"timezone": "CST",
+		"timezone": "EST",
 		"card_content": [],
 		"page_content": [],
-		"discord": "phelix#2844",
+		"discord": "shoe#0607",
 		"twitter": "",
 		"youtube": {
-			"name": "Phelix",
-			"url": "https://www.youtube.com/channel/UCexmChiqhPjnkSbKd8dx88g"
+			"name": "",
+			"url": ""
 		},
 		"twitch": {
-			"name": "Phelixxxx",
-			"url": "https://www.twitch.tv/phelixxxx"
+			"name": "flatmen",
+			"url": "twitch.tv/flatmen"
 		},
 		"github": {
 			"name": "",
