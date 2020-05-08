@@ -1,5 +1,84 @@
 [
 	{
+		"quest_id": "max_desert",
+		"duration": "1 hour",
+		"date": "05/07/2020",
+		"is_countdown": true,
+		"season": 0,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 253,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "nemo",
+						"class": "fonewm",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 262,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "revision",
+						"class": "fonewm",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "shoe",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
 		"quest_id": "pw4",
 		"duration": "1 hour",
 		"date": "05/07/2020",
