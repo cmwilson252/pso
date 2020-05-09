@@ -10,7 +10,7 @@
 			{
 				"winner": true,
 				"highlight": false,
-				"time": 368,
+				"time": 369,
 				"score": {
 					"wins": 0,
 					"losses": 0
@@ -155,7 +155,7 @@
 						"id": "nohit",
 						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/615585586"
 					},
 					{
 						"id": "shoe",
