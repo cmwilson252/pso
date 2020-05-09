@@ -36,6 +36,16 @@ hexo.extend.filter.register('after_init', function(){
         output: path.join(output_data_dir, 'records.json'),
         data: null,
     }
+    let vanillaWeapons = {
+        input: path.join(input_data_dir, 'weapons-vanilla.json'),
+        output: path.join(output_data_dir, 'weapons-vanilla.json'),
+        data: null,
+    }
+    let vanillaMultiplayerEnemies = {
+        input: path.join(input_data_dir, 'enemies-vanilla-multi.json'),
+        output: path.join(output_data_dir, 'enemies-vanilla-multi.json'),
+        data: null,
+    }
     
     // Read file and parse it as JSON
     function readJsonFile(path) {
@@ -123,7 +133,21 @@ hexo.extend.filter.register('after_init', function(){
         console.log(error);
         throw error;
     }
-    
+
+    vanillaWeapons.data = readJsonFile(vanillaWeapons.input);
+    if (vanillaWeapons.data == null) {
+        let error = 'Could not load vanilla weapons';
+        console.log(error);
+        throw error;
+    }
+
+    vanillaMultiplayerEnemies.data = readJsonFile(vanillaMultiplayerEnemies.input);
+    if (vanillaMultiplayerEnemies.data == null) {
+        let error = 'Could not load vanilla multiplayer enemies';
+        console.log(error);
+        throw error;
+    }
+
     // Process files
     let has_errors = false;
     
@@ -338,6 +362,22 @@ hexo.extend.filter.register('after_init', function(){
         throw error;
     } else {
         console.log('Generated '+records.output);
+    }
+
+    if (writeFile(vanillaWeapons.output, JSON.stringify(vanillaWeapons.data)) == false) {
+        let error = 'Could not write vanilla weapons file';
+        console.log(error);
+        throw error;
+    } else {
+        console.log('Generated '+vanillaWeapons.output);
+    }
+
+    if (writeFile(vanillaMultiplayerEnemies.output, JSON.stringify(vanillaMultiplayerEnemies.data)) == false) {
+        let error = 'Could not write vanilla multiplayer enemies file';
+        console.log(error);
+        throw error;
+    } else {
+        console.log('Generated '+vanillaMultiplayerEnemies.output);
     }
     
     console.log('Finish make_json.js');
