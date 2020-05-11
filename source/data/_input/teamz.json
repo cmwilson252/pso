@@ -10,7 +10,7 @@
 			{
 				"winner": true,
 				"highlight": false,
-				"time": 390,
+				"time": 330,
 				"score": {
 					"wins": 0,
 					"losses": 0
@@ -44,7 +44,7 @@
 			},
 			{
 				"winner": false,
-				"time": 370,
+				"time": 310,
 				"score": {
 					"wins": 0,
 					"losses": 0
