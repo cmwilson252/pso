@@ -99,12 +99,12 @@
   {"name": "TypeBL/Blade",            "minAtp": 10,  "maxAtp": 10,  "ata": 35, "grind": 90},
   {"name": "ES Blade",                "minAtp": 10,  "maxAtp": 10,  "ata": 35, "grind": 200},
   
-  {"name": "Diska",                   "minAtp": 85,  "maxAtp": 105, "ata": 25, "grind": 25},
-  {"name": "Diska of Braveman",       "minAtp": 150, "maxAtp": 167, "ata": 31, "grind": 9},
-  {"name": "Diska of Braveman + 13",  "minAtp": 225, "maxAtp": 250, "ata": 61, "grind": 9},
-  {"name": "Red Slicer",              "minAtp": 190, "maxAtp": 200, "ata": 38, "grind": 45},
-  {"name": "Red Slicer + Crimson",    "minAtp": 285, "maxAtp": 300, "ata": 67, "grind": 45},
-  {"name": "Rainbow Baton",           "minAtp": 300, "maxAtp": 320, "ata": 40, "grind": 24},
+  {"name": "Diska",                        "minAtp": 85,  "maxAtp": 105, "ata": 25, "grind": 25},
+  {"name": "Diska of Braveman",            "minAtp": 150, "maxAtp": 167, "ata": 31, "grind": 9},
+  {"name": "Diska of Braveman + Thirteen", "minAtp": 225, "maxAtp": 250, "ata": 61, "grind": 9},
+  {"name": "Red Slicer",                   "minAtp": 190, "maxAtp": 200, "ata": 38, "grind": 45},
+  {"name": "Red Slicer + Crimson Coat",    "minAtp": 285, "maxAtp": 300, "ata": 67, "grind": 45},
+  {"name": "Rainbow Baton",                "minAtp": 300, "maxAtp": 320, "ata": 40, "grind": 24},
 
   {"name": "Musashi",             "minAtp": 330, "maxAtp": 350, "ata": 35, "grind": 40},
   {"name": "Yamato",              "minAtp": 380, "maxAtp": 390, "ata": 40, "grind": 60},

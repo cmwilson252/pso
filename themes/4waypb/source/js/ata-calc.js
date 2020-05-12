@@ -29,30 +29,47 @@ window.fourwaypb.ata_calc.ready = function() {
 
     function createMonsterRow(enemy, evpModifier, base_ata, snGlitch) {
         let modified_evp = enemy.evp * evpModifier;
-        let a1_type = $('#attack1').dropdown('get value');
-        let a2_type = $('#attack2').dropdown('get value');
-        let a3_type = $('#attack3').dropdown('get value');
+        let a1Type = $('#attack1').dropdown('get value');
+        let a2Type = $('#attack2').dropdown('get value');
+        let a3Type = $('#attack3').dropdown('get value');
 
-        let a1_accuracy = calculateAccuracy(base_ata, a1_type, 1.0, modified_evp);
-        let a2_accuracy = calculateAccuracy(base_ata, a2_type, 1.3, modified_evp);
-        let a3_accuracy = calculateAccuracy(base_ata, a3_type, 1.69, modified_evp);
+        let a1Accuracy = calculateAccuracy(base_ata, a1Type, 1.0, modified_evp);
+        let a2Accuracy = calculateAccuracy(base_ata, a2Type, 1.3, modified_evp);
+        let a3Accuracy = calculateAccuracy(base_ata, a3Type, 1.69, modified_evp);
 
-        let overall_accuracy = a2_accuracy * (a3_accuracy * 0.01);
-        if (!snGlitch) {
-            overall_accuracy *= (a1_accuracy * 0.01);
+        // Account for SN glitch - I'm assuming optimistic case where they're able to glitch
+        // if the accuracy is better but not if it's worse
+        let glitchedA1Accuracy = a1Accuracy;
+        if (snGlitch && a2Accuracy > a1Accuracy && a2Type !== 'NONE') {
+            glitchedA1Accuracy = a2Accuracy;
         }
+
+        let glitchedA2Accuracy = a2Accuracy;
+        if (snGlitch && a3Accuracy > a2Accuracy && a3Type !== 'NONE') {
+            glitchedA2Accuracy = a3Accuracy;
+        }
+        let overallAccuracy = glitchedA1Accuracy * (glitchedA2Accuracy * 0.01) * (a3Accuracy * 0.01);
 
         return $('<tr/>')
                 .append($('<td/>', {
                     'data-label': 'monster',
-                    'text': enemy.name
+                    'text': enemy.name + ' (' + enemy.location + ')'
+                }))
+                .append($('<td/>', {
+                    'data-label': 'a1-accuracy',
+                    'text': a1Accuracy.toFixed(2) + '%'
+                }))
+                .append($('<td/>', {
+                    'data-label': 'a2-accuracy',
+                    'text': a2Accuracy.toFixed(2) + '%'
+                }))
+                .append($('<td/>', {
+                    'data-label': 'a3-accuracy',
+                    'text': a3Accuracy.toFixed(2) + '%'
                 }))
                 .append($('<td/>', {
                     'data-label': 'accuracy',
-                    'text': overall_accuracy.toFixed(2) + '%',
-                    'title': a1_type + '1: ' + a1_accuracy.toFixed(2) + '% - '
-                            + a2_type + '2: ' + a2_accuracy.toFixed(2) + '% - '
-                            + a3_type + '3: ' + a3_accuracy.toFixed(2) + '%'
+                    'text': overallAccuracy.toFixed(2) + '%'
                 }));
     }
 
