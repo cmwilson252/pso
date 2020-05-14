@@ -1,5 +1,84 @@
 [
 	{
+		"quest_id": "su9",
+		"duration": "1 hour",
+		"date": "04/13/2020",
+		"is_countdown": true,
+		"season": 0,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 553,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "nemo",
+						"class": "fomar",
+						"is_captain": true,
+						"video": "https://www.twitch.tv/videos/620264105"
+					},
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": false,
+						"video": "https://www.twitch.tv/videos/620262920"
+					},
+					{
+						"id": "mt",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"class": "hucast",
+						"is_captain": false,
+						"video": "https://youtu.be/oT1yc_0Z7Ro"
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 542,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "revision",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "sange",
+						"class": "ramarl",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
 		"quest_id": "mau5",
 		"duration": "1 hour",
 		"date": "05/12/2020",
@@ -25,7 +104,7 @@
 						"id": "sange",
 						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.youtube.com/watch?v=4R-RrbN5z_g"
 					},
 					{
 						"id": "revision",
@@ -151,7 +230,7 @@
 						"id": "ndw",
 						"class": "fonewm",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/619408086"
 					}
 				]
 			}
@@ -189,13 +268,13 @@
 						"id": "nohit",
 						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/618456632"
 					},
 					{
 						"id": "cameron",
 						"class": "fonewm",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.youtube.com/watch?v=3HDmWy95ihA"
 					}
 				]
 			},
@@ -347,7 +426,7 @@
 						"id": "nohit",
 						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/617570409"
 					},
 					{
 						"id": "shoe",
