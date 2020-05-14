@@ -7194,6 +7194,38 @@
 		"meta": "vanilla",
 		"category": "4p",
 		"pb": false,
+		"time": 204,
+		"team_id": "",
+		"players": [
+			{
+				"id": "sange",
+				"class": "hucast",
+				"video": "https://youtu.be/tiYCiLDbxpU"
+			},
+			{
+				"id": "nohit",
+				"class": "hucast",
+				"video": "https://www.twitch.tv/videos/620512515"
+			},
+			{
+				"id": "phelix",
+				"class": "hucast",
+				"video": "https://www.youtube.com/watch?v=hlO_1ClSqfA"
+			},
+			{
+				"id": "revision",
+				"class": "fonewm",
+				"video": "https://www.youtube.com/watch?v=i2uGmqGjhew&feature=youtu.be"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_desert",
+		"episode": 4,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
 		"time": 226,
 		"team_id": "tankstelle",
 		"players": [
