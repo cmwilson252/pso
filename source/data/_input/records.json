@@ -7113,6 +7113,38 @@
 		"meta": "vanilla",
 		"category": "4p",
 		"pb": false,
+		"time": 231,
+		"team_id": "rephlex",
+		"players": [
+			{
+				"id": "nohit",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "sange",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "phelix",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "nemo",
+				"class": "fonewm",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_crater",
+		"episode": 4,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
 		"time": 248,
 		"team_id": null,
 		"players": [
