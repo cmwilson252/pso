@@ -182,8 +182,22 @@
 		"is_countdown": true
 	},
 	{
+		"id": "mas1",
+		"name": "Max Attack S E1",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": true
+	},
+	{
 		"id": "mas",
-		"name": "Max Attack S",
+		"name": "Max Attack S E2",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": true
+	},
+	{
+		"id": "mas4",
+		"name": "Max Attack S E4",
 		"is_teamz_enabled": true,
 		"is_cmode": false,
 		"is_countdown": true
