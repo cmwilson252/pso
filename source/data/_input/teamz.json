@@ -5,7 +5,7 @@
 		"date": "05/15/2020",
 		"is_countdown": true,
 		"season": 2,
-		"set_game": 1,
+		"set_game": 0,
 		"teams": [
 			{
 				"winner": true,
