@@ -5,7 +5,7 @@
 		"date": "05/15/2020",
 		"is_countdown": true,
 		"season": 2,
-		"set_game": 0,
+		"set_game": 1,
 		"teams": [
 			{
 				"winner": true,
@@ -38,7 +38,7 @@
 						"id": "mt",
 						"class": "ramarl",
 						"is_captain": false,
-						"video": " "
+						"video": "https://www.twitch.tv/videos/622251471?t=2h53m28s"
 					}
 				]
 			},
@@ -60,13 +60,13 @@
 						"id": "nohit",
 						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/622516699"
 					},
 					{
 						"id": "phelix",
 						"class": "racast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.youtube.com/watch?v=PfqotSDJSJs"
 					},
 					{
 						"id": "_shadofix",
@@ -99,7 +99,7 @@
 						"id": "cameron",
 						"class": "hucast",
 						"is_captain": true,
-						"video": ""
+						"video": "https://www.youtube.com/watch?v=ZHx2PZxvFuE"
 					},
 					{
 						"id": "sange",
@@ -117,7 +117,7 @@
 						"id": "phelix",
 						"class": "hunewearl",
 						"is_captain": false,
-						"video": " "
+						"video": "https://www.youtube.com/watch?v=BpjRWWN3pGo"
 					}
 				]
 			},
@@ -133,7 +133,7 @@
 						"id": "nohit",
 						"class": "hucast",
 						"is_captain": true,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/622515953"
 					},
 					{
 						"id": "killz",
@@ -145,7 +145,7 @@
 						"id": "mt",
 						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/622251471?t=0h56m7s"
 					},
 					{
 						"id": "nemo",
