@@ -37,14 +37,7 @@ window.fourwaypb.teamz_generator.ready = function() {
         let questsToAdd = [];
         quests.forEach(function (quest) {
             if (quest.is_teamz_enabled) {
-                if (challengeMode) {
-                    if (quest.is_cmode) {
-                        questsToAdd.push({
-                            name: quest.name,
-                            value: quest.id,
-                        });
-                    }
-                } else {
+                if (quest.is_cmode == challengeMode) {
                     questsToAdd.push({
                         name: quest.name,
                         value: quest.id,
