@@ -1061,6 +1061,37 @@
 		}
 	},
 	{
+		"id": "_shadofix",
+		"name": "_shadowFIX",
+		"image": "images/players/shadowfix.jpg",
+		"classes": [
+			"racast",
+			"ramarl",
+			"fonewearl"
+		],
+		"metas": [
+			"Vanilla"
+		],
+		"team_ids": [],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [],
+		"discord": "shadow_FIX#9001",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "shadow_FIX",
+			"url": "twitch.tv/shadow_FIX"
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "jajaswipo",
 		"name": "Jajaswipo",
 		"image": "images/players/jajaswipo.png",
@@ -3585,31 +3616,6 @@
 	{
 		"id": "zynetic",
 		"name": "Zynetic",
-		"image": "images/player.png",
-		"classes": [],
-		"metas": [],
-		"team_ids": [],
-		"timezone": "",
-		"card_content": [],
-		"page_content": [],
-		"discord": "",
-		"twitter": "",
-		"youtube": {
-			"name": "",
-			"url": ""
-		},
-		"twitch": {
-			"name": "",
-			"url": ""
-		},
-		"github": {
-			"name": "",
-			"url": ""
-		}
-	},
-	{
-		"id": "_shadofix",
-		"name": "_shadowfix",
 		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
