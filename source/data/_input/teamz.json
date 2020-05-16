@@ -1,5 +1,84 @@
 [
 	{
+		"quest_id": "rt",
+		"duration": "1 hour",
+		"date": "05/15/2020",
+		"is_countdown": true,
+		"season": 2,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 905,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "wilson",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "cameron",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"class": "ramarl",
+						"is_captain": false,
+						"video": " "
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 929,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "revision",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "revision",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "_shadofix",
+						"class": "ramarl",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
 		"quest_id": "max_tower",
 		"duration": "1 hour",
 		"date": "05/15/2020",
