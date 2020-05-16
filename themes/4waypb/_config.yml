@@ -22,6 +22,8 @@ menu:
         url: '/concepts/f1-data'
       - name: 'Quest Warp Values'
         url: '/concepts/quest-warp-values'
+      - name: 'Combo Calculator'
+        url: '/concepts/combo-calculator'
   - name: 'Servers'
     url: '/servers'
     children:
