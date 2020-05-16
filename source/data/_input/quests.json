@@ -182,8 +182,22 @@
 		"is_countdown": true
 	},
 	{
+		"id": "mas1",
+		"name": "Max Attack S E1",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": true
+	},
+	{
 		"id": "mas",
-		"name": "Max Attack S",
+		"name": "Max Attack S E2",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": true
+	},
+	{
+		"id": "mas4",
+		"name": "Max Attack S E4",
 		"is_teamz_enabled": true,
 		"is_cmode": false,
 		"is_countdown": true
@@ -443,7 +457,7 @@
 	{
 		"id": "su1",
 		"name": "Sweep-Up Operation #1",
-		"is_teamz_enabled": true,
+		"is_teamz_enabled": false,
 		"is_cmode": false,
 		"is_countdown": true
 	},
@@ -502,6 +516,48 @@
 		"is_teamz_enabled": true,
 		"is_cmode": false,
 		"is_countdown": true
+	},
+	{
+		"id": "su10",
+		"name": "Sweep-Up Operation #10",
+		"is_teamz_enabled": false,
+		"is_cmode": false,
+		"is_countdown": true
+	},
+	{
+		"id": "su11",
+		"name": "Sweep-Up Operation #11",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": true
+	},
+	{
+		"id": "su12",
+		"name": "Sweep-Up Operation #12",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": true
+	},
+	{
+		"id": "su13",
+		"name": "Sweep-Up Operation #13",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": true
+	},
+	{
+		"id": "su14",
+		"name": "Sweep-Up Operation #14",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": true
+	},
+	{
+		"id": "pw4",
+		"name": "Phantasmal World #4",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": false
 	},
 	{
 		"id": "ttf",

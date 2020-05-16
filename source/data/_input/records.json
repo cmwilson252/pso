@@ -5895,6 +5895,33 @@
 		"meta": "vanilla",
 		"category": "3p",
 		"pb": false,
+		"time": 1139,
+		"team_id": "rephlex",
+		"players": [
+			{
+				"id": "wilson",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "phelix",
+				"class": "ramarl",
+				"video": "https://youtu.be/lHFEzmkXnn0"
+			},
+			{
+				"id": "nemo",
+				"class": "racast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ma2b",
+		"episode": 2,
+		"meta": "vanilla",
+		"category": "3p",
+		"pb": false,
 		"time": 1111,
 		"team_id": "tankstelle",
 		"players": [
@@ -6691,6 +6718,23 @@
 	},
 	{
 		"mode": "normal",
+		"quest_id": "su5",
+		"episode": 2,
+		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
+		"time": 306,
+		"team_id": "",
+		"players": [
+			{
+				"id": "el",
+				"class": "racaseal",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
 		"quest_id": "su6",
 		"episode": 2,
 		"meta": "vanilla",
@@ -7069,6 +7113,38 @@
 		"meta": "vanilla",
 		"category": "4p",
 		"pb": false,
+		"time": 231,
+		"team_id": "rephlex",
+		"players": [
+			{
+				"id": "nohit",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "sange",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "phelix",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "nemo",
+				"class": "fonewm",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_crater",
+		"episode": 4,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
 		"time": 248,
 		"team_id": null,
 		"players": [
@@ -7140,6 +7216,38 @@
 				"id": "a_man_in_flames",
 				"class": "humar",
 				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_desert",
+		"episode": 4,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 204,
+		"team_id": "",
+		"players": [
+			{
+				"id": "sange",
+				"class": "hucast",
+				"video": "https://youtu.be/tiYCiLDbxpU"
+			},
+			{
+				"id": "nohit",
+				"class": "hucast",
+				"video": "https://www.twitch.tv/videos/620512515"
+			},
+			{
+				"id": "phelix",
+				"class": "hucast",
+				"video": "https://www.youtube.com/watch?v=hlO_1ClSqfA"
+			},
+			{
+				"id": "revision",
+				"class": "fonewm",
+				"video": "https://www.youtube.com/watch?v=i2uGmqGjhew&feature=youtu.be"
 			}
 		]
 	},

@@ -1,5 +1,1380 @@
 [
 	{
+		"quest_id": "rt",
+		"duration": "1 hour",
+		"date": "05/15/2020",
+		"is_countdown": true,
+		"season": 2,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 905,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "wilson",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "cameron",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"class": "ramarl",
+						"is_captain": false,
+						"video": "https://www.twitch.tv/videos/622251471?t=2h53m28s"
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 929,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "revision",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": false,
+						"video": "https://www.twitch.tv/videos/622516699"
+					},
+					{
+						"id": "phelix",
+						"class": "racast",
+						"is_captain": false,
+						"video": "https://www.youtube.com/watch?v=PfqotSDJSJs"
+					},
+					{
+						"id": "_shadofix",
+						"class": "ramarl",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "max_tower",
+		"duration": "1 hour",
+		"date": "05/15/2020",
+		"is_countdown": true,
+		"season": 2,
+		"set_game": 1,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 328,
+				"score": {
+					"wins": 1,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "cameron",
+						"class": "hucast",
+						"is_captain": true,
+						"video": "https://www.youtube.com/watch?v=ZHx2PZxvFuE"
+					},
+					{
+						"id": "sange",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"class": "hunewearl",
+						"is_captain": false,
+						"video": "https://www.youtube.com/watch?v=BpjRWWN3pGo"
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 341,
+				"score": {
+					"wins": 0,
+					"losses": 1
+				},
+				"players": [
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": true,
+						"video": "https://www.twitch.tv/videos/622515953"
+					},
+					{
+						"id": "killz",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"class": "hucast",
+						"is_captain": false,
+						"video": "https://www.twitch.tv/videos/622251471?t=0h56m7s"
+					},
+					{
+						"id": "nemo",
+						"class": "fomar",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "su4",
+		"duration": "1 hour",
+		"date": "05/14/2020",
+		"is_countdown": true,
+		"season": 0,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 356,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "killz",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "sange",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "starlord",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nemo",
+						"class": "fomar",
+						"is_captain": false,
+						"video": " https://www.twitch.tv/videos/621375247"
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 344,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "mt",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"class": "hunewearl",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "shoe",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "su9",
+		"duration": "1 hour",
+		"date": "05/13/2020",
+		"is_countdown": true,
+		"season": 0,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 553,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "nemo",
+						"class": "fomar",
+						"is_captain": true,
+						"video": "https://www.twitch.tv/videos/620264105"
+					},
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": false,
+						"video": "https://www.twitch.tv/videos/620262920"
+					},
+					{
+						"id": "mt",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"class": "hucast",
+						"is_captain": false,
+						"video": "https://youtu.be/oT1yc_0Z7Ro"
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 542,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "revision",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "sange",
+						"class": "ramarl",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "mau5",
+		"duration": "1 hour",
+		"date": "05/12/2020",
+		"is_countdown": false,
+		"season": 0,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"time": 943,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "killz",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "sange",
+						"class": "hucast",
+						"is_captain": false,
+						"video": "https://www.youtube.com/watch?v=4R-RrbN5z_g"
+					},
+					{
+						"id": "revision",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "current_character",
+						"class": "fomar",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"highlight": false,
+				"time": 909,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "mt",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"class": "hunewearl",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "su11",
+		"duration": "1 hour",
+		"date": "05/12/2020",
+		"is_countdown": false,
+		"season": 0,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"time": 524,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "current_character",
+						"class": "fonewm",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"highlight": false,
+				"time": 503,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "wilson",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "sange",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "ndw",
+						"class": "fonewm",
+						"is_captain": false,
+						"video": "https://www.twitch.tv/videos/619408086"
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "ma4b",
+		"duration": "1 hour",
+		"date": "05/11/2020",
+		"is_countdown": false,
+		"season": 0,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"time": 1196,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "mt",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "current_character",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": false,
+						"video": "https://www.twitch.tv/videos/618456632"
+					},
+					{
+						"id": "cameron",
+						"class": "fonewm",
+						"is_captain": false,
+						"video": "https://www.youtube.com/watch?v=3HDmWy95ihA"
+					}
+				]
+			},
+			{
+				"winner": false,
+				"highlight": false,
+				"time": 1194,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "sange",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nemo",
+						"class": "fonewm",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "mau3",
+		"duration": "1 hour",
+		"date": "05/11/2020",
+		"is_countdown": false,
+		"season": 0,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"time": 419,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "killz",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"class": "hucast",
+						"is_captain": false,
+						"video": "https://youtu.be/O2rmkxlZTjQ"
+					},
+					{
+						"id": "sange",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"class": "ramarl",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"highlight": false,
+				"time": 408,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "phelix",
+						"class": "ramarl",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "revision",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "current_character",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "max_e1",
+		"duration": "1 hour",
+		"date": "05/10/2020",
+		"is_countdown": false,
+		"season": 0,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"time": 981,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "phelix",
+						"class": "hucast",
+						"is_captain": true,
+						"video": "https://www.youtube.com/watch?v=Vm1miHkpLok"
+					},
+					{
+						"id": "revision",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": false,
+						"video": "https://www.twitch.tv/videos/617570409"
+					},
+					{
+						"id": "shoe",
+						"class": "fomar",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"highlight": false,
+				"time": 996,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "nemo",
+						"class": "fomar",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "stevecares",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "max_forest",
+		"duration": "1 hour",
+		"date": "05/10/2020",
+		"is_countdown": false,
+		"season": 0,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"time": 202,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "killz",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "starlord",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nemo",
+						"class": "ramarl",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"highlight": false,
+				"time": 208,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "revision",
+						"class": "racast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"class": "ramar",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"class": "ramar",
+						"is_captain": false,
+						"video": "https://www.youtube.com/watch?v=s49oReipvYQ"
+					},
+					{
+						"id": "shoe",
+						"class": "ramar",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "su4",
+		"duration": "1 hour",
+		"date": "05/10/2020",
+		"is_countdown": true,
+		"season": 0,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 330,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "revision",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nemo",
+						"class": "fomar",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 310,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "cameron",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "500ryu",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"class": "hunewearl",
+						"is_captain": false,
+						"video": "https://www.youtube.com/watch?v=OKAHnzQErWU"
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "su13",
+		"duration": "1 hour",
+		"date": "05/08/2020",
+		"is_countdown": true,
+		"season": 0,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 369,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "phelix",
+						"class": "racast",
+						"is_captain": true,
+						"video": "https://www.youtube.com/watch?v=mpEQJoOonOU"
+					},
+					{
+						"id": "revision",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"class": "fonewm",
+						"is_captain": false,
+						"video": "https://www.twitch.tv/videos/615586572"
+					},
+					{
+						"id": "killz",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 320,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "nemo",
+						"class": "fonewm",
+						"is_captain": true,
+						"video": "https://www.twitch.tv/videos/615512553"
+					},
+					{
+						"id": "sange",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "shoe",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "nmu3",
+		"duration": "1 hour",
+		"date": "05/08/2020",
+		"is_countdown": true,
+		"season": 0,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 508,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "sange",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nemo",
+						"class": "fonewm",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 498,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "phelix",
+						"class": "hucast",
+						"is_captain": false,
+						"video": "https://www.youtube.com/watch?v=5hWxxVBJo3M"
+					},
+					{
+						"id": "revision",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "jack",
+						"class": "fonewm",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 475,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": false,
+						"video": "https://www.twitch.tv/videos/615585586"
+					},
+					{
+						"id": "shoe",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "500ryu",
+						"class": "fonewm",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "max_desert",
+		"duration": "1 hour",
+		"date": "05/07/2020",
+		"is_countdown": true,
+		"season": 0,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 253,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "nemo",
+						"class": "fonewm",
+						"is_captain": true,
+						"video": "https://www.twitch.tv/videos/614517644"
+					},
+					{
+						"id": "killz",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"class": "hucast",
+						"is_captain": false,
+						"video": "https://www.youtube.com/watch?v=74EQG_fGXwQ"
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 262,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "revision",
+						"class": "fonewm",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "shoe",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": false,
+						"video": "https://www.twitch.tv/videos/614513664"
+					},
+					{
+						"id": "mt",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "pw4",
+		"duration": "1 hour",
+		"date": "05/07/2020",
+		"is_countdown": true,
+		"season": 0,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 953,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": true,
+						"video": "https://www.twitch.tv/videos/614517784"
+					},
+					{
+						"id": "killz",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "starlord",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nemo",
+						"class": "fomar",
+						"is_captain": false,
+						"video": "https://www.twitch.tv/videos/614432930"
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 1080,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "mt",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "shoe",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"class": "hucast",
+						"is_captain": false,
+						"video": "https://www.youtube.com/watch?v=zK13NRb66sM"
+					},
+					{
+						"id": "wilson",
+						"class": "hunewearl",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "su6",
+		"duration": "1 hour",
+		"date": "05/06/2020",
+		"is_countdown": true,
+		"season": 0,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 551,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "revision",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "venom",
+						"class": "ramar",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 527,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "mt",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "500ryu",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"class": "ramarl",
+						"is_captain": false,
+						"video": "https://youtu.be/b3rTwMnVPZk"
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 522,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "wilson",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "cameron",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nemo",
+						"class": "ramarl",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "su12",
+		"duration": "1 hour",
+		"date": "05/04/2020",
+		"is_countdown": true,
+		"season": 0,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 410,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "sange",
+						"class": "racast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"class": "hucast",
+						"is_captain": false,
+						"video": "https://youtu.be/aJDtMjQSv6w"
+					},
+					{
+						"id": "revision",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "500ryu",
+						"class": "fonewm",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 404,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "mt",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": false,
+						"video": "https://www.twitch.tv/videos/611494976"
+					},
+					{
+						"id": "phelix",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nemo",
+						"class": "fonewm",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
 		"quest_id": "christmas_fiasco_iv",
 		"duration": "1 hour",
 		"date": "05/01/2020",
@@ -32,7 +1407,7 @@
 						"id": "phelix",
 						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.youtube.com/watch?v=-SCWClX9X88"
 					},
 					{
 						"id": "jack",
@@ -1812,7 +3187,7 @@
 		"teams": [
 			{
 				"winner": true,
-				"highlight": false,
+				"highlight": true,
 				"time": 535,
 				"score": {
 					"wins": 2,
@@ -1887,38 +3262,38 @@
 		"date": "04/12/2020",
 		"is_countdown": true,
 		"season": 1,
-		"set_game": 0,
+		"set_game": 1,
 		"teams": [
 			{
 				"winner": true,
 				"highlight": false,
 				"time": 416,
 				"score": {
-					"wins": 0,
+					"wins": 1,
 					"losses": 0
 				},
 				"players": [
 					{
 						"id": "wilson",
-						"class": "",
+						"class": "hunewearl",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "mt",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/590612191"
 					},
 					{
 						"id": "killz",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "rozalin",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1929,30 +3304,30 @@
 				"time": 412,
 				"score": {
 					"wins": 0,
-					"losses": 0
+					"losses": 1
 				},
 				"players": [
 					{
 						"id": "phelix",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
-						"video": ""
+						"video": "https://www.youtube.com/watch?v=MZwNINbdoTE"
 					},
 					{
 						"id": "sange",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nohit",
-						"class": "",
+						"class": "hunewearl",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/590612702"
 					},
 					{
 						"id": "ndw",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					}
@@ -1966,38 +3341,38 @@
 		"date": "04/10/2020",
 		"is_countdown": true,
 		"season": 1,
-		"set_game": 0,
+		"set_game": 3,
 		"teams": [
 			{
 				"winner": true,
-				"highlight": false,
+				"highlight": true,
 				"time": 1441,
 				"score": {
-					"wins": 0,
-					"losses": 0
+					"wins": 2,
+					"losses": 1
 				},
 				"players": [
 					{
 						"id": "nohit",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/588792155"
 					},
 					{
 						"id": "mt",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "phelix",
-						"class": "",
+						"class": "racast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "yui",
-						"class": "",
+						"class": "fonewm",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2007,33 +3382,33 @@
 				"winner": false,
 				"time": 1410,
 				"score": {
-					"wins": 0,
-					"losses": 0
+					"wins": 1,
+					"losses": 2
 				},
 				"players": [
 					{
 						"id": "killz",
-						"class": "",
+						"class": "racast",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "wilson",
-						"class": "",
+						"class": "racast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "sange",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "ndw",
-						"class": "",
+						"class": "ramarl",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/591891298"
 					}
 				]
 			}
@@ -2045,38 +3420,38 @@
 		"date": "04/09/2020",
 		"is_countdown": true,
 		"season": 1,
-		"set_game": 0,
+		"set_game": 2,
 		"teams": [
 			{
 				"winner": true,
 				"highlight": false,
 				"time": 557,
 				"score": {
-					"wins": 0,
-					"losses": 0
+					"wins": 1,
+					"losses": 1
 				},
 				"players": [
 					{
 						"id": "nohit",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/587793779"
 					},
 					{
 						"id": "wilson",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "mt",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "esther",
-						"class": "",
+						"class": "fonewm",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2086,31 +3461,31 @@
 				"winner": false,
 				"time": 534,
 				"score": {
-					"wins": 0,
-					"losses": 0
+					"wins": 1,
+					"losses": 1
 				},
 				"players": [
 					{
 						"id": "killz",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "starlord",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "phelix",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.youtube.com/watch?v=gzAqLAEO62M"
 					},
 					{
 						"id": "yui",
-						"class": "",
+						"class": "fonewm",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2137,19 +3512,19 @@
 				"players": [
 					{
 						"id": "phelix",
-						"class": "",
-						"is_captain": true,
-						"video": ""
-					},
-					{
-						"id": "nohit",
-						"class": "",
+						"class": "hunewearl",
 						"is_captain": false,
 						"video": ""
 					},
 					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": false,
+						"video": "https://www.twitch.tv/videos/586948817"
+					},
+					{
 						"id": "killz",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2166,19 +3541,19 @@
 				"players": [
 					{
 						"id": "mt",
-						"class": "",
-						"is_captain": true,
-						"video": ""
-					},
-					{
-						"id": "wilson",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
+						"id": "wilson",
+						"class": "hunewearl",
+						"is_captain": false,
+						"video": "https://youtu.be/_u8PukxYCM8"
+					},
+					{
 						"id": "sange",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2192,40 +3567,40 @@
 		"date": "04/08/2020",
 		"is_countdown": true,
 		"season": 1,
-		"set_game": 0,
+		"set_game": 1,
 		"teams": [
 			{
 				"winner": true,
 				"highlight": false,
 				"time": 914,
 				"score": {
-					"wins": 0,
+					"wins": 1,
 					"losses": 0
 				},
 				"players": [
 					{
 						"id": "killz",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "mt",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "hucast"
 					},
 					{
 						"id": "sange",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "phelix",
-						"class": "",
+						"class": "ramarl",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.youtube.com/watch?v=q8bAV8THaBA"
 					}
 				]
 			},
@@ -2234,30 +3609,30 @@
 				"time": 865,
 				"score": {
 					"wins": 0,
-					"losses": 0
+					"losses": 1
 				},
 				"players": [
 					{
 						"id": "nohit",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/586900226"
 					},
 					{
 						"id": "wilson",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "cameron",
-						"class": "",
+						"class": "ramarl",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "ndw",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2284,19 +3659,19 @@
 				"players": [
 					{
 						"id": "sange",
-						"class": "",
-						"is_captain": true,
+						"class": "hucast",
+						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "wilson",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "stevecares",
-						"class": "",
+						"class": "ramarl",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2312,19 +3687,19 @@
 				"players": [
 					{
 						"id": "phelix",
-						"class": "",
-						"is_captain": true,
-						"video": ""
+						"class": "ramarl",
+						"is_captain": false,
+						"video": "https://www.youtube.com/watch?v=Dr4hXOim-aA"
 					},
 					{
 						"id": "cameron",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nohit",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2340,19 +3715,19 @@
 				"players": [
 					{
 						"id": "killz",
-						"class": "",
-						"is_captain": true,
+						"class": "hucast",
+						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "gally",
-						"class": "",
+						"class": "ramarl",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "mt",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2379,19 +3754,19 @@
 				"players": [
 					{
 						"id": "killz",
-						"class": "",
-						"is_captain": true,
-						"video": ""
-					},
-					{
-						"id": "wilson",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
+						"id": "wilson",
+						"class": "hunewearl",
+						"is_captain": false,
+						"video": "https://youtu.be/jjpjhUv36-k"
+					},
+					{
 						"id": "mt",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2407,21 +3782,21 @@
 				"players": [
 					{
 						"id": "starlord",
-						"class": "",
-						"is_captain": true,
+						"class": "hucast",
+						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "500ryu",
-						"class": "",
+						"class": "fonewm",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "phelix",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.youtube.com/watch?v=c6RsaDrr530"
 					}
 				]
 			}
@@ -2446,25 +3821,25 @@
 				"players": [
 					{
 						"id": "killz",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "nohit",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "starlord",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "cameron",
-						"class": "",
+						"class": "fonewm",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2480,25 +3855,25 @@
 				"players": [
 					{
 						"id": "wilson",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "mt",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "sange",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "yui",
-						"class": "",
+						"class": "fonewm",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2525,21 +3900,21 @@
 				"players": [
 					{
 						"id": "mt",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "nohit",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/580334524"
 					},
 					{
 						"id": "phelix",
-						"class": "",
+						"class": "hunewearl",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.youtube.com/watch?v=YSTljFvUlCQ"
 					}
 				]
 			},
@@ -2553,19 +3928,19 @@
 				"players": [
 					{
 						"id": "wilson",
-						"class": "",
+						"class": "racast",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "cameron",
-						"class": "",
+						"class": "fonewm",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "500ryu",
-						"class": "",
+						"class": "racast",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2592,21 +3967,21 @@
 				"players": [
 					{
 						"id": "mt",
-						"class": "",
-						"is_captain": true,
+						"class": "hucast",
+						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "cameron",
-						"class": "",
+						"class": "fonewm",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "phelix",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.youtube.com/watch?v=Fv72Clv502w"
 					}
 				]
 			},
@@ -2620,21 +3995,21 @@
 				"players": [
 					{
 						"id": "wilson",
-						"class": "",
-						"is_captain": true,
+						"class": "hucast",
+						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "ndw",
-						"class": "",
+						"class": "fonewm",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nohit",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/578834918"
 					}
 				]
 			}
@@ -2659,25 +4034,25 @@
 				"players": [
 					{
 						"id": "sange",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "revision",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "nohit",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://www.twitch.tv/videos/575573397"
 					},
 					{
 						"id": "phelix",
-						"class": "",
+						"class": "fomar",
 						"is_captain": false,
 						"video": ""
 					}
@@ -2693,25 +4068,25 @@
 				"players": [
 					{
 						"id": "wilson",
-						"class": "",
+						"class": "hucast",
 						"is_captain": true,
 						"video": ""
 					},
 					{
 						"id": "killz",
-						"class": "",
+						"class": "racast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "mt",
-						"class": "",
+						"class": "hucast",
 						"is_captain": false,
 						"video": ""
 					},
 					{
 						"id": "lemon",
-						"class": "",
+						"class": "fomarl",
 						"is_captain": false,
 						"video": ""
 					}

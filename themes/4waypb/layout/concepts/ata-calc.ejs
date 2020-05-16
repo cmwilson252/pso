@@ -1,0 +1,169 @@
+<div class="ui segments">
+    <div class="ui inverted segment">
+        <h3>ATA Calculator</h3>
+    </div>
+
+    <div class="ui inverted segment grid">
+        <div class="row">
+            <div class="column">
+                <div class="ui accordion">
+                    <div class="title">
+                        <i class=" inverted dropdown icon"></i>
+                        <span class="ui inverted grey text">Presets</span>
+                    </div>
+                    <div class="content ui grid">
+                        <div class="row">
+                            <div class="three wide column">
+                                <div id="playerClass" class="ui inverted fluid selection dropdown">
+                                    <input type="hidden" name="playerClass">
+                                    <i class="dropdown icon"></i>
+                                    <div class="default text">Class Preset</div>
+                                    <div class="menu">
+                                        <div class="item" data-value="220">HUmar with RR</div>
+                                        <div class="item" data-value="219">HUnewearl with RR</div>
+                                        <div class="item" data-value="211">HUcast with RR</div>
+                                        <div class="item" data-value="238">HUcaseal with RR</div>
+                                        <div class="item" data-value="269">RAmar with RR</div>
+                                        <div class="item" data-value="261">RAmarl with RR</div>
+                                        <div class="item" data-value="244">RAcast with RR</div>
+                                        <div class="item" data-value="251">RAcaseal with RR</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="five wide column">
+                                <div id="weapon" class="ui inverted loading fluid search selection dropdown">
+                                    <i class="dropdown icon"></i>
+                                    <div class="default text">Weapon</div>
+                                    <div class="menu"></div>
+                                </div>
+                            </div>
+                            <div class="one wide column">
+                                <h4>Hit</h4>
+                            </div>
+                            <div class="two wide column">
+                                <div id="hit" class="ui inverted fluid input">
+                                    <input id="hit_input" type="number" value="0">
+                                </div>
+                            </div>
+                            <div class="two wide column">
+                                <button class="ui inverted fluid button" id="apply">
+                                    Apply
+                                </button>                
+                            </div>
+                        </div>
+                        <div class="row">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+        <div class="row">
+            <div class="two wide column">
+                <h4>ATA</h4>
+            </div>
+            <div class="three wide column">
+                <div id="ata" class="ui inverted fluid input">
+                    <input id="ata_input" type="number" placeholder="ATA">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="two wide column">
+                <h4>Combo</h4>
+            </div>
+            <div class="three wide column">
+                <div id="attack1" class="ui inverted fluid selection dropdown">
+                    <input type="hidden" name="attack1" value="N">
+                    <i class="dropdown icon"></i>
+                    <div class="default text"></div>
+                    <div class="menu">
+                        <div class="item" data-value="N">Normal</div>
+                        <div class="item" data-value="H">Heavy</div>
+                        <div class="item" data-value="S">Special</div>
+                        <div class="item" data-value="NONE">None</div>
+                    </div>
+                </div>
+            </div>
+            <div class="three wide column">
+                <div id="attack2" class="ui inverted fluid selection dropdown">
+                    <input type="hidden" name="attack2" value="N">
+                    <i class="dropdown icon"></i>
+                    <div class="default text"></div>
+                    <div class="menu">
+                        <div class="item" data-value="N">Normal</div>
+                        <div class="item" data-value="H">Heavy</div>
+                        <div class="item" data-value="S">Special</div>
+                        <div class="item" data-value="NONE">None</div>
+                    </div>
+                </div>
+            </div>
+            <div class="three wide column">
+                <div id="attack3" class="ui inverted fluid selection dropdown">
+                    <input type="hidden" name="attack3" value="N">
+                    <i class="dropdown icon"></i>
+                    <div class="default text"></div>
+                    <div class="menu">
+                        <div class="item" data-value="N">Normal</div>
+                        <div class="item" data-value="H">Heavy</div>
+                        <div class="item" data-value="S">Special</div>
+                        <div class="item" data-value="NONE">None</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="three wide column">
+                <div id="sn_glitch" class="ui inverted fluid checkbox">
+                    <input id="sn_glitch_checkbox" type="checkbox" name="sn_glitch">
+                    <label>Accuracy (SN) Glitch</label>
+                </div>
+            </div>
+            <div class="three wide column">
+                <div id="frozen" class="ui inverted fluid checkbox">
+                    <input id="frozen_checkbox" type="checkbox" name="frozen">
+                    <label>Frozen</label>
+                </div>
+            </div>
+            <div class="three wide column">
+                <div id="paralyzed" class="ui inverted fluid checkbox">
+                    <input id="paralyzed_checkbox" type="checkbox" name="paralyzed">
+                    <label>Paralyzed</label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div id="enemy" class="ui inverted loading fluid search multiple selection dropdown">
+                    <i class="dropdown icon"></i>
+                    <div class="default text">Enemy</div>
+                    <div class="menu"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="three wide column">
+                <button class="ui inverted fluid button" id="calculate">
+                    Calculate
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="ui hidden divider"></div>
+    <div class="ui inverted segment">
+        <table id="accuracy_table" class="ui inverted celled table">
+            <thead>
+                <tr>
+                    <th>Monster</th>
+                    <th>Attack 1</th>
+                    <th>Attack 2</th>
+                    <th>Attack 3</th>
+                    <th>Overall</th>
+                </tr>
+            </thead>
+            <tbody id="accuracy_table_body"></tbody>
+        </table>
+    </div>
+</div>
+<%- js('js/ata-calc.js') %>

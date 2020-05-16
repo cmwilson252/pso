@@ -703,6 +703,39 @@
 		}
 	},
 	{
+		"id": "phelix",
+		"name": "phelix",
+		"image": "images/players/phelix.jpg",
+		"classes": [
+			"hucast",
+			"hunewearl",
+			"ramarl"
+		],
+		"metas": [
+			"Vanilla"
+		],
+		"team_ids": [
+			"rephlex"
+		],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [],
+		"discord": "phelix#2844",
+		"twitter": "",
+		"youtube": {
+			"name": "Phelix",
+			"url": "https://www.youtube.com/channel/UCexmChiqhPjnkSbKd8dx88g"
+		},
+		"twitch": {
+			"name": "Phelixxxx",
+			"url": "https://www.twitch.tv/phelixxxx"
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "spuz",
 		"name": "Spuz",
 		"image": "images/players/spuz.jpg",
@@ -1028,6 +1061,37 @@
 		}
 	},
 	{
+		"id": "_shadofix",
+		"name": "_shadowFIX",
+		"image": "images/players/shadowfix.jpg",
+		"classes": [
+			"racast",
+			"ramarl",
+			"fonewearl"
+		],
+		"metas": [
+			"Vanilla"
+		],
+		"team_ids": [],
+		"timezone": "CST",
+		"card_content": [],
+		"page_content": [],
+		"discord": "shadow_FIX#9001",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "shadow_FIX",
+			"url": "twitch.tv/shadow_FIX"
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "jajaswipo",
 		"name": "Jajaswipo",
 		"image": "images/players/jajaswipo.png",
@@ -1064,30 +1128,30 @@
 		}
 	},
 	{
-		"id": "phelix",
-		"name": "phelix",
-		"image": "images/players/phelix.jpg",
+		"id": "shoe",
+		"name": "shoe",
+		"image": "images/players/shoe.png",
 		"classes": [
 			"hucast",
-			"hunewearl",
-			"ramarl"
+			"ramar",
+			"fonewearl"
 		],
 		"metas": [
 			"Vanilla"
 		],
 		"team_ids": [],
-		"timezone": "CST",
+		"timezone": "EST",
 		"card_content": [],
 		"page_content": [],
-		"discord": "phelix#2844",
+		"discord": "shoe#0607",
 		"twitter": "",
 		"youtube": {
-			"name": "Phelix",
-			"url": "https://www.youtube.com/channel/UCexmChiqhPjnkSbKd8dx88g"
+			"name": "",
+			"url": ""
 		},
 		"twitch": {
-			"name": "Phelixxxx",
-			"url": "https://www.twitch.tv/phelixxxx"
+			"name": "flatmen",
+			"url": "twitch.tv/flatmen"
 		},
 		"github": {
 			"name": "",
@@ -1205,6 +1269,36 @@
 		"card_content": [],
 		"page_content": [],
 		"discord": "Kamlang#4208",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "el",
+		"name": "EL",
+		"image": "images/players/el.jpg",
+		"classes": [
+			"racaseal",
+			"fonewearl"
+		],
+		"metas": [
+			"Vanilla"
+		],
+		"team_ids": [],
+		"timezone": "GMT",
+		"card_content": [],
+		"page_content": [],
+		"discord": "EL#1456",
 		"twitter": "",
 		"youtube": {
 			"name": "",
@@ -3522,31 +3616,6 @@
 	{
 		"id": "zynetic",
 		"name": "Zynetic",
-		"image": "images/player.png",
-		"classes": [],
-		"metas": [],
-		"team_ids": [],
-		"timezone": "",
-		"card_content": [],
-		"page_content": [],
-		"discord": "",
-		"twitter": "",
-		"youtube": {
-			"name": "",
-			"url": ""
-		},
-		"twitch": {
-			"name": "",
-			"url": ""
-		},
-		"github": {
-			"name": "",
-			"url": ""
-		}
-	},
-	{
-		"id": "_shadofix",
-		"name": "_shadowfix",
 		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
