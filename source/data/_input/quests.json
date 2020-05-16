@@ -9,7 +9,7 @@
 	{
 		"id": "brutal_baranz_blight",
 		"name": "Brutal Baranz Blight",
-		"is_teamz_enabled": true,
+		"is_teamz_enabled": false,
 		"is_cmode": false,
 		"is_countdown": false
 	},
