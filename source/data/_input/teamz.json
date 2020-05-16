@@ -1,8 +1,87 @@
 [
 	{
-		"quest_id": "su4",
+		"quest_id": "max_tower",
 		"duration": "1 hour",
 		"date": "05/15/2020",
+		"is_countdown": true,
+		"season": 2,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 328,
+				"score": {
+					"wins": 1,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "cameron",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "sange",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"class": "hunewearl",
+						"is_captain": false,
+						"video": " "
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 341,
+				"score": {
+					"wins": 0,
+					"losses": 1
+				},
+				"players": [
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nemo",
+						"class": "fomar",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"quest_id": "su4",
+		"duration": "1 hour",
+		"date": "05/14/2020",
 		"is_countdown": true,
 		"season": 0,
 		"set_game": 0,
