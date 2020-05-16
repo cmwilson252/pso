@@ -1,0 +1,299 @@
+<div class="ui segments">
+    <div class="ui inverted segment">
+        <h3>Combo Calculator</h3>
+    </div>
+
+    <div class="ui inverted segment grid">
+        <div class="row">
+            <div class="three wide column">
+                <div id="playerClass" class="ui inverted fluid selection dropdown">
+                    <input type="hidden" name="playerClass" value="HUCAST">
+                    <i class="dropdown icon"></i>
+                    <div class="default text">Class</div>
+                    <div class="menu">
+                        <div class="item" data-value="HUMAR">HUmar</div>
+                        <div class="item" data-value="HUNEWEARL">HUnewearl</div>
+                        <div class="item" data-value="HUCAST">HUcast</div>
+                        <div class="item" data-value="HUCASEAL">HUcaseal</div>
+                        <div class="item" data-value="RAMAR">RAmar</div>
+                        <div class="item" data-value="RAMARL">RAmarl</div>
+                        <div class="item" data-value="RACAST">RAcast</div>
+                        <div class="item" data-value="RACASEAL">RAcaseal</div>
+                        <div class="item" data-value="FOMAR">FOmar</div>
+                        <div class="item" data-value="FOMARL">FOmarl</div>
+                        <div class="item" data-value="FONEWM">FOnewm</div>
+                        <div class="item" data-value="FONEWEARL">FOnewearl</div>
+                    </div>
+                </div>
+            </div>
+            <div class="three wide column">
+                <div id="barrier" class="ui inverted fluid selection dropdown">
+                    <input type="hidden" name="barrier" value="RED_RING">
+                    <i class="dropdown icon"></i>
+                    <div class="default text">Barrier</div>
+                    <div class="menu">
+                        <div class="item" data-value="NONE">None</div>
+                        <div class="item" data-value="RED_RING">Red Ring</div>
+                        <div class="item" data-value="RA_WALL">Ranger Wall</div>
+                        <div class="item" data-value="KASAMI">Kasami Bracer</div>
+                        <div class="item" data-value="COMBAT_GEAR">Combat Gear</div>
+                        <div class="item" data-value="S_PARTS201">S-Parts ver2.01</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="three wide column">
+                <div id="base_atp" class="ui labeled inverted fluid input">
+                    <div class="ui label">Base ATP</div>
+                    <input id="base_atp_input" type="number" placeholder="ATP">
+                </div>
+            </div>
+
+            <div class="three wide column">
+                <div id="other_atp" class="ui labeled inverted fluid input">
+                    <div class="ui label">Shield ATP</div>
+                    <input id="other_atp_input" type="number" placeholder="Other ATP">
+                </div>
+            </div>
+            <div class="three wide column">
+                <div id="ata" class="ui labeled inverted fluid input">
+                    <div class="ui label">ATA</div>
+                    <input id="ata_input" type="number" placeholder="ATA">
+                </div>
+            </div>
+
+            <div class="three wide column">
+                <div id="shifta" class="ui labeled inverted fluid input">
+                    <div class="ui label">Shifta Lv</div>
+                    <input id="shifta_input" type="number" value="0">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <h4>Weapon</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="five wide column">
+                <div id="weapon" class="ui inverted loading fluid search selection dropdown">
+                    <input type="hidden" name="weapon">
+                    <i class="dropdown icon"></i>
+                    <div class="default text">Weapon</div>
+                    <div class="menu"></div>
+                </div>
+            </div>
+
+            <div class="two wide column">
+                <div id="area_percent" class="ui right labeled inverted fluid input">
+                    <input id="area_percent_input" type="number" value="100">
+                    <div class="ui label">%</div>
+                </div>
+            </div>
+
+            <div class="two wide column">
+                <div id="hit" class="ui right labeled inverted fluid input">
+                    <input id="hit_input" type="number" value="100">
+                    <div class="ui label">Hit</div>
+                </div>
+            </div>
+            <div class="two wide column">
+                <div id="min_atp" class="ui labeled inverted fluid input">
+                    <div class="ui label">Min</div>
+                    <input id="min_atp_input" type="number" placeholder="Min ATP">
+                </div>
+            </div>
+            <div class="two wide column">
+                <div id="max_atp" class="ui labeled inverted fluid input">
+                    <div class="ui label">Max</div>
+                    <input id="max_atp_input" type="number" placeholder="Max ATP">
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="column">
+                <h4>Combo</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="four wide column">
+                <div id="attack1" class="ui compact inverted selection dropdown">
+                    <input id="attack1_input" type="hidden" name="attack1" value="N">
+                    <i class="dropdown icon"></i>
+                    <div class="default text"></div>
+                    <div class="menu">
+                        <div class="item" data-value="N">Normal</div>
+                        <div class="item" data-value="H">Heavy</div>
+                        <div class="item" data-value="S">Special</div>
+                        <div class="item" data-value="NONE">None</div>
+                    </div>
+                </div>
+                <div id="hits1" class="ui compact inverted selection dropdown">
+                    <input id="hits1_input" type="hidden" name="hits1" value="1">
+                    <i class="dropdown icon"></i>
+                    <div class="default text"></div>
+                    <div class="menu">
+                        <div class="item" data-value="1">1</div>
+                        <div class="item" data-value="2">2</div>
+                        <div class="item" data-value="3">3</div>
+                        <div class="item" data-value="5">5</div>
+                    </div>
+                </div>
+            </div>
+            <div class="four wide column">
+                <div id="attack2" class="ui compact inverted selection dropdown">
+                    <input id="attack2_input" type="hidden" name="attack2" value="N">
+                    <i class="dropdown icon"></i>
+                    <div class="default text"></div>
+                    <div class="menu">
+                        <div class="item" data-value="N">Normal</div>
+                        <div class="item" data-value="H">Heavy</div>
+                        <div class="item" data-value="S">Special</div>
+                        <div class="item" data-value="NONE">None</div>
+                    </div>
+                </div>
+                <div id="hits2" class="ui compact inverted selection dropdown">
+                    <input id="hits2_input" type="hidden" name="hits2" value="1">
+                    <i class="dropdown icon"></i>
+                    <div class="default text"></div>
+                    <div class="menu">
+                        <div class="item" data-value="1">1</div>
+                        <div class="item" data-value="2">2</div>
+                        <div class="item" data-value="3">3</div>
+                        <div class="item" data-value="5">5</div>
+                    </div>
+                </div>
+            </div>
+            <div class="four wide column">
+                <div id="attack3" class="ui compact inverted selection dropdown">
+                    <input id="attack3_input" type="hidden" name="attack3" value="N">
+                    <i class="dropdown icon"></i>
+                    <div class="default text"></div>
+                    <div class="menu">
+                        <div class="item" data-value="N">Normal</div>
+                        <div class="item" data-value="H">Heavy</div>
+                        <div class="item" data-value="S">Special</div>
+                        <div class="item" data-value="NONE">None</div>
+                    </div>
+                </div>
+                <div id="hits3" class="ui compact inverted selection dropdown">
+                    <input id="hits3_input" type="hidden" name="hits3" value="1">
+                    <i class="dropdown icon"></i>
+                    <div class="default text"></div>
+                    <div class="menu">
+                        <div class="item" data-value="1">1</div>
+                        <div class="item" data-value="2">2</div>
+                        <div class="item" data-value="3">3</div>
+                        <div class="item" data-value="5">5</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="three wide column">
+                <div id="sn_glitch" class="ui inverted fluid checkbox">
+                    <input id="sn_glitch_checkbox" type="checkbox" name="sn_glitch">
+                    <label>Accuracy (SN) Glitch</label>
+                </div>
+            </div>
+            <div class="three wide column">
+                <div id="frozen" class="ui inverted fluid checkbox">
+                    <input id="frozen_checkbox" type="checkbox" name="frozen">
+                    <label>Frozen</label>
+                </div>
+            </div>
+            <div class="three wide column">
+                <div id="paralyzed" class="ui inverted fluid checkbox">
+                    <input id="paralyzed_checkbox" type="checkbox" name="paralyzed">
+                    <label>Paralyzed</label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="three wide column">
+                <div id="add_enemies" class="ui inverted selection dropdown">
+                    <input id="add_enemies_input" type="hidden" name="add_enemies">
+                    <i class="dropdown icon"></i>
+                    <div class="default text">Add By Type</div>
+                    <div class="menu">
+                        <div class="item" data-value="Native">Native</div>
+                        <div class="item" data-value="A.Beast">A.Beast</div>
+                        <div class="item" data-value="Machine">Machine</div>
+                        <div class="item" data-value="Dark">Dark</div>
+                    </div>
+                </div>
+            </div>
+            <div class="three wide column">
+                <div id="add_by_location" class="ui inverted selection dropdown">
+                    <input id="add_by_location_input" type="hidden" name="add_by_location">
+                    <i class="dropdown icon"></i>
+                    <div class="default text">Add By Location</div>
+                    <div class="menu">
+                        <div class="item" data-value="Forest">Forest</div>
+                        <div class="item" data-value="Caves">Caves</div>
+                        <div class="item" data-value="Mines">Mines</div>
+                        <div class="item" data-value="Ruins">Ruins</div>
+                        <div class="item" data-value="Temple">Temple</div>
+                        <div class="item" data-value="Spaceship">Spaceship</div>
+                        <div class="item" data-value="CCA">CCA</div>
+                        <div class="item" data-value="Seabed">Seabed</div>
+                        <div class="item" data-value="Tower">Tower</div>
+                        <div class="item" data-value="Crater">Crater</div>
+                        <div class="item" data-value="Desert">Desert</div>
+                    </div>
+                </div>
+            </div>
+            <div class="three wide column">
+                <button class="ui inverted fluid button" id="clear_enemies">
+                    Clear Enemies
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div id="enemy" class="ui inverted loading fluid search multiple selection dropdown">
+                    <input id="enemy_input" type="hidden" name="enemy">
+                    <i class="dropdown icon"></i>
+                    <div class="default text">Enemy</div>
+                    <div class="menu"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="three wide column">
+                <button class="ui inverted fluid button" id="calculate">
+                    Calculate
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="ui hidden divider"></div>
+    <div class="ui inverted segment">
+        <table id="accuracy_table" class="ui inverted celled table">
+            <thead>
+                <tr>
+                    <th>Monster</th>
+                    <th colspan="2">Attack 1</th>
+                    <th colspan="2">Attack 2</th>
+                    <th colspan="2">Attack 3</th>
+                    <th colspan="2">Combo</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Damage</th>
+                    <th>Accuracy</th>
+                    <th>Damage</th>
+                    <th>Accuracy</th>
+                    <th>Damage</th>
+                    <th>Accuracy</th>
+                    <th>Damage</th>
+                    <th>Accuracy</th>
+                </tr>
+            </thead>
+            <tbody id="accuracy_table_body"></tbody>
+        </table>
+    </div>
+</div>
+<%- js('js/combo-calculator.js') %>
