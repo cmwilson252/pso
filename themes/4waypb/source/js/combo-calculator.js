@@ -98,10 +98,7 @@ window.fourwaypb.ata_calc.ready = function() {
             percentDamage = 100;
         }
 
-        // let damageBgColor = comboKill ? 'rgb(61,73,61)' : 'rgb(50,60,50)';
         let damageBgColor = comboKill ? 'rgb(61,73,61)' : 'rgb(73,73,61)';
-
-        // let damageBgColor = 'rgb(61,73,61)'
 
         return $('<tr/>')
                 .append($('<td/>', {
@@ -110,27 +107,33 @@ window.fourwaypb.ata_calc.ready = function() {
                 }))
                 .append($('<td/>', {
                     'data-label': 'a1-accuracy',
-                    'text': a1Damage.toFixed(0)
+                    'text': a1Damage.toFixed(0),
+                    'style': a1Type === 'NONE' ? 'color: rgba(255,255,255,0.3)' : 'color: rgba(255,255,255,0.9)'
                 }))
                 .append($('<td/>', {
                     'data-label': 'a1-accuracy',
-                    'text': a1Accuracy.toFixed(2) + '%'
+                    'text': a1Accuracy.toFixed(2) + '%',
+                    'style': a1Type === 'NONE' ? 'color: rgba(255,255,255,0.3)' : 'color: rgba(255,255,255,0.9)'
                 }))
                 .append($('<td/>', {
                     'data-label': 'a2-accuracy',
-                    'text': a2Damage.toFixed(0)
+                    'text': a2Damage.toFixed(0),
+                    'style': a2Type === 'NONE' ? 'color: rgba(255,255,255,0.3)' : 'color: rgba(255,255,255,0.9)'
                 }))
                 .append($('<td/>', {
                     'data-label': 'a2-accuracy',
-                    'text': a2Accuracy.toFixed(2) + '%'
+                    'text': a2Accuracy.toFixed(2) + '%',
+                    'style': a2Type === 'NONE' ? 'color: rgba(255,255,255,0.3)' : 'color: rgba(255,255,255,0.9)'
                 }))
                 .append($('<td/>', {
                     'data-label': 'a3-accuracy',
-                    'text': a3Damage.toFixed(0)
+                    'text': a3Damage.toFixed(0),
+                    'style': a3Type === 'NONE' ? 'color: rgba(255,255,255,0.3)' : 'color: rgba(255,255,255,0.9)'
                 }))
                 .append($('<td/>', {
                     'data-label': 'a3-accuracy',
-                    'text': a3Accuracy.toFixed(2) + '%'
+                    'text': a3Accuracy.toFixed(2) + '%',
+                    'style': a3Type === 'NONE' ? 'color: rgba(255,255,255,0.3)' : 'color: rgba(255,255,255,0.9)'
                 }))
                 .append($('<td/>', {
                     'style': 'padding: 0'
@@ -160,10 +163,15 @@ window.fourwaypb.ata_calc.ready = function() {
 
         let effectiveMinAtp = atpInput.baseAtp + minWeaponAtp + minShiftaAtp;
         let effectiveMaxAtp = atpInput.baseAtp + maxWeaponAtp + maxShiftaAtp;
-        console.log(atpInput.baseAtp, minWeaponAtp, minShiftaAtp);
 
         let nMin = ((effectiveMinAtp - enemy.dfp) / 5) * 0.9;
+        if (nMin < 0) {
+            nmin = 0;
+        }
         let nMax = ((effectiveMaxAtp - enemy.dfp) / 5) * 0.9;
+        if (nMax < 0) {
+            nMax = 0;
+        }
         return {
             nMin: nMin,
             nMax: nMax
@@ -207,8 +215,6 @@ window.fourwaypb.ata_calc.ready = function() {
             a3Hits: Number($('#hits3').dropdown('get value')),
         }
 
-        console.log(atpInput);
-
         $('#accuracy_table_body').empty()
         let enemyValues = $('#enemy').dropdown('get values');
         if (!!enemyValues) {
@@ -249,12 +255,10 @@ window.fourwaypb.ata_calc.ready = function() {
         $('#enemy_input').val(enemyValues).change();
     }
     function clearEnemies() {
-        console.log('clearing');
         $('#enemy').dropdown('clear');
     }
 
     function applyPreset() {
-        console.log('applying preset');
         let playerClass = classStats[$('#playerClass').dropdown('get value')];
         let barrier = barrierStats[$('#barrier').dropdown('get value')];
         let hit = $('#hit_input').val();
@@ -268,28 +272,27 @@ window.fourwaypb.ata_calc.ready = function() {
         $('#other_atp_input').val(barrier.atp);
         $('#base_atp_input').val(playerClass.atp);
 
-        console.log(weapon);
-        if (!!weapon.comboPreset) {
-            if (!!weapon.comboPreset.attack1) {
-                console.log('here');
-                $('#attack1_input').val(weapon.comboPreset.attack1).change();
-            }
-            if (!!weapon.comboPreset.attack1Hits) {
-                console.log('hits');
-                $('#hits1_input').val(weapon.comboPreset.attack1Hits).change();
-            }
-            if (!!weapon.comboPreset.attack2) {
-                $('#attack2_input').val(weapon.comboPreset.attack2).change();
-            }
-            if (!!weapon.comboPreset.attack2Hits) {
-                $('#hits2_input').val(weapon.comboPreset.attack2Hits).change();
-            }
-            if (!!weapon.comboPreset.attack3) {
-                $('#attack3_input').val(weapon.comboPreset.attack3).change();
-            }
-            if (!!weapon.comboPreset.attack3Hits) {
-                $('#hits3_input').val(weapon.comboPreset.attack3Hits).change();
-            }
+        let hits = !!weapon.comboPreset && !!weapon.comboPreset.attack1Hits ? weapon.comboPreset.attack1Hits : 1;
+        $('#hits1_input').val(hits).change();
+        hits = !!weapon.comboPreset && !!weapon.comboPreset.attack2Hits ? weapon.comboPreset.attack2Hits : 1
+        $('#hits2_input').val(hits).change();
+        hits = !!weapon.comboPreset && !!weapon.comboPreset.attack3Hits ? weapon.comboPreset.attack3Hits : 1
+        $('#hits3_input').val(hits).change();
+
+        if (!!weapon.comboPreset && !!weapon.comboPreset.attack1) {
+            $('#attack1_input').val(weapon.comboPreset.attack1).change();
+        } else if ($('#attack1').dropdown('get value') === 'NONE') {
+            $('#attack1_input').val('N').change();
+        }
+        if (!!weapon.comboPreset && !!weapon.comboPreset.attack2) {
+            $('#attack2_input').val(weapon.comboPreset.attack2).change();
+        } else if ($('#attack2').dropdown('get value') === 'NONE') {
+            $('#attack2_input').val('N').change();
+        }
+        if (!!weapon.comboPreset && !!weapon.comboPreset.attack3) {
+            $('#attack3_input').val(weapon.comboPreset.attack3).change();
+        } else if ($('#attack3').dropdown('get value') === 'NONE') {
+            $('#attack3_input').val('N').change();
         }
     }
 
