@@ -310,7 +310,7 @@
 	{
 		"id": "mu1",
 		"name": "Mop-Up Operation #1",
-		"is_teamz_enabled": true,
+		"is_teamz_enabled": false,
 		"is_cmode": false,
 		"is_countdown": true
 	},
@@ -450,7 +450,7 @@
 	{
 		"id": "rt",
 		"name": "Respective Tomorrow",
-		"is_teamz_enabled": false,
+		"is_teamz_enabled": true,
 		"is_cmode": false,
 		"is_countdown": false
 	},
@@ -553,6 +553,13 @@
 		"is_countdown": true
 	},
 	{
+		"id": "pw2",
+		"name": "Phantasmal World #2",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": false
+	},
+	{
 		"id": "pw4",
 		"name": "Phantasmal World #4",
 		"is_teamz_enabled": true,
@@ -562,7 +569,7 @@
 	{
 		"id": "ttf",
 		"name": "Towards the Future",
-		"is_teamz_enabled": false,
+		"is_teamz_enabled": true,
 		"is_cmode": false,
 		"is_countdown": false
 	},

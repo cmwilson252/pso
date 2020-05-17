@@ -6853,6 +6853,23 @@
 	},
 	{
 		"mode": "normal",
+		"quest_id": "pw2",
+		"episode": 2,
+		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
+		"time": 982,
+		"team_id": "tankstelle",
+		"players": [
+			{
+				"id": "stevecares",
+				"class": "racast",
+				"video": "https://www.youtube.com/watch?v=05vC0AYihss"
+			}
+		]
+	},
+	{
+		"mode": "normal",
 		"quest_id": "rt",
 		"episode": 2,
 		"meta": "vanilla",
