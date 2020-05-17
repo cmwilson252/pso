@@ -6,7 +6,7 @@ window.fourwaypb.teamz_results.ready = function() {
     let ready = false;
     let events = null;
     let seasons = [];
-    let current_season = 0;
+    let current_season = 2;
     
     function updateColumns() {
         $('.cards-container').removeClass('one two three');

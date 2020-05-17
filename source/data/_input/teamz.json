@@ -1,5 +1,84 @@
 [
 	{
+		"quest_id": "ma2b",
+		"duration": "1 hour",
+		"date": "05/16/2020",
+		"is_countdown": true,
+		"season": 2,
+		"set_game": 1,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 1256,
+				"score": {
+					"wins": 1,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "killz",
+						"class": "racast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "sange",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "cameron",
+						"class": "racast",
+						"is_captain": false,
+						"video": "https://www.youtube.com/watch?v=Ap-JpSpfJdE"
+					},
+					{
+						"id": "starlord",
+						"class": "ramarl",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 1216,
+				"score": {
+					"wins": 0,
+					"losses": 1
+				},
+				"players": [
+					{
+						"id": "phelix",
+						"class": "ramarl",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "_shadofix",
+						"class": "racast",
+						"is_captain": false,
+						"video": "https://www.twitch.tv/videos/623356227"
+					}
+				]
+			}
+		]
+	},
+	{
 		"quest_id": "rt",
 		"duration": "1 hour",
 		"date": "05/15/2020",
