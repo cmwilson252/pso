@@ -44,7 +44,7 @@
 	{
 		"id": "fragments_of_a_memory",
 		"name": "Fragments of a Memory",
-		"is_teamz_enabled": false,
+		"is_teamz_enabled": true,
 		"is_cmode": false,
 		"is_countdown": false
 	},
@@ -79,6 +79,111 @@
 	{
 		"id": "lost_riot_raygun",
 		"name": "Lost Riot Raygun",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": false
+	},
+	{
+		"id": "lost_devils_scepter",
+		"name": "Lost Devils Scepter",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": false
+	},
+	{
+		"id": "lost_heart_breaker",
+		"name": "Lost Heart Breaker",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": false
+	},
+	{
+		"id": "lost_heat_sword",
+		"name": "Lost Heat Sword",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": false
+	},
+	{
+		"id": "lost_hell_pallasch",
+		"name": "Lost Hell Pallasch",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": false
+	},
+	{
+		"id": "lost_ice_spinner",
+		"name": "Lost Ice Spinner",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": false
+	},
+	{
+		"id": "lost_master_blaster",
+		"name": "Lost Master Blaster",
+		"is_teamz_enabled": false,
+		"is_cmode": false,
+		"is_countdown": false
+	},
+	{
+		"id": "lost_shock_gungnir",
+		"name": "Lost Shock Gungnir",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": false
+	},
+	{
+		"id": "lost_son_hopkins",
+		"name": "Lost Son Hopkins",
+		"is_teamz_enabled": false,
+		"is_cmode": false,
+		"is_countdown": false
+	},
+	{
+		"id": "lost_soul_blade",
+		"name": "Lost Soul Blade",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": false
+	},
+	{
+		"id": "tyrells_ego",
+		"name": "Tyrell's Ego",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": false
+	},
+	{
+		"id": "en1",
+		"name": "Endless Nightmare #1",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": false
+	},
+	{
+		"id": "en2",
+		"name": "Endless Nightmare #2",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": false
+	},
+	{
+		"id": "en3",
+		"name": "Endless Nightmare #3",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": false
+	},
+	{
+		"id": "en4",
+		"name": "Endless Nightmare #4",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": false
+	},
+	{
+		"id": "vr2",
+		"name": "Villianous Rift #2",
 		"is_teamz_enabled": true,
 		"is_cmode": false,
 		"is_countdown": false
@@ -553,8 +658,22 @@
 		"is_countdown": true
 	},
 	{
+		"id": "pw1",
+		"name": "Phantasmal World #1",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": false
+	},
+	{
 		"id": "pw2",
 		"name": "Phantasmal World #2",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": false
+	},
+	{
+		"id": "pw3",
+		"name": "Phantasmal World #3",
 		"is_teamz_enabled": true,
 		"is_cmode": false,
 		"is_countdown": false
@@ -577,6 +696,27 @@
 		"id": "ttf_ultima",
 		"name": "Towards the Future Ultima",
 		"is_teamz_enabled": false,
+		"is_cmode": false,
+		"is_countdown": false
+	},
+	{
+		"id": "msb",
+		"name": "The Military Strikes Back",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": false
+	},
+	{
+		"id": "4_4",
+		"name": "4-4",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": false
+	},
+	{
+		"id": "7_4",
+		"name": "7-4",
+		"is_teamz_enabled": true,
 		"is_cmode": false,
 		"is_countdown": false
 	},
