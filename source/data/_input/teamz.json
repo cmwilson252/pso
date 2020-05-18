@@ -12,8 +12,8 @@
 				"highlight": true,
 				"time": 1267,
 				"score": {
-					"wins": 0,
-					"losses": 2
+					"wins": 2,
+					"losses": 0
 				},
 				"players": [
 					{
@@ -46,8 +46,8 @@
 				"winner": true,
 				"time": 1263,
 				"score": {
-					"wins": 2,
-					"losses": 0
+					"wins": 0,
+					"losses": 2
 				},
 				"players": [
 					{
