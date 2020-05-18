@@ -38,8 +38,8 @@
 		"image": "images/players/wilson.jpg",
 		"classes": [
 			"hucast",
-			"racast",
-			"hunewearl"
+			"hunewearl",
+			"racast"
 		],
 		"metas": [
 			"Gamecube",
