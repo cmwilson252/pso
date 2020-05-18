@@ -75,40 +75,6 @@
 						"video": ""
 					}
 				]
-			},
-			{
-				"winner": false,
-				"time": 1267,
-				"score": {
-					"wins": 0,
-					"losses": 2
-				},
-				"players": [
-					{
-						"id": "cameron",
-						"class": "fonewm",
-						"is_captain": true,
-						"video": ""
-					},
-					{
-						"id": "mt",
-						"class": "hucast",
-						"is_captain": false,
-						"video": ""
-					},
-					{
-						"id": "killz",
-						"class": "hucast",
-						"is_captain": false,
-						"video": ""
-					},
-					{
-						"id": "plx",
-						"class": "racast",
-						"is_captain": false,
-						"video": ""
-					}
-				]
 			}
 		]
 	},
