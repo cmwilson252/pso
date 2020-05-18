@@ -7074,6 +7074,28 @@
 		"meta": "vanilla",
 		"category": "2p",
 		"pb": false,
+		"time": 1049,
+		"team_id": "",
+		"players": [
+			{
+				"id": "brandon",
+				"class": "racast",
+				"video": "https://www.youtube.com/watch?v=eE461vQYuSY&feature=emb_logo "
+			},
+			{
+				"id": "ender",
+				"class": "fonewm",
+				"video": "https://www.youtube.com/watch?v=tJvHZlglNMA&feature=emb_logo"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ma4c",
+		"episode": 4,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
 		"time": 910,
 		"team_id": "ma4b",
 		"players": [
