@@ -9,7 +9,7 @@
 		"teams": [
 			{
 				"winner": true,
-				"highlight": false,
+				"highlight": true,
 				"time": 406,
 				"score": {
 					"wins": 2,
