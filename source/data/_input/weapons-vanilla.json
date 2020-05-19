@@ -44,7 +44,7 @@
   {"name": "S-Red's Blade",           "minAtp": 340, "maxAtp": 350, "ata": 39, "grind": 15, "comboPreset": {"attack1Hits": 2, "attack2Hits": 2, "attack3Hits": 2}},
   {"name": "Two Kamui",               "minAtp": 600, "maxAtp": 650, "ata": 50, "grind": 0, "comboPreset": {"attack1Hits": 2, "attack2Hits": 2, "attack3Hits": 2}},
   {"name": "Lavis Blade",             "minAtp": 380, "maxAtp": 450, "ata": 40, "grind": 0, "comboPreset": {"attack1Hits": 2, "attack2Hits": 2, "attack3Hits": 2}},
-  {"name": "Daylight Scar",           "minAtp": 500, "maxAtp": 500, "ata": 48, "grind": 25, "comboPreset": {"attack1Hits": 2, "attack2Hits": 2, "attack3Hits": 2}},
+  {"name": "Daylight Scar",           "minAtp": 500, "maxAtp": 550, "ata": 48, "grind": 25, "comboPreset": {"attack1Hits": 2, "attack2Hits": 2, "attack3Hits": 2}},
   {"name": "ES Blade",                "minAtp": 10,  "maxAtp": 10,  "ata": 35, "grind": 200, "comboPreset": {"attack1Hits": 2, "attack2Hits": 2, "attack3Hits": 2}},
 
   {"name": "Gungnir",          "minAtp": 150, "maxAtp": 180,   "ata": 32, "grind": 10},
@@ -62,12 +62,12 @@
   {"name": "ES Slicer",                    "minAtp": 10,  "maxAtp": 10,  "ata": 35, "grind": 140},
   {"name": "ES J-Cutter",                  "minAtp": 25,  "maxAtp": 25,  "ata": 35, "grind": 150},
 
-  {"name": "Girasole",                       "minAtp": 500,  "maxAtp": 550,  "ata": 50, "grind": 0},
-  {"name": "Twin Blaze",                     "minAtp": 300,  "maxAtp": 520,  "ata": 40, "grind": 9},
-  {"name": "Meteor Cudgel",                  "minAtp": 300,  "maxAtp": 560,  "ata": 42, "grind": 15},
-  {"name": "Vivienne",                       "minAtp": 575,  "maxAtp": 590,  "ata": 49, "grind": 50},
-  {"name": "Black King Bar",                 "minAtp": 590,  "maxAtp": 600,  "ata": 43, "grind": 80},
-  {"name": "Double Cannon",                  "minAtp": 620,  "maxAtp": 650,  "ata": 45, "grind": 0},
+  {"name": "Girasole",                       "minAtp": 500,  "maxAtp": 550,  "ata": 50, "grind": 0, "comboPreset": {"attack1Hits": 2, "attack2Hits": 1, "attack3Hits": 3}},
+  {"name": "Twin Blaze",                     "minAtp": 300,  "maxAtp": 520,  "ata": 40, "grind": 9, "comboPreset": {"attack1Hits": 2, "attack2Hits": 1, "attack3Hits": 3}},
+  {"name": "Meteor Cudgel",                  "minAtp": 300,  "maxAtp": 560,  "ata": 42, "grind": 15, "comboPreset": {"attack1Hits": 2, "attack2Hits": 1, "attack3Hits": 3}},
+  {"name": "Vivienne",                       "minAtp": 575,  "maxAtp": 590,  "ata": 49, "grind": 50, "comboPreset": {"attack1Hits": 2, "attack2Hits": 1, "attack3Hits": 3}},
+  {"name": "Black King Bar",                 "minAtp": 590,  "maxAtp": 600,  "ata": 43, "grind": 80, "comboPreset": {"attack1Hits": 2, "attack2Hits": 1, "attack3Hits": 3}},
+  {"name": "Double Cannon",                  "minAtp": 620,  "maxAtp": 650,  "ata": 45, "grind": 0, "comboPreset": {"attack1Hits": 2, "attack2Hits": 1, "attack3Hits": 3}},
 
   {"name": "Musashi",             "minAtp": 330, "maxAtp": 350, "ata": 35, "grind": 40, "comboPreset": {"attack1Hits": 1, "attack2Hits": 2, "attack3Hits": 2}},
   {"name": "Yamato",              "minAtp": 380, "maxAtp": 390, "ata": 40, "grind": 60, "comboPreset": {"attack1Hits": 1, "attack2Hits": 2, "attack3Hits": 2}},
