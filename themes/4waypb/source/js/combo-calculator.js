@@ -85,7 +85,10 @@ window.fourwaypb.ata_calc.ready = function() {
         if (snGlitch && a3Accuracy > a2Accuracy && a3Type !== 'NONE') {
             glitchedA2Accuracy = a3Accuracy;
         }
-        let overallAccuracy = glitchedA1Accuracy * (glitchedA2Accuracy * 0.01) * (a3Accuracy * 0.01);
+        let overallAccuracy = Math.pow((glitchedA1Accuracy * 0.01), comboInput.a1Hits)
+                * Math.pow((glitchedA2Accuracy * 0.01), comboInput.a2Hits)
+                * Math.pow((a3Accuracy * 0.01), comboInput.a3Hits);
+        overallAccuracy *= 100;
 
         let a1Damage = getDamageModifierForAttackType(a1Type) * baseDamage.nMin;
         let a2Damage = getDamageModifierForAttackType(a2Type) * baseDamage.nMin;
@@ -271,7 +274,11 @@ window.fourwaypb.ata_calc.ready = function() {
         $('#max_atp_input').val(weapon.maxAtp + (2 * weapon.grind));
         $('#other_atp_input').val(barrier.atp);
         $('#base_atp_input').val(playerClass.atp);
+    }
 
+    function applyWeaponStats() {
+        let weaponName = $('#weapon').dropdown('get value');
+        let weapon = !!weaponName ? weaponsByName[weaponName] : weaponsByName['None'];
         let hits = !!weapon.comboPreset && !!weapon.comboPreset.attack1Hits ? weapon.comboPreset.attack1Hits : 1;
         $('#hits1_input').val(hits).change();
         hits = !!weapon.comboPreset && !!weapon.comboPreset.attack2Hits ? weapon.comboPreset.attack2Hits : 1
@@ -294,6 +301,7 @@ window.fourwaypb.ata_calc.ready = function() {
         } else if ($('#attack3').dropdown('get value') === 'NONE') {
             $('#attack3_input').val('N').change();
         }
+        applyPreset();
     }
 
     getJSON5(url_for('data/enemies-vanilla-multi.json'), (function(data) {
@@ -333,7 +341,7 @@ window.fourwaypb.ata_calc.ready = function() {
 
     $('#calculate').on('click', calculate);
     $('#playerClass').change(applyPreset);
-    $('#weapon').change(applyPreset);
+    $('#weapon').change(applyWeaponStats);
     $('#barrier').change(applyPreset);
     $('#hit_input').change(applyPreset);
     $('#add_enemies').change(addEnemies);
