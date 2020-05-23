@@ -1,5 +1,84 @@
 [
 	{
+		"quest_id": "su7",
+		"duration": "1 hour",
+		"date": "05/22/2020",
+		"is_countdown": true,
+		"season": 2,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 511,
+				"score": {	
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "phelix",
+						"class": "ramarl",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "shoe",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 508,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "revision",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "sange",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "starlord",
+						"class": "ramarl",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
 		"quest_id": "su9",
 		"duration": "1 hour",
 		"date": "05/22/2020",
