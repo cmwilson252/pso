@@ -5450,6 +5450,38 @@
 	},
 	{
 		"mode": "normal",
+		"quest_id": "su3",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 373,
+		"team_id": "",
+		"players": [
+			{
+				"id": "mt",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "killz",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "wilson",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "nohit",
+				"class": "hunewearl",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
 		"quest_id": "ttf",
 		"episode": 1,
 		"meta": "vanilla",
