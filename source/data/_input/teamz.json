@@ -20,7 +20,7 @@
 						"id": "phelix",
 						"class": "ramarl",
 						"is_captain": true,
-						"video": ""
+						"video": "https://youtu.be/o4DBKmt8nhI"
 					},
 					{
 						"id": "wilson",
@@ -105,7 +105,7 @@
 						"id": "phelix",
 						"class": "hucast",
 						"is_captain": false,
-						"video": ""
+						"video": "https://youtu.be/gECM5X6ROjQ"
 					},
 					{
 						"id": "nohit",
@@ -230,7 +230,7 @@
 						"id": "phelix",
 						"class": "hunewearl",
 						"is_captain": false,
-						"video": ""
+						"video": "https://youtu.be/Gz9X1YbfpOQ"
 					}
 				]
 			}
@@ -275,7 +275,7 @@
 						"id": "phelix",
 						"class": "ramarl",
 						"is_captain": false,
-						"video": ""
+						"video": "https://youtu.be/XdNcb0HB9Gw"
 					}
 				]
 			},
