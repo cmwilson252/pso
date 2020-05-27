@@ -4517,7 +4517,7 @@
 				]
 			},
 			{
-				"winner": true,
+				"winner": false,
 				"highlight": false,
 				"time": 98,
 				"score": {
