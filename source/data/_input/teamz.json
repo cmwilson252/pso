@@ -1,5 +1,84 @@
 [
 	{
+		"quest_id": "max_ruins",
+		"duration": "1 hour",
+		"date": "05/27/2020",
+		"is_countdown": true,
+		"season": 2,
+		"set_game": 3,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": true,
+				"time": 209,
+				"score": {	
+					"wins": 2,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "revision",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"class": "hunewearl",
+						"is_captain": false,
+						"video": "https://www.twitch.tv/videos/633993128"
+					},
+					{
+						"id": "cameron",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "starlord",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 218,
+				"score": {
+					"wins": 0,
+					"losses": 2
+				},
+				"players": [
+					{
+						"id": "killz",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "mt",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"class": "hunewearl",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "500ryu",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
 		"quest_id": "nmu4",
 		"duration": "1 hour",
 		"date": "05/25/2020",
