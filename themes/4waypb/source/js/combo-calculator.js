@@ -32,7 +32,7 @@ window.fourwaypb.ata_calc.ready = function() {
     function accuracyModifierForAttackType(attackType) {
         if (attackType === 'N') {
             return 1.0;
-        } else if (attackType === 'H') {
+        } else if (attackType === 'H' || attackType === 'VJAYA') {
             return 0.7;
         } else if (attackType === 'S') {
             return 0.5;
@@ -46,6 +46,8 @@ window.fourwaypb.ata_calc.ready = function() {
             return 1.89;
         } else if (attackType === 'S') {
             return 3.32;
+        } else if (attackType === 'VJAYA') {
+            return 5.56;
         } else if (attackType === 'NONE') {
             return 0;
         }
@@ -144,7 +146,8 @@ window.fourwaypb.ata_calc.ready = function() {
                     'style': 'background: rgba(255,150,150,0.1)'
                 }).append($('<div>', {
                     'style': 'background: ' + damageBgColor + '; padding: 0.78571429em 0.78571429em; width: ' + percentDamage + '%',
-                    'text': comboDamage.toFixed(0)
+                    'text': comboDamage.toFixed(0),
+                    'title': comboDamage.toFixed(0) + '/' + enemy.hp
                 }))))
                 .append($('<td/>', {
                     'data-label': 'accuracy',

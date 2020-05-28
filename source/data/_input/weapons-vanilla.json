@@ -48,6 +48,7 @@
   {"name": "ES Blade",                "minAtp": 10,  "maxAtp": 10,  "ata": 35, "grind": 200, "comboPreset": {"attack1Hits": 2, "attack2Hits": 2, "attack3Hits": 2}},
 
   {"name": "Gungnir",          "minAtp": 150, "maxAtp": 180,   "ata": 32, "grind": 10},
+  {"name": "Vjaya",            "minAtp": 160, "maxAtp": 220,   "ata": 36, "grind": 15, "comboPreset": {"attack1": "VJAYA", "attack2": "VJAYA", "attack3": "VJAYA"}},
   {"name": "Tyrell's Parasol", "minAtp": 250, "maxAtp": 300,   "ata": 40, "grind": 0},
   {"name": "Madam's Umbrella", "minAtp": 210, "maxAtp": 280,   "ata": 40, "grind": 0},
   {"name": "Yunchang",         "minAtp": 300, "maxAtp": 350,   "ata": 49, "grind": 25},
