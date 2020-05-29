@@ -1,5 +1,84 @@
 [
 	{
+		"quest_id": "pw1",
+		"duration": "1 hour",
+		"date": "05/28/2020",
+		"is_countdown": true,
+		"season": 2,
+		"set_game": 1,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 379,
+				"score": {	
+					"wins": 1,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "mt",
+						"class": "ramarl",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "killz",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "starlord",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "nemo",
+						"class": "ramarl",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 390,
+				"score": {
+					"wins": 0,
+					"losses": 1
+				},
+				"players": [
+					{
+						"id": "cameron",
+						"class": "racast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "nohit",
+						"class": "racast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"class": "ramarl",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "shoe",
+						"class": "ramarl",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
 		"quest_id": "max_ruins",
 		"duration": "1 hour",
 		"date": "05/27/2020",
