@@ -5482,6 +5482,23 @@
 	},
 	{
 		"mode": "normal",
+		"quest_id": "su4",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
+		"time": 201,
+		"team_id": "rephlex",
+		"players": [
+			{
+				"id": "nohit",
+				"class": "hucast",
+				"video": "https://www.youtube.com/watch?v=4qBGysARAMg"
+			}
+		]
+	},
+	{
+		"mode": "normal",
 		"quest_id": "ttf",
 		"episode": 1,
 		"meta": "vanilla",
@@ -7508,6 +7525,38 @@
 			},
 			{
 				"id": "mt",
+				"class": "hucast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "christmas_fiasco_iv",
+		"episode": 4,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 1039,
+		"team_id": "",
+		"players": [
+			{
+				"id": "wilson",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "revision",
+				"class": "racast",
+				"video": ""
+			},
+			{
+				"id": "dgm",
+				"class": "fonewm",
+				"video": ""
+			},
+			{
+				"id": "sange",
 				"class": "hucast",
 				"video": ""
 			}
