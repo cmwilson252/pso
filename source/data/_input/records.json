@@ -5038,6 +5038,38 @@
 		"meta": "vanilla",
 		"category": "4p",
 		"pb": false,
+		"time": 209,
+		"team_id": null,
+		"players": [
+			{
+				"id": "starlord",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "cameron",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "nohit",
+				"class": "hunewearl",
+				"video": ""
+			},
+			{
+				"id": "revision",
+				"class": "hucast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_ruins",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
 		"time": 236,
 		"team_id": null,
 		"players": [
