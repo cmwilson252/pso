@@ -4549,6 +4549,28 @@
 		"meta": "vanilla",
 		"category": "2p",
 		"pb": true,
+		"time": 1043,
+		"team_id": "tankstelle",
+		"players": [
+			{
+				"id": "wilson",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "mt",
+				"class": "hucast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ma1c",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": true,
 		"time": 1035,
 		"team_id": "tankstelle",
 		"players": [
