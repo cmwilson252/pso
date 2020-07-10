@@ -6052,6 +6052,38 @@
 		"meta": "vanilla",
 		"category": "4p",
 		"pb": false,
+		"time": 1078,
+		"team_id": "",
+		"players": [
+			{
+				"id": "wilson",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "sange",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "shoe",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "mt",
+				"class": "ramarl",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ma2c",
+		"episode": 2,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
 		"time": 1051,
 		"team_id": "ma4b",
 		"players": [
