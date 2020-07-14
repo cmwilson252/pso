@@ -6259,11 +6259,6 @@
 		"team_id": "tankstelle",
 		"players": [
 			{
-				"id": "ender",
-				"class": "ramarl",
-				"video": ""
-			},
-			{
 				"id": "travendus",
 				"class": "hucast",
 				"video": ""
@@ -6276,6 +6271,11 @@
 			{
 				"id": "nohit",
 				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "ender",
+				"class": "ramarl",
 				"video": ""
 			}
 		]
