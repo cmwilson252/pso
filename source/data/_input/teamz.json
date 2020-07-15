@@ -1,5 +1,72 @@
 [
 	{
+		"quest_id": "su2",
+		"duration": "1 hour",
+		"date": "07/014/2020",
+		"is_countdown": false,
+		"season": 0,
+		"set_game": 0,
+		"teams": [
+			{
+				"winner": true,
+				"highlight": false,
+				"time": 399,
+				"score": {	
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "nohit",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "wilson",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "boom",
+						"class": "hunewearl",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			},
+			{
+				"winner": false,
+				"time": 385,
+				"score": {
+					"wins": 0,
+					"losses": 0
+				},
+				"players": [
+					{
+						"id": "mt",
+						"class": "hucast",
+						"is_captain": true,
+						"video": ""
+					},
+					{
+						"id": "shoe",
+						"class": "hucast",
+						"is_captain": false,
+						"video": ""
+					},
+					{
+						"id": "phelix",
+						"class": "hunewearl",
+						"is_captain": false,
+						"video": ""
+					}
+				]
+			}
+		]
+	},
+	{
 		"quest_id": "max_spaceship",
 		"duration": "1 hour",
 		"date": "06/02/2020",
