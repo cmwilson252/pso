@@ -560,6 +560,13 @@
 		"is_countdown": false
 	},
 	{
+		"id": "sacred_groundz",
+		"name": "Sacred Groundz",
+		"is_teamz_enabled": false,
+		"is_cmode": false,
+		"is_countdown":false
+	},	
+	{
 		"id": "su1",
 		"name": "Sweep-Up Operation #1",
 		"is_teamz_enabled": false,
