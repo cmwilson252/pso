@@ -75,6 +75,7 @@ window.fourwaypb.ata_calc.ready = function() {
         let a3Accuracy = calculateAccuracy(base_ata, a3Type, 1.69, modified_evp);
 
         let baseDamage = calculateBaseDamage(atpInput, enemy);
+        let damageToUse = atpInput.useMaxDamageRoll ? baseDamage.nMax : baseDamage.nMin;
 
         // Account for SN glitch - I'm assuming optimistic case where they're able to glitch
         // if the accuracy is better but not if it's worse
@@ -92,9 +93,9 @@ window.fourwaypb.ata_calc.ready = function() {
                 * Math.pow((a3Accuracy * 0.01), comboInput.a3Hits);
         overallAccuracy *= 100;
 
-        let a1Damage = getDamageModifierForAttackType(a1Type) * baseDamage.nMin;
-        let a2Damage = getDamageModifierForAttackType(a2Type) * baseDamage.nMin;
-        let a3Damage = getDamageModifierForAttackType(a3Type) * baseDamage.nMin;
+        let a1Damage = getDamageModifierForAttackType(a1Type) * damageToUse;
+        let a2Damage = getDamageModifierForAttackType(a2Type) * damageToUse;
+        let a3Damage = getDamageModifierForAttackType(a3Type) * damageToUse;
 
         let comboDamage = (a1Damage * comboInput.a1Hits) + (a2Damage * comboInput.a2Hits) + (a3Damage * comboInput.a3Hits);
         let comboKill = comboDamage > enemy.hp;
@@ -158,11 +159,16 @@ window.fourwaypb.ata_calc.ready = function() {
     }
 
     function calculateBaseDamage(atpInput, enemy) {
-        let minWeaponAtp = (atpInput.minAtp + atpInput.otherAtp) * ((atpInput.areaPercent * 0.01) + 1);
-        let maxWeaponAtp = (atpInput.maxAtp + atpInput.otherAtp) * ((atpInput.areaPercent * 0.01) + 1);
+        let areaPercent = enemy.ccaMiniboss ? 0 : atpInput.areaPercent;
+        let minWeaponAtp = (atpInput.minAtp + atpInput.otherAtp) * ((areaPercent * 0.01) + 1);
+        let maxWeaponAtp = (atpInput.maxAtp + atpInput.otherAtp) * ((areaPercent * 0.01) + 1);
         let shiftaModifier = 0;
         if (atpInput.shifta > 0) {
             shiftaModifier = ((1.3 * (atpInput.shifta - 1)) + 10) * 0.01;
+        }
+        let zalureModifier = 0;
+        if (atpInput.zalure > 0) {
+            zalureModifier = ((1.3 * (atpInput.zalure - 1)) + 10) * 0.01;
         }
         let minShiftaAtp = shiftaModifier * atpInput.baseAtp;
         let maxShiftaAtp = (shiftaModifier * atpInput.baseAtp) + ((atpInput.maxAtp - atpInput.minAtp) * shiftaModifier);
@@ -170,11 +176,13 @@ window.fourwaypb.ata_calc.ready = function() {
         let effectiveMinAtp = atpInput.baseAtp + minWeaponAtp + minShiftaAtp;
         let effectiveMaxAtp = atpInput.baseAtp + maxWeaponAtp + maxShiftaAtp;
 
-        let nMin = ((effectiveMinAtp - enemy.dfp) / 5) * 0.9;
+        let effectiveDfp = enemy.dfp * (1.0 - zalureModifier);
+
+        let nMin = ((effectiveMinAtp - effectiveDfp) / 5) * 0.9;
         if (nMin < 0) {
             nmin = 0;
         }
-        let nMax = ((effectiveMaxAtp - enemy.dfp) / 5) * 0.9;
+        let nMax = ((effectiveMaxAtp - effectiveDfp) / 5) * 0.9;
         if (nMax < 0) {
             nMax = 0;
         }
@@ -212,7 +220,9 @@ window.fourwaypb.ata_calc.ready = function() {
             maxAtp: Number($('#max_atp_input').val()),
             otherAtp: Number($('#other_atp_input').val()),
             areaPercent: Number($('#area_percent_input').val()),
-            shifta: Number($('#shifta_input').val())
+            useMaxDamageRoll: $('#max_damage_rolls').dropdown('get value') === 'true',
+            shifta: Number($('#shifta_input').val()),
+            zalure: Number($('#zalure_input').val()),
         };
 
         let comboInput = {

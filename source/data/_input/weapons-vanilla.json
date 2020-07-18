@@ -70,12 +70,17 @@
   {"name": "Black King Bar",                 "minAtp": 590,  "maxAtp": 600,  "ata": 43, "grind": 80, "comboPreset": {"attack1Hits": 2, "attack2Hits": 1, "attack3Hits": 3}},
   {"name": "Double Cannon",                  "minAtp": 620,  "maxAtp": 650,  "ata": 45, "grind": 0, "comboPreset": {"attack1Hits": 2, "attack2Hits": 1, "attack3Hits": 3}},
 
+  {"name": "Toy Hammer",                  "minAtp": 1,   "maxAtp": 400,  "ata": 53, "grind": 0},
+  {"name": "Raikiri",                     "minAtp": 550, "maxAtp": 560,  "ata": 30, "grind": 0},
+  {"name": "Orotiagito",                  "minAtp": 750, "maxAtp": 800,  "ata": 55, "grind": 0},
+  {"name": "Orotiagito & Samurai Armor",  "minAtp": 975, "maxAtp": 1040, "ata": 75, "grind": 0},
+
   {"name": "Musashi",             "minAtp": 330, "maxAtp": 350, "ata": 35, "grind": 40, "comboPreset": {"attack1Hits": 1, "attack2Hits": 2, "attack3Hits": 2}},
   {"name": "Yamato",              "minAtp": 380, "maxAtp": 390, "ata": 40, "grind": 60, "comboPreset": {"attack1Hits": 1, "attack2Hits": 2, "attack3Hits": 2}},
   {"name": "G-Assassin's Sabers", "minAtp": 350, "maxAtp": 360, "ata": 35, "grind": 25, "comboPreset": {"attack1Hits": 1, "attack2Hits": 2, "attack3Hits": 2}},
   {"name": "Asuka",               "minAtp": 560, "maxAtp": 570, "ata": 50, "grind": 30, "comboPreset": {"attack1Hits": 1, "attack2Hits": 2, "attack3Hits": 2}},
   {"name": "Sange & Yasha",       "minAtp": 640, "maxAtp": 650, "ata": 50, "grind": 30, "comboPreset": {"attack1Hits": 1, "attack2Hits": 2, "attack3Hits": 2}},
-  {"name": "Jizai",               "minAtp": 880, "maxAtp": 810, "ata": 55, "grind": 40, "comboPreset": {"attack1Hits": 1, "attack2Hits": 2, "attack3Hits": 2}},
+  {"name": "Jizai +40",           "minAtp": 880, "maxAtp": 890, "ata": 55, "grind": 0, "comboPreset": {"attack1Hits": 1, "attack2Hits": 2, "attack3Hits": 2}},
   {"name": "Jizai +40 & POSS",    "minAtp": 880, "maxAtp": 890, "ata": 85, "grind": 0, "comboPreset": {"attack1Hits": 1, "attack2Hits": 2, "attack3Hits": 2}},
   {"name": "Jizai +40 & 2xPOSS",  "minAtp": 800, "maxAtp": 890, "ata": 115, "grind": 0, "comboPreset": {"attack1Hits": 1, "attack2Hits": 2, "attack3Hits": 2}},
   {"name": "TypeSS/Swords",       "minAtp": 150, "maxAtp": 150, "ata": 45, "grind": 125, "comboPreset": {"attack1Hits": 1, "attack2Hits": 2, "attack3Hits": 2}},
