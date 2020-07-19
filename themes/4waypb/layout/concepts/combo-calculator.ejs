@@ -213,13 +213,10 @@
                     <label>Accuracy (SN) Glitch</label>
                 </div>
             </div>
-            <div id="max_damage_rolls" class="ui compact inverted selection dropdown">
-                <input id="max_damage_rolls_input" type="hidden" name="max_damage_rolls" value="false">
-                <i class="dropdown icon"></i>
-                <div class="default text"></div>
-                <div class="menu">
-                    <div class="item" data-value="false">Min Damage</div>
-                    <div class="item" data-value="true">Max Damage</div>
+            <div class="three wide column">
+                <div id="opm" class="ui inverted fluid checkbox">
+                    <input id="opm_checkbox" type="checkbox" name="opm">
+                    <label>One Player Mode</label>
                 </div>
             </div>
             <div class="three wide column">
@@ -290,6 +287,17 @@
                 <button class="ui inverted fluid button" id="calculate">
                     Calculate
                 </button>
+            </div>
+            <div class="three wide column">
+                <div id="max_damage_rolls" class="ui compact inverted selection dropdown">
+                    <input id="max_damage_rolls_input" type="hidden" name="max_damage_rolls" value="false">
+                    <i class="dropdown icon"></i>
+                    <div class="default text"></div>
+                    <div class="menu">
+                        <div class="item" data-value="false">Min Damage</div>
+                        <div class="item" data-value="true">Max Damage</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -46,6 +46,11 @@ hexo.extend.filter.register('after_init', function(){
         output: path.join(output_data_dir, 'enemies-vanilla-multi.json'),
         data: null,
     }
+    let vanillaOpmEnemies = {
+        input: path.join(input_data_dir, 'enemies-vanilla-opm.json'),
+        output: path.join(output_data_dir, 'enemies-vanilla-opm.json'),
+        data: null,
+    }
     
     // Read file and parse it as JSON
     function readJsonFile(path) {
@@ -144,6 +149,12 @@ hexo.extend.filter.register('after_init', function(){
     vanillaMultiplayerEnemies.data = readJsonFile(vanillaMultiplayerEnemies.input);
     if (vanillaMultiplayerEnemies.data == null) {
         let error = 'Could not load vanilla multiplayer enemies';
+        console.log(error);
+        throw error;
+    }
+    vanillaOpmEnemies.data = readJsonFile(vanillaOpmEnemies.input);
+    if (vanillaOpmEnemies.data == null) {
+        let error = 'Could not load vanilla opm enemies';
         console.log(error);
         throw error;
     }
@@ -379,6 +390,15 @@ hexo.extend.filter.register('after_init', function(){
     } else {
         console.log('Generated '+vanillaMultiplayerEnemies.output);
     }
+
+    if (writeFile(vanillaOpmEnemies.output, JSON.stringify(vanillaOpmEnemies.data)) == false) {
+        let error = 'Could not write vanilla opm enemies file';
+        console.log(error);
+        throw error;
+    } else {
+        console.log('Generated '+vanillaOpmEnemies.output);
+    }
+    
     
     console.log('Finish make_json.js');
 });

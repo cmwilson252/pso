@@ -3,7 +3,8 @@ window.fourwaypb.ata_calc = window.fourwaypb.ata_calc || {};
 
 window.fourwaypb.ata_calc.ready = function() {
     let enemies = [];
-    let enemiesByName = {};
+    let enemiesByNameMulti = {};
+    let enemiesByNameOpm = {};
     let weapons = [];
     let weaponsByName = {};
     let classStats = {
@@ -213,6 +214,7 @@ window.fourwaypb.ata_calc.ready = function() {
         let snGlitch = $('#sn_glitch_checkbox').is(":checked");
         let base_ata = $('#ata_input').val();
         let evpModifier = getEvpModifier(frozen, paralyzed);
+        let opm = $('#opm_checkbox').is(":checked");
 
         let atpInput = {
             baseAtp: Number($('#base_atp_input').val()),
@@ -231,6 +233,8 @@ window.fourwaypb.ata_calc.ready = function() {
             a3Hits: Number($('#hits3').dropdown('get value')),
         }
 
+        let enemiesByName = opm ? enemiesByNameOpm : enemiesByNameMulti;
+
         $('#accuracy_table_body').empty()
         let enemyValues = $('#enemy').dropdown('get values');
         if (!!enemyValues) {
@@ -248,8 +252,8 @@ window.fourwaypb.ata_calc.ready = function() {
             enemyValues = [];
         }
 
-        for (var enemyName in enemiesByName) {
-            if (!enemyValues.includes(enemyName) && enemiesByName[enemyName].type === enemyType) {
+        for (var enemyName in enemiesByNameMulti) {
+            if (!enemyValues.includes(enemyName) && enemiesByNameMulti[enemyName].type === enemyType) {
                 enemyValues.push(enemyName);
             }
         }
@@ -263,8 +267,8 @@ window.fourwaypb.ata_calc.ready = function() {
             enemyValues = [];
         }
 
-        for (var enemyName in enemiesByName) {
-            if (!enemyValues.includes(enemyName) && enemiesByName[enemyName].location === location) {
+        for (var enemyName in enemiesByNameMulti) {
+            if (!enemyValues.includes(enemyName) && enemiesByNameMulti[enemyName].location === location) {
                 enemyValues.push(enemyName);
             }
         }
@@ -317,6 +321,17 @@ window.fourwaypb.ata_calc.ready = function() {
         applyPreset();
     }
 
+    getJSON5(url_for('data/enemies-vanilla-opm.json'), (function(data) {
+        data.forEach(function (enemy) {
+            enemyNameWithLocation = enemy.name + "_" + enemy.location;
+            enemiesByNameOpm[enemyNameWithLocation] = enemy;
+        });
+        console.log("finished opm", Object.keys(enemiesByNameMulti).length)
+        if (Object.keys(enemiesByNameMulti).length > 0) {
+            $('#enemy').removeClass('loading');
+        }
+    }));
+
     getJSON5(url_for('data/enemies-vanilla-multi.json'), (function(data) {
         data.forEach(function (enemy) {
             enemyNameWithLocation = enemy.name + "_" + enemy.location;
@@ -324,12 +339,15 @@ window.fourwaypb.ata_calc.ready = function() {
                 name: enemy.name + " (" + enemy.location + ")",
                 value: enemyNameWithLocation
             })
-            enemiesByName[enemyNameWithLocation] = enemy;
+            enemiesByNameMulti[enemyNameWithLocation] = enemy;
         });
         $('#enemy').dropdown({
             values: enemies,
         });
-        $('#enemy').removeClass('loading');
+        console.log("finished multi", Object.keys(enemiesByNameOpm).length)
+        if (Object.keys(enemiesByNameOpm).length > 0) {
+            $('#enemy').removeClass('loading');
+        }
     }));
 
     getJSON5(url_for('data/weapons-vanilla.json'), (function(data) {

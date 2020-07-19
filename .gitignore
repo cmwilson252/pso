@@ -8,6 +8,7 @@ public/
 
 .vscode
 source/data/enemies-vanilla-multi.json
+source/data/enemies-vanilla-opm.json
 source/data/players.json
 source/data/quests.json
 source/data/records.json
