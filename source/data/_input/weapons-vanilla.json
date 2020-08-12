@@ -125,6 +125,9 @@
   {"name": "ES Shot",         "minAtp": 10,  "maxAtp": 10, 	  "ata": 40, "grind": 125},
   {"name": "ES Bazooka",      "minAtp": 10,  "maxAtp": 10, 	  "ata": 40, "grind": 250},
 
-  {"name": "Cannon Rouge",     "minAtp": 600, "maxAtp": 750, "ata": 45, "grind": 30, "comboPreset": {"attack1Hits": 1, "attack2": "NONE", "attack3": "NONE"}}
+  {"name": "Cannon Rouge",     "minAtp": 600, "maxAtp": 750, "ata": 45, "grind": 30, "comboPreset": {"attack1Hits": 1, "attack2": "NONE", "attack3": "NONE"}},
+
+  {"name": "Guardianna",       "minAtp": 200,  "maxAtp": 280, "ata": 40, "grind": 9, "comboPreset": {"attack1Hits": 1, "attack2Hits": 1, "attack3Hits": 3}}
+
 
 ]
