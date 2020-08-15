@@ -709,6 +709,38 @@
 	},
 	{
 		"mode": "normal",
+		"quest_id": "christmas_fiasco_i",
+		"episode": 1,
+		"meta": "ultima",
+		"category": "4p",
+		"pb": false,
+		"time": 1218,
+		"team_id": "univers_ps",
+		"players": [
+			{
+				"id": "shiida",
+				"class": "racast",
+				"video": "https://www.youtube.com/watch?v=fxGvtAYkgZ4&feature=emb_title"
+			},
+			{
+				"id": "noudle",
+				"class": "racast",
+				"video": ""
+			},
+			{
+				"id": "3psy",
+				"class": "racast",
+				"video": ""
+			},
+			{
+				"id": "noopy",
+				"class": "racast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
 		"quest_id": "harmony_of_despair_ii",
 		"episode": 1,
 		"meta": "ultima",
@@ -1389,6 +1421,38 @@
 		"episode": 2,
 		"meta": "ultima",
 		"category": "4p",
+		"pb": false,
+		"time": 235,
+		"team_id": "univers_ps",
+		"players": [
+			{
+				"id": "shiida",
+				"class": "racast",
+				"video": "https://www.youtube.com/watch?v=FTnduLItHfU&feature=emb_title"
+			},
+			{
+				"id": "noudle",
+				"class": "racast",
+				"video": ""
+			},
+			{
+				"id": "3psy",
+				"class": "racast",
+				"video": ""
+			},
+			{
+				"id": "noopy",
+				"class": "racast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "cals_clock_challenge",
+		"episode": 2,
+		"meta": "ultima",
+		"category": "4p",
 		"pb": true,
 		"time": 175,
 		"team_id": "chosen_few",
@@ -1665,6 +1729,38 @@
 		"players": [
 			{
 				"id": "lipelis",
+				"class": "racast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "row",
+		"episode": 4,
+		"meta": "ultima",
+		"category": "4p",
+		"pb": false,
+		"time": 307,
+		"team_id": "univers_ps",
+		"players": [
+			{
+				"id": "shiida",
+				"class": "racast",
+				"video": "https://www.youtube.com/watch?v=7HT_HsR99P8&feature=emb_title"
+			},
+			{
+				"id": "noudle",
+				"class": "racast",
+				"video": ""
+			},			
+			{
+				"id": "3psy",
+				"class": "racast",
+				"video": ""
+			},
+			{
+				"id": "noopy",
 				"class": "racast",
 				"video": ""
 			}
@@ -7482,6 +7578,38 @@
 			},
 			{
 				"id": "sange",
+				"class": "fonewm",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "su12",
+		"episode": 4,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 562,
+		"team_id": null,
+		"players": [
+			{
+				"id": "mt",
+				"class": "racast",
+				"video": ""
+			},
+			{
+				"id": "nohit",
+				"class": "hucast",
+				"video": "https://www.twitch.tv/videos/710815496"
+			},
+			{
+				"id": "phelix",
+				"class": "hucast",
+				"video": "https://www.youtube.com/watch?v=yROoEZ0z9To&feature=youtu.be"
+			},
+			{
+				"id": "revision",
 				"class": "fonewm",
 				"video": ""
 			}

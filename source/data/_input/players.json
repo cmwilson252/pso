@@ -1314,6 +1314,36 @@
 		}
 	},
 	{
+		"id": "ddd",
+		"name": "DewDaDash",
+		"image": "images/players/",
+		"classes": [
+			"hucast",
+			""
+		],
+		"metas": [
+			"Vanilla"
+		],
+		"team_ids": [],
+		"timezone": "EST",
+		"card_content": [],
+		"page_content": [],
+		"discord": "DewDaDash#6603",
+		"twitter": "DewDaDash",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "roulettessb",
+			"url": "https://www.twitch.tv/roulettessb"
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "a_man_in_flames",
 		"name": "A Man in Flames",
 		"image": "images/player.png",
@@ -2889,6 +2919,31 @@
 		}
 	},
 	{
+		"id": "noopy",
+		"name": "Noopy",
+		"image": "images/player.png",
+		"classes": [],
+		"metas": [],
+		"team_ids": [],
+		"timezone": "",
+		"card_content": [],
+		"page_content": [],
+		"discord": "",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "oberon",
 		"name": "Oberon",
 		"image": "images/player.png",
@@ -3616,6 +3671,31 @@
 	{
 		"id": "zynetic",
 		"name": "Zynetic",
+		"image": "images/player.png",
+		"classes": [],
+		"metas": [],
+		"team_ids": [],
+		"timezone": "",
+		"card_content": [],
+		"page_content": [],
+		"discord": "",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "3psy",
+		"name": "3Psy",
 		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
