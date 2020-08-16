@@ -5647,6 +5647,28 @@
 	},
 	{
 		"mode": "normal",
+		"quest_id": "su4",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": true,
+		"time": 322,
+		"team_id": "rephlex",
+		"players": [
+			{
+				"id": "nohit",
+				"class": "hucast",
+				"video": "https://www.twitch.tv/videos/700915704"
+			},
+			{
+				"id": "phelix",
+				"class": "hucast",
+				"video": "https://www.youtube.com/watch?v=MhVZj32Mw0E"
+			}
+		]
+	},
+	{
+		"mode": "normal",
 		"quest_id": "ttf",
 		"episode": 1,
 		"meta": "vanilla",
