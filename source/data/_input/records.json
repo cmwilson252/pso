@@ -7612,7 +7612,7 @@
 		"meta": "vanilla",
 		"category": "4p",
 		"pb": false,
-		"time": 562,
+		"time": 591,
 		"team_id": null,
 		"players": [
 			{
@@ -7623,12 +7623,12 @@
 			{
 				"id": "nohit",
 				"class": "hucast",
-				"video": "https://www.twitch.tv/videos/710815496"
+				"video": "https://www.twitch.tv/videos/712686730?t=2h15m18s"
 			},
 			{
 				"id": "phelix",
 				"class": "hucast",
-				"video": "https://www.youtube.com/watch?v=yROoEZ0z9To&feature=youtu.be"
+				"video": "https://www.youtube.com/watch?v=IH26urDgcjE"
 			},
 			{
 				"id": "revision",
