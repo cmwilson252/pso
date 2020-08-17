@@ -91,6 +91,14 @@
   {"name": "Last Swan",        "minAtp": 80,  "maxAtp": 90,  "ata": 32, "grind": 9, "comboPreset": {"attack1Hits": 3, "attack2Hits": 3, "attack3Hits": 3}},
   {"name": "Heaven Striker",   "minAtp": 550, "maxAtp": 600, "ata": 55, "grind": 20},
 
+  {"name": "Laser",           "minAtp": 200, "maxAtp": 210, "ata": 50, "grind": 25},
+  {"name": "Spread Needle",   "minAtp": 1,   "maxAtp": 110, "ata": 40, "grind": 40},
+  {"name": "Bringer's Rifle", "minAtp": 330, "maxAtp": 370, "ata": 63, "grind": 9},
+  {"name": "Frozen Shooter",  "minAtp": 240, "maxAtp": 250, "ata": 60, "grind": 9},
+  {"name": "Snow Queen",      "minAtp": 330, "maxAtp": 350, "ata": 60, "grind": 18, "comboPreset": {"attack2": "NONE", "attack3": "NONE"}},
+  {"name": "Holy Ray",        "minAtp": 290, "maxAtp": 300, "ata": 70, "grind": 40},
+  {"name": "ES Needle",       "minAtp": 10,  "maxAtp": 10,  "ata": 40, "grind": 70},
+
   {"name": "Mechgun",         "minAtp": 2,   "maxAtp": 4,   "ata": 0,  "grind": 9, "comboPreset": {"attack1Hits": 3, "attack2Hits": 3, "attack3Hits": 3}},
   {"name": "Assault",         "minAtp": 5,   "maxAtp": 8,   "ata": 3,  "grind": 9, "comboPreset": {"attack1Hits": 3, "attack2Hits": 3, "attack3Hits": 3}},
   {"name": "Repeater",        "minAtp": 5,   "maxAtp": 12,  "ata": 6,  "grind": 9, "comboPreset": {"attack1Hits": 3, "attack2Hits": 3, "attack3Hits": 3}},
