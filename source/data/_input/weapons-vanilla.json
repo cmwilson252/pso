@@ -51,7 +51,10 @@
   {"name": "Vjaya",            "minAtp": 160, "maxAtp": 220,   "ata": 36, "grind": 15, "comboPreset": {"attack1": "VJAYA", "attack2": "VJAYA", "attack3": "VJAYA"}},
   {"name": "Tyrell's Parasol", "minAtp": 250, "maxAtp": 300,   "ata": 40, "grind": 0},
   {"name": "Madam's Umbrella", "minAtp": 210, "maxAtp": 280,   "ata": 40, "grind": 0},
+  {"name": "Asteron Belt",     "minAtp": 380, "maxAtp": 400,   "ata": 55, "grind": 9},
   {"name": "Yunchang",         "minAtp": 300, "maxAtp": 350,   "ata": 49, "grind": 25},
+  {"name": "ES Partisan",      "minAtp": 10,  "maxAtp": 10,    "ata": 40, "grind": 200},
+  {"name": "ES Scythe",        "minAtp": 10,  "maxAtp": 10,    "ata": 40, "grind": 180},
 
   {"name": "Diska",                        "minAtp": 85,  "maxAtp": 105, "ata": 25, "grind": 25},
   {"name": "Diska of Braveman",            "minAtp": 150, "maxAtp": 167, "ata": 31, "grind": 9},
