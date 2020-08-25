@@ -66,6 +66,7 @@
   {"name": "ES Slicer",                    "minAtp": 10,  "maxAtp": 10,  "ata": 35, "grind": 140},
   {"name": "ES J-Cutter",                  "minAtp": 25,  "maxAtp": 25,  "ata": 35, "grind": 150},
 
+  {"name": "Demolition Comet",               "minAtp": 530,  "maxAtp": 530,  "ata": 38, "grind": 25, "comboPreset": {"attack1Hits": 2, "attack2Hits": 1, "attack3Hits": 3}},
   {"name": "Girasole",                       "minAtp": 500,  "maxAtp": 550,  "ata": 50, "grind": 0, "comboPreset": {"attack1Hits": 2, "attack2Hits": 1, "attack3Hits": 3}},
   {"name": "Twin Blaze",                     "minAtp": 300,  "maxAtp": 520,  "ata": 40, "grind": 9, "comboPreset": {"attack1Hits": 2, "attack2Hits": 1, "attack3Hits": 3}},
   {"name": "Meteor Cudgel",                  "minAtp": 300,  "maxAtp": 560,  "ata": 42, "grind": 15, "comboPreset": {"attack1Hits": 2, "attack2Hits": 1, "attack3Hits": 3}},
