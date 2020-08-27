@@ -73,6 +73,7 @@
   {"name": "Vivienne",                       "minAtp": 575,  "maxAtp": 590,  "ata": 49, "grind": 50, "comboPreset": {"attack1Hits": 2, "attack2Hits": 1, "attack3Hits": 3}},
   {"name": "Black King Bar",                 "minAtp": 590,  "maxAtp": 600,  "ata": 43, "grind": 80, "comboPreset": {"attack1Hits": 2, "attack2Hits": 1, "attack3Hits": 3}},
   {"name": "Double Cannon",                  "minAtp": 620,  "maxAtp": 650,  "ata": 45, "grind": 0, "comboPreset": {"attack1Hits": 2, "attack2Hits": 1, "attack3Hits": 3}},
+  {"name": "ES Twin",                        "minAtp": 50,   "maxAtp": 50,   "ata": 40, "grind": 250, "comboPreset": {"attack1Hits": 2, "attack2Hits": 1, "attack3Hits": 3}},
 
   {"name": "Toy Hammer",                  "minAtp": 1,   "maxAtp": 400,  "ata": 53, "grind": 0},
   {"name": "Raikiri",                     "minAtp": 550, "maxAtp": 560,  "ata": 30, "grind": 0},
@@ -139,7 +140,8 @@
 
   {"name": "Cannon Rouge",     "minAtp": 600, "maxAtp": 750, "ata": 45, "grind": 30, "comboPreset": {"attack1Hits": 1, "attack2": "NONE", "attack3": "NONE"}},
 
-  {"name": "Guardianna",       "minAtp": 200,  "maxAtp": 280, "ata": 40, "grind": 9, "comboPreset": {"attack1Hits": 1, "attack2Hits": 1, "attack3Hits": 3}}
+  {"name": "Guardianna",       "minAtp": 200,  "maxAtp": 280, "ata": 40, "grind": 9, "comboPreset": {"attack1Hits": 1, "attack2Hits": 1, "attack3Hits": 3}},
+  {"name": "ES Cards",         "minAtp": 10,   "maxAtp": 10,  "ata": 45, "grind": 150, "comboPreset": {"attack1Hits": 1, "attack2Hits": 1, "attack3Hits": 3}}
 
 
 ]
