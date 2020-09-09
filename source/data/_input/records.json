@@ -5777,7 +5777,7 @@
 		"category": "1p",
 		"pb": false,
 		"time": 616,
-		"team_id": "Tankstelle",
+		"team_id": "tankstelle",
 		"players": [
 			{
 				"id": "sange",
@@ -7487,6 +7487,23 @@
 			},
 			{
 				"id": "venom",
+				"class": "fonewm",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_desert",
+		"episode": 4,
+		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
+		"time": 342,
+		"team_id": "tankstelle",
+		"players": [
+			{
+				"id": "ender",
 				"class": "fonewm",
 				"video": ""
 			}
