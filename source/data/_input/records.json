@@ -5674,13 +5674,13 @@
 		"meta": "vanilla",
 		"category": "opm",
 		"pb": false,
-		"time": 508,
+		"time": 488,
 		"team_id": "tankstelle",
 		"players": [
 			{
 				"id": "sange",
-				"class": "hunewearl",
-				"video": "https://www.youtube.com/watch?v=nVltmlrIMLY"
+				"class": "humar",
+				"video": "https://youtu.be/9-D9DsbI3KQ"
 			}
 		]
 	},
