@@ -4528,6 +4528,38 @@
 		"quest_id": "ma1b",
 		"episode": 1,
 		"meta": "vanilla",
+		"category": "4p",
+		"pb": true,
+		"time": 1286,
+		"team_id": null,
+		"players": [
+			{
+				"id": "wilson",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "mt",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "sange",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "shoe",
+				"class": "hucast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ma1b",
+		"episode": 1,
+		"meta": "vanilla",
 		"category": "opm",
 		"pb": false,
 		"time": 862,
