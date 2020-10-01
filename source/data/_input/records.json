@@ -4873,6 +4873,23 @@
 		"meta": "vanilla",
 		"category": "opm",
 		"pb": false,
+		"time": 279,
+		"team_id": "rephlex",
+		"players": [
+			{
+				"id": "nohit",
+				"class": "ramar",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_caves",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
 		"time": 280,
 		"team_id": "tankstelle",
 		"players": [
@@ -6342,6 +6359,23 @@
 				"id": "cameron",
 				"class": "racast",
 				"video": "https://youtu.be/0ocg5NMqg70"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_temple",
+		"episode": 2,
+		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
+		"time": 339,
+		"team_id": "rephlex",
+		"players": [
+			{
+				"id": "nohit",
+				"class": "ramar",
+				"video": ""
 			}
 		]
 	},
