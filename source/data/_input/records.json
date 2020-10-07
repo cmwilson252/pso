@@ -940,6 +940,23 @@
 	},
 	{
 		"mode": "normal",
+		"quest_id": "mas",
+		"episode": 2,
+		"meta": "ultima",
+		"category": "1p",
+		"pb": false,
+		"time": 363,
+		"team_id": "univers-ps",
+		"players": [
+			{
+				"id": "noudle",
+				"class": "ramarl",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
 		"quest_id": "max_seabed",
 		"episode": 2,
 		"meta": "ultima",
