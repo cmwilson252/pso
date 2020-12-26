@@ -142,6 +142,7 @@
 
   {"name": "Cannon Rouge",     "minAtp": 600, "maxAtp": 750, "ata": 45, "grind": 30, "comboPreset": {"attack1Hits": 1, "attack2": "NONE", "attack3": "NONE"}},
 
+  {"name": "Gal Wind",         "minAtp": 270,  "maxAtp": 310, "ata": 40, "grind": 15, "comboPreset": {"attack1Hits": 1, "attack2Hits": 1, "attack3Hits": 3}},
   {"name": "Guardianna",       "minAtp": 200,  "maxAtp": 280, "ata": 40, "grind": 9, "comboPreset": {"attack1Hits": 1, "attack2Hits": 1, "attack3Hits": 3}},
   {"name": "ES Cards",         "minAtp": 10,   "maxAtp": 10,  "ata": 45, "grind": 150, "comboPreset": {"attack1Hits": 1, "attack2Hits": 1, "attack3Hits": 3}}
 
