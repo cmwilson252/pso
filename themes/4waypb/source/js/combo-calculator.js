@@ -162,7 +162,7 @@ window.fourwaypb.ata_calc.ready = function() {
     function calculateBaseDamage(atpInput, enemy) {
         let areaPercent = enemy.ccaMiniboss ? 0 : atpInput.areaPercent;
         let minWeaponAtp = (atpInput.minAtp + atpInput.otherAtp) * ((areaPercent * 0.01) + 1);
-        let maxWeaponAtp = (atpInput.maxAtp + atpInput.otherAtp) * ((areaPercent * 0.01) + 1);
+        let maxWeaponAtp = minWeaponAtp + (atpInput.maxAtp - atpInput.minAtp);
         let shiftaModifier = 0;
         if (atpInput.shifta > 0) {
             shiftaModifier = ((1.3 * (atpInput.shifta - 1)) + 10) * 0.01;
