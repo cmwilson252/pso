@@ -8598,6 +8598,28 @@
 		"meta": "gamecube",
 		"category": "2p",
 		"pb": false,
+		"time": 532,
+		"team_id": null,
+		"players": [
+			{
+				"id": "mt",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "armand",
+				"class": "ramarl",
+				"video": "https://www.twitch.tv/videos/910764184"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "christmas_fiasco_ii",
+		"episode": 2,
+		"meta": "gamecube",
+		"category": "2p",
+		"pb": false,
 		"time": 3,
 		"team_id": null,
 		"players": [
