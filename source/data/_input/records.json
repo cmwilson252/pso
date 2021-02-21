@@ -5562,13 +5562,13 @@
 		"meta": "vanilla",
 		"category": "opm",
 		"pb": false,
-		"time": 134,
+		"time": 140,
 		"team_id": "tankstelle",
 		"players": [
 			{
-				"id": "stevecares",
-				"class": "fonewm",
-				"video": "https://youtu.be/Ji325voVtjw"
+				"id": "sange",
+				"class": "hucast",
+				"video": "https://www.youtube.com/watch?v=CQEDFsUWi_A"
 			}
 		]
 	},
@@ -5579,13 +5579,13 @@
 		"meta": "vanilla",
 		"category": "opm",
 		"pb": false,
-		"time": 129,
+		"time": 134,
 		"team_id": "tankstelle",
 		"players": [
 			{
-				"id": "sange",
-				"class": "hucast",
-				"video": "https://www.youtube.com/watch?v=9RktnYHnssk&list=PLGFvsEsFgHliakLlr99KhRPUvrHEG_s5M&index=16&t=0s"
+				"id": "stevecares",
+				"class": "fonewm",
+				"video": "https://youtu.be/Ji325voVtjw"
 			}
 		]
 	},
@@ -8151,6 +8151,28 @@
 			{
 				"id": "armand",
 				"class": "fonewm",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "mu3",
+		"episode": 1,
+		"meta": "gamecube",
+		"category": "2p",
+		"pb": false,
+		"time": 120,
+		"team_id": null,
+		"players": [
+			{
+				"id": "armand",
+				"class": "ramarl",
+				"video": ""
+			},
+			{
+				"id": "wilson",
+				"class": "hucast",
 				"video": ""
 			}
 		]
