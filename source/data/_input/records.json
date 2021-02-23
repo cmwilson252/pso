@@ -8530,6 +8530,28 @@
 	},
 	{
 		"mode": "normal",
+		"quest_id": "ma2c",
+		"episode": 2,
+		"meta": "gamecube",
+		"category": "2p",
+		"pb": false,
+		"time": 405,
+		"team_id": null,
+		"players": [
+			{
+				"id": "masakari",
+				"class": "ramarl",
+				"video": ""
+			},
+			{
+				"id": "lucifer",
+				"class": "racast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
 		"quest_id": "ma2",
 		"episode": 2,
 		"meta": "gamecube",
@@ -8632,6 +8654,28 @@
 				"id": "armand",
 				"class": "ramarl",
 				"video": "https://www.twitch.tv/videos/910764184"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "christmas_fiasco_ii",
+		"episode": 2,
+		"meta": "gamecube",
+		"category": "2p",
+		"pb": false,
+		"time": 325,
+		"team_id": null,
+		"players": [
+			{
+				"id": "masakari",
+				"class": "ramarl",
+				"video": ""
+			},
+			{
+				"id": "lucifer",
+				"class": "racast",
+				"video": ""
 			}
 		]
 	},

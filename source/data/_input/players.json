@@ -2594,6 +2594,31 @@
 		}
 	},
 	{
+		"id": "lucifer",
+		"name": "LUCIFER",
+		"image": "images/player.png",
+		"classes": [],
+		"metas": [],
+		"team_ids": [],
+		"timezone": "",
+		"card_content": [],
+		"page_content": [],
+		"discord": "",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "mumu",
 		"name": "MUMU",
 		"image": "images/player.png",
@@ -2621,6 +2646,31 @@
 	{
 		"id": "marcia",
 		"name": "Marcia",
+		"image": "images/player.png",
+		"classes": [],
+		"metas": [],
+		"team_ids": [],
+		"timezone": "",
+		"card_content": [],
+		"page_content": [],
+		"discord": "",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "masakari",
+		"name": "MASAKARI",
 		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
