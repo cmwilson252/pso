@@ -8803,6 +8803,38 @@
 		"mode": "challenge",
 		"quest_id": "1c1",
 		"episode": 1,
+		"meta": "gamecube",
+		"category": "4p",
+		"pb": false,
+		"time": 398,
+		"team_id": null,
+		"players": [
+			{
+				"id": "swooness",
+				"class": "fonewearl",
+				"video": ""
+			},
+			{
+				"id": "flash",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "fermion",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "lufeliz",
+				"class": "hucast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c1",
+		"episode": 1,
 		"meta": "vanilla",
 		"category": "2p",
 		"pb": false,
