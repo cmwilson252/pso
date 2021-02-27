@@ -8836,6 +8836,38 @@
 		"quest_id": "1c1",
 		"episode": 1,
 		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 493,
+		"team_id": null,
+		"players": [
+			{
+				"id": "spuz",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "muffet",
+				"class": "hucaseal",
+				"video": ""
+			},
+			{
+				"id": "schranko",
+				"class": "fonewearl",
+				"video": ""
+			},
+			{
+				"id": "arsuru",
+				"class": "humar",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c1",
+		"episode": 1,
+		"meta": "vanilla",
 		"category": "2p",
 		"pb": false,
 		"time": 479,
@@ -8887,7 +8919,7 @@
 		"players": [
 			{
 				"id": "blue_world",
-				"class": "hucasT",
+				"class": "hucast",
 				"video": ""
 			},
 			{
