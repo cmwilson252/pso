@@ -8946,6 +8946,38 @@
 		"meta": "vanilla",
 		"category": "4p",
 		"pb": false,
+		"time": 1376,
+		"team_id": null,
+		"players": [
+			{
+				"id": "schranko",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "muffet",
+				"class": "hucaseal",
+				"video": ""
+			},
+			{
+				"id": "spuz",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "ender",
+				"class": "fonewearl",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c2",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
 		"time": 1382,
 		"team_id": null,
 		"players": [
@@ -9022,6 +9054,38 @@
 		"meta": "vanilla",
 		"category": "4p",
 		"pb": false,
+		"time": 1191,
+		"team_id": null,
+		"players": [
+			{
+				"id": "schranko",
+				"class": "racast",
+				"video": ""
+			},
+			{
+				"id": "spuz",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "nohit",
+				"class": "fonewm",
+				"video": ""
+			},
+			{
+				"id": "gsc",
+				"class": "fonewearl",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c3",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
 		"time": 1341,
 		"team_id": null,
 		"players": [
@@ -9043,6 +9107,38 @@
 			{
 				"id": "aerilas",
 				"class": "fonewearl",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c3",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 1393,
+		"team_id": null,
+		"players": [
+			{
+				"id": "schranko",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "muffet",
+				"class": "hucaseal",
+				"video": ""
+			},
+			{
+				"id": "ender",
+				"class": "fonewearl",
+				"video": ""
+			},
+			{
+				"id": "spuz",
+				"class": "hucast",
 				"video": ""
 			}
 		]
@@ -9192,6 +9288,70 @@
 		"quest_id": "1c4",
 		"episode": 1,
 		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 1551,
+		"team_id": null,
+		"players": [
+			{
+				"id": "schranko",
+				"class": "racast",
+				"video": ""
+			},
+			{
+				"id": "spuz",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "gsc",
+				"class": "fonewearl",
+				"video": ""
+			},
+			{
+				"id": "nohit",
+				"class": "fonewm",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c4",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 1561,
+		"team_id": null,
+		"players": [
+			{
+				"id": "schranko",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "spuz",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "ender",
+				"class": "fonewearl",
+				"video": ""
+			},
+			{
+				"id": "muffet",
+				"class": "hucaseal",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c4",
+		"episode": 1,
+		"meta": "vanilla",
 		"category": "2p",
 		"pb": false,
 		"time": 1581,
@@ -9204,6 +9364,28 @@
 			},
 			{
 				"id": "capn",
+				"class": "hucast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c4",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
+		"time": 1715,
+		"team_id": null,
+		"players": [
+			{
+				"id": "cameron",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "spuz",
 				"class": "hucast",
 				"video": ""
 			}
@@ -9322,6 +9504,38 @@
 		"quest_id": "1c5",
 		"episode": 1,
 		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 1199,
+		"team_id": null,
+		"players": [
+			{
+				"id": "schranko",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "spuz",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "muffet",
+				"class": "hucaseal",
+				"video": ""
+			},
+			{
+				"id": "ender",
+				"class": "fonewearl",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c5",
+		"episode": 1,
+		"meta": "vanilla",
 		"category": "2p",
 		"pb": false,
 		"time": 1183,
@@ -9368,6 +9582,38 @@
 		"meta": "vanilla",
 		"category": "4p",
 		"pb": false,
+		"time": 1461,
+		"team_id": null,
+		"players": [
+			{
+				"id": "schranko",
+				"class": "racast",
+				"video": ""
+			},
+			{
+				"id": "spuz",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "nohit",
+				"class": "fonewm",
+				"video": ""
+			},
+			{
+				"id": "gsc",
+				"class": "fonewearl",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c6",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
 		"time": 1563,
 		"team_id": null,
 		"players": [
@@ -9388,6 +9634,38 @@
 			},
 			{
 				"id": "vex",
+				"class": "fonewearl",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c6",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 1875,
+		"team_id": null,
+		"players": [
+			{
+				"id": "schranko",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "spuz",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "muffet",
+				"class": "hucaseal",
+				"video": ""
+			},
+			{
+				"id": "ender",
 				"class": "fonewearl",
 				"video": ""
 			}
@@ -9734,6 +10012,70 @@
 		"meta": "vanilla",
 		"category": "4p",
 		"pb": false,
+		"time": 2044,
+		"team_id": null,
+		"players": [
+			{
+				"id": "spuz",
+				"class": "ramar",
+				"video": ""
+			},
+			{
+				"id": "cameron",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "nohit",
+				"class": "fonewm",
+				"video": ""
+			},
+			{
+				"id": "schranko",
+				"class": "hucast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c9",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 2051,
+		"team_id": null,
+		"players": [
+			{
+				"id": "spuz",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "cameron",
+				"class": "racast",
+				"video": ""
+			},
+			{
+				"id": "wilute",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "schranko",
+				"class": "fonewearl",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c9",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
 		"time": 2094,
 		"team_id": null,
 		"players": [
@@ -9755,6 +10097,38 @@
 			{
 				"id": "roo",
 				"class": "hucaseal",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c9",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 2051,
+		"team_id": null,
+		"players": [
+			{
+				"id": "spuz",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "muffet",
+				"class": "hucaseal",
+				"video": ""
+			},
+			{
+				"id": "schranko",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "ender",
+				"class": "fonewearl",
 				"video": ""
 			}
 		]
@@ -10062,6 +10436,38 @@
 			{
 				"id": "daisuri",
 				"class": "fonewearl",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "2c2",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 1757,
+		"team_id": null,
+		"players": [
+			{
+				"id": "spuz",
+				"class": "hucaseal",
+				"video": ""
+			},
+			{
+				"id": "cameron",
+				"class": "fonewm",
+				"video": ""
+			},
+			{
+				"id": "nohit",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "schranko",
+				"class": "hucast",
 				"video": ""
 			}
 		]
