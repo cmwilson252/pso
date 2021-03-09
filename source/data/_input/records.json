@@ -6255,7 +6255,7 @@
 			{
 				"id": "mt",
 				"class": "ramarl",
-				"video": ""
+				"video": "https://www.twitch.tv/videos/684032533"
 			}
 		]
 	},
@@ -7102,12 +7102,12 @@
 			{
 				"id": "wilson",
 				"class": "hucast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=mwqplt5ot1A"
 			},
 			{
 				"id": "phelix",
 				"class": "ramarl",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=lHCHzHk4TM4"
 			}
 			
 		]
@@ -7588,7 +7588,7 @@
 			{
 				"id": "ender",
 				"class": "fonewm",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=ppWiVbXDE-k"
 			}
 		]
 	},
@@ -7828,6 +7828,38 @@
 			{
 				"id": "jack",
 				"class": "fonewm",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "su12",
+		"episode": 4,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 591,
+		"team_id": "",
+		"players": [
+			{
+				"id": "revision",
+				"class": "fonewm",
+				"video": ""
+			},
+			{
+				"id": "phelix",
+				"class": "hucast",
+				"video": "https://www.youtube.com/watch?v=IH26urDgcjE"
+			},
+			{
+				"id": "nohit",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "mt",
+				"class": "ract",
 				"video": ""
 			}
 		]
