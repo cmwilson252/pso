@@ -7187,6 +7187,29 @@
 	},
 	{
 		"mode": "normal",
+		"quest_id": "su9",
+		"episode": 2,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": true,
+		"time": 495,
+		"team_id": "",
+		"players": [
+			{
+				"id": "wilson",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "phelix",
+				"class": "hucast",
+				"video": ""
+			}
+			
+		]
+	},
+	{
+		"mode": "normal",
 		"quest_id": "pw2",
 		"episode": 2,
 		"meta": "vanilla",
