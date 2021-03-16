@@ -945,7 +945,24 @@
 		"meta": "ultima",
 		"category": "1p",
 		"pb": false,
-		"time": 363,
+		"time": 850,
+		"team_id": "univers-ps",
+		"players": [
+			{
+				"id": "shiida",
+				"class": "ramarl",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "mas",
+		"episode": 2,
+		"meta": "ultima",
+		"category": "1p",
+		"pb": false,
+		"time": 645,
 		"team_id": "univers-ps",
 		"players": [
 			{
