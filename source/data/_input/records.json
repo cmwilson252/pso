@@ -8942,16 +8942,16 @@
 		"meta": "vanilla",
 		"category": "2p",
 		"pb": false,
-		"time": 479,
+		"time": 470,
 		"team_id": null,
 		"players": [
 			{
-				"id": "roo",
+				"id": "spuz",
 				"class": "hucast",
 				"video": ""
 			},
 			{
-				"id": "capn",
+				"id": "wilson",
 				"class": "hucast",
 				"video": ""
 			}
@@ -8964,16 +8964,16 @@
 		"meta": "vanilla",
 		"category": "2p",
 		"pb": false,
-		"time": 493,
+		"time": 479,
 		"team_id": null,
 		"players": [
 			{
-				"id": "spuz",
+				"id": "roo",
 				"class": "hucast",
 				"video": ""
 			},
 			{
-				"id": "wilson",
+				"id": "capn",
 				"class": "hucast",
 				"video": ""
 			}
