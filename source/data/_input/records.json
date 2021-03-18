@@ -9718,6 +9718,38 @@
 		"meta": "vanilla",
 		"category": "4p",
 		"pb": false,
+		"time": 1577,
+		"team_id": null,
+		"players": [
+			{
+				"id": "spuz",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "muffet",
+				"class": "hucaseal",
+				"video": ""
+			},
+			{
+				"id": "esther",
+				"class": "fonewearl",
+				"video": ""
+			},
+			{
+				"id": "schranko",
+				"class": "hucaseal",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "challenge",
+		"quest_id": "1c6",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
 		"time": 1875,
 		"team_id": null,
 		"players": [
