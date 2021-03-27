@@ -7420,12 +7420,12 @@
 		"team_id": "",
 		"players": [
 			{
-				"id": "revision",
+				"id": "mt",
 				"class": "hucast",
 				"video": ""
 			},
 			{
-				"id": "mt",
+				"id": "revision",
 				"class": "hucast",
 				"video": ""
 			},
