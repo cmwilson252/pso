@@ -57,7 +57,7 @@
   {"name": "ES Partisan",      "minAtp": 10,  "maxAtp": 10,    "ata": 40, "grind": 200},
   {"name": "ES Scythe",        "minAtp": 10,  "maxAtp": 10,    "ata": 40, "grind": 180},
 
-  {"name": "Diska",                        "minAtp": 85,  "maxAtp": 105, "ata": 25, "grind": 25},
+  {"name": "Diska",                        "minAtp": 85,  "maxAtp": 105, "ata": 25, "grind": 10},
   {"name": "Diska of Braveman",            "minAtp": 150, "maxAtp": 167, "ata": 31, "grind": 9},
   {"name": "Diska of Braveman +9 & Thirteen", "minAtp": 252, "maxAtp": 277, "ata": 61, "grind": 0},
   {"name": "Slicer of Fanatic",            "minAtp": 340, "maxAtp": 360, "ata": 40, "grind": 30},

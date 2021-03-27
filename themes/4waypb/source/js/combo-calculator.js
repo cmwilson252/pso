@@ -8,7 +8,7 @@ window.fourwaypb.ata_calc.ready = function() {
     let weapons = [];
     let weaponsByName = {};
     let classStats = {
-        HUMAR: {atp: 1420, ata: 200},
+        HUMAR: {atp: 1397, ata: 200},
         HUNEWEARL: {atp: 1237, ata: 199},
         HUCAST: {atp: 1639, ata: 191},
         HUCASEAL: {atp: 1301, ata: 218},
