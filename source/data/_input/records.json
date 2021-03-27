@@ -7416,6 +7416,38 @@
 		"meta": "vanilla",
 		"category": "4p",
 		"pb": false,
+		"time": 1196,
+		"team_id": "",
+		"players": [
+			{
+				"id": "revision",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "mt",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "wilson",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "spuz",
+				"class": "fonewm",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ma4c",
+		"episode": 4,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
 		"time": 1189,
 		"team_id": "ma4b",
 		"players": [
