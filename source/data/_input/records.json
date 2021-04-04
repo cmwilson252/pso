@@ -10148,7 +10148,7 @@
 		"meta": "vanilla",
 		"category": "4p",
 		"pb": false,
-		"time": 1806,
+		"time": 18,
 		"team_id": null,
 		"players": [
 			{
@@ -10276,38 +10276,6 @@
 		"meta": "vanilla",
 		"category": "4p",
 		"pb": false,
-		"time": 2094,
-		"team_id": null,
-		"players": [
-			{
-				"id": "spuz",
-				"class": "hucast",
-				"video": ""
-			},
-			{
-				"id": "dj_ridoo",
-				"class": "hucast",
-				"video": ""
-			},
-			{
-				"id": "no_future",
-				"class": "hucast",
-				"video": ""
-			},
-			{
-				"id": "roo",
-				"class": "hucaseal",
-				"video": ""
-			}
-		]
-	},
-	{
-		"mode": "challenge",
-		"quest_id": "1c9",
-		"episode": 1,
-		"meta": "vanilla",
-		"category": "4p",
-		"pb": false,
 		"time": 2051,
 		"team_id": null,
 		"players": [
@@ -10324,70 +10292,6 @@
 			{
 				"id": "schranko",
 				"class": "hucast",
-				"video": ""
-			},
-			{
-				"id": "ender",
-				"class": "fonewearl",
-				"video": ""
-			}
-		]
-	},
-	{
-		"mode": "challenge",
-		"quest_id": "1c9",
-		"episode": 1,
-		"meta": "vanilla",
-		"category": "4p",
-		"pb": false,
-		"time": 2344,
-		"team_id": null,
-		"players": [
-			{
-				"id": "capn",
-				"class": "hucast",
-				"video": ""
-			},
-			{
-				"id": "ffej",
-				"class": "hucaseal",
-				"video": ""
-			},
-			{
-				"id": "gsc",
-				"class": "hucaseal",
-				"video": ""
-			},
-			{
-				"id": "spuz",
-				"class": "fonewm",
-				"video": ""
-			}
-		]
-	},
-	{
-		"mode": "challenge",
-		"quest_id": "1c9",
-		"episode": 1,
-		"meta": "vanilla",
-		"category": "4p",
-		"pb": false,
-		"time": 2365,
-		"team_id": null,
-		"players": [
-			{
-				"id": "schranko",
-				"class": "hucast",
-				"video": ""
-			},
-			{
-				"id": "astallasalion",
-				"class": "hucast",
-				"video": ""
-			},
-			{
-				"id": "spuz",
-				"class": "racast",
 				"video": ""
 			},
 			{
