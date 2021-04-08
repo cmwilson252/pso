@@ -8002,6 +8002,38 @@
 	},
 	{
 		"mode": "normal",
+		"quest_id": "sacred_groundz",
+		"episode": 4,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
+		"time": 574,
+		"team_id": "",
+		"players": [
+			{
+				"id": "wilson",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "mt",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "nohit",
+				"class": "racast",
+				"video": ""
+			},
+			{
+				"id": "revision",
+				"class": "fonewm",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
 		"quest_id": "ma1a",
 		"episode": 1,
 		"meta": "gamecube",
