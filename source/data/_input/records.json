@@ -720,7 +720,7 @@
 			{
 				"id": "shiida",
 				"class": "racast",
-				"video": "https://www.youtube.com/watch?v=fxGvtAYkgZ4&feature=emb_title"
+				"video": "https://www.youtube.com/watch?v=fxGvtAYkgZ4"
 			},
 			{
 				"id": "noudle",
@@ -1146,7 +1146,7 @@
 			{
 				"id": "ryan_ford",
 				"class": "ramarl",
-				"video": "https://www.youtube.com/watch?v=gQwZgrg5ezE&feature=youtu.be"
+				"video": "https://www.youtube.com/watch?v=gQwZgrg5ezE"
 			}
 		]
 	},
@@ -1462,7 +1462,7 @@
 			{
 				"id": "shiida",
 				"class": "racast",
-				"video": "https://www.youtube.com/watch?v=FTnduLItHfU&feature=emb_title"
+				"video": "https://www.youtube.com/watch?v=FTnduLItHfU"
 			},
 			{
 				"id": "noudle",
@@ -1781,7 +1781,7 @@
 			{
 				"id": "shiida",
 				"class": "racast",
-				"video": "https://www.youtube.com/watch?v=7HT_HsR99P8&feature=emb_title"
+				"video": "https://www.youtube.com/watch?v=7HT_HsR99P8"
 			},
 			{
 				"id": "noudle",
@@ -3019,7 +3019,7 @@
 			{
 				"id": "revision",
 				"class": "hucast",
-				"video": "https://www.youtube.com/watch?v=zd6haJwkbB0&"
+				"video": "https://www.youtube.com/watch?v=zd6haJwkbB0"
 			},
 			{
 				"id": "alukard",
@@ -4781,7 +4781,7 @@
 			{
 				"id": "ender",
 				"class": "fonewm",
-				"video": "https://www.youtube.com/watch?v=kR9aPezFhQA&feature=youtu.be"
+				"video": "https://www.youtube.com/watch?v=kR9aPezFhQA"
 			}
 		]
 	},
@@ -5675,7 +5675,7 @@
 			{
 				"id": "gally",
 				"class": "fonewm",
-				"video": "https://www.youtube.com/watch?v=40urmn7XJSo&feature=youtu.be"
+				"video": "https://www.youtube.com/watch?v=40urmn7XJSo"
 			}
 		]
 	},
@@ -5718,13 +5718,13 @@
 		"meta": "vanilla",
 		"category": "opm",
 		"pb": false,
-		"time": 201,
+		"time": 257,
 		"team_id": "rephlex",
 		"players": [
 			{
 				"id": "nohit",
 				"class": "hucast",
-				"video": "https://www.youtube.com/watch?v=4qBGysARAMg"
+				"video": "https://www.twitch.tv/videos/979133214"
 			}
 		]
 	},
@@ -7486,12 +7486,12 @@
 			{
 				"id": "brandon",
 				"class": "racast",
-				"video": "https://www.youtube.com/watch?v=eE461vQYuSY&feature=emb_logo "
+				"video": "https://www.youtube.com/watch?v=eE461vQYuSY"
 			},
 			{
 				"id": "ender",
 				"class": "fonewm",
-				"video": "https://www.youtube.com/watch?v=tJvHZlglNMA&feature=emb_logo"
+				"video": "https://www.youtube.com/watch?v=tJvHZlglNMA"
 			}
 		]
 	},
@@ -7709,7 +7709,7 @@
 			{
 				"id": "revision",
 				"class": "fonewm",
-				"video": "https://www.youtube.com/watch?v=i2uGmqGjhew&feature=youtu.be"
+				"video": "https://www.youtube.com/watch?v=i2uGmqGjhew"
 			}
 		]
 	},
@@ -10889,7 +10889,7 @@
 			{
 				"id": "mote",
 				"class": "racast",
-				"video": "https://www.youtube.com/watch?v=9jTsgd2sJwE&feature=youtu.be"
+				"video": "https://www.youtube.com/watch?v=9jTsgd2sJwE"
 			},
 			{
 				"id": "belz",
