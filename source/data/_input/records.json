@@ -5735,18 +5735,18 @@
 		"meta": "vanilla",
 		"category": "2p",
 		"pb": true,
-		"time": 324,
+		"time": 337,
 		"team_id": "rephlex",
 		"players": [
 			{
 				"id": "nohit",
 				"class": "hucast",
-				"video": "https://www.twitch.tv/videos/866795972"
+				"video": ""
 			},
 			{
 				"id": "phelix",
 				"class": "hucast",
-				"video": "https://youtu.be/dVf5C8zvnMw"
+				"video": "https://youtu.be/26PUvmTnBbo"
 			}
 		]
 	},
@@ -5757,18 +5757,18 @@
 		"meta": "vanilla",
 		"category": "2p",
 		"pb": false,
-		"time": 302,
+		"time": 305,
 		"team_id": "rephlex",
 		"players": [
 			{
 				"id": "nohit",
 				"class": "hucast",
-				"video": "https://youtu.be/DLrDsvNJDeA"
+				"video": ""
 			},
 			{
 				"id": "phelix",
 				"class": "hunewearl",
-				"video": "https://youtu.be/HRBhm9sZEwQ"
+				"video": "https://youtu.be/ZNRX8FsmyNA"
 			}
 		]
 	},
