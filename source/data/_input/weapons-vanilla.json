@@ -103,6 +103,7 @@
   {"name": "Frozen Shooter",  "minAtp": 240, "maxAtp": 250, "ata": 60, "grind": 9},
   {"name": "Snow Queen",      "minAtp": 330, "maxAtp": 350, "ata": 60, "grind": 18, "comboPreset": {"attack2": "NONE", "attack3": "NONE"}},
   {"name": "Holy Ray",        "minAtp": 290, "maxAtp": 300, "ata": 70, "grind": 40},
+  {"name": "ES Rifle",        "minAtp": 10,  "maxAtp": 10,  "ata": 60, "grind": 220},
   {"name": "ES Needle",       "minAtp": 10,  "maxAtp": 10,  "ata": 40, "grind": 70},
 
   {"name": "Mechgun",         "minAtp": 2,   "maxAtp": 4,   "ata": 0,  "grind": 9, "comboPreset": {"attack1Hits": 3, "attack2Hits": 3, "attack3Hits": 3}},
