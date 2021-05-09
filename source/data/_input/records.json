@@ -4913,7 +4913,7 @@
 			{
 				"id": "nohit",
 				"class": "ramar",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=1kz02Ea0t0Y"
 			}
 		]
 	},
@@ -5741,7 +5741,7 @@
 			{
 				"id": "nohit",
 				"class": "hucast",
-				"video": ""
+				"video": "https://www.youtube.com/watch?v=DLrDsvNJDeA"
 			},
 			{
 				"id": "phelix",
@@ -6915,6 +6915,23 @@
 		"meta": "vanilla",
 		"category": "opm",
 		"pb": false,
+		"time": 501,
+		"team_id": "rephlex",
+		"players": [
+			{
+				"id": "nohit",
+				"class": "hucast",
+				"video": "https://www.youtube.com/watch?v=qYDLEatl7Go"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_tower",
+		"episode": 2,
+		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
 		"time": 536,
 		"team_id": "tankstelle",
 		"players": [
@@ -7229,6 +7246,24 @@
 		"quest_id": "su9",
 		"episode": 2,
 		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
+		"time": 300,
+		"team_id": "rephlex",
+		"players": [
+			{
+				"id": "nohit",
+				"class": "hucast",
+				"video": "https://www.youtube.com/watch?v=cGivFY_Imis"
+			}
+			
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "su9",
+		"episode": 2,
+		"meta": "vanilla",
 		"category": "2p",
 		"pb": true,
 		"time": 495,
@@ -7444,7 +7479,7 @@
 			{
 				"id": "mt",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/XK66RA00Oms"
 			},
 			{
 				"id": "revision",
@@ -7454,7 +7489,7 @@
 			{
 				"id": "wilson",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/L9fNUyN_5hs"
 			},
 			{
 				"id": "spuz",
