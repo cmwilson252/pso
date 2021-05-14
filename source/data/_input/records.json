@@ -4958,6 +4958,38 @@
 		"meta": "vanilla",
 		"category": "4p",
 		"pb": false,
+		"time": 178,
+		"team_id": null,
+		"players": [
+			{
+				"id": "phelix",
+				"class": "hucast",
+				"video": "https://youtu.be/GKCUDaarJvo"
+			},
+			{
+				"id": "revision",
+				"class": "hucast",
+				"video": "https://youtu.be/-jwd4-ZaKeo"
+			},
+			{
+				"id": "nohit",
+				"class": "hucast",
+				"video": "https://youtu.be/Y4Vq-rkKaIw"
+			},
+			{
+				"id": "mt",
+				"class": "hunewearl",
+				"video": "https://youtu.be/HKKM5rwwQKI"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "max_caves",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
 		"time": 243,
 		"team_id": null,
 		"players": [
