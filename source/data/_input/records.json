@@ -9591,7 +9591,7 @@
 		"meta": "vanilla",
 		"category": "2p",
 		"pb": false,
-		"time": 1892,
+		"time": 1884,
 		"team_id": null,
 		"players": [
 			{
@@ -9602,7 +9602,7 @@
 			{
 				"id": "spuz",
 				"class": "fonewm",
-				"video": ""
+				"video": "https://youtu.be/B4O5mMS3y70"
 			}
 		]
 	},
@@ -10204,7 +10204,7 @@
 			{
 				"id": "spuz",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/lQnVS5FcZxU"
 			}
 		]
 	},
@@ -10737,7 +10737,7 @@
 			{
 				"id": "spuz",
 				"class": "fonewearl",
-				"video": ""
+				"video": "https://youtu.be/4Djanm3gwEE"
 			},
 			{
 				"id": "klekt",
