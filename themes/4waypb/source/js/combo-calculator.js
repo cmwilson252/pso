@@ -216,7 +216,7 @@ window.fourwaypb.ata_calc.ready = function() {
 
         let nMin = ((effectiveMinAtp - effectiveDfp) / 5) * 0.9;
         if (nMin < 0) {
-            nmin = 0;
+            nMin = 0;
         }
         let nMax = ((effectiveMaxAtp - effectiveDfp) / 5) * 0.9;
         if (nMax < 0) {
