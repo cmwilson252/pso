@@ -28,7 +28,10 @@ window.fourwaypb.ata_calc.ready = function() {
         KASAMI: {atp: 35, ata: 0},
         COMBAT_GEAR: {atp: 35, ata: 0},
         SAFETY_HEART: {atp: 0, ata: 0},
-        S_PARTS201: {atp: 0, ata: 15}
+        S_PARTS201: {atp: 0, ata: 15},
+        BLACK_RING1: {atp: 50, ata: 0},
+        BLACK_RING2: {atp: 100, ata: 0},
+        BLACK_RING3: {atp: 150, ata: 0},
     }
     let frameStats = {
         NONE: {atp: 0, ata: 0},
@@ -36,6 +39,9 @@ window.fourwaypb.ata_calc.ready = function() {
         D_PARTS101: {atp: 35, ata: 0},
         SAMURAI: {atp: 0, ata: 0},
         CRIMSON: {atp: 0, ata: 0},
+        SWEETHEART1: {atp: 0, ata: 0},
+        SWEETHEART2: {atp: 0, ata: 0},
+        SWEETHEART3: {atp: 0, ata: 0},
     }
     let possWeapons = [
         "Ancient Saber",
@@ -371,6 +377,15 @@ window.fourwaypb.ata_calc.ready = function() {
         }
         if (frameName == "SAMURAI" && weapon.name == "Orotiagito") {
             atpBonus += (weapon.minAtp + (2 * weapon.grind)) * 0.3
+        }
+        if (frameName == "SWEETHEART1") {
+            atpBonus += (weapon.minAtp + (2 * weapon.grind)) * 0.15
+        }
+        if (frameName == "SWEETHEART2") {
+            atpBonus += (weapon.minAtp + (2 * weapon.grind)) * 0.2
+        }
+        if (frameName == "SWEETHEART3") {
+            atpBonus += (weapon.minAtp + (2 * weapon.grind)) * 0.25
         }
         return atpBonus;
     }
