@@ -27,8 +27,43 @@ window.fourwaypb.ata_calc.ready = function() {
         RA_WALL: {atp: 0, ata: 20},
         KASAMI: {atp: 35, ata: 0},
         COMBAT_GEAR: {atp: 35, ata: 0},
+        SAFETY_HEART: {atp: 0, ata: 0},
         S_PARTS201: {atp: 0, ata: 15}
     }
+    let frameStats = {
+        NONE: {atp: 0, ata: 0},
+        THIRTEEN: {atp: 0, ata: 0},
+        D_PARTS101: {atp: 35, ata: 0},
+        SAMURAI: {atp: 0, ata: 0},
+        CRIMSON: {atp: 0, ata: 0},
+    }
+    let possWeapons = [
+        "Ancient Saber",
+        "Delsaber's Buster",
+        "Durandal",
+        "Excalibur",
+        "Flamberge",
+        "Galatine",
+        "Kaladbolg",
+        "Kusanagi",
+        "Lavis Cannon",
+        "Red Saber",
+        "Two Kamui",
+        "Guren",
+        "Kamui",
+        "Orotiagito",
+        "Raikiri",
+        "Sange",
+        "Shichishito",
+        "Shouren",
+        "Yamigarasu",
+        "Yasha",
+        "Asuka",
+        "Jizai",
+        "Musashi",
+        "Sange & Yasha",
+        "Yamato"
+    ]
 
     function accuracyModifierForAttackType(attackType) {
         if (attackType === 'N') {
@@ -161,7 +196,7 @@ window.fourwaypb.ata_calc.ready = function() {
 
     function calculateBaseDamage(atpInput, enemy) {
         let areaPercent = enemy.ccaMiniboss ? 0 : atpInput.areaPercent;
-        let minWeaponAtp = (atpInput.minAtp + atpInput.otherAtp) * ((areaPercent * 0.01) + 1);
+        let minWeaponAtp = atpInput.minAtp * ((areaPercent * 0.01) + 1);
         let maxWeaponAtp = minWeaponAtp + (atpInput.maxAtp - atpInput.minAtp);
         let shiftaModifier = 0;
         if (atpInput.shifta > 0) {
@@ -220,7 +255,6 @@ window.fourwaypb.ata_calc.ready = function() {
             baseAtp: Number($('#base_atp_input').val()),
             minAtp: Number($('#min_atp_input').val()),
             maxAtp: Number($('#max_atp_input').val()),
-            otherAtp: Number($('#other_atp_input').val()),
             areaPercent: Number($('#area_percent_input').val()),
             useMaxDamageRoll: $('#max_damage_rolls').dropdown('get value') === 'true',
             shifta: Number($('#shifta_input').val()),
@@ -280,16 +314,22 @@ window.fourwaypb.ata_calc.ready = function() {
 
     function applyPreset() {
         let playerClass = classStats[$('#playerClass').dropdown('get value')];
-        let barrier = barrierStats[$('#barrier').dropdown('get value')];
+        let frameName = $('#frame').dropdown('get value');
+        let frame = frameStats[frameName];
+        let barrierName = $('#barrier').dropdown('get value');
+        let barrier = barrierStats[barrierName];
         let hit = $('#hit_input').val();
         hit = !!hit ? Number(hit) : 0
         let weaponName = $('#weapon').dropdown('get value');
         let weapon = !!weaponName ? weaponsByName[weaponName] : weaponsByName['None'];
+        let unitName = $('#unit').dropdown('get value');
 
-        $('#ata_input').val(playerClass.ata + weapon.ata + hit + barrier.ata);
-        $('#min_atp_input').val(weapon.minAtp + (2 * weapon.grind));
-        $('#max_atp_input').val(weapon.maxAtp + (2 * weapon.grind));
-        $('#other_atp_input').val(barrier.atp);
+        let setEffectAta = getSetEffectAta(weapon, frameName, barrierName, unitName);
+        let setEffectAtp = getSetEffectAtp(weapon, frameName, barrierName);
+
+        $('#ata_input').val(playerClass.ata + weapon.ata + hit + frame.ata + barrier.ata + setEffectAta);
+        $('#min_atp_input').val(weapon.minAtp + (2 * weapon.grind) + setEffectAtp + barrier.atp + frame.atp);
+        $('#max_atp_input').val(weapon.maxAtp + (2 * weapon.grind) + setEffectAtp + barrier.atp + frame.atp);
         $('#base_atp_input').val(playerClass.atp);
     }
 
@@ -319,6 +359,49 @@ window.fourwaypb.ata_calc.ready = function() {
             $('#attack3_input').val('N').change();
         }
         applyPreset();
+    }
+
+    function getSetEffectAtp(weapon, frameName, barrierName) {
+        let atpBonus = 0;
+        if (frameName == "THIRTEEN" && weapon.name == "Diska of Braveman") {
+            atpBonus += (weapon.minAtp + (2 * weapon.grind)) * 0.5
+        }
+        if (frameName == "CRIMSON" && weapon.name == "Red Slicer") {
+            atpBonus += (weapon.minAtp + (2 * weapon.grind)) * 0.5
+        }
+        if (frameName == "SAMURAI" && weapon.name == "Orotiagito") {
+            atpBonus += (weapon.minAtp + (2 * weapon.grind)) * 0.3
+        }
+        return atpBonus;
+    }
+
+    function getSetEffectAta(weapon, frameName, barrierName, unitName) {
+        let ataBonus = 0;
+        if (barrierName == "SAFETY_HEART" && weapon.name == "Rambling May") {
+            ataBonus += 30;
+        }
+        if (frameName == "THIRTEEN" && weapon.name == "Diska of Braveman") {
+            ataBonus += 30
+        }
+        if (frameName == "CRIMSON" && weapon.name == "Red Slicer") {
+            ataBonus += 22
+        }
+        if (frameName == "SAMURAI" && weapon.name == "Orotiagito") {
+            ataBonus += 20
+        }
+        if (unitName == "POSS" && possWeapons.includes(weapon.name)) {
+            ataBonus += 30
+        }
+        if (unitName == "2POSS" && possWeapons.includes(weapon.name)) {
+            ataBonus += 60
+        }
+        if (unitName == "3POSS" && possWeapons.includes(weapon.name)) {
+            ataBonus += 90
+        }
+        if (unitName == "4POSS" && possWeapons.includes(weapon.name)) {
+            ataBonus += 120
+        }
+        return ataBonus;
     }
 
     getJSON5(url_for('data/enemies-vanilla-opm.json'), (function(data) {
@@ -374,6 +457,8 @@ window.fourwaypb.ata_calc.ready = function() {
     $('#playerClass').change(applyPreset);
     $('#weapon').change(applyWeaponStats);
     $('#barrier').change(applyPreset);
+    $('#frame').change(applyPreset);
+    $('#unit').change(applyPreset);
     $('#hit_input').change(applyPreset);
     $('#add_enemies').change(addEnemies);
     $('#add_by_location').change(addByLocation);
