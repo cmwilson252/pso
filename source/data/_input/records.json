@@ -1135,6 +1135,23 @@
 	},
 	{
 		"mode": "normal",
+		"quest_id": "mau5",
+		"episode": 2,
+		"meta": "ultima",
+		"category": "1p",
+		"pb": false,
+		"time": 571,
+		"team_id": "univers_ps",
+		"players": [
+			{
+				"id": "shiida",
+				"class": "hucaseal",
+				"video": "https://www.youtube.com/watch?v=N2yM_Qp1TT8"
+			}
+		]
+	},
+	{
+		"mode": "normal",
 		"quest_id": "rt",
 		"episode": 2,
 		"meta": "ultima",
@@ -7496,6 +7513,24 @@
 				"class": "ramar",
 				"video": ""
 			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "lost_bind_assault",
+		"episode": 2,
+		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
+		"time": 1095,
+		"team_id": "rephlex",
+		"players": [
+			{
+				"id": "nohit",
+				"class": "hucast",
+				"video": "https://www.youtube.com/watch?v=Frn7ELAzYZ0"
+			}
+			
 		]
 	},
 	{

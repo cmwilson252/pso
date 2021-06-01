@@ -84,6 +84,13 @@
 		"is_countdown": false
 	},
 	{
+		"id": "lost_bind_assault",
+		"name": "Lost_Bind_Assault",
+		"is_teamz_enabled": true,
+		"is_cmode": false,
+		"is_countdown": false
+	},
+	{
 		"id": "lost_devils_scepter",
 		"name": "Lost Devils Scepter",
 		"is_teamz_enabled": true,
