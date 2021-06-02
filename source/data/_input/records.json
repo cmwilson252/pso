@@ -1138,7 +1138,7 @@
 		"quest_id": "mau5",
 		"episode": 2,
 		"meta": "ultima",
-		"category": "1p",
+		"category": "2p",
 		"pb": false,
 		"time": 571,
 		"team_id": "univers_ps",
@@ -1147,6 +1147,11 @@
 				"id": "shiida",
 				"class": "hucaseal",
 				"video": "https://www.youtube.com/watch?v=N2yM_Qp1TT8"
+			},
+			{
+				"id": "noudle",
+				"class": "ramarl",
+				"video": ""
 			}
 		]
 	},
