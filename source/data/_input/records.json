@@ -1140,17 +1140,17 @@
 		"meta": "ultima",
 		"category": "2p",
 		"pb": false,
-		"time": 571,
+		"time": 583,
 		"team_id": "univers_ps",
 		"players": [
 			{
 				"id": "shiida",
 				"class": "hucaseal",
-				"video": "https://www.youtube.com/watch?v=N2yM_Qp1TT8"
+				"video": ""
 			},
 			{
 				"id": "noudle",
-				"class": "ramarl",
+				"class": "hucast",
 				"video": ""
 			}
 		]
