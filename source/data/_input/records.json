@@ -5718,6 +5718,28 @@
 	},
 	{
 		"mode": "normal",
+		"quest_id": "su1",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
+		"time": 296,
+		"team_id": "rephlex",
+		"players": [
+			{
+				"id": "nohit",
+				"class": "ramar",
+				"video": ""
+			},
+			{
+				"id": "phelix",
+				"class": "hucast",
+				"video": "https://youtu.be/aFDV5M17OLw"
+			}
+		]
+	},
+	{
+		"mode": "normal",
 		"quest_id": "su2",
 		"episode": 1,
 		"meta": "vanilla",
@@ -7192,6 +7214,29 @@
 				"class": "racaseal",
 				"video": "https://www.youtube.com/watch?v=h8Aw_lrZn3E"
 			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "su6",
+		"episode": 2,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
+		"time": 513,
+		"team_id": "rephlex",
+		"players": [
+			{
+				"id": "nohit",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "phelix",
+				"class": "hunewearl",
+				"video": "https://youtu.be/7hgsPJVFg6M"
+			}
+			
 		]
 	},
 	{
