@@ -7244,6 +7244,29 @@
 		"quest_id": "su7",
 		"episode": 2,
 		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
+		"time": 424,
+		"team_id": "rephlex",
+		"players": [
+			{
+				"id": "nohit",
+				"class": "hucast",
+				"video": "https://www.youtube.com/watch?v=4VGXPSBLVB4"
+			},
+			{
+				"id": "phelix",
+				"class": "ramarl",
+				"video": "https://youtu.be/Pfi5Z3suxcw"
+			}
+			
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "su7",
+		"episode": 2,
+		"meta": "vanilla",
 		"category": "3p",
 		"pb": false,
 		"time": 493,
