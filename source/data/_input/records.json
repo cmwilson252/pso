@@ -199,23 +199,6 @@
 	},
 	{
 		"mode": "normal",
-		"quest_id": "ma1v2",
-		"episode": 1,
-		"meta": "ultima",
-		"category": "1p",
-		"pb": false,
-		"time": 1586,
-		"team_id": null,
-		"players": [
-			{
-				"id": "sylph",
-				"class": "hucast",
-				"video": ""
-			}
-		]
-	},
-	{
-		"mode": "normal",
 		"quest_id": "max_forest",
 		"episode": 1,
 		"meta": "ultima",
