@@ -8238,6 +8238,28 @@
 		"meta": "gamecube",
 		"category": "2p",
 		"pb": false,
+		"time": 780,
+		"team_id": "ma4b",
+		"players": [
+			{
+				"id": "wilson",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "armand",
+				"class": "ramar",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ma1c",
+		"episode": 1,
+		"meta": "gamecube",
+		"category": "2p",
+		"pb": false,
 		"time": 776,
 		"team_id": "ma4b",
 		"players": [
