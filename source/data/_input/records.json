@@ -5777,6 +5777,28 @@
 		"meta": "vanilla",
 		"category": "2p",
 		"pb": false,
+		"time": 256,
+		"team_id": "4waypb",
+		"players": [
+			{
+				"id": "wilson",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "armand",
+				"class": "hunewearl",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "su3",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "2p",
+		"pb": false,
 		"time": 249,
 		"team_id": "rephlex",
 		"players": [
