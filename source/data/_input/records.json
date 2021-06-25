@@ -1493,38 +1493,6 @@
 		"meta": "ultima",
 		"category": "4p",
 		"pb": false,
-		"time": 1309,
-		"team_id": "",
-		"players": [
-			{
-				"id": "rockets",
-				"class": "racast",
-				"video": ""
-			},
-			{
-				"id": "lucapy",
-				"class": "fonewearl",
-				"video": ""
-			},
-			{
-				"id": "hunter",
-				"class": "hucast",
-				"video": ""
-			},
-			{
-				"id": "lemon",
-				"class": "fomarl",
-				"video": ""
-			}
-		]
-	},
-	{
-		"mode": "normal",
-		"quest_id": "power_plant_plight",
-		"episode": 2,
-		"meta": "ultima",
-		"category": "4p",
-		"pb": false,
 		"time": 1333,
 		"team_id": "",
 		"players": [
@@ -1610,38 +1578,6 @@
 			{
 				"id": "lemon",
 				"class": "fomarl",
-				"video": ""
-			}
-		]
-	},
-	{
-		"mode": "normal",
-		"quest_id": "power_plant_plight",
-		"episode": 2,
-		"meta": "ultima",
-		"category": "4p",
-		"pb": false,
-		"time": 1333,
-		"team_id": "",
-		"players": [
-			{
-				"id": "sylph",
-				"class": "racast",
-				"video": ""
-			},
-			{
-				"id": "mayaka",
-				"class": "fonewearl",
-				"video": ""
-			},
-			{
-				"id": "shogun",
-				"class": "racast",
-				"video": ""
-			},
-			{
-				"id": "rashan",
-				"class": "ramarl",
 				"video": ""
 			}
 		]
