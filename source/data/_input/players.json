@@ -2344,6 +2344,31 @@
 		}
 	},
 	{
+		"id": "hhawk4",
+		"name": "HHawk4",
+		"image": "images/player.png",
+		"classes": [],
+		"metas": [],
+		"team_ids": [],
+		"timezone": "",
+		"card_content": [],
+		"page_content": [],
+		"discord": "",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "hiothun",
 		"name": "HioThun",
 		"image": "images/player.png",
@@ -2669,6 +2694,31 @@
 		}
 	},
 	{
+		"id": "lucapy",
+		"name": "Lucapy",
+		"image": "images/player.png",
+		"classes": [],
+		"metas": [],
+		"team_ids": [],
+		"timezone": "",
+		"card_content": [],
+		"page_content": [],
+		"discord": "",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "lucifer",
 		"name": "LUCIFER",
 		"image": "images/player.png",
@@ -2721,6 +2771,31 @@
 	{
 		"id": "mumu",
 		"name": "MUMU",
+		"image": "images/player.png",
+		"classes": [],
+		"metas": [],
+		"team_ids": [],
+		"timezone": "",
+		"card_content": [],
+		"page_content": [],
+		"discord": "",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "mayaka",
+		"name": "Mayaka",
 		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
@@ -3169,6 +3244,31 @@
 		}
 	},
 	{
+		"id": "polar",
+		"name": "Polar",
+		"image": "images/player.png",
+		"classes": [],
+		"metas": [],
+		"team_ids": [],
+		"timezone": "",
+		"card_content": [],
+		"page_content": [],
+		"discord": "",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "rain",
 		"name": "Rain",
 		"image": "images/player.png",
@@ -3219,8 +3319,58 @@
 		}
 	},
 	{
+		"id": "rebekah",
+		"name": "Rebekah",
+		"image": "images/player.png",
+		"classes": [],
+		"metas": [],
+		"team_ids": [],
+		"timezone": "",
+		"card_content": [],
+		"page_content": [],
+		"discord": "",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "ridji",
 		"name": "Ridji",
+		"image": "images/player.png",
+		"classes": [],
+		"metas": [],
+		"team_ids": [],
+		"timezone": "",
+		"card_content": [],
+		"page_content": [],
+		"discord": "",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "rockets",
+		"name": "Rockets",
 		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
@@ -3421,6 +3571,31 @@
 	{
 		"id": "shin",
 		"name": "Shin",
+		"image": "images/player.png",
+		"classes": [],
+		"metas": [],
+		"team_ids": [],
+		"timezone": "",
+		"card_content": [],
+		"page_content": [],
+		"discord": "",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "shogun",
+		"name": "Shogun",
 		"image": "images/player.png",
 		"classes": [],
 		"metas": [],
