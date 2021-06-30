@@ -5204,6 +5204,33 @@
 	},
 	{
 		"mode": "normal",
+		"quest_id": "max_caves",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "3p",
+		"pb": false,
+		"time": 222,
+		"team_id": null,
+		"players": [
+			{
+				"id": "revision",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "nohit",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "mt",
+				"class": "hunewearl",
+				"video": "https://youtu.be/HKKM5rwwQKI"
+			}
+		]
+	},
+	{
+		"mode": "normal",
 		"quest_id": "max_mines",
 		"episode": 1,
 		"meta": "vanilla",
