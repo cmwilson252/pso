@@ -5976,13 +5976,13 @@
 		"meta": "vanilla",
 		"category": "2p",
 		"pb": false,
-		"time": 249,
+		"time": 306,
 		"team_id": "rephlex",
 		"players": [
 			{
 				"id": "phelix",
 				"class": "hucast",
-				"video": "https://youtu.be/U9SEwwkEvok"
+				"video": ""
 			},
 			{
 				"id": "nohit",
