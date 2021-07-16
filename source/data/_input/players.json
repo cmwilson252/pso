@@ -2444,6 +2444,31 @@
 		}
 	},
 	{
+		"id": "jc",
+		"name": "JC",
+		"image": "images/player.png",
+		"classes": [],
+		"metas": [],
+		"team_ids": [],
+		"timezone": "",
+		"card_content": [],
+		"page_content": [],
+		"discord": "",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "jojo",
 		"name": "JOJO",
 		"image": "images/player.png",

@@ -7845,6 +7845,24 @@
 		"meta": "vanilla",
 		"category": "opm",
 		"pb": false,
+		"time": 1070,
+		"team_id": "",
+		"players": [
+			{
+				"id": "jc",
+				"class": "racaseal",
+				"video": ""
+			}
+			
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "lost_bind_assault",
+		"episode": 2,
+		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
 		"time": 1095,
 		"team_id": "rephlex",
 		"players": [
