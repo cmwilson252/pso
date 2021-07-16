@@ -85,7 +85,7 @@
 	},
 	{
 		"id": "lost_bind_assault",
-		"name": "Lost_Bind_Assault",
+		"name": "Lost Bind Assault",
 		"is_teamz_enabled": true,
 		"is_cmode": false,
 		"is_countdown": false
