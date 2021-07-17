@@ -4832,6 +4832,38 @@
 		"meta": "vanilla",
 		"category": "4p",
 		"pb": false,
+		"time": 959,
+		"team_id": null,
+		"players": [
+			{
+				"id": "wilson",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "777",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "sakura",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "armand",
+				"class": "hunewearl",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "ma1c",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": false,
 		"time": 1066,
 		"team_id": "ma4b",
 		"players": [
