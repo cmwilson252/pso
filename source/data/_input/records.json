@@ -7908,6 +7908,38 @@
 	},
 	{
 		"mode": "normal",
+		"quest_id": "christmas_fiasco_ii",
+		"episode": 2,
+		"meta": "vanilla",
+		"category": "4p",
+		"pb": true,
+		"time": 1175,
+		"team_id": "",
+		"players": [
+			{
+				"id": "wilson",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "mt",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "revision",
+				"class": "hucast",
+				"video": ""
+			},
+			{
+				"id": "armand",
+				"class": "racast",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
 		"quest_id": "ma4c",
 		"episode": 4,
 		"meta": "vanilla",
