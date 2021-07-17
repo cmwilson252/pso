@@ -97,6 +97,68 @@
 		}
 	},
 	{
+		"id": "777",
+		"name": "777",
+		"image": "images/player.png",
+		"classes": [
+			"hucast",
+			"racast",
+			"fomar"
+		],
+		"metas": [
+			"Ultima, Vanilla"
+		],
+		"team_ids": ["4waypb"],
+		"timezone": "MST",
+		"card_content": [],
+		"page_content": [],
+		"discord": "𝐋𝐔𝐂𝐊𝐘#9967",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
+		"id": "sakura",
+		"name": "Sakura",
+		"image": "images/player.png",
+		"classes": [
+			"hucast",
+			"hunewearl",
+			"ramarl"
+		],
+		"metas": [
+			"Vanilla"
+		],
+		"team_ids": ["4waypb"],
+		"timezone": "",
+		"card_content": [],
+		"page_content": [],
+		"discord": "ALoneWolfPack#4204",
+		"twitter": "",
+		"youtube": {
+			"name": "",
+			"url": ""
+		},
+		"twitch": {
+			"name": "",
+			"url": ""
+		},
+		"github": {
+			"name": "",
+			"url": ""
+		}
+	},
+	{
 		"id": "killz",
 		"name": "Killz",
 		"image": "images/players/killz.png",
