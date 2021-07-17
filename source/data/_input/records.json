@@ -7647,13 +7647,13 @@
 		"meta": "vanilla",
 		"category": "2p",
 		"pb": true,
-		"time": 509,
+		"time": 513,
 		"team_id": "4waypb",
 		"players": [
 			{
 				"id": "wilson",
 				"class": "hucast",
-				"video": ""
+				"video": "https://youtu.be/IvhHUxurllM"
 			},
 			{
 				"id": "armand",
