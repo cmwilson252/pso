@@ -1,0 +1,179 @@
+.viridia {
+  color: #049660;
+}
+.greenill {
+  color: #0f0;
+}
+.skyly {
+  color: #0ff;
+}
+.blueful {
+  color: #0080ff;
+}
+.purplenum {
+  color: #f0f;
+}
+.pinkal {
+  color: #ff8080;
+}
+.redria {
+  color: #f00;
+}
+.oran {
+  color: #ffa500;
+}
+.yellowboze {
+  color: #ff0;
+}
+.whitill {
+  color: #fff;
+}
+html,
+body {
+  background: #222 !important;
+}
+body header .pc {
+  display: none !important;
+}
+@media screen and (min-width: 768px) {
+  body header .pc {
+    display: flex !important;
+  }
+}
+body header .sp {
+  display: flex !important;
+}
+@media screen and (min-width: 768px) {
+  body header .sp {
+    display: none !important;
+  }
+}
+body.pushable > .pusher {
+  background: inherit;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+body.pushable > .pusher main {
+  flex: 1;
+}
+.ui.sidebar.menu .item {
+  will-change: transform;
+}
+.sidebar.menu .logo.image,
+.ui.menu .logo.image {
+  width: 35px;
+  margin-right: 1em;
+}
+.main.container {
+  margin-top: 6em;
+}
+.index-content {
+  text-align: center;
+}
+.index-content .image {
+  margin-bottom: 2em;
+}
+.index-content .main-text {
+  font-weight: bold;
+}
+pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  margin: 1em 0;
+  color: #fff;
+  width: 100%;
+}
+.visibility-hidden {
+  visibility: hidden;
+}
+.card span:hover .icon.discord,
+.card a:hover .icon.discord {
+  color: #7289da;
+}
+.card span:hover .icon.twitter,
+.card a:hover .icon.twitter {
+  color: #1da1f2;
+}
+.card span:hover .icon.youtube,
+.card a:hover .icon.youtube {
+  color: #f00;
+}
+.card span:hover .icon.twitch,
+.card a:hover .icon.twitch {
+  color: #9147ff;
+}
+.card span:hover .icon.github,
+.card a:hover .icon.github {
+  color: #bebebe;
+}
+#players > .card > .image {
+  overflow: hidden;
+  width: 100%;
+}
+#players > .card > .image::before {
+  content: '';
+  float: left;
+  padding-top: 100%;
+}
+#players > .card > .image::after {
+  content: '';
+  clear: both;
+}
+#players > .card > .image img {
+  float: left;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.team-flag {
+  width: 32px;
+  height: 32px;
+}
+.first-place-records {
+  color: #f9a602;
+}
+#teamz-results-container .highlight .content {
+  -webkit-box-shadow: 0 1px 12px 0 #f9a602, 0 0 0 1px #f9a602;
+  box-shadow: 0 1px 12px 0 #f9a602, 0 0 0 1px #f9a602;
+}
+#teamz-results-container .captain {
+  color: #fe713f;
+}
+#teamz-results-container table {
+  -webkit-border-horizontal-spacing: 15px;
+}
+.ui.segment .ui.checkbox {
+  margin-top: 0.7rem;
+}
+.ui .styled.inverted.accordion {
+  background: #1b1c1d;
+  color: rgba(255,255,255,0.9);
+}
+.ui.inverted.tabular.menu {
+  border-bottom: 1px solid #555;
+}
+.ui.inverted.tabular.menu .item:hover {
+  color: rgba(255,255,255,0.9);
+}
+.ui.inverted.tabular.menu .active.item {
+  background-color: transparent;
+  border-color: #555;
+  border-bottom: 1px solid #1b1c1d;
+  margin-bottom: -1px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

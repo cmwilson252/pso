@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159966586-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-159966586-1');
+</script>
+
+
+    
+    <title>F1 Data | PSO: TA</title>
+    
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="manifest" href="/favicon/site.webmanifest">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+    
+    
+        <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+    
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.2/dist/semantic.css">
+    
+    
+<link rel="stylesheet" href="/css/main.css">
+
+    <script>
+        var hexo_root = '/';
+    </script>
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body class="pushable">
+    <div class="ui left inverted vertical menu sidebar" id="sidebar">
+<div class="item">
+    <a class="ui logo icon image" href="/">
+        <img src="/images/logo.png" class="">
+    </a>
+    <a href="/">
+        <b>PSO: TA</b>
+    </a>
+</div>
+
+        <a class="item" href="/time-attack-records">
+            <b>Time Attack Records</b>
+        </a>
+        
+        <div class="item">
+            <div class="header">Teamz</div>
+            <div class="menu">
+                
+                    <a class="item" href="/teamz/generator">
+                        Generator
+                    </a>
+                    
+                    <a class="item" href="/teamz/results">
+                        Results
+                    </a>
+                    
+                    <a class="item" href="/teamz/leaderboards">
+                        Leaderboards
+                    </a>
+                    
+            </div>
+        </div>
+        
+        <div class="item">
+            <div class="header">Concepts</div>
+            <div class="menu">
+                
+                    <a class="item" href="/concepts/combo-calculator">
+                        Combo Calculator
+                    </a>
+                    
+                    <a class="item" href="/concepts/f1-data">
+                        Frame 1 Data
+                    </a>
+                    
+                    <a class="item" href="/concepts/quest-warp-values">
+                        Quest Warp Values
+                    </a>
+                    
+                    <a class="item" href="/concepts/set-attack-damage">
+                        Set Attack Damage
+                    </a>
+                    
+                    <a class="item" href="/concepts/sandbox-ta">
+                        Sandbox TA
+                    </a>
+                    
+                    <a class="item" href="/concepts/random-writing">
+                        Random Writing
+                    </a>
+                    
+            </div>
+        </div>
+        
+        <div class="item">
+            <div class="header">Servers</div>
+            <div class="menu">
+                
+                    <a class="item" href="/servers/gamecube">
+                        Gamecube
+                    </a>
+                    
+                    <a class="item" href="/servers/unseen">
+                        Unseen
+                    </a>
+                    
+            </div>
+        </div>
+        
+        <a class="item" href="/players">
+            <b>Players</b>
+        </a>
+        
+        <a class="item" href="/miscellaneous">
+            <b>Miscellaneous</b>
+        </a>
+        
+        <a class="item" href="https://discord.gg/q8bwhFX" target="_blank" rel="noopener">
+            <b>PSO: TA Discord</b>
+        </a>
+        
+</div>
+
+    <div class="pusher">
+        <header class="ui inverted fixed main menu">
+    <div class="ui container pc">
+        <a class="item" href="/">
+            <div class="ui logo shape">
+                <div class="sides">
+                    <div class="active ui side">
+                        <img src="/images/logo.png" class="ui mini image">
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a class="item sidebar-button">
+            <i class="sidebar icon"></i>
+            Menu
+        </a>
+    </div>
+    <div class="ui container sp">
+        <a class="item sidebar-button">
+            <i class="content icon"></i>
+        </a>
+    </div>
+</header>
+
+        <main class="ui main container">
+            <div class="ui segments">
+    <div class="ui inverted segment">
+        <h3>What is "Frame 1"?</h3>
+        <p>
+
+        </p>
+        <h3>More About Frame 1</h3>
+        <p>
+
+        </p>
+    </div>
+    <div class="ui hidden divider"></div>
+    <div class="ui inverted segment">
+        <table class="ui inverted celled table">
+            <thead>
+                <tr>
+                    <th>Monster</th>
+                    <th>F1 Possible?</th>
+                    <th>Proof</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="monster">Gulgus/Gulgus-Gue</td>
+                    <td data-label="f1-possible">Unknown</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Bartle/Barble/Tollaw</td>
+                    <td data-label="f1-possible">Unknown</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Mothvist</td>
+                    <td data-label="f1-possible">Unknown</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Hildelt</td>
+                    <td data-label="f1-possible">Yes</td>
+                    <td data-label="proof"><a href="https://youtu.be/d3aBoVAxYIo?t=22" target="_blank" rel="noopener">Zen Double Hilde F1</a></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Vulmer/Govulmer/Melqueek</td>
+                    <td data-label="f1-possible">Yes</td>
+                    <td data-label="proof"><a href="https://www.youtube.com/watch?v=16LSMpwAcCA&feature=youtu.be" target="_blank" rel="noopener">Ender testing in a quest with a 17 frame window.</a></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Ob Lily</td>
+                    <td data-label="f1-possible">No</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Nano Dragon</td>
+                    <td data-label="f1-possible">No</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Pan Arms</td>
+                    <td data-label="f1-possible">No</td>
+                    <td data-label="proof"><a href="https://www.youtube.com/watch?v=RiNlLznBsnw&feature=youtu.be&t=24s" target="_blank" rel="noopener">NoHits analysis of Pan Arms.</a></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Crimson Assassin</td>
+                    <td data-label="f1-possible">Unknown</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Gillchic/Dubchic</td>
+                    <td data-label="f1-possible">Yes</td>
+                    <td data-label="proof"><a href="https://www.youtube.com/watch?v=I-TVOInEVLQ&feature=youtu.be&t=77" target="_blank" rel="noopener">Ender testing in a quest with a 17 frame window.</a></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Canabin</td>
+                    <td data-label="f1-possible">No</td>
+                    <td data-label="proof"><a href="https://www.youtube.com/watch?v=_3iBLJL1b9s&feature=youtu.be&t=43s" target="_blank" rel="noopener">NoHits analysis of Canabins</a></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Sinow Blue/Sinow Red</td>
+                    <td data-label="f1-possible">No</td>
+                    <td data-label="proof"><a href="https://www.youtube.com/watch?v=_3iBLJL1b9s&feature=youtu.be&t=27s" target="_blank" rel="noopener">NoHits analysis of Sinows.</a></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Baranz</td>
+                    <td data-label="f1-possible">Yes</td>
+                    <td data-label="proof"><a href="https://youtu.be/_3iBLJL1b9s?t=7" target="_blank" rel="noopener">NoHits analysis of Baranz.</a></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Arlan/Merlan/Del-D</td>
+                    <td data-label="f1-possible">Yes</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Claw</td>
+                    <td data-label="f1-possible">Yes</td>
+                    <td data-label="proof"><a href="https://www.youtube.com/watch?v=xXWbTq6p2MI&feature=youtu.be" target="_blank" rel="noopener">Ender testing in a quest with a 17 frame window.</a></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Bulclaw</td>
+                    <td data-label="f1-possible">Yes</td>
+                    <td data-label="proof"><a href="https://youtu.be/D_HydiknGmw?t=5" target="_blank" rel="noopener">NoHits analysis of Bulcaws.</a></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Delsaber</td>
+                    <td data-label="f1-possible">No</td>
+                    <td data-label="proof"><a href="https://www.youtube.com/watch?v=RiNlLznBsnw&feature=youtu.be&t=40s" target="_blank" rel="noopener">NoHits analysis of Delsabers.</a></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Gran Sorcerer</td>
+                    <td data-label="f1-possible">No</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Indi Belra</td>
+                    <td data-label="f1-possible">No</td>
+                    <td data-label="proof"><a href="https://www.youtube.com/watch?v=RiNlLznBsnw" target="_blank" rel="noopener">NoHits analysis of Berlas.</a></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Dark Gunner</td>
+                    <td data-label="f1-possible">No</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Dark Bringer</td>
+                    <td data-label="f1-possible">No</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Merillia/Meriltas</td>
+                    <td data-label="f1-possible">Unknown</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Gee</td>
+                    <td data-label="f1-possible">Unknown</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Ul Gibbon/Zol Gibbon</td>
+                    <td data-label="f1-possible">Unknown</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Sinow Berill/Sinow Spigell</td>
+                    <td data-label="f1-possible">Unknown</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Gibbles</td>
+                    <td data-label="f1-possible">Unknown</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Mericarol/Merikle/Mericus</td>
+                    <td data-label="f1-possible">No</td>
+                    <td data-label="proof"><a href="https://files.catbox.moe/icmgzr.mp4" target="_blank" rel="noopener">NoHits analysis of Meris.</a></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Dolmolm/Dolmdarl</td>
+                    <td data-label="f1-possible">Unknown</td>
+                    <td data-label="proof"><a href="https://www.youtube.com/watch?v=oJwNHbbr0ek&feature=emb_logo" target="_blank" rel="noopener">Ender did it with a Frozen Shooter, doesn't confirm it for Dark Flow.</a></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Sinow Zoa/Sinow Zele</td>
+                    <td data-label="f1-possible">Unknown</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Morfos</td>
+                    <td data-label="f1-possible">Unknown</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Deldepth</td>
+                    <td data-label="f1-possible">Unknown</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Recobox</td>
+                    <td data-label="f1-possible">Unknown</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Delbiter</td>
+                    <td data-label="f1-possible">Unknown</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Del Lily</td>
+                    <td data-label="f1-possible">Unknown</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Ill Gill</td>
+                    <td data-label="f1-possible">Unknown</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Epsilon</td>
+                    <td data-label="f1-possible">Unknown</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Boota/Ze Boota/Ba Boota</td>
+                    <td data-label="f1-possible">Unknown</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Astark</td>
+                    <td data-label="f1-possible">Yes</td>
+                    <td data-label="proof">No video, however NoHit and others have done it.</td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Dorphon</td>
+                    <td data-label="f1-possible">Unknown</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Goran/Pyro Goran/Goran Detonator</td>
+                    <td data-label="f1-possible">Unknown</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Merissa A</td>
+                    <td data-label="f1-possible">Unknown</td>
+                    <td data-label="proof"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Girtablulu</td>
+                    <td data-label="f1-possible">Unknown</td>
+                    <td data-label="proof"></td>
+                </tr>
+             </tbody>
+        </table>
+    </div>
+    <br>
+</div>
+
+        </main>
+        
+        <footer class="ui inverted vertical footer segment">
+    <div class="ui center aligned container">
+        <img src="/images/logo.png" class="ui centered mini image">
+        <div class="ui horizontal small">
+            Made with ♥ by <a href="https://github.com/Solybum/" target="_blank" rel="noopener">Solybum</a>
+        </div>
+    </div>
+</footer>
+
+    </div>
+    
+    <script src="https://unpkg.com/json5@^2.0.0/dist/index.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.2/dist/semantic.min.js"></script>
+
+<script src="/js/json5.js"></script>
+
+
+<script src="/js/main.js"></script>
+
+
+</body>
+
+</html>

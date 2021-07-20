@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159966586-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-159966586-1');
+</script>
+
+
+    
+    <title>Set attack damage | PSO: TA</title>
+    
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="manifest" href="/favicon/site.webmanifest">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+    
+    
+        <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+    
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.2/dist/semantic.css">
+    
+    
+<link rel="stylesheet" href="/css/main.css">
+
+    <script>
+        var hexo_root = '/';
+    </script>
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body class="pushable">
+    <div class="ui left inverted vertical menu sidebar" id="sidebar">
+<div class="item">
+    <a class="ui logo icon image" href="/">
+        <img src="/images/logo.png" class="">
+    </a>
+    <a href="/">
+        <b>PSO: TA</b>
+    </a>
+</div>
+
+        <a class="item" href="/time-attack-records">
+            <b>Time Attack Records</b>
+        </a>
+        
+        <div class="item">
+            <div class="header">Teamz</div>
+            <div class="menu">
+                
+                    <a class="item" href="/teamz/generator">
+                        Generator
+                    </a>
+                    
+                    <a class="item" href="/teamz/results">
+                        Results
+                    </a>
+                    
+                    <a class="item" href="/teamz/leaderboards">
+                        Leaderboards
+                    </a>
+                    
+            </div>
+        </div>
+        
+        <div class="item">
+            <div class="header">Concepts</div>
+            <div class="menu">
+                
+                    <a class="item" href="/concepts/combo-calculator">
+                        Combo Calculator
+                    </a>
+                    
+                    <a class="item" href="/concepts/f1-data">
+                        Frame 1 Data
+                    </a>
+                    
+                    <a class="item" href="/concepts/quest-warp-values">
+                        Quest Warp Values
+                    </a>
+                    
+                    <a class="item" href="/concepts/set-attack-damage">
+                        Set Attack Damage
+                    </a>
+                    
+                    <a class="item" href="/concepts/sandbox-ta">
+                        Sandbox TA
+                    </a>
+                    
+                    <a class="item" href="/concepts/random-writing">
+                        Random Writing
+                    </a>
+                    
+            </div>
+        </div>
+        
+        <div class="item">
+            <div class="header">Servers</div>
+            <div class="menu">
+                
+                    <a class="item" href="/servers/gamecube">
+                        Gamecube
+                    </a>
+                    
+                    <a class="item" href="/servers/unseen">
+                        Unseen
+                    </a>
+                    
+            </div>
+        </div>
+        
+        <a class="item" href="/players">
+            <b>Players</b>
+        </a>
+        
+        <a class="item" href="/miscellaneous">
+            <b>Miscellaneous</b>
+        </a>
+        
+        <a class="item" href="https://discord.gg/q8bwhFX" target="_blank" rel="noopener">
+            <b>PSO: TA Discord</b>
+        </a>
+        
+</div>
+
+    <div class="pusher">
+        <header class="ui inverted fixed main menu">
+    <div class="ui container pc">
+        <a class="item" href="/">
+            <div class="ui logo shape">
+                <div class="sides">
+                    <div class="active ui side">
+                        <img src="/images/logo.png" class="ui mini image">
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a class="item sidebar-button">
+            <i class="sidebar icon"></i>
+            Menu
+        </a>
+    </div>
+    <div class="ui container sp">
+        <a class="item sidebar-button">
+            <i class="content icon"></i>
+        </a>
+    </div>
+</header>
+
+        <main class="ui main container">
+            <div class="ui segments">
+    <div class="ui inverted segment">
+        <table class="ui inverted celled table">
+            <thead>
+                <tr>
+                    <th>EP 1 Monsters</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="monster">Hildebear/Hildeblue Jump</td>
+                    <td data-label="damage">300</td>
+                    <td data-label="monster">Gillchic Laser</td>
+                    <td data-label="damage">420</td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Hildebear/Hildeblue Drop</td>
+                    <td data-label="damage">5</td>
+                    <td data-label="monster">Baranz Missile</td>
+                    <td data-label="damage">250</td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Hildebear Gizonde</td>
+                    <td data-label="damage">136</td>
+                    <td data-label="monster">Baranz Mine</td>
+                    <td data-label="damage">480</td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Nano Dragon Tube</td>
+                    <td data-label="damage">360</td>
+                    <td data-label="monster">Bulc Acid Sting</td>
+                    <td data-label="damage">1</td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Nano Dragon Beam</td>
+                    <td data-label="damage">400</td>
+                    <td data-label="monster">Bringer Rush</td>
+                    <td data-label="damage">700</td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Slime Spit/Tail</td>
+                    <td data-label="damage">279</td>
+                    <td data-label="monster">Bringer Rifle</td>
+                    <td data-label="damage">700</td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Pan Arms Laser (Red)</td>
+                    <td data-label="damage">420</td>
+                    <td data-label="monster">Bringer Rifle (TP)</td>
+                    <td data-label="damage">1400</td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Pan Arms Laser (Blue)</td>
+                    <td data-label="damage">400</td>
+                    <td data-label="monster">Sorcerer Grants</td>
+                    <td data-label="damage">826</td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Hidoom Stab</td>
+                    <td data-label="damage">420</td>
+                    <td data-label="monster">Gunner Laser</td>
+                    <td data-label="damage">400</td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Canane Aerial Shock</td>
+                    <td data-label="damage">380</td>
+                    <td data-label="monster"></td>
+                    <td data-label="damage"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Canadine Aerial Shock</td>
+                    <td data-label="damage">360</td>
+                    <td data-label="monster"></td>
+                    <td data-label="damage"></td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Dubchic Laser</td>
+                    <td data-label="damage">400</td>
+                    <td data-label="monster"></td>
+                    <td data-label="damage"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="ui hidden divider"></div>
+    <div class="ui inverted segment">
+        <table class="ui inverted celled table">
+            <thead>
+                <tr>
+                    <th>EP 1 Bosses</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="monster">Dragon Iceberg</td>
+                    <td data-label="damage">173</td>
+                    <td data-label="monster">Vol Opt Missile</td>
+                    <td data-label="damage">570</td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Dragon Tunnel Rush</td>
+                    <td data-label="damage">458</td>
+                    <td data-label="monster">Vol Opt Trap</td>
+                    <td data-label="damage">100 + 1500</td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Dragon Ground Frost Breath</td>
+                    <td data-label="damage">334</td>
+                    <td data-label="monster">Dark Falz Grants</td>
+                    <td data-label="damage">611</td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Dragon Aerial Frost</td>
+                    <td data-label="damage">260</td>
+                    <td data-label="monster">Dark Falz 1 Rafoie</td>
+                    <td data-label="damage">414</td>
+                </tr>
+                <tr>
+                    <td data-label="monster">De Rol Le Mines</td>
+                    <td data-label="damage">481</td>
+                    <td data-label="monster">Dark Falz 2 Rafoie</td>
+                    <td data-label="damage">444</td>
+                </tr>
+                <tr>
+                    <td data-label="monster">De Rol Le Rock</td>
+                    <td data-label="damage">447</td>
+                    <td data-label="monster">Dark Falz 1 Rabarta</td>
+                    <td data-label="damage">406</td>
+                </tr>
+                <tr>
+                    <td data-label="monster">De Rol Le Orb</td>
+                    <td data-label="damage">401</td>
+                    <td data-label="monster">Dark Falz 2 Rabarta</td>
+                    <td data-label="damage">436</td>
+                </tr>
+                <tr>
+                    <td data-label="monster">De Rol Le Laser</td>
+                    <td data-label="damage">581</td>
+                    <td data-label="monster">Dark Falz 1 Divine Punishment</td>
+                    <td data-label="damage">660</td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Vol Opt Foie</td>
+                    <td data-label="damage">560</td>
+                    <td data-label="monster">Dark Falz 2 Divine Punishment</td>
+                    <td data-label="damage">690</td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Vol Opt Gizonde</td>
+                    <td data-label="damage">414</td>
+                    <td data-label="monster">Dark Falz 3 Swipe</td>
+                    <td data-label="damage">812</td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Vol Opt Gibarta</td>
+                    <td data-label="damage">432</td>
+                    <td data-label="monster">Dark Falz 3 Orb</td>
+                    <td data-label="damage">700</td>
+                </tr>
+                <tr>
+                    <td data-label="monster">Vol Opt Crusher</td>
+                    <td data-label="damage">700</td>
+                    <td data-label="monster">Dark Falz 3 HP Drain</td>
+                    <td data-label="damage">710</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="ui hidden divider"></div>
+</div>
+
+        </main>
+        
+        <footer class="ui inverted vertical footer segment">
+    <div class="ui center aligned container">
+        <img src="/images/logo.png" class="ui centered mini image">
+        <div class="ui horizontal small">
+            Made with ♥ by <a href="https://github.com/Solybum/" target="_blank" rel="noopener">Solybum</a>
+        </div>
+    </div>
+</footer>
+
+    </div>
+    
+    <script src="https://unpkg.com/json5@^2.0.0/dist/index.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.2/dist/semantic.min.js"></script>
+
+<script src="/js/json5.js"></script>
+
+
+<script src="/js/main.js"></script>
+
+
+</body>
+
+</html>

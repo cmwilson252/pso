@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159966586-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-159966586-1');
+</script>
+
+
+    
+    <title>Quest Warp Values | PSO: TA</title>
+    
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="manifest" href="/favicon/site.webmanifest">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/favicon/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+    
+    
+        <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+    
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.2/dist/semantic.css">
+    
+    
+<link rel="stylesheet" href="/css/main.css">
+
+    <script>
+        var hexo_root = '/';
+    </script>
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body class="pushable">
+    <div class="ui left inverted vertical menu sidebar" id="sidebar">
+<div class="item">
+    <a class="ui logo icon image" href="/">
+        <img src="/images/logo.png" class="">
+    </a>
+    <a href="/">
+        <b>PSO: TA</b>
+    </a>
+</div>
+
+        <a class="item" href="/time-attack-records">
+            <b>Time Attack Records</b>
+        </a>
+        
+        <div class="item">
+            <div class="header">Teamz</div>
+            <div class="menu">
+                
+                    <a class="item" href="/teamz/generator">
+                        Generator
+                    </a>
+                    
+                    <a class="item" href="/teamz/results">
+                        Results
+                    </a>
+                    
+                    <a class="item" href="/teamz/leaderboards">
+                        Leaderboards
+                    </a>
+                    
+            </div>
+        </div>
+        
+        <div class="item">
+            <div class="header">Concepts</div>
+            <div class="menu">
+                
+                    <a class="item" href="/concepts/combo-calculator">
+                        Combo Calculator
+                    </a>
+                    
+                    <a class="item" href="/concepts/f1-data">
+                        Frame 1 Data
+                    </a>
+                    
+                    <a class="item" href="/concepts/quest-warp-values">
+                        Quest Warp Values
+                    </a>
+                    
+                    <a class="item" href="/concepts/set-attack-damage">
+                        Set Attack Damage
+                    </a>
+                    
+                    <a class="item" href="/concepts/sandbox-ta">
+                        Sandbox TA
+                    </a>
+                    
+                    <a class="item" href="/concepts/random-writing">
+                        Random Writing
+                    </a>
+                    
+            </div>
+        </div>
+        
+        <div class="item">
+            <div class="header">Servers</div>
+            <div class="menu">
+                
+                    <a class="item" href="/servers/gamecube">
+                        Gamecube
+                    </a>
+                    
+                    <a class="item" href="/servers/unseen">
+                        Unseen
+                    </a>
+                    
+            </div>
+        </div>
+        
+        <a class="item" href="/players">
+            <b>Players</b>
+        </a>
+        
+        <a class="item" href="/miscellaneous">
+            <b>Miscellaneous</b>
+        </a>
+        
+        <a class="item" href="https://discord.gg/q8bwhFX" target="_blank" rel="noopener">
+            <b>PSO: TA Discord</b>
+        </a>
+        
+</div>
+
+    <div class="pusher">
+        <header class="ui inverted fixed main menu">
+    <div class="ui container pc">
+        <a class="item" href="/">
+            <div class="ui logo shape">
+                <div class="sides">
+                    <div class="active ui side">
+                        <img src="/images/logo.png" class="ui mini image">
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a class="item sidebar-button">
+            <i class="sidebar icon"></i>
+            Menu
+        </a>
+    </div>
+    <div class="ui container sp">
+        <a class="item sidebar-button">
+            <i class="content icon"></i>
+        </a>
+    </div>
+</header>
+
+        <main class="ui main container">
+            <div class="ui segments">
+    <div class="ui inverted segment">
+        <h3>How the Table Works</h3>
+            <p>
+                The lists contain purely quests that people TA. If there are any missing let me know. The values for each warp are in the order of the quest progresses. 
+                So for instance MA1C goes from Cave 2 -> Mines 2 -> Ruins 3 -> Dark Falz which has warp values of 4, 7, 10, 14.
+            </p>
+        <div class="ui inverted styled accordion">
+            <div class="title">
+                <i class="inverted dropdown icon"></i>
+                <span class="ui inverted grey text"><b>Relevant Warp Values</b></span>
+            </div>
+            <div class="content">
+                <div class="inverted styled accordion">
+                    <div class="title">
+                        <i class="inverted dropdown icon"></i>
+                        <span class="ui inverted grey text"><b>Episode 1</b></span>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                0 = Pioneer 2
+                            </li>
+                            <li>
+                                1 = Forest 1
+                            </li>
+                            <li>
+                                2 = Forest 2
+                            </li>
+                            <li>
+                                3 = Caves 1
+                            </li>
+                            <li>
+                                4 = Caves 2
+                            </li>
+                            <li>
+                                5 = Caves 3
+                            </li>
+                            <li>
+                                6 = Mines 1
+                            </li>
+                            <li>
+                                7 = Mines 2
+                            </li>
+                            <li>
+                                8 = Ruins 1
+                            </li>
+                            <li>
+                                9 = Ruins 2
+                            </li>
+                            <li>
+                                10 = Ruins 3
+                            </li>
+                            <li>
+                                11 = Dragon
+                            </li>
+                            <li>
+                                12 = De Rol Le
+                            </li>
+                            <li>
+                                13 = Vol Opt
+                            </li>
+                            <li>
+                                14 = Dark Falz Memorial
+                            </li>
+                            <li>
+                                15 = ID Lobby
+                            </li>
+                            <li>
+                                16 = Battle Spaceship
+                            </li>
+                            <li>
+                                17 = Battle Palace
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="inverted styled accordion">
+                    <div class="title">
+                        <i class="inverted dropdown icon"></i>
+                        <span class="ui inverted grey text"><b>Episode 2</b></span>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                0 = Lab
+                            </li>
+                            <li>
+                                1 = VR Temple α
+                            </li>
+                            <li>
+                                2 = VR Temple β
+                            </li>
+                            <li>
+                                3 = VR Spaceship α
+                            </li>
+                            <li>
+                                4 = VR Spaceship β
+                            </li>
+                            <li>
+                                5 = Central Control Area
+                            </li>
+                            <li>
+                                6 = Jungle North
+                            </li>
+                            <li>
+                                7 = Jungle East
+                            </li>
+                            <li>
+                                8 = Mountain
+                            </li>
+                            <li>
+                                9 = Seaside Day
+                            </li>
+                            <li>
+                                10 = Seabed Upper
+                            </li>
+                            <li>
+                                11 = Seabed Lower
+                            </li>
+                            <li>
+                                12 = Gal Gryphon
+                            </li>
+                            <li>
+                                13 = Olga Flow
+                            </li>
+                            <li>
+                                14 = Barba Ray
+                            </li>
+                            <li>
+                                15 = Gol Dragon
+                            </li>
+                            <li>
+                                16 = Seaside Night
+                            </li>
+                            <li>
+                                17 = Tower
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="inverted styled accordion">
+                    <div class="title">
+                        <i class="inverted dropdown icon"></i>
+                        <span class="ui inverted grey text"><b>Episode 4</b></span>
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                0 = Pioneer 2
+                            </li>
+                            <li>
+                                1 = Crater (Eastern Route)
+                            </li>
+                            <li>
+                                2 = Crater (Western Route)
+                            </li>
+                            <li>
+                                3 = Crater (Southern Route)
+                            </li>
+                            <li>
+                                4 = Crater (Northern Route)
+                            </li>
+                            <li>
+                                5 = Crater Interior
+                            </li>
+                            <li>
+                                6 = Desert 1
+                            </li>
+                            <li>
+                                7 = Desert 2
+                            </li>
+                            <li>
+                                8 = Desert 3
+                            </li>
+                            <li>
+                                9 = Saint Million / Shambertin
+                            </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui hidden divider"></div>
+    <div class="ui inverted segment">
+        <table class="ui inverted celled table">
+            <thead>
+                <tr>
+                    <th>E1   Quests</th>
+                    <th>Warp Values</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="quest">MA1A</td>
+                    <td data-label="warp-value">4, 7, 10</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">MA1B</td>
+                    <td data-label="warp-value">4, 7, 10</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">MA1C</td>
+                    <td data-label="warp-value">4, 7, 10, 14</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">MA1V2</td>
+                    <td data-label="warp-value">2, 5, 6, 7</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">Max: E1</td>
+                    <td data-label="warp-value">2, 4, 6, 10</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">Max: Forest</td>
+                    <td data-label="warp-value">2</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">Max: Caves</td>
+                    <td data-label="warp-value">4</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">Max: Mines</td>
+                    <td data-label="warp-value">6</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">Max: Ruins</td>
+                    <td data-label="warp-value">10</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">MU1</td>
+                    <td data-label="warp-value">1</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">MU2</td>
+                    <td data-label="warp-value">3</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">MU3</td>
+                    <td data-label="warp-value">6</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">MU4</td>
+                    <td data-label="warp-value">8</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">SU1</td>
+                    <td data-label="warp-value">2</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">SU2</td>
+                    <td data-label="warp-value">5</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">SU3</td>
+                    <td data-label="warp-value">7</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">SU4</td>
+                    <td data-label="warp-value">9</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">TTF</td>
+                    <td data-label="warp-value">2, 11, 5, 12, 7, 13, 10, 14</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">CF1</td>
+                    <td data-label="warp-value">4, 7, 10</td>
+                </tr>
+             </tbody>
+        </table>
+    </div>
+    <div class="ui hidden divider"></div>
+    <div class="ui inverted segment">
+        <table class="ui inverted celled table">
+            <thead>
+                <tr>
+                    <th>E2 Quest</th>
+                    <th>Warp Values</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="quest">MA2A</td>
+                    <td data-label="warp-value">5, 11</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">MA2B</td>
+                    <td data-label="warp-value">5, 11</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">MA2C</td>
+                    <td data-label="warp-value">5, 11, 17</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">MA2V2</td>
+                    <td data-label="warp-value">2, 3, 5, 7, 6, 8, 9, 10, 17</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">Max: VR</td>
+                    <td data-label="warp-value">1, 14, 3, 15</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">Max: GDV</td>
+                    <td data-label="warp-value">5, 10, 17, 13 </td>
+                </tr>
+                <tr>
+                    <td data-label="quest">Max: Temple</td>
+                    <td data-label="warp-value">1</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">Max: Spaceship</td>
+                    <td data-label="warp-value">3</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">Max: CCA</td>
+                    <td data-label="warp-value">5</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">Max: Seabed</td>
+                    <td data-label="warp-value">10</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">Max: Tower</td>
+                    <td data-label="warp-value">17</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">SU5</td>
+                    <td data-label="warp-value">1</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">SU6</td>
+                    <td data-label="warp-value">3</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">SU7</td>
+                    <td data-label="warp-value">7</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">SU8</td>
+                    <td data-label="warp-value">10</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">SU9</td>
+                    <td data-label="warp-value">17</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">MaU1</td>
+                    <td data-label="warp-value">2</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">MaU2</td>
+                    <td data-label="warp-value">3</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">MaU3</td>
+                    <td data-label="warp-value">8</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">MaU4</td>
+                    <td data-label="warp-value">10</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">MaU5</td>
+                    <td data-label="warp-value">17</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">RT</td>
+                    <td data-label="warp-value">1, 14, 3, 15, 9, 12, 11, 13, 17</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">CCC</td>
+                    <td data-label="warp-value">1, 4, 6, 10, 17</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">CF2</td>
+                    <td data-label="warp-value">4, 5, 11</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">RoCT</td>
+                    <td data-label="warp-value">17, 13</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">PPP</td>
+                    <td data-label="warp-value">5, 12</td>
+                </tr>
+             </tbody>
+        </table>
+    </div>
+    <div class="ui hidden divider"></div>
+    <div class="ui inverted segment">
+        <table class="ui inverted celled table">
+            <thead>
+                <tr>
+                    <th>E4 Quest</th>
+                    <th>Warp Values</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="quest">MA4A</td>
+                    <td data-label="warp-value">5, 8</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">MA4B</td>
+                    <td data-label="warp-value">5, 8</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">MA4C</td>
+                    <td data-label="warp-value">5, 8</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">Max: 4</td>
+                    <td data-label="warp-value">2, 8, 9</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">Max: Crater</td>
+                    <td data-label="warp-value">2</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">Max: Desert</td>
+                    <td data-label="warp-value">8</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">NMU1</td>
+                    <td data-label="warp-value">1</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">NMU2</td>
+                    <td data-label="warp-value">5</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">NMU3</td>
+                    <td data-label="warp-value">6</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">NMU4</td>
+                    <td data-label="warp-value">7</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">NMU5</td>
+                    <td data-label="warp-value">8</td>
+                </tr>
+                <tr>
+                    <td data-label="quest">SU10</td>
+                    <td data-label="warp-value"></td>
+                </tr>
+                <tr>
+                    <td data-label="quest">SU11</td>
+                    <td data-label="warp-value"></td>
+                </tr>
+                <tr>
+                    <td data-label="quest">SU12</td>
+                    <td data-label="warp-value"></td>
+                </tr>
+                <tr>
+                    <td data-label="quest">SU13</td>
+                    <td data-label="warp-value"></td>
+                </tr>
+                <tr>
+                    <td data-label="quest">SU14</td>
+                    <td data-label="warp-value"></td>
+                </tr>
+                <tr>
+                    <td data-label="quest">RoW</td>
+                    <td data-label="warp-value">1, 5, 6, 7, 8</td>
+                </tr>
+             </tbody>
+        </table>
+    </div>
+</div>
+<div class="ui hidden divider"></div>
+        </main>
+        
+        <footer class="ui inverted vertical footer segment">
+    <div class="ui center aligned container">
+        <img src="/images/logo.png" class="ui centered mini image">
+        <div class="ui horizontal small">
+            Made with ♥ by <a href="https://github.com/Solybum/" target="_blank" rel="noopener">Solybum</a>
+        </div>
+    </div>
+</footer>
+
+    </div>
+    
+    <script src="https://unpkg.com/json5@^2.0.0/dist/index.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.2/dist/semantic.min.js"></script>
+
+<script src="/js/json5.js"></script>
+
+
+<script src="/js/main.js"></script>
+
+
+</body>
+
+</html>
