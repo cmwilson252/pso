@@ -7442,6 +7442,40 @@
 		"meta": "vanilla",
 		"category": "opm",
 		"pb": false,
+		"time": 478,
+		"team_id": "",
+		"players": [
+			{
+				"id": "alisaryn",
+				"class": "racaseal",
+				"video": "https://youtu.be/zVRqtEyj9AU"
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "su6",
+		"episode": 2,
+		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
+		"time": 469,
+		"team_id": "",
+		"players": [
+			{
+				"id": "jc",
+				"class": "racaseal",
+				"video": ""
+			}
+		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "su6",
+		"episode": 2,
+		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
 		"time": 453,
 		"team_id": "tankstelle",
 		"players": [
