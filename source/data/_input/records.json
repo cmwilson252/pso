@@ -6496,6 +6496,40 @@
 				"video": ""
 			}
 		]
+	},
+	{
+		"mode": "normal",
+		"quest_id": "lost_soul_blade",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
+		"time": 940,
+		"team_id": null,
+		"players": [
+			{
+				"id": "alisaryn",
+				"class": "racast",
+				"video": "https://www.youtube.com/watch?v=LPWlCFsyU4w"
+			}
+		]
+	},	
+	{
+		"mode": "normal",
+		"quest_id": "lost_soul_blade",
+		"episode": 1,
+		"meta": "vanilla",
+		"category": "opm",
+		"pb": false,
+		"time": 1020,
+		"team_id": "tankstelle",
+		"players": [
+			{
+				"id": "sange",
+				"class": "hucast",
+				"video": "https://youtu.be/PHzoHzeJALk"
+			}
+		]
 	},	
 	{
 		"mode": "normal",
